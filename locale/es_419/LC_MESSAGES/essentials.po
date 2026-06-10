@@ -8,10 +8,10 @@
 # Braulio D. López Vázquez <bdl@odoo.com>, 2024
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2024
 # Fernanda Alvarez, 2024
-# "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025.
+# "Tiffany Chang (tic)" <tic@odoo.com>, 2025, 2026.
+# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025, 2026.
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 #
 # Translators:
 # Josep Anton Belchi, 2024
@@ -20,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 18:30+0000\n"
-"PO-Revision-Date: 2026-03-19 23:20+0000\n"
-"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"POT-Creation-Date: 2026-05-08 17:30+0000\n"
+"PO-Revision-Date: 2026-06-03 02:14+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19-doc/essentials/es_419/>\n"
 "Language: es_419\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #: ../../content/applications/essentials.rst:3
 msgid "Odoo essentials"
@@ -113,10 +113,9 @@ msgid ""
 "<activities/activity>` of an application."
 msgstr ""
 "Las actividades se pueden programar desde cualquier página de la base de "
-"datos que tenga un hilo de :ref:`chatter <activities/chatter>` o desde "
-"la :ref:`vista de kanban <activities/kanban>`, :ref:`lista de vista "
-"<activities/list>` o :ref:`vista de actividades <activities/activity>` de "
-"una aplicación."
+"datos que tenga un hilo de :ref:`chatter <activities/chatter>` o desde la "
+":ref:`vista de kanban <activities/kanban>`, :ref:`lista de vista <activities/"
+"list>` o :ref:`vista de actividades <activities/activity>` de una aplicación."
 
 #: ../../content/applications/essentials/activities.rst:32
 msgid "Chatter"
@@ -124,8 +123,7 @@ msgstr "Chatter"
 
 #: ../../content/applications/essentials/activities.rst:34
 msgid "Activities can be created from the chatter on any record."
-msgstr ""
-"Las actividades se pueden crear desde el chatter de cualquier registro."
+msgstr "Las actividades se pueden crear desde el chatter de cualquier registro."
 
 #: ../../content/applications/essentials/activities.rst:36
 msgid ""
@@ -134,11 +132,10 @@ msgid ""
 "window that appears, :ref:`fill out the Schedule Activity form <activities/"
 "form>`."
 msgstr ""
-"Para programar una nueva actividad, haz clic en el "
-"botón :guilabel:`Actividad` ubicado en la parte superior del chatter. En la "
-"ventana emergente :guilabel:`Programar actividad` que "
-"aparece, :ref:`completa el formulario para programar una actividad "
-"<activities/form>`."
+"Para programar una nueva actividad, haz clic en el botón "
+":guilabel:`Actividad` ubicado en la parte superior del chatter. En la "
+"ventana emergente :guilabel:`Programar actividad` que aparece, "
+":ref:`completa el formulario para programar una actividad <activities/form>`."
 
 #: ../../content/applications/essentials/activities.rst:None
 msgid "Activity button in chatter field."
@@ -153,8 +150,8 @@ msgid ""
 "Activities can also be created from the :icon:`oi-view-"
 "kanban` :guilabel:`(Kanban)` view."
 msgstr ""
-"Las actividades también se pueden crear desde la vista "
-"de :guilabel:`kanban` :icon:`oi-view-kanban`."
+"Las actividades también se pueden crear desde la vista de :guilabel:`kanban` "
+":icon:`oi-view-kanban`."
 
 #: ../../content/applications/essentials/activities.rst:50
 msgid ""
@@ -197,8 +194,8 @@ msgid ""
 "Activities can also be created from a :icon:`oi-view-"
 "list` :guilabel:`(list)` view."
 msgstr ""
-"Las actividades también se pueden crear desde la vista "
-"de :guilabel:`lista` :icon:`oi-view-list`."
+"Las actividades también se pueden crear desde la vista de :guilabel:`lista` "
+":icon:`oi-view-list`."
 
 #: ../../content/applications/essentials/activities.rst:69
 msgid ""
@@ -207,8 +204,8 @@ msgid ""
 "right of the top row."
 msgstr ""
 "Haz clic en el icono :icon:`oi-settings-adjust` :guilabel:`(ajustes)` "
-"ubicado en la parte derecha de la fila superior para abrir la "
-"columna :guilabel:`Actividades` en caso de que esté oculta."
+"ubicado en la parte derecha de la fila superior para abrir la columna "
+":guilabel:`Actividades` en caso de que esté oculta."
 
 #: ../../content/applications/essentials/activities.rst:72
 msgid ""
@@ -421,9 +418,9 @@ msgid ""
 "add the details of the activity to the chatter under :guilabel:`Today`."
 msgstr ""
 "Haz clic en :guilabel:`Guardar` para programar la actividad y agrega la "
-"actividad al chatter en las :guilabel:`Actividades planeadas`. Haz clic "
-"en :guilabel:`Marcar como hecho` para agregar los detalles de la actividad "
-"al chatter en :guilabel:`Hoy`."
+"actividad al chatter en las :guilabel:`Actividades planeadas`. Haz clic en "
+":guilabel:`Marcar como hecho` para agregar los detalles de la actividad al "
+"chatter en :guilabel:`Hoy`."
 
 #: ../../content/applications/essentials/activities.rst:155
 msgid "Schedule a meeting"
@@ -436,9 +433,9 @@ msgid ""
 "This opens the user's calendar to add and schedule the activity."
 msgstr ""
 "Si seleccionas :icon:`fa-users`:guilabel:`Reunión` como tipo de actividad, "
-"ingresa la información como se indica arriba y después haz clic "
-"en :guilabel:`Programar`. Esto hará que se abra el calendario del usuario "
-"para agregar y programar la actividad."
+"ingresa la información como se indica arriba y después haz clic en "
+":guilabel:`Programar`. Esto hará que se abra el calendario del usuario para "
+"agregar y programar la actividad."
 
 #: ../../content/applications/essentials/activities.rst:161
 msgid ""
@@ -459,8 +456,8 @@ msgid ""
 msgstr ""
 "Ingresa la información en la ventana emergente :guilabel:`Nuevo evento` y "
 "después haz clic en :guilabel:`Guardar y cerrar` para programar la "
-"actividad. Una vez hecho, la actividad se agregará al chatter en la "
-"sección :guilabel:`actividades planeadas`."
+"actividad. Una vez hecho, la actividad se agregará al chatter en la sección "
+":guilabel:`actividades planeadas`."
 
 #: ../../content/applications/essentials/activities.rst:172
 msgid "All scheduled activities"
@@ -493,9 +490,9 @@ msgid ""
 msgstr ""
 "Todas las actividades de cada aplicación están divididas en subsecciones que "
 "indican en qué parte de la aplicación se debe completar la actividad. Cada "
-"subsección muestra el número de actividades programadas que "
-"están :guilabel:`atrasadas`, que vencen :guilabel:`hoy` o que están "
-"programadas para el :guilabel:`futuro`."
+"subsección muestra el número de actividades programadas que están "
+":guilabel:`atrasadas`, que vencen :guilabel:`hoy` o que están programadas "
+"para el :guilabel:`futuro`."
 
 #: ../../content/applications/essentials/activities.rst:185
 msgid ""
@@ -541,8 +538,8 @@ msgid ""
 "navigate to :menuselection:`Settings app --> Discuss section --> Activities "
 "setting --> Activity Types`."
 msgstr ""
-"Para ver los tipos de actividades configurados en la base de datos, ve "
-"a :menuselection:`Ajustes --> sección de Conversaciones --> Actividades --> "
+"Para ver los tipos de actividades configurados en la base de datos, ve a "
+":menuselection:`Ajustes --> sección de Conversaciones --> Actividades --> "
 "Tipos de actividad`."
 
 #: ../../content/applications/essentials/activities.rst:None
@@ -569,8 +566,8 @@ msgid ""
 msgstr ""
 "Las aplicaciones individuales tienen una lista de *tipos de actividad* "
 "específicas para esta aplicación. Por ejemplo, para ver y editar las "
-"actividades disponibles en la aplicación **CRM** debes ir "
-"a :menuselection:`CRM --> Configuración --> Tipos de actividad`."
+"actividades disponibles en la aplicación **CRM** debes ir a "
+":menuselection:`CRM --> Configuración --> Tipos de actividad`."
 
 #: ../../content/applications/essentials/activities.rst:None
 msgid "The list of activity types already configured and available."
@@ -615,11 +612,11 @@ msgid ""
 "activity type form loads. Enter a :guilabel:`Name` for the activity type at "
 "the top of the form, then enter the following information on the form."
 msgstr ""
-"Para crear un :ref:`tipo de actividad <activities/types>` nuevo, haz clic "
-"en :guilabel:`Nuevo` en la página :guilabel:`Tipos de actividad` y se "
-"cargará un formulario de tipo de actividad en blanco. Ingresa "
-"un :guilabel:`Nombre` para el tipo de actividad en la parte superior del "
-"formulario e ingresa la información a continuación en el formulario."
+"Para crear un :ref:`tipo de actividad <activities/types>` nuevo, haz clic en "
+":guilabel:`Nuevo` en la página :guilabel:`Tipos de actividad` y se cargará "
+"un formulario de tipo de actividad en blanco. Ingresa un :guilabel:`Nombre` "
+"para el tipo de actividad en la parte superior del formulario e ingresa la "
+"información a continuación en el formulario."
 
 #: ../../content/applications/essentials/activities.rst:237
 msgid "Activity Settings section"
@@ -688,8 +685,8 @@ msgid ""
 msgstr ""
 ":guilabel:`Carpeta`: Selecciona una :ref:`carpeta <documents/folders>` "
 "específica en la que se debe guardar el documento. Este campo **solo** "
-"aparece si en el campo :guilabel:`Acción` seleccionas la "
-"opción :guilabel:`Subir documento`."
+"aparece si en el campo :guilabel:`Acción` seleccionas la opción "
+":guilabel:`Subir documento`."
 
 #: ../../content/applications/essentials/activities.rst:258
 msgid ""
@@ -717,10 +714,10 @@ msgid ""
 "Summary` fields are included when an activity is created. However, they can "
 "be altered before the activity is scheduled or saved."
 msgstr ""
-"La información en los campos :guilabel:`Usuario predeterminado` "
-"y :guilabel:`Resumen predeterminado` se incluyen cuando se crea la "
-"actividad. Sin embargo, puedes editar estos campos antes de programar o "
-"guardar la actividad."
+"La información en los campos :guilabel:`Usuario predeterminado` y "
+":guilabel:`Resumen predeterminado` se incluyen cuando se crea la actividad. "
+"Sin embargo, puedes editar estos campos antes de programar o guardar la "
+"actividad."
 
 #: ../../content/applications/essentials/activities.rst:268
 msgid ""
@@ -728,8 +725,8 @@ msgid ""
 "marked as `Done` visible in the :ref:`activity view <activities/activity>`."
 msgstr ""
 ":guilabel:`Mantener actividades hechas`: Marca esta casilla si quieres que "
-"las actividades que se marquen como `Hechas` sigan siendo visibles en "
-"la :ref:`vista de actividades <activities/activity>`."
+"las actividades que se marquen como `Hechas` sigan siendo visibles en la "
+":ref:`vista de actividades <activities/activity>`."
 
 #: ../../content/applications/essentials/activities.rst:270
 msgid ":guilabel:`Default Note`: enter any notes to appear with the activity."
@@ -767,8 +764,8 @@ msgid ""
 "Document` is selected for the :guilabel:`Action`."
 msgstr ""
 "El campo :guilabel:`Tipo de encadenamiento` **no** aparecerá si se "
-"seleccionas la opción :guilabel:`Subir documento` en el "
-"campo :guilabel:`Acción`."
+"seleccionas la opción :guilabel:`Subir documento` en el campo "
+":guilabel:`Acción`."
 
 #: ../../content/applications/essentials/activities.rst:286
 msgid ""
@@ -778,10 +775,10 @@ msgid ""
 "menu, select the activity to recommend or schedule as a follow-up task to "
 "the activity type."
 msgstr ""
-":guilabel:`Sugerir o Activar`: Este campo dependerá de lo que selecciones "
-"en :guilabel:`Tipo de encadenamiento` y puede ser :guilabel:`Sugerir` "
-"o :guilabel:`Activar`. Con el menú desplegable selecciona la actividad que "
-"se debe recomendar o programar después de realizar el tipo de actividad."
+":guilabel:`Sugerir o Activar`: Este campo dependerá de lo que selecciones en "
+":guilabel:`Tipo de encadenamiento` y puede ser :guilabel:`Sugerir` o "
+":guilabel:`Activar`. Con el menú desplegable selecciona la actividad que se "
+"debe recomendar o programar después de realizar el tipo de actividad."
 
 #: ../../content/applications/essentials/activities.rst:289
 msgid ""
@@ -808,8 +805,8 @@ msgid ""
 msgstr ""
 "A un lado de este campo encontrarás el campo :guilabel:`Días`, que es la "
 "opción predeterminada, haz clic en ella para mostrar un menú desplegable. En "
-"la lista que aparezca podrá seleccionar la opción de tiempo que "
-"quieras, :guilabel:`días`, :guilabel:`semanas`, o :guilabel:`meses`."
+"la lista que aparezca podrá seleccionar la opción de tiempo que quieras, "
+":guilabel:`días`, :guilabel:`semanas`, o :guilabel:`meses`."
 
 #: ../../content/applications/essentials/activities.rst:297
 msgid ""
@@ -818,8 +815,8 @@ msgid ""
 "or :guilabel:`after completion date`."
 msgstr ""
 "Por último, en el menú desplegable selecciona si una actividad se programará "
-"o activará :guilabel:`después de la fecha límite de la actividad anterior` "
-"o :guilabel:`después de la fecha de finalización`."
+"o activará :guilabel:`después de la fecha límite de la actividad anterior` o "
+":guilabel:`después de la fecha de finalización`."
 
 #: ../../content/applications/essentials/activities.rst:None
 msgid "A new Activity form with all the fields filled out."
@@ -855,11 +852,11 @@ msgstr ""
 "repositorio de información empresarial vital que facilita la comunicación y "
 "las transacciones."
 
-#: ../../content/applications/essentials/contacts.rst:12
+#: ../../content/applications/essentials/contacts.rst:14
 msgid "Contact form"
 msgstr "Formulario de contacto"
 
-#: ../../content/applications/essentials/contacts.rst:14
+#: ../../content/applications/essentials/contacts.rst:16
 msgid ""
 "To create a new contact, navigate to the :menuselection:`Contacts app`, and "
 "click :guilabel:`New`. A new form appears where various contact information "
@@ -869,11 +866,11 @@ msgstr ""
 "y haz clic en :guilabel:`Nuevo`. Aparecerá un formulario nuevo donde podrás "
 "agregar información del contacto."
 
-#: ../../content/applications/essentials/contacts.rst:18
+#: ../../content/applications/essentials/contacts.rst:22
 msgid "Contact type"
 msgstr "Tipo de contacto"
 
-#: ../../content/applications/essentials/contacts.rst:20
+#: ../../content/applications/essentials/contacts.rst:24
 msgid ""
 "Odoo supports both :guilabel:`Person` and :guilabel:`Company` contacts. "
 "Select the appropriate type for the new contact. Fill in the name of "
@@ -885,7 +882,7 @@ msgstr ""
 "la :guilabel:`persona` o la :guilabel:`empresa`. Esta será la forma en la "
 "que el nombre aparecerá en la base de datos. Este campo es **obligatorio**."
 
-#: ../../content/applications/essentials/contacts.rst:25
+#: ../../content/applications/essentials/contacts.rst:29
 msgid ""
 ":guilabel:`Person` contacts can be linked to a :guilabel:`Company` contact. "
 "After selecting :guilabel:`Person`, the :guilabel:`Company` field becomes "
@@ -895,7 +892,7 @@ msgstr ""
 "del tipo :guilabel:`Empresa`. El campo :guilabel:`Empresa` estará disponible "
 "después de seleccionar :guilabel:`Persona`."
 
-#: ../../content/applications/essentials/contacts.rst:28
+#: ../../content/applications/essentials/contacts.rst:32
 msgid ""
 "In the :icon:`fa-envelope` :guilabel:`(envelope)` field, enter the email "
 "address with the domain. In the :icon:`fa-phone` :guilabel:`(phone)`  field "
@@ -905,14 +902,14 @@ msgstr ""
 "En el campo :icon:`fa-envelope`:guilabel:`(sobre)` ingresa la dirección de "
 "correo con el dominio. En el campo :icon:`fa-phone`:guilabel:`(teléfono)` "
 "ingresa el número de teléfono con el código de país apropiado. Después, "
-"ingresa la :guilabel:`dirección` de la :guilabel:`empresa` o de "
-"la :guilabel:`persona`."
+"ingresa la :guilabel:`dirección` de la :guilabel:`empresa` o de la "
+":guilabel:`persona`."
 
-#: ../../content/applications/essentials/contacts.rst:33
+#: ../../content/applications/essentials/contacts.rst:37
 msgid "Additional fields"
 msgstr "Campos adicionales"
 
-#: ../../content/applications/essentials/contacts.rst:35
+#: ../../content/applications/essentials/contacts.rst:39
 msgid ""
 "Additional details are included on the initial form. The following fields "
 "are available:"
@@ -920,16 +917,16 @@ msgstr ""
 "En el formulario inicial también se incluyen detalles adicionales. Los "
 "campos disponibles son:"
 
-#: ../../content/applications/essentials/contacts.rst:37
+#: ../../content/applications/essentials/contacts.rst:41
 msgid ""
 ":guilabel:`Job Position`: list the job position of the :guilabel:`Person` "
 "(only available on :guilabel:`Person`)."
 msgstr ""
-":guilabel:`Puesto de trabajo`: Agrega el puesto de trabajo de "
-"la :guilabel:`persona` (esta opción solo está disponible si "
-"seleccionaste :guilabel:`persona`)."
+":guilabel:`Puesto de trabajo`: Agrega el puesto de trabajo de la "
+":guilabel:`persona` (esta opción solo está disponible si seleccionaste "
+":guilabel:`persona`)."
 
-#: ../../content/applications/essentials/contacts.rst:39
+#: ../../content/applications/essentials/contacts.rst:43
 msgid ""
 ":guilabel:`Tax ID`: the identification number used for tax and accounting "
 "purposes."
@@ -937,7 +934,7 @@ msgstr ""
 ":guilabel:`Número de identificación fiscal`: El número que se usa para fines "
 "fiscales y de contabilidad, puede ser un RFC, CUIT, RUT, NIT, RUC, etc."
 
-#: ../../content/applications/essentials/contacts.rst:40
+#: ../../content/applications/essentials/contacts.rst:44
 msgid ""
 ":guilabel:`Partner Level`: select the designated :ref:`partner <contacts/"
 "partner-assignment>` level for this contact from the drop-down menu."
@@ -945,7 +942,7 @@ msgstr ""
 ":guilabel:`Nivel del socio`: Selecciona el nivel del :ref:`contacto "
 "<contacts/partner-assignment>` que tiene asignado con el menú desplegable."
 
-#: ../../content/applications/essentials/contacts.rst:42
+#: ../../content/applications/essentials/contacts.rst:46
 msgid ""
 ":guilabel:`Website`: enter the full website address, starting with `http` or "
 "`https`."
@@ -953,7 +950,7 @@ msgstr ""
 ":guilabel:`Sitio web`: La dirección del sitio web completa, empezando por "
 "`http` o `https`."
 
-#: ../../content/applications/essentials/contacts.rst:43
+#: ../../content/applications/essentials/contacts.rst:47
 msgid ""
 ":guilabel:`Language`: enter the language used by the contact. All of the "
 "emails and documents sent to this contact are then translated to the "
@@ -963,7 +960,7 @@ msgstr ""
 "traduce todos los correos y documentos enviados a este contacto al idioma "
 "seleccionado."
 
-#: ../../content/applications/essentials/contacts.rst:45
+#: ../../content/applications/essentials/contacts.rst:49
 msgid ""
 ":guilabel:`Tags`: enter preconfigured tags by typing them in the field, or "
 "clicking the drop-down menu, and selecting one. To create a new one, type "
@@ -972,14 +969,14 @@ msgid ""
 msgstr ""
 ":guilabel:`Etiquetas`: Para agregar etiquetas preconfiguradas empieza a "
 "escribir en el campo, o haz clic en el menú desplegable y selecciona una. "
-"Para crear una etiqueta nueva comienza a escribir en el campo y haz clic "
-"en :guilabel:`Crear` en el menú desplegable que aparecerá."
+"Para crear una etiqueta nueva comienza a escribir en el campo y haz clic en "
+":guilabel:`Crear` en el menú desplegable que aparecerá."
 
-#: ../../content/applications/essentials/contacts.rst:50
+#: ../../content/applications/essentials/contacts.rst:54
 msgid "Contacts tab"
 msgstr "Pestaña de contactos"
 
-#: ../../content/applications/essentials/contacts.rst:52
+#: ../../content/applications/essentials/contacts.rst:56
 msgid ""
 "On the :guilabel:`Contacts` tab, contacts can be added that are associated "
 "with a :guilabel:`Company` and related addresses. For example, a specific "
@@ -990,18 +987,18 @@ msgstr ""
 "Por ejemplo, se puede agregar una persona de contacto específica para la "
 "empresa."
 
-#: ../../content/applications/essentials/contacts.rst:56
+#: ../../content/applications/essentials/contacts.rst:60
 msgid ""
 "Multiple addresses can be added on both :guilabel:`Person` "
 "and :guilabel:`Company` contacts. To do so, click :guilabel:`Add Contact` in "
 "the :guilabel:`Contacts` tab. Doing so reveals a :guilabel:`Create Contact` "
 "pop-up form, in which additional addresses can be configured."
 msgstr ""
-"Se pueden agregar varias direcciones para contactos del "
-"tipo :guilabel:`persona` y :guilabel:`empresa`. Para hacerlo, haz clic "
-"en :guilabel:`Agregar contacto` en la pestaña :guilabel:`Contactos`. Al "
-"hacerlo se mostrará un formulario emergente de :guilabel:`Crear contacto` "
-"donde se pueden configurar direcciones adicionales."
+"Se pueden agregar varias direcciones para contactos del tipo "
+":guilabel:`persona` y :guilabel:`empresa`. Para hacerlo, haz clic en "
+":guilabel:`Agregar contacto` en la pestaña :guilabel:`Contactos`. Al hacerlo "
+"se mostrará un formulario emergente de :guilabel:`Crear contacto` donde se "
+"pueden configurar direcciones adicionales."
 
 #: ../../content/applications/essentials/contacts.rst:None
 msgid "Add a contact/address to the contact form."
@@ -1009,7 +1006,7 @@ msgstr ""
 "Captura de pantalla que muestra cómo agregar un contacto o dirección al "
 "formulario de contacto."
 
-#: ../../content/applications/essentials/contacts.rst:63
+#: ../../content/applications/essentials/contacts.rst:67
 msgid ""
 "On the :guilabel:`Create Contact` pop-up form,  select one of the following "
 "options:"
@@ -1017,13 +1014,13 @@ msgstr ""
 "En la ventana emergente :guilabel:`Crear contacto`, selecciona una de las "
 "opciones a continuación:"
 
-#: ../../content/applications/essentials/contacts.rst:65
+#: ../../content/applications/essentials/contacts.rst:69
 msgid ":guilabel:`Contact`: adds another contact to the existing contact form."
 msgstr ""
 ":guilabel:`Contacto`: Para agregar otro contacto al formulario de contacto "
 "existente."
 
-#: ../../content/applications/essentials/contacts.rst:66
+#: ../../content/applications/essentials/contacts.rst:70
 msgid ""
 ":guilabel:`Invoice`: adds a specific invoice address to the existing contact "
 "form."
@@ -1031,7 +1028,7 @@ msgstr ""
 ":guilabel:`Invoice`: Para agregar una dirección de facturación específica a "
 "un formulario de contacto existente."
 
-#: ../../content/applications/essentials/contacts.rst:67
+#: ../../content/applications/essentials/contacts.rst:71
 msgid ""
 ":guilabel:`Delivery`: adds a specific delivery address to the existing "
 "contact form."
@@ -1039,7 +1036,7 @@ msgstr ""
 ":guilabel:`Envío`: Para agregar una dirección de envío específica a un "
 "formulario de contacto existente."
 
-#: ../../content/applications/essentials/contacts.rst:68
+#: ../../content/applications/essentials/contacts.rst:72
 msgid ""
 ":guilabel:`Other`: adds an alternate address to the existing contact form."
 msgstr ""
@@ -1052,7 +1049,7 @@ msgstr ""
 "Captura de pantalla donde se muestra cómo crear un nuevo contacto o "
 "dirección desde el formulario de contacto."
 
-#: ../../content/applications/essentials/contacts.rst:73
+#: ../../content/applications/essentials/contacts.rst:77
 msgid ""
 "Once an option is selected, enter the corresponding contact information that "
 "should be used for the specified address type."
@@ -1061,16 +1058,16 @@ msgstr ""
 "contacto correspondiente que debe utilizarse para el tipo de dirección que "
 "se especificó."
 
-#: ../../content/applications/essentials/contacts.rst:76
+#: ../../content/applications/essentials/contacts.rst:80
 msgid ""
 "Add the :guilabel:`Contact Name`, :guilabel:`Address`, :guilabel:`Email`, "
 "along with the :guilabel:`Phone` and/or :guilabel:`Mobile` numbers below."
 msgstr ""
 "Abajo agrega el :guilabel:`nombre del contacto`, la :guilabel:`dirección`, "
-"el :guilabel:`correo electrónico` y los números de :guilabel:`teléfono` "
-"o :guilabel:`móvil`."
+"el :guilabel:`correo electrónico` y los números de :guilabel:`teléfono` o "
+":guilabel:`móvil`."
 
-#: ../../content/applications/essentials/contacts.rst:79
+#: ../../content/applications/essentials/contacts.rst:83
 msgid ""
 "Set the :guilabel:`Job Position`, which appears if the :guilabel:`Contact` "
 "address type has been selected. This is similar to the :guilabel:`Person` "
@@ -1080,30 +1077,30 @@ msgstr ""
 "dirección :guilabel:`contacto` se seleccionó. Este tipo es similar al "
 "contacto :guilabel:`Persona`."
 
-#: ../../content/applications/essentials/contacts.rst:82
+#: ../../content/applications/essentials/contacts.rst:86
 msgid ""
 "To add a note, click on the text field next to :guilabel:`Notes`, and write "
 "anything that is applicable to the customer or contact."
 msgstr ""
-"Para agregar una nota, haz clic en el cuadro de texto a un lado "
-"de :guilabel:`Notas` y escribe lo que aplique al cliente o contacto."
+"Para agregar una nota, haz clic en el cuadro de texto a un lado de "
+":guilabel:`Notas` y escribe lo que aplique al cliente o contacto."
 
-#: ../../content/applications/essentials/contacts.rst:85
+#: ../../content/applications/essentials/contacts.rst:89
 msgid ""
 "Then, click :guilabel:`Save & Close` to save the address, and close "
 "the :guilabel:`Create Contact` window. Or, click :guilabel:`Save & New` to "
 "save the address, and immediately input another one."
 msgstr ""
 "Después, haz clic en :guilabel:`Guardar y cerrar` para guardar la dirección "
-"y cerrar la ventana :guilabel:`Crear contacto`. También puedes hacer clic "
-"en :guilabel:`Guardar y nuevo` para guardar la dirección y crear una nueva "
-"de inmediato."
+"y cerrar la ventana :guilabel:`Crear contacto`. También puedes hacer clic en "
+":guilabel:`Guardar y nuevo` para guardar la dirección y crear una nueva de "
+"inmediato."
 
-#: ../../content/applications/essentials/contacts.rst:89
+#: ../../content/applications/essentials/contacts.rst:93
 msgid "Sales & Purchase tab"
 msgstr "Pestaña \"Ventas y compras\""
 
-#: ../../content/applications/essentials/contacts.rst:91
+#: ../../content/applications/essentials/contacts.rst:95
 msgid ""
 "Next, is the :guilabel:`Sales & Purchases` tab, which only appears when the "
 "*Sales*, *Purchase*, **or** *Point of Sale* applications are installed."
@@ -1112,20 +1109,20 @@ msgstr ""
 "si las aplicaciones *Ventas*, *Compras* **o** *Punto de venta* están "
 "instaladas."
 
-#: ../../content/applications/essentials/contacts.rst:94
+#: ../../content/applications/essentials/contacts.rst:98
 msgid ""
 "The :guilabel:`Fiscal Position` can be set on the :guilabel:`Sales & "
 "Purchases` tab. Select a :guilabel:`Fiscal Position` from the drop-down menu."
 msgstr ""
-"Puedes configurar la :guilabel:`posición fiscal` en la "
-"pestaña :guilabel:`Ventas y compras`. Solo selecciona "
-"una :guilabel:`posición fiscal` del menú desplegable."
+"Puedes configurar la :guilabel:`posición fiscal` en la pestaña "
+":guilabel:`Ventas y compras`. Solo selecciona una :guilabel:`posición "
+"fiscal` del menú desplegable."
 
-#: ../../content/applications/essentials/contacts.rst:100
+#: ../../content/applications/essentials/contacts.rst:104
 msgid "Sales section"
 msgstr "Sección \"Ventas\""
 
-#: ../../content/applications/essentials/contacts.rst:102
+#: ../../content/applications/essentials/contacts.rst:106
 msgid ""
 "Under the :guilabel:`Sales` heading, a specific :guilabel:`Salesperson` can "
 "be assigned to a contact. To do that, click the :guilabel:`Salesperson` drop-"
@@ -1137,7 +1134,7 @@ msgstr ""
 "selecciona uno. Para crear un :guilabel:`Vendedor` escribe el nombre del "
 "usuario y selecciona al usuario que desee."
 
-#: ../../content/applications/essentials/contacts.rst:106
+#: ../../content/applications/essentials/contacts.rst:110
 msgid ""
 "Certain :guilabel:`Payment Terms`, or a certain :guilabel:`Pricelist`, can "
 "also be set, if needed. Click the drop-down menu next to :guilabel:`Payment "
@@ -1145,14 +1142,14 @@ msgid ""
 "or :guilabel:`Create` a new one. Select the :guilabel:`Pricelist` drop-down "
 "menu to choose the appropriate :guilabel:`Pricelist`."
 msgstr ""
-"Si lo necesitas, también puedes configurar :guilabel:`Términos de pago` "
-"o :guilabel:`Listas de precios`. Haz clic en el menú desplegable a un lado "
-"de :guilabel:`Términos de pago` y cámbialo a uno de los :guilabel:`Términos "
-"de pago` preseleccionados o :guilabel:`crea` uno nuevo. Selecciona el menú "
+"Si lo necesitas, también puedes configurar :guilabel:`Términos de pago` o "
+":guilabel:`Listas de precios`. Haz clic en el menú desplegable a un lado de "
+":guilabel:`Términos de pago` y cámbialo a uno de los :guilabel:`Términos de "
+"pago` preseleccionados o :guilabel:`crea` uno nuevo. Selecciona el menú "
 "desplegable de :guilabel:`Lista de precios` para elegir una :guilabel:`Lista "
 "de precios` apropiada."
 
-#: ../../content/applications/essentials/contacts.rst:111
+#: ../../content/applications/essentials/contacts.rst:115
 msgid ""
 "Click into the :guilabel:`Delivery Method` field to select an option from "
 "the drop-down menu."
@@ -1160,11 +1157,11 @@ msgstr ""
 "Haz clic en el campo :guilabel:`Método de entrega` para seleccionar una "
 "opción con el menú desplegable."
 
-#: ../../content/applications/essentials/contacts.rst:114
+#: ../../content/applications/essentials/contacts.rst:118
 msgid "Point Of Sale section"
 msgstr "Sección \"Punto de venta\""
 
-#: ../../content/applications/essentials/contacts.rst:116
+#: ../../content/applications/essentials/contacts.rst:120
 msgid ""
 "Under the :guilabel:`Point Of Sale` heading, enter a :guilabel:`Barcode` "
 "that can be used to identify the contact."
@@ -1172,11 +1169,11 @@ msgstr ""
 "Ingresa un :guilabel:`código de barras` que permita identificar al contacto "
 "en la sección :guilabel:`Punto de venta`."
 
-#: ../../content/applications/essentials/contacts.rst:120
+#: ../../content/applications/essentials/contacts.rst:124
 msgid "Purchase section"
 msgstr "Sección \"Compras\""
 
-#: ../../content/applications/essentials/contacts.rst:122
+#: ../../content/applications/essentials/contacts.rst:126
 msgid ""
 "Under the :guilabel:`Purchase` heading, select how :abbr:`RFQs (requests for "
 "quotation)` for this contact should be grouped together:"
@@ -1184,7 +1181,7 @@ msgstr ""
 "Selecciona cómo se deben agrupar las solicitudes de cotización de este "
 "contacto en el encabezado :guilabel:`Compras`:"
 
-#: ../../content/applications/essentials/contacts.rst:125
+#: ../../content/applications/essentials/contacts.rst:129
 msgid ""
 ":guilabel:`On Order`: replenishment needs are grouped together except "
 "for :abbr:`MTO (made to order)`"
@@ -1192,7 +1189,7 @@ msgstr ""
 ":guilabel:`Al ordenar`: Los reabastecimientos deben agruparse a menos que "
 "sean :abbr:`MTO (Fabricación sobre pedido)`."
 
-#: ../../content/applications/essentials/contacts.rst:127
+#: ../../content/applications/essentials/contacts.rst:131
 msgid ""
 ":guilabel:`Daily`: replenishment needs are grouped if the expected arrival "
 "is the same day."
@@ -1200,7 +1197,7 @@ msgstr ""
 ":guilabel:`Diario`: Los reabastecimientos se deben agrupar si el día de "
 "llegada esperado es el mismo día."
 
-#: ../../content/applications/essentials/contacts.rst:128
+#: ../../content/applications/essentials/contacts.rst:132
 msgid ""
 ":guilabel:`Weekly`: replenishment needs are grouped if the expected arrival "
 "is the same week or week day."
@@ -1208,11 +1205,11 @@ msgstr ""
 ":guilabel:`Semanal`: Los reabasteciminetos deben agruparse si la fecha de "
 "recepción esperada es en la misma semana o día de la semana."
 
-#: ../../content/applications/essentials/contacts.rst:130
+#: ../../content/applications/essentials/contacts.rst:134
 msgid ":guilabel:`Always`: replenishment needs are always grouped."
 msgstr ":guilabel:`Siempre`: Los reabastecimientos siempre se deben agrupar."
 
-#: ../../content/applications/essentials/contacts.rst:132
+#: ../../content/applications/essentials/contacts.rst:136
 msgid ""
 "Select a default :guilabel:`Buyer` if the :abbr:`RFQs (requests for "
 "quotation)` should always be assigned to the same user."
@@ -1220,24 +1217,24 @@ msgstr ""
 "Selecciona un :guilabel:`comprador` predeterminado si la solicitud de "
 "cotización siempre se le debe asignar al mismo usuario."
 
-#: ../../content/applications/essentials/contacts.rst:135
+#: ../../content/applications/essentials/contacts.rst:139
 msgid ""
 "Specify :guilabel:`Payment Terms`, :guilabel:`1099 Box` information, and a "
 "preferred :guilabel:`Payment Method` here. A :guilabel:`Receipt Reminder` "
 "can be set here, as well. Select a :guilabel:`Supplier Currency` to be used "
 "for purchases from the contact."
 msgstr ""
-"Aquí debes especificar los :guilabel:`términos de pago`, la información "
-"de :guilabel:`1099 Box` y el :guilabel:`método de pago preferido`. Aquí "
-"también podrás configurar un :guilabel:`Recordatorio de entrega`. Selecciona "
-"la :guilabel:`moneda de proveedor` que se debe usar para compras a este "
+"Aquí debes especificar los :guilabel:`términos de pago`, la información de "
+":guilabel:`1099 Box` y el :guilabel:`método de pago preferido`. Aquí también "
+"podrás configurar un :guilabel:`Recordatorio de entrega`. Selecciona la "
+":guilabel:`moneda de proveedor` que se debe usar para compras a este "
 "contacto."
 
-#: ../../content/applications/essentials/contacts.rst:140
+#: ../../content/applications/essentials/contacts.rst:144
 msgid "Fiscal information"
 msgstr "Información fiscal"
 
-#: ../../content/applications/essentials/contacts.rst:142
+#: ../../content/applications/essentials/contacts.rst:146
 msgid ""
 "To assign a :guilabel:`Fiscal Position` to this contact, select it from the "
 "drop-down menu."
@@ -1245,11 +1242,11 @@ msgstr ""
 "Para asignar una :guilabel:`posición fiscal` a este contacto, selecciónala "
 "desde el menú desplegable."
 
-#: ../../content/applications/essentials/contacts.rst:145
+#: ../../content/applications/essentials/contacts.rst:149
 msgid "Misc section"
 msgstr "Sección \"Varios\""
 
-#: ../../content/applications/essentials/contacts.rst:147
+#: ../../content/applications/essentials/contacts.rst:151
 msgid ""
 "Under the :guilabel:`Misc.` heading, enter a :guilabel:`Citizen "
 "Identification` number for *Person* contacts, or :guilabel:`Company ID` for "
@@ -1257,12 +1254,12 @@ msgid ""
 "information for this contact."
 msgstr ""
 "En el encabezado :guilabel:`Varios`, ingresa un :guilabel:`número de "
-"identificación ciudadana` para los contactos del tipo *Persona*, o "
-"un :guilabel:`ID de empresa` para los contactos del tipo *Empresa*. Usa el "
+"identificación ciudadana` para los contactos del tipo *Persona*, o un "
+":guilabel:`ID de empresa` para los contactos del tipo *Empresa*. Usa el "
 "campo :guilabel:`Referencia` para agregar información adicional para este "
 "contacto."
 
-#: ../../content/applications/essentials/contacts.rst:151
+#: ../../content/applications/essentials/contacts.rst:155
 msgid ""
 "If this contact should only be accessible for one company in a multi-company "
 "database, select it from the :guilabel:`Company` field drop-down list. Use "
@@ -1270,12 +1267,12 @@ msgid ""
 "contact to one website (if working on a database with multiple websites)."
 msgstr ""
 "Si solo una empresa debería tener permisos de acceso para este contacto en "
-"una base de datos multiempresa, selecciónala en la lista "
-"desplegable :guilabel:`Empresa`. Usa el menú :guilabel:`Sitio web` para "
-"restringir la publicación de este contacto a solo un sitio web (si trabajas "
-"en una base de datos con varios sitios web)."
+"una base de datos multiempresa, selecciónala en la lista desplegable "
+":guilabel:`Empresa`. Usa el menú :guilabel:`Sitio web` para restringir la "
+"publicación de este contacto a solo un sitio web (si trabajas en una base de "
+"datos con varios sitios web)."
 
-#: ../../content/applications/essentials/contacts.rst:156
+#: ../../content/applications/essentials/contacts.rst:160
 msgid ""
 "Select one or more :guilabel:`Website Tags` to assist in filtering published "
 "customers on the `/customers` website page. Select an :guilabel:`Industry` "
@@ -1288,11 +1285,11 @@ msgstr ""
 "desplegable. Usa el campo :guilabel:`Políticas SLA` para asignar una "
 "política SLA de *Soporte al cliente* a este contacto."
 
-#: ../../content/applications/essentials/contacts.rst:161
+#: ../../content/applications/essentials/contacts.rst:165
 msgid "Inventory section"
 msgstr "Sección de Inventario"
 
-#: ../../content/applications/essentials/contacts.rst:163
+#: ../../content/applications/essentials/contacts.rst:167
 msgid ""
 "Under the :guilabel:`Inventory` heading, use the :guilabel:`Customer "
 "Location` drop-down to select the stock location to be used as a destination "
@@ -1303,32 +1300,32 @@ msgid ""
 "destination when sending goods to this contact during a subcontracting "
 "process."
 msgstr ""
-"En el encabezado :guilabel:`Inventario`, usa el menú desplegable "
-"de :guilabel:`la ubicación del cliente` para seleccionar la ubicación de "
-"stock que se usará como destino al enviar los bienes a este contacto. "
-"Después, usa el menú desplegable de :guilabel:`la ubicación del proveedor` "
-"para seleccionar la ubicación de stock que se usará como origen al recibir "
-"los bienes de este contacto. Por último usa el menú "
-"desplegable :guilabel:`Ubicación del subcontratista` para identificar la "
-"ubicación que se usará como origen y destino al enviar bienes a este "
-"contacto durante el proceso de subcontratación."
+"En el encabezado :guilabel:`Inventario`, usa el menú desplegable de "
+":guilabel:`la ubicación del cliente` para seleccionar la ubicación de stock "
+"que se usará como destino al enviar los bienes a este contacto. Después, usa "
+"el menú desplegable de :guilabel:`la ubicación del proveedor` para "
+"seleccionar la ubicación de stock que se usará como origen al recibir los "
+"bienes de este contacto. Por último usa el menú desplegable "
+":guilabel:`Ubicación del subcontratista` para identificar la ubicación que "
+"se usará como origen y destino al enviar bienes a este contacto durante el "
+"proceso de subcontratación."
 
-#: ../../content/applications/essentials/contacts.rst:171
+#: ../../content/applications/essentials/contacts.rst:175
 msgid "Accounting tab"
 msgstr "Pestaña \"Contabilidad\""
 
-#: ../../content/applications/essentials/contacts.rst:173
+#: ../../content/applications/essentials/contacts.rst:177
 msgid ""
 "The :guilabel:`Accounting` tab appears when the *Accounting* application is "
 "installed. Here, a user can add any related :guilabel:`Bank Accounts`, or "
 "set default :guilabel:`Accounting entries`."
 msgstr ""
 "La pestaña :guilabel:`Contabilidad` aparece cuando la aplicación "
-"*Contabilidad* está instalada. En ella, los usuarios pueden agregar "
-"las :guilabel:`cuentas bancarias` relacionadas o definir "
-"los :guilabel:`asientos contables` predeterminados."
+"*Contabilidad* está instalada. En ella, los usuarios pueden agregar las "
+":guilabel:`cuentas bancarias` relacionadas o definir los :guilabel:`asientos "
+"contables` predeterminados."
 
-#: ../../content/applications/essentials/contacts.rst:176
+#: ../../content/applications/essentials/contacts.rst:180
 msgid ""
 "Under the :ref:`Invoice Follow-Ups <accounting/follow_up/follow-ups-for-one-"
 "customer>` heading, the :guilabel:`Follow-up Status` indicates if the "
@@ -1339,17 +1336,16 @@ msgid ""
 msgstr ""
 "En el encabezado :ref:`Seguimiento de facturas <accounting/follow_up/follow-"
 "ups-for-one-customer>` el :guilabel:`estado de seguimiento` indica si el "
-"contacto tiene algún pago pendiente. Para "
-"configurar :guilabel:`Recordatorios` para este contacto usa el botón de "
-"radio para seleccionar recordatorios :guilabel:`Automáticos` "
-"o :guilabel:`Manuales`. Aquí también podrás programar "
-"el :guilabel:`siguiente recordatorio`."
+"contacto tiene algún pago pendiente. Para configurar "
+":guilabel:`Recordatorios` para este contacto usa el botón de radio para "
+"seleccionar recordatorios :guilabel:`Automáticos` o :guilabel:`Manuales`. "
+"Aquí también podrás programar el :guilabel:`siguiente recordatorio`."
 
-#: ../../content/applications/essentials/contacts.rst:185
+#: ../../content/applications/essentials/contacts.rst:189
 msgid "Partner Assignment tab"
 msgstr "Pestaña \"Asignación de socio\""
 
-#: ../../content/applications/essentials/contacts.rst:187
+#: ../../content/applications/essentials/contacts.rst:191
 msgid ""
 "Next is the :guilabel:`Partner Assignment` tab, which by default, includes "
 "a :guilabel:`Geolocation` section, and other partner options, "
@@ -1363,7 +1359,7 @@ msgstr ""
 "socio` y :guilabel:`Revisión de socio`. Estas opciones **solo** aparecen "
 "cuando el módulo *Distribuidores* está instalado."
 
-#: ../../content/applications/essentials/contacts.rst:192
+#: ../../content/applications/essentials/contacts.rst:196
 msgid ""
 "Follow the :doc:`Resellers documentation <../sales/crm/track_leads/"
 "resellers>` for more information on publishing partners on the website."
@@ -1372,25 +1368,25 @@ msgstr ""
 "track_leads/resellers>` para obtener más información sobre cómo publicarlos "
 "en el sitio web."
 
-#: ../../content/applications/essentials/contacts.rst:196
+#: ../../content/applications/essentials/contacts.rst:200
 msgid "Internal Notes tab"
 msgstr "Pestaña \"Notas internas\""
 
-#: ../../content/applications/essentials/contacts.rst:198
+#: ../../content/applications/essentials/contacts.rst:202
 msgid ""
 "Following the :guilabel:`Accounting` tab is the :guilabel:`Internal Notes` "
 "tab, where notes can be left on this contact form, just like on the contact "
 "form noted above."
 msgstr ""
-"A un lado de la pestaña :guilabel:`Contabilidad` está la "
-"pestaña :guilabel:`Notas internas`. Aquí puedes agregar notas para este "
-"contacto, justo como en el formulario de contacto mencionado antes."
+"A un lado de la pestaña :guilabel:`Contabilidad` está la pestaña "
+":guilabel:`Notas internas`. Aquí puedes agregar notas para este contacto, "
+"justo como en el formulario de contacto mencionado antes."
 
-#: ../../content/applications/essentials/contacts.rst:202
+#: ../../content/applications/essentials/contacts.rst:206
 msgid "UBO tab"
 msgstr "Pestaña UBO"
 
-#: ../../content/applications/essentials/contacts.rst:204
+#: ../../content/applications/essentials/contacts.rst:208
 msgid ""
 "The UBO (Ultimate Beneficial Owner) tab contains a snapshot of the "
 "*Holdings* information from the :guilabel:`Equity` app, as well as "
@@ -1403,7 +1399,7 @@ msgstr ""
 "individual del contacto, incluyendo su :guilabel:`fecha` y :guilabel:`lugar "
 "de nacimiento`."
 
-#: ../../content/applications/essentials/contacts.rst:208
+#: ../../content/applications/essentials/contacts.rst:212
 msgid ""
 "The :guilabel:`UBO` tab is **only** present when the *Equity* app is "
 "installed."
@@ -1411,7 +1407,7 @@ msgstr ""
 "La pestaña :guilabel:`UBO` **solo** aparece si se instala la aplicación "
 "*Patrimonio*."
 
-#: ../../content/applications/essentials/contacts.rst:210
+#: ../../content/applications/essentials/contacts.rst:214
 msgid ""
 "To request the information required for the :abbr:`UBO (Ultimate Beneficial "
 "Owner)` tab, click the :icon:`fa-cog` :guilabel:`Action` icon, then "
@@ -1422,11 +1418,11 @@ msgstr ""
 "cog`:guilabel:`Acción` y selecciona :guilabel:`Solicitar formulario con "
 "información del UBO` para enviar un correo electrónico al contacto."
 
-#: ../../content/applications/essentials/contacts.rst:215
+#: ../../content/applications/essentials/contacts.rst:219
 msgid "Smart buttons"
 msgstr "Botones inteligentes"
 
-#: ../../content/applications/essentials/contacts.rst:217
+#: ../../content/applications/essentials/contacts.rst:221
 msgid ""
 "At the top of the contact form, there are some additional options available, "
 "known as *smart buttons*."
@@ -1434,7 +1430,7 @@ msgstr ""
 "En la parte superior del formulario de contacto hay opciones adicionales "
 "llamadas *botones inteligentes*."
 
-#: ../../content/applications/essentials/contacts.rst:220
+#: ../../content/applications/essentials/contacts.rst:224
 msgid ""
 "Here, Odoo displays a variety of records, related to this contact, that were "
 "created on other apps. Odoo integrates information from every single app, so "
@@ -1444,7 +1440,7 @@ msgstr ""
 "creado en otra aplicación. Odoo integra información de todas las "
 "aplicaciones, por lo que habrá muchos botones inteligentes."
 
-#: ../../content/applications/essentials/contacts.rst:224
+#: ../../content/applications/essentials/contacts.rst:228
 msgid ""
 "For example, there is an :guilabel:`Opportunities` smart button, where all "
 "the opportunities related to this customer from the *CRM* app are accessible."
@@ -1453,7 +1449,7 @@ msgstr ""
 "permite acceder a todas las oportunidades relacionadas con este cliente "
 "desde la aplicación *CRM*."
 
-#: ../../content/applications/essentials/contacts.rst:228
+#: ../../content/applications/essentials/contacts.rst:232
 msgid ""
 "If the corresponding applications are installed, their related smart buttons "
 "appear automatically on a contact form."
@@ -1462,7 +1458,7 @@ msgstr ""
 "inteligentes relacionados a ellas aparecerán de forma automática en el "
 "formulario de contacto."
 
-#: ../../content/applications/essentials/contacts.rst:231
+#: ../../content/applications/essentials/contacts.rst:235
 msgid ""
 "A user can see any :guilabel:`Meetings`, :guilabel:`Sales`, :guilabel:`POS "
 "Orders`, :guilabel:`Subscriptions`, project :guilabel:`Tasks`, and "
@@ -1472,17 +1468,16 @@ msgid ""
 "Rate` for deliveries, :guilabel:`Invoiced` information, :guilabel:`Vendor "
 "Bills`, and the :guilabel:`Partner Ledger` connected to this contact."
 msgstr ""
-"Los usuarios pueden ver "
-"las :guilabel:`reuniones`, :guilabel:`ventas`, :guilabel:`órdenes del "
-"PdV`, :guilabel:`suscripciones` y :guilabel:`tareas` de proyecto. Además, al "
-"hacer clic en el botón :guilabel:`Más` podrás ver otras opciones en un menú "
-"desplegable. También podrás acceder de inmediato a :guilabel:`compras`, "
-"tareas de :guilabel:`soporte al cliente`, :guilabel:`tasas de puntualidad` "
-"de las entregas, información de :guilabel:`facturación`, :guilabel:`facturas "
-"de proveedores` y al :guilabel:`libro mayor de la empresa` asociado a este "
-"contacto."
+"Los usuarios pueden ver las :guilabel:`reuniones`, :guilabel:`ventas`, "
+":guilabel:`órdenes del PdV`, :guilabel:`suscripciones` y :guilabel:`tareas` "
+"de proyecto. Además, al hacer clic en el botón :guilabel:`Más` podrás ver "
+"otras opciones en un menú desplegable. También podrás acceder de inmediato a "
+":guilabel:`compras`, tareas de :guilabel:`soporte al cliente`, "
+":guilabel:`tasas de puntualidad` de las entregas, información de "
+":guilabel:`facturación`, :guilabel:`facturas de proveedores` y al "
+":guilabel:`libro mayor de la empresa` asociado a este contacto."
 
-#: ../../content/applications/essentials/contacts.rst:237
+#: ../../content/applications/essentials/contacts.rst:241
 msgid ""
 "Deliveries, documents, loyalty cards, and direct debits are *also* linked to "
 "smart buttons, like this, should there be any outstanding/on-file for this "
@@ -1492,20 +1487,20 @@ msgstr ""
 "*también* tienen sus respectivos botones inteligentes, en caso de que "
 "aplique para este contacto."
 
-#: ../../content/applications/essentials/contacts.rst:240
+#: ../../content/applications/essentials/contacts.rst:244
 msgid ""
 "If the contact is a partner, the user can visit their partner page on the "
 "Odoo-built website by clicking the :guilabel:`Go to Website` smart button."
 msgstr ""
 "Si el contacto es un socio, el usuario podrá visitar la página del socio en "
-"el sitio web creado con Odoo si hace clic en el botón "
-"inteligente :guilabel:`Ir a sitio web`."
+"el sitio web creado con Odoo si hace clic en el botón inteligente "
+":guilabel:`Ir a sitio web`."
 
-#: ../../content/applications/essentials/contacts.rst:244
+#: ../../content/applications/essentials/contacts.rst:248
 msgid "Archive contacts"
 msgstr "Archivar contactos"
 
-#: ../../content/applications/essentials/contacts.rst:246
+#: ../../content/applications/essentials/contacts.rst:250
 msgid ""
 "If a user decides they no longer want to have this contact active, the "
 "record can be archived. To do that, go to the :icon:`fa-"
@@ -1513,19 +1508,19 @@ msgid ""
 "click :guilabel:`Archive`."
 msgstr ""
 "Si un usuario decide que ya no quiere tener este contacto activo, se puede "
-"archivar el registro. Para hacerlo, ve al menú :icon:`fa-"
-"cog` :guilabel:`Acción` en la parte superior del formulario de contacto y "
-"haz clic en :guilabel:`Archivar`."
+"archivar el registro. Para hacerlo, ve al menú :icon:`fa-cog` "
+":guilabel:`Acción` en la parte superior del formulario de contacto y haz "
+"clic en :guilabel:`Archivar`."
 
-#: ../../content/applications/essentials/contacts.rst:250
+#: ../../content/applications/essentials/contacts.rst:254
 msgid ""
 "Then, click :guilabel:`Archive` from the resulting :guilabel:`Confirmation` "
 "pop-up window."
 msgstr ""
-"Después, haz clic en :guilabel:`Archivar` en la ventana "
-"emergente :guilabel:`Confirmación`."
+"Después, haz clic en :guilabel:`Archivar` en la ventana emergente "
+":guilabel:`Confirmación`."
 
-#: ../../content/applications/essentials/contacts.rst:252
+#: ../../content/applications/essentials/contacts.rst:256
 msgid ""
 "With this contact successfully archived, as indicated by a banner at the "
 "top, they do not show up in the main contacts page, but they can still be "
@@ -1535,7 +1530,7 @@ msgstr ""
 "superior y ya no aparecerá en la página principal de contactos, pero todavía "
 "lo podrás encontrar con el filtro :guilabel:`Archivado`."
 
-#: ../../content/applications/essentials/contacts.rst:256
+#: ../../content/applications/essentials/contacts.rst:260
 msgid ""
 "A contact can be *unarchived*, if the user decides to work with them again. "
 "To do that, just click the :icon:`fa-cog` :guilabel:`Action` menu again at "
@@ -1549,7 +1544,7 @@ msgstr ""
 "archivado y haz clic en :guilabel:`Desarchivar`. La advertencia que tenía "
 "antes de :guilabel:`Archivado` se quitará y el contacto se restaurará."
 
-#: ../../content/applications/essentials/contacts.rst:262
+#: ../../content/applications/essentials/contacts.rst:266
 msgid ""
 ":doc:`Add different addresses in CRM <../sales/sales/sales_quotations/"
 "different_addresses>`"
@@ -1557,7 +1552,7 @@ msgstr ""
 ":doc:`Agregar distintas direcciones a CRM <../sales/sales/sales_quotations/"
 "different_addresses>`"
 
-#: ../../content/applications/essentials/contacts.rst:263
+#: ../../content/applications/essentials/contacts.rst:267
 msgid ""
 "`Odoo's eLearning Contacts tutorial <https://www.odoo.com/slides/slide/"
 "contacts-2527?fullscreen=1>`_"
@@ -1601,12 +1596,12 @@ msgid ""
 "should be merged. Then, click the :icon:`fa-cog` :guilabel:`Actions` icon, "
 "and select :guilabel:`Merge` from the resulting drop-down menu."
 msgstr ""
-"Ve a la :menuselection:`aplicación Contactos` y haz clic en el "
-"icono :icon:`oi-view-list`:guilabel:`(lista)`. Selecciona dos o más "
-"contactos duplicados de la lista y marca la casilla ubicada a la izquierda "
-"de los contactos que quieres fusionar. Después, haz clic en el "
-"icono :icon:`fa-cog`:guilabel:`Acciones` y, en el menú desplegable, "
-"selecciona la opción :guilabel:`Fusionar`."
+"Ve a la :menuselection:`aplicación Contactos` y haz clic en el icono "
+":icon:`oi-view-list`:guilabel:`(lista)`. Selecciona dos o más contactos "
+"duplicados de la lista y marca la casilla ubicada a la izquierda de los "
+"contactos que quieres fusionar. Después, haz clic en el icono :icon:`fa-"
+"cog`:guilabel:`Acciones` y, en el menú desplegable, selecciona la opción "
+":guilabel:`Fusionar`."
 
 #: ../../content/applications/essentials/contacts/merge.rst:None
 msgid "The merge contacts option in the Contacts application."
@@ -1656,8 +1651,8 @@ msgid ""
 "After confirming the information on the pop-up window, "
 "click :guilabel:`Merge Contacts`."
 msgstr ""
-"Después de confirmar la información en la ventana emergente, haz clic "
-"en :guilabel:`Fusionar contactos`."
+"Después de confirmar la información en la ventana emergente, haz clic en "
+":guilabel:`Fusionar contactos`."
 
 #: ../../content/applications/essentials/contacts/merge.rst:45
 msgid "Deduplicate contacts"
@@ -1746,8 +1741,8 @@ msgid ""
 "Manual Check`, :guilabel:`Merge Automatically`, or :guilabel:`Merge "
 "Automatically all process`."
 msgstr ""
-"Después de confirmar cada criterio de búsqueda, haz clic ya sea "
-"en :guilabel:`Fusionar con verificación manual`, :guilabel:`Fusionar "
+"Después de confirmar cada criterio de búsqueda, haz clic ya sea en "
+":guilabel:`Fusionar con verificación manual`, :guilabel:`Fusionar "
 "automáticamente`, o :guilabel:`Fusionar automáticamente todos los procesos`."
 
 #: ../../content/applications/essentials/contacts/merge.rst:77
@@ -1810,11 +1805,11 @@ msgid ""
 "upload` :guilabel:`Export`."
 msgstr ""
 "Con Odoo puedes exportar valores desde cualquier campo de cualquier "
-"registro. Activa la vista de lista con el icono :icon:`fa-"
-"list` :guilabel:`(Lista)` en los elementos que deseas exportar y selecciona "
-"los registros correspondientes. Selecciona la casilla junto a cada registro "
-"y, por último, haz clic en el botón :guilabel:`Acción` y "
-"selecciona :icon:`fa-upload` :guilabel:`Exportar`."
+"registro. Activa la vista de lista con el icono :icon:`fa-list` :guilabel:`"
+"(Lista)` en los elementos que deseas exportar y selecciona los registros "
+"correspondientes. Selecciona la casilla junto a cada registro y, por último, "
+"haz clic en el botón :guilabel:`Acción` y selecciona :icon:`fa-upload` "
+":guilabel:`Exportar`."
 
 #: ../../content/applications/essentials/export_import_data.rst:None
 msgid "View of the different things to enable/click to export data."
@@ -1875,9 +1870,9 @@ msgstr ""
 "Estos son los elementos que puedes exportar. Usa el icono :icon:`fa-chevron-"
 "right` :guilabel:`(Mostrar subcampos)` para ver más opciones de subcampos. "
 "Usa la barra de :guilabel:`búsqueda` para encontrar campos específicos. Para "
-"aprovechar mejor la opción :guilabel:`Buscar`, haz clic en todos los "
-"iconos :icon:`fa-chevron-right` :guilabel:`(Mostrar subcampos)` para mostrar "
-"todos los campos."
+"aprovechar mejor la opción :guilabel:`Buscar`, haz clic en todos los iconos "
+":icon:`fa-chevron-right` :guilabel:`(Mostrar subcampos)` para mostrar todos "
+"los campos."
 
 #: ../../content/applications/essentials/export_import_data.rst:49
 msgid ""
@@ -1973,9 +1968,9 @@ msgid ""
 msgstr ""
 "Al activar el :ref:`modo de desarrollador <developer-mode>` se cambian los "
 "ajustes de importación visibles en el menú de la izquierda y se mostrará el "
-"menú :menuselection:`Avanzado`. En este menú se incluyen dos "
-"opciones: :guilabel:`Registrar historial durante la importación` "
-"y :guilabel:`Permitir emparejamiento con subcampos`."
+"menú :menuselection:`Avanzado`. En este menú se incluyen dos opciones: "
+":guilabel:`Registrar historial durante la importación` y :guilabel:`Permitir "
+"emparejamiento con subcampos`."
 
 #: ../../content/applications/essentials/export_import_data.rst:None
 msgid "Advanced import options when developer mode is activated."
@@ -2227,8 +2222,8 @@ msgid ""
 "the :guilabel:`External ID` (ID) column in Odoo."
 msgstr ""
 "Para recrear relaciones entre diferentes registros, debe usarse el "
-"identificador único de la aplicación original para mapearlo a la "
-"columna :guilabel:`ID Externo` (ID) en Odoo."
+"identificador único de la aplicación original para mapearlo a la columna "
+":guilabel:`ID Externo` (ID) en Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:182
 msgid ""
@@ -2330,10 +2325,10 @@ msgid ""
 "file selector. If this format is incorrect, change it to the preferred "
 "format using *ISO 8601* to define the format."
 msgstr ""
-"Para ver qué formato de fecha encontró Odoo en el archivo, puede revisar "
-"el :guilabel:`formato de fecha` que aparece al hacer clic en las opciones en "
-"el selector de archivos. Si este formato no es correcto, puede cambiarlo "
-"usando la *ISO 8601* para definirlo."
+"Para ver qué formato de fecha encontró Odoo en el archivo, puede revisar el "
+":guilabel:`formato de fecha` que aparece al hacer clic en las opciones en el "
+"selector de archivos. Si este formato no es correcto, puede cambiarlo usando "
+"la *ISO 8601* para definirlo."
 
 #: ../../content/applications/essentials/export_import_data.rst:224
 msgid ""
@@ -2358,9 +2353,9 @@ msgstr ""
 "Cuando importe archivos Excel (`.xls`, `.xlsx`), considere usar *celdas de "
 "fecha* para almacenar fechas. Esto mantiene los formatos de fecha locales "
 "para su visualización, independientemente de cuál sea el formato de la fecha "
-"en Odoo. Cuando importe un archivo :abbr:`CSV (Valores separados por "
-"comas)`, use la sección :guilabel:`Formato` de Odoo para seleccionar las "
-"columnas de formato de fecha a importar."
+"en Odoo. Cuando importe un archivo :abbr:`CSV (Valores separados por comas)"
+"`, use la sección :guilabel:`Formato` de Odoo para seleccionar las columnas "
+"de formato de fecha a importar."
 
 #: ../../content/applications/essentials/export_import_data.rst:235
 msgid "Import numbers with currency signs"
@@ -2484,8 +2479,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:284
 msgid "Change CSV file format in spreadsheet application"
-msgstr ""
-"Cambiar el formato del archivo CSV en una aplicación de hoja de cálculo"
+msgstr "Cambiar el formato del archivo CSV en una aplicación de hoja de cálculo"
 
 #: ../../content/applications/essentials/export_import_data.rst:286
 msgid ""
@@ -2500,9 +2494,9 @@ msgstr ""
 "aplicaciones de hojas de cálculo, se aplica la configuración regional del "
 "ordenador para el separador y el delimitador. Odoo sugiere usar *OpenOffice* "
 "o *LibreOffice*, ya que ambas aplicaciones permiten modificar las tres "
-"opciones (en la aplicación *LibreOffice*, ir al cuadro de "
-"diálogo :menuselection:`'Guardar como' --> Marcar la casilla 'Editar "
-"configuración de filtro' --> Guardar`)."
+"opciones (en la aplicación *LibreOffice*, ir al cuadro de diálogo "
+":menuselection:`'Guardar como' --> Marcar la casilla 'Editar configuración "
+"de filtro' --> Guardar`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:292
 msgid ""
@@ -2513,11 +2507,11 @@ msgstr ""
 "(:menuselection:`Cuadro de diálogo \"Guardar como\" --> Menú desplegable "
 "\"Herramientas\" --> Pestaña \"Codificación\"`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:296
+#: ../../content/applications/essentials/export_import_data.rst:298
 msgid "Difference between Database ID and External ID"
 msgstr "Diferencias entre el ID de la base de datos y el ID externo"
 
-#: ../../content/applications/essentials/export_import_data.rst:298
+#: ../../content/applications/essentials/export_import_data.rst:300
 msgid ""
 "Some fields define a relationship with another object. For example, the "
 "country of a contact is a link to a record of the 'Country' object. When "
@@ -2530,11 +2524,11 @@ msgstr ""
 "registros. Odoo proporciona tres mecanismos para ayudarle a importar dichos "
 "campos."
 
-#: ../../content/applications/essentials/export_import_data.rst:303
+#: ../../content/applications/essentials/export_import_data.rst:305
 msgid "**Only one** mechanism should be used per field that is imported."
 msgstr "**Solo se debe usar un** mecanismo por campo importado."
 
-#: ../../content/applications/essentials/export_import_data.rst:305
+#: ../../content/applications/essentials/export_import_data.rst:307
 msgid ""
 "For example, to reference the country of a contact, Odoo proposes three "
 "different fields to import:"
@@ -2542,11 +2536,11 @@ msgstr ""
 "Por ejemplo, para referenciar el país de un contacto, Odoo propone tres "
 "campos distintos para importar:"
 
-#: ../../content/applications/essentials/export_import_data.rst:307
+#: ../../content/applications/essentials/export_import_data.rst:309
 msgid ":guilabel:`Country`: the name or code of the country"
 msgstr ":guilabel:`País`: el nombre o código del país."
 
-#: ../../content/applications/essentials/export_import_data.rst:308
+#: ../../content/applications/essentials/export_import_data.rst:310
 msgid ""
 ":guilabel:`Country/Database ID`: the unique Odoo ID for a record, defined by "
 "the ID PostgreSQL column"
@@ -2554,7 +2548,7 @@ msgstr ""
 ":guilabel:`País/ID de la base de datos`: el ID único de Odoo para un "
 "registro, definido por la columna ID PostgreSQL."
 
-#: ../../content/applications/essentials/export_import_data.rst:310
+#: ../../content/applications/essentials/export_import_data.rst:312
 msgid ""
 ":guilabel:`Country/External ID`: the ID of this record referenced in another "
 "application (or the `.XML` file that imported it)"
@@ -2562,25 +2556,25 @@ msgstr ""
 ":guilabel:`País/ID externo`: el ID de este registro al que se hace "
 "referencia en otra aplicación (o el archivo `.XML` que lo importó)."
 
-#: ../../content/applications/essentials/export_import_data.rst:313
+#: ../../content/applications/essentials/export_import_data.rst:315
 msgid ""
 "For the country of Belgium, for example, use one of these three ways to "
 "import:"
 msgstr "Para Bélgica, por ejemplo, use una de estas tres maneras de importar:"
 
-#: ../../content/applications/essentials/export_import_data.rst:315
+#: ../../content/applications/essentials/export_import_data.rst:317
 msgid ":guilabel:`Country`: `Belgium`"
 msgstr ":guilabel:`País`: `Bélgica`"
 
-#: ../../content/applications/essentials/export_import_data.rst:316
+#: ../../content/applications/essentials/export_import_data.rst:318
 msgid ":guilabel:`Country/Database ID`: `21`"
 msgstr ":guilabel:`País/ID de la base de datos`: `21`"
 
-#: ../../content/applications/essentials/export_import_data.rst:317
+#: ../../content/applications/essentials/export_import_data.rst:319
 msgid ":guilabel:`Country/External ID`: `base.be`"
 msgstr ":guilabel:`País/ID externo`: `base.be`"
 
-#: ../../content/applications/essentials/export_import_data.rst:319
+#: ../../content/applications/essentials/export_import_data.rst:321
 msgid ""
 "According to the company's need, use one of these three ways to reference "
 "records in relations. Here is an example when one or the other should be "
@@ -2590,7 +2584,7 @@ msgstr ""
 "referenciar registros en relaciones. Deberá usar una u otra, según sea "
 "necesario, aquí tiene un ejemplo:"
 
-#: ../../content/applications/essentials/export_import_data.rst:322
+#: ../../content/applications/essentials/export_import_data.rst:324
 msgid ""
 "Use :guilabel:`Country`: this is the easiest way when data comes "
 "from :abbr:`CSV (Comma-separated Values)` files that have been created "
@@ -2600,7 +2594,7 @@ msgstr ""
 "provienen de archivos :abbr:`CSV (Valores separados por comas)` que se "
 "crearon de forma manual."
 
-#: ../../content/applications/essentials/export_import_data.rst:324
+#: ../../content/applications/essentials/export_import_data.rst:326
 msgid ""
 "Use :guilabel:`Country/Database ID`: this should rarely be used. It is "
 "mostly used by developers as the main advantage is to never have conflicts "
@@ -2612,7 +2606,7 @@ msgstr ""
 "ventaja es que nunca tiene conflictos (puede tener varios registros con el "
 "mismo nombre, pero solo tendrán un ID de base de datos único)."
 
-#: ../../content/applications/essentials/export_import_data.rst:327
+#: ../../content/applications/essentials/export_import_data.rst:329
 msgid ""
 "Use :guilabel:`Country/External ID`: use *External ID* when importing data "
 "from a third-party application."
@@ -2620,7 +2614,7 @@ msgstr ""
 ":guilabel:`Usar país/ID externo`: utilice el *ID externo* cuando importe "
 "datos desde una aplicación de terceros."
 
-#: ../../content/applications/essentials/export_import_data.rst:330
+#: ../../content/applications/essentials/export_import_data.rst:332
 msgid ""
 "When *External IDs* are used, import :abbr:`CSV (Comma-separated Values)` "
 "files with the :guilabel:`External ID` (ID) column defining the *External "
@@ -2636,7 +2630,7 @@ msgstr ""
 "dos archivos :abbr:`CSV (Valores separados por comas)` a continuación "
 "ofrecen un ejemplo de productos y sus categorías."
 
-#: ../../content/applications/essentials/export_import_data.rst:335
+#: ../../content/applications/essentials/export_import_data.rst:337
 msgid ""
 ":download:`CSV file for categories <export_import_data/"
 "External_id_3rd_party_application_product_categories.csv>`"
@@ -2644,7 +2638,7 @@ msgstr ""
 ":download:`Archivo CSV para categorías <export_import_data/"
 "External_id_3rd_party_application_product_categories.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:337
+#: ../../content/applications/essentials/export_import_data.rst:339
 msgid ""
 ":download:`CSV file for Products <export_import_data/"
 "External_id_3rd_party_application_products.csv>`"
@@ -2652,11 +2646,11 @@ msgstr ""
 ":download:`Archivo CSV para productos <export_import_data/"
 "External_id_3rd_party_application_products.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:343
+#: ../../content/applications/essentials/export_import_data.rst:345
 msgid "Import relation fields"
 msgstr "Importar campos de relación"
 
-#: ../../content/applications/essentials/export_import_data.rst:345
+#: ../../content/applications/essentials/export_import_data.rst:347
 msgid ""
 "An Odoo object is always related to many other objects (e.g. a product is "
 "linked to product categories, attributes, vendors, etc.). To import those "
@@ -2668,7 +2662,7 @@ msgstr ""
 "más). Para importar esas relaciones, primero debe importar los registros del "
 "objeto relacionado desde su propio menú de lista."
 
-#: ../../content/applications/essentials/export_import_data.rst:349
+#: ../../content/applications/essentials/export_import_data.rst:351
 msgid ""
 "This can be achieved by using either the name of the related record, or its "
 "ID, depending on the circumstances. The ID is expected when two records have "
@@ -2680,11 +2674,11 @@ msgstr ""
 "caso, agregue `/ID` al final del título de la columna (por ejemplo, para "
 "atributos de producto: `Atributos de producto / Atributo / ID`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:354
+#: ../../content/applications/essentials/export_import_data.rst:356
 msgid "Options for multiple matches on fields"
 msgstr "Opciones para varias coincidencias en campos"
 
-#: ../../content/applications/essentials/export_import_data.rst:356
+#: ../../content/applications/essentials/export_import_data.rst:358
 msgid ""
 "If, for example, there are two product categories with the child name "
 "`Sellable` (e.g. `Misc. Products/Sellable` & `Other Products/Sellable`), the "
@@ -2703,7 +2697,7 @@ msgstr ""
 "sugerimos que modifique uno de los valores duplicados, o la jerarquía de la "
 "categoría del producto."
 
-#: ../../content/applications/essentials/export_import_data.rst:363
+#: ../../content/applications/essentials/export_import_data.rst:365
 msgid ""
 "However, if the company does not wish to change the configuration of product "
 "categories, Odoo recommends making use of the *External ID* for this field, "
@@ -2713,11 +2707,11 @@ msgstr ""
 "categorías de los productos, recomendamos usar el *ID externo* para este "
 "campo, \"Categoría\"."
 
-#: ../../content/applications/essentials/export_import_data.rst:367
+#: ../../content/applications/essentials/export_import_data.rst:369
 msgid "Import many2many relationship fields"
 msgstr "Importar campos de relación many2many"
 
-#: ../../content/applications/essentials/export_import_data.rst:369
+#: ../../content/applications/essentials/export_import_data.rst:371
 msgid ""
 "The tags should be separated by a comma, without any spacing. For example, "
 "if a customer needs to be linked to both tags: `Manufacturer` and `Retailer` "
@@ -2729,7 +2723,7 @@ msgstr ""
 "entonces debe poner las etiquetas 'Fabricante,Vendedor minorista' en la "
 "misma columna del archivo :abbr:`CSV (Valores separados por comas)`."
 
-#: ../../content/applications/essentials/export_import_data.rst:373
+#: ../../content/applications/essentials/export_import_data.rst:375
 msgid ""
 ":download:`CSV file for Manufacturer, Retailer <export_import_data/m2m-"
 "customers-tags.csv>`"
@@ -2737,11 +2731,11 @@ msgstr ""
 ":download:`Archivo CSV para fabricantes y vendedores minoristas "
 "<export_import_data/m2m-customers-tags.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:376
+#: ../../content/applications/essentials/export_import_data.rst:378
 msgid "Import one2many relationships"
 msgstr "Importar relaciones one2many"
 
-#: ../../content/applications/essentials/export_import_data.rst:378
+#: ../../content/applications/essentials/export_import_data.rst:380
 msgid ""
 "If a company wants to import a sales order with several order lines, a "
 "specific row **must** be reserved in the :abbr:`CSV (Comma-separated "
@@ -2757,7 +2751,7 @@ msgstr ""
 "orden. Las líneas adicionales necesitan otras filas que no tengan "
 "información en los campos de esa orden."
 
-#: ../../content/applications/essentials/export_import_data.rst:384
+#: ../../content/applications/essentials/export_import_data.rst:386
 msgid ""
 "A company imports quotations using a :abbr:`CSV (Comma-separated Values)` "
 "file, based on demo data:"
@@ -2765,7 +2759,7 @@ msgstr ""
 "Una empresa importa cotizaciones con un archivo :abbr:`CSV (valores "
 "separados por comas)`, basado en los datos de demostración:"
 
-#: ../../content/applications/essentials/export_import_data.rst:387
+#: ../../content/applications/essentials/export_import_data.rst:389
 msgid ""
 ":download:`File for some quotations <export_import_data/o2m-quotations-order-"
 "lines.csv>`"
@@ -2773,7 +2767,7 @@ msgstr ""
 ":download:`Archivo para algunas cotizaciones <export_import_data/o2m-"
 "quotations-order-lines.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:389
+#: ../../content/applications/essentials/export_import_data.rst:391
 msgid ""
 "A company imports purchase orders with their respective purchase order lines "
 "using a :abbr:`CSV (Comma-separated Values)` file:"
@@ -2781,7 +2775,7 @@ msgstr ""
 "Una empresa importa órdenes de compra con sus respectivas líneas de órdenes "
 "de compra con un archivo :abbr:`CSV (valores separados por comas)`:"
 
-#: ../../content/applications/essentials/export_import_data.rst:392
+#: ../../content/applications/essentials/export_import_data.rst:394
 msgid ""
 ":download:`Purchase orders with their respective purchase order lines "
 "<export_import_data/o2m-purchase-order-lines.csv>`"
@@ -2789,15 +2783,15 @@ msgstr ""
 ":download:`Órdenes de compra con sus respectivas líneas de órdenes de compra "
 "<export_import_data/o2m-purchase-order-lines.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:395
+#: ../../content/applications/essentials/export_import_data.rst:397
 msgid ""
 "A company imports customers and their respective contacts using a :abbr:`CSV "
 "(Comma-separated Values)` file:"
 msgstr ""
-"Una empresa importa clientes y sus respectivos contactos con un "
-"archivo :abbr:`CSV (valores separados por comas)`:"
+"Una empresa importa clientes y sus respectivos contactos con un archivo "
+":abbr:`CSV (valores separados por comas)`:"
 
-#: ../../content/applications/essentials/export_import_data.rst:398
+#: ../../content/applications/essentials/export_import_data.rst:400
 msgid ""
 ":download:`Customers and their respective contacts <export_import_data/o2m-"
 "customers-contacts.csv>`"
@@ -2805,11 +2799,11 @@ msgstr ""
 ":download:`Clientes y sus respectivos contactos <export_import_data/o2m-"
 "customers-contacts.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:403
+#: ../../content/applications/essentials/export_import_data.rst:405
 msgid "Import image files"
 msgstr "Importar archivos de imagen"
 
-#: ../../content/applications/essentials/export_import_data.rst:405
+#: ../../content/applications/essentials/export_import_data.rst:407
 msgid ""
 "To import image files along with the :ref:`uploaded <essentials/"
 "export_import_data/get-started>` CSV or Excel file, follow the next steps:"
@@ -2817,7 +2811,7 @@ msgstr ""
 "Para importar archivos de imagen con el archivo CSV o Excel :ref:`subido "
 "<essentials/export_import_data/get-started>` siga los pasos a continuación:"
 
-#: ../../content/applications/essentials/export_import_data.rst:408
+#: ../../content/applications/essentials/export_import_data.rst:410
 msgid ""
 "Add the image file names to the relevant :guilabel:`Image` column in the "
 "data file."
@@ -2825,7 +2819,7 @@ msgstr ""
 "Agregue los nombres de archivo de la imagen a la columna :guilabel:`Imagen` "
 "correspondiente en el archivo de datos."
 
-#: ../../content/applications/essentials/export_import_data.rst:409
+#: ../../content/applications/essentials/export_import_data.rst:411
 msgid ""
 ":ref:`Upload the data file <essentials/export_import_data/get-started>` or "
 "reload it by clicking :guilabel:`Load Data File`."
@@ -2833,7 +2827,7 @@ msgstr ""
 ":ref:`Suba el archivo de datos <essentials/export_import_data/get-started>` "
 "o haga clic en :guilabel:`Cargar archivo de datos` para volver a subirlo."
 
-#: ../../content/applications/essentials/export_import_data.rst:411
+#: ../../content/applications/essentials/export_import_data.rst:413
 msgid ""
 "Click :guilabel:`Upload your files` under the :guilabel:`Files to import` "
 "section."
@@ -2841,7 +2835,7 @@ msgstr ""
 "Haga clic en :guilabel:`Suba sus archivos` en la sección :guilabel:`Archivos "
 "a importar`."
 
-#: ../../content/applications/essentials/export_import_data.rst:412
+#: ../../content/applications/essentials/export_import_data.rst:414
 msgid ""
 "Select the relevant image files. The number of files selected appears next "
 "to the button."
@@ -2849,13 +2843,13 @@ msgstr ""
 "Seleccione los archivos de imagen correspondientes. El número de archivos "
 "seleccionados aparecerá a un lado del botón."
 
-#: ../../content/applications/essentials/export_import_data.rst:413
+#: ../../content/applications/essentials/export_import_data.rst:415
 msgid "Click :guilabel:`Test` to verify that all data is valid."
 msgstr ""
 "Haga clic en :guilabel:`Probar` para verificar que todos los datos sean "
 "válidos."
 
-#: ../../content/applications/essentials/export_import_data.rst:414
+#: ../../content/applications/essentials/export_import_data.rst:416
 msgid ""
 "Click :guilabel:`Import`. During the import process, Odoo performs a file "
 "check to automatically link the uploaded images to the imported data file. "
@@ -2866,7 +2860,7 @@ msgstr ""
 "imágenes subidas con el archivo de datos importado. Si no encuentra una "
 "coincidencia, el archivo de datos se importará sin la imagen."
 
-#: ../../content/applications/essentials/export_import_data.rst:420
+#: ../../content/applications/essentials/export_import_data.rst:422
 msgid ""
 "The :guilabel:`Files to import` section is enabled if the product template "
 "has an :guilabel:`Image` column with all fields populated."
@@ -2874,7 +2868,7 @@ msgstr ""
 "La sección :guilabel:`Archivos por importar` se habilita si la plantilla del "
 "producto tiene una columna :guilabel:`Imagen` con todos los campos completos."
 
-#: ../../content/applications/essentials/export_import_data.rst:422
+#: ../../content/applications/essentials/export_import_data.rst:424
 msgid ""
 "The image file names in the data file must correspond to the uploaded image "
 "files."
@@ -2882,7 +2876,7 @@ msgstr ""
 "El nombre de los archivos de imágenes en el campo de datos deben "
 "corresponder a los archivos de imágenes subidos."
 
-#: ../../content/applications/essentials/export_import_data.rst:423
+#: ../../content/applications/essentials/export_import_data.rst:425
 msgid ""
 "When importing a large number of images, specify the maximum batch size in "
 "megabytes and set a delay to prevent the system from becoming overloaded. To "
@@ -2895,17 +2889,17 @@ msgstr ""
 "Al importar una gran cantidad de imágenes, especifica el tamaño máximo del "
 "lote en megabytes y define un retraso para evitar que el sistema se "
 "sobrecargue. Para ello, :doc:`activa el modo de desarrollador <../general/"
-"developer_mode>` y completa los campos :guilabel:`Tamaño máximo por lote` "
-"y :guilabel:`Retraso después de cada lote` en la sección :guilabel:`Archivos "
+"developer_mode>` y completa los campos :guilabel:`Tamaño máximo por lote` y "
+":guilabel:`Retraso después de cada lote` en la sección :guilabel:`Archivos "
 "por importar`. De forma predeterminada, el retraso cumplirá con el límite de "
 "llamadas RPC/API definido en la `Política de uso aceptable de la nube de "
 "Odoo <https://www.odoo.com/acceptable-use>`_."
 
-#: ../../content/applications/essentials/export_import_data.rst:431
+#: ../../content/applications/essentials/export_import_data.rst:433
 msgid "Import records several times"
 msgstr "Importar registros varias veces"
 
-#: ../../content/applications/essentials/export_import_data.rst:433
+#: ../../content/applications/essentials/export_import_data.rst:435
 msgid ""
 "If an imported file contains one of the columns: :guilabel:`External ID` "
 "or :guilabel:`Database ID`, records that have already been imported are "
@@ -2920,7 +2914,7 @@ msgstr ""
 "separados por comas)` varias veces si se hicieron cambios durante dos "
 "importaciones."
 
-#: ../../content/applications/essentials/export_import_data.rst:438
+#: ../../content/applications/essentials/export_import_data.rst:440
 msgid ""
 "Odoo takes care of creating or modifying each record, depending if it is new "
 "or not."
@@ -2928,7 +2922,7 @@ msgstr ""
 "Odoo se asegura de crear o modificar cada registro, dependiendo de si es "
 "nuevo o no."
 
-#: ../../content/applications/essentials/export_import_data.rst:440
+#: ../../content/applications/essentials/export_import_data.rst:442
 msgid ""
 "This feature allows a company to use the *Import/Export tool* in Odoo to "
 "modify a batch of records in a spreadsheet application."
@@ -2937,11 +2931,11 @@ msgstr ""
 "exportación* para modificar un grupo de registros en la aplicación Hoja de "
 "cálculo."
 
-#: ../../content/applications/essentials/export_import_data.rst:444
+#: ../../content/applications/essentials/export_import_data.rst:446
 msgid "Value not provided for a specific field"
 msgstr "Valor no proporcionado en un campo específico"
 
-#: ../../content/applications/essentials/export_import_data.rst:446
+#: ../../content/applications/essentials/export_import_data.rst:448
 msgid ""
 "If all fields are not set in the CSV file, Odoo assigns the default value "
 "for every non-defined field. However, if fields are set with empty values in "
@@ -2954,11 +2948,11 @@ msgstr ""
 "comas)`, Odoo deja el campo vacío en lugar de asignar el valor "
 "predeterminado."
 
-#: ../../content/applications/essentials/export_import_data.rst:451
+#: ../../content/applications/essentials/export_import_data.rst:453
 msgid "Export/import different tables from an SQL application to Odoo"
 msgstr "Exportar o importar diferentes tablas de una aplicación SQL a Odoo"
 
-#: ../../content/applications/essentials/export_import_data.rst:453
+#: ../../content/applications/essentials/export_import_data.rst:455
 msgid ""
 "If data needs to be imported from different tables, relations need to be "
 "recreated between records belonging to different tables. For instance, if "
@@ -2970,7 +2964,7 @@ msgstr ""
 "si importa empresas y personas, deberá volver a crear el vinculo entre cada "
 "persona y la empresa en la que trabaja."
 
-#: ../../content/applications/essentials/export_import_data.rst:457
+#: ../../content/applications/essentials/export_import_data.rst:459
 msgid ""
 "To manage relations between tables, use the `External ID` facilities of "
 "Odoo. The `External ID` of a record is the unique identifier of this record "
@@ -2986,7 +2980,7 @@ msgstr ""
 "`ID externo` al nombre de la aplicación o tabla, (como 'empresa_1', "
 "'persona_1' en lugar de solo '1')."
 
-#: ../../content/applications/essentials/export_import_data.rst:462
+#: ../../content/applications/essentials/export_import_data.rst:464
 msgid ""
 "As an example, suppose there is an SQL database with two tables that are to "
 "be imported: companies and people. Each person belongs to one company, so "
@@ -2997,7 +2991,7 @@ msgstr ""
 "empresa, entonces se debe volver a crear el vínculo entre una persona y la "
 "empresa para la que trabajan."
 
-#: ../../content/applications/essentials/export_import_data.rst:466
+#: ../../content/applications/essentials/export_import_data.rst:468
 msgid ""
 "Test this example, with a :download:`sample of a PostgreSQL database "
 "<export_import_data/database_import_test.sql>`."
@@ -3005,7 +2999,7 @@ msgstr ""
 "Pruebe este ejemplo con un :download:`ejemplo de una base de datos "
 "PostgreSQL <export_import_data/database_import_test.sql>`."
 
-#: ../../content/applications/essentials/export_import_data.rst:469
+#: ../../content/applications/essentials/export_import_data.rst:471
 msgid ""
 "First, export all companies and their *External ID*. In PSQL, write the "
 "following command:"
@@ -3013,7 +3007,7 @@ msgstr ""
 "Primero, exporte todas las empresas y sus *ID externos*. En PSQL escriba al "
 "siguiente comando:"
 
-#: ../../content/applications/essentials/export_import_data.rst:475
+#: ../../content/applications/essentials/export_import_data.rst:477
 msgid ""
 "This SQL command creates the following :abbr:`CSV (Comma-separated Values)` "
 "file:"
@@ -3021,7 +3015,7 @@ msgstr ""
 "Este comando SQL crea el siguiente archivo :abbr:`CSV (Valores separados por "
 "comas)`:"
 
-#: ../../content/applications/essentials/export_import_data.rst:484
+#: ../../content/applications/essentials/export_import_data.rst:486
 msgid ""
 "To create the :abbr:`CSV (Comma-separated Values)` file for people linked to "
 "companies, use the following SQL command in PSQL:"
@@ -3029,13 +3023,13 @@ msgstr ""
 "Usaremos el siguiente comando SQL en PSWL para crear el archivo :abbr:`CSV "
 "(Valores separados por comas)` para personas vinculadas a empresas:"
 
-#: ../../content/applications/essentials/export_import_data.rst:491
+#: ../../content/applications/essentials/export_import_data.rst:493
 msgid "It produces the following :abbr:`CSV (Comma-separated Values)` file:"
 msgstr ""
-"Esto producirá el siguiente archivo :abbr:`CSV (Valores separados por "
-"comas)`:"
+"Esto producirá el siguiente archivo :abbr:`CSV (Valores separados por comas)"
+"`:"
 
-#: ../../content/applications/essentials/export_import_data.rst:501
+#: ../../content/applications/essentials/export_import_data.rst:503
 msgid ""
 "In this file, Fabien and Laurence are working for the Bigees company "
 "(`company_1`), and Eric is working for the Organi company. The relation "
@@ -3051,7 +3045,7 @@ msgstr ""
 "conflicto de ID entre personas y empresas (`person_1` y `company_1` que "
 "compartían el mismo ID, 1, en la base de datos original)."
 
-#: ../../content/applications/essentials/export_import_data.rst:507
+#: ../../content/applications/essentials/export_import_data.rst:509
 msgid ""
 "The two files produced are ready to be imported in Odoo without any "
 "modifications. After having imported these two :abbr:`CSV (Comma-separated "
@@ -3065,11 +3059,11 @@ msgstr ""
 "primeros contactos están vinculados a la primera empresa. Primero debe "
 "importar las empresas y luego las personas."
 
-#: ../../content/applications/essentials/export_import_data.rst:515
+#: ../../content/applications/essentials/export_import_data.rst:517
 msgid "Update data in Odoo"
 msgstr "Actualizar datos en Odoo"
 
-#: ../../content/applications/essentials/export_import_data.rst:517
+#: ../../content/applications/essentials/export_import_data.rst:519
 msgid ""
 "Existing data can be updated in bulk through a data import, as long as "
 "the :ref:`External ID <essentials/external-id>` remains consistent."
@@ -3078,11 +3072,11 @@ msgstr ""
 "importación de datos, siempre y cuando el :ref:`ID externo <essentials/"
 "external-id>` sea consistente."
 
-#: ../../content/applications/essentials/export_import_data.rst:521
+#: ../../content/applications/essentials/export_import_data.rst:523
 msgid "Prepare data export"
 msgstr "Preparar la exportación de datos"
 
-#: ../../content/applications/essentials/export_import_data.rst:523
+#: ../../content/applications/essentials/export_import_data.rst:525
 msgid ""
 "To update data through an import, first navigate to the data to be updated, "
 "and select the :icon:`oi-view-list` :guilabel:`(List)` icon to activate list "
@@ -3091,13 +3085,13 @@ msgid ""
 "upload` :guilabel:`Export` from the drop-down menu."
 msgstr ""
 "Para actualizar los datos mediante una importación, primero ve a los datos "
-"que deseas actualizar y selecciona el icono :icon:`oi-view-"
-"list` :guilabel:`(Lista)` para activar la vista de lista. En el extremo "
-"izquierdo de la lista, selecciona la casilla de cualquier registro que "
-"quieras actualizar. Luego, haz clic en el botón :guilabel:`Acciones` y "
-"elige :icon:`fa-upload` :guilabel:`Exportar` en el menú desplegable."
+"que deseas actualizar y selecciona el icono :icon:`oi-view-list` :guilabel:`"
+"(Lista)` para activar la vista de lista. En el extremo izquierdo de la "
+"lista, selecciona la casilla de cualquier registro que quieras actualizar. "
+"Luego, haz clic en el botón :guilabel:`Acciones` y elige :icon:`fa-upload` "
+":guilabel:`Exportar` en el menú desplegable."
 
-#: ../../content/applications/essentials/export_import_data.rst:528
+#: ../../content/applications/essentials/export_import_data.rst:530
 msgid ""
 "On the resulting :guilabel:`Export Data` pop-up window, tick the checkbox "
 "labeled, :guilabel:`I want to update data (import-compatible export)`. This "
@@ -3111,7 +3105,7 @@ msgstr ""
 "exportación y limita la lista de :guilabel:`campos a exportar` para que "
 "**solo** incluya los campos que se pueden importar."
 
-#: ../../content/applications/essentials/export_import_data.rst:534
+#: ../../content/applications/essentials/export_import_data.rst:536
 msgid ""
 "The :guilabel:`External ID` field does **not** appear in "
 "the :guilabel:`Fields to export` list unless it is manually added, but it is "
@@ -3119,27 +3113,27 @@ msgid ""
 "data (import-compatible export)` checkbox is ticked, it is included in the "
 "export."
 msgstr ""
-"El campo :guilabel:`ID Externo` **no** aparece en la lista "
-"de :guilabel:`Campos a exportar` a menos que lo agregue de forma manual, "
-"pero estará incluido en la exportación. Sin embargo, si selecciona la "
-"casilla :guilabel:`Deseo actualizar datos (exportación compatible con "
-"importación)`, el campo sí se incluirá en la exportación."
+"El campo :guilabel:`ID Externo` **no** aparece en la lista de "
+":guilabel:`Campos a exportar` a menos que lo agregue de forma manual, pero "
+"estará incluido en la exportación. Sin embargo, si selecciona la casilla "
+":guilabel:`Deseo actualizar datos (exportación compatible con importación)`, "
+"el campo sí se incluirá en la exportación."
 
-#: ../../content/applications/essentials/export_import_data.rst:538
+#: ../../content/applications/essentials/export_import_data.rst:540
 msgid ""
 "Select the required fields to be included in the export using "
 "the :ref:`options <essentials/export_import_data/export-data>` on the pop-up "
 "window, then click :guilabel:`Export`."
 msgstr ""
-"Seleccione los campos que se deben incluir en la exportación usando "
-"las :ref:`opciones <essentials/export_import_data/export-data>` de la "
-"ventana emergente y después haga clic en :guilabel:`Exportar`."
+"Seleccione los campos que se deben incluir en la exportación usando las "
+":ref:`opciones <essentials/export_import_data/export-data>` de la ventana "
+"emergente y después haga clic en :guilabel:`Exportar`."
 
-#: ../../content/applications/essentials/export_import_data.rst:542
+#: ../../content/applications/essentials/export_import_data.rst:544
 msgid "Import updated data"
 msgstr "Importar datos actualizados"
 
-#: ../../content/applications/essentials/export_import_data.rst:544
+#: ../../content/applications/essentials/export_import_data.rst:546
 msgid ""
 "After exporting, make any necessary changes to the data file. When the file "
 "is ready, it can be :ref:`imported <essentials/export_import_data/import-"
@@ -3150,7 +3144,7 @@ msgstr ""
 "export_import_data/import-data>` con el mismo proceso que realiza para "
 "cualquier otra importación."
 
-#: ../../content/applications/essentials/export_import_data.rst:549
+#: ../../content/applications/essentials/export_import_data.rst:551
 msgid ""
 "When updating data, it is extremely important that the *External ID* remain "
 "consistent, as this is how the system identifies a record. If an ID is "
@@ -3193,9 +3187,9 @@ msgid ""
 "to drag and drop the element elsewhere in the text."
 msgstr ""
 "Pase el cursor sobre cualquier elemento del texto (encabezado, tabla, "
-"portapapeles, etc.) para que aparezca el icono :icon:`fa-"
-"sort` :guilabel:`(arrastrar)`. Haga clic en él y manténgalo presionado para "
-"arrastrar y soltar el elemento en otra parte del texto."
+"portapapeles, etc.) para que aparezca el icono :icon:`fa-sort` :guilabel:`"
+"(arrastrar)`. Haga clic en él y manténgalo presionado para arrastrar y "
+"soltar el elemento en otra parte del texto."
 
 #: ../../content/applications/essentials/html_editor.rst:22
 msgid "Text editor toolbar"
@@ -3217,8 +3211,8 @@ msgid ""
 "as :guilabel:`Header 1 to 6, Normal, Paragraph, Code`, and :guilabel:`Quote`."
 msgstr ""
 "**Estilo de fuente**: Define el estilo de la fuente con varias opciones, "
-"como :guilabel:`Encabezados de 1 a 6, Normal, Párrafo, Código` "
-"y :guilabel:`Cotización`."
+"como :guilabel:`Encabezados de 1 a 6, Normal, Párrafo, Código` y "
+":guilabel:`Cotización`."
 
 #: ../../content/applications/essentials/html_editor.rst:29
 msgid "**Font size**: Select the preferred font size."
@@ -3410,8 +3404,8 @@ msgid ""
 ":guilabel:`Translate with AI`: Translate the content in the :doc:`installed "
 "languages </applications/general/users/language>` with AI."
 msgstr ""
-":guilabel:`Traducción con IA`: Traduce el contenido a uno de "
-"los :doc:`idiomas instalados </applications/general/users/language>` con IA."
+":guilabel:`Traducción con IA`: Traduce el contenido a uno de los "
+":doc:`idiomas instalados </applications/general/users/language>` con IA."
 
 #: ../../content/applications/essentials/html_editor.rst:None
 msgid "Text editor's toolbox"
@@ -3593,9 +3587,9 @@ msgid ""
 "or delete a column or row."
 msgstr ""
 "Para organizar una tabla, pase el cursor sobre una columna o fila para abrir "
-"el menú de la tabla. Haga clic en el icono :icon:`fa-ellipsis-"
-"h` :guilabel:`(tres puntos horizontales)` para mover, insertar o eliminar "
-"una columna o fila."
+"el menú de la tabla. Haga clic en el icono :icon:`fa-ellipsis-h` :guilabel:`"
+"(tres puntos horizontales)` para mover, insertar o eliminar una columna o "
+"fila."
 
 #: ../../content/applications/essentials/html_editor.rst:139
 msgid "Banner"
@@ -3802,8 +3796,8 @@ msgid ""
 "o` :guilabel:`(media)` icon in the tooltip, then choose from the following "
 "tabs:"
 msgstr ""
-"Para insertar archivos multimedia, escribe `/Media` o haz clic en el "
-"icono :icon:`fa-file-image-o` :guilabel:`(multimedia)` de la barra de "
+"Para insertar archivos multimedia, escribe `/Media` o haz clic en el icono "
+":icon:`fa-file-image-o` :guilabel:`(multimedia)` de la barra de "
 "herramientas. Después selecciona una de las siguientes pestañas:"
 
 #: ../../content/applications/essentials/html_editor.rst:239
@@ -3940,9 +3934,8 @@ msgid ""
 "or :guilabel:`XL` sizes."
 msgstr ""
 ":icon:`fa-plus-square-o` (:guilabel:`Padding`): Agrega un padding a la "
-"imagen y selecciona "
-"entre :guilabel:`pequeño`, :guilabel:`mediano`, :guilabel:`grande` "
-"o :guilabel:`XL`."
+"imagen y selecciona entre :guilabel:`pequeño`, :guilabel:`mediano`, "
+":guilabel:`grande` o :guilabel:`XL`."
 
 #: ../../content/applications/essentials/html_editor.rst:277
 msgid ""
@@ -3959,8 +3952,8 @@ msgid ""
 "to reset the transformation."
 msgstr ""
 ":icon:`fa-object-ungroup` (:guilabel:`objeto`): Cambie el tamaño de la "
-"imagen o gírela. Vuelva a hacer clic en el icono :icon:`fa-object-"
-"ungroup` :guilabel:`(objeto)` para restaurar los cambios."
+"imagen o gírela. Vuelva a hacer clic en el icono :icon:`fa-object-ungroup` "
+":guilabel:`(objeto)` para restaurar los cambios."
 
 #: ../../content/applications/essentials/html_editor.rst:281
 msgid ""
@@ -4016,7 +4009,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/html_editor.rst:294
 msgid ":icon:`fa-trash` (:guilabel:`Delete`): Delete the image."
-msgstr ":icon:`fa-trash` (:guilabel:`borrar`): Borra la imagen."
+msgstr ":icon:`fa-trash` (:guilabel:`Eliminar`): Elimina la imagen."
 
 #: ../../content/applications/essentials/html_editor.rst:297
 msgid "Icon editor toolbar"
@@ -4093,10 +4086,10 @@ msgid ""
 "recognition (OCR) and artificial intelligence (AI)."
 msgstr ""
 "Con el servicio de :guilabel:`SMS` podrá enviar mensajes de texto a sus "
-"contactos desde su base de datos, mientras que el servicio "
-"de :guilabel:`Digitalización de documentos` digitaliza facturas de "
-"proveedores, gastos y currículums escaneados o en formato PDF con "
-"reconocimiento óptico de caracteres (OCR) e inteligencia artificial (IA)."
+"contactos desde su base de datos, mientras que el servicio de "
+":guilabel:`Digitalización de documentos` digitaliza facturas de proveedores, "
+"gastos y currículums escaneados o en formato PDF con reconocimiento óptico "
+"de caracteres (OCR) e inteligencia artificial (IA)."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:19
 msgid ""
@@ -4232,8 +4225,8 @@ msgid ""
 "This can be done by clicking the :icon:`fa-mobile` :guilabel:`SMS` icon "
 "within the database."
 msgstr ""
-"Para usar este servicio, haga clic en el icono :icon:`fa-"
-"mobile` :guilabel:`SMS` que se encuentra en la base de datos."
+"Para usar este servicio, haga clic en el icono :icon:`fa-mobile` "
+":guilabel:`SMS` que se encuentra en la base de datos."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:None
 msgid ""
@@ -4258,8 +4251,8 @@ msgid ""
 "or :guilabel:`Mobile` field of the contact form."
 msgstr ""
 "Vaya a la aplicación :menuselection:`Contactos` y haga clic en un contacto "
-"que tenga un número de teléfono móvil configurado en los "
-"campos :guilabel:`Teléfono` o :guilabel:`Celular` del formulario de contacto."
+"que tenga un número de teléfono móvil configurado en los campos "
+":guilabel:`Teléfono` o :guilabel:`Celular` del formulario de contacto."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:71
 msgid ""
@@ -4429,8 +4422,8 @@ msgid ""
 msgstr ""
 "Esta acción abrirá la página :guilabel:`Servicio de IAP` (compras dentro de "
 "la aplicación) en donde aparecen varios servicios de IAP de la base de "
-"datos. Una vez allí, haga clic en un servicio de IAP para abrir la página "
-"de :guilabel:`Información de la cuenta`, donde podrá comprar créditos "
+"datos. Una vez allí, haga clic en un servicio de IAP para abrir la página de "
+":guilabel:`Información de la cuenta`, donde podrá comprar créditos "
 "adicionales."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:138
@@ -4449,10 +4442,10 @@ msgid ""
 "says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
 "Vaya a la aplicación :menuselection:`Ajustes` y escriba `Compras dentro de "
-"la aplicación` en la barra de búsqueda o diríjase a la "
-"sección :guilabel:`Contactos`. Si va a la sección :guilabel:`Contactos`, "
-"busque :guilabel:`Compras dentro de la aplicación de Odoo` y haga clic "
-"en :guilabel:`Ver mis servicios`."
+"la aplicación` en la barra de búsqueda o diríjase a la sección "
+":guilabel:`Contactos`. Si va a la sección :guilabel:`Contactos`, busque "
+":guilabel:`Compras dentro de la aplicación de Odoo` y haga clic en "
+":guilabel:`Ver mis servicios`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:None
 msgid ""
@@ -4470,9 +4463,8 @@ msgid ""
 msgstr ""
 "Esta acción abrirá la página de :guilabel:`Cuenta para compras dentro de la "
 "aplicación` en donde aparecen varios servicios de IAP de la base de datos. "
-"Una vez allí, haga clic en un servicio de IAP para abrir la página "
-"de :guilabel:`Información de la cuenta`, ahí podrá comprar créditos "
-"adicionales."
+"Una vez allí, haga clic en un servicio de IAP para abrir la página de "
+":guilabel:`Información de la cuenta`, ahí podrá comprar créditos adicionales."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:154
 msgid ""
@@ -4482,12 +4474,12 @@ msgid ""
 "credits. Then, follow the prompts to enter payment details, and confirm the "
 "order."
 msgstr ""
-"Haga clic en el botón :guilabel:`Comprar créditos` de la "
-"página :guilabel:`Información de la cuenta`. Esto abrirá la "
-"página :guilabel:`Comprar créditos para (Cuenta de IAP)` en una nueva "
-"pestaña. Busque el paquete de créditos que desea adquirir y haga clic "
-"en :guilabel:`Comprar`. Siga las indicaciones para proporcionar los detalles "
-"de pago y confirmar su orden."
+"Haga clic en el botón :guilabel:`Comprar créditos` de la página "
+":guilabel:`Información de la cuenta`. Esto abrirá la página "
+":guilabel:`Comprar créditos para (Cuenta de IAP)` en una nueva pestaña. "
+"Busque el paquete de créditos que desea adquirir y haga clic en "
+":guilabel:`Comprar`. Siga las indicaciones para proporcionar los detalles de "
+"pago y confirmar su orden."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:None
 msgid ""
@@ -4527,8 +4519,8 @@ msgid ""
 msgstr ""
 "Vaya a la aplicación :menuselection:`Ajustes` y escriba `Compras dentro de "
 "la aplicación` en la barra de búsqueda. Busque :guilabel:`Compras dentro de "
-"la aplicación de Odoo` en la sección :guilabel:`Contactos` y haga clic "
-"en :guilabel:`Ver mis servicios`."
+"la aplicación de Odoo` en la sección :guilabel:`Contactos` y haga clic en "
+":guilabel:`Ver mis servicios`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:176
 msgid ""
@@ -4538,8 +4530,8 @@ msgid ""
 msgstr ""
 "Las cuentas de compras dentro de la aplicación (IAP) disponibles aparecen en "
 "una vista de lista en la página :guilabel:`Cuenta para compras dentro de la "
-"aplicación`. Allí, haga clic en la cuenta IAP deseada para ver la "
-"página :guilabel:`Información de la cuenta` de ese servicio."
+"aplicación`. Allí, haga clic en la cuenta IAP deseada para ver la página "
+":guilabel:`Información de la cuenta` de ese servicio."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:179
 msgid ""
@@ -4797,8 +4789,8 @@ msgid ""
 "open the selected app, module, or menu in a new tab."
 msgstr ""
 "Escriba un nombre (o término) en la barra de búsqueda o use las teclas de "
-"flecha para desplazarse entre las opciones disponibles, después haga clic "
-"en :kbd:`Ctrl` + :kbd:`Enter` para abrir la aplicación, módulo o menú "
+"flecha para desplazarse entre las opciones disponibles, después haga clic en "
+":kbd:`Ctrl` + :kbd:`Enter` para abrir la aplicación, módulo o menú "
 "seleccionado en una nueva pestaña."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
@@ -4819,9 +4811,9 @@ msgid ""
 "by adding values."
 msgstr ""
 "Los campos de propiedades, o las propiedades, agregan varios :ref:`tipos de "
-"campos <property_field/add>` para permtir la personalización de la vista "
-"de :ref:`formulario <studio/views/general/form>`. Estos campos agregan "
-"valores y permiten el almacenamiento y gestión de información."
+"campos <property_field/add>` para permtir la personalización de la vista de "
+":ref:`formulario <studio/views/general/form>`. Estos campos agregan valores "
+"y permiten el almacenamiento y gestión de información."
 
 #: ../../content/applications/essentials/property_fields.rst:9
 msgid "Property vs. regular fields"
@@ -4834,9 +4826,8 @@ msgid ""
 "record <property-fields/properties-apps>`."
 msgstr ""
 "Las propiedades son pseudocampos; se comportan como campos normales pero no "
-"se guardan como columnas en la base de datos. También dependen de "
-"un :ref:`registro principal <property-fields/properties-apps>` "
-"predeterminado."
+"se guardan como columnas en la base de datos. También dependen de un "
+":ref:`registro principal <property-fields/properties-apps>` predeterminado."
 
 #: ../../content/applications/essentials/property_fields.rst:15
 msgid ""
@@ -4984,9 +4975,8 @@ msgid ""
 "Add a selectable option by clicking :icon:`fa-plus` :guilabel:`Add a Value` "
 "and entering the :guilabel:`Option Name`."
 msgstr ""
-"Para agregar una opción que se pueda seleccionar haz clic en :icon:`fa-"
-"plus` :guilabel:`Agregar un valor` e ingresa el :guilabel:`nombre de la "
-"opción`."
+"Para agregar una opción que se pueda seleccionar haz clic en :icon:`fa-plus` "
+":guilabel:`Agregar un valor` e ingresa el :guilabel:`nombre de la opción`."
 
 #: ../../content/applications/essentials/property_fields.rst:68
 msgid ""
@@ -5002,8 +4992,8 @@ msgid ""
 "Reorder the options by dragging and dropping them using the :icon:`oi-"
 "draggable` (:guilabel:`drag handle`) button."
 msgstr ""
-"Para organizar las opciones debes arrastrarlas y soltarlas usando el "
-"botón :icon:`oi-draggable` (:guilabel:`botón para arrastrar`)."
+"Para organizar las opciones debes arrastrarlas y soltarlas usando el botón "
+":icon:`oi-draggable` (:guilabel:`botón para arrastrar`)."
 
 #: ../../content/applications/essentials/property_fields.rst:74
 msgid ""
@@ -5129,8 +5119,8 @@ msgid ""
 "Click :icon:`fa-trash` :guilabel:`Delete`, then :guilabel:`Delete` to "
 "permanently remove it."
 msgstr ""
-"Haz clic en :icon:`fa-trash` :guilabel:`Eliminar` y luego "
-"en :guilabel:`Eliminar` para quitarla de forma permanente."
+"Haz clic en :icon:`fa-trash` :guilabel:`Eliminar` y luego en "
+":guilabel:`Eliminar` para quitarla de forma permanente."
 
 #: ../../content/applications/essentials/property_fields.rst:115
 msgid ""
@@ -5225,8 +5215,8 @@ msgstr ":guilabel:`CRM`"
 msgid ""
 ":doc:`Lead/Opportunity </applications/sales/crm/acquire_leads/email_manual>`"
 msgstr ""
-":doc:`Lead u oportunidad </applications/sales/crm/acquire_leads/"
-"email_manual>`"
+":doc:`Lead u oportunidad </applications/sales/crm/acquire_leads/email_manual>"
+"`"
 
 #: ../../content/applications/essentials/property_fields.rst:151
 msgid ":ref:`Sales team <crm/sales-team-dashboard>`"
@@ -5254,8 +5244,8 @@ msgstr ":guilabel:`Eventos`"
 msgid ""
 ":doc:`Event Registration </applications/marketing/events/registration_desk>`"
 msgstr ""
-":doc:`Registro a un evento </applications/marketing/events/"
-"registration_desk>`"
+":doc:`Registro a un evento </applications/marketing/events/registration_desk>"
+"`"
 
 #: ../../content/applications/essentials/property_fields.rst:157
 msgid ":ref:`Event <events/new-event>`"
@@ -5326,8 +5316,8 @@ msgstr ":ref:`Variante del producto <product-variants/add-product-variants>`"
 msgid ""
 ":ref:`Operation type <inventory/product_management/operation-type-setting>`"
 msgstr ""
-":ref:`Tipo de operación <inventory/product_management/operation-type-"
-"setting>`"
+":ref:`Tipo de operación <inventory/product_management/operation-type-setting>"
+"`"
 
 #: ../../content/applications/essentials/property_fields.rst:179
 msgid ":guilabel:`Knowledge`"
@@ -5519,10 +5509,10 @@ msgid ""
 msgstr ""
 "La :ref:`vista de gráfico <reporting/using-graph>` se utiliza para "
 "visualizar los datos de sus registros, esta le ayudará a identificar "
-"patrones y tendencias. A menudo puede encontrar esta vista en el "
-"menú :guilabel:`reportes` de las aplicaciones, pero también puede "
-"encontrarla en otros lugares. Para acceder a ella, haga clic en el **botón "
-"de vista de gráfico** que se ubica en la parte superior derecha de la página."
+"patrones y tendencias. A menudo puede encontrar esta vista en el menú "
+":guilabel:`reportes` de las aplicaciones, pero también puede encontrarla en "
+"otros lugares. Para acceder a ella, haga clic en el **botón de vista de "
+"gráfico** que se ubica en la parte superior derecha de la página."
 
 #: ../../content/applications/essentials/reporting.rst:None
 msgid "Selecting the graph view"
@@ -5579,11 +5569,11 @@ msgid ""
 msgstr ""
 "Cuando selecciona una medida, Odoo agrega los valores registrados en ese "
 "campo para los registros filtrados. Solo es posible medir los campos "
-"numéricos (:ref:`enteros <studio/fields/simple-fields/"
-"integer>`, :ref:`decimales <studio/fields/simple-fields/decimal>` "
-"y :ref:`monetarios <studio/fields/simple-fields/monetary>`). Además, la "
-"opción :guilabel:`Número` se utiliza para contar el número total de "
-"registros filtrados."
+"numéricos (:ref:`enteros <studio/fields/simple-fields/integer>`, "
+":ref:`decimales <studio/fields/simple-fields/decimal>` y :ref:`monetarios "
+"<studio/fields/simple-fields/monetary>`). Además, la opción "
+":guilabel:`Número` se utiliza para contar el número total de registros "
+"filtrados."
 
 #: ../../content/applications/essentials/reporting.rst:57
 msgid ""
@@ -5607,8 +5597,8 @@ msgid ""
 "and :guilabel:`Count` measures to the Sales Analysis report. By default, "
 "the :guilabel:`Untaxed Amount` measure is selected."
 msgstr ""
-"Entre otras medidas, puede agregar las medidas de :guilabel:`margen` "
-"y :guilabel:`número` al reporte de análisis de ventas. De forma "
+"Entre otras medidas, puede agregar las medidas de :guilabel:`margen` y "
+":guilabel:`número` al reporte de análisis de ventas. De forma "
 "predeterminada, se selecciona la medida :guilabel:`importe sin impuestos`."
 
 #: ../../content/applications/essentials/reporting.rst:0
@@ -5840,10 +5830,10 @@ msgstr ""
 "Odoo permite buscar, filtrar y agrupar registros en una vista para mostrar "
 "solo los registros más relevantes. La barra de búsqueda se encuentra en la "
 "parte superior de la vista, escriba en ella para :ref:`buscar valores "
-"<search/values>` o haga clic en el icono :icon:`fa-caret-"
-"down` :guilabel:`(flecha hacia abajo)` para acceder a los menús desplegables "
-"de :ref:`Filtrar <search/filters>`, :ref:`Agrupar por <search/group>` "
-"y :ref:`Favoritos <search/favorites>`."
+"<search/values>` o haga clic en el icono :icon:`fa-caret-down` :guilabel:`"
+"(flecha hacia abajo)` para acceder a los menús desplegables de :ref:`Filtrar "
+"<search/filters>`, :ref:`Agrupar por <search/group>` y :ref:`Favoritos "
+"<search/favorites>`."
 
 #: ../../content/applications/essentials/search.rst:14
 msgid "Search for values"
@@ -5869,12 +5859,12 @@ msgid ""
 "next to :guilabel:`Search Salesperson for: Mitch`, and "
 "select :guilabel:`Mitchell Admin`."
 msgstr ""
-"En el reporte de *análisis de ventas* (:menuselection:`Ventas --> Reportes --"
-"> Ventas`), en lugar de agregar un :ref:`filtro personalizado <search/custom-"
-"filters>` para seleccionar los registros donde *Mitchell Admin* es el "
-"vendedor, puede buscar `Mitch`, hacer clic en el icono :icon:`fa-caret-"
-"right` :guilabel:`(submenú)` que se encuentra junto a :guilabel:`Buscar "
-"vendedor: Mitch` y seleccionar :guilabel:`Mitchell Admin`."
+"En el reporte de *análisis de ventas* (:menuselection:`Ventas --> "
+"Reportes --> Ventas`), en lugar de agregar un :ref:`filtro personalizado "
+"<search/custom-filters>` para seleccionar los registros donde *Mitchell "
+"Admin* es el vendedor, puede buscar `Mitch`, hacer clic en el icono "
+":icon:`fa-caret-right` :guilabel:`(submenú)` que se encuentra junto a "
+":guilabel:`Buscar vendedor: Mitch` y seleccionar :guilabel:`Mitchell Admin`."
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Searching for a specific value on the Sales Analysis report"
@@ -5908,9 +5898,9 @@ msgid ""
 msgstr ""
 "Los filtros se usa para seleccionar registros que cumplen con ciertos "
 "criterios. La selección predeterminada de registros es específica para cada "
-"vista, pero se puede modificar seleccionando uno (o varios) de "
-"los :ref:`filtros preconfigurados <search/preconfigured-filters>`, o "
-"agregando un :ref:`filtro personalizado <search/custom-filters>`."
+"vista, pero se puede modificar seleccionando uno (o varios) de los "
+":ref:`filtros preconfigurados <search/preconfigured-filters>`, o agregando "
+"un :ref:`filtro personalizado <search/custom-filters>`."
 
 #: ../../content/applications/essentials/search.rst:48
 msgid "Preconfigured filters"
@@ -5943,8 +5933,8 @@ msgid ""
 "To also include records at the *quotation* stage, "
 "select :guilabel:`Quotations` from the :guilabel:`Filters`."
 msgstr ""
-"Para también incluir los registros en etapa de *cotización*, "
-"seleccione :guilabel:`Cotizaciones` en los :guilabel:`filtros`."
+"Para también incluir los registros en etapa de *cotización*, seleccione "
+":guilabel:`Cotizaciones` en los :guilabel:`filtros`."
 
 #: ../../content/applications/essentials/search.rst:62
 msgid ""
@@ -5991,8 +5981,8 @@ msgid ""
 msgstr ""
 "Agregue un filtro personalizado en caso de que los :ref:`filtros "
 "preconfigurados <search/preconfigured-filters>` no sean lo suficientemente "
-"específicos. Para ello, haga clic en el icono :icon:`fa-caret-"
-"down` :guilabel:`(flecha hacia abajo)` en la barra de búsqueda y después "
+"específicos. Para ello, haga clic en el icono :icon:`fa-caret-down` "
+":guilabel:`(flecha hacia abajo)` en la barra de búsqueda y después "
 "seleccione :menuselection:`Filtros --> Agregar filtro personalizado`."
 
 #: ../../content/applications/essentials/search.rst:85
@@ -6001,8 +5991,8 @@ msgid ""
 "option, filter rule, and a toggle to :guilabel:`Include archived` records."
 msgstr ""
 "La ventana emergente :guilabel:`Agregar filtro personalizado` muestra la "
-"opción que coincide, la regla de filtro y un activador "
-"para :guilabel:`Incluir archivados`."
+"opción que coincide, la regla de filtro y un activador para "
+":guilabel:`Incluir archivados`."
 
 #: ../../content/applications/essentials/search.rst:None
 msgid "The Add Custom Filter pop-up window."
@@ -6111,11 +6101,11 @@ msgid ""
 "fields are moved to join the parent group."
 msgstr ""
 ":icon:`fa-sitemap` :guilabel:`(nodo)`: Agrega un nuevo grupo de reglas abajo "
-"de la regla existente, con las opciones de "
-"coincidencia :guilabel:`Cualquiera` y :guilabel:`Todos` disponibles para "
-"definir cómo se aplica cada regla dentro de esta rama al filtro. Si la "
-"opción de coincidencia es la misma que la del grupo principal, los campos se "
-"mueven para unirse a ese grupo."
+"de la regla existente, con las opciones de coincidencia "
+":guilabel:`Cualquiera` y :guilabel:`Todos` disponibles para definir cómo se "
+"aplica cada regla dentro de esta rama al filtro. Si la opción de "
+"coincidencia es la misma que la del grupo principal, los campos se mueven "
+"para unirse a ese grupo."
 
 #: ../../content/applications/essentials/search.rst:123
 msgid ""
@@ -6126,12 +6116,12 @@ msgid ""
 "down` :guilabel:`of`, the newly-added branch disappears, and its group of "
 "rules are moved to the parent group."
 msgstr ""
-"Si la opción de coincidencia está configurada en :guilabel:`Coincidir "
-"todas` :icon:`fa-caret-down` :guilabel:`las siguientes reglas` y agrega una "
-"nueva rama con su opción de coincidencia cambiada "
-"de :guilabel:`cualquiera` :icon:`fa-caret-down` :guilabel:`de` "
-"a :guilabel:`todos` :icon:`fa-caret-down` :guilabel:`de`, la rama que acaba "
-"de agregar desaparece y su grupo de reglas se mueve al grupo principal."
+"Si la opción de coincidencia está configurada en :guilabel:`Coincidir todas` "
+":icon:`fa-caret-down` :guilabel:`las siguientes reglas` y agrega una nueva "
+"rama con su opción de coincidencia cambiada de :guilabel:`cualquiera` "
+":icon:`fa-caret-down` :guilabel:`de` a :guilabel:`todos` :icon:`fa-caret-"
+"down` :guilabel:`de`, la rama que acaba de agregar desaparece y su grupo de "
+"reglas se mueve al grupo principal."
 
 #: ../../content/applications/essentials/search.rst:129
 msgid ""
@@ -6154,8 +6144,8 @@ msgid ""
 "Once the filter criteria are defined, click :guilabel:`Add` to add the "
 "custom filter to the view."
 msgstr ""
-"Una vez que definió los criterios del filtro, haga clic "
-"en :guilabel:`Agregar` para agregar el filtro personalizado a la vista."
+"Una vez que definió los criterios del filtro, haga clic en "
+":guilabel:`Agregar` para agregar el filtro personalizado a la vista."
 
 #: ../../content/applications/essentials/search.rst:137
 msgid ""
@@ -6223,10 +6213,10 @@ msgid ""
 "the :guilabel:`Group By` options from the drop-down menu."
 msgstr ""
 "Puede agrupar la vista de los registros con uno de los *grupos "
-"preconfigurados*. Para ello, haga clic en el icono :icon:`fa-caret-"
-"down` :guilabel:`(flecha hacia abajo)` que se encuentra en la barra de "
-"búsqueda y seleccione una de las opciones de :guilabel:`Agrupar por` del "
-"menú desplegable."
+"preconfigurados*. Para ello, haga clic en el icono :icon:`fa-caret-down` "
+":guilabel:`(flecha hacia abajo)` que se encuentra en la barra de búsqueda y "
+"seleccione una de las opciones de :guilabel:`Agrupar por` del menú "
+"desplegable."
 
 #: ../../content/applications/essentials/search.rst:167
 msgid ""
@@ -6238,9 +6228,9 @@ msgid ""
 msgstr ""
 "Para agrupar los registros por vendedor en el reporte de *análisis de "
 "ventas* (:menuselection:`Ventas --> Reportes --> Ventas`), haga clic en la "
-"opción :guilabel:`Vendedor` que aparece en el menú "
-"desplegable :guilabel:`Agrupar por`. La vista cambia para mostrar los "
-"registros agrupados por vendedor sin filtrarlos. "
+"opción :guilabel:`Vendedor` que aparece en el menú desplegable "
+":guilabel:`Agrupar por`. La vista cambia para mostrar los registros "
+"agrupados por vendedor sin filtrarlos. "
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Grouping records on the Sales Analysis report"
@@ -6284,8 +6274,8 @@ msgstr ""
 "Algunos tableros de reportes incluyen una sección de :guilabel:`comparación` "
 "en los menús desplegables de sus barras de búsqueda. Esta incluye el reporte "
 "de :doc:`eficiencia general del equipo <../inventory_and_mrp/manufacturing/"
-"reporting/oee>` de la aplicación **Manufactura** y el reporte "
-"de :doc:`compras <../inventory_and_mrp/purchase/advanced/analyze>` de la "
+"reporting/oee>` de la aplicación **Manufactura** y el reporte de "
+":doc:`compras <../inventory_and_mrp/purchase/advanced/analyze>` de la "
 "aplicación **Compras**, entre otros."
 
 #: ../../content/applications/essentials/search.rst:194
@@ -6296,9 +6286,9 @@ msgid ""
 "and :guilabel:`(Time Filter): Previous Year`."
 msgstr ""
 "Las opciones en la sección :icon:`fa-adjust` :guilabel:`Comparación` sirven "
-"para comparar datos de dos periodos distintos. Elija entre las "
-"opciones :guilabel:`(Filtro de tiempo): Periodo anterior` "
-"y :guilabel:`(Filtro de tiempo): Año anterior`."
+"para comparar datos de dos periodos distintos. Elija entre las opciones "
+":guilabel:`(Filtro de tiempo): Periodo anterior` y :guilabel:`(Filtro de "
+"tiempo): Año anterior`."
 
 #: ../../content/applications/essentials/search.rst:199
 msgid ""
@@ -6321,13 +6311,12 @@ msgid ""
 "enabled, but doing so does **not** change the way data is displayed on the "
 "report."
 msgstr ""
-"Además, en algunos reportes solo puede usar la "
-"función :guilabel:`Comparación` al seleccionar el tipo de "
-"gráfico :guilabel:`circular` :icon:`fa-pie-chart` o la vista "
-"de :guilabel:`tabla dinámica` :icon:`oi-view-pivot`. Puede seleccionar la "
-"opción de :guilabel:`Comparación` incluso si está habilitada otra vista, "
-"pero hacerlo **no** cambiará la manera en que los datos aparecen en el "
-"reporte."
+"Además, en algunos reportes solo puede usar la función "
+":guilabel:`Comparación` al seleccionar el tipo de gráfico "
+":guilabel:`circular` :icon:`fa-pie-chart` o la vista de :guilabel:`tabla "
+"dinámica` :icon:`oi-view-pivot`. Puede seleccionar la opción de "
+":guilabel:`Comparación` incluso si está habilitada otra vista, pero hacerlo "
+"**no** cambiará la manera en que los datos aparecen en el reporte."
 
 #: ../../content/applications/essentials/search.rst:None
 msgid "The search bar for the production analysis report."
@@ -6344,8 +6333,8 @@ msgstr ""
 "Para ver los datos utilizando una de las dos comparaciones, primero "
 "seleccione un periodo en la columna :guilabel:`Filtros` del menú desplegable "
 "de la barra de búsqueda. Después, en la sección :guilabel:`Comparación`, "
-"seleccione :guilabel:`(Filtro de tiempo): Periodo anterior` "
-"o :guilabel:`(Filtro de tiempo): Año anterior`."
+"seleccione :guilabel:`(Filtro de tiempo): Periodo anterior` o :guilabel:`"
+"(Filtro de tiempo): Año anterior`."
 
 #: ../../content/applications/essentials/search.rst:217
 msgid ""
@@ -6415,9 +6404,9 @@ msgstr ""
 "Los datos del segundo trimestre de 2024 se comparan con los datos del "
 "segundo trimestre de 2023 en el reporte de :guilabel:`análisis de "
 "producción` de la aplicación :menuselection:`Manufactura`. En la sección de "
-"filtros del menú desplegable de la barra de búsqueda está seleccionado "
-"el :guilabel:`Q2` como :guilabel:`Fecha de finalización` y la sección "
-"de :guilabel:`Comparación` incluye :guilabel:`Fecha de finalización: Año "
+"filtros del menú desplegable de la barra de búsqueda está seleccionado el "
+":guilabel:`Q2` como :guilabel:`Fecha de finalización` y la sección de "
+":guilabel:`Comparación` incluye :guilabel:`Fecha de finalización: Año "
 "anterior`."
 
 #: ../../content/applications/essentials/search.rst:239
@@ -6486,8 +6475,8 @@ msgid ""
 "Once the options are set, click :guilabel:`Save` to save the favorited "
 "search."
 msgstr ""
-"Una vez que las opciones estén configuradas, haga clic "
-"en :guilabel:`Guardar` para guardar la búsqueda en favoritos."
+"Una vez que las opciones estén configuradas, haga clic en "
+":guilabel:`Guardar` para guardar la búsqueda en favoritos."
 
 #: ../../content/applications/essentials/search.rst:None
 msgid "Saving a favorite search on the Sales Analysis report."
@@ -6522,14 +6511,13 @@ msgid ""
 "appropriate."
 msgstr ""
 "Para editar, archivar o eliminar una búsqueda favorita, pasa el cursor sobre "
-"su nombre en la lista de favoritos y haz clic en :icon:`fa-"
-"pencil` :guilabel:`(Editar favorito)`. Puedes modificar los "
-"campos :guilabel:`Nombre del filtro`, :ref:`Compartido con <search/favorites-"
-"share>`, :guilabel:`Filtro predeterminado` y :guilabel:`Dominio`. Para "
-"archivar o eliminar el favorito, haz clic en :icon:`fa-"
-"cog` :guilabel:`(Acciones)` y luego en :icon:`oi-"
-"archive` :guilabel:`Archivar` o :icon:`fa-trash` :guilabel:`Eliminar` según "
-"corresponda."
+"su nombre en la lista de favoritos y haz clic en :icon:`fa-pencil` "
+":guilabel:`(Editar favorito)`. Puedes modificar los campos :guilabel:`Nombre "
+"del filtro`, :ref:`Compartido con <search/favorites-share>`, "
+":guilabel:`Filtro predeterminado` y :guilabel:`Dominio`. Para archivar o "
+"eliminar el favorito, haz clic en :icon:`fa-cog` :guilabel:`(Acciones)` y "
+"luego en :icon:`oi-archive` :guilabel:`Archivar` o :icon:`fa-trash` "
+":guilabel:`Eliminar` según corresponda."
 
 #: ../../content/applications/essentials/search.rst:283
 msgid ""
@@ -6541,9 +6529,9 @@ msgid ""
 msgstr ""
 "Cuando una búsqueda favorita está activa, puedes aplicar otros filtros o "
 "grupos para mejorar los resultados. También puedes modificar las condiciones "
-"de la búsqueda favorita si pasas el cursor sobre el icono :icon:`fa-"
-"star` :guilabel:`(estrella)` ubicado junto al nombre de la búsqueda y haces "
-"clic en el icono :icon:`fa-cog` :guilabel:`(engranaje)`. Estos cambios solo "
+"de la búsqueda favorita si pasas el cursor sobre el icono :icon:`fa-star` "
+":guilabel:`(estrella)` ubicado junto al nombre de la búsqueda y haces clic "
+"en el icono :icon:`fa-cog` :guilabel:`(engranaje)`. Estos cambios solo "
 "afectan la búsqueda actual."
 
 #: ../../content/applications/essentials/search.rst:287
@@ -6595,8 +6583,8 @@ msgstr ""
 "En el campo :guilabel:`Compartido con`, selecciona los usuarios "
 "correspondientes del menú desplegable y luego haz clic en :icon:`fa-cloud-"
 "upload` :guilabel:`(Guardar de forma manual)`. Ahora todos los usuarios "
-"seleccionados podrán ver este favorito en la sección :icon:`fa-"
-"star` :guilabel:`Favoritos`."
+"seleccionados podrán ver este favorito en la sección :icon:`fa-star` "
+":guilabel:`Favoritos`."
 
 #: ../../content/applications/essentials/stages.rst:3
 msgid "Stages"
@@ -6634,8 +6622,8 @@ msgid ""
 "developer mode`."
 msgstr ""
 "**Debe** habilitar el :ref:`modo de desarrollador <developer-mode>` para "
-"acceder al menú de etapas. Para activar el modo de desarrollador vaya "
-"a :menuselection:`Ajustes --> Ajustes generales --> Herramientas de "
+"acceder al menú de etapas. Para activar el modo de desarrollador vaya a "
+":menuselection:`Ajustes --> Ajustes generales --> Herramientas de "
 "desarrollador` y haga clic en :guilabel:`Activar modo de desarrollador`."
 
 #: ../../content/applications/essentials/stages.rst:19
@@ -6643,8 +6631,8 @@ msgid ""
 "To view or modify stages, go to the desired app and go "
 "to :menuselection:`Configuration --> Stages`."
 msgstr ""
-"Para ver o modificar las etapas, abre la aplicación que quieras y ve "
-"a :menuselection:`Configuración --> Etapas`."
+"Para ver o modificar las etapas, abre la aplicación que quieras y ve a "
+":menuselection:`Configuración --> Etapas`."
 
 #: ../../content/applications/essentials/stages.rst:21
 msgid ""
@@ -6713,6 +6701,9 @@ msgid ""
 "instance, **CRM** and **Helpdesk** apps. This feature is automatically "
 "disabled by setting it to zero."
 msgstr ""
+"La función *Días para deteriorarse* solo está disponible para aplicaciones "
+"que usan etapas, por ejemplo, **CRM** y **Soporte al cliente**. Esta función "
+"se desactiva en automático si se configura como 0."
 
 #: ../../content/applications/essentials/stages.rst:50
 msgid ""
@@ -6739,8 +6730,8 @@ msgid ""
 "icon."
 msgstr ""
 "La vista de kanban debe estar activa para poder usar esta función. Ve a la "
-"aplicación deseada y haz clic en el icono :icon:`oi-view-"
-"kanban` :guilabel:`(Kanban)`."
+"aplicación deseada y haz clic en el icono :icon:`oi-view-kanban` :guilabel:`"
+"(Kanban)`."
 
 #: ../../content/applications/essentials/stages.rst:60
 msgid ""
@@ -6749,10 +6740,10 @@ msgid ""
 "select :guilabel:`Edit` from the drop-down menu. A configuration window will "
 "appear."
 msgstr ""
-"Para definir el límite de una etapa, haz clic en el icono :icon:`fa-"
-"gear` :guilabel:`(Ajustes)` de la etapa correspondiente y "
-"selecciona :guilabel:`Editar` en el menú desplegable, luego aparecerá una "
-"ventana de configuración."
+"Para definir el límite de una etapa, haz clic en el icono :icon:`fa-gear` "
+":guilabel:`(Ajustes)` de la etapa correspondiente y selecciona "
+":guilabel:`Editar` en el menú desplegable, luego aparecerá una ventana de "
+"configuración."
 
 #: ../../content/applications/essentials/stages.rst:64
 msgid ""
@@ -6761,8 +6752,8 @@ msgid ""
 "configuration."
 msgstr ""
 "Escribe el número de días que marca el límite antes de que se requiera una "
-"acción en el campo :guilabel:`Días para deteriorarse` . Haz clic "
-"en :guilabel:`Guardar` para aplicar la configuración."
+"acción en el campo :guilabel:`Días para deteriorarse` . Haz clic en "
+":guilabel:`Guardar` para aplicar la configuración."
 
 #: ../../content/applications/essentials/stages.rst:None
 msgid ""
@@ -6837,8 +6828,8 @@ msgid ""
 msgstr ""
 "Si agrega una :guilabel:`plantilla de correo electrónico` a una etapa, el "
 "cliente recibirá un correo electrónico preconfigurado cuando un ticket "
-"llegue a esa etapa en específico en el flujo. Del mismo modo, si agrega "
-"una :guilabel:`plantilla SMS`, se activará el envío de un mensaje de texto "
+"llegue a esa etapa en específico en el flujo. Del mismo modo, si agrega una "
+":guilabel:`plantilla SMS`, se activará el envío de un mensaje de texto "
 "previamente configurado al cliente."
 
 #: ../../content/applications/essentials/stages.rst:98
@@ -6848,8 +6839,8 @@ msgid ""
 "Refer to `SMS Pricing FAQ <https://iap-services.odoo.com/iap/sms/pricing>`_ "
 "for additional information."
 msgstr ""
-"El servicio de mensajes de texto SMS necesita créditos prepagados "
-"de :doc:`compras dentro de la aplicación (IAP) </applications/essentials/"
+"El servicio de mensajes de texto SMS necesita créditos prepagados de "
+":doc:`compras dentro de la aplicación (IAP) </applications/essentials/"
 "in_app_purchase/>` para funcionar. Consulte las `preguntas frecuentes sobre "
 "SMS <https://iap-services.odoo.com/iap/sms/pricing>`_ para obtener más "
 "información."
@@ -6880,8 +6871,8 @@ msgstr ""
 msgid ""
 "Follow the same steps to select, edit, or create an :guilabel:`SMS Template`."
 msgstr ""
-"Siga los mismos pasos para seleccionar, editar o crear "
-"una :guilabel:`plantilla SMS`."
+"Siga los mismos pasos para seleccionar, editar o crear una "
+":guilabel:`plantilla SMS`."
 
 #: ../../content/applications/essentials/stages.rst:None
 msgid "View of an SMS template setup page in Odoo Helpdesk."
@@ -6976,9 +6967,9 @@ msgid ""
 "select :guilabel:`Fold` from the drop-down menu."
 msgstr ""
 "Coloque el cursor en la parte superior de la etapa deseada para plegarla de "
-"forma temporal, luego haga clic en el icono :icon:`fa-"
-"gear` :guilabel:`(engranaje)` que aparece y seleccione :guilabel:`Plegar` en "
-"el menú desplegable."
+"forma temporal, luego haga clic en el icono :icon:`fa-gear` :guilabel:`"
+"(engranaje)` que aparece y seleccione :guilabel:`Plegar` en el menú "
+"desplegable."
 
 #: ../../content/applications/essentials/stages.rst:None
 msgid ""
@@ -7005,8 +6996,8 @@ msgid ""
 "form. More than one team may be selected, since the same stage can be "
 "assigned to multiple teams."
 msgstr ""
-"Selecciona un equipo en el campo :guilabel:`Equipos` en el formulario "
-"de :guilabel:`Etapas`. Puedes seleccionar más de un equipo, ya que la misma "
+"Selecciona un equipo en el campo :guilabel:`Equipos` en el formulario de "
+":guilabel:`Etapas`. Puedes seleccionar más de un equipo, ya que la misma "
 "etapa se puede asignar a varios equipos."
 
 #~ msgid ""

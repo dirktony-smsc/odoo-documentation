@@ -2,14 +2,15 @@
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
 # "Chloe Wang (chwa)" <chwa@odoo.com>, 2025, 2026.
-# "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# "Tiffany Chang (tic)" <tic@odoo.com>, 2025, 2026.
+# Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 18:30+0000\n"
-"PO-Revision-Date: 2026-04-03 23:21+0000\n"
-"Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
+"POT-Creation-Date: 2026-06-05 19:21+0000\n"
+"PO-Revision-Date: 2026-06-10 01:11+0000\n"
+"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-19-doc/administration/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../../content/administration.rst:8
 msgid "Database management"
@@ -849,7 +850,7 @@ msgstr ""
 "pricing>`_。"
 
 #: ../../content/administration/odoo_online.rst:78
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:526
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:525
 #: ../../content/administration/upgrade.rst:3
 msgid "Upgrade"
 msgstr "升级"
@@ -972,7 +973,7 @@ msgid ""
 msgstr "点击 :guilabel:`转让所有权` 创建支持工单，请求转让数据库所有权。"
 
 #: ../../content/administration/odoo_online.rst:145
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:818
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:817
 msgid "Delete"
 msgstr "删除"
 
@@ -2483,7 +2484,7 @@ msgstr ""
 "merging>` 章节。"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:37
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:504
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:503
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:48
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:149
 msgid "Production"
@@ -2566,7 +2567,7 @@ msgstr ""
 "阶段。"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:72
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:507
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:506
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:69
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:99
 msgid "Staging"
@@ -2662,21 +2663,19 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:116
 msgid ""
-"Databases created for staging branches are intended to last up to three "
-"months. After that, they can be automatically blocked without prior notice. "
-"Only rebuilding the branch will allow you to use that specific branch again."
+"Databases created for staging branches are automatically deleted after one "
+"month. To use the branch again, you must rebuild it."
 msgstr ""
-"测试分支所创建的数据库，有效期最长为三个月。期满后，系统可能在不提前通知的情"
-"况下自动冻结该数据库。若需重新使用此特定分支，您只能通过重建分支的方式实现。"
+"为分支创建的数据库会在一个月后自动删除。要再次使用该分支,您必须重新构建它。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:123
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:510
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:122
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:509
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:89
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:54
 msgid "Development"
 msgstr "开发"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:125
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:124
 msgid ""
 "Development branches create new databases using demo data to run the unit "
 "tests. The installed modules are those included in the branch. You can "
@@ -2686,7 +2685,7 @@ msgstr ""
 "开发分支会使用演示数据创建新数据库，以运行单元测试。安装的模块是分支中包含的"
 "那些。您可以在 :doc:`项目设置 <settings>`中更改要安装的模块列表。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:129
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:128
 msgid ""
 "When pushing a commit to a development branch, a new server is started, with "
 "a database created from scratch, and the branch is updated. The demo data is "
@@ -2700,7 +2699,7 @@ msgstr ""
 "能。您可以禁用测试，或通过前往 :ref:`分支设置 <odoo-sh/branches/tabs/"
 "settings>` 配置允许运行带有特定标签的测试。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:135
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:134
 msgid ""
 "Similarly to staging branches, emails are not sent but are intercepted by a "
 "mail catcher, and scheduled actions are not triggered as long as the "
@@ -2709,13 +2708,13 @@ msgstr ""
 "与预发布分支类似，邮件不会被发送，而是由邮件捕获器拦截；并且只要数据库未被使"
 "用，计划操作也不会触发。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:138
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:137
 msgid ""
 "Development databases are not automatically backed up, and manual backups "
 "are not possible."
 msgstr "开发数据库不会自动备份，也无法手动备份。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:141
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:140
 msgid ""
 "Databases created for development branches are intended to last "
 "approximately three days. After that, they can be automatically garbage-"
@@ -2724,11 +2723,11 @@ msgstr ""
 "为开发分支创建的数据库预计保留约三天。之后，它们可能会在不另行通知的情况下被"
 "自动垃圾回收，以便为新数据库腾出空间。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:148
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:147
 msgid "Merging branches"
 msgstr "合并分支"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:150
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:149
 msgid ""
 "You can merge your branches by dragging and dropping them into each other."
 msgstr "您可以通过拖放操作将分支相互合并。"
@@ -2737,13 +2736,13 @@ msgstr "您可以通过拖放操作将分支相互合并。"
 msgid "Merging branches into each other"
 msgstr "将分支相互合并"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:155
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:154
 msgid ""
 "To test the changes of development branches with the production data, you "
 "can either:"
 msgstr "若想用正式运行数据测试开发分支的更改，您可以："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:157
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:156
 msgid ""
 "Merge the development branch into a staging branch by dragging and dropping "
 "it onto the desired branch; or"
@@ -2753,7 +2752,7 @@ msgstr "将开发分支拖放到所需的分支上，将其合并到预发布分
 msgid "Merging a development branch into a staging branch"
 msgstr "将开发分支合并到预发布分支"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:163
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:162
 msgid ""
 "Drag and drop the development branch under the :guilabel:`Staging` section "
 "to make it a staging branch."
@@ -2763,13 +2762,13 @@ msgstr "将开发分支拖放到 :guilabel:`预发布` 部分，使其成为预�
 msgid "Moving a development branch under staging"
 msgstr "将开发分支移到预发布分支下"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:169
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:168
 msgid ""
 "When the changes are ready for production, drag and drop the staging branch "
 "into the production branch to merge and deploy them."
 msgstr "当更改准备好上线时，将预发布分支拖放到正式运行分支上以合并并部署它们。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:173
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:172
 msgid ""
 "You can merge development branches into the production branch directly. "
 "However, changes will not be validated against the production data through a "
@@ -2779,13 +2778,13 @@ msgstr ""
 "您也可以直接将开发分支合并到正式运行分支。但是，由于没有通过预发布分支使用正"
 "式运行数据进行验证，因此在正式运行数据库中出现问题的风险更高。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:176
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:175
 msgid ""
 "You can merge development branches into each other, and staging branches "
 "into each other."
 msgstr "开发分支可以相互合并，预发布分支也可以相互合并。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:177
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:176
 msgid ""
 "You can also use `git merge` directly on your workstation to merge your "
 "branches. Odoo.sh is notified when new revisions are pushed to your branches."
@@ -2793,7 +2792,7 @@ msgstr ""
 "您也可以直接在工作站上使用 `git merge` 命令来合并分支。当有新修订推送到您的分"
 "支时，Odoo.sh 会收到通知。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:180
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:179
 msgid ""
 "Merging a staging branch into the production branch only merges the source "
 "code. Any changes made to the staging database are not passed to the "
@@ -2804,7 +2803,7 @@ msgstr ""
 "不会传递到正式运行数据库。但是，如果您修改了代码仓库中的代码，则在合并时它会"
 "传递到正式运行分支。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:184
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:183
 msgid ""
 "If you test configuration changes in staging branches, and want them to be "
 "applied to the production branch, you have to, either:"
@@ -2812,7 +2811,7 @@ msgstr ""
 "如果您在预发布分支中测试了配置更改，并希望将其应用到正式运行分支，则必须采用"
 "以下方式之一："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:187
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:186
 msgid ""
 "Write the configuration changes in XML data files to overide the default "
 "configuration or views in the branch, and then increase the version of the "
@@ -2823,7 +2822,7 @@ msgstr ""
 "件（:file:`__manifest__.py`）中增加模块版本号，以便在将预发布分支合并到正式运"
 "行分支时触发模块更新。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:192
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:191
 msgid ""
 "This method is recommended for better scalability of your developments, as "
 "you will use the Git versioning features for all configuration changes, "
@@ -2832,29 +2831,29 @@ msgstr ""
 "推荐使用此方法，因为它能提高开发的可扩展性。您将为所有配置更改使用 Git 版本控"
 "制功能，从而确保更改的可追溯性。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:196
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:195
 msgid ""
 "Pass them manually from the staging database to the production one by "
 "copying and pasting them."
 msgstr "通过复制和粘贴，手动将更改从预发布数据库应用到正式运行数据库。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:201
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:200
 msgid "Tabs"
 msgstr "页卡"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:206
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:205
 msgid "History"
 msgstr "历史"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:208
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:207
 msgid "The :guilabel:`History` tab gives an overview of the branch history:"
 msgstr ":guilabel:`历史` 选项卡提供了分支历史的概览："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:210
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:209
 msgid "The commit messages and their authors"
 msgstr "提交信息及其作者"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:211
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:210
 msgid ""
 "The various events linked to the platform, such as stage changes, database "
 "imports, and backup restores"
@@ -2864,7 +2863,7 @@ msgstr "与平台相关的各种事件，例如阶段更改、数据库导入和
 msgid "The branches' history tab"
 msgstr "分支的历史选项卡示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:217
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:216
 msgid ""
 "A status in the top right corner of each event indicates the current "
 "operation on the database (e.g., installation, update, backup import) or its "
@@ -2876,19 +2875,19 @@ msgstr ""
 "份导入）或其结果（例如，测试反馈、成功的备份导入）。如果操作成功，会出现一"
 "个:guilabel:`连接` 按钮，允许您访问该数据库。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:225
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:401
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:224
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:400
 msgid "Mails"
 msgstr "邮件"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:227
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:226
 msgid ""
 "The :guilabel:`Mails` tab contains the mail catcher, which provides an "
 "overview of emails sent by the database."
 msgstr ""
 ":guilabel:`邮件` 选项卡包含邮件捕获器，用于展示数据库所发送邮件的概览。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:231
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:230
 msgid ""
 "The mail catcher is available for development and staging branches. Emails "
 "from the production database are actually sent and are not intercepted by "
@@ -2901,15 +2900,15 @@ msgstr ""
 msgid "The branches' mails tab"
 msgstr "分支的邮件选项卡示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:240
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:239
 msgid "Shell"
 msgstr "命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:242
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:241
 msgid "The :guilabel:`Shell` tab provides shell access to the container."
 msgstr ":guilabel:`命令` 选项卡提供了对容器的命令行访问权限。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:244
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:243
 msgid ""
 "Clicking :guilabel:`Shell` opens a new browser tab where you can run basic "
 "Linux commands (`ls`, `top`). You can open a shell on the database by "
@@ -2922,13 +2921,13 @@ msgstr ""
 msgid "The branches' shell tab"
 msgstr "分支的命令选项卡示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:251
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:250
 msgid ""
 "You can open multiple shell tabs at once and arrange their layout by "
 "dragging and dropping them."
 msgstr "您可以同时打开多个命令标签页，并通过拖放来排列它们的布局。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:254
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:253
 msgid ""
 "Production instance shells are highlighted in red to emphasize the danger of "
 "manipulating production instances directly, while staging/development "
@@ -2937,68 +2936,68 @@ msgstr ""
 "正式运行实例的命令行界面会以红色高亮显示，以强调直接操作正式运行实例的风险；"
 "而预发布/开发实例的命令行界面则以黄色高亮显示。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:257
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:256
 msgid ""
 "Long-running shell instances/idle shell sessions can be terminated at any "
 "time to free up resources."
 msgstr "长时间运行或空闲的命令行会话可能会随时被终止以释放资源。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:263
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:262
 msgid "Commands"
 msgstr "常用命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:265
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:264
 msgid ""
 "Here is an overview of useful commands that you can run an Odoo.sh database "
 "terminal:"
 msgstr "以下是一些可以在 Odoo.sh 数据库终端中运行的有用命令概览："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:267
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:266
 msgid "`odoo-bin shell`: to open an Odoo shell"
 msgstr "`odoo-bin shell`：打开 Odoo 命令行"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:268
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:267
 msgid "`odoo-update`: to update modules in the database"
 msgstr "`odoo-update`：更新数据库中的模块"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:269
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:268
 msgid "`odoosh-restart`: to restart Odoo.sh services (http or cron)"
 msgstr "`odoosh-restart`：重启 Odoo.sh 服务（http 或 cron）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:270
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:269
 msgid ""
 "`odoosh-storage`: to check the storage usage of your instance's container "
 "filesystem"
 msgstr "`odoosh-storage`：检查您实例容器文件系统的存储空间使用情况"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:271
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:270
 msgid "`psql`: to open a database shell"
 msgstr "`psql`：打开数据库命令行界面"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:272
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:271
 msgid ""
 "`mutt`: to check how emails appear on text clients (staging and development "
 "instances)"
 msgstr "`mutt`：查看邮件在文本客户端中的显示效果（适用于预发布和开发实例）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:273
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:272
 msgid ""
 "`lnav ~/logs/odoo.log`: to navigate in your instance's :file:`odoo.log` file"
 msgstr "`lnav ~/logs/odoo.log`：浏览您实例的 :file:`odoo.log` 日志文件"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:274
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:273
 msgid "`ncdu`: to launch the disk usage analyzer with an interactive interface"
 msgstr "`ncdu`：启动具有交互界面的磁盘使用情况分析器"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:275
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:274
 msgid "`grep`: to filter and find information in log or configuration files"
 msgstr "`grep`：在日志或配置文件中筛选和查找信息"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:280
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:279
 msgid "Editor"
 msgstr "编辑"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:282
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:281
 msgid ""
 "Clicking :guilabel:`Editor` opens a new browser tab to access an online "
 "integrated development environment (IDE) to edit the source code. You can "
@@ -3011,27 +3010,27 @@ msgstr ""
 msgid "The branches' editor tab"
 msgstr "分支的编辑选项卡示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:289
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:288
 msgid ""
 "You can open multiple tabs and drag and drop them to arrange the layout as "
 "you wish."
 msgstr "您可以打开多个标签页，并通过拖放按需排列布局。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:292
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:291
 msgid ":doc:`Online editor documentation <online_editor>`."
 msgstr ":doc:`在线编辑器说明文档 <online_editor>`."
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:297
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:296
 msgid "Monitor"
 msgstr "监控"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:299
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:298
 msgid ""
 "The :guilabel:`Monitor` tab displays various performance monitoring metrics "
 "of the current build."
 msgstr ":guilabel:`监控` 选项卡显示当前构建的各项性能监控指标。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:301
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:300
 msgid ""
 "Zoom in with your cursor to adjust the time range or select it manually from "
 "the time range selector. It is also possible to change the time zone."
@@ -3043,7 +3042,7 @@ msgstr ""
 msgid "The time range selector in the branches monitor tab"
 msgstr "分支监控选项卡中的时间范围选择器示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:308
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:307
 msgid ""
 "Technical logs always use the :abbr:`UTC (Coordinated Universal Time)`. To "
 "analyze these logs together with your monitoring metrics, ensure :abbr:`UTC "
@@ -3052,7 +3051,7 @@ msgstr ""
 "技术日志始终使用 :abbr:`UTC（协调世界时）`。为了将这些日志与您的监控指标一起"
 "分析，请确保在监控工具中选择了 :abbr:`UTC（协调世界时）`。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:311
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:310
 msgid ""
 "Similarly, when sending a support ticket, ensure the information you share "
 "is based on :abbr:`UTC (Coordinated Universal Time)`, as Odoo uses this time "
@@ -3061,7 +3060,7 @@ msgstr ""
 "同样，当提交技术支持请求时，请确保您分享的信息基于 :abbr:`UTC（协调世界时）"
 "`，因为 Odoo 使用此时区来调查性能问题。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:315
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:314
 msgid ""
 "The information is aggregated periodically. When this is the case, a blue "
 "dotted line is displayed, along with the tag :guilabel:`Aggregate Date`. "
@@ -3074,7 +3073,7 @@ msgstr ""
 "聚合日期` 标签。这意味着此日期之前的数据与之后的数据相比会显得较为平缓。因"
 "此，在使用监控工具时，建议重点关注最近的事件，以获取尽可能详细的信息。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:321
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:320
 msgid ""
 "Dotted Lines of other colors help you relate to other changes on the build "
 "(database import, git push, etc.)."
@@ -3085,7 +3084,7 @@ msgstr ""
 msgid "CPU monitoring aggregated data"
 msgstr "CPU监控聚合数据示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:328
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:327
 msgid ""
 "On each graph, an 𝕚 (:guilabel:`information`) icon is displayed in the top-"
 "left corner. Hover your mouse over it to get more details about what the "
@@ -3094,25 +3093,25 @@ msgstr ""
 "在每个图表上，左上角会显示一个 𝕚（:guilabel:`信息`）图标。将鼠标悬停在该图标"
 "上，可以获取有关该图表所代表内容的更多详细信息。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:334
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:333
 msgid "Metrics"
 msgstr "指标"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:339
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:338
 msgid "System"
 msgstr "系统"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:341
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:340
 msgid ""
 "The :guilabel:`Memory` graph displays information about memory consumption:"
 msgstr ":guilabel:`内存` 图表显示内存消耗信息："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:343
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:342
 msgid ""
 ":guilabel:`Memory container` represents Odoo workers and container processes."
 msgstr ":guilabel:`容器内存` 代表 Odoo 工作进程和容器进程。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:344
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:343
 msgid ":guilabel:`Memory postgresql` represents the database."
 msgstr ":guilabel:`PostgreSQL 内存`代表数据库。"
 
@@ -3120,24 +3119,24 @@ msgstr ":guilabel:`PostgreSQL 内存`代表数据库。"
 msgid "The memory graph in the monitor tab"
 msgstr "监控选项卡中的内存图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:349
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:348
 msgid "The :guilabel:`CPU` graph displays information about CPU consumption:"
 msgstr ":guilabel:`CPU` 图表显示 CPU 消耗信息："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:351
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:350
 msgid ":guilabel:`CPU http` represents Odoo workers."
 msgstr ":guilabel:`CPU http`代表 Odoo 工作进程。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:352
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:351
 msgid ""
 ":guilabel:`CPU cron/mail` represents scheduled actions and incoming emails."
 msgstr ":guilabel:`CPU cron/邮件` 代表计划操作和接收邮件。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:353
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:352
 msgid ":guilabel:`CPU postgresql` (database processes)"
 msgstr ":guilabel:`PostgreSQL CPU`（数据库进程）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:354
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:353
 msgid ":guilabel:`CPU other` represents webshells, the editor, etc."
 msgstr ":guilabel:`其他 CPU` 代表网页命令行、编辑器等。"
 
@@ -3145,17 +3144,17 @@ msgstr ":guilabel:`其他 CPU` 代表网页命令行、编辑器等。"
 msgid "The cpu graph in the monitor tab"
 msgstr "监控选项卡中的 CPU 图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:359
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:358
 msgid ""
 "The :guilabel:`Storage` graph displays information about the storage used:"
 msgstr ":guilabel:`存储` 图表显示存储空间使用情况："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:361
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:360
 msgid ""
 ":guilabel:`Container` represents the filestore, log files, and user files."
 msgstr ":guilabel:`容器` 代表文件存储、日志文件和用户文件。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:362
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:361
 msgid ":guilabel:`Postgresql` represents the database and indexes."
 msgstr ":guilabel:`PostgreSQL` 代表数据库及索引。"
 
@@ -3163,27 +3162,26 @@ msgstr ":guilabel:`PostgreSQL` 代表数据库及索引。"
 msgid "The storage graph in the monitor tab"
 msgstr "监控选项卡中的存储图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:370
-#, fuzzy
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:369
 msgid "HTTP"
 msgstr "HTTP"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:372
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:371
 msgid ""
 "The :guilabel:`Requests` graph displays information about the number of HTTP "
 "requests per second:"
 msgstr ":guilabel:`请求`图表显示每秒 HTTP 请求数量的信息："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:374
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:373
 msgid ":guilabel:`HTTP successes` represents successful requests."
 msgstr ":guilabel:`HTTP 成功` 代表成功的请求。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:375
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:374
 msgid ""
 ":guilabel:`HTTP errors` represents failed requests (check :file:`odoo.log`)."
 msgstr ":guilabel:`HTTP 错误` 代表失败的请求（请检查 :file:`odoo.log` 日志）。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:376
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:375
 msgid ""
 ":guilabel:`HTTP rate limited` represents declined requests, possibly due to "
 "lack of workers."
@@ -3193,7 +3191,7 @@ msgstr ":guilabel:`HTTP 被限制` 代表被拒绝的请求，可能由于工作
 msgid "The requests graph in the monitor tab"
 msgstr "监控选项卡中的请求图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:381
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:380
 msgid ""
 "The :guilabel:`Concurrent requests (max)` graph displays the maximum number "
 "of concurrent HTTP requests per second."
@@ -3203,7 +3201,7 @@ msgstr ":guilabel:`并发请求（最大）`图表显示每秒最大并发 HTTP 
 msgid "The concurrent rquests graph in the monitor tab"
 msgstr "监控选项卡中的并发请求图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:388
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:387
 msgid ""
 "Database workers determine the number of concurrent requests that can be "
 "managed simultaneously. It is essential to have enough workers to handle all "
@@ -3214,7 +3212,7 @@ msgstr ""
 "到达的传入请求至关重要。然而，超过此数量的额外工作进程并不会提高请求处理速"
 "度。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:392
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:391
 msgid ""
 "The :guilabel:`Average Response time` displays the average response time to "
 "HTTP requests (in milliseconds)."
@@ -3224,17 +3222,17 @@ msgstr ":guilabel:`平均响应时间`显示 HTTP 请求的平均响应时间（
 msgid "The average response time graph in the monitor tab"
 msgstr "监控选项卡中的平均响应时间图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:403
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:402
 msgid ""
 "The :guilabel:`Incoming` graph displays data about the daily number of "
 "incoming emails:"
 msgstr ":guilabel:`入站邮件` 图表显示每日入站邮件数量的数据："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:405
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:404
 msgid ":guilabel:`Received Emails` represents emails successfuly received."
 msgstr ":guilabel:`已接收邮件` 代表成功接收的邮件。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:406
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:405
 msgid ""
 ":guilabel:`Received Emails bounced` represents emails unsuccessfully "
 "received."
@@ -3244,17 +3242,17 @@ msgstr ":guilabel:`已接收邮件退信` 代表接收失败的邮件。"
 msgid "The incoming graph in the monitor tab"
 msgstr "监控选项卡中的入站邮件图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:411
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:410
 msgid ""
 "The :guilabel:`Outgoing` graph displays data about the daily number of "
 "outgoing emails:"
 msgstr ":guilabel:`出站邮件` 图表显示每日出站邮件数量的数据："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:413
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:412
 msgid ":guilabel:`Sent Emails` represents emails successfully sent."
 msgstr ":guilabel:`已发送邮件` 代表成功发送的邮件。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:414
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:413
 msgid ":guilabel:`Sent Emails bounced` represents emails unsuccessfully sent."
 msgstr ":guilabel:`已发送邮件退信` 代表发送失败的邮件。"
 
@@ -3262,11 +3260,11 @@ msgstr ":guilabel:`已发送邮件退信` 代表发送失败的邮件。"
 msgid "The outgoing graph in the monitor tab"
 msgstr "监控选项卡中的出站邮件图表示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:422
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:421
 msgid "Logs"
 msgstr "日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:424
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:423
 msgid "The :guilabel:`Logs` tab offers a real-time view of your server's logs."
 msgstr ":guilabel:`日志` 选项卡提供服务器日志的实时查看界面。"
 
@@ -3274,45 +3272,45 @@ msgstr ":guilabel:`日志` 选项卡提供服务器日志的实时查看界面�
 msgid "The branches log tab"
 msgstr "分支的日志选项卡示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:429
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:428
 msgid "Different logs are available:"
 msgstr "可以使用不同的日志："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:431
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:430
 msgid "`pip.log`: the Python dependencies installation"
 msgstr "`pip.log`：Python 依赖项的安装日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:432
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:431
 msgid ""
 "`install.log`: the database installation (for development branches, tests "
 "are included)"
 msgstr "`install.log`：数据库安装日志（对于开发分支，包含测试日志）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:433
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:432
 msgid "`odoosh-import-database.log`: the last imported dump process"
 msgstr "`odoosh-import-database.log`：最后一次导入数据库转储的进程日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:434
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:433
 msgid "`odoo.log`: the running server"
 msgstr "`odoo.log`：正在运行的服务器的日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:435
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:434
 msgid "`update.log`: the database updates"
 msgstr "`update.log`：数据库更新日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:436
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:435
 msgid "`pg_slow_queries.log`: psql queries that take an unusual amount of time"
 msgstr "`pg_slow_queries.log`：耗时异常的 PostgreSQL 查询日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:437
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:436
 msgid "`sh_webshell.log`:  the actions taken in the webshell"
 msgstr "`sh_webshell.log`：在网页命令行中执行的操作日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:438
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:437
 msgid "`sh_editor.log`: the actions taken in the editor"
 msgstr "`sh_editor.log`：在编辑器中执行的操作日志"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:439
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:438
 msgid "`neutralize.log`: the neutralization of the database (only staging)"
 msgstr "`neutralize.log`：数据库中和化过程日志（仅预发布环境）"
 
@@ -3320,7 +3318,7 @@ msgstr "`neutralize.log`：数据库中和化过程日志（仅预发布环境�
 msgid "Logs scrolling automatically"
 msgstr "日志自动滚动"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:444
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:443
 msgid ""
 "When new lines are added to the logs, they are displayed automatically. If "
 "you scroll to the bottom, the browser scrolls automatically each time a new "
@@ -3329,7 +3327,7 @@ msgstr ""
 "当日志新增内容时，系统会自动显示。如果您已滚动至日志底部，浏览器将在每次添加"
 "新行时自动滚动更新。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:447
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:446
 msgid ""
 "You can pause the logs fetching process by clicking the :icon:`fa-pause` "
 "(:guilabel:`pause`) button in the upper right corner. Otherwise, the process "
@@ -3340,11 +3338,11 @@ msgstr ""
 "该过程将在五分钟后自动停止。点击 :icon:`fa-play`（:guilabel:`播放`）按钮可重"
 "新开始。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:454
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:453
 msgid "Backups"
 msgstr "备份"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:456
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:455
 msgid ""
 "The :guilabel:`Backups` tab lists the available backups to download and "
 "restore, lets you perform a manual backup and import a database."
@@ -3356,7 +3354,7 @@ msgstr ""
 msgid "The branches backups tab"
 msgstr "分支的备份选项卡示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:462
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:461
 msgid ""
 "The production database is automatically backed up daily. Seven daily, four "
 "weekly, and three monthly backups are kept. Each backup includes the "
@@ -3366,7 +3364,7 @@ msgstr ""
 "正式运行数据库每日会自动备份。系统将保留7份每日备份、4份每周备份以及3份每月备"
 "份。每次备份均包含数据库转储、文件存储（附件与二进制字段）、日志及会话。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:467
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:466
 msgid ""
 "You can refer to `the estimated scheduling of automatic backups <https://"
 "docs.google.com/spreadsheets/d/e/"
@@ -3380,7 +3378,7 @@ msgstr ""
 "QSHkX3RTTVqKMIExy/pubhtml?gid=0&single=true>`_ 以进一步了解其运行机制。该文件"
 "每日更新，并以当天作为起始计算点。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:471
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:470
 msgid ""
 "Staging and development databases are not automatically backed up. However, "
 "you can restore a backup of the production database in your staging "
@@ -3390,7 +3388,7 @@ msgstr ""
 "预发布与开发数据库不会自动备份。但出于测试需要，或为手动恢复正式运行数据库中"
 "意外删除的数据，您可以在预发布分支中恢复正式运行数据库的备份。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:475
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:474
 msgid ""
 "The list contains the backups kept on the server of your production "
 "database. This server only keeps one month of backups: seven daily and four "
@@ -3399,7 +3397,7 @@ msgstr ""
 "列表中包含的是您正式运行数据库服务器上保存的备份。该服务器仅保留一个月内的备"
 "份：即7份每日备份和4份每周备份。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:478
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:477
 msgid ""
 "Dedicated backup servers keep the same backups, as well as three additional "
 "monthly backups. To restore or download one of these monthly backups, "
@@ -3408,7 +3406,7 @@ msgstr ""
 "专用备份服务器会保存相同的备份，并额外保留3份每月备份。如需恢复或下载这些月度"
 "备份，请联系 Odoo 技术支持 <https://www.odoo.com/help>_。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:482
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:481
 msgid ""
 "When merging a commit updating the version of one or several modules "
 "(in :file:`__manifest__.py`), or their linked Python dependencies "
@@ -3423,7 +3421,7 @@ msgstr ""
 "动备份（在列表中标记为 Update 类型）。这是因为安装新的 pip 包会更改容器，或随"
 "后触发的模块更新会更改数据库本身。这两种情况都可能引发问题，因此将触发备份。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:488
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:487
 msgid ""
 "If the merged commit does not update the version of a module or linked "
 "dependencies, then no backup is triggered by Odoo.sh, as neither the "
@@ -3435,7 +3433,7 @@ msgstr ""
 "据库均未修改；因此平台认为这足够安全。为额外保险起见，您可以在修改正式运行源"
 "代码之前手动创建备份。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:493
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:492
 msgid ""
 "The purpose of manual backups is to create a specific snapshot of production "
 "or staging databases (not available for development). These remain available "
@@ -3444,50 +3442,50 @@ msgstr ""
 "手动备份的目的是为正式运行或预发布数据库（不适用于开发环境）创建特定的快照。"
 "这些备份会保留七天，但每日手动备份限制为五次。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:501
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:500
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:49
 msgid "Stage"
 msgstr "环境阶段"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:502
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:501
 msgid "Automatic backup"
 msgstr "自动备份"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:503
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:502
 msgid "Manual backup"
 msgstr "手动备份"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:505
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:504
 msgid "Yes (up to 3 months)"
 msgstr "是（最长保留3个月）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:506
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:509
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:505
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:508
 msgid "Yes (3 days)"
 msgstr "是（保留3天）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:508
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:507
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:510
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:511
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:512
 msgid "No"
 msgstr "否"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:514
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:513
 msgid "The :guilabel:`Import Database` feature accepts database archives from:"
 msgstr ":guilabel:`导入数据库` 功能支持从以下来源导入数据库存档："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:516
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:515
 msgid ""
 "the standard Odoo database manager (available for on-premise Odoo servers "
 "under `/web/database/manager`)"
 msgstr ""
 "标准 Odoo 数据库管理器（本地 Odoo 服务器可通过 /web/database/manager 访问）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:518
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:517
 msgid "the Odoo Online databases manager"
 msgstr "Odoo 在线版数据库管理器"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:519
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:518
 msgid ""
 "the Odoo.sh :guilabel:`Backups` tab (using the :icon:`fa-download` "
 "(:guilabel:`Download Options`) button)"
@@ -3495,13 +3493,13 @@ msgstr ""
 "Odoo.sh 的 :guilabel:`备份` 选项卡（使用 :icon:`fa-download`（:guilabel:`下载"
 "选项`）按钮）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:521
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:520
 msgid ""
 "the Odoo.sh :doc:`Builds <builds>` view (by clicking :guilabel:`Download DB "
 "dump`)"
 msgstr "Odoo.sh 的 :doc:`构建 <builds>`视图（点击 :guilabel:`下载数据库转储`）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:528
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:527
 msgid ""
 "The :guilabel:`Upgrade` tab can be used to upgrade production and staging "
 "branches of valid projects. For more information about the upgrade process, "
@@ -3514,11 +3512,11 @@ msgstr ""
 msgid "The branches upgrade tab"
 msgstr "分支的升级选项卡"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:538
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:537
 msgid "Tools"
 msgstr "工具"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:540
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:539
 msgid ""
 "The :guilabel:`Tools` tab contains the code profiler. It is used to start a "
 "profiling session, recording the activities of Odoo workers running in the "
@@ -3534,7 +3532,7 @@ msgstr ""
 msgid "Using the code profiler"
 msgstr "使用代码性能分析器示意图"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:548
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:547
 msgid ""
 "After each session, an interactive flame graph is created to help you "
 "visualize how the Odoo workers allocate their time."
@@ -3542,7 +3540,7 @@ msgstr ""
 "每次会话结束后，系统会生成一个交互式火焰图，帮助您直观了解 Odoo 工作进程的时"
 "间分配情况。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:552
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:551
 msgid ""
 "Running the profiler consumes a lot of server resources, so avoid letting it "
 "run for too long. The goal is to record a specific action in your database."
@@ -3550,12 +3548,12 @@ msgstr ""
 "运行分析器会消耗大量服务器资源，因此请避免让其运行过长时间。其目的是记录您在"
 "数据库中的特定操作。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:558
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:557
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:3
 msgid "Settings"
 msgstr "设置"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:560
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:559
 msgid ""
 "The :guilabel:`Settings` tab lists the configuration options available for "
 "the currently selected branch. The options vary for each stage."
@@ -3567,17 +3565,17 @@ msgstr ""
 msgid "The branches settings tab"
 msgstr "分支的设置选项卡"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:569
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:568
 msgid "Behavior upon new commits"
 msgstr "新提交时的行为"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:571
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:570
 msgid ""
 "You can change the branch's behavior upon receiving a new commit for "
 "**development** and **staging** branches."
 msgstr "您可以更改**开发**分支和**预发布**分支在接收到新提交时的行为。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:574
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:573
 msgid ""
 "By default, a **development** branch creates a new build and a staging "
 "branch updates the previous build. This is useful if the feature you are "
@@ -3588,7 +3586,7 @@ msgstr ""
 "果您正在开发的功能需要特定配置，这将非常有用，因为您无需在每次提交后重新手动"
 "配置。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:578
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:577
 msgid ""
 "If you select :guilabel:`New build` for a **staging** branch, a fresh copy "
 "of the production build is created every time a commit is pushed."
@@ -3596,18 +3594,18 @@ msgstr ""
 "如果您为**预发布**分支选择 :guilabel:`新建构建`，则每次推送提交时都会创建一个"
 "正式运行构建的新副本。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:581
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:580
 msgid ""
 "A branch that is moved from **staging** to **development** is set "
 "automatically to :guilabel:`Do nothing`."
 msgstr ""
 "从**预发布**移至**开发**环境的分支，会自动设置为 :guilabel:`不执行任何操作`。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:587
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:586
 msgid "Module installation"
 msgstr "模块安装"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:589
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:588
 msgid ""
 "You can choose which modules should be installed automatically for "
 "**development** branches."
@@ -3617,7 +3615,7 @@ msgstr "您可以针对**开发**分支，选择应自动安装哪些模块。"
 msgid "The settings tab module installation"
 msgstr "设置选项卡的模块安装部分"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:594
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:593
 msgid ""
 "To change the default behavior, untick the :guilabel:`Use Default` option "
 "under :guilabel:`Development build behavior` and select one of the following "
@@ -3626,7 +3624,7 @@ msgstr ""
 "要更改默认行为，请取消勾选 :guilabel:`开发构建行为` 下的 :guilabel:`使用默认"
 "设置` 选项，然后在 :guilabel:`模块安装`下选择以下选项之一："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:598
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:597
 msgid ""
 ":guilabel:`Install only my modules (does not include submodules)`: only "
 "installs the branch's modules, excluding :doc:`submodules <../advanced/"
@@ -3635,7 +3633,7 @@ msgstr ""
 ":guilabel:`仅安装我的模块（不包含子模块）`：仅安装该分支的模块，不包括 :doc:`"
 "子模块 <../advanced/submodules>`。此为默认选项。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:600
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:599
 msgid ""
 ":guilabel:`Full installation (no test suite)`: installs the branch's "
 "modules, submodules, and all standard Odoo modules. When running the full "
@@ -3644,7 +3642,7 @@ msgstr ""
 ":guilabel:`完整安装（不运行测试套件）`：安装该分支的模块、子模块以及所有标准 "
 "Odoo 模块。执行完整安装时，测试套件将被禁用。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:602
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:601
 msgid ""
 ":guilabel:`Install a list of modules`: installs the specified modules. To do "
 "so, enter their technical name, and separate them using commas (e.g., "
@@ -3653,17 +3651,17 @@ msgstr ""
 ":guilabel:`安装指定模块列表`：安装指定的模块。为此，请输入模块的技术名称，并"
 "使用逗号分隔（例如：`sale_management,website,accountant`）。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:606
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:605
 msgid ""
 "If the test suite is enabled, installing all standard Odoo modules can take "
 "up to one hour."
 msgstr "如果启用了测试套件，安装所有标准 Odoo 模块可能耗时长达一小时。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:611
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:610
 msgid "Test suite"
 msgstr "测试套件"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:613
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:612
 msgid ""
 "By default, the test suite for **development** branches is enabled. You can "
 "restrict which tests are run by entering :ref:`test tags <developer/"
@@ -3674,18 +3672,18 @@ msgstr ""
 "<developer/reference/testing/selection>` 并用逗号分隔（例如："
 "`custom_tags,at_install,post_install`）来限制运行的测试范围。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:617
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:616
 msgid ""
 "To disable the test suite entirely, untick :guilabel:`Validate the test "
 "suite on new builds`."
 msgstr ""
 "若需完全禁用测试套件，取消勾选 :guilabel:`新版本构建时验证测试套件选项`即可。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:622
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:621
 msgid "Odoo version"
 msgstr "Odoo 版本"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:624
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:623
 msgid ""
 "You can change the version of Odoo for **development** branches, for "
 "example, to test upgraded code or develop features while your production "
@@ -3695,7 +3693,7 @@ msgstr ""
 "你可以为**开发**分支更换 Odoo 版本，例如正式运行数据库升级至新版本的过程中，"
 "测试已升级的代码或开发新功能，操作方式为选择其他 :guilabel:`版本`选项。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:628
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:627
 msgid ""
 "By default, :guilabel:`Latest` is selected as the :guilabel:`Revision`, and "
 "the sources of your Odoo server are updated weekly automatically to benefit "
@@ -3704,13 +3702,13 @@ msgstr ""
 "系统默认将 :guilabel:`修订版本`设置为 :guilabel:`最新版`，Odoo 服务器源码会每"
 "周自动更新，以整合最新的漏洞修复、安全补丁与性能优化。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:632
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:631
 msgid ""
 "To choose a specific revision instead, select it using "
 "the :guilabel:`Revision` field."
 msgstr "若需指定特定修订版本，直接在 :guilabel:`修订版本`字段中选择即可。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:635
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:634
 msgid ""
 "Revisions expire after three months. You will be notified by email when the "
 "revision's expiration date approaches. If you have not taken any action when "
@@ -3724,11 +3722,11 @@ msgstr ""
 msgid "The settings tab revisions"
 msgstr "设置选项卡修订"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:645
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:644
 msgid "Custom domains"
 msgstr "自定义域"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:647
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:646
 msgid ""
 "You can configure additional `<name>.odoo.com` domains or your own custom "
 "domains for all branch types."
@@ -3736,15 +3734,15 @@ msgstr ""
 "你可以为所有类型的分支，配置额外的 `<name>.odoo.com` 格式域名，或使用自有自定"
 "义域名。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:650
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:649
 msgid "To use your own custom domain, it is necessary to:"
 msgstr "使用自有自定义域名，需完成以下步骤："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:652
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:651
 msgid "Own or purchase the domain name."
 msgstr "拥有或购买域名。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:653
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:652
 msgid ""
 "Enter the domain name under :guilabel:`Custom domains` (e.g., "
 "`www.mycompany.com`), then click :guilabel:`Add domain`."
@@ -3752,7 +3750,7 @@ msgstr ""
 "在 :guilabel:`自定义域名` 下输入域名（例如，`www.mycompany.com`），然后点"
 "击 :guilabel:`添加域名`。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:655
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:654
 msgid ""
 "Configure the domain name (e.g., `www.mycompany.com`) using your registrar's "
 "domain name manager with a **CNAME** record value set to your production "
@@ -3761,7 +3759,7 @@ msgstr ""
 "使用注册商的域名管理器配置域名（如 `www.mycompany.com`），并将 **CNAME** 记录"
 "值设置为生产数据库域名（如 `mycompany.odoo.com`）。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:660
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:659
 msgid ""
 "Bare domains (e.g., `mycompany.com`) are not accepted. They can only be "
 "configured using **A** records, which only accept IP addresses as their "
@@ -3773,7 +3771,7 @@ msgstr ""
 "记录的值必须为固定 IP 地址。由于数据库的 IP 地址可能发生变动（例如系统升级、"
 "硬件故障、数据库托管位置迁移等情况），裸域名可能会突然无法访问。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:665
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:664
 msgid ""
 "To have both your bare domain (e.g., `mycompany.com`) and *www* domain "
 "(e.g., `www.mycompany.com`) working, it is necessary to redirect the bare "
@@ -3784,12 +3782,11 @@ msgstr ""
 "`www.mycompany.com`），需将裸域名重定向至带* www* 前缀的域名。多数域名管理工"
 "具均支持配置此项功能，该功能通常被称为网页重定向。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:672
-#, fuzzy
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:671
 msgid "HTTPS/SSL"
 msgstr "HTTPS/SSL"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:674
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:673
 msgid ""
 "If the redirection is correctly set up, an SSL certificate is automatically "
 "generated using `Let's Encrypt <https://letsencrypt.org/about>`_ within the "
@@ -3798,11 +3795,11 @@ msgstr ""
 "如果重定向设置正确，SSL 证书将在一小时内使用 `Let's Encrypt <https://"
 "letsencrypt.org/about>`_自动生成，这意味着您的域名可以通过 HTTPS 访问。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:681
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:680
 msgid "SPF and DKIM compliance"
 msgstr "SPF 和 DKIM 合规"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:683
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:682
 msgid ""
 "If the domain of your email addresses uses the :abbr:`SPF (Sender Policy "
 "Framework)` or :abbr:`DKIM (DomainKeys Identified Mail)` authentication "
@@ -3818,17 +3815,17 @@ msgstr ""
 "DNS 记录以发送电子邮件 <.../../../applications/general/email_communication/"
 "email_domain>` 。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:690
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:689
 msgid ""
 "If Odoo is not authorized as a sending host, your outgoing emails may be "
 "flagged as spam."
 msgstr "如果 Odoo 未被授权为发送主机，您的外发邮件可能会被标记为垃圾邮件。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:695
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:694
 msgid "Shell commands"
 msgstr "Shell 命令快捷方式"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:697
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:696
 msgid ""
 "In the top right corner of the view, several shell commands are displayed. "
 "The commands can be copied using the clipboard button and then used in a "
@@ -3842,41 +3839,41 @@ msgstr ""
 msgid "The branches shell commands shortcuts"
 msgstr "分支 Shell 命令快捷方式"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:707
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:706
 msgid "Clone"
 msgstr "克隆"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:709
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:708
 msgid ""
 "The clone command is used to create a local copy of your Git repository."
 msgstr "克隆命令用于为你的 Git 代码仓库创建本地副本。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:716
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:715
 msgid "`--recurse-submodules` to download the submodules of your repository"
 msgstr "`--recurse-submodules`：下载代码仓库中的子模块"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:717
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:716
 msgid ""
 "`--branch main` to check out to a specific branch of the repository (e.g., "
 "`development`)"
 msgstr "`--branch main` 切换到仓库的指定分支（示例：`development 分支`）"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:720
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:719
 msgid ""
 "The run button is not available as the command is used to create a local "
 "copy on your machine."
 msgstr "该命令仅用于在本地机器创建代码副本，因此对应的 “运行” 按钮不可用。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:725
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:724
 msgid "Fork"
 msgstr "分叉"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:727
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:726
 msgid ""
 "The fork command is used to create a new branch based on the current one."
 msgstr "分叉命令用于基于当前分支创建新分支。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:734
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:733
 msgid ""
 "`git checkout -b main-1 main` a command to create a new branch (e.g., "
 "`development-1`) based on the current branch (e.g., `development`)"
@@ -3884,7 +3881,7 @@ msgstr ""
 "`git checkout -b main-1 main`：基于当前分支（示例：`development`）创建新分支"
 "（示例：`development-1`）的命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:736
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:735
 msgid ""
 "`git push -u origin development-1` a command to upload the new branch (e.g., "
 "`development-1`) to the remote repository"
@@ -3892,17 +3889,17 @@ msgstr ""
 "`git push -u origin development-1` ：将新建的分支（示例：`development-1`）上"
 "传至远程代码仓库的命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:742
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:741
 msgid "Merge"
 msgstr "合并"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:744
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:743
 msgid ""
 "The merge command is used to combine changes on one branch into another "
 "branch."
 msgstr "合并命令用于将一个分支的更改整合至另一个分支。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:751
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:750
 msgid ""
 "`git merge staging-1` a command to merge the changes of the current branch "
 "into another branch (e.g., `staging-1`)"
@@ -3910,7 +3907,7 @@ msgstr ""
 "`git merge staging-1` 将当前分支的更改合并至另一分支（示例：`staging-1`）的命"
 "令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:753
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:752
 msgid ""
 "`git push -u origin staging` a command to upload the merged changes to the "
 "remote repository branch (e.g., `staging`)"
@@ -3918,20 +3915,20 @@ msgstr ""
 "`git push -u origin staging` ：将合并后的更改上传至远程仓库对应分支（示例："
 "`staging`）的命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:759
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:758
 msgid "SSH"
 msgstr "SSH"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:761
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:760
 msgid "The SSH command is used to connect to a build using SSH."
 msgstr "SSH 命令用于通过 SSH 协议连接至构建环境。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:763
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:762
 msgid ""
 "To use the SSH command, it is necessary to set up an SSH key first. To do so:"
 msgstr "使用该命令前，需先配置 SSH 密钥，具体步骤如下："
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:765
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:764
 msgid ""
 "`Generate a new SSH key <https://docs.github.com/en/authentication/"
 "connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-"
@@ -3941,7 +3938,7 @@ msgstr ""
 "github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-"
 "agent#generating-a-new-ssh-key>`_。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:766
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:765
 msgid ""
 "`Copy the SSH key to your clipboard <https://docs.github.com/en/"
 "authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-"
@@ -3951,7 +3948,7 @@ msgstr ""
 "connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-"
 "account#adding-a-new-ssh-key-to-your-account>`_。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:767
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:766
 msgid ""
 "On Odoo.sh, click your GitHub user in the top-right corner and "
 "select :guilabel:`Profile`."
@@ -3962,7 +3959,7 @@ msgstr ""
 msgid "Accessing a user's profile"
 msgstr "访问用户的个人资料"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:772
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:771
 msgid ""
 "Paste the SSH key under the :guilabel:`Add a key manually` field and "
 "click :guilabel:`Add`."
@@ -3973,11 +3970,11 @@ msgstr ""
 msgid "Adding an SSH key manually"
 msgstr "手动添加 SSH 密钥"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:782
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:781
 msgid "`25004381` the build ID"
-msgstr ""
+msgstr "`25004381` 构建 ID"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:783
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:782
 msgid ""
 "`my-user-my-repository-staging-25004381.dev.odoo.com` the domain used to "
 "connect to the build"
@@ -3985,7 +3982,7 @@ msgstr ""
 "`my-user-my-repository-staging-25004381.dev.odoo.com`用于连接该构建环境的域"
 "名。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:785
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:784
 msgid ""
 "Provided you have the necessary :ref:`access rights <odoo-sh/settings/"
 "collaborators>` on the project, you will be granted SSH access to the build."
@@ -3993,27 +3990,27 @@ msgstr ""
 "只要你拥有该项目所需的 :ref:`访问权限 <odoo-sh/settings/collaborators>`，即可"
 "获得该构建环境的 SSH 访问权限。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:789
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:788
 msgid ""
 "Long-running SSH connections are not guaranteed. Idle connections can be "
 "disconnected to free up resources."
 msgstr "SSH 长连接不保证持续可用。系统可能断开闲置的连接以释放服务器资源。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:795
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:794
 msgid "Submodule"
 msgstr "子模块"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:797
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:796
 msgid ""
 "The submodule command is used to add a branch from another repository to "
 "your current branch as a submodule."
 msgstr "子模块命令用于将其他代码仓库的分支，以子模块形式添加至当前分支。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:801
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:800
 msgid ":doc:`Submodules documentation <../advanced/submodules>`"
 msgstr ":doc:`子模块说明文档 <../advanced/submodules>`"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:808
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:807
 msgid ""
 "`git submodule add -b master <URL> <PATH>` a command to add a specific "
 "branch (e.g., `master`) of a repository (`<URL>`) as a submodule under the "
@@ -4022,11 +4019,11 @@ msgstr ""
 "`git submodule add -b master <URL> <PATH>`：将指定代码仓库（`<URL>`）的特定分"
 "支（示例：`master`），作为子模块添加到当前分支的指定路径（`<PATH>`）下。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:811
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:810
 msgid "`git commit -a` a command to commit all current changes"
 msgstr "`git commit -a`：提交所有当前变更的命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:812
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:811
 msgid ""
 "`git push -u origin staging` a command to upload the changes of the current "
 "branch (e.g., `staging`) to the remote repository."
@@ -4034,11 +4031,11 @@ msgstr ""
 "`git push -u origin staging` 将当前分支（例如 `staging 分支`）的变更上传至远"
 "程代码仓库的命令。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:820
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:819
 msgid "The delete command is used to delete a branch from your repository."
 msgstr "删除命令用于从代码仓库中删除指定分支。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:823
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:822
 msgid ""
 "Once you delete a branch, there is no way to retrieve it unless a backup "
 "exists. Staging branches are not automatically backed up, but can be "
@@ -4047,20 +4044,20 @@ msgstr ""
 "分支一旦被删除，若无备份则无法恢复。预发布分支不会自动备份，但可手动备份。开"
 "发分支不支持备份操作。"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:831
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:830
 msgid ""
 "`git push origin :staging` a command to delete a specific branch (e.g., "
 "`staging`) on the remote repository"
 msgstr ""
 "`git push origin :staging` 删除远程代码仓库中指定分支（例如`staging`）的命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:833
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:832
 msgid ""
 "`git branch -D staging` a command to delete the specific branch on your "
 "local copy of the repository"
 msgstr "`git branch -D staging` 删除本地代码仓库副本中指定分支的命令"
 
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:837
+#: ../../content/administration/odoo_sh/getting_started/branches.rst:836
 msgid ""
 "Before deleting a branch, refer to the :ref:`Backups section <odoo-sh/"
 "branches/tabs/backups>` to better understand how they work and when you "
@@ -4812,19 +4809,16 @@ msgid "The source code of Odoo is located under:"
 msgstr "Odoo 源代码位于："
 
 #: ../../content/administration/odoo_sh/getting_started/online_editor.rst:53
-#, fuzzy
 msgid "`/src/odoo` (`<https://github.com/odoo/odoo>`_)"
-msgstr "`/src/odoo` (`<https://github.com/odoo/odoo>`_)"
+msgstr "`/src/odoo`（`<https://github.com/odoo/odoo>`_）"
 
 #: ../../content/administration/odoo_sh/getting_started/online_editor.rst:54
-#, fuzzy
 msgid "`/src/enterprise` (`<https://github.com/odoo/enterprise>`_)"
-msgstr "`/src/enterprise` (`<https://github.com/odoo/enterprise>`_)"
+msgstr "`/src/enterprise`（`<https://github.com/odoo/enterprise>`_）"
 
 #: ../../content/administration/odoo_sh/getting_started/online_editor.rst:55
-#, fuzzy
 msgid "`/src/themes` (`<https://github.com/odoo/design-themes>`_)"
-msgstr "`/src/themes` (`<https://github.com/odoo/design-themes>`_)"
+msgstr "`/src/themes`（`<https://github.com/odoo/design-themes>`_）"
 
 #: ../../content/administration/odoo_sh/getting_started/online_editor.rst:57
 msgid ""
@@ -5235,14 +5229,15 @@ msgstr "连接 + / 连接为"
 #: ../../content/administration/standard_extended_support.rst:34
 #: ../../content/administration/standard_extended_support.rst:40
 #: ../../content/administration/standard_extended_support.rst:46
-#: ../../content/administration/standard_extended_support.rst:47
-#: ../../content/administration/standard_extended_support.rst:48
-#: ../../content/administration/standard_extended_support.rst:70
-#: ../../content/administration/standard_extended_support.rst:71
-#: ../../content/administration/standard_extended_support.rst:72
+#: ../../content/administration/standard_extended_support.rst:52
+#: ../../content/administration/standard_extended_support.rst:53
+#: ../../content/administration/standard_extended_support.rst:54
 #: ../../content/administration/standard_extended_support.rst:76
 #: ../../content/administration/standard_extended_support.rst:77
 #: ../../content/administration/standard_extended_support.rst:78
+#: ../../content/administration/standard_extended_support.rst:82
+#: ../../content/administration/standard_extended_support.rst:83
+#: ../../content/administration/standard_extended_support.rst:84
 msgid "|green|"
 msgstr "|green|"
 
@@ -5317,20 +5312,19 @@ msgstr "状态"
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:187
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:191
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:192
-#: ../../content/administration/standard_extended_support.rst:52
 #: ../../content/administration/standard_extended_support.rst:58
 #: ../../content/administration/standard_extended_support.rst:64
-#: ../../content/administration/standard_extended_support.rst:82
+#: ../../content/administration/standard_extended_support.rst:70
 #: ../../content/administration/standard_extended_support.rst:88
 #: ../../content/administration/standard_extended_support.rst:94
 #: ../../content/administration/standard_extended_support.rst:100
-#: ../../content/administration/standard_extended_support.rst:101
+#: ../../content/administration/standard_extended_support.rst:106
+#: ../../content/administration/standard_extended_support.rst:107
 msgid "|red|"
 msgstr "|red|"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:115
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:160
-#, fuzzy
 msgid ":ref:`Shell <odoo-sh/branches/tabs/shell>`"
 msgstr ":ref:`Shell <odoo-sh/branches/tabs/shell>`"
 
@@ -5339,7 +5333,7 @@ msgid ":ref:`Backups <odoo-sh/branches/tabs/backups>`"
 msgstr ":ref:`备份 <odoo-sh/branches/tabs/backups>`"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:200
-#: ../../content/administration/standard_extended_support.rst:106
+#: ../../content/administration/standard_extended_support.rst:112
 msgid "Legend"
 msgstr "图例"
 
@@ -6719,33 +6713,31 @@ msgid ""
 "Nevertheless, once the file has been located and the access rights verified "
 "by Odoo, it is a good idea to serve the file using the static web server "
 "instead of Odoo. For Odoo to delegate serving files to the static web "
-"server, the `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ (apache) or `X-"
-"Accel <https://www.nginx.com/resources/wiki/start/topics/examples/x-accel/"
-">`_ (nginx) extensions must be enabled and configured on the static web "
+"server, the `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ (apache) or X-"
+"Accel (nginx) extensions must be enabled and configured on the static web "
 "server. Once it is set up, start Odoo with the :option:`--x-sendfile <odoo-"
 "bin --x-sendfile>` CLI flag (this unique flag is used for both X-Sendfile "
 "and X-Accel)."
 msgstr ""
-"不过，一旦找到文件并由 Odoo 验证了访问权限，最好使用静态网络服务器而不是 "
-"Odoo 来提供文件。要让 Odoo 委托静态网络服务器发送文件，必须在静态网络服务器上"
-"启用并配置 `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ (apache) 或 `X-"
-"Accel <https://www.nginx.com/resources/wiki/start/topics/examples/x-accel/"
-">`_ (nginx)扩展。设置完成后，使用 :option:`--x-sendfile <odoo-bin --x-"
-"sendfile>` CLI 标志启动 Odoo（X-Sendfile 和 X-Accel 均使用此唯一标志）。"
+"然而，一旦Odoo定位到文件并验证了访问权限，最好使用静态Web服务器而不是Odoo来提"
+"供文件。要让Odoo将文件服务委托给静态Web服务器，必须在静态Web服务器上启用并配"
+"置`X-Sendfile <https://tn123.org/mod_xsendfile/>`_（apache）或X-Accel"
+"（nginx）扩展。设置完成后，使用:option:`--x-sendfile <odoo-bin --x-"
+"sendfile>` CLI标志启动Odoo（此标志同时用于X-Sendfile和X-Accel）。"
 
-#: ../../content/administration/on_premise/deploy.rst:527
+#: ../../content/administration/on_premise/deploy.rst:526
 msgid ""
 "The X-Sendfile extension for apache (and compatible web servers) does not "
 "require any supplementary configuration."
 msgstr "apache（以及兼容的网络服务器）的 X-Sendfile 扩展不需要任何辅助配置。"
 
-#: ../../content/administration/on_premise/deploy.rst:529
+#: ../../content/administration/on_premise/deploy.rst:528
 msgid ""
 "The X-Accel extension for NGINX **does** require the following additionnal "
 "configuration:"
 msgstr "NGINX 的 X-Accel 扩展**的确**需要以下额外配置："
 
-#: ../../content/administration/on_premise/deploy.rst:540
+#: ../../content/administration/on_premise/deploy.rst:539
 msgid ""
 "In case you don't know what is the path to your filestore, start Odoo with "
 "the :option:`--x-sendfile <odoo-bin --x-sendfile>` option and navigate to "
@@ -6757,11 +6749,11 @@ msgstr ""
 "sendfile>` 选项启动 Odoo，并通过 Odoo 直接导航到 ``/web/filestore`` URL（不要"
 "通过 NGINX 导航到 URL）。这将记录警告，信息中包含您需要的配置。"
 
-#: ../../content/administration/on_premise/deploy.rst:549
+#: ../../content/administration/on_premise/deploy.rst:548
 msgid "Security"
 msgstr "安全"
 
-#: ../../content/administration/on_premise/deploy.rst:551
+#: ../../content/administration/on_premise/deploy.rst:550
 msgid ""
 "For starters, keep in mind that securing an information system is a "
 "continuous process, not a one-shot operation. At any moment, you will only "
@@ -6770,7 +6762,7 @@ msgstr ""
 "首先，请记住，保护信息系统是一个连续的过程，而不是一次性操作。在任何时候，您"
 "都只能像环境中最薄弱的环节一样安全。"
 
-#: ../../content/administration/on_premise/deploy.rst:555
+#: ../../content/administration/on_premise/deploy.rst:554
 msgid ""
 "So please do not take this section as the ultimate list of measures that "
 "will prevent all security problems. It's only intended as a summary of the "
@@ -6783,13 +6775,13 @@ msgstr ""
 "中应确保包含的第一个重要事项的摘要。其余的将来自操作系统和发行版的最佳安全实"
 "践，用户，密码和访问控制管理等方面的最佳实践。"
 
-#: ../../content/administration/on_premise/deploy.rst:561
+#: ../../content/administration/on_premise/deploy.rst:560
 msgid ""
 "When deploying an internet-facing server, please be sure to consider the "
 "following security-related topics:"
 msgstr "部署面向互联网的服务器时，请务必考虑以下与安全相关的主题："
 
-#: ../../content/administration/on_premise/deploy.rst:564
+#: ../../content/administration/on_premise/deploy.rst:563
 msgid ""
 "Always set a strong super-admin admin password, and restrict access to the "
 "database management pages as soon as the system is set up. "
@@ -6798,7 +6790,7 @@ msgstr ""
 "始终设置强超级管理员密码，并在系统设置后立即限制对数据库管理页面的访问。请参"
 "阅：:ref:`db_manager_security`。"
 
-#: ../../content/administration/on_premise/deploy.rst:567
+#: ../../content/administration/on_premise/deploy.rst:566
 msgid ""
 "Choose unique logins and strong passwords for all administrator accounts on "
 "all databases. Do not use 'admin' as the login. Do not use those logins for "
@@ -6810,7 +6802,7 @@ msgstr ""
 "名。不要将这些登录名用于日常操作，仅用于控制/管理安装。*从不*使用任何默认密"
 "码，如管理员/管理员，即使对于测试/临时数据库也是如此。"
 
-#: ../../content/administration/on_premise/deploy.rst:572
+#: ../../content/administration/on_premise/deploy.rst:571
 msgid ""
 "Do **not** install demo data on internet-facing servers. Databases with demo "
 "data contain default logins and passwords that can be used to get into your "
@@ -6819,7 +6811,7 @@ msgstr ""
 "不要 **要 **面向互联网的服务器上安装演示数据。包含演示数据的数据库包含默认登"
 "录名和密码，可用于进入系统并造成重大麻烦，即使在暂存/开发系统上也是如此。"
 
-#: ../../content/administration/on_premise/deploy.rst:576
+#: ../../content/administration/on_premise/deploy.rst:575
 msgid ""
 "Use appropriate database filters ( :option:`--db-filter <odoo-bin --db-"
 "filter>`) to restrict the visibility of your databases according to the "
@@ -6832,7 +6824,7 @@ msgstr ""
 "<odoo-bin -d>` 提供您自己的（逗号分隔）可用数据库列表，而不是让系统从数据库后"
 "台获取所有数据库。"
 
-#: ../../content/administration/on_premise/deploy.rst:583
+#: ../../content/administration/on_premise/deploy.rst:582
 msgid ""
 "Once your ``db_name`` and ``dbfilter`` are configured and only match a "
 "single database per hostname, you should set ``list_db`` configuration "
@@ -6846,7 +6838,7 @@ msgstr ""
 "理屏幕（这也可以通过 :option:`--no-database-list <odoo-bin --no-database-"
 "list>` 命令行选项实现）。"
 
-#: ../../content/administration/on_premise/deploy.rst:589
+#: ../../content/administration/on_premise/deploy.rst:588
 msgid ""
 "Make sure the PostgreSQL user (:option:`--db_user <odoo-bin --db_user>`) is "
 "*not* a super-user, and that your databases are owned by a different user. "
@@ -6858,7 +6850,7 @@ msgstr ""
 "户，并且您的数据库由其他用户拥有。例如，如果您使用的是专用的非特权“db_user”，"
 "则可以由“postgres”超级用户拥有。另请参阅 ：:ref:`odoo <setup/deploy/odoo>`。"
 
-#: ../../content/administration/on_premise/deploy.rst:594
+#: ../../content/administration/on_premise/deploy.rst:593
 msgid ""
 "Keep installations updated by regularly installing the latest builds, either "
 "via GitHub or by downloading the latest version from https://www.odoo.com/"
@@ -6867,7 +6859,7 @@ msgstr ""
 "通过 GitHub 定期安装最新版本，或者从 https://www.odoo.com/page/download 或 "
 "http://nightly.odoo.com 下载最新版本，从而保持安装更新"
 
-#: ../../content/administration/on_premise/deploy.rst:598
+#: ../../content/administration/on_premise/deploy.rst:597
 msgid ""
 "Configure your server in multi-process mode with proper limits matching your "
 "typical usage (memory/CPU/timeouts). See also :ref:`builtin_server`."
@@ -6875,7 +6867,7 @@ msgstr ""
 "在多进程模式下配置服务器，并具有与典型使用（内存/CPU/超时）匹配的适当限制。另"
 "请参阅：:ref:`内建服务器 <builtin_server>`。"
 
-#: ../../content/administration/on_premise/deploy.rst:601
+#: ../../content/administration/on_premise/deploy.rst:600
 msgid ""
 "Run Odoo behind a web server providing HTTPS termination with a valid SSL "
 "certificate, in order to prevent eavesdropping on cleartext communications. "
@@ -6889,7 +6881,7 @@ msgstr ""
 "置适当的超时，然后启用 :option:`proxy mode <odoo-bin --proxy-mode>` 选项。另"
 "请参阅：:ref:`Https 代理 <https_proxy>`。"
 
-#: ../../content/administration/on_premise/deploy.rst:608
+#: ../../content/administration/on_premise/deploy.rst:607
 msgid ""
 "If you need to allow remote SSH access to your servers, make sure to set a "
 "strong password for **all** accounts, not just `root`. It is strongly "
@@ -6903,7 +6895,7 @@ msgstr ""
 "要考虑限制通过VPN的访问，仅允许防火墙中的受信任IP，和/或运行暴力检测系统，"
 "如“fail2ban”或等效系统。"
 
-#: ../../content/administration/on_premise/deploy.rst:614
+#: ../../content/administration/on_premise/deploy.rst:613
 msgid ""
 "Consider installing appropriate rate-limiting on your proxy or firewall, to "
 "prevent brute-force attacks and denial of service attacks. See "
@@ -6912,7 +6904,7 @@ msgstr ""
 "请考虑在代理或防火墙上安装适当的速率限制，以防止暴力攻击和拒绝服务攻击。另请"
 "参阅：ref：`login_brute_force`了解具体措施。"
 
-#: ../../content/administration/on_premise/deploy.rst:618
+#: ../../content/administration/on_premise/deploy.rst:617
 msgid ""
 "Many network providers provide automatic mitigation for Distributed Denial "
 "of Service attacks (DDOS), but this is often an optional service, so you "
@@ -6921,7 +6913,7 @@ msgstr ""
 "许多网络提供商为分布式拒绝服务攻击 （DDOS） 提供自动缓解措施，但这通常是一项"
 "可选服务，因此您应该咨询他们。"
 
-#: ../../content/administration/on_premise/deploy.rst:622
+#: ../../content/administration/on_premise/deploy.rst:621
 msgid ""
 "Whenever possible, host your public-facing demo/test/staging instances on "
 "different machines than the production ones. And apply the same security "
@@ -6930,7 +6922,7 @@ msgstr ""
 "只要有可能，就将面向公众的演示/测试/过渡实例托管在与生产计算机不同的计算机"
 "上。并应用与生产相同的安全预防措施。"
 
-#: ../../content/administration/on_premise/deploy.rst:626
+#: ../../content/administration/on_premise/deploy.rst:625
 msgid ""
 "If your public-facing Odoo server has access to sensitive internal network "
 "resources or services (e.g. via a private VLAN), implement appropriate "
@@ -6951,7 +6943,7 @@ msgstr ""
 "access-lists-with-systemd.html>”_ 对于实现每个进程的网络访问控制也可能很有"
 "用。"
 
-#: ../../content/administration/on_premise/deploy.rst:637
+#: ../../content/administration/on_premise/deploy.rst:636
 msgid ""
 "If your public-facing Odoo server is behind a Web Application Firewall, a "
 "load-balancer, a transparent DDoS protection service (like CloudFlare) or a "
@@ -6973,14 +6965,14 @@ msgstr ""
 "外，无法公开访问终结点。为此，像CloudFlare这样的服务提供商通常会维护其IP地址"
 "范围的公共列表。"
 
-#: ../../content/administration/on_premise/deploy.rst:648
+#: ../../content/administration/on_premise/deploy.rst:647
 msgid ""
 "If you are hosting multiple customers, isolate customer data and files from "
 "each other using containers or appropriate \"jail\" techniques."
 msgstr ""
 "如果您托管多个客户，请使用容器或适当的“jail”技术将客户数据和文件彼此隔离。"
 
-#: ../../content/administration/on_premise/deploy.rst:651
+#: ../../content/administration/on_premise/deploy.rst:650
 msgid ""
 "Setup daily backups of your databases and filestore data, and copy them to a "
 "remote archiving server that is not accessible from the server itself."
@@ -6988,7 +6980,7 @@ msgstr ""
 "设置数据库和文件存储数据的每日备份，并将它们复制到无法从服务器本身访问的远程"
 "存档服务器。"
 
-#: ../../content/administration/on_premise/deploy.rst:654
+#: ../../content/administration/on_premise/deploy.rst:653
 msgid ""
 "Deploying Odoo on Linux is strongly recommended over Windows. Should you "
 "choose nevertheless to deploy on a Windows platform, a thorough security "
@@ -6999,11 +6991,11 @@ msgstr ""
 "Windows 平台上部署，则应对服务器进行彻底的安全加固审查，这不在本指南的讨论范"
 "围之内。"
 
-#: ../../content/administration/on_premise/deploy.rst:662
+#: ../../content/administration/on_premise/deploy.rst:661
 msgid "Blocking Brute Force Attacks"
 msgstr "阻止暴力破解攻击"
 
-#: ../../content/administration/on_premise/deploy.rst:664
+#: ../../content/administration/on_premise/deploy.rst:663
 msgid ""
 "For internet-facing deployments, brute force attacks on user passwords are "
 "very common, and this threat should not be neglected for Odoo servers. Odoo "
@@ -7014,37 +7006,37 @@ msgstr ""
 "威胁不容忽视。每当执行登录尝试时，Odoo都会发出日志条目，并报告结果：成功或失"
 "败，以及目标登录和源IP。"
 
-#: ../../content/administration/on_premise/deploy.rst:668
+#: ../../content/administration/on_premise/deploy.rst:667
 msgid "The log entries will have the following form."
 msgstr "日志条目将具有以下形式。"
 
-#: ../../content/administration/on_premise/deploy.rst:670
+#: ../../content/administration/on_premise/deploy.rst:669
 msgid "Failed login::"
 msgstr "登录失败：："
 
-#: ../../content/administration/on_premise/deploy.rst:674
+#: ../../content/administration/on_premise/deploy.rst:673
 msgid "Successful login::"
 msgstr "登录成功："
 
-#: ../../content/administration/on_premise/deploy.rst:679
+#: ../../content/administration/on_premise/deploy.rst:678
 msgid ""
 "These logs can be easily analyzed by an intrusion prevention system such as "
 "`fail2ban`."
 msgstr "这些日志可以通过入侵防御系统（如“fail2ban”）轻松分析。"
 
-#: ../../content/administration/on_premise/deploy.rst:681
+#: ../../content/administration/on_premise/deploy.rst:680
 msgid ""
 "For example, the following fail2ban filter definition should match a failed "
 "login::"
 msgstr "例如，以下 fail2ban 筛选器定义应与失败的登录相匹配："
 
-#: ../../content/administration/on_premise/deploy.rst:688
+#: ../../content/administration/on_premise/deploy.rst:687
 msgid ""
 "This could be used with a jail definition to block the attacking IP on "
 "HTTP(S)."
 msgstr "这可以与 jail 定义一起使用，以阻止 HTTP（S） 上的攻击 IP。"
 
-#: ../../content/administration/on_premise/deploy.rst:690
+#: ../../content/administration/on_premise/deploy.rst:689
 msgid ""
 "Here is what it could look like for blocking the IP for 15 minutes when 10 "
 "failed login attempts are detected from the same IP within 1 minute::"
@@ -7052,21 +7044,21 @@ msgstr ""
 "以下是在 1 分钟内从同一 IP 检测到 10 次登录尝试失败时，阻止 IP 15 分钟的情"
 "况："
 
-#: ../../content/administration/on_premise/deploy.rst:704
+#: ../../content/administration/on_premise/deploy.rst:703
 msgid "Database Manager Security"
 msgstr "数据库管理器安全性"
 
-#: ../../content/administration/on_premise/deploy.rst:706
+#: ../../content/administration/on_premise/deploy.rst:705
 msgid ":ref:`setup/deploy/odoo` mentioned ``admin_passwd`` in passing."
 msgstr "：ref：`setup/deploy/odoo` 顺便提到``admin_passwd``"
 
-#: ../../content/administration/on_premise/deploy.rst:708
+#: ../../content/administration/on_premise/deploy.rst:707
 msgid ""
 "This setting is used on all database management screens (to create, delete, "
 "dump or restore databases)."
 msgstr "此设置用于所有数据库管理屏幕（用于创建、删除、转储或还原数据库）。"
 
-#: ../../content/administration/on_premise/deploy.rst:711
+#: ../../content/administration/on_premise/deploy.rst:710
 msgid ""
 "If the management screens must not be accessible at all, you should set "
 "``list_db`` configuration option to ``False``, to block access to all the "
@@ -7075,7 +7067,7 @@ msgstr ""
 "如果管理屏幕根本无法访问，则应将“list_db”配置选项设置为“False”，以阻止访问所"
 "有数据库选择和管理屏幕。"
 
-#: ../../content/administration/on_premise/deploy.rst:717
+#: ../../content/administration/on_premise/deploy.rst:716
 msgid ""
 "It is strongly recommended to disable the Database Manager for any internet-"
 "facing system! It is meant as a development/demo tool, to make it easy to "
@@ -7087,7 +7079,7 @@ msgstr ""
 "以便于快速创建和管理数据库。它不是为在生产中使用而设计的，甚至可能向攻击者暴"
 "露危险的功能。它也不是为处理大型数据库而设计的，并且可能会触发内存限制。"
 
-#: ../../content/administration/on_premise/deploy.rst:723
+#: ../../content/administration/on_premise/deploy.rst:722
 msgid ""
 "On production systems, database management operations should always be "
 "performed by the system administrator, including provisioning of new "
@@ -7096,7 +7088,7 @@ msgstr ""
 "在生产系统上，数据库管理操作应始终由系统管理员执行，包括预配新数据库和自动备"
 "份。"
 
-#: ../../content/administration/on_premise/deploy.rst:726
+#: ../../content/administration/on_premise/deploy.rst:725
 msgid ""
 "Be sure to setup an appropriate ``db_name`` parameter (and optionally, "
 "``dbfilter`` too) so that the system can determine the target database for "
@@ -7106,7 +7098,7 @@ msgstr ""
 "请务必设置一个适当的 ``db_name`` 参数（也可选择设置 ``dbfilter``），以便系统"
 "可以确定每次请求的目标数据库，否则用户将被阻止，因为他们无法自行选择数据库。"
 
-#: ../../content/administration/on_premise/deploy.rst:731
+#: ../../content/administration/on_premise/deploy.rst:730
 msgid ""
 "If the management screens must only be accessible from a selected set of "
 "machines, use the proxy server's features to block access to all routes "
@@ -7117,7 +7109,7 @@ msgstr ""
 "web/database”开头的所有路由，但（可能）“/web/database/selector”除外，它显示数"
 "据库选择屏幕。"
 
-#: ../../content/administration/on_premise/deploy.rst:735
+#: ../../content/administration/on_premise/deploy.rst:734
 msgid ""
 "If the database-management screen should be left accessible, the "
 "``admin_passwd`` setting must be changed from its ``admin`` default: this "
@@ -7126,19 +7118,19 @@ msgstr ""
 "如果数据库管理屏幕应保持可访问状态，则必须将“admin_passwd”设置从其默认"
 "值“admin”更改为“admin”：在允许数据库更改操作之前，将检查此密码。"
 
-#: ../../content/administration/on_premise/deploy.rst:739
+#: ../../content/administration/on_premise/deploy.rst:738
 msgid "It should be stored securely, and should be generated randomly e.g."
 msgstr "它应该安全地存储，并且应该随机生成，例如"
 
-#: ../../content/administration/on_premise/deploy.rst:745
+#: ../../content/administration/on_premise/deploy.rst:744
 msgid "which generates a 32-character pseudorandom printable string."
 msgstr "这将生成一个32个字符的伪随机可打印字符串。"
 
-#: ../../content/administration/on_premise/deploy.rst:748
+#: ../../content/administration/on_premise/deploy.rst:747
 msgid "Reset the master password"
 msgstr "重置主密码"
 
-#: ../../content/administration/on_premise/deploy.rst:750
+#: ../../content/administration/on_premise/deploy.rst:749
 msgid ""
 "There may be instances where the master password is misplaced, or "
 "compromised, and needs to be reset. The following process is for system "
@@ -7148,11 +7140,11 @@ msgstr ""
 "在某些情况下，主密码可能被放错位置或泄露，需要重新设置。以下流程面向 Odoo 内"
 "部数据库的系统管理员，详细介绍了如何手动重置和重新加密主密码。"
 
-#: ../../content/administration/on_premise/deploy.rst:755
+#: ../../content/administration/on_premise/deploy.rst:754
 msgid ":doc:`../odoo_accounts`"
-msgstr ""
+msgstr ":doc:`../odoo_accounts`"
 
-#: ../../content/administration/on_premise/deploy.rst:757
+#: ../../content/administration/on_premise/deploy.rst:756
 msgid ""
 "When creating a new on-premise database, a random master password is "
 "generated. Odoo recommends using this password to secure the database. This "
@@ -7162,7 +7154,7 @@ msgstr ""
 "创建新的内部数据库时，会生成一个随机主密码。Odoo 建议使用该密码来保护数据库的"
 "安全。默认情况下会使用该密码，因此任何 Odoo 本地安装都有一个安全的主密码。"
 
-#: ../../content/administration/on_premise/deploy.rst:762
+#: ../../content/administration/on_premise/deploy.rst:761
 msgid ""
 "When creating an Odoo on-premise database the installation is accessible to "
 "anyone on the internet, until this password is set to secure the database."
@@ -7170,7 +7162,7 @@ msgstr ""
 "创建 Odoo 本地安装数据库时，在设置密码以确保数据库安全之前，互联网上的任何人"
 "都可以访问安装的数据库。"
 
-#: ../../content/administration/on_premise/deploy.rst:765
+#: ../../content/administration/on_premise/deploy.rst:764
 msgid ""
 "The master password is specified in the Odoo configuration file (`odoo.conf` "
 "or `odoorc` (hidden file)). The Odoo master password is needed to modify, "
@@ -7179,17 +7171,17 @@ msgstr ""
 "主密码在 Odoo 配置文件（`odoo.conf` 或 `odoorc`（隐藏文件））中指定。通过图形"
 "用户界面（GUI）修改、创建或删除数据库时，需要使用 Odoo 主密码。"
 
-#: ../../content/administration/on_premise/deploy.rst:770
+#: ../../content/administration/on_premise/deploy.rst:769
 msgid "Locate configuration file"
 msgstr "找到配置文件"
 
-#: ../../content/administration/on_premise/deploy.rst:772
+#: ../../content/administration/on_premise/deploy.rst:771
 msgid ""
 "First, open the Odoo configuration file (`odoo.conf` or `odoorc` (hidden "
 "file))."
 msgstr "首先，打开 Odoo 配置文件（`odoo.conf` 或`odoorc`（隐藏文件））。"
 
-#: ../../content/administration/on_premise/deploy.rst:776
+#: ../../content/administration/on_premise/deploy.rst:775
 #: ../../content/administration/on_premise/packages.rst:130
 #: ../../content/administration/on_premise/source.rst:70
 #: ../../content/administration/on_premise/source.rst:133
@@ -7197,19 +7189,20 @@ msgstr "首先，打开 Odoo 配置文件（`odoo.conf` 或`odoorc`（隐藏文�
 #: ../../content/administration/on_premise/source.rst:180
 #: ../../content/administration/on_premise/source.rst:211
 #: ../../content/administration/on_premise/source.rst:242
-#: ../../content/administration/on_premise/source.rst:331
-#: ../../content/administration/on_premise/source.rst:400
-#: ../../content/administration/on_premise/source.rst:463
+#: ../../content/administration/on_premise/source.rst:344
+#: ../../content/administration/on_premise/source.rst:452
+#: ../../content/administration/on_premise/source.rst:521
+#: ../../content/administration/on_premise/source.rst:584
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../content/administration/on_premise/deploy.rst:778
+#: ../../content/administration/on_premise/deploy.rst:777
 msgid ""
 "The configuration file is located at: `c:\\\\ProgramFiles\\\\Odoo{VERSION}\\"
 "\\server\\\\odoo.conf`"
 msgstr "配置文件位于 c:\\ProgramFiles\\Odoo{VERSION}\\server\\odoo.conf"
 
-#: ../../content/administration/on_premise/deploy.rst:780
+#: ../../content/administration/on_premise/deploy.rst:779
 #: ../../content/administration/on_premise/packages.rst:25
 #: ../../content/administration/on_premise/source.rst:52
 #: ../../content/administration/on_premise/source.rst:129
@@ -7218,41 +7211,42 @@ msgstr "配置文件位于 c:\\ProgramFiles\\Odoo{VERSION}\\server\\odoo.conf"
 #: ../../content/administration/on_premise/source.rst:202
 #: ../../content/administration/on_premise/source.rst:231
 #: ../../content/administration/on_premise/source.rst:274
-#: ../../content/administration/on_premise/source.rst:391
-#: ../../content/administration/on_premise/source.rst:453
+#: ../../content/administration/on_premise/source.rst:395
+#: ../../content/administration/on_premise/source.rst:512
+#: ../../content/administration/on_premise/source.rst:574
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../content/administration/on_premise/deploy.rst:782
+#: ../../content/administration/on_premise/deploy.rst:781
 msgid ""
 "Depending on how Odoo is installed on the Linux machine, the configuration "
 "file is located in one of two different places:"
 msgstr "根据 Odoo 在 Linux 机器上的安装方式，配置文件位于两个不同位置之一："
 
-#: ../../content/administration/on_premise/deploy.rst:785
+#: ../../content/administration/on_premise/deploy.rst:784
 msgid "Package installation: `/etc/odoo.conf`"
 msgstr "软件包安装：`/etc/odoo.conf`"
 
-#: ../../content/administration/on_premise/deploy.rst:786
+#: ../../content/administration/on_premise/deploy.rst:785
 msgid "Source installation: `~/.odoorc`"
 msgstr "源安装：`~/.odoorc`"
 
-#: ../../content/administration/on_premise/deploy.rst:789
+#: ../../content/administration/on_premise/deploy.rst:788
 msgid "Change old password"
 msgstr "更改旧密码"
 
-#: ../../content/administration/on_premise/deploy.rst:791
+#: ../../content/administration/on_premise/deploy.rst:790
 msgid ""
 "Once the appropriate file has been opened, proceed to modify the old "
 "password in the configuration file to a temporary password."
 msgstr "打开相应文件后，将配置文件中的旧密码修改为临时密码。"
 
-#: ../../content/administration/on_premise/deploy.rst:796
-#: ../../content/administration/on_premise/deploy.rst:844
+#: ../../content/administration/on_premise/deploy.rst:795
+#: ../../content/administration/on_premise/deploy.rst:843
 msgid "Graphical user interface"
 msgstr "图形用户界面"
 
-#: ../../content/administration/on_premise/deploy.rst:798
+#: ../../content/administration/on_premise/deploy.rst:797
 msgid ""
 "After locating the configuration file, open it using a (:abbr:`GUI "
 "(graphical user interface)`). This can be achieved by simply double clicking "
@@ -7262,7 +7256,7 @@ msgstr ""
 "找到配置文件后，使用:abbr:`GUI（图形用户界面）打开文件。只需双击文件即可打"
 "开。然后，设备应该有一个默认的 :abbr:`GUI （图形用户界面）` 来打开文件。"
 
-#: ../../content/administration/on_premise/deploy.rst:802
+#: ../../content/administration/on_premise/deploy.rst:801
 msgid ""
 "Next, modify the master password line `admin_passwd = $pbkdf2-sha…` to "
 "`admin_passwd = newpassword1234`, for example. This password can be "
@@ -7273,8 +7267,8 @@ msgstr ""
 "newpassword1234`。这个密码可以是任何内容，只要是临时保存的。确保修改 `=` 后面"
 "的所有字符。"
 
-#: ../../content/administration/on_premise/deploy.rst:807
-#: ../../content/administration/on_premise/deploy.rst:826
+#: ../../content/administration/on_premise/deploy.rst:806
+#: ../../content/administration/on_premise/deploy.rst:825
 msgid ""
 "The line appears like this: `admin_passwd = $pbkdf2-"
 "sh39dji295.59mptrfW.9z6HkA$w9j9AMVmKAP17OosCqDxDv2hjsvzlLpF8Rra8I7p/"
@@ -7284,23 +7278,23 @@ msgstr ""
 "sh39dji295.59mptrfW.9z6HkA$w9j9AMVmKAP17OosCqDxDv2hjsvzlLpF8Rra8I7p/"
 "b573hji540mk/.3ek0lg%kvkol6k983mkf/40fjki79m`."
 
-#: ../../content/administration/on_premise/deploy.rst:811
-#: ../../content/administration/on_premise/deploy.rst:830
+#: ../../content/administration/on_premise/deploy.rst:810
+#: ../../content/administration/on_premise/deploy.rst:829
 msgid "The modified line appears like this: `admin_passwd = newpassword1234`"
 msgstr "修改后的行显示如下：`admin_passwd = newpassword1234`"
 
-#: ../../content/administration/on_premise/deploy.rst:813
-#: ../../content/administration/on_premise/deploy.rst:853
+#: ../../content/administration/on_premise/deploy.rst:812
+#: ../../content/administration/on_premise/deploy.rst:852
 msgid "Command-line interface"
 msgstr "命令行界面"
 
-#: ../../content/administration/on_premise/deploy.rst:815
+#: ../../content/administration/on_premise/deploy.rst:814
 msgid ""
 "Modify the master password line using the following Unix command detailed "
 "below."
 msgstr "使用下面的 Unix 命令修改主密码行。"
 
-#: ../../content/administration/on_premise/deploy.rst:817
+#: ../../content/administration/on_premise/deploy.rst:816
 msgid ""
 "Connect to the Odoo server's terminal via Secure Shell (SSH) protocol, and "
 "edit the configuration file. To modify the configuration file, enter the "
@@ -7309,7 +7303,7 @@ msgstr ""
 "通过安全外壳（SSH）协议连接到 Odoo 服务器的终端，然后编辑配置文件。要修改配置"
 "文件，请输入以下命令： :command:`sudo nano /etc/odoo.conf`。"
 
-#: ../../content/administration/on_premise/deploy.rst:821
+#: ../../content/administration/on_premise/deploy.rst:820
 msgid ""
 "After opening the configuration file, modify the master password line "
 "`admin_passwd = $pbkdf2-sha…` to `admin_passwd = newpassword1234`. This "
@@ -7320,7 +7314,7 @@ msgstr ""
 "`admin_passwd = newpassword1234`。这个密码可以是任何内容，只要是临时保存的。"
 "确保修改 `=` 后面的所有字符。"
 
-#: ../../content/administration/on_premise/deploy.rst:833
+#: ../../content/administration/on_premise/deploy.rst:832
 msgid ""
 "It is essential that the password is changed to something else, rather than "
 "triggering a new password reset by adding a semicolon `;` at the beginning "
@@ -7330,17 +7324,17 @@ msgstr ""
 "必须将密码更改为其他内容，而不是在行首添加分号 `；`，从而触发新的密码重置。这"
 "样可以确保整个密码重置过程中数据库的安全。"
 
-#: ../../content/administration/on_premise/deploy.rst:838
+#: ../../content/administration/on_premise/deploy.rst:837
 msgid "Restart Odoo server"
 msgstr "重启 Odoo 服务器"
 
-#: ../../content/administration/on_premise/deploy.rst:840
+#: ../../content/administration/on_premise/deploy.rst:839
 msgid ""
 "After setting the temporary password, a restart of the Odoo server is "
 "**required**."
 msgstr "设置临时密码后，**需要**重启 Odoo 服务器。"
 
-#: ../../content/administration/on_premise/deploy.rst:846
+#: ../../content/administration/on_premise/deploy.rst:845
 msgid ""
 "To restart the Odoo server, first, type `services` into the "
 "Windows :guilabel:`Search` bar. Then, select the :guilabel:`Services` "
@@ -7349,7 +7343,7 @@ msgstr ""
 "要重启 Odoo 服务器，首先在 Windows :guilabel:`搜索` 栏中输入 `服务`。然后，选"
 "择 :guilabel:`服务` 应用程序，向下滚动到 :guilabel:`Odoo` 服务。"
 
-#: ../../content/administration/on_premise/deploy.rst:850
+#: ../../content/administration/on_premise/deploy.rst:849
 msgid ""
 "Next, right click on :guilabel:`Odoo`, and select :guilabel:`Start` "
 "or :guilabel:`Restart`. This action manually restarts the Odoo server."
@@ -7357,23 +7351,23 @@ msgstr ""
 "接下来，右键单击 :guilabel:`Odoo`，然后选择 :guilabel:`开始` 或 :guilabel:`重"
 "启`。此操作将手动重启 Odoo 服务器。"
 
-#: ../../content/administration/on_premise/deploy.rst:855
+#: ../../content/administration/on_premise/deploy.rst:854
 msgid ""
 "Restart the Odoo server by typing the command: :command:`sudo service odoo15 "
 "restart`"
 msgstr "重新启动 Odoo 服务器，键入指令：:command:`sudo service odoo15 restart`"
 
-#: ../../content/administration/on_premise/deploy.rst:858
+#: ../../content/administration/on_premise/deploy.rst:857
 msgid ""
 "Change the number after `odoo` to fit the specific version the server is "
 "running on."
 msgstr "更改 `odoo` 后面的数字，以适应服务器运行的特定版本。"
 
-#: ../../content/administration/on_premise/deploy.rst:861
+#: ../../content/administration/on_premise/deploy.rst:860
 msgid "Use web interface to re-encrypt password"
 msgstr "使用网络界面重新加密密码"
 
-#: ../../content/administration/on_premise/deploy.rst:863
+#: ../../content/administration/on_premise/deploy.rst:862
 msgid ""
 "First, navigate to `/web/database/manager` or `http://server_ip:port/web/"
 "database/manager` in a browser."
@@ -7381,14 +7375,14 @@ msgstr ""
 "首先，在浏览器中导航到 `/web/database/manager` 或 `http://server_ip:port/web/"
 "database/manager`。"
 
-#: ../../content/administration/on_premise/deploy.rst:867
+#: ../../content/administration/on_premise/deploy.rst:866
 msgid ""
 "Replace `server_ip` with the IP address of the database. Replace `port` with "
 "the numbered port the database is accessible from."
 msgstr ""
 "将 `server_ip` 替换为数据库的 IP 地址。将 `port` 替换为数据库可访问的端口号。"
 
-#: ../../content/administration/on_premise/deploy.rst:870
+#: ../../content/administration/on_premise/deploy.rst:869
 msgid ""
 "Next, click :guilabel:`Set Master Password`, and type in the previously-"
 "selected temporary password into the :guilabel:`Master Password` field. "
@@ -7400,53 +7394,53 @@ msgstr ""
 "的临时密码。在此步骤之后，输入 :guilabel:`新主密码`。点击 :guilabel:`继续` 按"
 "钮后，:guilabel:`新主密码` 将被散列（或加密）。"
 
-#: ../../content/administration/on_premise/deploy.rst:875
+#: ../../content/administration/on_premise/deploy.rst:874
 msgid ""
 "At this point, the password has been successfully reset, and a hashed "
 "version of the new password now appears in the configuration file."
 msgstr "此时，密码已成功重置，新密码的散列版本已出现在配置文件中。"
 
-#: ../../content/administration/on_premise/deploy.rst:879
+#: ../../content/administration/on_premise/deploy.rst:878
 msgid ""
 "For more information on Odoo database security, see this "
 "documentation: :ref:`db_manager_security`."
 msgstr ""
 "有关 Odoo 数据库安全性的更多信息，请参阅此文档：:ref:`db_manager_security`。"
 
-#: ../../content/administration/on_premise/deploy.rst:883
+#: ../../content/administration/on_premise/deploy.rst:882
 msgid "Supported Browsers"
 msgstr ""
 "将图像的 WebP 版本用于受支持的浏览器，并且对于不支持 WebP 的浏览器，请优雅地"
 "回退 JPEG 和 PNG。"
 
-#: ../../content/administration/on_premise/deploy.rst:885
+#: ../../content/administration/on_premise/deploy.rst:884
 msgid "Odoo supports the latest version of the following browsers."
 msgstr "Odoo 支持以下浏览器的最新版本。"
 
-#: ../../content/administration/on_premise/deploy.rst:887
+#: ../../content/administration/on_premise/deploy.rst:886
 msgid "Google Chrome"
 msgstr "谷歌浏览器"
 
-#: ../../content/administration/on_premise/deploy.rst:888
+#: ../../content/administration/on_premise/deploy.rst:887
 msgid "Mozilla Firefox"
 msgstr "火狐浏览器"
 
-#: ../../content/administration/on_premise/deploy.rst:889
+#: ../../content/administration/on_premise/deploy.rst:888
 msgid "Microsoft Edge"
 msgstr "Microsoft Edge"
 
-#: ../../content/administration/on_premise/deploy.rst:890
+#: ../../content/administration/on_premise/deploy.rst:889
 msgid "Apple Safari"
 msgstr "苹果浏览器"
 
-#: ../../content/administration/on_premise/deploy.rst:893
+#: ../../content/administration/on_premise/deploy.rst:892
 msgid ""
 "to have multiple Odoo installations use the same PostgreSQL database, or to "
 "provide more computing resources to both software."
 msgstr ""
 "让多个Odoo安装使用相同的PostgreSQL数据库，或者为两个软件提供更多的计算资源。"
 
-#: ../../content/administration/on_premise/deploy.rst:896
+#: ../../content/administration/on_premise/deploy.rst:895
 msgid ""
 "technically a tool like socat_ can be used to proxy UNIX sockets across "
 "networks, but that is mostly for software which can only be used over UNIX "
@@ -7455,7 +7449,7 @@ msgstr ""
 "从技术上讲，像socat_这样的工具可以用来跨网络代理UNIX套接字，但这主要用于只能"
 "通过UNIX套接字使用的软件。"
 
-#: ../../content/administration/on_premise/deploy.rst:900
+#: ../../content/administration/on_premise/deploy.rst:899
 msgid ""
 "or be accessible only over an internal packet-switched network, but that "
 "requires secured switches, protections against `ARP spoofing`_ and precludes "
@@ -7711,7 +7705,7 @@ msgstr ""
 
 #: ../../content/administration/on_premise/packages.rst:34
 #: ../../content/administration/on_premise/packages.rst:70
-#: ../../content/administration/on_premise/source.rst:281
+#: ../../content/administration/on_premise/source.rst:402
 msgid "Debian/Ubuntu"
 msgstr "Debian/Ubuntu"
 
@@ -7738,7 +7732,7 @@ msgstr ""
 "确保 `sudo` 命令可用且配置良好，然后执行以下命令安装 PostgreSQL 服务器："
 
 #: ../../content/administration/on_premise/packages.rst:57
-#: ../../content/administration/on_premise/source.rst:423
+#: ../../content/administration/on_premise/source.rst:544
 msgid ""
 "`wkhtmltopdf` is not installed through **pip** and must be installed "
 "manually in `version 0.12.6 <https://github.com/wkhtmltopdf/packaging/"
@@ -7785,13 +7779,15 @@ msgstr ""
 
 #: ../../content/administration/on_premise/packages.rst:100
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: ../../content/administration/on_premise/packages.rst:103
 msgid ""
 "Odoo 19 'deb' package currently supports `Ubuntu Noble (24.04LTS) <https://"
 "releases.ubuntu.com/noble>`_."
 msgstr ""
+"Odoo 19 'deb' 软件包目前支持 `Ubuntu Noble (24.04LTS) <https://"
+"releases.ubuntu.com/noble>`_。"
 
 #: ../../content/administration/on_premise/packages.rst:106
 msgid ""
@@ -7804,7 +7800,7 @@ msgstr ""
 
 #: ../../content/administration/on_premise/packages.rst:117
 msgid "Odoo 19 'rpm' package supports Fedora 42."
-msgstr ""
+msgstr "Odoo 19 'rpm' 软件包支持 Fedora 42。"
 
 #: ../../content/administration/on_premise/packages.rst:119
 msgid ""
@@ -7975,9 +7971,10 @@ msgstr "使用SSH克隆"
 #: ../../content/administration/on_premise/source.rst:186
 #: ../../content/administration/on_premise/source.rst:216
 #: ../../content/administration/on_premise/source.rst:256
-#: ../../content/administration/on_premise/source.rst:354
-#: ../../content/administration/on_premise/source.rst:412
-#: ../../content/administration/on_premise/source.rst:474
+#: ../../content/administration/on_premise/source.rst:309
+#: ../../content/administration/on_premise/source.rst:475
+#: ../../content/administration/on_premise/source.rst:533
+#: ../../content/administration/on_premise/source.rst:595
 msgid "Mac OS"
 msgstr "Mac OS"
 
@@ -8052,25 +8049,31 @@ msgstr "Odoo 使用 PostgreSQL 作为其数据库管理系统。"
 
 #: ../../content/administration/on_premise/source.rst:197
 msgid "Minimum requirement updated from PostgreSQL 12 to PostgreSQL 13."
-msgstr ""
+msgstr "最低要求从 PostgreSQL 12 更新到 PostgreSQL 13。"
 
 #: ../../content/administration/on_premise/source.rst:204
 msgid ""
 "Use a package manager to download and install PostgreSQL (supported "
 "versions: 13.0 or above). It can be achieved by executing the following:"
 msgstr ""
+"使用包管理器下载并安装 PostgreSQL（支持的版本：13.0 或更高版本）。可以通过执"
+"行以下命令来实现："
 
 #: ../../content/administration/on_premise/source.rst:213
 msgid ""
 "`Download PostgreSQL <https://www.postgresql.org/download/windows>`_ "
 "(supported versions: 13.0 or above) and install it."
 msgstr ""
+"`下载 PostgreSQL <https://www.postgresql.org/download/windows>`_（支持的版"
+"本：13.0 或更高版本）并安装。"
 
 #: ../../content/administration/on_premise/source.rst:218
 msgid ""
 "Use `Postgres.app <https://postgresapp.com>`_ to download and install "
 "PostgreSQL (supported version: 13.0 or above)."
 msgstr ""
+"使用 `Postgres.app <https://postgresapp.com>`_ 下载并安装 PostgreSQL（支持的"
+"版本：13.0 或更高版本）。"
 
 #: ../../content/administration/on_premise/source.rst:222
 msgid ""
@@ -8139,11 +8142,89 @@ msgid ""
 msgstr ""
 "打开“权限”选项卡，将“可以登录？”切换为“是”，将“创建数据库？”切换为“是”。"
 
+#: ../../content/administration/on_premise/source.rst:268
+msgid ""
+"If you want to use **Odoo's AI features**, the `pg-vector` PostgreSQL "
+"extension is required."
+msgstr ""
+"如果您想使用\\ **Odoo 的 AI 功能**\\ ，需要安装\\ `pg-vector` PostgreSQL 扩展"
+"。"
+
 #: ../../content/administration/on_premise/source.rst:270
+msgid ""
+"Note that `pg-vector` is available only for PostgreSQL version 15 and up."
+msgstr "请注意，\\ `pg-vector`\\ 仅适用于 PostgreSQL 15 及更高版本。"
+
+#: ../../content/administration/on_premise/source.rst:276
+#: ../../content/administration/on_premise/source.rst:311
+#: ../../content/administration/on_premise/source.rst:346
+msgid "Navigate to your temporary folder"
+msgstr "导航到您的临时文件夹"
+
+#: ../../content/administration/on_premise/source.rst:282
+#: ../../content/administration/on_premise/source.rst:317
+#: ../../content/administration/on_premise/source.rst:352
+msgid ""
+"Clone the `pg-vector` `GitHub repository <https://github.com/pgvector/"
+"pgvector>`_:"
+msgstr ""
+"克隆\\ `pg-vector` `GitHub 存储库\\ <https://github.com/pgvector/pgvector>"
+"`_："
+
+#: ../../content/administration/on_premise/source.rst:288
+#: ../../content/administration/on_premise/source.rst:323
+#: ../../content/administration/on_premise/source.rst:358
+msgid "Navigate into the directory:"
+msgstr "导航到该目录："
+
+#: ../../content/administration/on_premise/source.rst:294
+#: ../../content/administration/on_premise/source.rst:329
+#: ../../content/administration/on_premise/source.rst:373
+msgid "Compile the extension:"
+msgstr "编译扩展："
+
+#: ../../content/administration/on_premise/source.rst:300
+#: ../../content/administration/on_premise/source.rst:335
+#: ../../content/administration/on_premise/source.rst:379
+msgid "Install the extension:"
+msgstr "安装扩展："
+
+#: ../../content/administration/on_premise/source.rst:306
+#: ../../content/administration/on_premise/source.rst:341
+msgid ""
+"If you run into any issues during installation, make sure to check the "
+"official `installation notes <https://github.com/pgvector/"
+"pgvector#installation-notes---linux-and-mac>`__."
+msgstr ""
+"如果在安装过程中遇到任何问题，请务必查看官方\\ `安装说明\\ <https://"
+"github.com/pgvector/pgvector#installation-notes---linux-and-mac>`__\\ 。"
+
+#: ../../content/administration/on_premise/source.rst:364
+msgid ""
+"Ensure C++ support in Visual Studio is installed and run `x64 Native Tools "
+"Command Prompt for VS [version]` as administrator."
+msgstr ""
+"确保在 Visual Studio 中安装了 C++ 支持，并以管理员身份运行\\ `x64 Native "
+"Tools Command Prompt for VS [version]`\\ 。"
+
+#: ../../content/administration/on_premise/source.rst:367
+msgid "Set your `PGROOT` environment variable:"
+msgstr "设置您的\\ `PGROOT`\\ 环境变量："
+
+#: ../../content/administration/on_premise/source.rst:385
+msgid ""
+"If you run into any issues during installation, make sure to check the "
+"official `installation notes <https://github.com/pgvector/"
+"pgvector#installation-notes---windows>`__."
+msgstr ""
+"如果您在安装过程中遇到任何问题，请务必查看官方\\ `安装说明<https://"
+"github.com/pgvector/pgvector#installation-notes---windows>`__\\ 。"
+
+#: ../../content/administration/on_premise/source.rst:391
 msgid "Dependencies"
 msgstr "依赖"
 
-#: ../../content/administration/on_premise/source.rst:276
+#: ../../content/administration/on_premise/source.rst:397
 msgid ""
 "Using **distribution packages** is the preferred way of installing "
 "dependencies. Alternatively, install the Python dependencies with **pip**."
@@ -8151,24 +8232,26 @@ msgstr ""
 "使用 **发行版软件包** 是安装依赖包的首选方式。或者，使用 **pip** 安装 Python "
 "依赖项。"
 
-#: ../../content/administration/on_premise/source.rst:283
+#: ../../content/administration/on_premise/source.rst:404
 msgid ""
 "On Debian/Ubuntu, the following commands should install the required "
 "packages:"
 msgstr "在 Debian/Ubuntu 上，使用以下命令即可安装所需的软件包："
 
-#: ../../content/administration/on_premise/source.rst:290
+#: ../../content/administration/on_premise/source.rst:411
 msgid ""
 "The `setup/debinstall.sh` script will parse the `debian/control <https://"
 "github.com/odoo/odoo/blob/19.0/debian/control>`_ file and install the found "
 "packages."
 msgstr ""
+"`setup/debinstall.sh` 脚本将解析 `debian/control <https://github.com/odoo/"
+"odoo/blob/19.0/debian/control>`_ 文件并安装找到的软件包。"
 
-#: ../../content/administration/on_premise/source.rst:293
+#: ../../content/administration/on_premise/source.rst:414
 msgid "Install with pip"
 msgstr "使用 pip 安装"
 
-#: ../../content/administration/on_premise/source.rst:296
+#: ../../content/administration/on_premise/source.rst:417
 msgid ""
 "Using pip may lead to security issues and broken dependencies; only do this "
 "if you know what you are doing."
@@ -8176,19 +8259,19 @@ msgstr ""
 "使用 pip 可能会导致安全问题和依赖关系中断；只有在你知道自己在做什么的情况下才"
 "会这样做。"
 
-#: ../../content/administration/on_premise/source.rst:299
+#: ../../content/administration/on_premise/source.rst:420
 msgid ""
 "As some of the Python packages need a compilation step, they require system "
 "libraries to be installed."
 msgstr "由于某些 Python 软件包需要编译步骤，因此需要安装系统库。"
 
-#: ../../content/administration/on_premise/source.rst:302
+#: ../../content/administration/on_premise/source.rst:423
 msgid ""
 "On Debian/Ubuntu, the following command should install these required "
 "libraries:"
 msgstr "在 Debian/Ubuntu 上，使用以下命令即可安装这些所需的库："
 
-#: ../../content/administration/on_premise/source.rst:308
+#: ../../content/administration/on_premise/source.rst:429
 msgid ""
 "Odoo dependencies are listed in the :file:`requirements.txt` file located at "
 "the root of the Odoo Community directory."
@@ -8196,7 +8279,7 @@ msgstr ""
 "Odoo 依赖项列在位于 Odoo 社区版目录根目录下的 :file:`requirements.txt` 文件"
 "中。"
 
-#: ../../content/administration/on_premise/source.rst:312
+#: ../../content/administration/on_premise/source.rst:433
 msgid ""
 "The Python packages in :file:`requirements.txt` are based on their stable/"
 "LTS Debian/Ubuntu corresponding version at the moment of the Odoo release. "
@@ -8209,9 +8292,9 @@ msgstr ""
 "Bullseye 中为 2.8.0，在 Ubuntu Focal 中为 2.6.0。然后"
 "在 :file:`requirements.txt` 中选择最低版本。"
 
-#: ../../content/administration/on_premise/source.rst:319
-#: ../../content/administration/on_premise/source.rst:341
-#: ../../content/administration/on_premise/source.rst:360
+#: ../../content/administration/on_premise/source.rst:440
+#: ../../content/administration/on_premise/source.rst:462
+#: ../../content/administration/on_premise/source.rst:481
 msgid ""
 "It can be preferable not to mix Python module packages between different "
 "instances of Odoo or with the system. However, it is possible to use "
@@ -8222,7 +8305,7 @@ msgstr ""
 "`virtualenv <https://pypi.org/project/virtualenv/>`_ 来创建隔离的 Python 环"
 "境。"
 
-#: ../../content/administration/on_premise/source.rst:323
+#: ../../content/administration/on_premise/source.rst:444
 msgid ""
 "Navigate to the path of the Odoo Community installation "
 "(:file:`CommunityPath`) and run **pip** on the requirements file to install "
@@ -8231,7 +8314,7 @@ msgstr ""
 "导航至 Odoo 社区版安装路径（:file:`CommunityPath`），并在需求文件上运行 "
 "**pip** 为当前用户安装需求。"
 
-#: ../../content/administration/on_premise/source.rst:333
+#: ../../content/administration/on_premise/source.rst:454
 msgid ""
 "Before installing the dependencies, download and install the `Build Tools "
 "for Visual Studio <https://visualstudio.microsoft.com/downloads/>`_. Select "
@@ -8241,15 +8324,15 @@ msgstr ""
 "visualstudio.microsoft.com/downloads/>`_\"。在 **Workloads** 选项卡中选择 "
 "**C++ 编译工具**，并按提示安装。"
 
-#: ../../content/administration/on_premise/source.rst:337
-#: ../../content/administration/on_premise/source.rst:356
+#: ../../content/administration/on_premise/source.rst:458
+#: ../../content/administration/on_premise/source.rst:477
 msgid ""
 "Odoo dependencies are listed in the `requirements.txt` file located at the "
 "root of the Odoo Community directory."
 msgstr ""
 "Odoo 依赖项列在位于 Odoo 社区版目录根目录下的`requirements.txt`文件中。"
 
-#: ../../content/administration/on_premise/source.rst:345
+#: ../../content/administration/on_premise/source.rst:466
 msgid ""
 "Navigate to the path of the Odoo Community installation (`CommunityPath`) "
 "and run **pip** on the requirements file in a terminal **with Administrator "
@@ -8258,14 +8341,14 @@ msgstr ""
 "导航至 Odoo 社区版安装路径（\"CommunityPath\"），并在**具有管理员权限**的终端"
 "上对需求文件运行 **pip**："
 
-#: ../../content/administration/on_premise/source.rst:364
+#: ../../content/administration/on_premise/source.rst:485
 msgid ""
 "Navigate to the path of the Odoo Community installation (`CommunityPath`) "
 "and run **pip** on the requirements file:"
 msgstr ""
 "导航至 Odoo 社区版安装路径（\"CommunityPath\"），并在需求文件上运行 **pip**："
 
-#: ../../content/administration/on_premise/source.rst:374
+#: ../../content/administration/on_premise/source.rst:495
 msgid ""
 "Non-Python dependencies must be installed with a package manager (`Homebrew "
 "<https://brew.sh/>`_, `MacPorts <https://www.macports.org>`_)."
@@ -8273,15 +8356,15 @@ msgstr ""
 "非 Python 依赖项必须使用软件包管理器安装（`Homebrew <https://brew.sh/>`_, "
 "`MacPorts <https://www.macports.org>`_）。"
 
-#: ../../content/administration/on_premise/source.rst:377
+#: ../../content/administration/on_premise/source.rst:498
 msgid "Download and install the **Command Line Tools**:"
 msgstr "下载并安装命令行工** ："
 
-#: ../../content/administration/on_premise/source.rst:383
+#: ../../content/administration/on_premise/source.rst:504
 msgid "Use the package manager to install non-Python dependencies."
 msgstr "使用软件包管理器安装非 Python 依赖项。"
 
-#: ../../content/administration/on_premise/source.rst:386
+#: ../../content/administration/on_premise/source.rst:507
 msgid ""
 "For languages using a **right-to-left interface** (such as Arabic or "
 "Hebrew), the `rtlcss` package is required."
@@ -8289,21 +8372,21 @@ msgstr ""
 "对于使用**从右到左界面**的语言（如阿拉伯语或希伯来语），需要使用 `rtlcss` 软"
 "件包。"
 
-#: ../../content/administration/on_premise/source.rst:393
+#: ../../content/administration/on_premise/source.rst:514
 msgid "Download and install **nodejs** and **npm** with a package manager."
 msgstr "使用软件包管理器下载并安装 **nodejs** 和 **npm**。"
 
-#: ../../content/administration/on_premise/source.rst:394
-#: ../../content/administration/on_premise/source.rst:403
-#: ../../content/administration/on_premise/source.rst:416
+#: ../../content/administration/on_premise/source.rst:515
+#: ../../content/administration/on_premise/source.rst:524
+#: ../../content/administration/on_premise/source.rst:537
 msgid "Install `rtlcss`:"
 msgstr "安装 `rtlcss`："
 
-#: ../../content/administration/on_premise/source.rst:402
+#: ../../content/administration/on_premise/source.rst:523
 msgid "Download and install `nodejs <https://nodejs.org/en/download>`_."
 msgstr "下载并安装 `nodejs <https://nodejs.org/en/download>`_。"
 
-#: ../../content/administration/on_premise/source.rst:409
+#: ../../content/administration/on_premise/source.rst:530
 msgid ""
 "Edit the system environment's variable `PATH` to add the folder where "
 "`rtlcss.cmd` is located (typically: :file:`C:\\\\Users\\\\<user>\\\\AppData\\"
@@ -8312,7 +8395,7 @@ msgstr ""
 "编辑系统环境变量 `PATH` 以添加 `rtlcss.cmd` 所在文件夹（通常为：:file:`C:"
 "\\Users\\\\1\\AppData\\\\Roaming\\npm\\`）。"
 
-#: ../../content/administration/on_premise/source.rst:414
+#: ../../content/administration/on_premise/source.rst:535
 msgid ""
 "Download and install **nodejs** with a package manager (`Homebrew <https://"
 "brew.sh/>`_, `MacPorts <https://www.macports.org>`_)."
@@ -8320,11 +8403,11 @@ msgstr ""
 "使用软件包管理器（`Homebrew <https://brew.sh/>`_, `MacPorts <https://"
 "www.macports.org>`_）下载并安装 **nodejs**。"
 
-#: ../../content/administration/on_premise/source.rst:431
+#: ../../content/administration/on_premise/source.rst:552
 msgid "Running Odoo"
 msgstr "运行 Odoo"
 
-#: ../../content/administration/on_premise/source.rst:433
+#: ../../content/administration/on_premise/source.rst:554
 msgid ""
 "Once all dependencies are set up, Odoo can be launched by running `odoo-"
 "bin`, the command-line interface of the server. It is located at the root of "
@@ -8333,7 +8416,7 @@ msgstr ""
 "一旦设置了所有依赖项，就可以通过运行服务器的命令行界面“odoo-bin”来启动Odoo。"
 "它位于Odoo社区目录的根目录。"
 
-#: ../../content/administration/on_premise/source.rst:436
+#: ../../content/administration/on_premise/source.rst:557
 msgid ""
 "To configure the server, either specify :ref:`command-line arguments "
 "<reference/cmdline/server>` or a :ref:`configuration file <reference/cmdline/"
@@ -8342,7 +8425,7 @@ msgstr ""
 "要配置服务器，可指定 :ref:` 命令行参数 <reference/cmdline/server>` 或 :ref:` "
 "配置文件 <reference/cmdline/config>`。"
 
-#: ../../content/administration/on_premise/source.rst:440
+#: ../../content/administration/on_premise/source.rst:561
 msgid ""
 "For the Enterprise edition, add the path to the `enterprise` add-ons to the "
 "`addons-path` argument. Note that it must come before the other paths in "
@@ -8351,24 +8434,24 @@ msgstr ""
 "对于企业版，请在 `addons-path` 参数中添加 `enterprise` 附加组件的路径。请注"
 "意，该路径必须位于 `addons-path` 中其他路径之前，这样才能正确加载附加组件。"
 
-#: ../../content/administration/on_premise/source.rst:444
+#: ../../content/administration/on_premise/source.rst:565
 msgid "Common necessary configurations are:"
 msgstr "常见的必要配置有："
 
-#: ../../content/administration/on_premise/source.rst:446
+#: ../../content/administration/on_premise/source.rst:567
 msgid "PostgreSQL user and password."
 msgstr "PostgreSQL 用户和密码。"
 
-#: ../../content/administration/on_premise/source.rst:447
+#: ../../content/administration/on_premise/source.rst:568
 msgid "Custom addon paths beyond the defaults to load custom modules."
 msgstr "可以在默认路径之外设置自定义插件路径以加载自定义模块。"
 
-#: ../../content/administration/on_premise/source.rst:449
+#: ../../content/administration/on_premise/source.rst:570
 msgid "A typical way to run the server would be:"
 msgstr "运行服务器的典型方法是："
 
-#: ../../content/administration/on_premise/source.rst:460
-#: ../../content/administration/on_premise/source.rst:481
+#: ../../content/administration/on_premise/source.rst:581
+#: ../../content/administration/on_premise/source.rst:602
 msgid ""
 "Where `CommunityPath` is the path of the Odoo Community installation, and "
 "`mydb` is the name of the PostgreSQL database."
@@ -8376,7 +8459,7 @@ msgstr ""
 "其中，\"CommunityPath \"是 Odoo 社区版的安装路径，\"mydb \"是 PostgreSQL 数据"
 "库的名称。"
 
-#: ../../content/administration/on_premise/source.rst:470
+#: ../../content/administration/on_premise/source.rst:591
 msgid ""
 "Where `CommunityPath` is the path of the Odoo Community installation, "
 "`dbuser` is the PostgreSQL login, `dbpassword` is the PostgreSQL password, "
@@ -8385,7 +8468,7 @@ msgstr ""
 "其中，\"CommunityPath \"是 Odoo 社区版的安装路径，\"dbuser \"是 PostgreSQL 登"
 "录名，\"dbpassword \"是 PostgreSQL 密码，\"mydb \"是 PostgreSQL 数据库名称。"
 
-#: ../../content/administration/on_premise/source.rst:484
+#: ../../content/administration/on_premise/source.rst:605
 msgid ""
 "After the server has started (the INFO log `odoo.modules.loading: Modules "
 "loaded.` is printed), open http://localhost:8069 in a web browser and log "
@@ -8396,14 +8479,14 @@ msgstr ""
 "络浏览器中打开 http://localhost:8069，使用基本管理员账户登录 Odoo 数据库：使"
 "用 `admin` 作为电子邮件，同样使用 `admin` 作为密码。"
 
-#: ../../content/administration/on_premise/source.rst:489
+#: ../../content/administration/on_premise/source.rst:610
 msgid ""
 "From there, create and manage new :doc:`users <../../applications/general/"
 "users>`."
 msgstr ""
 "从那里，创建并管理新的 :doc:`用户 <.../../applications/general/users>`。"
 
-#: ../../content/administration/on_premise/source.rst:490
+#: ../../content/administration/on_premise/source.rst:611
 msgid ""
 "The user account used to log into Odoo's web interface differs from "
 "the :option:`--db_user <odoo-bin -r>` CLI argument."
@@ -8411,7 +8494,7 @@ msgstr ""
 "用于登录 Odoo 网页界面的用户账户与 :option:`--db_user <odoo-bin -r>` CLI 参数"
 "不同。"
 
-#: ../../content/administration/on_premise/source.rst:494
+#: ../../content/administration/on_premise/source.rst:615
 msgid ""
 ":doc:`The list of CLI arguments for odoo-bin </developer/reference/cli>`"
 msgstr ":doc:`odoo-bin 的 CLI 参数列表</developer/reference/cli>`"
@@ -8715,7 +8798,7 @@ msgstr ""
 
 #: ../../content/administration/standard_extended_support.rst:3
 msgid "Standard and extended support"
-msgstr ""
+msgstr "标准支持和延长支持"
 
 #: ../../content/administration/standard_extended_support.rst:6
 msgid ""
@@ -8724,19 +8807,25 @@ msgid ""
 "legal/terms/enterprise>`. In the event of any inconsistency or conflict, the "
 "Subscription Agreement shall govern."
 msgstr ""
+"本页面所呈现的信息无意修改、更改或替代:doc:`Odoo企业版订阅协议 <../legal/"
+"terms/enterprise>`的任何条款。如有任何不一致或冲突，以订阅协议为准。"
 
 #: ../../content/administration/standard_extended_support.rst:10
 msgid ""
 "Odoo provides **standard support** for all major versions for three years. "
 "It includes helpdesk support, bug fixing, and security updates."
 msgstr ""
+"Odoo为所有主要版本提供三年的**标准支持**。包括服务台支持、错误修复和安全更"
+"新。"
 
 #: ../../content/administration/standard_extended_support.rst:13
 msgid ""
-"Beyond those three years, you can benefit from **extended support** by "
-"paying an extra fee. It includes helpdesk support and bug fixes (depending "
-"on feasibility)."
+"Beyond those three years, **extended support** is subject to a mandatory "
+"additional fee and includes helpdesk support and bug fixes (depending on "
+"feasibility)."
 msgstr ""
+"除这三年外，**延长支持**需支付强制性额外费用，包括服务台支持和错误修复（取决"
+"于可行性）。"
 
 #: ../../content/administration/standard_extended_support.rst:17
 msgid ""
@@ -8744,16 +8833,18 @@ msgid ""
 "two to three months. These versions are only available on Odoo Online and "
 "are not eligible for extended support."
 msgstr ""
+"Odoo每两到三个月发布一次中间版本，称为在线版本或SaaS版本。这些版本仅在Odoo在"
+"线版上可用，不符合延长支持条件。"
 
 #: ../../content/administration/standard_extended_support.rst:19
 msgid "You can `upgrade <https://upgrade.odoo.com>`_ from any version."
-msgstr ""
+msgstr "您可以从任何版本`升级<https://upgrade.odoo.com>`_。"
 
 #: ../../content/administration/standard_extended_support.rst:21
 msgid ""
 "The table below shows the support status of every version. Major releases "
 "are highlighted in bold."
-msgstr ""
+msgstr "下表显示了每个版本的支持状态。主要版本以粗体突出显示。"
 
 #: ../../content/administration/standard_extended_support.rst:31
 msgid "Release date"
@@ -8761,158 +8852,168 @@ msgstr "发布日期"
 
 #: ../../content/administration/standard_extended_support.rst:32
 msgid "End of standard support"
-msgstr ""
+msgstr "标准支持结束"
 
 #: ../../content/administration/standard_extended_support.rst:33
-msgid "Odoo SaaS 19.2"
-msgstr ""
+msgid "Odoo SaaS 19.3"
+msgstr "Odoo SaaS 19.3"
 
 #: ../../content/administration/standard_extended_support.rst:35
 #: ../../content/administration/standard_extended_support.rst:36
 #: ../../content/administration/standard_extended_support.rst:41
 #: ../../content/administration/standard_extended_support.rst:42
-#: ../../content/administration/standard_extended_support.rst:53
-#: ../../content/administration/standard_extended_support.rst:54
+#: ../../content/administration/standard_extended_support.rst:47
+#: ../../content/administration/standard_extended_support.rst:48
 #: ../../content/administration/standard_extended_support.rst:59
 #: ../../content/administration/standard_extended_support.rst:60
 #: ../../content/administration/standard_extended_support.rst:65
 #: ../../content/administration/standard_extended_support.rst:66
+#: ../../content/administration/standard_extended_support.rst:71
+#: ../../content/administration/standard_extended_support.rst:72
 msgid "N/A"
 msgstr "无"
 
 #: ../../content/administration/standard_extended_support.rst:37
-msgid "March 2026"
-msgstr ""
+msgid "May 2026"
+msgstr "2026年5月"
 
 #: ../../content/administration/standard_extended_support.rst:39
-msgid "Odoo SaaS 19.1"
-msgstr ""
+msgid "Odoo SaaS 19.2"
+msgstr "Odoo SaaS 19.2"
 
 #: ../../content/administration/standard_extended_support.rst:43
-msgid "January 2026"
-msgstr ""
+msgid "March 2026"
+msgstr "2026年3月"
 
 #: ../../content/administration/standard_extended_support.rst:45
-msgid "**Odoo 19.0**"
-msgstr ""
+msgid "Odoo SaaS 19.1"
+msgstr "Odoo SaaS 19.1"
 
 #: ../../content/administration/standard_extended_support.rst:49
-#: ../../content/administration/standard_extended_support.rst:86
-msgid "September 2025"
-msgstr ""
-
-#: ../../content/administration/standard_extended_support.rst:50
-msgid "September 2028 (planned)"
-msgstr ""
+msgid "January 2026"
+msgstr "2026年1月"
 
 #: ../../content/administration/standard_extended_support.rst:51
-msgid "Odoo SaaS 18.4"
-msgstr ""
+msgid "**Odoo 19.0**"
+msgstr "**Odoo 19.0**"
 
 #: ../../content/administration/standard_extended_support.rst:55
-msgid "July 2025"
-msgstr ""
+#: ../../content/administration/standard_extended_support.rst:92
+msgid "September 2025"
+msgstr "2025年9月"
+
+#: ../../content/administration/standard_extended_support.rst:56
+msgid "September 2028 (planned)"
+msgstr "2028年9月（计划）"
 
 #: ../../content/administration/standard_extended_support.rst:57
+msgid "Odoo SaaS 18.4"
+msgstr "Odoo SaaS 18.4"
+
+#: ../../content/administration/standard_extended_support.rst:61
+msgid "July 2025"
+msgstr "2025年7月"
+
+#: ../../content/administration/standard_extended_support.rst:63
 msgid "Odoo SaaS 18.3"
 msgstr "Odoo SaaS 18.3"
 
-#: ../../content/administration/standard_extended_support.rst:61
+#: ../../content/administration/standard_extended_support.rst:67
 msgid "May 2025"
 msgstr "2025 年 5 月"
 
-#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:69
 msgid "Odoo SaaS 18.2"
 msgstr "Odoo SaaS 18.2"
 
-#: ../../content/administration/standard_extended_support.rst:67
+#: ../../content/administration/standard_extended_support.rst:73
 msgid "March 2025"
 msgstr "2025 三月"
 
-#: ../../content/administration/standard_extended_support.rst:69
+#: ../../content/administration/standard_extended_support.rst:75
 msgid "**Odoo 18.0**"
 msgstr "**Odoo 18.0**"
 
-#: ../../content/administration/standard_extended_support.rst:73
-#: ../../content/administration/standard_extended_support.rst:92
+#: ../../content/administration/standard_extended_support.rst:79
+#: ../../content/administration/standard_extended_support.rst:98
 msgid "October 2024"
 msgstr "2024 年 10 月"
 
-#: ../../content/administration/standard_extended_support.rst:74
+#: ../../content/administration/standard_extended_support.rst:80
 msgid "September 2027 (planned)"
-msgstr ""
+msgstr "2027年9月（计划）"
 
-#: ../../content/administration/standard_extended_support.rst:75
+#: ../../content/administration/standard_extended_support.rst:81
 msgid "**Odoo 17.0**"
 msgstr "**Odoo 17.0**"
 
-#: ../../content/administration/standard_extended_support.rst:79
+#: ../../content/administration/standard_extended_support.rst:85
 msgid "November 2023"
 msgstr "2023 年 11 月"
 
-#: ../../content/administration/standard_extended_support.rst:80
+#: ../../content/administration/standard_extended_support.rst:86
 msgid "September 2026 (planned)"
-msgstr ""
+msgstr "2026年9月（计划）"
 
-#: ../../content/administration/standard_extended_support.rst:81
+#: ../../content/administration/standard_extended_support.rst:87
 msgid "**Odoo 16.0**"
 msgstr "**Odoo 16.0**"
 
-#: ../../content/administration/standard_extended_support.rst:83
-#: ../../content/administration/standard_extended_support.rst:84
 #: ../../content/administration/standard_extended_support.rst:89
 #: ../../content/administration/standard_extended_support.rst:90
 #: ../../content/administration/standard_extended_support.rst:95
 #: ../../content/administration/standard_extended_support.rst:96
+#: ../../content/administration/standard_extended_support.rst:101
 #: ../../content/administration/standard_extended_support.rst:102
+#: ../../content/administration/standard_extended_support.rst:108
 msgid "|orange|"
-msgstr ""
+msgstr "|orange|"
 
-#: ../../content/administration/standard_extended_support.rst:85
+#: ../../content/administration/standard_extended_support.rst:91
 msgid "October 2022"
 msgstr "2022 年 10 月"
 
-#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:93
 msgid "**Odoo 15.0**"
 msgstr "**Odoo 15.0**"
 
-#: ../../content/administration/standard_extended_support.rst:91
+#: ../../content/administration/standard_extended_support.rst:97
 msgid "October 2021"
 msgstr "2021 年 10 月"
 
-#: ../../content/administration/standard_extended_support.rst:93
+#: ../../content/administration/standard_extended_support.rst:99
 msgid "**Odoo 14.0**"
-msgstr ""
+msgstr "**Odoo 14.0**"
 
-#: ../../content/administration/standard_extended_support.rst:97
 #: ../../content/administration/standard_extended_support.rst:103
+#: ../../content/administration/standard_extended_support.rst:109
 msgid "Before 2021"
 msgstr "2021 年之前"
 
-#: ../../content/administration/standard_extended_support.rst:98
 #: ../../content/administration/standard_extended_support.rst:104
+#: ../../content/administration/standard_extended_support.rst:110
 msgid "Before 2024"
 msgstr "2024 年之前"
 
-#: ../../content/administration/standard_extended_support.rst:99
+#: ../../content/administration/standard_extended_support.rst:105
 msgid "Older versions"
 msgstr "更早版本"
 
-#: ../../content/administration/standard_extended_support.rst:108
-msgid "|green| : Standard support"
-msgstr ""
-
-#: ../../content/administration/standard_extended_support.rst:110
-msgid "|orange| : Extended support available (with an extra fee)"
-msgstr ""
-
-#: ../../content/administration/standard_extended_support.rst:112
-msgid "|red| : Not supported"
-msgstr ""
-
 #: ../../content/administration/standard_extended_support.rst:114
+msgid "|green| : Standard support"
+msgstr "|green|：标准支持"
+
+#: ../../content/administration/standard_extended_support.rst:116
+msgid "|orange| : Extended support (mandatory extra fee)"
+msgstr "|orange|：延长支持（强制性额外费用）"
+
+#: ../../content/administration/standard_extended_support.rst:118
+msgid "|red| : Not supported"
+msgstr "|red|：不支持"
+
+#: ../../content/administration/standard_extended_support.rst:120
 msgid "N/A : Never released for this platform"
-msgstr ""
+msgstr "不适用：此平台从未发布该版本"
 
 #: ../../content/administration/upgrade.rst:5
 msgid ""
@@ -8922,6 +9023,10 @@ msgid ""
 "patches. Using a :doc:`supported version <standard_extended_support>` is "
 "strongly recommended. Each major version is supported for three years."
 msgstr ""
+"升级是指将数据库从旧版本迁移到较新的受支持版本（例如，从Odoo 16.0升级到Odoo "
+"18.0）。定期升级至关重要，因为每个版本都提供新功能、错误修复和安全补丁。强烈"
+"建议使用:doc:`受支持的版本 <standard_extended_support>`。每个主要版本支持三"
+"年。"
 
 #: ../../content/administration/upgrade.rst:10
 msgid ""
@@ -9144,7 +9249,7 @@ msgstr ""
 
 #: ../../content/administration/upgrade.rst:111
 msgid "To upgrade an Odoo Online database:"
-msgstr ""
+msgstr "升级 Odoo Online 数据库："
 
 #: ../../content/administration/upgrade.rst:113
 msgid "Open the `database manager <https://www.odoo.com/my/databases>`_."
@@ -9870,6 +9975,34 @@ msgstr ":doc:`Odoo.sh documentation <odoo_sh>`"
 #: ../../content/administration/upgrade.rst:432
 msgid ":doc:`Supported Odoo versions <standard_extended_support>`"
 msgstr ":doc:`已支持的 Odoo 版本 <standard_extended_support>`"
+
+#~ msgid ""
+#~ "Nevertheless, once the file has been located and the access rights "
+#~ "verified by Odoo, it is a good idea to serve the file using the static "
+#~ "web server instead of Odoo. For Odoo to delegate serving files to the "
+#~ "static web server, the `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ "
+#~ "(apache) or `X-Accel <https://www.nginx.com/resources/wiki/start/topics/"
+#~ "examples/x-accel/>`_ (nginx) extensions must be enabled and configured on "
+#~ "the static web server. Once it is set up, start Odoo with the :option:`--"
+#~ "x-sendfile <odoo-bin --x-sendfile>` CLI flag (this unique flag is used "
+#~ "for both X-Sendfile and X-Accel)."
+#~ msgstr ""
+#~ "不过，一旦找到文件并由 Odoo 验证了访问权限，最好使用静态网络服务器而不是 "
+#~ "Odoo 来提供文件。要让 Odoo 委托静态网络服务器发送文件，必须在静态网络服务"
+#~ "器上启用并配置 `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ (apache) "
+#~ "或 `X-Accel <https://www.nginx.com/resources/wiki/start/topics/examples/x-"
+#~ "accel/>`_ (nginx)扩展。设置完成后，使用 :option:`--x-sendfile <odoo-bin --"
+#~ "x-sendfile>` CLI 标志启动 Odoo（X-Sendfile 和 X-Accel 均使用此唯一标志）。"
+
+#~ msgid ""
+#~ "Databases created for staging branches are intended to last up to three "
+#~ "months. After that, they can be automatically blocked without prior "
+#~ "notice. Only rebuilding the branch will allow you to use that specific "
+#~ "branch again."
+#~ msgstr ""
+#~ "测试分支所创建的数据库，有效期最长为三个月。期满后，系统可能在不提前通知的"
+#~ "情况下自动冻结该数据库。若需重新使用此特定分支，您只能通过重建分支的方式实"
+#~ "现。"
 
 #~ msgid ""
 #~ "The iOS app might not be updated and might be deprecated at some point in "

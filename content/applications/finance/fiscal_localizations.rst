@@ -4,10 +4,10 @@
 Fiscal localizations
 ====================
 
-Fiscal localizations are country-specific modules that allow you to be compliant with a country's
-fiscal requirements. Most of these modules are related to the Accounting app, but they can also be
-necessary for other apps such as Point of Sale, eCommerce, etc., depending on a country's fiscal
-requirements.
+Fiscal localizations are country-specific modules that allows for compliance with a country's fiscal
+requirements. Most of these modules are related to the **Accounting** app, but they can also be
+necessary for other apps such as **Point of Sale**, **eCommerce**, etc., depending on a country's
+fiscal requirements.
 
 .. seealso::
    :doc:`../hr/payroll/payroll_localizations` are documented separately.
@@ -88,7 +88,7 @@ Fiscal localization modules are available for the countries listed below.
 - Guinea-Bissau
 - Honduras
 - :doc:`Hong Kong <fiscal_localizations/hong_kong>`
-- Hungary
+- :doc:`Hungary <fiscal_localizations/hungary>`
 - :doc:`India <fiscal_localizations/india>`
 - :doc:`Indonesia <fiscal_localizations/indonesia>`
 - :doc:`Italy <fiscal_localizations/italy>`
@@ -145,6 +145,7 @@ Fiscal localization modules are available for the countries listed below.
 - :doc:`United Kingdom <fiscal_localizations/united_kingdom>`
 - :doc:`United States of America <fiscal_localizations/united_states>`
 - :doc:`Uruguay <fiscal_localizations/uruguay>`
+- :doc:`Uzbekistan <fiscal_localizations/uzbekistan>`
 - Venezuela
 - :doc:`Vietnam <fiscal_localizations/vietnam>`
 - Zambia
@@ -168,6 +169,7 @@ Fiscal localization modules are available for the countries listed below.
    fiscal_localizations/germany
    fiscal_localizations/guatemala
    fiscal_localizations/hong_kong
+   fiscal_localizations/hungary
    fiscal_localizations/india
    fiscal_localizations/indonesia
    fiscal_localizations/italy
@@ -193,4 +195,5 @@ Fiscal localization modules are available for the countries listed below.
    fiscal_localizations/united_kingdom
    fiscal_localizations/united_states
    fiscal_localizations/uruguay
+   fiscal_localizations/uzbekistan
    fiscal_localizations/vietnam
