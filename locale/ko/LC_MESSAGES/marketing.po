@@ -5,13 +5,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025, 2026.
 # "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:30+0000\n"
-"PO-Revision-Date: 2026-06-10 01:02+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 13:46+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/ko/>\n"
 "Language: ko\n"
@@ -4656,15 +4657,15 @@ msgstr ""
 ":guilabel:`사용자 정의 그룹...`: :ref:`사용자 정의 그룹 <search/group>`별로 "
 "데이터를 그룹화합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:181
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
 msgid "Create event track"
 msgstr "행사 트랙 만들기"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
 msgid "New event tracks are created from the :guilabel:`Event Tracks` page."
 msgstr "새 이벤트 트랙은 :guilabel:`이벤트 트랙` 페이지에서 생성됩니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:187
 msgid ""
 "To create a new event track, click :guilabel:`New` in the upper-left corner "
 "to reveal a blank event track form."
@@ -4676,34 +4677,34 @@ msgstr ""
 msgid "Typical event track form in the Odoo Events application."
 msgstr "Odoo 행사 애플리케이션의 일반적인 행사 트랙 양식입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:191
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required**."
 msgstr "이 트랙에 :guilabel:`제목`을 지정합니다. 이 필드는 **필수**입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
 msgid ""
 "Optionally, upload an image for the track to be displayed on the track's "
 "webpage."
 msgstr "선택적으로 트랙 웹페이지에 표시될 트랙 이미지를 업로드합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
 msgid "Next, enter details for the track in the following fields:"
 msgstr "다음으로 다음 필드에 트랙에 대한 세부 정보를 입력합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
 msgid ":guilabel:`Track Date`: Specify the date of the track."
 msgstr ":guilabel:`트랙 날짜`: 트랙의 날짜를 지정합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:198
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
 msgid ":guilabel:`Location`: Specify the location of the track."
 msgstr ":guilabel:`위치`\\ : 트랙의 위치를 지정합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:201
 msgid ":guilabel:`Duration`: Specify the duration of the track (in minutes)."
 msgstr ":guilabel:`기간`\\ : 트랙의 기간을 분 단위로 지정합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
 msgid ""
 ":guilabel:`Always Wishlisted`: Specify whether to automatically set the "
 "track as favorite for each registered attendee."
@@ -4711,7 +4712,7 @@ msgstr ""
 ":guilabel:`항상 위시리스트에 추가`\\ : 등록된 각 참석자에 대해 트랙을 "
 "자동으로 즐겨찾기로 설정할지 여부를 지정합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
 msgid ""
 ":guilabel:`Responsible`: Select the database user responsible for managing "
 "the track. By default, this field is assigned to the user who initially "
@@ -4720,7 +4721,7 @@ msgstr ""
 ":guilabel:`담당자`\\ : 트랙 관리를 담당하는 데이터베이스 사용자를 "
 "선택합니다. 기본적으로 이 필드는 트랙을 처음 생성한 사용자에게 할당됩니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
 msgid ""
 ":guilabel:`Event`: Select the track's associated event. By default, this "
 "field is already populated with the event from the *Event Tracks* page."
@@ -4728,7 +4729,7 @@ msgstr ""
 ":guilabel:`이벤트`\\ : 트랙과 연결된 이벤트를 선택합니다. 기본적으로 이 "
 "필드는 *이벤트 트랙* 페이지의 이벤트로 이미 채워져 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
 msgid ""
 ":guilabel:`Tags`: Select one or multiple tags for the track to add as "
 "filters on the *Talks* webpage."
@@ -4736,7 +4737,7 @@ msgstr ""
 ":guilabel:`태그`\\ : *강연* 웹페이지에서 필터로 추가할 트랙에 대해 하나 "
 "이상의 태그를 선택합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:210
 msgid ""
 ":guilabel:`Agenda Color`: Select a color to represent the track on the "
 "*Agenda* webpage."
@@ -4744,7 +4745,7 @@ msgstr ""
 ":guilabel:`일정 색상`\\ : *일정* 웹페이지에서 트랙을 나타낼 색상을 "
 "선택합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:211
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:213
 msgid ""
 "To access a complete list of locations for event tracks, which can be "
 "modified (and added to) at any time, navigate to :menuselection:`Events app "
@@ -4754,11 +4755,11 @@ msgstr ""
 "액세스하려면,:menuselection:`행사 앱 --> 환경설정 --> 트랙 위치` 로 "
 "이동합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:217
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
 msgid "Speaker tab"
 msgstr "발표자 탭"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:221
 msgid ""
 "The :guilabel:`Speaker` tab on an event track form contains various fields "
 "to configure information about the track host or speaker."
@@ -4770,11 +4771,11 @@ msgstr ""
 msgid "The Speaker tab on an event track form in the Odoo Events application."
 msgstr "Odoo 행사 애플리케이션의 행사 트랙 양식에 있는 발표자 탭입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:226
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
 msgid "Contact Details section"
 msgstr "연락처 세부 정보 섹션"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:230
 msgid ""
 "In the :guilabel:`Contact Details` section, click the :guilabel:`Contact` "
 "drop-down field to select an existing contact from the database as the main "
@@ -4784,7 +4785,7 @@ msgstr ""
 "필드를 클릭하여 데이터베이스에서 기존 연락처를 강연의 주요 연락 담당자로 "
 "선택합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:231
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:233
 msgid ""
 "If this contact is not yet in the database, type in the name of the contact, "
 "and click :guilabel:`Create` to create and edit the contact form later, or "
@@ -4796,7 +4797,7 @@ msgstr ""
 ":guilabel:`생성 및 편집...`\\ 을 클릭하여 즉시 구성할 수 있도록 새 연락처의 "
 "연락처 양식으로 이동합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:235
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:237
 msgid ""
 "The :guilabel:`Contact Email` and :guilabel:`Contact Phone` fields are "
 "greyed-out and populated with the information found on the chosen contact's "
@@ -4807,11 +4808,11 @@ msgstr ""
 "표시되며 선택한 연락처 양식에 있는 정보로 채워집니다.\\ :guilabel:`연락처`\\ "
 "필드를 선택하면 이러한 필드는 수정할 수 없습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:240
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
 msgid "Speaker Bio section"
 msgstr "발표자 소개 섹션"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:244
 msgid ""
 "In the :guilabel:`Speaker Bio` section, enter any information related to the "
 "specific speaker scheduled to conduct/host the track."
@@ -4819,7 +4820,7 @@ msgstr ""
 ":guilabel:`발표자 약력`\\ 섹션에 트랙을 진행/주최할 예정인 특정 발표자와 "
 "관련된 모든 정보를 입력합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:245
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:247
 msgid ""
 "If the chosen contact in the :guilabel:`Contact Details` section is properly "
 "configured, the :guilabel:`Name`, :guilabel:`Email`, and :guilabel:`Phone` "
@@ -4830,7 +4831,7 @@ msgstr ""
 " :guilabel:`이름`,\\ :guilabel:`이메일`\\ 및\\ :guilabel:`\\ `\\ 필드가 "
 "자동으로 채워집니다. 그렇지 않으면 정보를 수동으로 입력합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:250
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:252
 msgid ""
 "This information appears on the front-end of the event website, on the "
 "specific track webpage, providing more information about the speaker to the "
@@ -4839,7 +4840,7 @@ msgstr ""
 "이 정보는 행사 웹사이트 프론트엔드의 특정 트랙 웹페이지에 표시되어 트랙 "
 "참석자에게 연사에 대한 더 많은 정보를 제공합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:253
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
 msgid ""
 "Optionally, upload an image to appear alongside the speaker biography on the "
 "event website."
@@ -4847,7 +4848,7 @@ msgstr ""
 "선택적으로 이벤트 \\uc6f9\\uc0ac\\uc774\\ud2b8에서 발표자 약력과 함께 표시할 "
 "이미지를 업로드합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:257
 msgid ""
 "Then, enter a :guilabel:`Job Position` for the designated speaker, followed "
 "by the :guilabel:`Company Name` associated with the speaker."
@@ -4855,7 +4856,7 @@ msgstr ""
 "그런 다음 지정된 연사의 :guilabel:`직위`를 입력하고, 연사와 관련된 "
 ":guilabel:`회사명`을 입력하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:258
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:260
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter a custom biography with "
 "any speaker-related information."
@@ -4863,13 +4864,13 @@ msgstr ""
 ":guilabel:`약력`\\ 필드에 발표자 관련 정보가 포함된 사용자 지정 약력을 "
 "입력합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:264
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
 #: ../../content/applications/marketing/surveys/create.rst:258
 #: ../../content/applications/marketing/surveys/questions.rst:198
 msgid "Description tab"
 msgstr "설명 탭"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Description` tab of an event track form contains a blank text "
 "field to enter any additional information about the track. This information "
@@ -4879,11 +4880,11 @@ msgstr ""
 "입력할 수 있는 빈 텍스트 필드가 있습니다. 이 정보는 이벤트 \\uc6f9\\uc0ac\\u"
 "c774\\ud2b8의 특정 트랙 페이지에 표시됩니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:273
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
 msgid "Interactivity tab"
 msgstr "상호 작용 탭"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:277
 msgid ""
 "The :guilabel:`Interactivity` tab of the track form provides users the "
 "option to display an interactive button for additional attendee engagement."
@@ -4896,7 +4897,7 @@ msgid ""
 "The Interactivity tab on an event track form in the Odoo Events application."
 msgstr "Odoo 행사 애플리케이션의 행사 트랙 양식에 있는 상호 작용 탭입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:282
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:284
 msgid ""
 "When the :guilabel:`Magic Button` checkbox is ticked, Odoo displays a *call "
 "to action* button to attendees on the sidebar of the track webpage while the "
@@ -4905,7 +4906,7 @@ msgstr ""
 ":guilabel:`매직 버튼`\\ 체크박스를 선택하면 Odoo는 트랙이 진행되는 동안 트랙 "
 "웹페이지의 사이드바에 참석자에게 *행동 유도* 버튼을 표시합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:285
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
 msgid ""
 "With that checkbox ticked, three more options appear below to configure the "
 "button:"
@@ -4913,19 +4914,19 @@ msgstr ""
 "해당 체크박스를 선택하면 버튼을 구성하기 위한 세 가지 옵션이 아래에 "
 "표시됩니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
 msgid ""
 ":guilabel:`Button Title`: Enter a title to appear on the button for "
 "attendees."
 msgstr ":guilabel:`버튼 제목`\\ : 참석자를 위해 버튼에 표시할 제목을 입력합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:288
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:290
 msgid ""
 ":guilabel:`Button Target URL`: Enter a URL that leads attendees to a "
 "specific page."
 msgstr ":guilabel:`버튼 대상 URL`: 참가자를 특정 페이지로 안내하는 URL을 입력하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:291
 msgid ""
 ":guilabel:`Show Button`: Enter how many :guilabel:`minutes after Track "
 "start` the button should appear."
@@ -4933,16 +4934,16 @@ msgstr ""
 ":guilabel:`버튼 표시`: 트랙 시작 후 버튼이 나타나야 하는 :guilabel:`분`을 "
 "입력하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:293
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:295
 msgid ""
 "The magic button **only** appears if there is more than one published track."
 msgstr "트랙이 두 개 이상 게시된 경우에 **한해서만** 해당 버튼이 표시됩니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:296
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
 msgid "Publish event track"
 msgstr "행사 트랙 게시"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:300
 msgid ""
 "Once all the desired configurations are complete on an event track form, "
 "publish the track on the event website by clicking the :guilabel:`Published` "
@@ -4951,7 +4952,7 @@ msgstr ""
 "이벤트 트랙 양식의 모든 원하는 구성이 완료되면 오른쪽 상단의 "
 ":guilabel:`게시됨` 단계를 클릭하여 이벤트 웹사이트에 트랙을 게시하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:302
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:304
 msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
@@ -4960,7 +4961,7 @@ msgstr ""
 "트랙에 있는 단계는 :guilabel:`행사 트랙` 페이지에서도 변경할 수 있으며, "
 "원하는 트랙 카드를 알맞은 칸반 단계로 끌어다 놓으면 됩니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:305
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:307
 msgid ""
 "An event track can also be published by opening the desired event track form "
 "and clicking the :guilabel:`Go to Website` smart button. Then, toggle "
@@ -4981,11 +4982,11 @@ msgstr ""
 "Odoo 행사를 통해 구축한 행사 웹사이트에 있는 트랙 관련 행사 하위 메뉴 "
 "항목들입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:315
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
 msgid "Additional track configurations"
 msgstr "추가 트랙 환경설정"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:319
 msgid ""
 "The :guilabel:`Schedule & Tracks` setting in the **Events** configuration "
 "page provides additional configuration options for users to enable live "
@@ -4994,11 +4995,11 @@ msgstr ""
 "**행사** 구성 페이지의 :guilabel:`일정 및 트랙` 설정은 사용자가 트랙에 대한 "
 "실시간 방송 및 게이미피케이션을 활성화할 수 있는 추가 구성 옵션을 제공합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:323
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
 msgid "Live broadcasting"
 msgstr "라이브 방송"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:327
 msgid ""
 "If the :guilabel:`Live Broadcast` setting is enabled in the **Events** app "
 "settings, the option to add a corresponding link in the :guilabel:`YouTube "
@@ -5008,11 +5009,11 @@ msgstr ""
 "양식의 :guilabel:`YouTube 비디오 링크` 필드에 해당 링크를 추가하는 옵션이 "
 "나타납니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:331
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
 msgid "Event gamification"
 msgstr "행사 게임화 전략"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:335
 msgid ""
 "If the :guilabel:`Event Gamification` setting is enabled, an :guilabel:`Add "
 "Quiz` button appears on the top-left of a track form, allowing the user to "
@@ -5022,11 +5023,11 @@ msgstr ""
 ":guilabel:`퀴즈 추가` 버튼이 나타나 사용자가 트랙 종료 후 참가자가 완료할 "
 "퀴즈를 만들 수 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:338
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
 msgid "Track quiz form"
 msgstr "퀴즈 양식 조회"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:342
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so opens a form to configure the quiz."
@@ -5038,13 +5039,13 @@ msgstr ""
 msgid "The Add Quiz page in the Odoo Events application for an event track."
 msgstr "행사 트랙에 대한 Odoo 행사 애플리케이션의 퀴즈 추가 페이지입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:346
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page."
 msgstr "페이지 상단의 빈 필드에 퀴즈 제목을 입력하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:350
 msgid ""
 "If participants are allowed to take the quiz multiple times, tick the "
 "checkbox beside :guilabel:`Allow multiple tries`."
@@ -5052,7 +5053,7 @@ msgstr ""
 "참가자가 퀴즈를 여러 번 시도할 수 있는 경우 :guilabel:`여러 번 시도 허용` "
 "옆의 확인란을 선택하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:351
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:353
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are automatically "
 "populated with the corresponding event and track. These fields are non-"
@@ -5061,11 +5062,11 @@ msgstr ""
 ":guilabel:`이벤트`와 :guilabel:`이벤트 트랙` 필드는 해당 이벤트 및 트랙으로 "
 "자동으로 채워집니다. 이러한 필드는 수정할 수 없습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:355
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
 msgid "Add questions and answers"
 msgstr "질문 및 답변 추가"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:359
 msgid ""
 "To add questions to the quiz, click :guilabel:`Add a line` beneath "
 "the :guilabel:`Question` column. Doing so reveals a :guilabel:`Create "
@@ -5074,11 +5075,11 @@ msgstr ""
 "퀴즈에 질문을 추가하려면 :guilabel:`질문` 열 아래에서 :guilabel:`행 추가`를 "
 "클릭하세요. 그러면 :guilabel:`질문 생성` 팝업 창이 나타납니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:361
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
 msgid "**All** track quiz questions are multiple choice."
 msgstr "**모든** 트랙 퀴즈 질문은 객관식입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:365
 msgid ""
 "From the pop-up window, enter the question in the blank field at the top. "
 "Then, click :guilabel:`Add a line` to add an answer option."
@@ -5086,20 +5087,20 @@ msgstr ""
 "팝업 창에서 상단의 빈 필드에 질문을 입력하세요. 그런 다음 :guilabel:`라인 "
 "추가`를 클릭하여 답변 옵션을 추가하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:366
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
 msgid "Optionally, fill in the following fields:"
 msgstr "선택적으로 다음 필드를 입력하세요:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
 msgid ""
 ":guilabel:`Correct`: Designate whether the option is the correct response."
 msgstr ":guilabel:`정답`: 옵션이 정답인지 지정합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:369
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:371
 msgid ":guilabel:`Points`: Specify a point value for the answer option."
 msgstr ":guilabel:`점수`: 답변 옵션의 점수 값을 지정합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:372
 msgid ""
 ":guilabel:`Extra Comment`: Add any additional comments that should accompany "
 "the answer option."
@@ -5115,7 +5116,7 @@ msgstr ""
 "Odoo 행사 앱에 있는 행사별 트랙 퀴즈에 질문 만들기 팝업창이 나타나 있는 "
 "모습입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:375
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:377
 msgid ""
 "Once all desired answer options are completed, click :guilabel:`Save & "
 "Close` to save the question, close the pop-up window, and return to the "
@@ -5128,13 +5129,13 @@ msgstr ""
 "및 새로 만들기`를 클릭하여 이 질문을 저장하고 새 :guilabel:`질문 생성` 팝업 "
 "양식에서 즉시 다른 질문 생성을 시작하세요."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:381
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:382
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:378
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
@@ -5400,143 +5401,244 @@ msgstr "강연, 제안 및 아젠다"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:5
 msgid ""
-"With Odoo *Events*, users can utilize a fully-integrated event website, "
-"where attendees can quickly access various tracks (talks, presentations, "
-"etc.), view entire agendas, and propose talks for the event."
+"With Odoo **Events**, visitors can use the event website to view tracks, "
+"propose talks, and see a detailed agenda for their events."
 msgstr ""
-"Odoo *행사* 를 통해 완벽하게 통합된 행사 웹사이트를 활용할 수 있으며, "
-"참석자는 다양한 트랙(강연, 프레젠테이션 등)에 빠르게 액세스하고 전체 일정을 "
-"확인하거나 행사에 대한 강연을 제안할 수 있습니다."
+"Odoo\\ **행사**\\ 를 사용하면 방문자는 행사 웹사이트를 통해 트랙을 확인하고, "
+"발표를 제안하며, 행사의 상세 일정을 볼 수 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:10
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:9
+msgid ""
+"In order to access talks, proposals, and agendas, internal users must have "
+"event tracks enabled and set up. See the :doc:`event_tracks` documentation "
+"to learn more about enabling and creating tracks."
+msgstr ""
+"발표, 제안 및 일정에 액세스하려면 내부 사용자가 행사 트랙을 활성화하고 "
+"설정해야 합니다. 트랙 활성화 및 생성에 대한 자세한 내용은 "
+":doc:`event_tracks` 문서를 참조하세요."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:16
 msgid "Event website"
 msgstr "행사 웹사이트"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:12
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:18
 msgid ""
-"To access an event website, navigate to the specific event form in the Odoo "
-"*Events* app, and click the :guilabel:`Go to Website` smart button. Or, "
-"while on the Odoo-built website for the company, click "
-"the :guilabel:`Events` header option, and select the desired event to view "
-"that event's website."
+"When an internal user :doc:`creates an event <../event_setup/"
+"create_events>`, Odoo **Events** generates a separate website for it on the "
+"user's Odoo-built website."
 msgstr ""
-"행사 웹사이트에 액세스하려면 Odoo *행사* 앱에 있는 행사 양식으로 가서 "
-":guilabel:`웹사이트로 이동` 스마트 버튼을 클릭합니다. 또는 Odoo에서 제작한 "
-"회사 웹사이트에 있는 :guilabel:`행사` 헤더를 클릭하고 행사를 선택하면 해당 "
-"행사의 웹사이트를 확인할 수 있습니다."
+"내부 사용자가 :doc:`행사를 생성 <../event_setup/create_events>`하면 Odoo\\ "
+"**행사**\\ 는 사용자의 Odoo 구축 웹사이트에 해당 행사를 위한 별도의 "
+"웹사이트를 생성합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:17
-msgid ""
-"On the event website, there is an event-specific subheader menu with "
-"different options to choose from."
-msgstr ""
-"행사 웹사이트에는 행사별 하위 헤더 메뉴가 있으며 여기에서 다양한 옵션을 "
-"선택할 수 있습니다."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:21
+msgid "Visitors can access that event website in two ways:"
+msgstr "방문자는 두 가지 방법으로 해당 행사 웹사이트에 액세스할 수 있습니다:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:20
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:23
 msgid ""
-"With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, the "
-"following links are automatically added to the subheader menu, located on "
-"the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, "
-"and :guilabel:`Agenda`."
+"Open the **Events** app, navigate to the specific event, and click "
+"the :guilabel:`Go to Website` smart button."
 msgstr ""
-"Odoo *행사* 앱에서 *일정 및 트랙* 설정을 활성화하면 :guilabel:`토크`, "
-":guilabel:`토크 제안`, :guilabel:`주제` 링크가 행사 웹사이트에 있는 하위 "
-"헤더 메뉴에 자동으로 추가됩니다."
+"**행사** 앱을 열고 특정 행사로 이동한 다음 :guilabel:`웹사이트로 이동` "
+"스마트 버튼을 클릭합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:28
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:26
 msgid ""
-"To enable the :guilabel:`Schedule & Tracks` setting, navigate "
-"to :menuselection:`Events app --> Configuration --> Settings`, tick the "
-"checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+"Or, while on the Odoo-built website, click the :guilabel:`Events` header "
+"option, then select the desired event."
 msgstr ""
-":guilabel:`일정 및 트랙` 설정을 활성화하려면 :menuselection:`행사 앱 --> "
-"구성 --> 설정`으로 이동하여 :guilabel:`일정 및 트랙` 옆의 확인란을 선택한 "
-"다음 :guilabel:`저장`을 클릭합니다."
+"또는 Odoo 구축 웹사이트에서 헤더의 :guilabel:`행사` 옵션을 클릭한 다음 "
+"원하는 행사를 선택합니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:29
+msgid ""
+"On the event website, there is a sub-header menu with different pages, "
+"including the following:"
+msgstr "행사 웹사이트에는 다음을 포함한 여러 페이지가 있는 하위 헤더 메뉴가 있습니다:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:31
+msgid ""
+":guilabel:`Talks`: :ref:`View a schedule <events/talks-proposals-agenda/view-"
+"talks>` of all tracks scheduled for the event, listed by date."
+msgstr ""
+":guilabel:`발표`: 행사에 예정된 모든 트랙을 날짜별로 나열한 :ref:`일정 보기 "
+"<events/talks-proposals-agenda/view-talks>`."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:33
-msgid "Talks page"
-msgstr "토크 페이지"
+msgid ""
+":guilabel:`Talk Proposals`: :ref:`Submit a proposal <events/talks-proposals-"
+"agenda/propose-talks>` to participate as a speaker during the event."
+msgstr ""
+":guilabel:`발표 제안`: 행사 중 발표자로 참여하기 위한 :ref:`제안 제출 "
+"<events/talks-proposals-agenda/propose-talks>`."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:35
 msgid ""
-"The :guilabel:`Talks` link takes the attendee to a page filled with all the "
-"planned tracks for the event."
+":guilabel:`Agenda`: :ref:`View a calendar <events/talks-proposals-agenda/"
+"view-agenda>` of all scheduled tracks for the event, showing detailed times "
+"for each date."
 msgstr ""
-":guilabel:`강연` 링크를 클릭하면 참석자는 행사에 대해 계획된 모든 트랙으로 "
-"가득 찬 페이지로 이동합니다."
+":guilabel:`일정`: 각 날짜의 상세한 시간을 표시하는 행사의 모든 예정된 트랙에 "
+"대한 :ref:`캘린더 보기 <events/talks-proposals-agenda/view-agenda>`."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:39
+msgid ""
+"If the sub-header menu does not appear, it must be manually enabled by the "
+"internal user."
+msgstr "하위 헤더 메뉴가 표시되지 않으면 내부 사용자가 수동으로 활성화해야 합니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:41
+msgid ""
+"To do so, click the :guilabel:`Edit` button at the top. In the editor panel, "
+"click the :guilabel:`Customize` tab at the top, then enable "
+"the :guilabel:`Sub-menu (Specific)` setting. Finally, click :guilabel:`Save` "
+"to apply changes."
+msgstr ""
+"활성화하려면 상단의 :guilabel:`편집` 버튼을 클릭합니다. 편집기 패널에서 "
+"상단의 :guilabel:`사용자 지정` 탭을 클릭한 다음 :guilabel:`하위 메뉴(특정)` "
+"설정을 활성화합니다. 마지막으로 :guilabel:`저장`을 클릭하여 변경 사항을 "
+"적용합니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:51
+msgid "View talks"
+msgstr "발표 보기"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:53
+msgid ""
+"The *Talks* page displays a schedule of planned tracks for the event, sorted "
+"by date."
+msgstr "*발표* 페이지는 행사에 계획된 트랙의 일정을 날짜별로 정렬하여 표시합니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+msgid ""
+"Visitors can mark a track as a *Favorite* by clicking the :icon:`fa-bell-"
+"o` :guilabel:`(empty bell)` icon to the right of the track title. A track "
+"marked as a *Favorite* appears with the :icon:`fa-bell` :guilabel:`(filled "
+"bell)` icon. Visitors can then :ref:`filter tracks by favorites <events/"
+"talks-proposals-agenda/filter-favorites>`."
+msgstr ""
+"방문자는 트랙 제목 오른쪽의 :icon:`fa-bell-o` :guilabel:`(빈 종)` 아이콘을 "
+"클릭하여 트랙을 *즐겨찾기*로 표시할 수 있습니다. *즐겨찾기*로 표시된 트랙은 "
+":icon:`fa-bell` :guilabel:`(채워진 종)` 아이콘과 함께 표시됩니다. 그런 다음 "
+"방문자는 :ref:`즐겨찾기로 트랙을 필터링 <events/talks-proposals-agenda/"
+"filter-favorites>`할 수 있습니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:60
+msgid ""
+"Additionally, visitors can also :ref:`filter tracks by their tags <events/"
+"talks-proposals-agenda/filter-tags>` (customized on each track's form)."
+msgstr ""
+"또한 방문자는 :ref:`태그로 트랙을 필터링 <events/talks-proposals-agenda/"
+"filter-tags>`할 수도 있습니다(각 트랙 양식에서 사용자 지정)."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
 "The Talks page on an event website built through the Odoo Events application."
 msgstr "Odoo 행사 애플리케이션을 통해 구축된 행사 웹사이트의 토크 페이지 모습입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:42
-msgid ""
-"At the top of :guilabel:`Talks` page, there are drop-down filter menus "
-"beside a :guilabel:`Search a talk...` search bar."
-msgstr ""
-":guilabel:`강연` 페이지 상단에는 :guilabel:`강연 검색...` 검색 막대 옆에 "
-"드롭다운 필터 메뉴가 있습니다."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:69
+msgid "Filter by favorites"
+msgstr "즐겨찾기로 필터링"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:45
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:71
 msgid ""
-"The first drop-down filter menu (with the starting "
-"title: :guilabel:`Favorites`) is the only drop-down filter menu that appears "
-"by default. When clicked, the resulting menu presents two "
-"options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+"To filter the *Talks* page by any tracks marked as a *Favorite*, click on "
+"the :guilabel:`Favorites` drop-down menu."
 msgstr ""
-"첫 번째 드롭다운 필터 메뉴 (제목이 :guilabel:`즐겨찾기` 로 시작)는 "
-"기본값으로 표시되는 유일한 드롭다운 필터 메뉴입니다. 클릭하면 메뉴에 "
-":guilabel:`즐겨찾기` 및 :guilabel:`모든 토크` 두 가지 항목이 표시됩니다: ."
+"*즐겨찾기*로 표시된 트랙으로 *발표* 페이지를 필터링하려면 "
+":guilabel:`즐겨찾기` 드롭다운 메뉴를 클릭합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:49
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:74
+msgid "Visitors can then choose one of two options:"
+msgstr "방문자는 두 가지 옵션 중 하나를 선택할 수 있습니다:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:76
+msgid ":guilabel:`Favorites`: shows **only** tracks marked as *Favorite*."
+msgstr ":guilabel:`즐겨찾기`: *즐겨찾기*로 표시된 트랙**만** 표시합니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+msgid ":guilabel:`All Talks`: shows **all** tracks."
+msgstr ":guilabel:`모든 발표`\\ :\\ **모든**\\ 트랙을\\ 표시합니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
 msgid ""
-"Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
-"favorited by the attendee."
+"If the visitor applies the :guilabel:`Favorites` option without having "
+"marked any tracks as a *Favorite*, all event tracks are displayed."
 msgstr ""
-":guilabel:`즐겨찾기` 를 선택하면 참석자가 즐겨찾기에 추가한 트랙에 "
-"*한해서만* 표시됩니다."
+"방문자가\\ *즐겨찾기*\\ 로\\ 표시한\\ 트랙\\ 없이\\ :guilabel:`즐겨찾기`\\ "
+"옵션을\\ 적용하면\\ 모든\\ 이벤트\\ 트랙이\\ 표시됩니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:52
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:87
+msgid "Filter by tags"
+msgstr "태그별 필터"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:89
 msgid ""
-"If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
-"selected, Odoo presents all the event tracks."
+"If any tracks have tags and tag categories configured in the database "
+"during :ref:`track creation <events/event_tracks/create-track>`, additional "
+"drop-down filter menus will appear at the top of the page next to "
+"the :guilabel:`Favorites` drop-down, allowing users to filter tracks by tag "
+"categories."
 msgstr ""
-"즐겨찾기에 추가된 트랙이 없고 :guilabel:`즐겨찾기` 필터가 선택된 경우 Odoo는 "
-"모든 행사 트랙을 표시합니다."
+":ref:`트랙\\ 생성 <events/event_tracks/create-track>`\\ 중에\\ "
+"데이터베이스에\\ 태그\\ 및\\ 태그\\ 카테고리가\\ 구성된\\ 트랙이\\ 있는\\ "
+"경우,\\ 페이지\\ 상단의\\ :guilabel:`즐겨찾기`\\ 드롭다운\\ 옆에\\ 추가\\ "
+"드롭다운\\ 필터\\ 메뉴가\\ 나타나\\ 사용자가\\ 태그\\ 카테고리별로\\ 트랙을\\"
+" 필터링할\\ 수\\ 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
 msgid ""
-"Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
-"have been favorited or not."
+"To add tags and tag categories to track forms, navigate to the **Events** "
+"app and open the desired event. Click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button and open the desired event track."
 msgstr ""
-":guilabel:`모든 토크` 를 선택하면 즐겨찾기 여부와 관계없이 *모든* 트랙이 "
-"표시됩니다."
+"트랙\\ 양식에\\ 태그와\\ 태그\\ 카테고리를\\ 추가하려면\\ **행사**\\ 앱으로\\"
+" 이동하여\\ 원하는\\ 이벤트를\\ 여십시오.\\ :icon:`fa-microphone`\\ "
+":guilabel:`트랙`\\ 스마트\\ 버튼을\\ 클릭하고\\ 원하는\\ 이벤트\\ 트랙을\\ "
+"여십시오."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:58
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:98
 msgid ""
-"The other drop-down filter menus that appear on this page are related to any "
-"configured tags (and tag categories) created for event tracks in the backend."
-msgstr ""
-"이 페이지에 나타나는 다른 드롭다운 필터 메뉴는 백엔드에서 행사 트랙에 대해 "
-"생성된 구성된 태그(및 태그 범주)와 관련이 있습니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:62
-msgid ""
-"To add tags and tag categories to track forms, open a desired event track "
-"form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+"On the track form, type a new tag in the :guilabel:`Tags` field. Then, "
 "click :guilabel:`Create and edit...` from the resulting drop-down menu."
 msgstr ""
-"태그 및 태그 카테고리를 트랙 양식에 추가하려면, 추가할 행사의 트랙 양식을 "
-"열고 먼저 :guilabel:`태그` 에 새 태그를 입력합니다. 그런 다음 드롭다운 "
-"메뉴가 나타나면 :guilabel:`만들기 및 편집...` 을 클릭합니다."
+"트랙\\ 양식에서\\ :guilabel:`태그`\\ 필드에\\ 새\\ 태그를\\ 입력하십시오.\\ "
+"그런\\ 다음\\ 결과\\ 드롭다운\\ 메뉴에서\\ :guilabel:`생성\\ 및\\ 편집...`\\ "
+"을\\ 클릭하십시오."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:66
-msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
-msgstr "그렇게 하면 :guilabel:`태그 만들기` 팝업 양식이 표시됩니다."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+msgid ""
+"Doing so reveals a :guilabel:`Create Tags` pop-up form with the following "
+"fields:"
+msgstr ""
+"그러면\\ 다음\\ 필드가\\ 있는\\ :guilabel:`태그\\ 생성`\\ 팝업\\ 양식이\\ "
+"나타납니다:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:103
+msgid ""
+":guilabel:`Tag Name`: The name of the tag. This field is already populated."
+msgstr ""
+":guilabel:`태그\\ 이름`:\\ 태그\\ 이름입니다.\\ 이\\ 필드는\\ 이미\\ "
+"입력되어\\ 있습니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+msgid ""
+":guilabel:`Color Index`: The color of the track associated with this tag, "
+"displayed on the website."
+msgstr ""
+":guilabel:`색상\\ 인덱스`:\\ 웹사이트에\\ 표시되는\\ 이\\ 태그와\\ 연결된\\ "
+"트랙의\\ 색상입니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:106
+msgid ""
+":guilabel:`Category`: The category of the tag. This category appears as the "
+"drop-down filter menu on the *Talks* page."
+msgstr ""
+":guilabel:`카테고리`:\\ 태그의\\ 카테고리입니다.\\ 이\\ 카테고리는\\ *발표*\\"
+" 페이지의\\ 드롭다운\\ 필터\\ 메뉴로\\ 나타납니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:0
 msgid ""
 "The Create Tags pop-up form that coincides with drop-down filter menus on "
 "Talks page."
@@ -5544,77 +5646,28 @@ msgstr ""
 "드롭다운 필터 메뉴와 일치하는 태그 만들기 팝업 양식이 토크 페이지에 나타나 "
 "있는 모습입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:72
-msgid ""
-"From here, users see the recently added tag in the :guilabel:`Tag Name` "
-"field. Beneath that, there is an option to add a specific :guilabel:`Color "
-"Index` to the tag for added organization."
-msgstr ""
-"여기에서 최근에 :guilabel:`태그명` 항목에 추가된 태그를 확인할 수 있습니다. "
-"그 아래에는 조직을 추가하는 경우에 사용할 수 있도록 태그에 특정 "
-":guilabel:`색상 색인` 을 추가하는 선택 항목이 있습니다."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:115
+msgid "Propose talks"
+msgstr "발표 제안"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:75
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
 msgid ""
-"Lastly, there is the :guilabel:`Category` field, where users can either "
-"select a pre-existing category for this new tag, or create a new one."
+"The *Talk Proposals* page allows visitors to submit a proposal for a talk "
+"via a custom online form."
 msgstr ""
-"마지막으로 :guilabel:`범주` 필드가 있으며, 여기서 사용자는 이 새 태그에 대해 "
-"기존 범주를 선택하거나 새 범주를 생성할 수 있습니다."
+"*발표\\ 제안*\\ 페이지를\\ 통해\\ 방문자는\\ 맞춤\\ 온라인\\ 양식을\\ 통해\\ "
+"발표\\ 제안을\\ 제출할\\ 수\\ 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
 msgid ""
-"All options in the :guilabel:`Category` field for tags appear as their own "
-"drop-down filter menu on the :guilabel:`Talks` page, located on the event "
-"website."
+"By default, the *Talk Proposals* page is automatically generated by Odoo. If "
+"needed, internal users can :doc:`edit <../../../websites/website/web_design/"
+"elements>` any part of the page, including the proposal form."
 msgstr ""
-"태그의 :guilabel:`범주` 필드에 있는 모든 옵션은 행사 웹사이트의 "
-":guilabel:`강연` 페이지에 고유한 드롭다운 필터 메뉴로 나타납니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
-msgid ""
-"Beneath the drop-down filter menus at the top of the :guilabel:`Talks` page, "
-"there is a list of planned tracks for the specific event, organized by day."
-msgstr ""
-":guilabel:`강연` 페이지 상단의 드롭다운 필터 메뉴 아래에는 특정 행사에 대해 "
-"계획된 트랙 목록이 날짜별로 정리되어 있습니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:84
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:141
-msgid ""
-"If an attendee wishes to favorite a track, they can click the :icon:`fa-bell-"
-"o` :guilabel:`(empty bell)` icon, located to the right of the track title. "
-"Attendees will know a track has been favorited when they notice the icon has "
-"been changed to :icon:`fa-bell` :guilabel:`(filled bell)` icon."
-msgstr ""
-"참석자가 트랙을 즐겨찾기에 추가하려면 트랙 제목 오른쪽에 있는 :icon:`fa-bell-"
-"o` :guilabel:`(비어있는 종)` 아이콘을 클릭하면 됩니다. 아이콘이 :icon:`fa-"
-"bell` :guilabel:`(채워진 종)` 아이콘으로 변경되면 트랙이 즐겨찾기에 "
-"추가되었음을 참석자가 알 수 있습니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:88
-msgid ""
-"Favoriting a track this way places it on the list of :guilabel:`Favorites`, "
-"which is accessible from the default drop-down filter menu, located at the "
-"top of the :guilabel:`Talks` page."
-msgstr ""
-"이런 방식으로 가장 즐겨찾는 트랙을 :guilabel:`즐겨찾기` 목록에 추가할 수 "
-"있으며, 이 목록은 기본 드롭다운 필터 메뉴에서 액세스하여 :guilabel:`강연` "
-"페이지 상단에서 확인할 수 있습니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:92
-msgid "Talk Proposals page"
-msgstr "강연 제안 페이지"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
-msgid ""
-"The :guilabel:`Talk Proposals` link takes attendees to a page on the event "
-"website, wherein they can formerly submit a proposal for a talk "
-"(:dfn:`track`) for the event, via a custom online form."
-msgstr ""
-":guilabel:`토크 제안` 링크를 클릭하면 참석자는 행사 웹사이트의 페이지로 "
-"이동합니다. 이 페이지에서 사용자 지정한 온라인 양식으로 행사에 대한 토크 "
-"(:dfn:`트랙`)에 대한 제안을 정식으로 제출할 수 있습니다."
+"기본적으로\\ *발표\\ 제안*\\ 페이지는\\ Odoo에\\ 의해\\ 자동으로\\ "
+"생성됩니다.\\ 필요한\\ 경우\\ 내부\\ 사용자는\\ 제안\\ 양식을\\ 포함하여\\ "
+"페이지의\\ 모든\\ 부분을\\ :doc:`편집 <../../../websites/website/web_design/"
+"elements>`\\ 할\\ 수\\ 있습니다."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5622,110 +5675,90 @@ msgid ""
 "application."
 msgstr "Odoo 행사 애플리케이션으로 구축한 행사 웹사이트의 토크 제안 페이지입니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:127
 msgid ""
-"In addition to the form, an introduction to the page, along with any other "
-"pertinent information related to the types of talks the event will feature "
-"can be added, if needed."
+"To submit their proposal, visitors fill out the form, then click "
+"the :guilabel:`Submit Proposal` button."
 msgstr ""
-"양식에 추가하여, 필요한 경우에는 페이지에 대한 소개와 함께 행사에서 다루게 "
-"될 토크 유형과 관련된 기타 다른 안내 사항을 적절히 추가할 수 있습니다."
+"제안을\\ 제출하려면\\ 방문자가\\ 양식을\\ 작성한\\ 다음\\ :guilabel:`제안\\ "
+"제출`\\ 버튼을\\ 클릭합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:130
 msgid ""
-"The talk proposal form can be modified in a number of different ways, via "
-"the web builder tools, accessible by clicking :guilabel:`Edit` while on the "
-"specific page."
+"Doing so creates a new track form in the database. Internal users can access "
+"it by navigating to the **Events** app, clicking the relevant event, and "
+"selecting the :icon:`fa-microphone` :guilabel:`Tracks` smart button. The "
+"newly-proposed talk now appears as a new track in the :guilabel:`Proposal` "
+"stage."
 msgstr ""
-"토크 제안서 양식은 다양한 방법으로 수정할 수 있으며, 웹 빌더 도구를 활용하여 "
-"지정된 페이지에서 :guilabel:`편집` 을 클릭하면 액세스할 수 있습니다."
+"그러면\\ 데이터베이스에\\ 새\\ 트랙\\ 양식이\\ 생성됩니다.\\ 내부\\ "
+"사용자는\\ **행사**\\ 앱으로\\ 이동하고\\ 관련\\ 이벤트를\\ 클릭한\\ 다음\\ "
+":icon:`fa-microphone`\\ :guilabel:`트랙`\\ 스마트\\ 버튼을\\ 선택하여\\ "
+"액세스할\\ 수\\ 있습니다.\\ 새로\\ 제안된\\ 발표는\\ 이제\\ "
+":guilabel:`제안`\\ 단계에\\ 새\\ 트랙으로\\ 나타납니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:107
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:135
 msgid ""
-"Then, proceed to edit any of the default fields, or add new forms with "
-"the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
-"section of the web builder tools sidebar)."
+"At this point, an internal user can review the proposed talk and accept or "
+"deny the proposal by moving the track to the appropriate stage in the "
+"pipeline."
 msgstr ""
-"그런 다음 기본 필드를 편집하거나 새 양식을 :guilabel:`양식` 빌딩 블록(웹 "
-"빌더 도구 사이드바의 :guilabel:`블록` 섹션에서 확인)으로 추가합니다."
+"이\\ 시점에서\\ 내부\\ 사용자는\\ 제안된\\ 발표를\\ 검토하고\\ 트랙을\\ "
+"파이프라인의\\ 적절한\\ 단계로\\ 이동하여\\ 제안을\\ 수락하거나\\ 거부할\\ "
+"수\\ 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:110
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
 msgid ""
-"Once all the necessary information is entered into the form, the attendees "
-"just need to click the :guilabel:`Submit Proposal` button."
+"If accepted, the internal user can publish the track on the event website by "
+"clicking the :guilabel:`Go to Website` smart button and toggling "
+"the :guilabel:`Unpublished` switch at the top to :guilabel:`Published`."
 msgstr ""
-"필요한 모든 정보를 양식에 입력한 후, 참석자는 :guilabel:`제안 제출` 버튼을 "
-"클릭하기만 하면 됩니다."
+"수락된\\ 경우\\ 내부\\ 사용자는\\ :guilabel:`웹사이트로\\ 이동`\\ 스마트\\ "
+"버튼을\\ 클릭하고\\ 상단의\\ :guilabel:`미게시`\\ 스위치를\\ "
+":guilabel:`게시됨`\\ 으로\\ 전환하여\\ 이벤트\\ 웹사이트에\\ 트랙을\\ "
+"게시할\\ 수\\ 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:113
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:142
+msgid "Visitors can then see the track on the *Talks* page."
+msgstr "그러면\\ 방문자는\\ *발표*\\ 페이지에서\\ 트랙을\\ 볼\\ 수\\ 있습니다."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:147
+msgid "View agenda"
+msgstr "일정 보기"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:149
 msgid ""
-"Then, that talk, and all the information entered on the form, can be "
-"accessed on the :guilabel:`Event Tracks` page for that specific event in "
-"the :guilabel:`Proposal` stage, which is accessible via "
-"the :guilabel:`Tracks` smart button on the event form."
+"The *Agenda* page displays an event calendar, showing each talk's specified "
+"location by column and its scheduled time by row."
 msgstr ""
-"그런 다음 토크와 함께, 양식에 입력된 모든 내용은 :guilabel:`제안` 단계에 "
-"있는 특정 행사 관련 :guilabel:`행사 추적` 페이지에서 액세스할 수 있습니다. "
-"이 페이지는 행사 양식에 있는 :guilabel:`추적` 스마트 버튼을 통해 액세스할 수 "
-"있습니다."
+"*일정*\\ 페이지는\\ 이벤트\\ 캘린더를\\ 표시하며\\ 각\\ 발표의\\ 지정된\\ "
+"위치를\\ 열로,\\ 예정된\\ 시간을\\ 행으로\\ 표시합니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:152
 msgid ""
-"At that point, an internal user can review the proposed talk, and choose to "
-"accept or deny the proposal."
+"Visitors can click any track on the calendar to open the track's specific "
+"page on the website."
 msgstr ""
-"그 시점에 내부 사용자는 제안된 발표를 검토하고 제안을 수락하거나 거부할 수 "
-"있습니다."
+"방문자는\\ 캘린더의\\ 트랙을\\ 클릭하여\\ 웹사이트에서\\ 해당\\ 트랙의\\ "
+"특정\\ 페이지를\\ 열\\ 수\\ 있습니다."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:155
 msgid ""
-"If accepted, the internal user can then move the track to the next "
-"appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
-"page for the event. Then, they can open that track form, and click "
-"the :guilabel:`Go to Website` smart button to reveal that track's page on "
-"the event website."
+"A talk's location can be found on its track form. To find it, navigate to "
+"**Events** app, click on the relevant event, click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button, and select the desired track. "
+"In the track form, view or modify the :guilabel:`Location` field."
 msgstr ""
-"승인되면 내부 행사 관련 :guilabel:`행사 트랙` 페이지에 있는 칸반 "
-"파이프라인에서 적절한 다음 단계로 트랙을 이동할 수 있습니다. 그런 다음 트랙 "
-"양식을 열고 :guilabel:`웹사이트로 이동` 스마트 버튼을 클릭하여 행사 "
-"웹사이트에서 해당 트랙 페이지를 표시할 수 있습니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:125
-msgid ""
-"From there, they can toggle the :guilabel:`Unpublished` switch in the header "
-"to :guilabel:`Published`, which allows all event attendees to view and "
-"access the talk."
-msgstr ""
-"그런 다음 헤더의 :guilabel:`게시 안 됨` 스위치를 :guilabel:`게시됨`으로 "
-"전환하여 모든 이벤트 참석자가 해당 발표를 보고 액세스할 수 있도록 할 수 "
-"있습니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:129
-msgid "Agenda page"
-msgstr "아젠다 페이지"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:131
-msgid ""
-"The :guilabel:`Agenda` link takes attendees to a page on the event website, "
-"showcasing an event calendar, depicting when (and where) events are taking "
-"place for that specific event."
-msgstr ""
-":guilabel:`아젠다` 링크를 통해 참석자가 행사 웹사이트의 페이지로 이동하여 "
-"행사 캘린더를 확인할 수 있으며 해당 행사가 진행될 시기(및 장소)가 표시됩니다."
+"강연의 위치는 트랙 양식에서 찾을 수 있습니다. 찾으려면\\ **행사**\\ 앱으로 "
+"이동하여 해당 행사를 클릭하고\\ :icon:`fa-microphone` :guilabel:`트랙`\\ "
+"스마트 버튼을 클릭한 다음 원하는 트랙을 선택하십시오. 트랙 양식에서\\ "
+":guilabel:`위치`\\ 필드를 보거나 수정할 수 있습니다."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
 "The event Agenda page on the event website built with the Odoo Events "
 "application."
 msgstr "Odoo 행사 애플리케이션으로 구축한 행사 웹사이트의 행사 일정 페이지입니다."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
-msgid ""
-"Clicking any track on the calendar takes the attendee to that specific "
-"track's detail page on the event website."
-msgstr ""
-"캘린더에서 트랙을 클릭하면 참석자는 이벤트 웹사이트에서 해당 트랙의 세부 "
-"정보 페이지로 이동합니다."
 
 #: ../../content/applications/marketing/events/event_reporting.rst:6
 #: ../../content/applications/marketing/marketing_automation.rst:188
@@ -8876,7 +8909,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/promote_monetize/event_sponsors.rst:None
 msgid "Event exhibitors on the website in Odoo Events."
-msgstr ""
+msgstr "Odoo\\ :guilabel:`행사`\\ 의 웹사이트에 있는 행사 전시자."
 
 #: ../../content/applications/marketing/events/promote_monetize/event_sponsors.rst:149
 msgid ""
@@ -8893,6 +8926,8 @@ msgid ""
 "In the :guilabel:`Customize` tab, click the :guilabel:`Sub-menu (Specific)` "
 "toggle button and click :guilabel:`Save`."
 msgstr ""
+":guilabel:`맞춤 설정`\\ 탭에서\\ :guilabel:`하위 메뉴(특정)`\\ 토글 버튼을 "
+"클릭한 다음\\ :guilabel:`저장`\\ 을 클릭합니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/event_sponsors.rst:155
 msgid "The website then displays the event sub-menu with various options."
@@ -8911,6 +8946,8 @@ msgid ""
 "Odoo **Events** provides users with the ability to create custom event "
 "tickets and ticket tiers with various price points."
 msgstr ""
+"Odoo **행사**\\ 는 사용자가 다양한 가격대의 맞춤 행사 티켓 및 티켓 등급을 "
+"만들 수 있는 기능을 제공합니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:8
 msgid ""
@@ -8918,6 +8955,8 @@ msgid ""
 "sales orders, through point of sales, and online through an integrated "
 "website."
 msgstr ""
+"또한 표준 판매 주문, POS 및 통합 웹사이트를 통한 온라인 등 다양한 방식으로 "
+"행사 티켓을 판매할 수 있습니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:16
 msgid ""
@@ -8930,30 +8969,40 @@ msgid ""
 "Settings`. In the :guilabel:`Registration` section, there are several "
 "different settings:"
 msgstr ""
+"먼저\\ :menuselection:`행사 앱 --> 구성 --> 설정`\\ 으로 이동합니다.\\ "
+":guilabel:`등록`\\ 섹션에는 여러 가지 설정이 있습니다:"
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:21
 msgid ""
 ":guilabel:`Tickets with Sale`: Allows users to sell event tickets with "
 "standard sales orders in the **Sales** app."
 msgstr ""
+":guilabel:`판매와 함께 티켓`\\ : 사용자가 **판매** 앱에서 표준 판매 주문으로 "
+"행사 티켓을 판매할 수 있습니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:23
 msgid ""
 ":guilabel:`Tickets with PoS`: Allows users to sell even tickets with point "
 "of sales in the **Point of Sale** app."
 msgstr ""
+":guilabel:`POS와 함께 티켓`\\ : 사용자가 **POS** 앱에서 POS로 행사 티켓을 "
+"판매할 수 있습니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:25
 msgid ""
 ":guilabel:`Online Ticketing`: Allows users to sell event tickets online "
 "through their integrated Odoo website."
 msgstr ""
+":guilabel:`온라인 티켓 판매`\\ : 사용자가 통합된 Odoo 웹사이트를 통해 "
+"온라인으로 행사 티켓을 판매할 수 있습니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:28
 msgid ""
 "To activate a setting, tick the checkbox beside the desired feature's label, "
 "and click :guilabel:`Save` at the upper-left to enable it."
 msgstr ""
+"설정을 활성화하려면 원하는 기능 레이블 옆의 확인란을 선택한 다음 왼쪽 "
+"상단의\\ :guilabel:`저장`\\ 을 클릭하여 활성화합니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:None
 msgid "View of the settings page for Odoo Events."
@@ -8968,6 +9017,11 @@ msgid ""
 "separate page, showcasing all the sales orders (standard and/or online) "
 "related to tickets that have been sold for that specific event."
 msgstr ""
+"이러한 설정이 활성화되면 유료 티켓이 판매된(판매 주문 또는 웹사이트를 통해) "
+"모든 행사의 행사 양식 상단에\\ :icon:`fa-dollar`\\ :guilabel:`판매`\\ 스마트 "
+"버튼이 표시됩니다.\\ :icon:`fa-dollar`\\ :guilabel:`판매`\\ 스마트 버튼을 "
+"클릭하면 해당 특정 행사에 대해 판매된 티켓과 관련된 모든 판매 주문(표준 및/"
+"또는 온라인)을 보여주는 별도의 페이지가 나타납니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:None
 msgid "View of an event's form and the sales smart button in Odoo Events."
@@ -8994,6 +9048,9 @@ msgid ""
 "tab. Then, in the :guilabel:`Product` column, select (or create) an event "
 "registration product."
 msgstr ""
+"양식 상단 부분을 적절한 고객 정보로 작성한 후\\ :guilabel:`주문 라인`\\ "
+"탭에서\\ :guilabel:`제품 추가`\\ 를 클릭합니다. 그런 다음\\ "
+":guilabel:`제품`\\ 열에서 행사 등록 제품을 선택(또는 생성)합니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:55
 msgid ""
@@ -9003,22 +9060,26 @@ msgid ""
 "to :guilabel:`Event Registration`. These fields are accessible in the "
 "product form of the event registration product."
 msgstr ""
+"판매 주문에 행사 등록 제품을 추가하려면 해당 제품의\\ :guilabel:`제품 유형`\\"
+" 필드가\\ :guilabel:`서비스`\\ 로 설정되어 있어야 하고\\ :guilabel:`주문 시 "
+"생성`\\ 필드가\\ :guilabel:`행사 등록`\\ 으로 설정되어 있어야 합니다. 이러한 "
+"필드는 행사 등록 제품의 제품 양식에서 액세스할 수 있습니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:None
 msgid "View of an event registration product form in Odoo."
-msgstr ""
+msgstr "Odoo의 행사 등록 제품 양식 보기."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:63
 msgid ""
 "Once an event registration product is selected, a :guilabel:`Select an "
 "Event` pop-up window appears."
-msgstr ""
+msgstr "행사 등록 제품을 선택하면\\ :guilabel:`행사 선택`\\ 팝업 창이 나타납니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:None
 msgid ""
 "Standard 'Select an Event' pop-up window that appears on an event ticket "
 "sales order."
-msgstr ""
+msgstr "행사 티켓 판매 주문에 나타나는 표준 '행사 선택' 팝업 창."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:68
 msgid ""
@@ -9028,6 +9089,10 @@ msgid ""
 "tier the customer wishes to purchase, if there are multiple tiers configured "
 "for that event."
 msgstr ""
+":guilabel:`행사 선택`\\ 팝업 창에서\\ :guilabel:`행사`\\ 필드 드롭다운 "
+"메뉴에서 이 티켓 구매와 관련된 행사를 선택합니다. 그런 다음\\ "
+":guilabel:`티켓 유형`\\ 드롭다운 메뉴에서 해당 행사에 여러 등급이 구성되어 "
+"있는 경우 고객이 구매하려는 티켓 등급을 선택합니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:73
 msgid ""
@@ -9036,6 +9101,10 @@ msgid ""
 "ticket product now present in the :guilabel:`Order Lines` tab. The user can "
 "proceed to confirm and close the sale, per the usual process."
 msgstr ""
+"원하는 구성이 모두 완료되면\\ :guilabel:`추가`\\ 를 클릭합니다. 이렇게 하면 "
+"사용자가 판매 주문으로 돌아가고 행사 등록 티켓 제품이\\ :guilabel:`주문 "
+"라인`\\ 탭에 표시됩니다. 사용자는 일반적인 프로세스에 따라 판매를 확인하고 "
+"마감할 수 있습니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:78
 msgid ""
@@ -9043,16 +9112,21 @@ msgid ""
 "registration product name in the :guilabel:`Order Lines` tab, then click on "
 "the :icon:`fa-pencil` :guilabel:`(pencil)` icon."
 msgstr ""
+"*행사 선택* 팝업 창을 다시 열려면\\ :guilabel:`주문 라인`\\ 탭에서 행사 등록 "
+"제품 이름을 클릭한 다음\\ :icon:`fa-pencil`\\ :guilabel:`(연필)`\\ 아이콘을 "
+"클릭합니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:84
 msgid "Sell event tickets through the Point of Sale app"
-msgstr ""
+msgstr "POS 앱을 통해 행사 티켓 판매"
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:86
 msgid ""
 "To sell event tickets through a point of sale, the event registration "
 "products must be configured to appear in the **Point of Sale** app."
 msgstr ""
+"POS를 통해 행사 티켓을 판매하려면 행사 등록 제품이 **POS** 앱에 표시되도록 "
+"구성되어야 합니다."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:89
 msgid ""
@@ -19415,6 +19489,275 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "웹사이트의 이러닝 쪽에서 배지가 표시되는 방법을 보여주는 예시입니다."
+
+#~ msgid ""
+#~ "With Odoo *Events*, users can utilize a fully-integrated event website, "
+#~ "where attendees can quickly access various tracks (talks, presentations, "
+#~ "etc.), view entire agendas, and propose talks for the event."
+#~ msgstr ""
+#~ "Odoo *행사* 를 통해 완벽하게 통합된 행사 웹사이트를 활용할 수 있으며, 참석"
+#~ "자는 다양한 트랙(강연, 프레젠테이션 등)에 빠르게 액세스하고 전체 일정을 확"
+#~ "인하거나 행사에 대한 강연을 제안할 수 있습니다."
+
+#~ msgid ""
+#~ "To access an event website, navigate to the specific event form in the "
+#~ "Odoo *Events* app, and click the :guilabel:`Go to Website` smart button. "
+#~ "Or, while on the Odoo-built website for the company, click "
+#~ "the :guilabel:`Events` header option, and select the desired event to "
+#~ "view that event's website."
+#~ msgstr ""
+#~ "행사 웹사이트에 액세스하려면 Odoo *행사* 앱에 있는 행사 양식으로 가"
+#~ "서 :guilabel:`웹사이트로 이동` 스마트 버튼을 클릭합니다. 또는 Odoo에서 제"
+#~ "작한 회사 웹사이트에 있는 :guilabel:`행사` 헤더를 클릭하고 행사를 선택하"
+#~ "면 해당 행사의 웹사이트를 확인할 수 있습니다."
+
+#~ msgid ""
+#~ "On the event website, there is an event-specific subheader menu with "
+#~ "different options to choose from."
+#~ msgstr ""
+#~ "행사 웹사이트에는 행사별 하위 헤더 메뉴가 있으며 여기에서 다양한 옵션을 선"
+#~ "택할 수 있습니다."
+
+#~ msgid ""
+#~ "With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, "
+#~ "the following links are automatically added to the subheader menu, "
+#~ "located on the event website: :guilabel:`Talks`, :guilabel:`Talk "
+#~ "Proposals`, and :guilabel:`Agenda`."
+#~ msgstr ""
+#~ "Odoo *행사* 앱에서 *일정 및 트랙* 설정을 활성화하면 :guilabel:`토크"
+#~ "`, :guilabel:`토크 제안`, :guilabel:`주제` 링크가 행사 웹사이트에 있는 하"
+#~ "위 헤더 메뉴에 자동으로 추가됩니다."
+
+#~ msgid ""
+#~ "To enable the :guilabel:`Schedule & Tracks` setting, navigate "
+#~ "to :menuselection:`Events app --> Configuration --> Settings`, tick the "
+#~ "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+#~ msgstr ""
+#~ ":guilabel:`일정 및 트랙` 설정을 활성화하려면 :menuselection:`행사 앱 --> "
+#~ "구성 --> 설정`으로 이동하여 :guilabel:`일정 및 트랙` 옆의 확인란을 선택한 "
+#~ "다음 :guilabel:`저장`을 클릭합니다."
+
+#~ msgid "Talks page"
+#~ msgstr "토크 페이지"
+
+#~ msgid ""
+#~ "The :guilabel:`Talks` link takes the attendee to a page filled with all "
+#~ "the planned tracks for the event."
+#~ msgstr ""
+#~ ":guilabel:`강연` 링크를 클릭하면 참석자는 행사에 대해 계획된 모든 트랙으"
+#~ "로 가득 찬 페이지로 이동합니다."
+
+#~ msgid ""
+#~ "At the top of :guilabel:`Talks` page, there are drop-down filter menus "
+#~ "beside a :guilabel:`Search a talk...` search bar."
+#~ msgstr ""
+#~ ":guilabel:`강연` 페이지 상단에는 :guilabel:`강연 검색...` 검색 막대 옆에 "
+#~ "드롭다운 필터 메뉴가 있습니다."
+
+#~ msgid ""
+#~ "The first drop-down filter menu (with the starting "
+#~ "title: :guilabel:`Favorites`) is the only drop-down filter menu that "
+#~ "appears by default. When clicked, the resulting menu presents two "
+#~ "options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+#~ msgstr ""
+#~ "첫 번째 드롭다운 필터 메뉴 (제목이 :guilabel:`즐겨찾기` 로 시작)는 기본값"
+#~ "으로 표시되는 유일한 드롭다운 필터 메뉴입니다. 클릭하면 메뉴에 :guilabel:`"
+#~ "즐겨찾기` 및 :guilabel:`모든 토크` 두 가지 항목이 표시됩니다: ."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
+#~ "favorited by the attendee."
+#~ msgstr ""
+#~ ":guilabel:`즐겨찾기` 를 선택하면 참석자가 즐겨찾기에 추가한 트랙에 *한해서"
+#~ "만* 표시됩니다."
+
+#~ msgid ""
+#~ "If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
+#~ "selected, Odoo presents all the event tracks."
+#~ msgstr ""
+#~ "즐겨찾기에 추가된 트랙이 없고 :guilabel:`즐겨찾기` 필터가 선택된 경우 Odoo"
+#~ "는 모든 행사 트랙을 표시합니다."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if "
+#~ "they have been favorited or not."
+#~ msgstr ""
+#~ ":guilabel:`모든 토크` 를 선택하면 즐겨찾기 여부와 관계없이 *모든* 트랙이 "
+#~ "표시됩니다."
+
+#~ msgid ""
+#~ "The other drop-down filter menus that appear on this page are related to "
+#~ "any configured tags (and tag categories) created for event tracks in the "
+#~ "backend."
+#~ msgstr ""
+#~ "이 페이지에 나타나는 다른 드롭다운 필터 메뉴는 백엔드에서 행사 트랙에 대"
+#~ "해 생성된 구성된 태그(및 태그 범주)와 관련이 있습니다."
+
+#~ msgid ""
+#~ "To add tags and tag categories to track forms, open a desired event track "
+#~ "form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+#~ "click :guilabel:`Create and edit...` from the resulting drop-down menu."
+#~ msgstr ""
+#~ "태그 및 태그 카테고리를 트랙 양식에 추가하려면, 추가할 행사의 트랙 양식을 "
+#~ "열고 먼저 :guilabel:`태그` 에 새 태그를 입력합니다. 그런 다음 드롭다운 메"
+#~ "뉴가 나타나면 :guilabel:`만들기 및 편집...` 을 클릭합니다."
+
+#~ msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
+#~ msgstr "그렇게 하면 :guilabel:`태그 만들기` 팝업 양식이 표시됩니다."
+
+#~ msgid ""
+#~ "From here, users see the recently added tag in the :guilabel:`Tag Name` "
+#~ "field. Beneath that, there is an option to add a "
+#~ "specific :guilabel:`Color Index` to the tag for added organization."
+#~ msgstr ""
+#~ "여기에서 최근에 :guilabel:`태그명` 항목에 추가된 태그를 확인할 수 있습니"
+#~ "다. 그 아래에는 조직을 추가하는 경우에 사용할 수 있도록 태그에 특"
+#~ "정 :guilabel:`색상 색인` 을 추가하는 선택 항목이 있습니다."
+
+#~ msgid ""
+#~ "Lastly, there is the :guilabel:`Category` field, where users can either "
+#~ "select a pre-existing category for this new tag, or create a new one."
+#~ msgstr ""
+#~ "마지막으로 :guilabel:`범주` 필드가 있으며, 여기서 사용자는 이 새 태그에 대"
+#~ "해 기존 범주를 선택하거나 새 범주를 생성할 수 있습니다."
+
+#~ msgid ""
+#~ "All options in the :guilabel:`Category` field for tags appear as their "
+#~ "own drop-down filter menu on the :guilabel:`Talks` page, located on the "
+#~ "event website."
+#~ msgstr ""
+#~ "태그의 :guilabel:`범주` 필드에 있는 모든 옵션은 행사 웹사이트"
+#~ "의 :guilabel:`강연` 페이지에 고유한 드롭다운 필터 메뉴로 나타납니다."
+
+#~ msgid ""
+#~ "Beneath the drop-down filter menus at the top of the :guilabel:`Talks` "
+#~ "page, there is a list of planned tracks for the specific event, organized "
+#~ "by day."
+#~ msgstr ""
+#~ ":guilabel:`강연` 페이지 상단의 드롭다운 필터 메뉴 아래에는 특정 행사에 대"
+#~ "해 계획된 트랙 목록이 날짜별로 정리되어 있습니다."
+
+#~ msgid ""
+#~ "If an attendee wishes to favorite a track, they can click the :icon:`fa-"
+#~ "bell-o` :guilabel:`(empty bell)` icon, located to the right of the track "
+#~ "title. Attendees will know a track has been favorited when they notice "
+#~ "the icon has been changed to :icon:`fa-bell` :guilabel:`(filled bell)` "
+#~ "icon."
+#~ msgstr ""
+#~ "참석자가 트랙을 즐겨찾기에 추가하려면 트랙 제목 오른쪽에 있는 :icon:`fa-"
+#~ "bell-o` :guilabel:`(비어있는 종)` 아이콘을 클릭하면 됩니다. 아이콘"
+#~ "이 :icon:`fa-bell` :guilabel:`(채워진 종)` 아이콘으로 변경되면 트랙이 즐겨"
+#~ "찾기에 추가되었음을 참석자가 알 수 있습니다."
+
+#~ msgid ""
+#~ "Favoriting a track this way places it on the list "
+#~ "of :guilabel:`Favorites`, which is accessible from the default drop-down "
+#~ "filter menu, located at the top of the :guilabel:`Talks` page."
+#~ msgstr ""
+#~ "이런 방식으로 가장 즐겨찾는 트랙을 :guilabel:`즐겨찾기` 목록에 추가할 수 "
+#~ "있으며, 이 목록은 기본 드롭다운 필터 메뉴에서 액세스하여 :guilabel:`강연` "
+#~ "페이지 상단에서 확인할 수 있습니다."
+
+#~ msgid "Talk Proposals page"
+#~ msgstr "강연 제안 페이지"
+
+#~ msgid ""
+#~ "The :guilabel:`Talk Proposals` link takes attendees to a page on the "
+#~ "event website, wherein they can formerly submit a proposal for a talk "
+#~ "(:dfn:`track`) for the event, via a custom online form."
+#~ msgstr ""
+#~ ":guilabel:`토크 제안` 링크를 클릭하면 참석자는 행사 웹사이트의 페이지로 이"
+#~ "동합니다. 이 페이지에서 사용자 지정한 온라인 양식으로 행사에 대한 토크 "
+#~ "(:dfn:`트랙`)에 대한 제안을 정식으로 제출할 수 있습니다."
+
+#~ msgid ""
+#~ "In addition to the form, an introduction to the page, along with any "
+#~ "other pertinent information related to the types of talks the event will "
+#~ "feature can be added, if needed."
+#~ msgstr ""
+#~ "양식에 추가하여, 필요한 경우에는 페이지에 대한 소개와 함께 행사에서 다루"
+#~ "게 될 토크 유형과 관련된 기타 다른 안내 사항을 적절히 추가할 수 있습니다."
+
+#~ msgid ""
+#~ "The talk proposal form can be modified in a number of different ways, via "
+#~ "the web builder tools, accessible by clicking :guilabel:`Edit` while on "
+#~ "the specific page."
+#~ msgstr ""
+#~ "토크 제안서 양식은 다양한 방법으로 수정할 수 있으며, 웹 빌더 도구를 활용하"
+#~ "여 지정된 페이지에서 :guilabel:`편집` 을 클릭하면 액세스할 수 있습니다."
+
+#~ msgid ""
+#~ "Then, proceed to edit any of the default fields, or add new forms with "
+#~ "the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
+#~ "section of the web builder tools sidebar)."
+#~ msgstr ""
+#~ "그런 다음 기본 필드를 편집하거나 새 양식을 :guilabel:`양식` 빌딩 블록(웹 "
+#~ "빌더 도구 사이드바의 :guilabel:`블록` 섹션에서 확인)으로 추가합니다."
+
+#~ msgid ""
+#~ "Once all the necessary information is entered into the form, the "
+#~ "attendees just need to click the :guilabel:`Submit Proposal` button."
+#~ msgstr ""
+#~ "필요한 모든 정보를 양식에 입력한 후, 참석자는 :guilabel:`제안 제출` 버튼"
+#~ "을 클릭하기만 하면 됩니다."
+
+#~ msgid ""
+#~ "Then, that talk, and all the information entered on the form, can be "
+#~ "accessed on the :guilabel:`Event Tracks` page for that specific event in "
+#~ "the :guilabel:`Proposal` stage, which is accessible via "
+#~ "the :guilabel:`Tracks` smart button on the event form."
+#~ msgstr ""
+#~ "그런 다음 토크와 함께, 양식에 입력된 모든 내용은 :guilabel:`제안` 단계에 "
+#~ "있는 특정 행사 관련 :guilabel:`행사 추적` 페이지에서 액세스할 수 있습니"
+#~ "다. 이 페이지는 행사 양식에 있는 :guilabel:`추적` 스마트 버튼을 통해 액세"
+#~ "스할 수 있습니다."
+
+#~ msgid ""
+#~ "At that point, an internal user can review the proposed talk, and choose "
+#~ "to accept or deny the proposal."
+#~ msgstr ""
+#~ "그 시점에 내부 사용자는 제안된 발표를 검토하고 제안을 수락하거나 거부할 "
+#~ "수 있습니다."
+
+#~ msgid ""
+#~ "If accepted, the internal user can then move the track to the next "
+#~ "appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
+#~ "page for the event. Then, they can open that track form, and click "
+#~ "the :guilabel:`Go to Website` smart button to reveal that track's page on "
+#~ "the event website."
+#~ msgstr ""
+#~ "승인되면 내부 행사 관련 :guilabel:`행사 트랙` 페이지에 있는 칸반 파이프라"
+#~ "인에서 적절한 다음 단계로 트랙을 이동할 수 있습니다. 그런 다음 트랙 양식"
+#~ "을 열고 :guilabel:`웹사이트로 이동` 스마트 버튼을 클릭하여 행사 웹사이트에"
+#~ "서 해당 트랙 페이지를 표시할 수 있습니다."
+
+#~ msgid ""
+#~ "From there, they can toggle the :guilabel:`Unpublished` switch in the "
+#~ "header to :guilabel:`Published`, which allows all event attendees to view "
+#~ "and access the talk."
+#~ msgstr ""
+#~ "그런 다음 헤더의 :guilabel:`게시 안 됨` 스위치를 :guilabel:`게시됨`으로 전"
+#~ "환하여 모든 이벤트 참석자가 해당 발표를 보고 액세스할 수 있도록 할 수 있습"
+#~ "니다."
+
+#~ msgid "Agenda page"
+#~ msgstr "아젠다 페이지"
+
+#~ msgid ""
+#~ "The :guilabel:`Agenda` link takes attendees to a page on the event "
+#~ "website, showcasing an event calendar, depicting when (and where) events "
+#~ "are taking place for that specific event."
+#~ msgstr ""
+#~ ":guilabel:`아젠다` 링크를 통해 참석자가 행사 웹사이트의 페이지로 이동하여 "
+#~ "행사 캘린더를 확인할 수 있으며 해당 행사가 진행될 시기(및 장소)가 표시됩니"
+#~ "다."
+
+#~ msgid ""
+#~ "Clicking any track on the calendar takes the attendee to that specific "
+#~ "track's detail page on the event website."
+#~ msgstr ""
+#~ "캘린더에서 트랙을 클릭하면 참석자는 이벤트 웹사이트에서 해당 트랙의 세부 "
+#~ "정보 페이지로 이동합니다."
 
 #~ msgid "Events dashboard"
 #~ msgstr "행사 현황판"

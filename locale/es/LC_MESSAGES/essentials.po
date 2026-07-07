@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-08 17:30+0000\n"
-"PO-Revision-Date: 2026-06-06 05:10+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 15:53+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19-doc/"
 "essentials/es/>\n"
 "Language: es\n"
@@ -4383,7 +4383,7 @@ msgstr "Comprar créditos de forma manual"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:140
 msgid "To manually buy credits in Odoo, follow these steps:"
-msgstr "Siga estos pasos para comprar créditos de forma manual en Odoo:"
+msgstr "Sigue estos pasos para comprar créditos de forma manual en Odoo:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:142
 msgid ""
@@ -4508,11 +4508,11 @@ msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:9
 msgid ""
-"Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element on "
-"the interface."
+"Hold :kbd:`Ctrl` (macOS) or :kbd:`Alt` (Windows / Linux) to view the "
+"keyboard shortcuts assigned to each element on the interface."
 msgstr ""
-"Mantenga presionada la tecla :kbd:`Ctrl` para ver los atajos de teclado "
-"asignados a los elementos de la interfaz."
+"Mantén pulsado :kbd:`Ctrl` (macOS) o :kbd:`Alt` (Windows / Linux) para ver "
+"los atajos de teclado asignados a cada elemento de la interfaz."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "A selection of keyboard shortcuts in Odoo."
@@ -6946,6 +6946,13 @@ msgstr ""
 "Realiza una selección en el campo :guilabel:`Equipos` en el formulario "
 ":guilabel:`Etapas`. Se puede seleccionar más de un equipo, ya que la misma "
 "etapa puede asignarse a varios equipos."
+
+#~ msgid ""
+#~ "Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element "
+#~ "on the interface."
+#~ msgstr ""
+#~ "Mantenga presionada la tecla :kbd:`Ctrl` para ver los atajos de teclado "
+#~ "asignados a los elementos de la interfaz."
 
 #~ msgid ""
 #~ ":guilabel:`Call` or :guilabel:`Meeting`: If selected, users have the "

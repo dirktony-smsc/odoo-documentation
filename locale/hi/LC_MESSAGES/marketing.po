@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:30+0000\n"
-"PO-Revision-Date: 2026-06-10 01:11+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 13:44+0000\n"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/hi/>\n"
 "Language: hi\n"
@@ -4208,7 +4208,7 @@ msgstr "इवेंट बूथ बनाएं, मैनेज करें 
 #: ../../content/applications/marketing/events.rst:46
 #: ../../content/applications/marketing/events/registration_desk.rst:3
 msgid "Registration Desk"
-msgstr ""
+msgstr "रजिस्ट्रेशन डेस्क"
 
 #: ../../content/applications/marketing/events.rst:46
 msgid ""
@@ -4558,7 +4558,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:116
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:75
 msgid "Filter options"
-msgstr ""
+msgstr "फ़िल्टर ऑप्शन"
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:147
 msgid ""
@@ -4573,7 +4573,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:121
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:82
 msgid "The :guilabel:`Filters` column has the following options:"
-msgstr ""
+msgstr ":guilabel:`फ़िल्टर` कॉलम में निम्नलिखित ऑप्शन हैं:"
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:152
 msgid ""
@@ -4677,15 +4677,15 @@ msgid ""
 msgstr ""
 ":guilabel:`कस्टम ग्रुप...`: :ref:`कस्टम ग्रुप <search/group>` के हिसाब से डेटा ग्रुप करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:181
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
 msgid "Create event track"
 msgstr "इवेंट ट्रैक बनाएं"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
 msgid "New event tracks are created from the :guilabel:`Event Tracks` page."
 msgstr "नए इवेंट ट्रैक :guilabel:`इवेंट ट्रैक` पेज से बनाए जाते हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:187
 msgid ""
 "To create a new event track, click :guilabel:`New` in the upper-left corner "
 "to reveal a blank event track form."
@@ -4697,35 +4697,35 @@ msgstr ""
 msgid "Typical event track form in the Odoo Events application."
 msgstr "Odoo इवेंट ऐप्लिकेशन में टिपिकल इवेंट ट्रैक फ़ॉर्म।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:191
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required**."
 msgstr "इस ट्रैक को :guilabel:`टाइटल` देकर शुरू करें। यह फ़ील्ड **ज़रूरी** है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
 msgid ""
 "Optionally, upload an image for the track to be displayed on the track's "
 "webpage."
 msgstr ""
 "ऑप्शनली, ट्रैक के वेबपेज पर दिखाए जाने के लिए ट्रैक के लिए इमेज अपलोड करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
 msgid "Next, enter details for the track in the following fields:"
 msgstr "अगला, निम्नलिखित फ़ील्ड में ट्रैक की जानकारी दर्ज करें:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
 msgid ":guilabel:`Track Date`: Specify the date of the track."
 msgstr ":guilabel:`ट्रैक तारीख`: ट्रैक की तारीख बताएं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:198
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
 msgid ":guilabel:`Location`: Specify the location of the track."
 msgstr ":guilabel:`जगह`: ट्रैक की जगह बताएं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:201
 msgid ":guilabel:`Duration`: Specify the duration of the track (in minutes)."
 msgstr ":guilabel:`अवधि`: ट्रैक की अवधि (मिनट में) बताएं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
 msgid ""
 ":guilabel:`Always Wishlisted`: Specify whether to automatically set the "
 "track as favorite for each registered attendee."
@@ -4733,7 +4733,7 @@ msgstr ""
 ":guilabel:`हमेशा विशलिस्टेड`: बताएं कि हर रजिस्टर्ड प्रतिभागी के लिए ट्रैक को "
 "ऑटोमैटिकली पसंदीदा के तौर पर सेट करना है या नहीं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
 msgid ""
 ":guilabel:`Responsible`: Select the database user responsible for managing "
 "the track. By default, this field is assigned to the user who initially "
@@ -4743,7 +4743,7 @@ msgstr ""
 "डिफ़ॉल्ट रूप से, यह फ़ील्ड उस उपयोगकर्ता को असाइन की जाती है जिसने शुरुआत में ट्रैक बनाया था"
 "।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
 msgid ""
 ":guilabel:`Event`: Select the track's associated event. By default, this "
 "field is already populated with the event from the *Event Tracks* page."
@@ -4751,7 +4751,7 @@ msgstr ""
 ":guilabel:`इवेंट`: ट्रैक से जुड़े इवेंट को चुनें। डिफ़ॉल्ट रूप से, यह फ़ील्ड *इवेंट ट्रैक्स* पेज से "
 "इवेंट के साथ पहले से भरी हुई होती है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
 msgid ""
 ":guilabel:`Tags`: Select one or multiple tags for the track to add as "
 "filters on the *Talks* webpage."
@@ -4759,14 +4759,14 @@ msgstr ""
 ":guilabel:`टैग`: *टॉक्स* वेबपेज पर फ़िल्टर के रूप में जोड़ने के लिए ट्रैक के लिए एक या "
 "एकाधिक टैग चुनें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:210
 msgid ""
 ":guilabel:`Agenda Color`: Select a color to represent the track on the "
 "*Agenda* webpage."
 msgstr ""
 ":guilabel:`एजेंडा कलर`: *एजेंडा* वेबपेज पर ट्रैक को दर्शाने के लिए एक रंग चुनें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:211
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:213
 msgid ""
 "To access a complete list of locations for event tracks, which can be "
 "modified (and added to) at any time, navigate to :menuselection:`Events app "
@@ -4776,11 +4776,11 @@ msgstr ""
 "(और जोड़ा जा सकता है) किया जा सकता है, :menuselection:`Events app --> "
 "Configuration --> Track Locations` पर जाएं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:217
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
 msgid "Speaker tab"
 msgstr "स्पीकर टैब"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:221
 msgid ""
 "The :guilabel:`Speaker` tab on an event track form contains various fields "
 "to configure information about the track host or speaker."
@@ -4792,11 +4792,11 @@ msgstr ""
 msgid "The Speaker tab on an event track form in the Odoo Events application."
 msgstr "Odoo इवेंट ऐप्लिकेशन में इवेंट ट्रैक फ़ॉर्म पर स्पीकर टैब।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:226
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
 msgid "Contact Details section"
 msgstr "संपर्क विवरण सेक्शन"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:230
 msgid ""
 "In the :guilabel:`Contact Details` section, click the :guilabel:`Contact` "
 "drop-down field to select an existing contact from the database as the main "
@@ -4805,7 +4805,7 @@ msgstr ""
 ":guilabel:`कॉन्टैक्ट डिटेल्स` सेक्शन में, टॉक के लिए मुख्य पॉइंट ऑफ़ कॉन्टैक्ट के रूप में डेटाबेस से "
 "मौजूदा कॉन्टैक्ट को चुनने के लिए :guilabel:`कॉन्टैक्ट` ड्रॉप-डाउन फ़ील्ड पर क्लिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:231
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:233
 msgid ""
 "If this contact is not yet in the database, type in the name of the contact, "
 "and click :guilabel:`Create` to create and edit the contact form later, or "
@@ -4817,7 +4817,7 @@ msgstr ""
 "कॉन्फ़िगरेशन के लिए उस नए कॉन्टैक्ट के कॉन्टैक्ट फ़ॉर्म पर जाने के लिए :guilabel:`बनाएं और "
 "बदलाव करें...` पर क्लिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:235
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:237
 msgid ""
 "The :guilabel:`Contact Email` and :guilabel:`Contact Phone` fields are "
 "greyed-out and populated with the information found on the chosen contact's "
@@ -4828,11 +4828,11 @@ msgstr ""
 "कॉन्टैक्ट के फ़ॉर्म पर मिली जानकारी से भरे जाते हैं। :guilabel:`कॉन्टैक्ट` फ़ील्ड चुने जाने के "
 "बाद ये फ़ील्ड बदली नहीं जा सकतीं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:240
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
 msgid "Speaker Bio section"
 msgstr "स्पीकर बायो सेक्शन"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:244
 msgid ""
 "In the :guilabel:`Speaker Bio` section, enter any information related to the "
 "specific speaker scheduled to conduct/host the track."
@@ -4840,7 +4840,7 @@ msgstr ""
 ":guilabel:`स्पीकर बायो` सेक्शन में, ट्रैक को संचालित/होस्ट करने के लिए शेड्यूल किए गए "
 "विशिष्ट स्पीकर से संबंधित कोई भी जानकारी दर्ज करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:245
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:247
 msgid ""
 "If the chosen contact in the :guilabel:`Contact Details` section is properly "
 "configured, the :guilabel:`Name`, :guilabel:`Email`, and :guilabel:`Phone` "
@@ -4851,7 +4851,7 @@ msgstr ""
 "गया है, तो :guilabel:`नाम`, :guilabel:`ईमेल`, और :guilabel:`फ़ोन` फ़ील्ड "
 "ऑटोमैटिकली भर जाती हैं। नहीं तो, जानकारी मैन्युअल रूप से दर्ज करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:250
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:252
 msgid ""
 "This information appears on the front-end of the event website, on the "
 "specific track webpage, providing more information about the speaker to the "
@@ -4860,14 +4860,14 @@ msgstr ""
 "यह जानकारी इवेंट वेबसाइट के फ्रंट-एंड पर, स्पेसिफ़िक ट्रैक वेबपेज पर दिखाई देती है, जो ट्रैक "
 "प्रतिभागी को स्पीकर के बारे में ज़्यादा जानकारी प्रदान करती है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:253
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
 msgid ""
 "Optionally, upload an image to appear alongside the speaker biography on the "
 "event website."
 msgstr ""
 "वैकल्पिक रूप से, इवेंट वेबसाइट पर स्पीकर बायोग्राफ़ी के साथ दिखाने के लिए एक इमेज अपलोड करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:257
 msgid ""
 "Then, enter a :guilabel:`Job Position` for the designated speaker, followed "
 "by the :guilabel:`Company Name` associated with the speaker."
@@ -4875,7 +4875,7 @@ msgstr ""
 "फिर, नामित स्पीकर के लिए :guilabel:`Job Position` दर्ज करें, उसके बाद स्पीकर से जुड़ी "
 ":guilabel:`Company Name` दर्ज करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:258
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:260
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter a custom biography with "
 "any speaker-related information."
@@ -4883,13 +4883,13 @@ msgstr ""
 ":guilabel:`बायोग्राफ़ी` फ़ील्ड में, स्पीकर से संबंधित किसी भी जानकारी के साथ कस्टम "
 "बायोग्राफ़ी दर्ज करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:264
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
 #: ../../content/applications/marketing/surveys/create.rst:258
 #: ../../content/applications/marketing/surveys/questions.rst:198
 msgid "Description tab"
 msgstr "विवरण टैब"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Description` tab of an event track form contains a blank text "
 "field to enter any additional information about the track. This information "
@@ -4899,11 +4899,11 @@ msgstr ""
 "दर्ज करने के लिए एक खाली टेक्स्ट फ़ील्ड होती है। यह जानकारी इवेंट वेबसाइट पर विशिष्ट ट्रैक "
 "पेज पर दिखाई देती है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:273
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
 msgid "Interactivity tab"
 msgstr "इंटरैक्टिविटी टैब"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:277
 msgid ""
 "The :guilabel:`Interactivity` tab of the track form provides users the "
 "option to display an interactive button for additional attendee engagement."
@@ -4916,7 +4916,7 @@ msgid ""
 "The Interactivity tab on an event track form in the Odoo Events application."
 msgstr "Odoo इवेंट ऐप्लिकेशन में इवेंट ट्रैक फ़ॉर्म पर इंटरैक्टिविटी टैब।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:282
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:284
 msgid ""
 "When the :guilabel:`Magic Button` checkbox is ticked, Odoo displays a *call "
 "to action* button to attendees on the sidebar of the track webpage while the "
@@ -4925,7 +4925,7 @@ msgstr ""
 "जब :guilabel:`मैजिक बटन` चेकबॉक्स टिक किया जाता है, तो Odoo ट्रैक होने के दौरान ट्रैक "
 "वेबपेज के साइडबार पर प्रतिभागियों को *कॉल टू ऐक्शन* बटन दिखाता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:285
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
 msgid ""
 "With that checkbox ticked, three more options appear below to configure the "
 "button:"
@@ -4933,14 +4933,14 @@ msgstr ""
 "उस चेकबॉक्स को टिक करने के साथ, बटन को कॉन्फ़िगर करने के लिए नीचे तीन और विकल्प दिखाई "
 "देते हैं:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
 msgid ""
 ":guilabel:`Button Title`: Enter a title to appear on the button for "
 "attendees."
 msgstr ""
 ":guilabel:`बटन टाइटल`: प्रतिभागियों के लिए बटन पर दिखाने के लिए एक टाइटल दर्ज करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:288
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:290
 msgid ""
 ":guilabel:`Button Target URL`: Enter a URL that leads attendees to a "
 "specific page."
@@ -4948,7 +4948,7 @@ msgstr ""
 ":guilabel:`बटन टार्गेट यूआरएल`: एक यूआरएल दर्ज करें जो प्रतिभागियों को किसी विशिष्ट पेज "
 "पर ले जाए।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:291
 msgid ""
 ":guilabel:`Show Button`: Enter how many :guilabel:`minutes after Track "
 "start` the button should appear."
@@ -4956,17 +4956,17 @@ msgstr ""
 ":guilabel:`शो बटन`: दर्ज करें कि ट्रैक शुरू होने के :guilabel:`कितने मिनट बाद` बटन "
 "दिखाई देना चाहिए।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:293
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:295
 msgid ""
 "The magic button **only** appears if there is more than one published track."
 msgstr ""
 "मैजिक बटन **सिर्फ़** तभी दिखाई देता है जब एक से ज़्यादा पब्लिश किए गए ट्रैक हों।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:296
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
 msgid "Publish event track"
 msgstr "इवेंट ट्रैक पब्लिश करें"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:300
 msgid ""
 "Once all the desired configurations are complete on an event track form, "
 "publish the track on the event website by clicking the :guilabel:`Published` "
@@ -4975,7 +4975,7 @@ msgstr ""
 "इवेंट ट्रैक फ़ॉर्म पर सभी वांछित कॉन्फ़िगरेशन पूरे हो जाने के बाद, ऊपरी-दाएं कोने में "
 ":guilabel:`पब्लिश किया गया` स्टेज पर क्लिक करके इवेंट वेबसाइट पर ट्रैक को पब्लिश करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:302
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:304
 msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
@@ -4984,7 +4984,7 @@ msgstr ""
 "ट्रैक की स्टेज को :guilabel:`Event Tracks` पेज से भी बदला जा सकता है, जहां वांछित ट्रैक "
 "कार्ड को ड्रैग-एंड-ड्रॉप करके उपयुक्त कानबान स्टेज में डाला जा सकता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:305
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:307
 msgid ""
 "An event track can also be published by opening the desired event track form "
 "and clicking the :guilabel:`Go to Website` smart button. Then, toggle "
@@ -5002,12 +5002,13 @@ msgid ""
 "The track-related event submenu options on an event website built with Odoo "
 "Events."
 msgstr ""
+"Odoo इवेंट के साथ बनाई गई इवेंट वेबसाइट पर ट्रैक से संबंधित इवेंट सबमेन्यू विकल्प।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:315
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
 msgid "Additional track configurations"
 msgstr "अतिरिक्त ट्रैक कॉन्फ़िगरेशन"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:319
 msgid ""
 "The :guilabel:`Schedule & Tracks` setting in the **Events** configuration "
 "page provides additional configuration options for users to enable live "
@@ -5017,11 +5018,11 @@ msgstr ""
 "के लिए लाइव ब्रॉडकास्ट और गेमिफ़िकेशन सक्षम करने हेतु अतिरिक्त कॉन्फ़िगरेशन विकल्प प्रदान "
 "करती है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:323
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
 msgid "Live broadcasting"
 msgstr "लाइव ब्रॉडकास्टिंग"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:327
 msgid ""
 "If the :guilabel:`Live Broadcast` setting is enabled in the **Events** app "
 "settings, the option to add a corresponding link in the :guilabel:`YouTube "
@@ -5031,11 +5032,11 @@ msgstr ""
 "फ़ॉर्म में :guilabel:`YouTube Video Link` फ़ील्ड में संबंधित लिंक जोड़ने का विकल्प दिखाई "
 "देता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:331
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
 msgid "Event gamification"
 msgstr "इवेंट गेमिफ़िकेशन"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:335
 msgid ""
 "If the :guilabel:`Event Gamification` setting is enabled, an :guilabel:`Add "
 "Quiz` button appears on the top-left of a track form, allowing the user to "
@@ -5045,11 +5046,11 @@ msgstr ""
 ":guilabel:`Add Quiz` बटन दिखाई देता है, जो उपयोगकर्ता को ट्रैक समाप्त होने के बाद "
 "प्रतिभागियों के लिए क्विज़ बनाने की अनुमति देता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:338
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
 msgid "Track quiz form"
 msgstr "ट्रैक क्विज़ फ़ॉर्म"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:342
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so opens a form to configure the quiz."
@@ -5061,14 +5062,14 @@ msgstr ""
 msgid "The Add Quiz page in the Odoo Events application for an event track."
 msgstr "Odoo इवेंट ऐप्लिकेशन में इवेंट ट्रैक के लिए Add Quiz पेज।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:346
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page."
 msgstr ""
 "पेज के शीर्ष पर खाली फ़ील्ड में क्विज़ के लिए शीर्षक दर्ज करके शुरू करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:350
 msgid ""
 "If participants are allowed to take the quiz multiple times, tick the "
 "checkbox beside :guilabel:`Allow multiple tries`."
@@ -5076,7 +5077,7 @@ msgstr ""
 "अगर प्रतिभागियों को क्विज़ कई बार लेने की अनुमति है, तो :guilabel:`Allow multiple "
 "tries` के बगल में स्थित चेकबॉक्स पर टिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:351
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:353
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are automatically "
 "populated with the corresponding event and track. These fields are non-"
@@ -5085,11 +5086,11 @@ msgstr ""
 ":guilabel:`Event` और :guilabel:`Event Track` फ़ील्ड संबंधित इवेंट और ट्रैक के साथ "
 "ऑटोमैटिकली भरे जाते हैं। ये फ़ील्ड संशोधनीय नहीं हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:355
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
 msgid "Add questions and answers"
 msgstr "सवाल और जवाब जोड़ें"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:359
 msgid ""
 "To add questions to the quiz, click :guilabel:`Add a line` beneath "
 "the :guilabel:`Question` column. Doing so reveals a :guilabel:`Create "
@@ -5099,11 +5100,11 @@ msgstr ""
 "line` पर क्लिक करें। ऐसा करने से :guilabel:`Create Questions` पॉप-अप विंडो दिखाई "
 "देती है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:361
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
 msgid "**All** track quiz questions are multiple choice."
 msgstr "**सभी** ट्रैक क्विज़ सवाल मल्टीपल चॉइस होते हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:365
 msgid ""
 "From the pop-up window, enter the question in the blank field at the top. "
 "Then, click :guilabel:`Add a line` to add an answer option."
@@ -5111,20 +5112,20 @@ msgstr ""
 "पॉप-अप विंडो से, शीर्ष पर खाली फ़ील्ड में सवाल दर्ज करें। फिर, उत्तर विकल्प जोड़ने के लिए "
 ":guilabel:`Add a line` पर क्लिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:366
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
 msgid "Optionally, fill in the following fields:"
 msgstr "वैकल्पिक रूप से, निम्नलिखित फ़ील्ड भरें:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
 msgid ""
 ":guilabel:`Correct`: Designate whether the option is the correct response."
 msgstr ":guilabel:`Correct`: निर्धारित करें कि क्या विकल्प सही उत्तर है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:369
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:371
 msgid ":guilabel:`Points`: Specify a point value for the answer option."
 msgstr ":guilabel:`Points`: उत्तर विकल्प के लिए पॉइंट वैल्यू निर्दिष्ट करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:372
 msgid ""
 ":guilabel:`Extra Comment`: Add any additional comments that should accompany "
 "the answer option."
@@ -5139,7 +5140,7 @@ msgid ""
 msgstr ""
 "Odoo इवेंट ऐप में इवेंट-स्पेसिफ़िक ट्रैक क्विज़ पर Create Questions पॉप-अप विंडो।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:375
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:377
 msgid ""
 "Once all desired answer options are completed, click :guilabel:`Save & "
 "Close` to save the question, close the pop-up window, and return to the "
@@ -5152,13 +5153,13 @@ msgstr ""
 "सवाल को सेव करने और नए :guilabel:`Create Questions` पॉप-अप फ़ॉर्म पर तुरंत दूसरा "
 "सवाल बनाना शुरू करने के लिए :guilabel:`Save & New` पर क्लिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:381
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:382
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:378
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
@@ -5428,217 +5429,268 @@ msgstr "टॉक्स, प्रस्ताव और एजेंडा"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:5
 msgid ""
-"With Odoo *Events*, users can utilize a fully-integrated event website, "
-"where attendees can quickly access various tracks (talks, presentations, "
-"etc.), view entire agendas, and propose talks for the event."
+"With Odoo **Events**, visitors can use the event website to view tracks, "
+"propose talks, and see a detailed agenda for their events."
 msgstr ""
-"Odoo *Events* के साथ, यूज़र एक पूरी तरह से एकीकृत इवेंट वेबसाइट का उपयोग कर सकते हैं, "
-"जहां प्रतिभागी विभिन्न ट्रैक (टॉक्स, प्रेजेंटेशन, आदि) को जल्दी से एक्सेस कर सकते हैं, पूरे एजेंडा "
-"देख सकते हैं, और इवेंट के लिए टॉक्स प्रस्तावित कर सकते हैं।"
+"Odoo **इवेंट** के साथ, विज़िटर इवेंट वेबसाइट का इस्तेमाल करके ट्रैक देख सकते हैं, टॉक का "
+"प्रस्ताव दे सकते हैं और अपने इवेंट के लिए विस्तृत एजेंडा देख सकते हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:10
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:9
+msgid ""
+"In order to access talks, proposals, and agendas, internal users must have "
+"event tracks enabled and set up. See the :doc:`event_tracks` documentation "
+"to learn more about enabling and creating tracks."
+msgstr ""
+"टॉक, प्रपोज़ल और एजेंडा तक ऐक्सेस करने के लिए, इंटरनल उपयोगकर्ताओं के पास इवेंट ट्रैक सक्षम "
+"और सेट अप होना चाहिए। ट्रैक को सक्षम करने और बनाने के बारे में अधिक जानने के लिए "
+":doc:`event_tracks` दस्तावेज़ देखें।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:16
 msgid "Event website"
 msgstr "इवेंट वेबसाइट"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:12
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:18
 msgid ""
-"To access an event website, navigate to the specific event form in the Odoo "
-"*Events* app, and click the :guilabel:`Go to Website` smart button. Or, "
-"while on the Odoo-built website for the company, click "
-"the :guilabel:`Events` header option, and select the desired event to view "
-"that event's website."
+"When an internal user :doc:`creates an event <../event_setup/"
+"create_events>`, Odoo **Events** generates a separate website for it on the "
+"user's Odoo-built website."
 msgstr ""
-"इवेंट वेबसाइट को एक्सेस करने के लिए, Odoo *Events* ऐप्लिकेशन में विशिष्ट इवेंट फ़ॉर्म पर "
-"जाएं, और :guilabel:`Go to Website` स्मार्ट बटन पर क्लिक करें। या, कंपनी के लिए Odoo-"
-"बिल्ट वेबसाइट पर रहते हुए, :guilabel:`Events` हेडर विकल्प पर क्लिक करें, और उस इवेंट की "
-"वेबसाइट देखने के लिए वांछित इवेंट को चुनें।"
+"जब कोई इंटरनल उपयोगकर्ता :doc:`एक इवेंट बनाता है <../event_setup/create_events>`, "
+"तो Odoo **इवेंट** उपयोगकर्ता की Odoo-बिल्ट वेबसाइट पर इसके लिए एक अलग वेबसाइट जेनरेट "
+"करता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:17
-msgid ""
-"On the event website, there is an event-specific subheader menu with "
-"different options to choose from."
-msgstr ""
-"इवेंट वेबसाइट पर, एक इवेंट-विशिष्ट सबहेडर मेन्यू है जिसमें चुनने के लिए विभिन्न विकल्प हैं।"
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:21
+msgid "Visitors can access that event website in two ways:"
+msgstr "विज़िटर उस इवेंट वेबसाइट को दो तरीकों से ऐक्सेस कर सकते हैं:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:20
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:23
 msgid ""
-"With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, the "
-"following links are automatically added to the subheader menu, located on "
-"the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, "
-"and :guilabel:`Agenda`."
+"Open the **Events** app, navigate to the specific event, and click "
+"the :guilabel:`Go to Website` smart button."
 msgstr ""
-"Odoo *Events* ऐप्लिकेशन में *Schedule & Tracks* सेटिंग सक्षम होने पर, इवेंट वेबसाइट पर "
-"स्थित सबहेडर मेन्यू में निम्नलिखित लिंक ऑटोमैटिकली जोड़ दिए जाते हैं: :guilabel:`Talks`, "
-":guilabel:`Talk Proposals`, और :guilabel:`Agenda`।"
+"**इवेंट** ऐप्लिकेशन खोलें, विशिष्ट इवेंट पर नेविगेट करें, और :guilabel:`वेबसाइट पर जाएं` "
+"स्मार्ट बटन क्लिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:28
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:26
 msgid ""
-"To enable the :guilabel:`Schedule & Tracks` setting, navigate "
-"to :menuselection:`Events app --> Configuration --> Settings`, tick the "
-"checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+"Or, while on the Odoo-built website, click the :guilabel:`Events` header "
+"option, then select the desired event."
 msgstr ""
-":guilabel:`Schedule & Tracks` सेटिंग सक्षम करने के लिए, :menuselection:`Events "
-"app --> Configuration --> Settings` पर जाएं, :guilabel:`Schedule & Tracks` के "
-"बगल में चेकबॉक्स पर टिक करें, और :guilabel:`Save` पर क्लिक करें।"
+"या, Odoo-निर्मित वेबसाइट पर, :guilabel:`इवेंट` हेडर ऑप्शन क्लिक करें, फिर वांछित इवेंट "
+"सिलेक्ट करें।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:29
+msgid ""
+"On the event website, there is a sub-header menu with different pages, "
+"including the following:"
+msgstr ""
+"इवेंट वेबसाइट पर, विभिन्न पेज के साथ एक सब-हेडर मेन्यू है, जिसमें निम्नलिखित शामिल हैं:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:31
+msgid ""
+":guilabel:`Talks`: :ref:`View a schedule <events/talks-proposals-agenda/view-"
+"talks>` of all tracks scheduled for the event, listed by date."
+msgstr ""
+":guilabel:`टॉक्स`: इवेंट के लिए शेड्यूल किए गए सभी ट्रैक का :ref:`शेड्यूल देखें <events/"
+"talks-proposals-agenda/view-talks>`, तारीख के अनुसार सूचीबद्ध।"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:33
-msgid "Talks page"
-msgstr "टॉक्स पेज"
+msgid ""
+":guilabel:`Talk Proposals`: :ref:`Submit a proposal <events/talks-proposals-"
+"agenda/propose-talks>` to participate as a speaker during the event."
+msgstr ""
+":guilabel:`टॉक प्रपोज़ल`: इवेंट के दौरान स्पीकर के रूप में भाग लेने के लिए :ref:`प्रपोज़ल "
+"सबमिट करें <events/talks-proposals-agenda/propose-talks>`।"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:35
 msgid ""
-"The :guilabel:`Talks` link takes the attendee to a page filled with all the "
-"planned tracks for the event."
+":guilabel:`Agenda`: :ref:`View a calendar <events/talks-proposals-agenda/"
+"view-agenda>` of all scheduled tracks for the event, showing detailed times "
+"for each date."
 msgstr ""
-":guilabel:`Talks` लिंक प्रतिभागी को इवेंट के लिए सभी नियोजित ट्रैक से भरे पेज पर ले "
-"जाता है।"
+":guilabel:`एजेंडा`: इवेंट के लिए सभी शेड्यूल किए गए ट्रैक का :ref:`कैलेंडर देखें <events/"
+"talks-proposals-agenda/view-agenda>`, प्रत्येक तारीख के लिए विस्तृत समय दिखाते हुए।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:39
+msgid ""
+"If the sub-header menu does not appear, it must be manually enabled by the "
+"internal user."
+msgstr ""
+"यदि सब-हेडर मेन्यू दिखाई नहीं देता है, तो इसे इंटरनल उपयोगकर्ता द्वारा मैन्युअली सक्षम करना "
+"होगा।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:41
+msgid ""
+"To do so, click the :guilabel:`Edit` button at the top. In the editor panel, "
+"click the :guilabel:`Customize` tab at the top, then enable "
+"the :guilabel:`Sub-menu (Specific)` setting. Finally, click :guilabel:`Save` "
+"to apply changes."
+msgstr ""
+"ऐसा करने के लिए, शीर्ष पर :guilabel:`बदलाव करें` बटन क्लिक करें। एडिटर पैनल में, शीर्ष "
+"पर :guilabel:`कस्टमाइज़` टैब क्लिक करें, फिर :guilabel:`सब-मेन्यू (विशिष्ट)` सेटिंग सक्षम "
+"करें। अंत में, बदलाव लागू करने के लिए :guilabel:`सेव करें` क्लिक करें।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:51
+msgid "View talks"
+msgstr "टॉक्स देखें"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:53
+msgid ""
+"The *Talks* page displays a schedule of planned tracks for the event, sorted "
+"by date."
+msgstr ""
+"*टॉक्स* पेज इवेंट के लिए नियोजित ट्रैक का शेड्यूल प्रदर्शित करता है, तारीख के अनुसार क्रमबद्ध।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+msgid ""
+"Visitors can mark a track as a *Favorite* by clicking the :icon:`fa-bell-"
+"o` :guilabel:`(empty bell)` icon to the right of the track title. A track "
+"marked as a *Favorite* appears with the :icon:`fa-bell` :guilabel:`(filled "
+"bell)` icon. Visitors can then :ref:`filter tracks by favorites <events/"
+"talks-proposals-agenda/filter-favorites>`."
+msgstr ""
+"विज़िटर ट्रैक शीर्षक के दाईं ओर :icon:`fa-bell-o` :guilabel:`(खाली घंटी)` आइकॉन "
+"क्लिक करके ट्रैक को *पसंदीदा* के रूप में चिह्नित कर सकते हैं। *पसंदीदा* के रूप में चिह्नित ट्रैक "
+":icon:`fa-bell` :guilabel:`(भरी हुई घंटी)` आइकॉन के साथ दिखाई देता है। फिर विज़िटर "
+":ref:`पसंदीदा द्वारा ट्रैक फ़िल्टर कर सकते हैं <events/talks-proposals-agenda/filter-"
+"favorites>`।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:60
+msgid ""
+"Additionally, visitors can also :ref:`filter tracks by their tags <events/"
+"talks-proposals-agenda/filter-tags>` (customized on each track's form)."
+msgstr ""
+"इसके अतिरिक्त, विज़िटर :ref:`अपने टैग द्वारा ट्रैक फ़िल्टर भी कर सकते हैं <events/talks-"
+"proposals-agenda/filter-tags>` (प्रत्येक ट्रैक के फ़ॉर्म पर कस्टमाइज़ किया गया)।"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
 "The Talks page on an event website built through the Odoo Events application."
 msgstr "Odoo Events ऐप्लिकेशन के माध्यम से बनाई गई इवेंट वेबसाइट पर टॉक्स पेज।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:42
-msgid ""
-"At the top of :guilabel:`Talks` page, there are drop-down filter menus "
-"beside a :guilabel:`Search a talk...` search bar."
-msgstr ""
-":guilabel:`Talks` पेज के शीर्ष पर, :guilabel:`Search a talk...` सर्च बार के बगल में "
-"ड्रॉप-डाउन फ़िल्टर मेन्यू हैं।"
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:69
+msgid "Filter by favorites"
+msgstr "पसंदीदा द्वारा फ़िल्टर करें"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:45
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:71
 msgid ""
-"The first drop-down filter menu (with the starting "
-"title: :guilabel:`Favorites`) is the only drop-down filter menu that appears "
-"by default. When clicked, the resulting menu presents two "
-"options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+"To filter the *Talks* page by any tracks marked as a *Favorite*, click on "
+"the :guilabel:`Favorites` drop-down menu."
 msgstr ""
-"पहला ड्रॉप-डाउन फ़िल्टर मेन्यू (शुरुआती टाइटल के साथ: :guilabel:`Favorites`) एकमात्र "
-"ड्रॉप-डाउन फ़िल्टर मेन्यू है जो डिफ़ॉल्ट रूप से दिखाई देता है। क्लिक करने पर, परिणामी मेन्यू "
-"दो विकल्प प्रस्तुत करता है: :guilabel:`Favorites` और :guilabel:`All Talks`।"
+"*टॉक्स* पेज को *पसंदीदा* के रूप में चिह्नित किसी भी ट्रैक द्वारा फ़िल्टर करने के लिए, "
+":guilabel:`पसंदीदा` ड्रॉप-डाउन मेन्यू पर क्लिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:49
-msgid ""
-"Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
-"favorited by the attendee."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:74
+msgid "Visitors can then choose one of two options:"
+msgstr "फिर विज़िटर दो विकल्पों में से एक चुन सकते हैं:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:76
+msgid ":guilabel:`Favorites`: shows **only** tracks marked as *Favorite*."
 msgstr ""
-":guilabel:`Favorites` चुनने पर *सिर्फ़* वे ट्रैक दिखाए जाते हैं जिन्हें प्रतिभागी द्वारा "
-"पसंदीदा के रूप में चिह्नित किया गया है।"
+":guilabel:`पसंदीदा`: **सिर्फ़** *पसंदीदा* के रूप में चिह्नित ट्रैक दिखाता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:52
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+msgid ":guilabel:`All Talks`: shows **all** tracks."
+msgstr ":guilabel:`सभी टॉक्स`: **सभी** ट्रैक दिखाता है।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
 msgid ""
-"If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
-"selected, Odoo presents all the event tracks."
+"If the visitor applies the :guilabel:`Favorites` option without having "
+"marked any tracks as a *Favorite*, all event tracks are displayed."
 msgstr ""
-"अगर कोई ट्रैक पसंदीदा नहीं किया गया है और :guilabel:`Favorites` फ़िल्टर चुना गया है, "
-"तो Odoo सभी इवेंट ट्रैक दिखाता है।"
+"यदि विज़िटर किसी भी ट्रैक को *पसंदीदा* के रूप में चिह्नित किए बिना :guilabel:`पसंदीदा` "
+"विकल्प लागू करता है, तो सभी इवेंट ट्रैक प्रदर्शित होते हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:87
+msgid "Filter by tags"
+msgstr "टैग लगाकर फ़िल्टर करने की सुविधा"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:89
 msgid ""
-"Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
-"have been favorited or not."
+"If any tracks have tags and tag categories configured in the database "
+"during :ref:`track creation <events/event_tracks/create-track>`, additional "
+"drop-down filter menus will appear at the top of the page next to "
+"the :guilabel:`Favorites` drop-down, allowing users to filter tracks by tag "
+"categories."
 msgstr ""
-":guilabel:`All Talks` चुनने पर *सभी* ट्रैक दिखते हैं, चाहे वे पसंदीदा किए गए हों या नहीं।"
+"यदि किसी भी ट्रैक में :ref:`ट्रैक क्रिएशन <events/event_tracks/create-track>` के "
+"दौरान डेटाबेस में कॉन्फ़िगर किए गए टैग और टैग कैटेगरी हैं, तो :guilabel:`पसंदीदा` ड्रॉप-"
+"डाउन के बगल में पेज के शीर्ष पर अतिरिक्त ड्रॉप-डाउन फ़िल्टर मेन्यू दिखाई देंगे, जिससे "
+"उपयोगकर्ता टैग कैटेगरी द्वारा ट्रैक फ़िल्टर कर सकते हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:58
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
 msgid ""
-"The other drop-down filter menus that appear on this page are related to any "
-"configured tags (and tag categories) created for event tracks in the backend."
+"To add tags and tag categories to track forms, navigate to the **Events** "
+"app and open the desired event. Click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button and open the desired event track."
 msgstr ""
-"इस पेज पर दिखने वाले अन्य ड्रॉप-डाउन फ़िल्टर मेन्यू बैकएंड में इवेंट ट्रैक के लिए बनाए गए किसी "
-"भी कॉन्फ़िगर किए गए टैग (और टैग कैटेगरी) से संबंधित हैं।"
+"टैग और टैग कैटेगरी को ट्रैक फ़ॉर्म्स में जोड़ने के लिए, **इवेंट** ऐप्लिकेशन पर जाएं और मनचाहे "
+"इवेंट को खोलें। :icon:`fa-microphone` :guilabel:`ट्रैक करें` स्मार्ट बटन को क्लिक करें और "
+"मनचाहे इवेंट ट्रैक को खोलें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:62
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:98
 msgid ""
-"To add tags and tag categories to track forms, open a desired event track "
-"form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+"On the track form, type a new tag in the :guilabel:`Tags` field. Then, "
 "click :guilabel:`Create and edit...` from the resulting drop-down menu."
 msgstr ""
-"ट्रैक फ़ॉर्म में टैग और टैग कैटेगरी जोड़ने के लिए, इच्छित इवेंट ट्रैक फ़ॉर्म खोलें और "
-":guilabel:`Tags` फ़ील्ड में नया टैग टाइप करना शुरू करें। फिर, दिखने वाले ड्रॉप-डाउन मेन्यू "
-"से :guilabel:`Create and edit...` पर क्लिक करें।"
+"ट्रैक फ़ॉर्म पर, :guilabel:`टैग` फ़ीलड में एक नया टैग टाइप करें। फिर, रिज़ल्टिंग ड्रॉप-डाउन "
+"मेन्यू से :guilabel:`बनाएं और बदलाव करें...` को क्लिक करें।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:66
-msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
-msgstr "ऐसा करने पर :guilabel:`Create Tags` पॉप-अप फ़ॉर्म खुलता है।"
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+msgid ""
+"Doing so reveals a :guilabel:`Create Tags` pop-up form with the following "
+"fields:"
+msgstr ""
+"ऐसा करने से :guilabel:`टैग बनाएं` पॉप-अप फ़ॉर्म दिखाई देता है जिसमें निम्नलिखित फ़ीलड हैं:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:103
+msgid ""
+":guilabel:`Tag Name`: The name of the tag. This field is already populated."
+msgstr ":guilabel:`टैग नाम`: टैग का नाम। यह फ़ीलड पहले से भरा हुआ है।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+msgid ""
+":guilabel:`Color Index`: The color of the track associated with this tag, "
+"displayed on the website."
+msgstr ""
+":guilabel:`कलर इंडेक्स`: इस टैग से जुड़े ट्रैक का रंग, जो वेबसाइट पर दिखाया जाता है।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:106
+msgid ""
+":guilabel:`Category`: The category of the tag. This category appears as the "
+"drop-down filter menu on the *Talks* page."
+msgstr ""
+":guilabel:`कैटेगरी`: टैग की कैटेगरी। यह कैटेगरी *Talks* पेज पर ड्रॉप-डाउन फ़िल्टर मेन्यू के "
+"रूप में दिखाई देती है।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:0
 msgid ""
 "The Create Tags pop-up form that coincides with drop-down filter menus on "
 "Talks page."
 msgstr ""
 "Create Tags पॉप-अप फ़ॉर्म जो Talks पेज पर ड्रॉप-डाउन फ़िल्टर मेन्यू के साथ आता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:72
-msgid ""
-"From here, users see the recently added tag in the :guilabel:`Tag Name` "
-"field. Beneath that, there is an option to add a specific :guilabel:`Color "
-"Index` to the tag for added organization."
-msgstr ""
-"यहाँ से, यूज़र :guilabel:`Tag Name` फ़ील्ड में हाल ही में जोड़ा गया टैग देखते हैं। इसके नीचे, "
-"बेहतर व्यवस्था के लिए टैग में एक विशिष्ट :guilabel:`Color Index` जोड़ने का विकल्प है।"
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:115
+msgid "Propose talks"
+msgstr "टॉक प्रपोज़ करें"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:75
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
 msgid ""
-"Lastly, there is the :guilabel:`Category` field, where users can either "
-"select a pre-existing category for this new tag, or create a new one."
+"The *Talk Proposals* page allows visitors to submit a proposal for a talk "
+"via a custom online form."
 msgstr ""
-"अंत में, :guilabel:`Category` फ़ील्ड है, जहाँ यूज़र इस नए टैग के लिए पहले से मौजूद कैटेगरी "
-"चुन सकते हैं या नई बना सकते हैं।"
+"*Talk Proposals* पेज विज़िटर्स को कस्टम ऑनलाइन फ़ॉर्म के जरिए टॉक के लिए प्रपोज़ल "
+"सबमिट करने की अनुमति देता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
 msgid ""
-"All options in the :guilabel:`Category` field for tags appear as their own "
-"drop-down filter menu on the :guilabel:`Talks` page, located on the event "
-"website."
+"By default, the *Talk Proposals* page is automatically generated by Odoo. If "
+"needed, internal users can :doc:`edit <../../../websites/website/web_design/"
+"elements>` any part of the page, including the proposal form."
 msgstr ""
-"टैग के लिए :guilabel:`Category` फ़ील्ड में सभी विकल्प इवेंट वेबसाइट पर स्थित "
-":guilabel:`Talks` पेज पर अपने खुद के ड्रॉप-डाउन फ़िल्टर मेन्यू के रूप में दिखते हैं।"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
-msgid ""
-"Beneath the drop-down filter menus at the top of the :guilabel:`Talks` page, "
-"there is a list of planned tracks for the specific event, organized by day."
-msgstr ""
-":guilabel:`Talks` पेज के शीर्ष पर ड्रॉप-डाउन फ़िल्टर मेन्यू के नीचे, विशिष्ट इवेंट के लिए "
-"नियोजित ट्रैक की सूची है, जो दिन के अनुसार व्यवस्थित है।"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:84
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:141
-msgid ""
-"If an attendee wishes to favorite a track, they can click the :icon:`fa-bell-"
-"o` :guilabel:`(empty bell)` icon, located to the right of the track title. "
-"Attendees will know a track has been favorited when they notice the icon has "
-"been changed to :icon:`fa-bell` :guilabel:`(filled bell)` icon."
-msgstr ""
-"अगर कोई प्रतिभागी किसी ट्रैक को पसंदीदा बनाना चाहता है, तो वे ट्रैक शीर्षक के दाईं ओर "
-"स्थित :icon:`fa-bell-o` :guilabel:`(empty bell)` आइकॉन पर क्लिक कर सकते हैं। "
-"प्रतिभागी को पता चल जाएगा कि ट्रैक पसंदीदा बना दिया गया है जब वे देखेंगे कि आइकॉन "
-":icon:`fa-bell` :guilabel:`(filled bell)` आइकॉन में बदल गया है।"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:88
-msgid ""
-"Favoriting a track this way places it on the list of :guilabel:`Favorites`, "
-"which is accessible from the default drop-down filter menu, located at the "
-"top of the :guilabel:`Talks` page."
-msgstr ""
-"इस तरह से ट्रैक को पसंदीदा बनाने से यह :guilabel:`Favorites` की सूची में आ जाता है, जो "
-":guilabel:`Talks` पेज के शीर्ष पर स्थित डिफ़ॉल्ट ड्रॉप-डाउन फ़िल्टर मेन्यू से एक्सेस किया "
-"जा सकता है।"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:92
-msgid "Talk Proposals page"
-msgstr "Talk Proposals पेज"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
-msgid ""
-"The :guilabel:`Talk Proposals` link takes attendees to a page on the event "
-"website, wherein they can formerly submit a proposal for a talk "
-"(:dfn:`track`) for the event, via a custom online form."
-msgstr ""
-":guilabel:`Talk Proposals` लिंक प्रतिभागियों को इवेंट वेबसाइट पर एक पेज पर ले जाता "
-"है, जहाँ वे कस्टम ऑनलाइन फ़ॉर्म के जरिए इवेंट के लिए टॉक (:dfn:`track`) के लिए औपचारिक "
-"रूप से प्रस्ताव सबमिट कर सकते हैं।"
+"डिफ़ॉल्ट रूप से, *Talk Proposals* पेज Odoo द्वारा ऑटोमैटिकली जेनरेट किया जाता है। अगर "
+"जरूरत हो, तो इंटरनल उपयोगकर्ता प्रपोज़ल फ़ॉर्म सहित पेज के किसी भी हिस्से को "
+":doc:`बदलाव <../../../websites/website/web_design/elements>` कर सकते हैं।"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5647,96 +5699,81 @@ msgid ""
 msgstr ""
 "Odoo Events ऐप्लिकेशन के साथ बनाई गई इवेंट वेबसाइट पर Talk Proposals पेज।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:127
 msgid ""
-"In addition to the form, an introduction to the page, along with any other "
-"pertinent information related to the types of talks the event will feature "
-"can be added, if needed."
+"To submit their proposal, visitors fill out the form, then click "
+"the :guilabel:`Submit Proposal` button."
 msgstr ""
-"फ़ॉर्म के अलावा, पेज का परिचय और इवेंट में शामिल होने वाले टॉक के प्रकारों से संबंधित कोई "
-"अन्य प्रासंगिक जानकारी जोड़ी जा सकती है, यदि आवश्यक हो।"
+"अपना प्रपोज़ल सबमिट करने के लिए, विज़िटर्स फ़ॉर्म भरते हैं, फिर :guilabel:`प्रपोज़ल सबमिट "
+"करें` बटन को क्लिक करते हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:130
 msgid ""
-"The talk proposal form can be modified in a number of different ways, via "
-"the web builder tools, accessible by clicking :guilabel:`Edit` while on the "
-"specific page."
+"Doing so creates a new track form in the database. Internal users can access "
+"it by navigating to the **Events** app, clicking the relevant event, and "
+"selecting the :icon:`fa-microphone` :guilabel:`Tracks` smart button. The "
+"newly-proposed talk now appears as a new track in the :guilabel:`Proposal` "
+"stage."
 msgstr ""
-"टॉक प्रस्ताव फ़ॉर्म को वेब बिल्डर टूल के जरिए कई तरीकों से बदला जा सकता है, जो विशिष्ट "
-"पेज पर :guilabel:`Edit` पर क्लिक करके एक्सेस किया जा सकता है।"
+"ऐसा करने से डेटाबेस में एक नया ट्रैक फ़ॉर्म बनता है। इंटरनल उपयोगकर्ता **इवेंट** ऐप्लिकेशन पर "
+"जाकर, संबंधित इवेंट को क्लिक करके, और :icon:`fa-microphone` :guilabel:`ट्रैक करें` "
+"स्मार्ट बटन को सेलेक्ट करके इसे ऐक्सेस कर सकते हैं। नया प्रपोज़ किया गया टॉक अब "
+":guilabel:`प्रपोज़ल` स्टेज में एक नए ट्रैक के रूप में दिखाई देता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:107
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:135
 msgid ""
-"Then, proceed to edit any of the default fields, or add new forms with "
-"the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
-"section of the web builder tools sidebar)."
+"At this point, an internal user can review the proposed talk and accept or "
+"deny the proposal by moving the track to the appropriate stage in the "
+"pipeline."
 msgstr ""
-"फिर, किसी भी डिफ़ॉल्ट फ़ील्ड में बदलाव करें या वेब बिल्डर टूल साइडबार के "
-":guilabel:`Blocks` सेक्शन में स्थित :guilabel:`Form` बिल्डिंग ब्लॉक के साथ नए फ़ॉर्म जोड़ें"
-"।"
+"इस पॉइंट पर, एक इंटरनल उपयोगकर्ता प्रपोज़ किए गए टॉक की समीक्षा कर सकता है और ट्रैक "
+"को पाइपलाइन में उपयुक्त स्टेज में ले जाकर प्रपोज़ल को स्वीकार या अस्वीकार कर सकता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:110
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
 msgid ""
-"Once all the necessary information is entered into the form, the attendees "
-"just need to click the :guilabel:`Submit Proposal` button."
+"If accepted, the internal user can publish the track on the event website by "
+"clicking the :guilabel:`Go to Website` smart button and toggling "
+"the :guilabel:`Unpublished` switch at the top to :guilabel:`Published`."
 msgstr ""
-"एक बार फ़ॉर्म में सभी आवश्यक जानकारी दर्ज हो जाने पर, प्रतिभागियों को बस "
-":guilabel:`Submit Proposal` बटन पर क्लिक करना है।"
+"अगर स्वीकार किया जाता है, तो इंटरनल उपयोगकर्ता :guilabel:`वेबसाइट पर जाएं` स्मार्ट "
+"बटन को क्लिक करके और शीर्ष पर :guilabel:`अनपब्लिश` स्विच को :guilabel:`पब्लिश` में "
+"टॉगल करके ट्रैक को इवेंट वेबसाइट पर पब्लिश कर सकता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:113
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:142
+msgid "Visitors can then see the track on the *Talks* page."
+msgstr "फिर विज़िटर्स *Talks* पेज पर ट्रैक देख सकते हैं।"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:147
+msgid "View agenda"
+msgstr "एजेंडा देखें"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:149
 msgid ""
-"Then, that talk, and all the information entered on the form, can be "
-"accessed on the :guilabel:`Event Tracks` page for that specific event in "
-"the :guilabel:`Proposal` stage, which is accessible via "
-"the :guilabel:`Tracks` smart button on the event form."
+"The *Agenda* page displays an event calendar, showing each talk's specified "
+"location by column and its scheduled time by row."
 msgstr ""
-"फिर, वह टॉक और फ़ॉर्म में दर्ज की गई सभी जानकारी उस विशिष्ट इवेंट के लिए "
-":guilabel:`Event Tracks` पेज पर :guilabel:`Proposal` स्टेज में एक्सेस की जा सकती है, "
-"जो इवेंट फ़ॉर्म पर :guilabel:`Tracks` स्मार्ट बटन के जरिए एक्सेस किया जा सकता है।"
+"*Agenda* पेज एक इवेंट कैलेंडर दिखाता है, जो प्रत्येक टॉक की निर्दिष्ट जगह को कॉलम से और "
+"उसके निर्धारित समय को रो से दिखाता है।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:152
 msgid ""
-"At that point, an internal user can review the proposed talk, and choose to "
-"accept or deny the proposal."
+"Visitors can click any track on the calendar to open the track's specific "
+"page on the website."
 msgstr ""
-"उस पॉइंट पर, एक इंटरनल उपयोगकर्ता प्रस्तावित टॉक की समीक्षा कर सकता है और प्रस्ताव को "
-"स्वीकार या अस्वीकार करने का विकल्प चुन सकता है।"
+"विज़िटर्स कैलेंडर पर किसी भी ट्रैक को क्लिक करके वेबसाइट पर ट्रैक के विशिष्ट पेज को खोल सकते "
+"हैं।"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:155
 msgid ""
-"If accepted, the internal user can then move the track to the next "
-"appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
-"page for the event. Then, they can open that track form, and click "
-"the :guilabel:`Go to Website` smart button to reveal that track's page on "
-"the event website."
+"A talk's location can be found on its track form. To find it, navigate to "
+"**Events** app, click on the relevant event, click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button, and select the desired track. "
+"In the track form, view or modify the :guilabel:`Location` field."
 msgstr ""
-"अगर स्वीकार किया जाता है, तो इंटरनल उपयोगकर्ता इवेंट के लिए :guilabel:`Event "
-"Tracks` पेज पर कानबान पाइपलाइन में ट्रैक को अगले उपयुक्त स्टेज में मूव कर सकता है। फिर, वे "
-"उस ट्रैक फ़ॉर्म को खोल सकते हैं और इवेंट वेबसाइट पर उस ट्रैक का पेज दिखाने के लिए "
-":guilabel:`Go to Website` स्मार्ट बटन पर क्लिक कर सकते हैं।"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:125
-msgid ""
-"From there, they can toggle the :guilabel:`Unpublished` switch in the header "
-"to :guilabel:`Published`, which allows all event attendees to view and "
-"access the talk."
-msgstr ""
-"वहां से, वे हेडर में :guilabel:`Unpublished` स्विच को :guilabel:`Published` पर टॉगल "
-"कर सकते हैं, जो सभी इवेंट प्रतिभागियों को टॉक देखने और ऐक्सेस करने की अनुमति देता है।"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:129
-msgid "Agenda page"
-msgstr "एजेंडा पेज"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:131
-msgid ""
-"The :guilabel:`Agenda` link takes attendees to a page on the event website, "
-"showcasing an event calendar, depicting when (and where) events are taking "
-"place for that specific event."
-msgstr ""
-":guilabel:`Agenda` लिंक प्रतिभागियों को इवेंट वेबसाइट पर एक पेज पर ले जाता है, जो एक "
-"इवेंट कैलेंडर प्रदर्शित करता है, जिसमें दिखाया गया है कि उस विशिष्ट इवेंट के लिए इवेंट कब (और "
-"कहां) हो रहे हैं।"
+"टॉक की जगह उसके ट्रैक फ़ॉर्म पर मिल सकती है। इसे खोजने के लिए, **इवेंट** ऐप्लिकेशन पर "
+"जाएं, संबंधित इवेंट पर क्लिक करें, :icon:`fa-microphone` :guilabel:`ट्रैक करें` स्मार्ट "
+"बटन को क्लिक करें, और मनचाहा ट्रैक सेलेक्ट करें। ट्रैक फ़ॉर्म में, :guilabel:`जगह` फ़ीलड को "
+"देखें या बदलाव करें।"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5744,14 +5781,6 @@ msgid ""
 "application."
 msgstr ""
 "Odoo इवेंट्स ऐप्लिकेशन के साथ बनाई गई इवेंट वेबसाइट पर इवेंट एजेंडा पेज।"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
-msgid ""
-"Clicking any track on the calendar takes the attendee to that specific "
-"track's detail page on the event website."
-msgstr ""
-"कैलेंडर पर किसी भी ट्रैक पर क्लिक करने से प्रतिभागी इवेंट वेबसाइट पर उस विशिष्ट ट्रैक के "
-"विवरण पेज पर पहुंच जाता है।"
 
 #: ../../content/applications/marketing/events/event_reporting.rst:6
 #: ../../content/applications/marketing/marketing_automation.rst:188
@@ -6204,28 +6233,33 @@ msgid ""
 "related data and analytics. These reports can either be focused on "
 "*Attendees* or *Revenues*."
 msgstr ""
+"Odoo **इवेंट** ऐप्लिकेशन इवेंट से संबंधित डेटा और एनालिटिक्स के आधार पर कस्टम रिपोर्ट "
+"बनाता है। ये रिपोर्ट या तो *प्रतिभागी* या *रेवेन्यू* पर केंद्रित हो सकती हैं।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:8
 msgid ""
 "The following documentation focuses on the reporting options related to "
 "event *Revenues*."
 msgstr ""
+"निम्नलिखित दस्तावेज़ इवेंट *रेवेन्यू* से संबंधित रिपोर्टिंग विकल्पों पर केंद्रित है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:11
 msgid "Revenues reporting page"
-msgstr ""
+msgstr "रेवेन्यू रिपोर्टिंग पेज"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:13
 msgid ""
 "To access the *Attendees* reporting page, navigate to :menuselection:`Events "
 "app --> Reporting --> Revenues`."
 msgstr ""
+"*प्रतिभागी* रिपोर्टिंग पेज तक पहुँचने के लिए, :menuselection:`इवेंट ऐप्लिकेशन --> "
+"रिपोर्टिंग --> रेवेन्यू` पर जाएँ।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
 msgid ""
 "The default view of the Revenues reporting page in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo इवेंट ऐप्लिकेशन में रेवेन्यू रिपोर्टिंग पेज का डिफ़ॉल्ट व्यू।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:20
 msgid ""
@@ -6235,12 +6269,18 @@ msgid ""
 "free tickets` and :guilabel:`Event Start Date: (current year)`, are present "
 "in the search bar."
 msgstr ""
+"डिफ़ॉल्ट रूप से, :guilabel:`रेवेन्यू` रिपोर्टिंग पेज एक ग्राफ़ के रूप में दिखाई देता है "
+"(:icon:`fa-line-chart` :guilabel:`(लाइन चार्ट)` के साथ :icon:`fa-database` "
+":guilabel:`(स्टैक्ड)` डेटा)। डिफ़ॉल्ट फ़िल्टर, :guilabel:`गैर-मुफ़्त टिकट` और "
+":guilabel:`इवेंट शुरू होने की तारीख: (वर्तमान साल)`, खोज बार में मौजूद हैं।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:26
 msgid ""
 "To learn more about the various graph views (and graph view options), refer "
 "to the :ref:`Graph views <reporting/using-graph>` documentation."
 msgstr ""
+"विभिन्न ग्राफ़ व्यू (और ग्राफ़ व्यू विकल्पों) के बारे में ज़्यादा जानने के लिए, :ref:`ग्राफ़ व्यू "
+"<reporting/using-graph>` दस्तावेज़ देखें।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:29
 msgid ""
@@ -6248,6 +6288,9 @@ msgid ""
 "table <reporting/views/pivot>`, by clicking the :icon:`oi-view-"
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
+":guilabel:`रेवेन्यू` रिपोर्टिंग पेज को :ref:`पिवट टेबल <reporting/views/pivot>` के रूप "
+"में भी देखा जा सकता है, ऊपरी-दाएँ कोने में :icon:`oi-view-pivot` :guilabel:`(पिवट)` "
+"आइकॉन पर क्लिक करके।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:34
 msgid "Measures"
@@ -6258,6 +6301,8 @@ msgid ""
 "Choosing specific :ref:`Measures <reporting/choosing-measures>` is a quick "
 "way to customize reporting pages."
 msgstr ""
+"विशिष्ट :ref:`मापों <reporting/choosing-measures>` को चुनना रिपोर्टिंग पेज को "
+"कस्टमाइज़ करने का एक त्वरित तरीका है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:39
 msgid ""
@@ -6265,6 +6310,8 @@ msgid ""
 "reporting page are as follows: :guilabel:`Revenues`, :guilabel:`Untaxed "
 "Revenues`, and :guilabel:`Count`."
 msgstr ""
+"चुने गए व्यू के बावजूद, :guilabel:`रेवेन्यू` रिपोर्टिंग पेज पर माप इस प्रकार हैं: "
+":guilabel:`रेवेन्यू`, :guilabel:`अनटैक्स्ड रेवेन्यू`, और :guilabel:`काउंट`।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:43
 msgid ""
@@ -6272,37 +6319,43 @@ msgid ""
 "the :guilabel:`Revenues` option is set in the :guilabel:`Measures` drop-down "
 "menu."
 msgstr ""
+":guilabel:`रेवेन्यू` रिपोर्टिंग पेज के डिफ़ॉल्ट ग्राफ़ व्यू में, :guilabel:`माप` ड्रॉप-डाउन "
+"मेन्यू में सिर्फ़ :guilabel:`रेवेन्यू` विकल्प सेट है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:46
 msgid ""
 "In graph view, only one of the :guilabel:`Measures` can be selected at a "
 "time."
 msgstr ""
+"ग्राफ़ व्यू में, :guilabel:`माप` में से एक समय में सिर्फ़ एक को चुना जा सकता है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:48
 msgid ""
 "When the pivot option is selected, all :guilabel:`Measures` options are "
 "selected, by default."
 msgstr ""
+"जब पिवट विकल्प चुना जाता है, तो डिफ़ॉल्ट रूप से सभी :guilabel:`माप` विकल्प चुने जाते हैं।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:50
 msgid ":guilabel:`Revenues`: shows the revenues generated from events."
-msgstr ""
+msgstr ":guilabel:`रेवेन्यू`: इवेंट से जेनरेट हुए रेवेन्यू को दिखाता है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:51
 msgid ""
 ":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
 "events."
 msgstr ""
+":guilabel:`अनटैक्स्ड रेवेन्यू`: इवेंट से जेनरेट हुए अनटैक्स्ड रेवेन्यू को दिखाता है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:52
 msgid ""
 ":guilabel:`Count`: shows the total amount of registrants who attended events."
 msgstr ""
+":guilabel:`काउंट`: इवेंट में अटेंड करने वाले कुल रजिस्ट्रेंट की संख्या दिखाता है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:55
 msgid "Filters and grouping options"
-msgstr ""
+msgstr "फ़िल्टर और ग्रुपिंग ऑप्शन"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:57
 msgid ""
@@ -6310,6 +6363,8 @@ msgid ""
 "reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
 "right of the search bar."
 msgstr ""
+"कस्टम रिपोर्ट बनाने के लिए फ़िल्टर और ग्रुपिंग ऑप्शन का ड्रॉप-डाउन मेन्यू देखने के लिए, सर्च "
+"बार के दाईं ओर :icon:`fa-caret-down` :guilabel:`(डाउन ऐरो)` पर क्लिक करें।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:60
 msgid ""
@@ -6317,6 +6372,9 @@ msgid ""
 "columns: :ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
 "<search/group>`, and :ref:`Favorites <search/favorites>`."
 msgstr ""
+"ऐसा करने से कॉलम में व्यवस्थित ऑप्शन का ड्रॉप-डाउन मेगा मेन्यू खुलता है: :ref:`फ़िल्टर "
+"<search/preconfigured-filters>`, :ref:`इन्होंने ग्रुप किया <search/group>`, और "
+":ref:`पसंदीदा <search/favorites>`।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:65
 msgid ""
@@ -6325,12 +6383,17 @@ msgid ""
 "a :guilabel:`Comparison` column appears, with comparison options for the "
 "corresponding time-related filter option selected."
 msgstr ""
+"अगर :guilabel:`फ़िल्टर` कॉलम से कोई समय से संबंधित ऑप्शन सेलेक्ट किया गया है (जैसे डिफ़ॉल्ट "
+":guilabel:`इवेंट शुरू होने की तारीख: (साल)` फ़िल्टर), तो एक :guilabel:`तुलना` कॉलम "
+"दिखाई देता है, जिसमें सेलेक्ट किए गए संबंधित समय से संबंधित फ़िल्टर ऑप्शन के लिए तुलना ऑप्शन "
+"होते हैं।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:69
 msgid ""
 "Only **one** selection can be made from the :guilabel:`Comparison` column at "
 "a time."
 msgstr ""
+":guilabel:`तुलना` कॉलम से एक बार में सिर्फ़ **एक** सेलेक्शन की जा सकती है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:72
 msgid ":doc:`../../../essentials/search`"
@@ -6342,33 +6405,37 @@ msgid ""
 "various event-related options that can be utilized to create custom reports, "
 "based on a number of specific criteria."
 msgstr ""
+"ड्रॉप-डाउन मेगा मेन्यू के :guilabel:`फ़िल्टर` कॉलम में, कई इवेंट से संबंधित ऑप्शन हैं जिनका "
+"उपयोग कई विशिष्ट मानदंडों के आधार पर कस्टम रिपोर्ट बनाने के लिए किया जा सकता है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:80
 msgid ""
 "Multiple options in the :guilabel:`Filters` column can be selected at once."
-msgstr ""
+msgstr ":guilabel:`फ़िल्टर` कॉलम में एक साथ कई ऑप्शन सेलेक्ट किए जा सकते हैं।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:84
 msgid ""
 ":guilabel:`Non-free tickets`: event tickets/registrations that were **not** "
 "free."
-msgstr ""
+msgstr ":guilabel:`नॉन-फ्री टिकट`: इवेंट टिकट/रजिस्ट्रेशन जो फ्री **नहीं** थे।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:85
 msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
-msgstr ""
+msgstr ":guilabel:`फ्री`: इवेंट टिकट/रजिस्ट्रेशन जो फ्री *थे*।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:86
 msgid ""
 ":guilabel:`Pending payment`: event tickets/registrations that were "
 "purchased, but still have payment pending."
 msgstr ""
+":guilabel:`पेंडिंग पेमेंट`: इवेंट टिकट/रजिस्ट्रेशन जो खरीदे गए थे, लेकिन अभी भी पेमेंट पेंडिंग है।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:88
 msgid ""
 ":guilabel:`Sold`: event tickets/registrations that have been successfully "
 "sold (and paid for)."
 msgstr ""
+":guilabel:`सोल्ड`: इवेंट टिकट/रजिस्ट्रेशन जो सफलतापूर्वक बेचे गए हैं (और पेमेंट हो गया है)।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:89
 msgid ""
@@ -6377,12 +6444,18 @@ msgid ""
 "year options. Select any number of these options to view a specific periods "
 "of time and see how many registrations happened during that time."
 msgstr ""
+":guilabel:`रजिस्ट्रेशन की तारीख`: महीने, तिमाही और साल के ऑप्शन की सूची देखने के लिए "
+":icon:`fa-caret-down` :guilabel:`(डाउन ऐरो)` आइकॉन पर क्लिक करें। समय की विशिष्ट "
+"अवधि देखने और यह देखने के लिए कि उस समय के दौरान कितने रजिस्ट्रेशन हुए, इनमें से कोई भी "
+"ऑप्शन सेलेक्ट करें।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:92
 msgid ""
 ":guilabel:`Upcoming/Running`: include revenue-related information for events "
 "that are either currently running or are going to happen in the future."
 msgstr ""
+":guilabel:`आने वाले/चल रहे`: उन इवेंट के लिए रेवेन्यू से संबंधित जानकारी शामिल करें जो या "
+"तो वर्तमान में चल रहे हैं या भविष्य में होने वाले हैं।"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:94
 msgid ""
@@ -9265,7 +9338,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/registration_desk.rst:9
 msgid "Registration Desk page"
-msgstr ""
+msgstr "रजिस्ट्रेशन डेस्क पेज"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:11
 msgid ""
@@ -9278,7 +9351,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/registration_desk.rst:None
 msgid "The Registration Desk page in the Odoo Events application."
-msgstr ""
+msgstr "Odoo इवेंट ऐप्लिकेशन में रजिस्ट्रेशन डेस्क पेज।"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:17
 msgid ""
@@ -9290,7 +9363,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/registration_desk.rst:21
 msgid "Scan a badge"
-msgstr ""
+msgstr "बैज स्कैन करें"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:23
 msgid ""
@@ -9306,6 +9379,8 @@ msgid ""
 "Odoo **must** be granted access to the camera being used for "
 "the :guilabel:`Scan a badge` option to work."
 msgstr ""
+":guilabel:`बैज स्कैन करें` विकल्प को काम करने के लिए Odoo को उपयोग किए जा रहे कैमरे का "
+"ऐक्सेस **अवश्य** दिया जाना चाहिए।"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:30
 msgid ""
@@ -9323,7 +9398,7 @@ msgstr ""
 msgid ""
 "The Barcode Scanner window of the Registration Desk in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo इवेंट ऐप्लिकेशन में रजिस्ट्रेशन डेस्क की बारकोड स्कैनर विंडो।"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:37
 msgid ""
@@ -9388,7 +9463,7 @@ msgstr ""
 msgid ""
 "The Attendees page, via the Registration Desk, located in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo इवेंट ऐप्लिकेशन में रजिस्ट्रेशन डेस्क के ज़रिए प्रतिभागी पेज।"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:62
 msgid ""
@@ -9438,7 +9513,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/registration_desk.rst:81
 msgid ":doc:`../../essentials/search`"
-msgstr ""
+msgstr ":doc:`../../essentials/search`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:5
 msgid "Marketing Automation"
@@ -13236,11 +13311,11 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/mailing_lists_blacklists.rst:None
 msgid "View of how to import a blacklist in Odoo SMS Marketing."
-msgstr ""
+msgstr "Odoo एसएमएस मार्केटिंग में ब्लैकलिस्ट को इंपोर्ट करने का व्यू।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:3
 msgid "SMS campaign settings"
-msgstr ""
+msgstr "एसएमएस कैंपेन सेटिंग"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:5
 msgid ""
@@ -13249,16 +13324,21 @@ msgid ""
 "way to remind people about upcoming events, issued invoices, and so much "
 "more."
 msgstr ""
+"Odoo *एसएमएस मार्केटिंग* के साथ :abbr:`SMS (Short Message Service)` कैंपेन का "
+"इस्तेमाल करना सिर्फ़ एक प्रभावी विज्ञापन रणनीति नहीं है, बल्कि यह आने वाले इवेंट, जारी "
+"किए गए इनवॉइस और बहुत कुछ के बारे में लोगों को याद दिलाने का भी एक बेहतरीन तरीका है।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:9
 msgid ""
 "But, before :abbr:`SMS (Short Message Service)` campaigns can be created "
 "(and sent), a few specific settings and features must be enabled first."
 msgstr ""
+"लेकिन, :abbr:`SMS (Short Message Service)` कैंपेन बनाने (और भेजने) से पहले, कुछ विशिष्ट "
+"सेटिंग और फ़ीचर को पहले सक्षम किया जाना चाहिए।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:13
 msgid "SMS campaign setting"
-msgstr ""
+msgstr "एसएमएस कैंपेन सेटिंग"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:15
 msgid ""
@@ -13267,16 +13347,22 @@ msgid ""
 "to :menuselection:`Email Marketing --> Configuration --> Settings`, and then "
 "enable :guilabel:`Mailing Campaigns` and :guilabel:`Save` the changes."
 msgstr ""
+"Odoo में :abbr:`SMS (Short Message Service)` कैंपेन को सक्षम करने के लिए, सुनिश्चित करें "
+"कि *मेलिंग कैंपेन* फ़ीचर :menuselection:`ईमेल मार्केटिंग --> कॉन्फ़िगरेशन --> सेटिंग` पर "
+"जाकर सक्रिय किया गया है, और फिर :guilabel:`मेलिंग कैंपेन` को सक्षम करें और परिवर्तनों को "
+":guilabel:`सेव करें`।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:None
 msgid "View of the mailing campaigns setting in Odoo."
-msgstr ""
+msgstr "Odoo में मेलिंग कैंपेन सेटिंग का व्यू।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:24
 msgid ""
 "Activating the *Mailing Campaigns* feature in the *General Settings* also "
 "enables the *A/B Test* feature."
 msgstr ""
+"*जनरल सेटिंग* में *मेलिंग कैंपेन* फ़ीचर को सक्रिय करने से *A/B टेस्ट* फ़ीचर भी सक्षम हो जाता है"
+"।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:27
 msgid ""
@@ -13285,10 +13371,14 @@ msgid ""
 "available for use. Similarly, the :guilabel:`A/B Test` tab is now also "
 "available on every :abbr:`SMS (Short Message Service)` template form."
 msgstr ""
+"एक बार सेटिंग सक्षम हो जाने के बाद, :menuselection:`एसएमएस मार्केटिंग` ऐप्लिकेशन पर "
+"वापस जाएं, और ध्यान दें कि :guilabel:`कैंपेन` हेडर मेन्यू अब इस्तेमाल के लिए उपलब्ध है। इसी "
+"तरह, :guilabel:`A/B टेस्ट` टैब अब हर :abbr:`SMS (Short Message Service)` टेम्प्लेट "
+"फ़ॉर्म पर भी उपलब्ध है।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:32
 msgid "A/B tests"
-msgstr ""
+msgstr "A/B टेस्ट"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:34
 msgid ""
@@ -13297,6 +13387,9 @@ msgid ""
 "order to compare which version is the most successful in producing "
 "engagement and/or conversion outcomes."
 msgstr ""
+":guilabel:`A/B टेस्ट` किसी भी :abbr:`SMS (Short Message Service)` मेलिंग को एक "
+"ही कैंपेन के भीतर अन्य वर्शन के साथ टेस्ट करने की अनुमति देता है, ताकि यह तुलना की जा सके "
+"कि कौन सा वर्शन एंगेजमेंट और/या कन्वर्ज़न परिणाम उत्पन्न करने में सबसे सफल है।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:38
 msgid ""
@@ -13304,20 +13397,24 @@ msgid ""
 "the :guilabel:`A/B Tests` tab, initially, there's only a single checkbox "
 "labeled: :guilabel:`Allow A/B Testing.`"
 msgstr ""
+":abbr:`SMS (Short Message Service)` टेम्प्लेट फ़ॉर्म पर, :guilabel:`A/B टेस्ट` टैब के "
+"अंतर्गत, शुरुआत में, केवल एक चेकबॉक्स है जिसका लेबल है: :guilabel:`A/B टेस्टिंग की अनुमति दें।`"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:41
 msgid "When clicked, a series of other options appear."
-msgstr ""
+msgstr "क्लिक करने पर, अन्य विकल्पों की एक श्रृंखला दिखाई देती है।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:None
 msgid "The A/B Test tab is located on an Odoo SMS Marketing app campaign form."
 msgstr ""
+"A/B टेस्ट टैब Odoo एसएमएस मार्केटिंग ऐप्लिकेशन कैंपेन फ़ॉर्म पर स्थित है।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:47
 msgid ""
 "In the first field, enter a desired percentage of recipients to conduct the "
 "A/B Test on."
 msgstr ""
+"पहले फ़ील्ड में, A/B टेस्ट करने के लिए प्राप्तकर्ताओं का एक वांछित प्रतिशत दर्ज करें।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:49
 msgid ""
@@ -13325,6 +13422,9 @@ msgid ""
 "is what Odoo will use to determine the successful result of an A/B Test. In "
 "other words, this tells Odoo how to pick a winning A/B test."
 msgstr ""
+"प्रतिशत फ़ील्ड के नीचे :guilabel:`विनर सिलेक्शन` फ़ील्ड है। यह वह है जिसका इस्तेमाल Odoo "
+"A/B टेस्ट के सफल परिणाम को निर्धारित करने के लिए करेगा। दूसरे शब्दों में, यह Odoo को "
+"बताता है कि विजेता A/B टेस्ट कैसे चुनें।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:53
 msgid ""
@@ -13332,6 +13432,8 @@ msgid ""
 "Click Rate`, :guilabel:`Leads`, :guilabel:`Quotations`, "
 "or :guilabel:`Revenues`."
 msgstr ""
+"निम्नलिखित सेक्शन उपलब्ध हैं: :guilabel:`मैन्युअल`, :guilabel:`हाईएस्ट क्लिक रेट`, "
+":guilabel:`लीड्स`, :guilabel:`कोटेशन`, या :guilabel:`रेवेन्यू`।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:56
 msgid ""
@@ -13340,18 +13442,26 @@ msgid ""
 "variation. Then, Odoo sends that winning mailing variation to the remaining "
 "recipients, who weren't involved in the test, at that prior date and time."
 msgstr ""
+"अंत में, :guilabel:`फ़ाइनल ऑन भेजें` फ़ील्ड सूचीबद्ध है। यह उस तारीख-समय का प्रतिनिधित्व "
+"करता है जिसे Odoo विजेता मेलिंग वेरिएशन निर्धारित करने के लिए डेडलाइन के रूप में इस्तेमाल "
+"करता है। फिर, Odoo उस विजेता मेलिंग वेरिएशन को शेष प्राप्तकर्ताओं को भेजता है, जो टेस्ट में "
+"शामिल नहीं थे, उस पूर्व तारीख और समय पर।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:62
 msgid ""
 "Quickly create different versions of the mailing to add to the A/B Test by "
 "clicking the :guilabel:`Create an Alternate Version` button."
 msgstr ""
+"A/B टेस्ट में जोड़ने के लिए मेलिंग के विभिन्न वर्शन जल्दी से बनाने के लिए :guilabel:`एक "
+"वैकल्पिक वर्शन बनाएं` बटन पर क्लिक करें।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:66
 msgid ""
 "Remember, the winning mailing variation is based on the criteria selected in "
 "the :guilabel:`Winner Selection` field."
 msgstr ""
+"याद रखें, विजेता मेलिंग वेरिएशन :guilabel:`विनर सिलेक्शन` फ़ील्ड में चुने गए मानदंड पर "
+"आधारित है।"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:70
 #: ../../content/applications/marketing/social_marketing/social_campaigns.rst:15
@@ -16858,12 +16968,16 @@ msgid ""
 "The 'All surveys' drop-down menu opened on the 'See results' page of the "
 "Odoo Surveys app."
 msgstr ""
+"Odoo Surveys ऐप्लिकेशन के 'See results' पेज पर 'All surveys' ड्रॉप-डाउन मेन्यू खोला "
+"गया है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:64
 msgid ""
 "With that drop-down menu open, the number corresponding to each filter "
 "option appears to the right of each option."
 msgstr ""
+"उस ड्रॉप-डाउन मेन्यू के खुले होने पर, हर फ़िल्टर ऑप्शन से संबंधित नंबर हर ऑप्शन के दाईं ओर "
+"दिखाई देता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:67
 msgid ""
@@ -16871,6 +16985,8 @@ msgid ""
 "menu of filter options that can be used to further customize the results "
 "showcased on this page."
 msgstr ""
+"उस ड्रॉप-डाउन मेन्यू के फ़िल्टर ऑप्शन के दाईं ओर, फ़िल्टर ऑप्शन का एक और ड्रॉप-डाउन मेन्यू है "
+"जिसका उपयोग इस पेज पर दिखाए गए रिजल्ट को और कस्टमाइज़ करने के लिए किया जा सकता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:70
 msgid ""
@@ -16878,6 +16994,9 @@ msgid ""
 "default. This option shows the results and responses from all participants "
 "who have passed or failed this particular survey."
 msgstr ""
+"वह ड्रॉप-डाउन मेन्यू डिफ़ॉल्ट रूप से :guilabel:`Passed and Failed` ऑप्शन पर सेट होता है"
+"। यह ऑप्शन उन सभी प्रतिभागियों के रिजल्ट और रिस्पॉन्स दिखाता है जो इस विशेष सर्वे में पास "
+"या फ़ेल हुए हैं।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:75
 msgid ""
@@ -16885,6 +17004,9 @@ msgid ""
 "being analyzed has a *Scoring* option configured, or if the *Is a "
 "Certification* feature has been enabled."
 msgstr ""
+"फ़िल्टर ऑप्शन का यह दूसरा ड्रॉप-डाउन मेन्यू **सिर्फ़** तब दिखाई देता है अगर विश्लेषण किए "
+"जा रहे सर्वे में *Scoring* ऑप्शन कॉन्फ़िगर किया गया है, या *Is a Certification* फ़ीचर "
+"सक्षम किया गया है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:78
 msgid ""
@@ -16892,12 +17014,15 @@ msgid ""
 "additional options appear: :guilabel:`Passed only` and :guilabel:`Failed "
 "only`."
 msgstr ""
+"जब फ़िल्टर ऑप्शन के उस दूसरे ड्रॉप-डाउन मेन्यू को खोलने के लिए क्लिक किया जाता है, तो दो "
+"अतिरिक्त ऑप्शन दिखाई देते हैं: :guilabel:`Passed only` और :guilabel:`Failed only`।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The 'Passed and Failed' drop-down menu on the 'See results' page of the Odoo "
 "Surveys app."
 msgstr ""
+"Odoo Surveys ऐप्लिकेशन के 'See results' पेज पर 'Passed and Failed' ड्रॉप-डाउन मेन्यू।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:85
 msgid ""
@@ -16905,40 +17030,51 @@ msgid ""
 "participants who have passed the survey, or who have failed the survey, "
 "respectively."
 msgstr ""
+"हर ऑप्शन नीचे दिए गए रिजल्ट को फ़िल्टर करेगा ताकि सिर्फ़ उन प्रतिभागियों के रिस्पॉन्स "
+"दिखाए जा सकें जो सर्वे में पास हुए हैं, या जो सर्वे में फ़ेल हुए हैं।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:88
 msgid ""
 "Directly beneath the survey title, there is a :guilabel:`Print` button. When "
 "clicked, the entire results page can be printed."
 msgstr ""
+"सर्वे टाइटल के ठीक नीचे, एक :guilabel:`Print` बटन है। जब इसे क्लिक किया जाता है, तो "
+"पूरे रिजल्ट पेज को प्रिंट किया जा सकता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:91
 msgid ""
 "The :guilabel:`Results Overview` section is below the survey title, filter "
 "option drop-down menus, and :guilabel:`Print` button."
 msgstr ""
+":guilabel:`Results Overview` सेक्शन सर्वे टाइटल, फ़िल्टर ऑप्शन ड्रॉप-डाउन मेन्यू और "
+":guilabel:`Print` बटन के नीचे है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The 'Results Overview' section on the 'See results' page in the Odoo Surveys "
 "application."
 msgstr ""
+"Odoo Surveys ऐप्लिकेशन में 'See results' पेज पर 'Results Overview' सेक्शन।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:98
 msgid ""
 "This section of the results page provides a summarized collection of useful "
 "survey-related data and metrics for quick analysis."
 msgstr ""
+"रिजल्ट पेज का यह सेक्शन त्वरित विश्लेषण के लिए उपयोगी सर्वे-संबंधित डेटा और मेट्रिक्स का "
+"सारांशित संग्रह प्रदान करता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:102
 msgid "Question analysis"
-msgstr ""
+msgstr "सवाल का विश्लेषण"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:104
 msgid ""
 "Directly beneath the :guilabel:`Results Overview` section is where the "
 "results and responses of the survey are found."
 msgstr ""
+":guilabel:`Results Overview` सेक्शन के ठीक नीचे वह जगह है जहाँ सर्वे के रिजल्ट और "
+"रिस्पॉन्स मिलते हैं।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:108
 msgid ""
@@ -16946,6 +17082,8 @@ msgid ""
 "their corresponding questions on the results page, as well, for added "
 "organization."
 msgstr ""
+"सर्वे के विभिन्न सेक्शन, अगर कोई थे, तो रिजल्ट पेज पर उनके संबंधित सवालों के शीर्ष पर दिखाई "
+"देते हैं, अतिरिक्त व्यवस्था के लिए।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:111
 msgid ""
@@ -16953,6 +17091,9 @@ msgid ""
 "depth breakdown, and visual representation, of how it was answered by "
 "participants, beneath the :guilabel:`Results Overview` section."
 msgstr ""
+"हर सवाल जो सर्वे का हिस्सा था, दिखाया गया है, साथ ही गहन विवरण और विजुअल "
+"प्रतिनिधित्व के साथ कि प्रतिभागियों द्वारा इसका उत्तर कैसे दिया गया, "
+":guilabel:`Results Overview` सेक्शन के नीचे।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:115
 msgid ""
@@ -16961,6 +17102,10 @@ msgid ""
 "visual and data-related results and responses. When clicked again, that "
 "question's visual and data-related results re-appear."
 msgstr ""
+"हर सवाल उसके संबंधित रिजल्ट के ऊपर प्रदर्शित होता है। सवाल के बाईं ओर एक :guilabel:`🐁️ "
+"(eye)` आइकॉन है। जब इसे क्लिक किया जाता है, तो Odoo विजुअल और डेटा-संबंधित रिजल्ट और "
+"रिस्पॉन्स को छुपा देता है। जब फिर से क्लिक किया जाता है, तो उस सवाल के विजुअल और डेटा-"
+"संबंधित रिजल्ट फिर से दिखाई देते हैं।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:119
 msgid ""
@@ -16968,12 +17113,14 @@ msgid ""
 "participants :guilabel:`Responded` and how many :guilabel:`Skipped` the "
 "question."
 msgstr ""
+"सवाल के सबसे दाईं ओर, यह देखने के लिए संकेतक हैं कि कितने प्रतिभागियों ने "
+":guilabel:`Responded` किया और कितनों ने सवाल को :guilabel:`Skipped` किया।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The Responded and Skipped indicators on the 'See results' page in Odoo "
 "Surveys."
-msgstr ""
+msgstr "Odoo Surveys में 'See results' पेज पर Responded और Skipped संकेतक।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:126
 msgid ""
@@ -16982,12 +17129,16 @@ msgid ""
 "for example, there is also an indicator to showcase how many users answered "
 "the question :guilabel:`Correct`."
 msgstr ""
+"अगर सवाल के लिए प्रतिभागी को अपना खुद का उत्तर दर्ज करना था, बिना किसी विकल्प को "
+"चुने, जैसे कि एक विशिष्ट नंबर या तारीख दर्ज करना, उदाहरण के लिए, तो यह दिखाने के लिए "
+"एक संकेतक भी है कि कितने उपयोगकर्ताओं ने सवाल का उत्तर :guilabel:`Correct` दिया।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Sample of a 'correct' indicator on the 'See results' page in the Odoo "
 "Surveys application."
 msgstr ""
+"Odoo सर्वे ऐप्लिकेशन में 'See results' पेज पर 'correct' इंडिकेटर का सैंपल।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:135
 msgid ""
@@ -16995,12 +17146,16 @@ msgid ""
 "nature, the :guilabel:`Correct` indicator still appears, although, it "
 "displays a `0`."
 msgstr ""
+"भले ही इस प्रकार के सवाल के लिए कोई कॉन्फ़िगर किया गया *सही* रिस्पॉन्स न हो, "
+":guilabel:`Correct` इंडिकेटर फिर भी दिखाई देता है, हालांकि, यह `0` डिस्प्ले करता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:138
 msgid ""
 "This would occur for opinion-based questions, like `When would be a good "
 "time to hold another sale?`"
 msgstr ""
+"यह राय-आधारित सवालों के लिए होगा, जैसे `दूसरी बिक्री आयोजित करने के लिए कब अच्छा समय "
+"होगा?`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:141
 msgid ""
@@ -17009,12 +17164,15 @@ msgid ""
 "correct answer is indicated by a :guilabel:`✔️ (checkmark)` icon next to the "
 "correct answer option, in the legend above the graph."
 msgstr ""
+"अगर एक मल्टिपल च्वाइस सवाल के लिए सिर्फ़ एक सही रिस्पॉन्स है, तो वे परिणाम और रिस्पॉन्स "
+":guilabel:`Pie Graph` द्वारा दर्शाए जाते हैं। सही उत्तर को ग्राफ़ के ऊपर लीजेंड में सही "
+"उत्तर विकल्प के बगल में :guilabel:`✔️ (checkmark)` आइकॉन द्वारा इंगित किया जाता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical pie graph results on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo सर्वे ऐप्लिकेशन में 'See results' पेज पर टिपिकल पाई ग्राफ़ परिणाम।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:149
 msgid ""
@@ -17022,18 +17180,22 @@ msgid ""
 "for a multiple choice question, those results and responses are represented "
 "by a :guilabel:`Bar Graph`."
 msgstr ""
+"अगर एक मल्टिपल च्वाइस सवाल के लिए कई सही उत्तर विकल्प हैं (या कोई सही उत्तर नहीं है), "
+"तो वे परिणाम और रिस्पॉन्स :guilabel:`Bar Graph` द्वारा दर्शाए जाते हैं।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical bar graph results on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo सर्वे ऐप्लिकेशन में 'See results' पेज पर टिपिकल बार ग्राफ़ परिणाम।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:156
 msgid ""
 "Each multiple choice question has a :guilabel:`Graph` tab and "
 "an :guilabel:`Data` tab. The graph-related tab is shown by default."
 msgstr ""
+"प्रत्येक मल्टिपल च्वाइस सवाल में एक :guilabel:`Graph` टैब और एक :guilabel:`Data` टैब "
+"होता है। ग्राफ़-संबंधित टैब डिफ़ॉल्ट रूप से दिखाया जाता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:159
 msgid ""
@@ -17041,11 +17203,14 @@ msgid ""
 "for the question. The :guilabel:`User Choice` (with percentages and votes) "
 "along with the :guilabel:`Score` of each option."
 msgstr ""
+":guilabel:`Data` टैब सवाल के लिए सभी प्रदान किए गए :guilabel:`Answer` विकल्प "
+"दिखाता है। प्रत्येक विकल्प का :guilabel:`User Choice` (प्रतिशत और वोट के साथ) और "
+":guilabel:`Score`।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical 'Data' tab on the 'See results' page in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo सर्वे ऐप्लिकेशन में 'See results' पेज पर टिपिकल 'Data' टैब।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:167
 msgid ""
@@ -17053,30 +17218,36 @@ msgid ""
 "participant to choose from, there is a :guilabel:`Most Common` tab and "
 "an :guilabel:`All Data` tab."
 msgstr ""
+"अन्य सवाल प्रकार, जिनमें प्रतिभागी के चुनने के लिए कोई उत्तर विकल्प नहीं थे, वहां एक "
+":guilabel:`Most Common` टैब और एक :guilabel:`All Data` टैब होता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:170
 msgid ""
 "The :guilabel:`Most Common` tab shows the :guilabel:`User Responses`, "
 "the :guilabel:`Occurrence`, and the :guilabel:`Score` (if applicable)."
 msgstr ""
+":guilabel:`Most Common` टैब :guilabel:`User Responses`, "
+":guilabel:`Occurrence`, और :guilabel:`Score` (यदि लागू हो) दिखाता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical 'Most Common' tab on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo सर्वे ऐप्लिकेशन में 'See results' पेज पर टिपिकल 'Most Common' टैब।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:177
 msgid ""
 "The :guilabel:`All Data` tab shows a list of all the submitted responses to "
 "that particular question."
 msgstr ""
+":guilabel:`All Data` टैब उस विशेष सवाल के लिए सभी सबमिट किए गए रिस्पॉन्स की सूची "
+"दिखाता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical 'All Data' tab on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo सर्वे ऐप्लिकेशन में 'See results' पेज पर टिपिकल 'All Data' टैब।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:184
 msgid ""
@@ -17084,12 +17255,16 @@ msgid ""
 "response, :guilabel:`Maximum`, :guilabel:`Minimum`, and :guilabel:`Average` "
 "indicators appear to the far-right of the results tabs."
 msgstr ""
+"अगर कोई सवाल प्रतिभागियों से रिस्पॉन्स के रूप में संख्यात्मक वैल्यू दर्ज करने के लिए कह रहा है, "
+"तो परिणाम टैब के बिल्कुल दाईं ओर :guilabel:`Maximum`, :guilabel:`Minimum`, और "
+":guilabel:`Average` इंडिकेटर दिखाई देते हैं।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The Maximum, Minimum, and Average indicators on the 'See results' page in "
 "Odoo Surveys."
 msgstr ""
+"Odoo सर्वे में 'See results' पेज पर Maximum, Minimum, और Average इंडिकेटर।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:192
 msgid ""
@@ -17097,12 +17272,15 @@ msgid ""
 "the :guilabel:`User Choice` column in a :guilabel:`Data` tab, or to the far-"
 "right of a :guilabel:`User Response` line in an :guilabel:`All Data` tab."
 msgstr ""
+"एक :guilabel:`filter` आइकॉन भी मौजूद होता है या तो :guilabel:`Data` टैब में "
+":guilabel:`User Choice` कॉलम के दाईं ओर, या :guilabel:`All Data` टैब में "
+":guilabel:`User Response` लाइन के बिल्कुल दाईं ओर।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical 'Filter' icon on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo सर्वे ऐप्लिकेशन में 'See results' पेज पर टिपिकल 'Filter' आइकॉन।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:200
 msgid ""
@@ -17111,11 +17289,15 @@ msgid ""
 "results of each question for participants who submitted that particular "
 "answer for that specific question."
 msgstr ""
+"जब उस :guilabel:`filter` आइकॉन पर क्लिक किया जाता है, तो Odoo उपयोगकर्ता को "
+"परिणाम पेज के शीर्ष पर वापस लाता है, उस चुने गए फ़िल्टर के साथ लागू करके, प्रत्येक सवाल के "
+"परिणाम उन प्रतिभागियों के लिए दिखाता है जिन्होंने उस विशिष्ट सवाल के लिए वह विशेष उत्तर "
+"सबमिट किया था।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The applied filter on the 'See results' page in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo सर्वे एप्लिकेशन में 'परिणाम देखें' पेज पर लागू फ़िल्टर।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:208
 msgid ""
@@ -17124,10 +17306,14 @@ msgid ""
 "all the results once again, click :guilabel:`Remove all filters` or click "
 "the :guilabel:`✖️ (X)` icon in the filter box at the top of the results page."
 msgstr ""
+"इसलिए, उन प्रतिभागियों के शेष परिणाम दिखाए जाते हैं जिन्होंने उस विशिष्ट सवाल का उसी "
+"तरह से जवाब दिया। उस फ़िल्टर को हटाने और सभी परिणामों को फिर से प्रकट करने के लिए, "
+":guilabel:`सभी फ़िल्टर हटाएं` पर क्लिक करें या परिणाम पेज के शीर्ष पर फ़िल्टर बॉक्स में "
+":guilabel:`⨉️ (X)` आइकॉन पर क्लिक करें।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:213
 msgid "Participations"
-msgstr ""
+msgstr "भागीदारी"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:215
 msgid ""
@@ -17136,11 +17322,14 @@ msgid ""
 "list, and click the :guilabel:`Participations` smart button at the top of "
 "the survey form."
 msgstr ""
+"किसी विशिष्ट सर्वे के लिए भागीदारी परिणामों की समेकित सूची देखने के लिए, "
+":menuselection:`सर्वे एप्लिकेशन` पर जाएं, सूची से वांछित सर्वे चुनें, और सर्वे फ़ॉर्म के शीर्ष "
+"पर :guilabel:`भागीदारी` स्मार्ट बटन पर क्लिक करें।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The Participations smart button at the top of a survey form in Odoo Surveys."
-msgstr ""
+msgstr "Odoo सर्वे में सर्वे फ़ॉर्म के शीर्ष पर भागीदारी स्मार्ट बटन।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:223
 msgid ""
@@ -17148,12 +17337,15 @@ msgid ""
 "participants for that specific survey, along with a collection of pertinent "
 "information related to each one."
 msgstr ""
+"ऐसा करने से एक अलग :guilabel:`भागीदारी` पेज प्रकट होता है, जो उस विशिष्ट सर्वे के "
+"प्रतिभागियों को दिखाता है, साथ ही प्रत्येक से संबंधित प्रासंगिक जानकारी का संग्रह भी "
+"दिखाता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The Participations page for a singular survey in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo सर्वे एप्लिकेशन में एकल सर्वे के लिए भागीदारी पेज।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:230
 msgid ""
@@ -17163,11 +17355,15 @@ msgid ""
 "Odoo reveals a separate page showing that participant's survey details, "
 "along with their submitted answers."
 msgstr ""
+"यहां, उपयोगकर्ता उस विशिष्ट सर्वे में भाग लेने वाले व्यक्तिगत प्रतिभागियों से संबंधित जानकारी "
+"देख सकते हैं। अगर वे उनके विभिन्न जवाबों और प्रतिक्रियाओं का ज़्यादा विस्तृत विवरण देखना "
+"चाहते हैं, तो वे किसी भी प्रतिभागी पर क्लिक कर सकते हैं, और Odoo एक अलग पेज दिखाता है "
+"जो उस प्रतिभागी के सर्वे विवरण को उनके सबमिट किए गए जवाबों के साथ प्रदर्शित करता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "An individual participant's detail form in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo सर्वे एप्लिकेशन में एक व्यक्तिगत प्रतिभागी का विवरण फ़ॉर्म।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:239
 msgid ""
@@ -17176,11 +17372,15 @@ msgid ""
 "every survey in the database is shown in a default nested list. Beside each "
 "survey title has the number of participants in parenthesis."
 msgstr ""
+"डेटाबेस में प्रत्येक सर्वे के सभी प्रतिभागियों की समेकित सूची देखने के लिए, "
+":menuselection:`सर्वे एप्लिकेशन --> भागीदारी` पर जाएं। यहां, डेटाबेस में प्रत्येक सर्वे एक "
+"डिफ़ॉल्ट नेस्टेड सूची में दिखाया गया है। प्रत्येक सर्वे शीर्षक के बगल में कोष्ठक में प्रतिभागियों "
+"की संख्या है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The Participations page for all surveys in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo सर्वे एप्लिकेशन में सभी सर्वे के लिए भागीदारी पेज।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:247
 msgid ""
@@ -17188,48 +17388,54 @@ msgid ""
 "corresponding participants, along with their response-related data for that "
 "survey, appear on the page."
 msgstr ""
+"जब इस सूची से किसी सर्वे को अन-नेस्ट किया जाता है, सर्वे शीर्षक पर क्लिक करके, उस सर्वे के "
+"लिए संबंधित प्रतिभागी, उनकी प्रतिक्रिया-संबंधित डेटा के साथ, पेज पर दिखाई देते हैं।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:250
 msgid ""
 "The :guilabel:`Participations` page can also be viewed in a Kanban layout, "
 "as well."
-msgstr ""
+msgstr ":guilabel:`भागीदारी` पेज को कानबान लेआउट में भी देखा जा सकता है।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The Participations page in the Kanban view in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo सर्वे एप्लिकेशन में कानबान व्यू में भागीदारी पेज।"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:257
 #: ../../content/applications/marketing/surveys/live_session.rst:219
 msgid ":doc:`create`"
-msgstr ""
+msgstr ":doc:`create`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:258
 #: ../../content/applications/marketing/surveys/create.rst:334
 #: ../../content/applications/marketing/surveys/live_session.rst:221
 msgid ":doc:`scoring`"
-msgstr ""
+msgstr ":doc:`scoring`"
 
 #: ../../content/applications/marketing/surveys/create.rst:5
 msgid ""
 "To create a survey in the Odoo *Surveys* application, navigate "
 "to :menuselection:`Surveys app --> New` to reveal a blank survey form."
 msgstr ""
+"Odoo *सर्वे* एप्लिकेशन में सर्वे बनाने के लिए, :menuselection:`सर्वे एप्लिकेशन --> नया` पर "
+"जाएं ताकि एक खाली सर्वे फ़ॉर्म प्रकट हो।"
 
 #: ../../content/applications/marketing/surveys/create.rst:9
 msgid ""
 "The :guilabel:`New` button is **not** present on the *Surveys* dashboard if "
 "in the *Activities* view."
 msgstr ""
+"*गतिविधियां* व्यू में होने पर *सर्वे* डैशबोर्ड पर :guilabel:`नया` बटन मौजूद **नहीं** "
+"होता है।"
 
 #: ../../content/applications/marketing/surveys/create.rst:13
 msgid "Survey form"
-msgstr ""
+msgstr "सर्वे फ़ॉर्म"
 
 #: ../../content/applications/marketing/surveys/create.rst:None
 msgid "How a blank survey form looks in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo सर्वे एप्लिकेशन में एक खाली सर्वे फ़ॉर्म कैसा दिखता है।"
 
 #: ../../content/applications/marketing/surveys/create.rst:19
 msgid ""
@@ -18133,6 +18339,7 @@ msgid ""
 "The Live Session question time limit option for questions in the Odoo "
 "Surveys application."
 msgstr ""
+"Odoo सर्वे ऐप्लिकेशन में सवालों के लिए लाइव सेशन के सवाल की समय सीमा का ऑप्शन।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:59
 msgid ""
@@ -18140,6 +18347,8 @@ msgid ""
 "the :guilabel:`Options` tab of the survey form to further configure the "
 "survey."
 msgstr ""
+"*लाइव सेशन* सर्वे के लिए सवाल बनाने के बाद, सर्वे को और कॉन्फ़िगर करने के लिए सर्वे फ़ॉर्म "
+"का :guilabel:`ऑप्शन` टैब खोलें।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:62
 msgid ""
@@ -18147,6 +18356,8 @@ msgid ""
 "sections: :guilabel:`Questions`, :guilabel:`Time & "
 "Scoring`, :guilabel:`Participants`, and :guilabel:`Live Session`."
 msgstr ""
+":guilabel:`ऑप्शन` टैब चार सेक्शन में व्यवस्थित है: :guilabel:`सवाल`, :guilabel:`समय "
+"और स्कोरिंग`, :guilabel:`प्रतिभागी`, और :guilabel:`लाइव सेशन`।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:68
 msgid ""
@@ -18155,6 +18366,10 @@ msgid ""
 "will default to that option when the :guilabel:`Create Live Session` button "
 "is clicked, and a *Live Session* survey officially begins."
 msgstr ""
+":guilabel:`पेजिनेशन` फ़ील्ड के लिए चुने गए ऑप्शन की परवाह किए बिना, *लाइव सेशन* सर्वे "
+"*सिर्फ़* :guilabel:`हर सवाल के लिए एक पेज` दिखाता है, और जब :guilabel:`लाइव सेशन "
+"बनाएं` बटन पर क्लिक किया जाता है और *लाइव सेशन* सर्वे आधिकारिक रूप से शुरू होता है तो "
+"यह उसी ऑप्शन पर डिफ़ॉल्ट हो जाएगा।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:73
 msgid ""
@@ -18163,6 +18378,9 @@ msgid ""
 "the :guilabel:`Questions` section, when the :guilabel:`Live Session` survey "
 "type radio button is selected."
 msgstr ""
+":guilabel:`हर सवाल के लिए एक पेज` ऑप्शन :guilabel:`पेजिनेशन` फ़ील्ड में डिफ़ॉल्ट रूप से "
+"चुना गया है, और :guilabel:`सवाल` सेक्शन में कोई अन्य ऑप्शन दिखाई नहीं देता है, जब "
+":guilabel:`लाइव सेशन` सर्वे टाइप रेडियो बटन चुना जाता है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:77
 msgid ""
@@ -18170,6 +18388,8 @@ msgid ""
 "options are still viable and active options for *Live Session* surveys, if "
 "desired, but they are **not** required."
 msgstr ""
+":guilabel:`प्रोग्रेस दिखाएं जैसे` और :guilabel:`सवाल चुनाव` ऑप्शन *लाइव सेशन* सर्वे के "
+"लिए अभी भी व्यवहार्य और सक्रिय ऑप्शन हैं, अगर चाहें तो, लेकिन वे आवश्यक **नहीं** हैं।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:80
 msgid ""
@@ -18178,6 +18398,9 @@ msgid ""
 "survey, and participants have no control over what question they see, or "
 "when they see it."
 msgstr ""
+"हालांकि, :guilabel:`रोमिंग की अनुमति दें` फ़ीचर *लाइव सेशन* सर्वे के दौरान किसी भी तरह "
+"से उपलब्ध **नहीं** है, क्योंकि होस्ट/मॉडरेटर सर्वे को कंट्रोल करता है, और प्रतिभागियों का "
+"इस पर कोई कंट्रोल नहीं है कि वे कौन सा सवाल देखते हैं, या कब देखते हैं।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:87
 msgid ""
@@ -18186,6 +18409,9 @@ msgid ""
 "Scoring` section of the :guilabel:`Options` tab if the :guilabel:`Live "
 "Session` survey type radio button option is selected."
 msgstr ""
+":guilabel:`सर्वे की समय सीमा` ऑप्शन *लाइव सेशन* सर्वे के लिए लागू **नहीं** है। यह ऑप्शन "
+":guilabel:`ऑप्शन` टैब के :guilabel:`समय और स्कोरिंग` सेक्शन में दिखाई भी नहीं देता है "
+"अगर :guilabel:`लाइव सेशन` सर्वे टाइप रेडियो बटन ऑप्शन चुना गया है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:92
 msgid ""
@@ -18194,6 +18420,10 @@ msgid ""
 "Limit*, via the *Options* tab of the question pop-up form. Those question-"
 "specific time limits *do* work with *Live Session* surveys."
 msgstr ""
+"जबकि :guilabel:`सर्वे की समय सीमा` ऑप्शन *लाइव सेशन* सर्वे के लिए लागू नहीं है, हर "
+"सवाल को उसकी अपनी *सवाल की समय सीमा* के साथ जोड़ा जा *सकता है*, सवाल के पॉप-अप "
+"फ़ॉर्म के *ऑप्शन* टैब के ज़रिए। वे सवाल-विशिष्ट समय सीमाएं *लाइव सेशन* सर्वे के साथ *काम "
+"करती हैं*।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:96
 msgid ""
@@ -18201,6 +18431,8 @@ msgid ""
 "subsequent :guilabel:`Required Score (%)` option are available to use with "
 "*Live Session* surveys."
 msgstr ""
+"अगर चाहें, तो कोई भी :guilabel:`स्कोरिंग` ऑप्शन, और उसके बाद का :guilabel:`आवश्यक "
+"स्कोर (%)` ऑप्शन *लाइव सेशन* सर्वे के साथ इस्तेमाल करने के लिए उपलब्ध है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:99
 msgid ""
@@ -18210,6 +18442,10 @@ msgid ""
 "section of the :guilabel:`Options` tab if the :guilabel:`Live Session` "
 "survey type radio button option is selected."
 msgstr ""
+"हालांकि, अगर :guilabel:`सर्टिफ़िकेशन है` ऑप्शन सक्षम है, तो सर्वे को *लाइव सेशन* सर्वे के "
+"रूप में इस्तेमाल **नहीं** किया जा सकता। :guilabel:`सर्टिफ़िकेशन है` ऑप्शन "
+":guilabel:`ऑप्शन` टैब के :guilabel:`समय और स्कोरिंग` सेक्शन में दिखाई **नहीं** देता है "
+"अगर :guilabel:`लाइव सेशन` सर्वे टाइप रेडियो बटन ऑप्शन चुना गया है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:107
 msgid ""
@@ -18218,6 +18454,10 @@ msgid ""
 "The :guilabel:`Anyone with the link` option **cannot** be modified if "
 "the :guilabel:`Live Session` survey type radio button option is selected."
 msgstr ""
+":guilabel:`ऐक्सेस मोड` फ़ील्ड :guilabel:`लिंक वाला कोई भी` ऑप्शन पर सेट है जब सर्वे को "
+"*लाइव सेशन* के रूप में इस्तेमाल किया जाता है। :guilabel:`लिंक वाला कोई भी` ऑप्शन को "
+"संशोधित **नहीं** किया जा सकता अगर :guilabel:`लाइव सेशन` सर्वे टाइप रेडियो बटन ऑप्शन "
+"चुना गया है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:111
 msgid ""
@@ -18228,6 +18468,11 @@ msgid ""
 "session participants only get to attempt the survey once, as the host leads "
 "them through it."
 msgstr ""
+":guilabel:`लॉगिन आवश्यक` ऑप्शन *लाइव सेशन* सर्वे के लिए उपलब्ध है। हालांकि, अगर "
+":guilabel:`लाइव सेशन` सर्वे टाइप रेडियो बटन ऑप्शन चुना गया है, तो सामान्य "
+":guilabel:`प्रयासों को सीमित करें` फ़ील्ड जो :guilabel:`लॉगिन आवश्यक` सक्षम होने पर "
+"दिखाई देता है, वह दिखाई **नहीं** देता है, क्योंकि लाइव सेशन प्रतिभागियों को सर्वे का "
+"प्रयास करने के लिए केवल एक बार मिलता है, क्योंकि होस्ट उन्हें इसके माध्यम से ले जाता है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:119
 msgid ""
@@ -18235,6 +18480,9 @@ msgid ""
 "participants to use, in order to gain access to the *Live Session* survey. "
 "This code can consist of any combination of letters, numbers, and/or symbols."
 msgstr ""
+":guilabel:`सेशन कोड` फ़ील्ड उपयोगकर्ताओं को प्रतिभागियों के इस्तेमाल के लिए यूनीक कोड "
+"बनाने की अनुमति देता है, ताकि *लाइव सेशन* सर्वे तक ऐक्सेस प्राप्त किया जा सके। यह कोड "
+"अक्षरों, संख्याओं, और/या प्रतीकों के किसी भी संयोजन से मिलकर बन सकता है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:123
 msgid ""
@@ -18243,6 +18491,10 @@ msgid ""
 "a :guilabel:`Session Code`, the URL that appears in the "
 "following :guilabel:`Session Link` field becomes far more complex."
 msgstr ""
+":guilabel:`सेशन कोड` फ़ील्ड आवश्यक **नहीं** है, हालांकि, इसे प्रोत्साहित किया जाता है "
+"क्योंकि यह सर्वे में विशिष्टता का एक लेवल जोड़ता है और, :guilabel:`सेशन कोड` के बिना, "
+"निम्नलिखित :guilabel:`सेशन लिंक` फ़ील्ड में दिखाई देने वाला यूआरएल कहीं ज़्यादा जटिल हो "
+"जाता है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:128
 msgid ""
@@ -18251,6 +18503,10 @@ msgid ""
 "fundamental elements of the *Live Session* are lost, as the survey is then "
 "just a normal questionnaire, without any real-time results."
 msgstr ""
+"अगर :guilabel:`सेशन कोड` दर्ज **नहीं** किया गया है, तो प्रतिभागी :guilabel:`सेशन "
+"लिंक` के ज़रिए सर्वे तक ऐक्सेस कर सकते हैं बिना होस्ट की आवश्यकता के, और *लाइव सेशन* के "
+"मूलभूत तत्व खो जाते हैं, क्योंकि सर्वे फिर सिर्फ़ एक सामान्य प्रश्नावली है, बिना किसी "
+"वास्तविक समय के परिणामों के।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:133
 msgid ""
@@ -18258,6 +18514,8 @@ msgid ""
 "modifiable :guilabel:`Session Link` field is simplified, and ends with "
 "the :guilabel:`Session Code`, preceded by `/s/`."
 msgstr ""
+":guilabel:`सेशन कोड` के साथ, गैर-संशोधनीय :guilabel:`सेशन लिंक` फ़ील्ड में यूआरएल सरल "
+"हो जाता है, और `/s/` से पहले :guilabel:`सेशन कोड` के साथ समाप्त होता है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:137
 msgid ""
@@ -18265,12 +18523,17 @@ msgid ""
 "the :guilabel:`Session Link` field begins with the basic URL of the database "
 "(e.g. `sample-database.odoo.com`), followed by: `/s/1212`."
 msgstr ""
+"अगर `1212` को :guilabel:`सेशन कोड` के रूप में दर्ज किया गया है, तो :guilabel:`सेशन "
+"लिंक` फ़ील्ड में यूआरएल डेटाबेस के बुनियादी यूआरएल से शुरू होता है (जैसे `sample-"
+"database.odoo.com`), इसके बाद: `/s/1212`।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:141
 msgid ""
 "So, collectively, that sample :guilabel:`Session Link` would be: `sample-"
 "database.odoo.com/s/1212`."
 msgstr ""
+"तो, सामूहिक रूप से, वह सैंपल :guilabel:`सेशन लिंक` होगा: `sample-database.odoo.com/"
+"s/1212`।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:145
 msgid ""
@@ -18280,6 +18543,11 @@ msgid ""
 "places the participant in a virtual waiting room, where they simply need to "
 "wait for the host to officially start the *Live Session* survey."
 msgstr ""
+"अगर कोई उपयोगकर्ता :guilabel:`सेशन लिंक` यूआरएल को उसके पूर्ण रूप में भेजता है - "
+":guilabel:`सेशन कोड` और सभी - तो प्रतिभागियों को कोड दर्ज करने की आवश्यकता *नहीं* "
+"होगी, क्योंकि यह पहले से ही उनके लिए दर्ज किया जा चुका होगा। वह पूरा लिंक प्रतिभागी को "
+"एक वर्चुअल वेटिंग रूम में रखता है, जहां उन्हें बस होस्ट के आधिकारिक रूप से *लाइव सेशन* सर्वे शुरू "
+"करने का इंतज़ार करना होता है।"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:150
 msgid ""
@@ -19292,6 +19560,276 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "वेबसाइट के ई-लर्निंग हिस्से पर बैज कैसा दिखता है इसका उदाहरण।"
+
+#~ msgid ""
+#~ "With Odoo *Events*, users can utilize a fully-integrated event website, "
+#~ "where attendees can quickly access various tracks (talks, presentations, "
+#~ "etc.), view entire agendas, and propose talks for the event."
+#~ msgstr ""
+#~ "Odoo *Events* के साथ, यूज़र एक पूरी तरह से एकीकृत इवेंट वेबसाइट का उपयोग कर सकते हैं, "
+#~ "जहां प्रतिभागी विभिन्न ट्रैक (टॉक्स, प्रेजेंटेशन, आदि) को जल्दी से एक्सेस कर सकते हैं, पूरे "
+#~ "एजेंडा देख सकते हैं, और इवेंट के लिए टॉक्स प्रस्तावित कर सकते हैं।"
+
+#~ msgid ""
+#~ "To access an event website, navigate to the specific event form in the "
+#~ "Odoo *Events* app, and click the :guilabel:`Go to Website` smart button. "
+#~ "Or, while on the Odoo-built website for the company, click "
+#~ "the :guilabel:`Events` header option, and select the desired event to "
+#~ "view that event's website."
+#~ msgstr ""
+#~ "इवेंट वेबसाइट को एक्सेस करने के लिए, Odoo *Events* ऐप्लिकेशन में विशिष्ट इवेंट फ़ॉर्म पर "
+#~ "जाएं, और :guilabel:`Go to Website` स्मार्ट बटन पर क्लिक करें। या, कंपनी के लिए "
+#~ "Odoo-बिल्ट वेबसाइट पर रहते हुए, :guilabel:`Events` हेडर विकल्प पर क्लिक करें, और "
+#~ "उस इवेंट की वेबसाइट देखने के लिए वांछित इवेंट को चुनें।"
+
+#~ msgid ""
+#~ "On the event website, there is an event-specific subheader menu with "
+#~ "different options to choose from."
+#~ msgstr ""
+#~ "इवेंट वेबसाइट पर, एक इवेंट-विशिष्ट सबहेडर मेन्यू है जिसमें चुनने के लिए विभिन्न विकल्प हैं।"
+
+#~ msgid ""
+#~ "With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, "
+#~ "the following links are automatically added to the subheader menu, "
+#~ "located on the event website: :guilabel:`Talks`, :guilabel:`Talk "
+#~ "Proposals`, and :guilabel:`Agenda`."
+#~ msgstr ""
+#~ "Odoo *Events* ऐप्लिकेशन में *Schedule & Tracks* सेटिंग सक्षम होने पर, इवेंट वेबसाइट "
+#~ "पर स्थित सबहेडर मेन्यू में निम्नलिखित लिंक ऑटोमैटिकली जोड़ दिए जाते "
+#~ "हैं: :guilabel:`Talks`, :guilabel:`Talk Proposals`, और :guilabel:`Agenda`।"
+
+#~ msgid ""
+#~ "To enable the :guilabel:`Schedule & Tracks` setting, navigate "
+#~ "to :menuselection:`Events app --> Configuration --> Settings`, tick the "
+#~ "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+#~ msgstr ""
+#~ ":guilabel:`Schedule & Tracks` सेटिंग सक्षम करने के लिए, :menuselection:`Events "
+#~ "app --> Configuration --> Settings` पर जाएं, :guilabel:`Schedule & Tracks` "
+#~ "के बगल में चेकबॉक्स पर टिक करें, और :guilabel:`Save` पर क्लिक करें।"
+
+#~ msgid "Talks page"
+#~ msgstr "टॉक्स पेज"
+
+#~ msgid ""
+#~ "The :guilabel:`Talks` link takes the attendee to a page filled with all "
+#~ "the planned tracks for the event."
+#~ msgstr ""
+#~ ":guilabel:`Talks` लिंक प्रतिभागी को इवेंट के लिए सभी नियोजित ट्रैक से भरे पेज पर ले "
+#~ "जाता है।"
+
+#~ msgid ""
+#~ "At the top of :guilabel:`Talks` page, there are drop-down filter menus "
+#~ "beside a :guilabel:`Search a talk...` search bar."
+#~ msgstr ""
+#~ ":guilabel:`Talks` पेज के शीर्ष पर, :guilabel:`Search a talk...` सर्च बार के "
+#~ "बगल में ड्रॉप-डाउन फ़िल्टर मेन्यू हैं।"
+
+#~ msgid ""
+#~ "The first drop-down filter menu (with the starting "
+#~ "title: :guilabel:`Favorites`) is the only drop-down filter menu that "
+#~ "appears by default. When clicked, the resulting menu presents two "
+#~ "options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+#~ msgstr ""
+#~ "पहला ड्रॉप-डाउन फ़िल्टर मेन्यू (शुरुआती टाइटल के साथ: :guilabel:`Favorites`) "
+#~ "एकमात्र ड्रॉप-डाउन फ़िल्टर मेन्यू है जो डिफ़ॉल्ट रूप से दिखाई देता है। क्लिक करने पर, "
+#~ "परिणामी मेन्यू दो विकल्प प्रस्तुत करता है: :guilabel:`Favorites` "
+#~ "और :guilabel:`All Talks`।"
+
+#~ msgid ""
+#~ "Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
+#~ "favorited by the attendee."
+#~ msgstr ""
+#~ ":guilabel:`Favorites` चुनने पर *सिर्फ़* वे ट्रैक दिखाए जाते हैं जिन्हें प्रतिभागी द्वारा "
+#~ "पसंदीदा के रूप में चिह्नित किया गया है।"
+
+#~ msgid ""
+#~ "If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
+#~ "selected, Odoo presents all the event tracks."
+#~ msgstr ""
+#~ "अगर कोई ट्रैक पसंदीदा नहीं किया गया है और :guilabel:`Favorites` फ़िल्टर चुना गया "
+#~ "है, तो Odoo सभी इवेंट ट्रैक दिखाता है।"
+
+#~ msgid ""
+#~ "Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if "
+#~ "they have been favorited or not."
+#~ msgstr ""
+#~ ":guilabel:`All Talks` चुनने पर *सभी* ट्रैक दिखते हैं, चाहे वे पसंदीदा किए गए हों या "
+#~ "नहीं।"
+
+#~ msgid ""
+#~ "The other drop-down filter menus that appear on this page are related to "
+#~ "any configured tags (and tag categories) created for event tracks in the "
+#~ "backend."
+#~ msgstr ""
+#~ "इस पेज पर दिखने वाले अन्य ड्रॉप-डाउन फ़िल्टर मेन्यू बैकएंड में इवेंट ट्रैक के लिए बनाए गए "
+#~ "किसी भी कॉन्फ़िगर किए गए टैग (और टैग कैटेगरी) से संबंधित हैं।"
+
+#~ msgid ""
+#~ "To add tags and tag categories to track forms, open a desired event track "
+#~ "form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+#~ "click :guilabel:`Create and edit...` from the resulting drop-down menu."
+#~ msgstr ""
+#~ "ट्रैक फ़ॉर्म में टैग और टैग कैटेगरी जोड़ने के लिए, इच्छित इवेंट ट्रैक फ़ॉर्म खोलें "
+#~ "और :guilabel:`Tags` फ़ील्ड में नया टैग टाइप करना शुरू करें। फिर, दिखने वाले ड्रॉप-"
+#~ "डाउन मेन्यू से :guilabel:`Create and edit...` पर क्लिक करें।"
+
+#~ msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
+#~ msgstr "ऐसा करने पर :guilabel:`Create Tags` पॉप-अप फ़ॉर्म खुलता है।"
+
+#~ msgid ""
+#~ "From here, users see the recently added tag in the :guilabel:`Tag Name` "
+#~ "field. Beneath that, there is an option to add a "
+#~ "specific :guilabel:`Color Index` to the tag for added organization."
+#~ msgstr ""
+#~ "यहाँ से, यूज़र :guilabel:`Tag Name` फ़ील्ड में हाल ही में जोड़ा गया टैग देखते हैं। इसके "
+#~ "नीचे, बेहतर व्यवस्था के लिए टैग में एक विशिष्ट :guilabel:`Color Index` जोड़ने का "
+#~ "विकल्प है।"
+
+#~ msgid ""
+#~ "Lastly, there is the :guilabel:`Category` field, where users can either "
+#~ "select a pre-existing category for this new tag, or create a new one."
+#~ msgstr ""
+#~ "अंत में, :guilabel:`Category` फ़ील्ड है, जहाँ यूज़र इस नए टैग के लिए पहले से मौजूद "
+#~ "कैटेगरी चुन सकते हैं या नई बना सकते हैं।"
+
+#~ msgid ""
+#~ "All options in the :guilabel:`Category` field for tags appear as their "
+#~ "own drop-down filter menu on the :guilabel:`Talks` page, located on the "
+#~ "event website."
+#~ msgstr ""
+#~ "टैग के लिए :guilabel:`Category` फ़ील्ड में सभी विकल्प इवेंट वेबसाइट पर "
+#~ "स्थित :guilabel:`Talks` पेज पर अपने खुद के ड्रॉप-डाउन फ़िल्टर मेन्यू के रूप में दिखते हैं।"
+
+#~ msgid ""
+#~ "Beneath the drop-down filter menus at the top of the :guilabel:`Talks` "
+#~ "page, there is a list of planned tracks for the specific event, organized "
+#~ "by day."
+#~ msgstr ""
+#~ ":guilabel:`Talks` पेज के शीर्ष पर ड्रॉप-डाउन फ़िल्टर मेन्यू के नीचे, विशिष्ट इवेंट के "
+#~ "लिए नियोजित ट्रैक की सूची है, जो दिन के अनुसार व्यवस्थित है।"
+
+#~ msgid ""
+#~ "If an attendee wishes to favorite a track, they can click the :icon:`fa-"
+#~ "bell-o` :guilabel:`(empty bell)` icon, located to the right of the track "
+#~ "title. Attendees will know a track has been favorited when they notice "
+#~ "the icon has been changed to :icon:`fa-bell` :guilabel:`(filled bell)` "
+#~ "icon."
+#~ msgstr ""
+#~ "अगर कोई प्रतिभागी किसी ट्रैक को पसंदीदा बनाना चाहता है, तो वे ट्रैक शीर्षक के दाईं "
+#~ "ओर स्थित :icon:`fa-bell-o` :guilabel:`(empty bell)` आइकॉन पर क्लिक कर सकते "
+#~ "हैं। प्रतिभागी को पता चल जाएगा कि ट्रैक पसंदीदा बना दिया गया है जब वे देखेंगे कि "
+#~ "आइकॉन :icon:`fa-bell` :guilabel:`(filled bell)` आइकॉन में बदल गया है।"
+
+#~ msgid ""
+#~ "Favoriting a track this way places it on the list "
+#~ "of :guilabel:`Favorites`, which is accessible from the default drop-down "
+#~ "filter menu, located at the top of the :guilabel:`Talks` page."
+#~ msgstr ""
+#~ "इस तरह से ट्रैक को पसंदीदा बनाने से यह :guilabel:`Favorites` की सूची में आ जाता है, "
+#~ "जो :guilabel:`Talks` पेज के शीर्ष पर स्थित डिफ़ॉल्ट ड्रॉप-डाउन फ़िल्टर मेन्यू से एक्सेस "
+#~ "किया जा सकता है।"
+
+#~ msgid "Talk Proposals page"
+#~ msgstr "Talk Proposals पेज"
+
+#~ msgid ""
+#~ "The :guilabel:`Talk Proposals` link takes attendees to a page on the "
+#~ "event website, wherein they can formerly submit a proposal for a talk "
+#~ "(:dfn:`track`) for the event, via a custom online form."
+#~ msgstr ""
+#~ ":guilabel:`Talk Proposals` लिंक प्रतिभागियों को इवेंट वेबसाइट पर एक पेज पर ले "
+#~ "जाता है, जहाँ वे कस्टम ऑनलाइन फ़ॉर्म के जरिए इवेंट के लिए टॉक (:dfn:`track`) के लिए "
+#~ "औपचारिक रूप से प्रस्ताव सबमिट कर सकते हैं।"
+
+#~ msgid ""
+#~ "In addition to the form, an introduction to the page, along with any "
+#~ "other pertinent information related to the types of talks the event will "
+#~ "feature can be added, if needed."
+#~ msgstr ""
+#~ "फ़ॉर्म के अलावा, पेज का परिचय और इवेंट में शामिल होने वाले टॉक के प्रकारों से संबंधित कोई "
+#~ "अन्य प्रासंगिक जानकारी जोड़ी जा सकती है, यदि आवश्यक हो।"
+
+#~ msgid ""
+#~ "The talk proposal form can be modified in a number of different ways, via "
+#~ "the web builder tools, accessible by clicking :guilabel:`Edit` while on "
+#~ "the specific page."
+#~ msgstr ""
+#~ "टॉक प्रस्ताव फ़ॉर्म को वेब बिल्डर टूल के जरिए कई तरीकों से बदला जा सकता है, जो "
+#~ "विशिष्ट पेज पर :guilabel:`Edit` पर क्लिक करके एक्सेस किया जा सकता है।"
+
+#~ msgid ""
+#~ "Then, proceed to edit any of the default fields, or add new forms with "
+#~ "the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
+#~ "section of the web builder tools sidebar)."
+#~ msgstr ""
+#~ "फिर, किसी भी डिफ़ॉल्ट फ़ील्ड में बदलाव करें या वेब बिल्डर टूल साइडबार "
+#~ "के :guilabel:`Blocks` सेक्शन में स्थित :guilabel:`Form` बिल्डिंग ब्लॉक के साथ नए "
+#~ "फ़ॉर्म जोड़ें।"
+
+#~ msgid ""
+#~ "Once all the necessary information is entered into the form, the "
+#~ "attendees just need to click the :guilabel:`Submit Proposal` button."
+#~ msgstr ""
+#~ "एक बार फ़ॉर्म में सभी आवश्यक जानकारी दर्ज हो जाने पर, प्रतिभागियों को "
+#~ "बस :guilabel:`Submit Proposal` बटन पर क्लिक करना है।"
+
+#~ msgid ""
+#~ "Then, that talk, and all the information entered on the form, can be "
+#~ "accessed on the :guilabel:`Event Tracks` page for that specific event in "
+#~ "the :guilabel:`Proposal` stage, which is accessible via "
+#~ "the :guilabel:`Tracks` smart button on the event form."
+#~ msgstr ""
+#~ "फिर, वह टॉक और फ़ॉर्म में दर्ज की गई सभी जानकारी उस विशिष्ट इवेंट के "
+#~ "लिए :guilabel:`Event Tracks` पेज पर :guilabel:`Proposal` स्टेज में एक्सेस की जा "
+#~ "सकती है, जो इवेंट फ़ॉर्म पर :guilabel:`Tracks` स्मार्ट बटन के जरिए एक्सेस किया जा "
+#~ "सकता है।"
+
+#~ msgid ""
+#~ "At that point, an internal user can review the proposed talk, and choose "
+#~ "to accept or deny the proposal."
+#~ msgstr ""
+#~ "उस पॉइंट पर, एक इंटरनल उपयोगकर्ता प्रस्तावित टॉक की समीक्षा कर सकता है और प्रस्ताव "
+#~ "को स्वीकार या अस्वीकार करने का विकल्प चुन सकता है।"
+
+#~ msgid ""
+#~ "If accepted, the internal user can then move the track to the next "
+#~ "appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
+#~ "page for the event. Then, they can open that track form, and click "
+#~ "the :guilabel:`Go to Website` smart button to reveal that track's page on "
+#~ "the event website."
+#~ msgstr ""
+#~ "अगर स्वीकार किया जाता है, तो इंटरनल उपयोगकर्ता इवेंट के लिए :guilabel:`Event "
+#~ "Tracks` पेज पर कानबान पाइपलाइन में ट्रैक को अगले उपयुक्त स्टेज में मूव कर सकता है। फिर, "
+#~ "वे उस ट्रैक फ़ॉर्म को खोल सकते हैं और इवेंट वेबसाइट पर उस ट्रैक का पेज दिखाने के "
+#~ "लिए :guilabel:`Go to Website` स्मार्ट बटन पर क्लिक कर सकते हैं।"
+
+#~ msgid ""
+#~ "From there, they can toggle the :guilabel:`Unpublished` switch in the "
+#~ "header to :guilabel:`Published`, which allows all event attendees to view "
+#~ "and access the talk."
+#~ msgstr ""
+#~ "वहां से, वे हेडर में :guilabel:`Unpublished` स्विच को :guilabel:`Published` पर "
+#~ "टॉगल कर सकते हैं, जो सभी इवेंट प्रतिभागियों को टॉक देखने और ऐक्सेस करने की अनुमति देता "
+#~ "है।"
+
+#~ msgid "Agenda page"
+#~ msgstr "एजेंडा पेज"
+
+#~ msgid ""
+#~ "The :guilabel:`Agenda` link takes attendees to a page on the event "
+#~ "website, showcasing an event calendar, depicting when (and where) events "
+#~ "are taking place for that specific event."
+#~ msgstr ""
+#~ ":guilabel:`Agenda` लिंक प्रतिभागियों को इवेंट वेबसाइट पर एक पेज पर ले जाता है, जो "
+#~ "एक इवेंट कैलेंडर प्रदर्शित करता है, जिसमें दिखाया गया है कि उस विशिष्ट इवेंट के लिए इवेंट "
+#~ "कब (और कहां) हो रहे हैं।"
+
+#~ msgid ""
+#~ "Clicking any track on the calendar takes the attendee to that specific "
+#~ "track's detail page on the event website."
+#~ msgstr ""
+#~ "कैलेंडर पर किसी भी ट्रैक पर क्लिक करने से प्रतिभागी इवेंट वेबसाइट पर उस विशिष्ट ट्रैक के "
+#~ "विवरण पेज पर पहुंच जाता है।"
 
 #~ msgid "Mail"
 #~ msgstr "मेल"

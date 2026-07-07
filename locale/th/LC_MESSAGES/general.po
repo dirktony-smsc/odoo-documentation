@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:21+0000\n"
-"PO-Revision-Date: 2026-06-10 01:18+0000\n"
+"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"PO-Revision-Date: 2026-07-04 23:08+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Thai <https://translate.odoo.com/projects/odoo-19-doc/general/"
 "th/>\n"
@@ -4517,9 +4517,10 @@ msgid ""
 "custom subdomain to the Odoo subdomain of your database, e.g., from "
 "`mail.mydomain.com` to `dbname.odoo.com`."
 msgstr ""
-"การกำหนดค่านี้ใช้งานได้เฉพาะกับโดเมนย่อยบนโครงสร้างพื้นฐาน Odoo Online หรือ Odoo.sh เท่านั้"
-"น (เช่น `@mail.mydomain.com`) ชี้เรกคอร์ด MX จากโดเมนย่อยที่กำหนดเองไปยังโดเมนย่อย "
-"Odoo ของฐานข้อมูลของคุณ เช่น จาก `mail.mydomain.com` ไปยัง `dbname.odoo.com`"
+"การกำหนดค่านี้ใช้งานได้เฉพาะกับโดเมนย่อยบนโครงสร้างพื้นฐาน Odoo Online หรือ Odoo.sh "
+"เท่านั้น (เช่น `@mail.mydomain.com`) ชี้เรกคอร์ด MX "
+"จากโดเมนย่อยที่กำหนดเองไปยังโดเมนย่อย Odoo ของฐานข้อมูลของคุณ เช่น จาก "
+"`mail.mydomain.com` ไปยัง `dbname.odoo.com`"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:309
 msgid "Below are presented some specifications depending on the hosting type:"
@@ -9258,7 +9259,7 @@ msgid ""
 msgstr "เชื่อมต่ออุปกรณ์ต่างๆ เช่น เครื่องพิมพ์ หน้าจอ เครื่องมือวัด ฯลฯ กับระบบ IoT"
 
 #: ../../content/applications/general/iot.rst:68
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:5
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:3
 msgid "Troubleshooting"
 msgstr "การแก้ไขปัญหา"
 
@@ -9288,8 +9289,7 @@ msgstr "ข้อกำหนดเบื้องต้น"
 msgid ""
 "To connect the IoT system to an Odoo database, the following prerequisites "
 "must be met:"
-msgstr ""
-"หากต้องการเชื่อมต่อระบบ IoT กับฐานข้อมูล Odoo ต้องปฏิบัติตามข้อกำหนดเบื้องต้นดังต่อไปนี้:"
+msgstr "หากต้องการเชื่อมต่อระบบ IoT กับฐานข้อมูล Odoo ต้องปฏิบัติตามข้อกำหนดเบื้องต้นดังต่อไปนี้:"
 
 #: ../../content/applications/general/iot/connect.rst:10
 msgid ""
@@ -9311,9 +9311,9 @@ msgid ""
 "other types of environments may cause issues (e.g., with :ref:`HTTPS "
 "certificate generation <iot/https_certificate_iot/iot-eligibility>`)."
 msgstr ""
-"แนะนำให้เชื่อมต่อระบบ IoT กับอินสแตนซ์ **การผลิต** เนื่องจากสภาพแวดล้อมประเภทอื่นอาจทำให้เกิ"
-"ดปัญหา (เช่น การ:ref:`สร้างใบรับรอง HTTPS <iot/https_certificate_iot/iot-"
-"eligibility>`)"
+"แนะนำให้เชื่อมต่อระบบ IoT กับอินสแตนซ์ **การผลิต** "
+"เนื่องจากสภาพแวดล้อมประเภทอื่นอาจทำให้เกิดปัญหา (เช่น การ:ref:`สร้างใบรับรอง HTTPS <iot/"
+"https_certificate_iot/iot-eligibility>`)"
 
 #: ../../content/applications/general/iot/connect.rst:20
 msgid ":doc:`iot_box`"
@@ -9428,8 +9428,9 @@ msgid ""
 "system's homepage in a web browser by navigating to the URL `http://"
 "localhost:8069`. Then, scroll to the :guilabel:`Pairing Code` section."
 msgstr ""
-"บนคอมพิวเตอร์ที่ติดตั้ง Windows virtual IoT ให้เปิดหน้าแรกของระบบ IoT ในเว็บเบราว์เซอร์โดย"
-"ไปที่ URL `http://localhost:8069` จากนั้นเลื่อนไปที่ส่วน:guilabel:`รหัสจับคู่`"
+"บนคอมพิวเตอร์ที่ติดตั้ง Windows virtual IoT ให้เปิดหน้าแรกของระบบ IoT "
+"ในเว็บเบราว์เซอร์โดยไปที่ URL `http://localhost:8069` "
+"จากนั้นเลื่อนไปที่ส่วน:guilabel:`รหัสจับคู่`"
 
 #: ../../content/applications/general/iot/connect.rst:77
 #: ../../content/applications/general/iot/connect.rst:87
@@ -9470,8 +9471,8 @@ msgstr ""
 "ในป๊อปอัป :guilabel:`จับคู่ IoT Box แบบออฟไลน์` ที่เปิดขึ้น ให้คัดลอก :guilabel:`Token`"
 
 #: ../../content/applications/general/iot/connect.rst:90
-#: ../../content/applications/general/iot/connect.rst:141
-#: ../../content/applications/general/iot/devices/printer.rst:181
+#: ../../content/applications/general/iot/connect.rst:144
+#: ../../content/applications/general/iot/devices/printer.rst:186
 msgid ""
 "Access the :ref:`IoT box's <iot/iot-box/homepage>` or :ref:`Windows virtual "
 "IoT's <iot/windows-iot/homepage>` homepage."
@@ -9491,8 +9492,7 @@ msgstr ""
 msgid ""
 "Paste the token into the :guilabel:`Server Token` field and "
 "click :guilabel:`Connect`."
-msgstr ""
-"วางโทเค็นลงในช่อง:guilabel:`โทเค็นเซิร์ฟเวอร์` และคลิก:guilabel:`เชื่อมต่อ`"
+msgstr "วางโทเค็นลงในช่อง:guilabel:`โทเค็นเซิร์ฟเวอร์` และคลิก:guilabel:`เชื่อมต่อ`"
 
 #: ../../content/applications/general/iot/connect.rst:96
 msgid "Once the IoT system is connected to a database:"
@@ -9567,46 +9567,56 @@ msgstr ""
 "IoT หากต้องการปิดการอัปเดตอัตโนมัติ "
 "ให้ยกเลิกการเลือกตัวเลือก :guilabel:`อัปเดตไดรเวอร์อัตโนมัติ`"
 
-#: ../../content/applications/general/iot/connect.rst:131
+#: ../../content/applications/general/iot/connect.rst:127
+msgid ""
+"On the :ref:`IoT system's form <iot/connect/IoT-form>`, click "
+"the :guilabel:`Test` button to test the connection between the IoT system "
+"and Odoo and assess the quality of the system's Internet connection."
+msgstr ""
+"บน:ref:`ฟอร์มของระบบ IoT <iot/connect/IoT-form>` ให้คลิกปุ่ม:guilabel:`ทดสอบ`เพื่อทด"
+"สอบการเชื่อมต่อระหว่างระบบ IoT กับ Odoo และประเมินระบบจัดการคุณภาพของการเชื่อมต่ออินเทอร์เ"
+"น็ตของระบบ"
+
+#: ../../content/applications/general/iot/connect.rst:134
 msgid "Disconnecting an IoT system from a database"
 msgstr "ตัดการเชื่อมต่อระบบ IoT จากฐานข้อมูล"
 
-#: ../../content/applications/general/iot/connect.rst:133
+#: ../../content/applications/general/iot/connect.rst:136
 msgid "To disconnect the IoT system from a database, follow these steps:"
 msgstr "หากต้องการตัดการเชื่อมต่อระบบ IoT จากฐานข้อมูล ให้ทำตามขั้นตอนต่อไปนี้:"
 
-#: ../../content/applications/general/iot/connect.rst:135
+#: ../../content/applications/general/iot/connect.rst:138
 msgid "Open the IoT app and click the relevant IoT system's card."
 msgstr "เปิดแอป IoT และคลิกที่การ์ดของระบบ IoT ที่เกี่ยวข้อง"
 
-#: ../../content/applications/general/iot/connect.rst:136
+#: ../../content/applications/general/iot/connect.rst:139
 msgid ""
 "Click the :icon:`fa-cog` :guilabel:`(Actions)` icon, and "
 "select :guilabel:`Delete`."
 msgstr ""
 "คลิกไอคอน :icon:`fa-cog` :guilabel:`(การดำเนินการ)` และเลือก :guilabel:`ลบ`"
 
-#: ../../content/applications/general/iot/connect.rst:139
+#: ../../content/applications/general/iot/connect.rst:142
 msgid "Alternatively:"
 msgstr "อีกทางหนึ่ง:"
 
-#: ../../content/applications/general/iot/connect.rst:143
+#: ../../content/applications/general/iot/connect.rst:146
 msgid ""
 "Click :guilabel:`Configure` in the :icon:`fa-link` :guilabel:`Odoo database "
 "connected` section."
 msgstr ""
-"คลิก :guilabel:`กำหนดค่า` ในส่วน :icon:`fa-link` :guilabel:`ฐานข้อมูล Odoo ที่เชื่อมต่"
-"อ`"
+"คลิก :guilabel:`กำหนดค่า` ในส่วน :icon:`fa-link` :guilabel:`ฐานข้อมูล Odoo "
+"ที่เชื่อมต่อ`"
 
-#: ../../content/applications/general/iot/connect.rst:145
+#: ../../content/applications/general/iot/connect.rst:148
 msgid "Click :guilabel:`Disconnect` in the popup that opens."
 msgstr "คลิก :guilabel:`ยกเลิกการเชื่อมต่อ` ในหน้าต่างป๊อปอัปที่เปิดขึ้น"
 
-#: ../../content/applications/general/iot/connect.rst:150
+#: ../../content/applications/general/iot/connect.rst:153
 msgid "HTTPS certificate"
 msgstr "ใบรับรอง HTTPS"
 
-#: ../../content/applications/general/iot/connect.rst:152
+#: ../../content/applications/general/iot/connect.rst:155
 msgid ""
 ":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` is the secure, encrypted "
 "version of :abbr:`HTTP (Hypertext Transfer Protocol)`. It uses :abbr:`TLS "
@@ -9616,14 +9626,15 @@ msgid ""
 "terminals, require a valid HTTPS certificate to communicate with the IoT "
 "system; without it, they cannot interact properly."
 msgstr ""
-":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` คือเวอร์ชันที่ปลอดภัยและเข้ารหัสขอ"
-"ง :abbr:`HTTP (Hypertext Transfer Protocol)` โดยใช้ใบรับรอง :abbr:`TLS "
-"(Transport Layer Security)` (เดิมคือ :abbr:`SSL (Secure Sockets Layer)`) เพื่อตรว"
-"จสอบความถูกต้องของเซิร์ฟเวอร์และปกป้องข้อมูลที่แลกเปลี่ยนระหว่างเบราว์เซอร์และเว็บไซต์ อุปกรณ์เค"
-"รือข่ายบางชนิด เช่น เทอร์มินัลการชำระเงิน จำเป็นต้องใช้ใบรับรอง HTTPS ที่ถูกต้องในการสื่อสารกับร"
-"ะบบ IoT หากไม่มี อุปกรณ์เหล่านี้จะไม่สามารถทำงานร่วมกันได้อย่างเหมาะสม"
+":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` "
+"คือเวอร์ชันที่ปลอดภัยและเข้ารหัสของ :abbr:`HTTP (Hypertext Transfer Protocol)` "
+"โดยใช้ใบรับรอง :abbr:`TLS (Transport Layer Security)` (เดิมคือ :abbr:`SSL "
+"(Secure Sockets Layer)`) "
+"เพื่อตรวจสอบความถูกต้องของเซิร์ฟเวอร์และปกป้องข้อมูลที่แลกเปลี่ยนระหว่างเบราว์เซอร์และเว็บไซต์ "
+"อุปกรณ์เครือข่ายบางชนิด เช่น เทอร์มินัลการชำระเงิน จำเป็นต้องใช้ใบรับรอง HTTPS "
+"ที่ถูกต้องในการสื่อสารกับระบบ IoT หากไม่มี อุปกรณ์เหล่านี้จะไม่สามารถทำงานร่วมกันได้อย่างเหมาะสม"
 
-#: ../../content/applications/general/iot/connect.rst:160
+#: ../../content/applications/general/iot/connect.rst:163
 msgid ""
 "In this documentation and throughout Odoo, the term *HTTPS certificate*  "
 "refers to a valid SSL certificate that allows an HTTPS connection."
@@ -9631,7 +9642,7 @@ msgstr ""
 "ในเอกสารประกอบนี้และทั่วทั้ง Odoo คำว่า *ใบรับรอง HTTPS* หมายถึงใบรับรอง SSL "
 "ที่ถูกต้องซึ่งอนุญาตให้มีการเชื่อมต่อ HTTPS"
 
-#: ../../content/applications/general/iot/connect.rst:163
+#: ../../content/applications/general/iot/connect.rst:166
 msgid ""
 "When the IoT system is (re-)started and connected to a database, it "
 "automatically downloads the HTTPS certificate if the database meets the "
@@ -9640,7 +9651,7 @@ msgstr ""
 "เมื่อระบบ IoT เริ่มต้น (หรือเริ่มใหม่) และเชื่อมต่อกับฐานข้อมูล ระบบจะดาวน์โหลดใบรับรอง HTTPS "
 "โดยอัตโนมัติหากฐานข้อมูลเป็นไปตามเกณฑ์คุณสมบัติต่อไปนี้:"
 
-#: ../../content/applications/general/iot/connect.rst:168
+#: ../../content/applications/general/iot/connect.rst:171
 msgid ""
 "The database must be a **production** instance. The database instance should "
 "not be a copy, a duplicate, a staging, or a development environment."
@@ -9648,35 +9659,36 @@ msgstr ""
 "ฐานข้อมูลต้องเป็นอินสแตนซ์ **ที่ใช้งานจริง** อินสแตนซ์ฐานข้อมูลไม่ควรเป็นสำเนา ข้อมูลซ้ำ "
 "สภาพแวดล้อมสำหรับทดสอบ หรือสภาพแวดล้อมสำหรับพัฒนา"
 
-#: ../../content/applications/general/iot/connect.rst:170
+#: ../../content/applications/general/iot/connect.rst:173
 msgid "The Odoo subscription must be ongoing (:guilabel:`In Progress` status)."
 msgstr "การสมัครสมาชิก Odoo ต้องดำเนินอยู่ (สถานะ :guilabel:`กำลังดำเนินการ`)"
 
-#: ../../content/applications/general/iot/connect.rst:172
+#: ../../content/applications/general/iot/connect.rst:175
 msgid "When the certificate has been received:"
 msgstr "เมื่อได้รับใบรับรองแล้ว:"
 
-#: ../../content/applications/general/iot/connect.rst:174
+#: ../../content/applications/general/iot/connect.rst:177
 msgid ""
 "The IoT system's homepage address is updated to a new HTTPS URL ending with "
 "`.odoo-iot.com`."
 msgstr ""
 "ที่อยู่หน้าแรกของระบบ IoT ได้รับการอัปเดตเป็น URL HTTPS ใหม่ที่ลงท้ายด้วย `.odoo-iot.com`"
 
-#: ../../content/applications/general/iot/connect.rst:175
+#: ../../content/applications/general/iot/connect.rst:178
 msgid ""
 "The :guilabel:`HTTPS certificate` banner displays the certificate's validity "
 "period. To view this information, click the :icon:`fa-cogs` "
 "(:guilabel:`cogs`) button at the top-right of the IoT system's homepage."
 msgstr ""
-"แบนเนอร์ :guilabel:`ใบรับรอง HTTPS` แสดงระยะเวลาที่ใบรับรองมีผลใช้งาน หากต้องการดูข้อมูล"
-"นี้ ให้คลิกปุ่ม :icon:`fa-cogs` (:guilabel:`เฟืองตั้งค่า`) ที่มุมขวาบนของหน้าแรกของระบบ IoT"
+"แบนเนอร์ :guilabel:`ใบรับรอง HTTPS` แสดงระยะเวลาที่ใบรับรองมีผลใช้งาน "
+"หากต้องการดูข้อมูลนี้ ให้คลิกปุ่ม :icon:`fa-cogs` (:guilabel:`เฟืองตั้งค่า`) "
+"ที่มุมขวาบนของหน้าแรกของระบบ IoT"
 
 #: ../../content/applications/general/iot/connect.rst:0
 msgid "IoT box homepage with HTTPS certificate validity date."
 msgstr "หน้าแรกของกล่อง IoT พร้อมวันที่ที่ใบรับรอง HTTPS มีผลบังคับใช้"
 
-#: ../../content/applications/general/iot/connect.rst:183
+#: ../../content/applications/general/iot/connect.rst:186
 msgid ":ref:`iot/troubleshooting/https_certificate`"
 msgstr ":ref:`iot/troubleshooting/https_certificate`"
 
@@ -9816,7 +9828,7 @@ msgstr ""
 "ใหม่` เพื่อสร้างการตรวจสอบคุณภาพใหม่จากหน้า :guilabel:`การตรวจสอบคุณภาพ`"
 
 #: ../../content/applications/general/iot/devices/camera.rst:58
-#: ../../content/applications/general/iot/devices/printer.rst:69
+#: ../../content/applications/general/iot/devices/printer.rst:74
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_control_points`"
@@ -9825,7 +9837,7 @@ msgstr ""
 "quality_control_points`"
 
 #: ../../content/applications/general/iot/devices/camera.rst:59
-#: ../../content/applications/general/iot/devices/printer.rst:70
+#: ../../content/applications/general/iot/devices/printer.rst:75
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_alerts`"
@@ -10219,8 +10231,7 @@ msgstr "เครื่องพิมพ์ที่ปรากฏในรา
 msgid ""
 "Printers connecting to the IoT system via the network must be on the **same "
 "network** as the IoT system."
-msgstr ""
-"เครื่องพิมพ์ที่เชื่อมต่อกับระบบ IoT ผ่านเครือข่ายต้องอยู่บน**เครือข่ายเดียวกัน**กับระบบ IoT"
+msgstr "เครื่องพิมพ์ที่เชื่อมต่อกับระบบ IoT ผ่านเครือข่ายต้องอยู่บน**เครือข่ายเดียวกัน**กับระบบ IoT"
 
 #: ../../content/applications/general/iot/devices/printer.rst:30
 msgid ""
@@ -10230,21 +10241,32 @@ msgstr ""
 "เครื่องพิมพ์อาจใช้เวลาสูงสุดสองนาทีในการปรากฏในรายการ :guilabel:`อุปกรณ์` ของแอป IoT"
 
 #: ../../content/applications/general/iot/devices/printer.rst:33
+msgid ""
+"To test the printer, open the IoT app, click the :ref:`IoT system's card "
+"<iot/connect/IoT-form>`, select the printer device, then "
+"click :guilabel:`Test`. A successful test prints a test page. If no page is "
+"printed, ensure the printer is powered on and the connection is correct."
+msgstr ""
+"ในการทดสอบเครื่องพิมพ์ ให้เปิดแอป IoT คลิก:ref:`การ์ดของระบบ IoT <iot/connect/IoT-"
+"form>` เลือกอุปกรณ์เครื่องพิมพ์ จากนั้นคลิก:guilabel:`ทดสอบ` การทดสอบที่สำเร็จจะพิมพ์หน้าทดสอ"
+"บออกมา หากไม่มีหน้าใดพิมพ์ออกมา ให้ตรวจสอบว่าเครื่องพิมพ์เปิดอยู่และการเชื่อมต่อถูกต้อง"
+
+#: ../../content/applications/general/iot/devices/printer.rst:38
 msgid "Link a printer"
 msgstr "เชื่อมโยงเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:36
+#: ../../content/applications/general/iot/devices/printer.rst:41
 msgid "Link work orders to a printer"
 msgstr "เชื่อมโยงใบสั่งงานกับเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:38
+#: ../../content/applications/general/iot/devices/printer.rst:43
 msgid ""
 "Work orders can be linked to printers, via a quality control point, to print "
 "labels for manufactured products."
 msgstr ""
 "ใบสั่งงานสามารถเชื่อมโยงกับเครื่องพิมพ์ผ่านจุดควบคุมคุณภาพ เพื่อพิมพ์ฉลากสำหรับผลิตภัณฑ์ที่ผลิต"
 
-#: ../../content/applications/general/iot/devices/printer.rst:41
+#: ../../content/applications/general/iot/devices/printer.rst:46
 msgid ""
 "In the :doc:`Quality app </applications/inventory_and_mrp/quality>`, a "
 "device can be set up on a quality control point. To do so, go to "
@@ -10256,7 +10278,7 @@ msgstr ""
 "ไปที่ :menuselection:`ระบบจัดการคุณภาพ --> การควบคุมคุณภาพ --> จุดควบคุม` "
 "และเปิดจุดควบคุมที่ต้องการ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:46
+#: ../../content/applications/general/iot/devices/printer.rst:51
 msgid ""
 "A manufacturing operation and work order operation need to be attached to a "
 "quality control point before the :guilabel:`Type` field allows for "
@@ -10265,7 +10287,7 @@ msgstr ""
 "การดำเนินการผลิตและการดำเนินการใบสั่งงานจำเป็นต้องแนบกับจุดควบคุมคุณภาพก่อนที่ฟิลด์ :guilabel:`ประเภท` "
 "จะอนุญาตให้เลือกตัวเลือก :guilabel:`พิมพ์ฉลาก` ได้"
 
-#: ../../content/applications/general/iot/devices/printer.rst:50
+#: ../../content/applications/general/iot/devices/printer.rst:55
 msgid ""
 "From here, edit the control point by selecting the :guilabel:`Type` field, "
 "and selecting :guilabel:`Print Label` from the dropdown menu of options. "
@@ -10276,7 +10298,7 @@ msgstr ""
 "จากเมนูแบบเลื่อนลงของตัวเลือก การทำเช่นนี้จะแสดงฟิลด์ :guilabel:`อุปกรณ์` "
 "ซึ่งสามารถเลือกอุปกรณ์ที่แนบมาได้"
 
-#: ../../content/applications/general/iot/devices/printer.rst:54
+#: ../../content/applications/general/iot/devices/printer.rst:59
 msgid ""
 "The printer can now be used with the selected quality control point. When "
 "the quality control point is reached during the manufacturing process, the "
@@ -10286,7 +10308,7 @@ msgstr ""
 "เมื่อถึงจุดควบคุมคุณภาพระหว่างกระบวนการผลิต "
 "ฐานข้อมูลจะแสดงตัวเลือกในการพิมพ์ฉลากสำหรับผลิตภัณฑ์เฉพาะ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:59
+#: ../../content/applications/general/iot/devices/printer.rst:64
 msgid ""
 "Quality control points can also be accessed by navigating "
 "to :menuselection:`IoT --> Devices`, then selecting the device. Go to "
@@ -10295,7 +10317,7 @@ msgstr ""
 "จุดควบคุมคุณภาพยังสามารถเข้าถึงได้โดยไปที่ :menuselection:`IoT --> อุปกรณ์` "
 "จากนั้นเลือกอุปกรณ์ ไปที่แท็บ :guilabel:`จุดควบคุมคุณภาพ` เพื่อเพิ่มไปยังอุปกรณ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:64
+#: ../../content/applications/general/iot/devices/printer.rst:69
 msgid ""
 "On a :doc:`quality check form </applications/inventory_and_mrp/quality/"
 "quality_management/quality_checks>`, the :guilabel:`Type` of check can also "
@@ -10305,24 +10327,24 @@ msgstr ""
 "quality_management/quality_checks>` :guilabel:`ประเภท` "
 "ของการตรวจสอบยังสามารถตั้งค่าเป็น :guilabel:`พิมพ์ฉลาก` ได้"
 
-#: ../../content/applications/general/iot/devices/printer.rst:75
+#: ../../content/applications/general/iot/devices/printer.rst:80
 msgid "Link reports to a printer"
 msgstr "เชื่อมโยงรายงานกับเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:77
+#: ../../content/applications/general/iot/devices/printer.rst:82
 msgid "It is possible to link report types to a specific printer. To do so:"
 msgstr "สามารถเชื่อมโยงประเภทรายงานกับเครื่องพิมพ์เฉพาะได้ ในการทำเช่นนั้น:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:79
+#: ../../content/applications/general/iot/devices/printer.rst:84
 msgid "Go to :menuselection:`IoT --> Devices` and select the desired printer."
 msgstr "ไปที่ :menuselection:`IoT --> อุปกรณ์` และเลือกเครื่องพิมพ์ที่ต้องการ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:80
+#: ../../content/applications/general/iot/devices/printer.rst:85
 msgid ""
 "Go to the :guilabel:`Printer Reports` tab and click :guilabel:`Add a line`."
 msgstr "ไปที่แท็บ :guilabel:`รายงานเครื่องพิมพ์` และคลิก :guilabel:`เพิ่มบรรทัด`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:81
+#: ../../content/applications/general/iot/devices/printer.rst:86
 msgid ""
 "In the pop-up that opens, select the types of reports to be linked to the "
 "printer and click :guilabel:`Select`."
@@ -10334,7 +10356,7 @@ msgstr ""
 msgid "The list of reports assigned to a printer in the IoT app."
 msgstr "รายการรายงานที่กำหนดให้กับเครื่องพิมพ์ในแอป IoT"
 
-#: ../../content/applications/general/iot/devices/printer.rst:88
+#: ../../content/applications/general/iot/devices/printer.rst:93
 msgid ""
 "Reports can also be configured by :ref:`enabling the developer mode "
 "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
@@ -10345,7 +10367,7 @@ msgstr ""
 "และไปที่ :menuselection:`การตั้งค่า --> ทางเทคนิค --> รายงาน` "
 "เลือกรายงานที่ต้องการจากรายการ และตั้งค่า :guilabel:`อุปกรณ์ IoT`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:92
+#: ../../content/applications/general/iot/devices/printer.rst:97
 msgid ""
 "The first time a linked report is selected to print, a :guilabel:`Select "
 "Printers` pop-up window appears. Tick the checkbox next to the correct "
@@ -10356,11 +10378,11 @@ msgstr ""
 "จะปรากฏขึ้น ทำเครื่องหมายที่ช่องทำเครื่องหมายข้างเครื่องพิมพ์ที่ถูกต้องสำหรับรายงาน "
 "แล้วคลิก :guilabel:`พิมพ์` เมื่อถึงจุดนั้น รายงานจะเชื่อมโยงกับเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:97
+#: ../../content/applications/general/iot/devices/printer.rst:102
 msgid "Clear device printer cache"
 msgstr "ล้างแคชเครื่องพิมพ์อุปกรณ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:99
+#: ../../content/applications/general/iot/devices/printer.rst:104
 msgid ""
 "After a printer is linked to print a report, the setting is saved in a "
 "browser's cache. This means a user can have different devices saved in their "
@@ -10374,7 +10396,7 @@ msgstr ""
 "นอกจากนี้ยังหมายความว่าผู้ใช้แต่ละรายสามารถพิมพ์รายงานโดยอัตโนมัติจากเครื่องพิมพ์ต่างๆ "
 "ได้ตามความต้องการ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:104
+#: ../../content/applications/general/iot/devices/printer.rst:109
 msgid ""
 "To unlink a report from a printer, navigate to :menuselection:`IoT --> "
 "Configuration --> Reset Linked Printers`. This generates a list of reports "
@@ -10386,7 +10408,7 @@ msgstr ""
 "การดำเนินการนี้จะสร้างรายการรายงานที่เชื่อมโยงกับเครื่องพิมพ์บนอุปกรณ์ปัจจุบัน "
 "คลิกปุ่ม :guilabel:`ยกเลิกการเชื่อมโยง` ถัดจากแต่ละรายงานเพื่อลบการเชื่อมโยง"
 
-#: ../../content/applications/general/iot/devices/printer.rst:109
+#: ../../content/applications/general/iot/devices/printer.rst:114
 msgid ""
 "This step **only** prevents the report from automatically printing to the "
 "listed printer from the current browser. The report is still :ref:`linked "
@@ -10400,19 +10422,19 @@ msgstr ""
 msgid "A list of reports currently linked to a printer in the IoT app."
 msgstr "รายการรายงานที่เชื่อมโยงอยู่กับเครื่องพิมพ์ในแอป IoT ปัจจุบัน"
 
-#: ../../content/applications/general/iot/devices/printer.rst:117
+#: ../../content/applications/general/iot/devices/printer.rst:122
 msgid ":ref:`POS Order Printing <pos/restaurant/orders-printing>`"
 msgstr ":ref:`การพิมพ์คำสั่งซื้อ PoS <pos/restaurant/orders-printing>`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:120
+#: ../../content/applications/general/iot/devices/printer.rst:125
 msgid "Potential issues"
 msgstr "ปัญหาที่อาจเกิดขึ้น"
 
-#: ../../content/applications/general/iot/devices/printer.rst:123
+#: ../../content/applications/general/iot/devices/printer.rst:128
 msgid "The printer is not detected"
 msgstr "ไม่พบเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:125
+#: ../../content/applications/general/iot/devices/printer.rst:130
 msgid ""
 "If a printer does not appear in the devices list, go to the :ref:`IoT box's "
 "<iot/iot-box/homepage>` or :ref:`Windows virtual IoT's <iot/windows-iot/"
@@ -10424,7 +10446,7 @@ msgstr ""
 "คลิก :guilabel:`แสดง` ในส่วน :guilabel:`อุปกรณ์` "
 "และตรวจสอบให้แน่ใจว่าเครื่องพิมพ์อยู่ในรายการ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:129
+#: ../../content/applications/general/iot/devices/printer.rst:134
 msgid ""
 "If the printer does not appear on the IoT system's homepage, "
 "click :guilabel:`Printer Server`, then :guilabel:`Administration`, "
@@ -10435,11 +10457,11 @@ msgstr ""
 "จากนั้น :guilabel:`การจัดการ` และ :guilabel:`เพิ่มเครื่องพิมพ์` "
 "หากเครื่องพิมพ์ไม่อยู่ในรายการ แสดงว่าอาจไม่ได้เชื่อมต่ออย่างถูกต้อง"
 
-#: ../../content/applications/general/iot/devices/printer.rst:134
+#: ../../content/applications/general/iot/devices/printer.rst:139
 msgid "The printer outputs random text"
 msgstr "เครื่องพิมพ์จะพิมพ์ข้อความแบบสุ่ม"
 
-#: ../../content/applications/general/iot/devices/printer.rst:136
+#: ../../content/applications/general/iot/devices/printer.rst:141
 msgid ""
 "For most printers, the correct driver should be automatically detected and "
 "selected. However, in some cases, the automatic detection mechanism might "
@@ -10450,7 +10472,7 @@ msgstr ""
 "ในบางกรณี กลไกการตรวจจับอัตโนมัติอาจไม่เพียงพอ และหากไม่พบไดรเวอร์ "
 "เครื่องพิมพ์อาจพิมพ์ตัวอักษรแบบสุ่ม"
 
-#: ../../content/applications/general/iot/devices/printer.rst:140
+#: ../../content/applications/general/iot/devices/printer.rst:145
 msgid ""
 "The solution is to manually select the corresponding driver. On the IoT "
 "system's homepage, click :guilabel:`Printer Server`, "
@@ -10467,7 +10489,7 @@ msgstr ""
 msgid "Edit the printer connected to the IoT system."
 msgstr "แก้ไขเครื่องพิมพ์ที่เชื่อมต่อกับระบบ IoT"
 
-#: ../../content/applications/general/iot/devices/printer.rst:150
+#: ../../content/applications/general/iot/devices/printer.rst:155
 msgid ""
 "Epson receipt printers and Zebra label printers do not need a driver to "
 "work. Make sure that no driver is selected for those printers."
@@ -10475,11 +10497,11 @@ msgstr ""
 "เครื่องพิมพ์ใบเสร็จ Epson และเครื่องพิมพ์ฉลาก Zebra ไม่จำเป็นต้องใช้ไดรเวอร์ในการทำงาน "
 "ตรวจสอบให้แน่ใจว่าไม่มีการเลือกไดรเวอร์สำหรับเครื่องพิมพ์เหล่านี้"
 
-#: ../../content/applications/general/iot/devices/printer.rst:154
+#: ../../content/applications/general/iot/devices/printer.rst:159
 msgid "The printer is detected but is not recognized correctly"
 msgstr "ตรวจพบเครื่องพิมพ์แล้ว แต่ไม่สามารถจดจำได้อย่างถูกต้อง"
 
-#: ../../content/applications/general/iot/devices/printer.rst:156
+#: ../../content/applications/general/iot/devices/printer.rst:161
 msgid ""
 "If Odoo and the IoT system do not recognize the printer correctly, go "
 "to :menuselection:`IoT --> Devices`, click the device's card to access its "
@@ -10493,11 +10515,11 @@ msgstr ""
 "เป็นตัวเลือกที่เหมาะสม: :guilabel:`เครื่องพิมพ์ใบเสร็จ`, :guilabel:`เครื่องพิมพ์ฉลาก` "
 "หรือ :guilabel:`เครื่องพิมพ์สำนักงาน`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:162
+#: ../../content/applications/general/iot/devices/printer.rst:167
 msgid "Epson configuration special case"
 msgstr "กรณีพิเศษการกำหนดค่า Epson"
 
-#: ../../content/applications/general/iot/devices/printer.rst:164
+#: ../../content/applications/general/iot/devices/printer.rst:169
 msgid ""
 "Most Epson printers support printing receipts in Odoo Point of Sale using "
 "the `GS v 0` command. However, the following Epson printer models do not "
@@ -10506,29 +10528,29 @@ msgstr ""
 "เครื่องพิมพ์ Epson ส่วนใหญ่รองรับการพิมพ์ใบเสร็จใน Odoo การขายหน้าร้านโดยใช้คำสั่ง `GS v 0` "
 "อย่างไรก็ตาม รุ่นเครื่องพิมพ์ Epson ต่อไปนี้ไม่รองรับคำสั่งนี้:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:167
+#: ../../content/applications/general/iot/devices/printer.rst:172
 msgid "TM-U220"
 msgstr "TM-U220"
 
-#: ../../content/applications/general/iot/devices/printer.rst:168
+#: ../../content/applications/general/iot/devices/printer.rst:173
 msgid "TM-U230"
 msgstr "TM-U230"
 
-#: ../../content/applications/general/iot/devices/printer.rst:169
+#: ../../content/applications/general/iot/devices/printer.rst:174
 msgid "TM-P60"
 msgstr "TM-P60"
 
-#: ../../content/applications/general/iot/devices/printer.rst:170
+#: ../../content/applications/general/iot/devices/printer.rst:175
 msgid "TMP-P60II"
 msgstr "TMP-P60II"
 
-#: ../../content/applications/general/iot/devices/printer.rst:172
+#: ../../content/applications/general/iot/devices/printer.rst:177
 msgid ""
 "To bypass this issue, you can configure the printer to use the `ESC *` "
 "command."
 msgstr "หากต้องการแก้ไขปัญหานี้ คุณสามารถกำหนดค่าเครื่องพิมพ์ให้ใช้คำสั่ง `ESC *` ได้"
 
-#: ../../content/applications/general/iot/devices/printer.rst:174
+#: ../../content/applications/general/iot/devices/printer.rst:179
 msgid ""
 "First, review Epson's website for compatibility for both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -10540,7 +10562,7 @@ msgstr ""
 "`ESC * <https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
 "esc_asterisk.html>`_"
 
-#: ../../content/applications/general/iot/devices/printer.rst:178
+#: ../../content/applications/general/iot/devices/printer.rst:183
 msgid ""
 "If the printer is incompatible with `GS v 0` but supports `ESC *`, configure "
 "the IoT system to use the `ESC *` command as follows:"
@@ -10548,14 +10570,14 @@ msgstr ""
 "หากเครื่องพิมพ์เข้ากันไม่ได้กับ `GS v 0` แต่รองรับ `ESC *` ให้กำหนดค่าระบบ IoT เพื่อใช้คำสั่ง "
 "`ESC *` ดังนี้:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:183
+#: ../../content/applications/general/iot/devices/printer.rst:188
 msgid ""
 "Click the :guilabel:`Printer server` button, then "
 "click :guilabel:`Administration` on the CUPS page."
 msgstr ""
 "คลิกปุ่ม :guilabel:`เซิร์ฟเวอร์เครื่องพิมพ์` จากนั้นคลิก :guilabel:`การจัดการ` บนหน้า CUPS"
 
-#: ../../content/applications/general/iot/devices/printer.rst:185
+#: ../../content/applications/general/iot/devices/printer.rst:190
 msgid ""
 "Click :guilabel:`Add Printer` in the :guilabel:`Printers` section, select "
 "the printer, and click :guilabel:`Continue`."
@@ -10563,32 +10585,32 @@ msgstr ""
 "คลิก :guilabel:`เพิ่มเครื่องพิมพ์` ในส่วน :guilabel:`เครื่องพิมพ์` เลือกเครื่องพิมพ์ "
 "และคลิก :guilabel:`ดำเนินการต่อ`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:189
+#: ../../content/applications/general/iot/devices/printer.rst:194
 msgid "If the printer's name is still uncertain, take the following steps:"
 msgstr "หากยังไม่แน่ใจเกี่ยวกับชื่อเครื่องพิมพ์ ให้ทำตามขั้นตอนต่อไปนี้:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:191
+#: ../../content/applications/general/iot/devices/printer.rst:196
 msgid "Take note of the listed printers on the CUPS page."
 msgstr "จดบันทึกเครื่องพิมพ์ที่แสดงในหน้า CUPS"
 
-#: ../../content/applications/general/iot/devices/printer.rst:192
+#: ../../content/applications/general/iot/devices/printer.rst:197
 msgid "Turn the printer off and refresh the page."
 msgstr "ปิดเครื่องพิมพ์และรีเฟรชหน้า"
 
-#: ../../content/applications/general/iot/devices/printer.rst:193
+#: ../../content/applications/general/iot/devices/printer.rst:198
 msgid ""
 "Compare the difference with the first list to see which printer disappeared."
 msgstr "เปรียบเทียบความแตกต่างกับรายการแรกเพื่อดูว่าเครื่องพิมพ์ใดหายไป"
 
-#: ../../content/applications/general/iot/devices/printer.rst:194
+#: ../../content/applications/general/iot/devices/printer.rst:199
 msgid "Turn the printer back on and refresh the page again."
 msgstr "เปิดเครื่องพิมพ์อีกครั้งและรีเฟรชหน้าอีกครั้ง"
 
-#: ../../content/applications/general/iot/devices/printer.rst:195
+#: ../../content/applications/general/iot/devices/printer.rst:200
 msgid "Double-check the list again to see if the printer re-appears."
 msgstr "ตรวจสอบรายการอีกครั้งเพื่อดูว่าเครื่องพิมพ์ปรากฏขึ้นอีกครั้งหรือไม่"
 
-#: ../../content/applications/general/iot/devices/printer.rst:196
+#: ../../content/applications/general/iot/devices/printer.rst:201
 msgid ""
 "The printer that disappeared and reappears again on the listed printers is "
 "the name of the printer in question. It can be :guilabel:`Unknown` "
@@ -10597,7 +10619,7 @@ msgstr ""
 "เครื่องพิมพ์ที่หายไปและปรากฏอีกครั้งในรายการเครื่องพิมพ์คือชื่อของเครื่องพิมพ์ที่เป็นปัญหา "
 "อาจแสดงเป็น :guilabel:`Unknown` ภายใต้ :guilabel:`Local printers`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:199
+#: ../../content/applications/general/iot/devices/printer.rst:204
 msgid ""
 "On the :guilabel:`Add Printer` page, specify the printer's :guilabel:`Name` "
 "using the following convention: "
@@ -10606,7 +10628,7 @@ msgstr ""
 "ในหน้า :guilabel:`Add Printer` ระบุ :guilabel:`Name` ของเครื่องพิมพ์โดยใช้รูปแบบดังนี้: "
 "`<printer_name>__IMC_<param_1>_<param_2>_..._<param_n>__` โดยที่:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:202
+#: ../../content/applications/general/iot/devices/printer.rst:207
 msgid ""
 "`printer_name` is the printer's name. It can contain any character except "
 "`_`, `/`, `#`, or ` ` (space character)."
@@ -10614,16 +10636,16 @@ msgstr ""
 "`printer_name` คือชื่อเครื่องพิมพ์ สามารถมีอักขระใดก็ได้ยกเว้น `_`, `/`, `#` หรือ ` ` "
 "(ช่องว่าง)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:204
+#: ../../content/applications/general/iot/devices/printer.rst:209
 msgid ""
 "`IMC`: This stands for *Image Mode Column* (the simplified name for `ESC *`)."
 msgstr "`IMC`: ย่อมาจาก *คอลัมน์โหมดภาพ* (ชื่อย่อของ `ESC *`)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:205
+#: ../../content/applications/general/iot/devices/printer.rst:210
 msgid "`param_1`: This stands for the specific parameter:"
 msgstr "`param_1`: ย่อมาจากพารามิเตอร์เฉพาะ:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:207
+#: ../../content/applications/general/iot/devices/printer.rst:212
 msgid ""
 "`SCALE<X>`: Scale of the picture (with the same aspect ratio). `X` should be "
 "an integer describing the scale percentage that should be used. For example, "
@@ -10634,26 +10656,26 @@ msgstr ""
 "ควรเป็นจำนวนเต็มที่อธิบายเปอร์เซ็นต์สเกลที่ควรใช้ ตัวอย่างเช่น `100` คือขนาดเดิม `50` "
 "คือครึ่งขนาด และ `200` คือสองเท่าของขนาด"
 
-#: ../../content/applications/general/iot/devices/printer.rst:210
+#: ../../content/applications/general/iot/devices/printer.rst:215
 msgid ""
 "`LDV`: *Low Density Vertical* (will be set to *High Density Vertical* if not "
 "specified)."
 msgstr "`LDV`: *ความหนาแน่นต่ำแนวตั้ง* (จะถูกตั้งเป็น *ความหนาแน่นสูงแนวตั้ง* ถ้าไม่ได้ระบุไว้)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:211
+#: ../../content/applications/general/iot/devices/printer.rst:216
 msgid ""
 "`LDH`: *Low Density Horizontal* (will be set to *High Density Horizontal* if "
 "not specified)."
 msgstr ""
 "`LDH`: *ความหนาแน่นต่ำแนวนอน* (จะถูกตั้งเป็น *ความหนาแน่นสูงแนวนอน* ถ้าไม่ได้ระบุไว้)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:214
+#: ../../content/applications/general/iot/devices/printer.rst:219
 msgid ""
 "*Density* parameters might need to be configured in a particular way, "
 "depending on the printer model."
 msgstr "พารามิเตอร์ *Density* อาจจำเป็นต้องกำหนดค่าในลักษณะเฉพาะขึ้นอยู่กับรุ่นของเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:216
+#: ../../content/applications/general/iot/devices/printer.rst:221
 msgid ""
 "Refer to `Epson's ESC * documentation <https://download4.epson.biz/sec_pubs/"
 "pos/reference_en/escpos/esc_asterisk.html>`_ to determine if the printer "
@@ -10663,23 +10685,23 @@ msgstr ""
 "reference_en/escpos/esc_asterisk.html>`_ "
 "เพื่อพิจารณาว่าเครื่องพิมพ์ต้องการให้ตั้งค่าพารามิเตอร์เหล่านี้หรือไม่"
 
-#: ../../content/applications/general/iot/devices/printer.rst:220
+#: ../../content/applications/general/iot/devices/printer.rst:225
 msgid "The following are examples of proper and improper name formatting:"
 msgstr "ต่อไปนี้เป็นตัวอย่างของการจัดรูปแบบชื่อที่ถูกต้องและไม่เหมาะสม:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:222
+#: ../../content/applications/general/iot/devices/printer.rst:227
 msgid "Proper name formatting:"
 msgstr "การจัดรูปแบบชื่อที่ถูกต้อง:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:224
+#: ../../content/applications/general/iot/devices/printer.rst:229
 msgid "`EPSONTMm30II__IMC__`"
 msgstr "`EPSONTMm30II__IMC__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:225
+#: ../../content/applications/general/iot/devices/printer.rst:230
 msgid "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 msgstr "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:227
+#: ../../content/applications/general/iot/devices/printer.rst:232
 msgid ""
 "Improper name formatting (this will not prevent printing, but the result "
 "might not have the expected printed output):"
@@ -10687,38 +10709,38 @@ msgstr ""
 "การจัดรูปแบบชื่อไม่ถูกต้อง (การดำเนินการนี้จะไม่ป้องกันการพิมพ์ "
 "แต่ผลลัพธ์อาจไม่เป็นไปตามที่คาดหวัง):"
 
-#: ../../content/applications/general/iot/devices/printer.rst:230
+#: ../../content/applications/general/iot/devices/printer.rst:235
 msgid "`EPSON TMm 30II`: The name cannot contain spaces."
 msgstr "`Epson TMm 30II`: ชื่อต้องไม่มีช่องว่าง"
 
-#: ../../content/applications/general/iot/devices/printer.rst:231
+#: ../../content/applications/general/iot/devices/printer.rst:236
 msgid ""
 "`EPSONTMm30II`: The name itself is correct, but it will not use `ESC *`."
 msgstr "`EPSONTMm30II`: ชื่อถูกต้อง แต่จะไม่ใช้ `ESC *`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:232
+#: ../../content/applications/general/iot/devices/printer.rst:237
 msgid "`EPSONTMm30II__IMC`: This name is missing the end `__`."
 msgstr "`EPSONTMm30II__IMC`: ชื่อนี้ขาด `__` ท้าย"
 
-#: ../../content/applications/general/iot/devices/printer.rst:233
+#: ../../content/applications/general/iot/devices/printer.rst:238
 msgid ""
 "`EPSONTMm30II__IMC_XDV__`: The parameter `XDV` does not match any existing "
 "parameters."
 msgstr "`EPSONTMm30II__IMC_XDV__`: พารามิเตอร์ `XDV` ไม่ตรงกับพารามิเตอร์ที่มีอยู่"
 
-#: ../../content/applications/general/iot/devices/printer.rst:234
+#: ../../content/applications/general/iot/devices/printer.rst:239
 msgid ""
 "`EPSONTMm30II__IMC_SCALE__`: The parameter `SCALE` is missing the scale "
 "value."
 msgstr "`EPSONTMm30II__IMC_SCALE__`: พารามิเตอร์ `SCALE` ขาดค่าสเกล"
 
-#: ../../content/applications/general/iot/devices/printer.rst:236
+#: ../../content/applications/general/iot/devices/printer.rst:241
 msgid ""
 "Once the printer's name has been defined using the appropriate naming "
 "convention, click :guilabel:`Continue`."
 msgstr "เมื่อกำหนดชื่อเครื่องพิมพ์โดยใช้รูปแบบที่เหมาะสมแล้ว ให้คลิก :guilabel:`Continue`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:238
+#: ../../content/applications/general/iot/devices/printer.rst:243
 msgid ""
 "Set the :guilabel:`Make` value to :guilabel:`Raw` and the :guilabel:`Model` "
 "value to :guilabel:`Raw Queue (en)`."
@@ -10726,7 +10748,7 @@ msgstr ""
 "ตั้งค่า :guilabel:`Make` เป็น :guilabel:`Raw` และค่า :guilabel:`Model` "
 "เป็น :guilabel:`Raw Queue (en)`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:240
+#: ../../content/applications/general/iot/devices/printer.rst:245
 msgid ""
 "Click :guilabel:`Add Printer`. If everything was done correctly, the page "
 "should redirect to the :guilabel:`Banners` page."
@@ -10734,13 +10756,13 @@ msgstr ""
 "คลิก :guilabel:`Add Printer` หากทำทุกอย่างถูกต้อง "
 "หน้าจะเปลี่ยนเส้นทางไปยังหน้า :guilabel:`Banners`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:242
+#: ../../content/applications/general/iot/devices/printer.rst:247
 msgid ""
 "Wait a few minutes for the IoT system to detect the printer and sync to "
 "Odoo's server."
 msgstr "รอสักครู่เพื่อให้ระบบ IoT ตรวจจับเครื่องพิมพ์และซิงค์กับเซิร์ฟเวอร์ของ Odoo"
 
-#: ../../content/applications/general/iot/devices/printer.rst:243
+#: ../../content/applications/general/iot/devices/printer.rst:248
 msgid ""
 ":ref:`Access the POS settings <pos/use/settings>` and select your POS, or "
 "click the vertical ellipsis button (:guilabel:`⋮`) on a POS card and "
@@ -10754,7 +10776,7 @@ msgstr ""
 "เลื่อนลงไปที่ส่วน :guilabel:`อุปกรณ์ที่เชื่อมต่อ` เปิดใช้งาน :guilabel:`IoT Box` "
 "และเลือกเครื่องพิมพ์ในช่อง :guilabel:`เครื่องพิมพ์ใบเสร็จ` คลิก :guilabel:`บันทึก`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:249
+#: ../../content/applications/general/iot/devices/printer.rst:254
 msgid ""
 "If the printer was set up incorrectly (e.g., it continues to print random "
 "text, or the printed receipt is too large or too small), it cannot be "
@@ -10765,7 +10787,7 @@ msgstr ""
 "จะไม่สามารถแก้ไขผ่านชื่อเครื่องพิมพ์ใน CUPS ได้ "
 "ให้กำหนดค่าเครื่องพิมพ์ใหม่ตั้งแต่ต้นด้วยพารามิเตอร์ที่แก้ไขแล้วโดยทำตามขั้นตอนข้างต้น"
 
-#: ../../content/applications/general/iot/devices/printer.rst:257
+#: ../../content/applications/general/iot/devices/printer.rst:262
 msgid ""
 "The following is an example of the troubleshooting process for a TM-U220B "
 "printer model using the `ESC *` command. The receipt pictured below is an "
@@ -10780,7 +10802,7 @@ msgstr ""
 msgid "Properly formatted receipt picture from a demo database."
 msgstr "รูปใบเสร็จที่จัดรูปแบบอย่างถูกต้องจากฐานข้อมูลสาธิต"
 
-#: ../../content/applications/general/iot/devices/printer.rst:265
+#: ../../content/applications/general/iot/devices/printer.rst:270
 msgid ""
 "Printing this receipt immediately without proper formatting will not work, "
 "as the TM-U220B printer model does not support the `GS v 0` command. "
@@ -10793,7 +10815,7 @@ msgstr ""
 msgid "Printer paper with seemingly random characters."
 msgstr "กระดาษพิมพ์ที่มีตัวอักษรดูเหมือนสุ่ม"
 
-#: ../../content/applications/general/iot/devices/printer.rst:272
+#: ../../content/applications/general/iot/devices/printer.rst:277
 msgid ""
 "To properly configure formatting for the Epson TM-U220B printer model, "
 "follow these steps:"
@@ -10801,7 +10823,7 @@ msgstr ""
 "เพื่อกำหนดค่าการจัดรูปแบบให้เหมาะสมสำหรับเครื่องพิมพ์รุ่น Epson TM-U220B "
 "ให้ทำตามขั้นตอนเหล่านี้:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:274
+#: ../../content/applications/general/iot/devices/printer.rst:279
 msgid ""
 "After checking Epson's website for compatibility with both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -10819,7 +10841,7 @@ msgstr ""
 msgid "Epson compatibility evaluation from Epson website."
 msgstr "การประเมินความเข้ากันได้ของ Epson จากเว็บไซต์ Epson"
 
-#: ../../content/applications/general/iot/devices/printer.rst:282
+#: ../../content/applications/general/iot/devices/printer.rst:287
 msgid "When adding the printer, CUPS displays the list of available printers:"
 msgstr "เมื่อเพิ่มเครื่องพิมพ์ CUPS จะแสดงรายการเครื่องพิมพ์ที่มี:"
 
@@ -10827,7 +10849,7 @@ msgstr "เมื่อเพิ่มเครื่องพิมพ์ CUPS 
 msgid "Administration menu, add printer selection."
 msgstr "เมนูการจัดการ เพิ่มการเลือกเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:288
+#: ../../content/applications/general/iot/devices/printer.rst:293
 msgid ""
 "In this case, the printer is connected via USB, so it is not part of "
 "the :guilabel:`Discovered Network Printers`. Instead, it is likely part of "
@@ -10842,7 +10864,7 @@ msgstr ""
 "เครื่องพิมพ์ :guilabel:`Unknown` จะหายไป และเมื่อเสียบกลับเข้าไป "
 "เครื่องพิมพ์ก็จะปรากฏขึ้นมาอีกครั้ง"
 
-#: ../../content/applications/general/iot/devices/printer.rst:294
+#: ../../content/applications/general/iot/devices/printer.rst:299
 msgid ""
 "For the naming convention, since the printer must print using the `ESC *` "
 "command, it is imperative to add `__IMC`."
@@ -10853,7 +10875,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturer's website."
 msgstr "ข้อมูลจำเพาะของ Epson TM-U220 บนเว็บไซต์ของผู้ผลิต"
 
-#: ../../content/applications/general/iot/devices/printer.rst:300
+#: ../../content/applications/general/iot/devices/printer.rst:305
 msgid ""
 "For this particular model (TM-U220) `m` should be equal to 0 or 1. While "
 "referencing the :guilabel:`Description` table on `Epson's ESC * website "
@@ -10868,7 +10890,7 @@ msgstr ""
 "`m` อาจเป็น 0, 1, 32 หรือ 33 ดังนั้น ในกรณีนี้ ค่า `m` **ไม่สามารถ**เป็น 32 หรือ 33 "
 "(มิฉะนั้นจะมีการพิมพ์อักขระแบบสุ่ม)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:306
+#: ../../content/applications/general/iot/devices/printer.rst:311
 msgid ""
 "The table includes the numeric values 32 and 33; they both occur if "
 "the :guilabel:`Number of bits for vertical data` is set to 24, i.e. it has a "
@@ -10881,7 +10903,7 @@ msgstr ""
 "ในกรณีของการกำหนดค่า Epson TM-U220 จะต้องบังคับให้ใช้ *Low Vertical Density* "
 "เนื่องจากเครื่องพิมพ์รุ่นนี้ไม่รองรับ *High Vertical Density* สำหรับคำสั่ง `ESC *`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:311
+#: ../../content/applications/general/iot/devices/printer.rst:316
 msgid ""
 "To add a *Low Vertical Density*, add the `LDV` parameter to the naming "
 "convention."
@@ -10893,7 +10915,7 @@ msgid ""
 "Add a *Low Vertical Density* (the `LDV` parameter) to the naming convention."
 msgstr "เพิ่ม *ความหนาแน่นแนวตั้งต่ำ* (พารามิเตอร์ `LDV`) ลงในข้อตกลงการตั้งชื่อ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:316
+#: ../../content/applications/general/iot/devices/printer.rst:321
 msgid ""
 "Click :guilabel:`Continue` to proceed. Next, set the :guilabel:`Make` value "
 "to :guilabel:`Raw` and the :guilabel:`Model` value to :guilabel:`Raw Queue "
@@ -10906,7 +10928,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturers website."
 msgstr "ข้อมูลจำเพาะของ Epson TM-U220 บนเว็บไซต์ของผู้ผลิต"
 
-#: ../../content/applications/general/iot/devices/printer.rst:322
+#: ../../content/applications/general/iot/devices/printer.rst:327
 msgid ""
 "However, when trying to print with the naming convention "
 "`EpsonTMU220B__IMC_LDV__`, the receipt is printed, but it is too large and "
@@ -10917,27 +10939,27 @@ msgstr ""
 "ใบเสร็จจะถูกพิมพ์ออกมา แต่มีขนาดใหญ่เกินไปและอยู่นอกขอบ เพื่อแก้ไขปัญหานี้ ให้เพิ่มเครื่องพิมพ์ใหม่ "
 "(และการตั้งชื่อใหม่) พร้อมกับพารามิเตอร์ `SCALE<X>` เพื่อปรับให้เข้ากับขนาดของใบเสร็จ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:326
+#: ../../content/applications/general/iot/devices/printer.rst:331
 msgid "Here are some examples:"
 msgstr "นี่คือตัวอย่างบางส่วน:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:331
+#: ../../content/applications/general/iot/devices/printer.rst:336
 msgid "Printer Naming Convention"
 msgstr "หลักการตั้งชื่อเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:332
+#: ../../content/applications/general/iot/devices/printer.rst:337
 msgid "`EpsonTMU220B__IMC_LDV__`"
 msgstr "`EpsonTMU220B__IMC_LDV__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:333
+#: ../../content/applications/general/iot/devices/printer.rst:338
 msgid "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 msgstr "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:334
+#: ../../content/applications/general/iot/devices/printer.rst:339
 msgid "`EpsonTMU220B__IMC_LDV_LDH__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:335
+#: ../../content/applications/general/iot/devices/printer.rst:340
 msgid "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 
@@ -10963,11 +10985,11 @@ msgid ""
 "Receipt format using naming convention: EpsonTMU220B__IMC_LDV_LDH_SCALE35__."
 msgstr "รูปแบบใบเสร็จโดยใช้หลักการตั้งชื่อ: EpsonTMU220B__IMC_LDV_LDH_SCALE35__."
 
-#: ../../content/applications/general/iot/devices/printer.rst:348
+#: ../../content/applications/general/iot/devices/printer.rst:353
 msgid "DYMO LabelWriter print issue"
 msgstr "ปัญหาการพิมพ์ DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:350
+#: ../../content/applications/general/iot/devices/printer.rst:355
 msgid ""
 "The DYMO LabelWriter has a known issue in printing with IoT systems. The "
 "OpenPrinting CUPS server installs the printer using :guilabel:`Local RAW "
@@ -10979,14 +11001,14 @@ msgstr ""
 "ติดตั้งเครื่องพิมพ์โดยใช้ไดรเวอร์ :guilabel:`Local RAW Printer` ในการพิมพ์อะไรก็ตาม "
 "จำเป็นต้องตั้งค่า :guilabel:`Make and Model` ที่ถูกต้องเพื่ออ้างอิงไดรเวอร์ที่ถูกต้องเมื่อใช้อุปกรณ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:355
+#: ../../content/applications/general/iot/devices/printer.rst:360
 msgid ""
 "Additionally, a new printer needs to be added to reduce the print delay that "
 "occurs after updating the driver."
 msgstr ""
 "นอกจากนี้ ยังจำเป็นต้องเพิ่มเครื่องพิมพ์ใหม่เพื่อลดความล่าช้าในการพิมพ์ที่เกิดขึ้นหลังจากอัปเดตไดรเวอร์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:359
+#: ../../content/applications/general/iot/devices/printer.rst:364
 msgid ""
 "The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use "
 "with Odoo and IoT systems. This device combines two printers: a label "
@@ -11003,16 +11025,16 @@ msgstr ""
 "กระบวนการต่อไปนี้จะอธิบายขั้นตอนการกำหนดค่าสำหรับรุ่น DYMO LabelWriter 450 DUO Label "
 "(en) โปรดปรับการเลือกรุ่นตามความจำเป็น"
 
-#: ../../content/applications/general/iot/devices/printer.rst:369
+#: ../../content/applications/general/iot/devices/printer.rst:374
 msgid "DYMO LabelWriter not printing"
 msgstr "DYMO LabelWriter ไม่พิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:371
+#: ../../content/applications/general/iot/devices/printer.rst:376
 msgid "If the DYMO LabelWriter fails to print, install a new driver:"
 msgstr "หาก DYMO LabelWriter พิมพ์ไม่ได้ ให้ติดตั้งไดรเวอร์ใหม่:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:373
-#: ../../content/applications/general/iot/devices/printer.rst:409
+#: ../../content/applications/general/iot/devices/printer.rst:378
+#: ../../content/applications/general/iot/devices/printer.rst:414
 msgid ""
 "Access the IoT system's homepage and click :menuselection:`Printer server` "
 "to open the OpenPrinting CUPS console."
@@ -11020,17 +11042,17 @@ msgstr ""
 "เข้าถึงหน้าแรกของระบบ IoT และคลิก :menuselection:`Printer server` เพื่อเปิดคอนโซล "
 "OpenPrinting CUPS"
 
-#: ../../content/applications/general/iot/devices/printer.rst:375
+#: ../../content/applications/general/iot/devices/printer.rst:380
 msgid ""
 "Click :menuselection:`Printers` in the top menu, then click the printer in "
 "the list."
 msgstr "คลิก :menuselection:`Printers` ในเมนูด้านบน จากนั้นคลิกเครื่องพิมพ์ในรายการ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:376
+#: ../../content/applications/general/iot/devices/printer.rst:381
 msgid "Select :guilabel:`Maintenance` in the first dropdown menu."
 msgstr "เลือก :guilabel:`การซ่อมบำรุง` ในเมนูดรอปดาวน์แรก"
 
-#: ../../content/applications/general/iot/devices/printer.rst:377
+#: ../../content/applications/general/iot/devices/printer.rst:382
 msgid "Select :guilabel:`Modify Printer` in the second dropdown menu."
 msgstr "เลือก :guilabel:`Modify Printer` ในเมนูดรอปดาวน์ที่สอง"
 
@@ -11043,14 +11065,14 @@ msgstr ""
 "แก้ไข make และ model ของ DYMO LabelWriter เมนูดรอปดาวน์ Maintenance และ Modify "
 "ถูกไฮไลต์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:383
+#: ../../content/applications/general/iot/devices/printer.rst:388
 msgid ""
 "Select the specific network connection/printer on which the modification "
 "should be made and click :guilabel:`Continue`."
 msgstr ""
 "เลือกการเชื่อมต่อเครือข่าย/เครื่องพิมพ์เฉพาะที่ต้องการแก้ไข และคลิก :guilabel:`Continue`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:385
+#: ../../content/applications/general/iot/devices/printer.rst:390
 msgid ""
 "On the next page, click :guilabel:`Continue`, then select :guilabel:`DYMO` "
 "from the :guilabel:`Make` dropdown list."
@@ -11058,7 +11080,7 @@ msgstr ""
 "ในหน้าถัดไป ให้คลิก :guilabel:`Continue` จากนั้นเลือก :guilabel:`DYMO` "
 "จากรายการดรอปดาวน์ :guilabel:`Make`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:387
+#: ../../content/applications/general/iot/devices/printer.rst:392
 msgid ""
 "Click on :guilabel:`Continue` and set the :guilabel:`Model` "
 "to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO "
@@ -11067,14 +11089,13 @@ msgstr ""
 "คลิก :guilabel:`Continue` และตั้งค่า :guilabel:`Model` เป็น :guilabel:`DYMO "
 "LabelWriter 450 DUO Label (en)` (หรือรุ่นเครื่องพิมพ์ DYMO ที่กำลังใช้งาน)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:389
+#: ../../content/applications/general/iot/devices/printer.rst:394
 msgid ""
 "Click :guilabel:`Modify Printer` to set the new driver; a confirmation page "
 "appears."
-msgstr ""
-"คลิก :guilabel:`แก้ไขเครื่องพิมพ์` เพื่อตั้งค่าไดรเวอร์ใหม่ หน้าการยืนยันจะปรากฏขึ้น"
+msgstr "คลิก :guilabel:`แก้ไขเครื่องพิมพ์` เพื่อตั้งค่าไดรเวอร์ใหม่ หน้าการยืนยันจะปรากฏขึ้น"
 
-#: ../../content/applications/general/iot/devices/printer.rst:390
+#: ../../content/applications/general/iot/devices/printer.rst:395
 msgid ""
 "Click :menuselection:`Printers` in the top menu; all printers installed on "
 "the OpenPrinting CUPS server appear, including the newly "
@@ -11085,58 +11106,58 @@ msgstr ""
 "OpenPrinting CUPS จะปรากฏขึ้น รวมถึง :guilabel:`DYMO LabelWriter 450 DUO Label` "
 "ที่เพิ่งอัปเดตใหม่ (หรือรุ่นเครื่องพิมพ์ DYMO ใดๆ ที่ใช้งานอยู่)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:393
+#: ../../content/applications/general/iot/devices/printer.rst:398
 msgid ""
 "Click the newly updated printer, then click the :guilabel:`Maintenance` "
 "dropdown menu and select :guilabel:`Print Test Page` to print a test label. "
 "The test label is printed after a few seconds if the driver update was "
 "successful."
 msgstr ""
-"คลิกที่เครื่องพิมพ์ที่เพิ่งอัปเดตใหม่ จากนั้นคลิกเมนูแบบเลื่อนลง :guilabel:`การซ่อมบำรุง` และเลือก "
-":guilabel:`พิมพ์หน้าทดสอบ` เพื่อพิมพ์ฉลากทดสอบ ฉลากทดสอบจะถูกพิมพ์ออกมาหลังจากผ่านไปไม่กี่วิน"
-"าทีหากการอัปเดตไดรเวอร์สำเร็จ"
+"คลิกที่เครื่องพิมพ์ที่เพิ่งอัปเดตใหม่ จากนั้นคลิกเมนูแบบเลื่อนลง :guilabel:`การซ่อมบำรุง` "
+"และเลือก :guilabel:`พิมพ์หน้าทดสอบ` เพื่อพิมพ์ฉลากทดสอบ "
+"ฉลากทดสอบจะถูกพิมพ์ออกมาหลังจากผ่านไปไม่กี่วินาทีหากการอัปเดตไดรเวอร์สำเร็จ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:397
+#: ../../content/applications/general/iot/devices/printer.rst:402
 msgid "To reduce this delay, add a new printer using the steps below."
 msgstr "เพื่อลดความล่าช้านี้ ให้เพิ่มเครื่องพิมพ์ใหม่โดยใช้ขั้นตอนด้านล่าง"
 
-#: ../../content/applications/general/iot/devices/printer.rst:400
+#: ../../content/applications/general/iot/devices/printer.rst:405
 msgid "DYMO LabelWriter print delay"
 msgstr "DYMO LabelWriter การพิมพ์ล่าช้า"
 
-#: ../../content/applications/general/iot/devices/printer.rst:403
+#: ../../content/applications/general/iot/devices/printer.rst:408
 msgid ""
 "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not "
 "recognized (i.e., it has a :guilabel:`RAW` driver type), then :ref:`update "
 "the drivers on the device <printer/dymo/update_drivers>`."
 msgstr ""
-"หากเครื่องพิมพ์ DYMO LabelWriter 450 DUO ไม่พิมพ์เลยหรือไม่ถูกจดจำ (คือมีประเภทไดรเวอร์เป็"
-"น :guilabel:`RAW`) ให้ :ref:`อัปเดตไดรเวอร์บนอุปกรณ์ <printer/dymo/update_drivers>"
-"`"
+"หากเครื่องพิมพ์ DYMO LabelWriter 450 DUO ไม่พิมพ์เลยหรือไม่ถูกจดจำ "
+"(คือมีประเภทไดรเวอร์เป็น :guilabel:`RAW`) ให้ :ref:`อัปเดตไดรเวอร์บนอุปกรณ์ <printer/"
+"dymo/update_drivers>`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:407
+#: ../../content/applications/general/iot/devices/printer.rst:412
 msgid ""
 "To resolve the delay issue after modifying the driver, reinstall the printer:"
-msgstr ""
-"เพื่อแก้ไขปัญหาความล่าช้าหลังจากแก้ไขไดรเวอร์ ให้ติดตั้งเครื่องพิมพ์ใหม่:"
+msgstr "เพื่อแก้ไขปัญหาความล่าช้าหลังจากแก้ไขไดรเวอร์ ให้ติดตั้งเครื่องพิมพ์ใหม่:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:411
+#: ../../content/applications/general/iot/devices/printer.rst:416
 msgid ""
 "Click :menuselection:`Administration` in the top menu, then "
 "click :guilabel:`Add a Printer`."
 msgstr ""
 "คลิก :menuselection:`การดูแลระบบ` ในเมนูด้านบน จากนั้นคลิก :guilabel:`เพิ่มเครื่องพิมพ์`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:412
+#: ../../content/applications/general/iot/devices/printer.rst:417
 msgid ""
 "On the next page, in the :guilabel:`Local Printers` section, "
 "select :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO "
 "Label)` (or whichever DYMO printer model is being used) pre-installed "
 "printer. Click :guilabel:`Continue`."
 msgstr ""
-"ในหน้าถัดไป ในส่วน :guilabel:`เครื่องพิมพ์ในเครื่อง` ให้เลือกเครื่องพิมพ์ที่ติดตั้งไว้ล่วงหน้า "
-":guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO Label)` "
-"(หรือรุ่นเครื่องพิมพ์ DYMO ใดๆ ที่ใช้งานอยู่) คลิก :guilabel:`ดำเนินการต่อ`"
+"ในหน้าถัดไป ในส่วน :guilabel:`เครื่องพิมพ์ในเครื่อง` "
+"ให้เลือกเครื่องพิมพ์ที่ติดตั้งไว้ล่วงหน้า :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO "
+"LabelWriter 450 DUO Label)` (หรือรุ่นเครื่องพิมพ์ DYMO ใดๆ ที่ใช้งานอยู่) "
+"คลิก :guilabel:`ดำเนินการต่อ`"
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid ""
@@ -11146,14 +11167,14 @@ msgid ""
 msgstr ""
 "หน้าจอเพิ่มเครื่องพิมพ์บน OpenPrinting CUPS โดยไฮไลต์ DYMO LabelWriter 450 DUO Label"
 
-#: ../../content/applications/general/iot/devices/printer.rst:420
+#: ../../content/applications/general/iot/devices/printer.rst:425
 msgid ""
 "On the following screen, update the :guilabel:`Name` to something easily "
 "identifiable, as the original printer will remain in the list. Then, "
 "click :guilabel:`Continue`."
 msgstr ""
-"ในหน้าจอถัดไป ให้อัปเดต :guilabel:`ชื่อ` ให้เป็นอะไรที่ระบุได้ง่าย เนื่องจากเครื่องพิมพ์เดิมจะยังค"
-"งอยู่ในรายการ จากนั้นคลิก :guilabel:`ดำเนินการต่อ`"
+"ในหน้าจอถัดไป ให้อัปเดต :guilabel:`ชื่อ` ให้เป็นอะไรที่ระบุได้ง่าย "
+"เนื่องจากเครื่องพิมพ์เดิมจะยังคงอยู่ในรายการ จากนั้นคลิก :guilabel:`ดำเนินการต่อ`"
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid ""
@@ -11161,15 +11182,15 @@ msgid ""
 "highlighted."
 msgstr "เปลี่ยนชื่อหน้าเครื่องพิมพ์ในขั้นตอน 'เพิ่มเครื่องพิมพ์' โดยไฮไลต์ช่องชื่อไว้"
 
-#: ../../content/applications/general/iot/devices/printer.rst:426
+#: ../../content/applications/general/iot/devices/printer.rst:431
 msgid ""
 "Set the :guilabel:`Model` field to :guilabel:`DYMO LabelWriter 450 DUO Label "
 "(en)` (or whichever DYMO printer model is being used), then "
 "click :guilabel:`Add Printer` to complete the installation."
 msgstr ""
-"ตั้งค่าฟิลด์ :guilabel:`รุ่น` เป็น :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (ห"
-"รือรุ่นเครื่องพิมพ์ DYMO ใดๆ ที่ใช้งานอยู่) จากนั้นคลิก :guilabel:`เพิ่มเครื่องพิมพ์` เพื่อดำเนินการติ"
-"ดตั้งให้เสร็จสมบูรณ์"
+"ตั้งค่าฟิลด์ :guilabel:`รุ่น` เป็น :guilabel:`DYMO LabelWriter 450 DUO Label (en)` "
+"(หรือรุ่นเครื่องพิมพ์ DYMO ใดๆ ที่ใช้งานอยู่) จากนั้นคลิก :guilabel:`เพิ่มเครื่องพิมพ์` "
+"เพื่อดำเนินการติดตั้งให้เสร็จสมบูรณ์"
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid ""
@@ -11180,34 +11201,34 @@ msgstr ""
 "เลือกหน้าจอรุ่นจำลองบนคอนโซล OpenPrinting CUPS โดยไฮไลต์รุ่นจำลองและ\n"
 "เพิ่มเครื่องพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:434
+#: ../../content/applications/general/iot/devices/printer.rst:439
 msgid ""
 "Click :menuselection:`Printers` in the top menu and click the newly "
 "installed printer :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever "
 "DYMO printer model is being used) from in the list."
 msgstr ""
-"คลิก :menuselection:`เครื่องพิมพ์` ในเมนูด้านบนและคลิกเครื่องพิมพ์ที่ติดตั้งใหม่ "
-":guilabel:`DYMO LabelWriter 450 DUO Label` (หรือรุ่นเครื่องพิมพ์ DYMO ใดๆ ที่ใช้งานอยู่) "
-"จากรายการ"
+"คลิก :menuselection:`เครื่องพิมพ์` "
+"ในเมนูด้านบนและคลิกเครื่องพิมพ์ที่ติดตั้งใหม่ :guilabel:`DYMO LabelWriter 450 DUO Label` "
+"(หรือรุ่นเครื่องพิมพ์ DYMO ใดๆ ที่ใช้งานอยู่) จากรายการ"
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid "Printer page with newly installed printer highlighted."
 msgstr "หน้าเครื่องพิมพ์ที่มีเครื่องพิมพ์ที่ติดตั้งใหม่ถูกไฮไลต์ไว้"
 
-#: ../../content/applications/general/iot/devices/printer.rst:441
+#: ../../content/applications/general/iot/devices/printer.rst:446
 msgid ""
 "Click the :guilabel:`Maintenance` dropdown list and select :guilabel:`Print "
 "Test Page` to print a test label. The test label should print out "
 "immediately, or after one or two seconds."
 msgstr ""
-"คลิกรายการแบบเลื่อนลง :guilabel:`การซ่อมบำรุง` และเลือก :guilabel:`พิมพ์หน้าทดสอบ` เพื่อ"
-"พิมพ์ฉลากทดสอบ ฉลากทดสอบควรพิมพ์ออกมาทันทีหรือหลังจากผ่านไปหนึ่งหรือสองวินาที"
+"คลิกรายการแบบเลื่อนลง :guilabel:`การซ่อมบำรุง` และเลือก :guilabel:`พิมพ์หน้าทดสอบ` "
+"เพื่อพิมพ์ฉลากทดสอบ ฉลากทดสอบควรพิมพ์ออกมาทันทีหรือหลังจากผ่านไปหนึ่งหรือสองวินาที"
 
-#: ../../content/applications/general/iot/devices/printer.rst:445
+#: ../../content/applications/general/iot/devices/printer.rst:450
 msgid "The Zebra printer does not print anything"
 msgstr "เครื่องพิมพ์ Zebra ไม่พิมพ์อะไรเลย"
 
-#: ../../content/applications/general/iot/devices/printer.rst:447
+#: ../../content/applications/general/iot/devices/printer.rst:452
 msgid ""
 "Zebra printers are quite sensitive to the format of the printed Zebra "
 "Programming Language (ZPL) code. If nothing comes out of the printer or "
@@ -11216,13 +11237,13 @@ msgid ""
 "to :menuselection:`Settings --> Technical --> User Interface --> Views`, and "
 "search for the corresponding template."
 msgstr ""
-"เครื่องพิมพ์ Zebra ค่อนข้างไวต่อรูปแบบของโค้ด Zebra Programming Language (ZPL) ที่พิมพ์ หา"
-"กไม่มีอะไรออกมาจากเครื่องพิมพ์หรือพิมพ์ฉลากเปล่าออกมา ให้ลองเปลี่ยนรูปแบบของรายงานที่ส่งไปยังเค"
-"รื่องพิมพ์ ในการทำเช่นนั้น ให้เปิดใช้งาน :ref:`โหมดนักพัฒนา <developer-mode>` ไปที่ "
-":menuselection:`การตั้งค่า --> ทางเทคนิค --> อินเทอร์เฟซผู้ใช้ --> มุมมอง` และค้นหาเทมเพ"
-"ลตที่สอดคล้องกัน"
+"เครื่องพิมพ์ Zebra ค่อนข้างไวต่อรูปแบบของโค้ด Zebra Programming Language (ZPL) ที่พิมพ์ "
+"หากไม่มีอะไรออกมาจากเครื่องพิมพ์หรือพิมพ์ฉลากเปล่าออกมา "
+"ให้ลองเปลี่ยนรูปแบบของรายงานที่ส่งไปยังเครื่องพิมพ์ ในการทำเช่นนั้น "
+"ให้เปิดใช้งาน :ref:`โหมดนักพัฒนา <developer-mode>` ไปที่ :menuselection:`การตั้งค่า --"
+"> ทางเทคนิค --> อินเทอร์เฟซผู้ใช้ --> มุมมอง` และค้นหาเทมเพลตที่สอดคล้องกัน"
 
-#: ../../content/applications/general/iot/devices/printer.rst:454
+#: ../../content/applications/general/iot/devices/printer.rst:459
 msgid ""
 "`Zebra's instructions on printing ZPL files <https://"
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
@@ -11231,41 +11252,41 @@ msgstr ""
 "<https://supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-"
 "Generic-Text-Printer>`คำแนะนำของ Zebra ในการพิมพ์ไฟล์ ZPL"
 
-#: ../../content/applications/general/iot/devices/printer.rst:458
+#: ../../content/applications/general/iot/devices/printer.rst:463
 msgid "Barcode scanner issues"
 msgstr "ปัญหาเครื่องสแกนบาร์โค้ด"
 
-#: ../../content/applications/general/iot/devices/printer.rst:461
+#: ../../content/applications/general/iot/devices/printer.rst:466
 msgid "The characters read by the barcode scanner do not match the barcode"
 msgstr "ตัวอักษรที่เครื่องสแกนบาร์โค้ดอ่านไม่ตรงกับบาร์โค้ด"
 
-#: ../../content/applications/general/iot/devices/printer.rst:463
+#: ../../content/applications/general/iot/devices/printer.rst:468
 msgid ""
 "By default, most barcode scanners are configured in the US QWERTY format. If "
 "the barcode scanner uses a different layout, go to :menuselection:`IoT --> "
 "Devices` and click the barcode device's card. Then, select the correct "
 "language in the :guilabel:`Keyboard Layout` field."
 msgstr ""
-"โดยค่าเริ่มต้น เครื่องสแกนบาร์โค้ดส่วนใหญ่ถูกกำหนดค่าในรูปแบบ US QWERTY หากเครื่องสแกนบาร์โค้ด"
-"ใช้เค้าโครงที่แตกต่างกัน ให้ไปที่ :menuselection:`IoT --> อุปกรณ์` และคลิกการ์ดของอุปกรณ์บาร์"
-"โค้ด จากนั้นเลือกภาษาที่ถูกต้องในฟิลด์ :guilabel:`เค้าโครงแป้นพิมพ์`"
+"โดยค่าเริ่มต้น เครื่องสแกนบาร์โค้ดส่วนใหญ่ถูกกำหนดค่าในรูปแบบ US QWERTY "
+"หากเครื่องสแกนบาร์โค้ดใช้เค้าโครงที่แตกต่างกัน ให้ไปที่ :menuselection:`IoT --> อุปกรณ์` "
+"และคลิกการ์ดของอุปกรณ์บาร์โค้ด จากนั้นเลือกภาษาที่ถูกต้องในฟิลด์ :guilabel:`เค้าโครงแป้นพิมพ์`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:468
-#: ../../content/applications/general/iot/devices/printer.rst:498
+#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:503
 msgid ""
 "The :guilabel:`Keyboard Layout` is language-specific, with available options "
 "varying based on the device and the language of the database "
 "(e.g., :guilabel:`English (UK)`, :guilabel:`English (US)`, etc.)."
 msgstr ""
-":guilabel:`เค้าโครงแป้นพิมพ์` เป็นภาษาเฉพาะ โดยมีตัวเลือกที่แตกต่างกันไปตามอุปกรณ์และภาษาขอ"
-"งฐานข้อมูล (เช่น :guilabel:`อังกฤษ (สหราชอาณาจักร)`, :guilabel:`อังกฤษ (สหรัฐอเมริกา)"
-"` เป็นต้น)"
+":guilabel:`เค้าโครงแป้นพิมพ์` เป็นภาษาเฉพาะ "
+"โดยมีตัวเลือกที่แตกต่างกันไปตามอุปกรณ์และภาษาของฐานข้อมูล (เช่น :guilabel:`อังกฤษ "
+"(สหราชอาณาจักร)`, :guilabel:`อังกฤษ (สหรัฐอเมริกา)` เป็นต้น)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:478
 msgid "Nothing happens when a barcode is scanned"
 msgstr "ไม่มีอะไรเกิดขึ้นเมื่อมีการสแกนบาร์โค้ด"
 
-#: ../../content/applications/general/iot/devices/printer.rst:475
+#: ../../content/applications/general/iot/devices/printer.rst:480
 msgid ""
 "Make sure the correct device is selected in the :doc:`Point of Sale settings "
 "</applications/sales/point_of_sale/hardware_network/pos_iot>` (when "
@@ -11276,31 +11297,31 @@ msgstr ""
 "sales/point_of_sale/hardware_network/pos_iot>` (เมื่อเกี่ยวข้อง) "
 "และบาร์โค้ดได้รับการกำหนดค่าให้ส่งอักขระ `ENTER` (keycode 28) ที่ท้ายบาร์โค้ดทุกตัว"
 
-#: ../../content/applications/general/iot/devices/printer.rst:480
+#: ../../content/applications/general/iot/devices/printer.rst:485
 msgid "The barcode scanner is detected as a keyboard"
 msgstr "เครื่องสแกนบาร์โค้ดตรวจพบว่าเป็นแป้นพิมพ์"
 
-#: ../../content/applications/general/iot/devices/printer.rst:483
+#: ../../content/applications/general/iot/devices/printer.rst:488
 msgid ""
 "Some barcode scanners are identified as USB keyboards rather than barcode "
 "scanners and are not recognized by IoT systems."
 msgstr ""
-"เครื่องสแกนบาร์โค้ดบางตัวถูกระบุว่าเป็นแป้นพิมพ์ USB แทนที่จะเป็นเครื่องสแกนบาร์โค้ดและไม่ถูกจดจำโ"
-"ดยระบบ IoT"
+"เครื่องสแกนบาร์โค้ดบางตัวถูกระบุว่าเป็นแป้นพิมพ์ USB "
+"แทนที่จะเป็นเครื่องสแกนบาร์โค้ดและไม่ถูกจดจำโดยระบบ IoT"
 
-#: ../../content/applications/general/iot/devices/printer.rst:486
+#: ../../content/applications/general/iot/devices/printer.rst:491
 msgid ""
 "To change the device type manually, go to :menuselection:`IoT --> Devices` "
 "and click the barcode device's card. Then, enable :guilabel:`Is scanner`."
 msgstr ""
-"เพื่อเปลี่ยนประเภทอุปกรณ์ด้วยตนเอง ให้ไปที่ :menuselection:`IoT --> อุปกรณ์` และคลิกการ์ดขอ"
-"งอุปกรณ์บาร์โค้ด จากนั้นเปิดใช้งาน :guilabel:`เป็นเครื่องสแกน`"
+"เพื่อเปลี่ยนประเภทอุปกรณ์ด้วยตนเอง ให้ไปที่ :menuselection:`IoT --> อุปกรณ์` "
+"และคลิกการ์ดของอุปกรณ์บาร์โค้ด จากนั้นเปิดใช้งาน :guilabel:`เป็นเครื่องสแกน`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:490
+#: ../../content/applications/general/iot/devices/printer.rst:495
 msgid "The barcode scanner processes barcode characters individually"
 msgstr "เครื่องสแกนบาร์โค้ดประมวลผลอักขระบาร์โค้ดทีละตัว"
 
-#: ../../content/applications/general/iot/devices/printer.rst:492
+#: ../../content/applications/general/iot/devices/printer.rst:497
 msgid ""
 "When accessing the mobile version of Odoo from a mobile device or tablet "
 "paired with a barcode scanner via the IoT system, the scanner might "
@@ -11487,8 +11508,8 @@ msgid ""
 "connection was successful, the external monitor displays "
 "the :guilabel:`Status display` screen."
 msgstr ""
-"เชื่อมต่อหน้าจอกับ IoT box โดยใช้สาย micro-HDMI หากการเชื่อมต่อสำเร็จ จอภาพภายนอกจะแสดง"
-"หน้าจอ :guilabel:`แสดงสถานะ`"
+"เชื่อมต่อหน้าจอกับ IoT box โดยใช้สาย micro-HDMI หากการเชื่อมต่อสำเร็จ "
+"จอภาพภายนอกจะแสดงหน้าจอ :guilabel:`แสดงสถานะ`"
 
 #: ../../content/applications/general/iot/devices/screen.rst:None
 msgid "Default Status Display screen"
@@ -11528,9 +11549,9 @@ msgid ""
 "display, go to :menuselection:`IoT --> Devices`, click the screen's card, "
 "then enter the desired website's URL in the :guilabel:`Display URL` field."
 msgstr ""
-"หากต้องการแสดงเว็บไซต์เฉพาะบนหน้าจอแทนที่จะเป็นหน้าจอลูกค้าของการขายหน้าร้าน ให้ไปที่ "
-":menuselection:`IoT --> อุปกรณ์` คลิกการ์ดของหน้าจอ จากนั้นป้อน URL ของเว็บไซต์ที่ต้องการใ"
-"นฟิลด์ :guilabel:`แสดง URL`"
+"หากต้องการแสดงเว็บไซต์เฉพาะบนหน้าจอแทนที่จะเป็นหน้าจอลูกค้าของการขายหน้าร้าน "
+"ให้ไปที่ :menuselection:`IoT --> อุปกรณ์` คลิกการ์ดของหน้าจอ จากนั้นป้อน URL "
+"ของเว็บไซต์ที่ต้องการในฟิลด์ :guilabel:`แสดง URL`"
 
 #: ../../content/applications/general/iot/iot_advanced.rst:5
 msgid "Advanced"
@@ -11598,6 +11619,7 @@ msgstr ""
 "และบันทึกรหัสผ่านอย่างปลอดภัย เมื่อคุณปิดป๊อปอัพแล้ว รหัสผ่านจะไม่สามารถเข้าถึงได้อีกต่อไป"
 
 #: ../../content/applications/general/iot/iot_advanced/ssh_connect.rst:0
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:None
 msgid "The Remote Debugging password generation window."
 msgstr "หน้าต่างการสร้างรหัสผ่านการดีบักระยะไกล"
 
@@ -11620,22 +11642,26 @@ msgstr ":doc:`../iot_box`"
 msgid ":doc:`../connect`"
 msgstr ":doc:`../connect`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:8
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:6
+msgid "Frequently encountered issues"
+msgstr "ปัญหาที่พบบ่อย"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:9
 msgid "The pairing code does not appear or does not work"
 msgstr "รหัสจับคู่ไม่ปรากฏหรือใช้งานไม่ได้"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:10
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:11
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` might not be displayed or "
 "printed under the following circumstances:"
 msgstr ""
 ":ref:`รหัสจับคู่ <iot/connect/pairing-code>`อาจไม่แสดงหรือพิมพ์ภายใต้สถานการณ์ดังต่อไปนี้:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:13
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
 msgid "The IoT system is not connected to the network."
 msgstr "ระบบ IoT ไม่ได้เชื่อมต่อกับเครือข่าย"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:15
 msgid ""
 "The IoT system is already connected to an Odoo database. :ref:`Disconnect it "
 "from the database <iot/connect/disconnect>`."
@@ -11643,7 +11669,7 @@ msgstr ""
 "ระบบ IoT เชื่อมต่อกับฐานข้อมูล Odoo อยู่แล้ว :ref:`ยกเลิกการเชื่อมต่อจากฐานข้อมูล <iot/"
 "connect/disconnect>`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:16
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:17
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` display time has expired. "
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
@@ -11654,19 +11680,19 @@ msgstr ""
 "box <iot/iot-box/restart>` หรือ:ref:`บริการ Windows virtual IoT <iot/"
 "windows_iot/restart>` เพื่อสร้างและแสดงรหัสจับคู่"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:21
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:22
 msgid "The IoT system does not connect to the database"
 msgstr "ระบบ IoT ไม่เชื่อมต่อกับฐานข้อมูล"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:23
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:24
 msgid ""
 "The IoT system might take a few minutes to restart when it connects to a "
 "database. If it still does not appear after a few minutes:"
 msgstr ""
-"ระบบ IoT อาจใช้เวลาสองสามนาทีในการรีสตาร์ทเมื่อเชื่อมต่อกับฐานข้อมูล หากยังไม่ปรากฏหลังจากผ่า"
-"นไปสองสามนาที:"
+"ระบบ IoT อาจใช้เวลาสองสามนาทีในการรีสตาร์ทเมื่อเชื่อมต่อกับฐานข้อมูล "
+"หากยังไม่ปรากฏหลังจากผ่านไปสองสามนาที:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:26
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:27
 msgid ""
 "Verify that the IoT system can reach the database and the server does not "
 "use a multi-database environment."
@@ -11674,8 +11700,8 @@ msgstr ""
 "ตรวจสอบว่าระบบ IoT สามารถเข้าถึงฐานข้อมูลได้ "
 "และเซิร์ฟเวอร์ไม่ได้ใช้สภาพแวดล้อมแบบหลายฐานข้อมูล"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:28
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:46
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:29
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:47
 msgid ""
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
 "virtual IoT service <iot/windows_iot/restart>`."
@@ -11683,11 +11709,11 @@ msgstr ""
 "รีสตาร์ท:ref:`IoT box <iot/iot-box/restart>` หรือ:ref:`บริการ Windows virtual "
 "IoT <iot/windows_iot/restart>`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:32
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:33
 msgid "The IoT system is connected to the Odoo database but cannot be reached"
 msgstr "ระบบ IoT เชื่อมต่อกับฐานข้อมูล Odoo แต่ไม่สามารถเข้าถึงได้"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:34
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:35
 msgid ""
 "Verify that the IoT system and the computer running the Odoo database are "
 "connected to the same network and :ref:`update the DNS settings <iot/"
@@ -11696,26 +11722,26 @@ msgstr ""
 "ตรวจสอบว่าระบบ IoT และคอมพิวเตอร์ที่ใช้งานฐานข้อมูล Odoo เชื่อมต่อกับเครือข่ายเดียวกัน "
 "และ:ref:`อัปเดตการตั้งค่า DNS <iot/troubleshooting/dns>` หากจำเป็น"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:38
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:39
 msgid ""
 "The Windows virtual IoT's homepage cannot be accessed from another device"
 msgstr "ไม่สามารถเข้าถึงหน้าแรกของ Windows virtual IoT จากอุปกรณ์อื่นได้"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:40
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
 msgid ""
 "Ensure the device is connected to the same network as the Windows virtual "
 "IoT."
 msgstr "ตรวจสอบให้แน่ใจว่าอุปกรณ์เชื่อมต่อกับเครือข่ายเดียวกันกับ Windows virtual IoT"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:42
 msgid "Check the :ref:`iot/windows-iot/firewall`."
 msgstr "ตรวจสอบ :ref:`iot/windows-iot/firewall`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:44
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:45
 msgid "The IoT system does not work after an Odoo upgrade"
 msgstr "ระบบ IoT ไม่ทำงานหลังจากอัปเกรด Odoo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:49
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:50
 msgid ""
 "If the issue persists, :ref:`update its image <iot/updating_iot/image-code>` "
 "by flashing the IoT box's card or :ref:`uninstalling the Windows virtual IoT "
@@ -11727,7 +11753,7 @@ msgstr ""
 "<iot/windows_iot/uninstall>` และ:ref:`ติดตั้งแพ็คเกจ virtual IoT ใหม่ <iot/"
 "windows-iot/installation>`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:56
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:57
 msgid ""
 "The IoT system's homepage can be accessed using its IP address but not the "
 "`xxx.odoo-iot.com` URL"
@@ -11735,7 +11761,7 @@ msgstr ""
 "สามารถเข้าถึงหน้าแรกของระบบ IoT ได้โดยใช้ IP address แต่ไม่สามารถใช้ URL `xxx.odoo-"
 "iot.com` ได้"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:58
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:59
 msgid ""
 "Contact your system or network administrator to address the issue. Network-"
 "related problems are beyond the scope of Odoo support services."
@@ -11743,7 +11769,7 @@ msgstr ""
 "ติดต่อผู้ดูแลระบบหรือผู้ดูแลเครือข่ายของคุณเพื่อแก้ไขปัญหา "
 "ปัญหาที่เกี่ยวข้องกับเครือข่ายอยู่นอกเหนือขอบเขตของบริการสนับสนุนของ Odoo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:61
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:62
 msgid ""
 "If the router allows manual :abbr:`DNS (Domain Name System)` configuration, "
 "update the settings to use `Google DNS <https://developers.google.com/speed/"
@@ -11753,7 +11779,7 @@ msgstr ""
 "ให้อัปเดตการตั้งค่าเพื่อใช้ `Google DNS <https://developers.google.com/speed/public-"
 "dns>`_"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:63
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:64
 msgid ""
 "If the router does not support this, you need to update the DNS settings "
 "directly on each device that interacts with the IoT system to use `Google "
@@ -11766,7 +11792,7 @@ msgstr ""
 "developers.google.com/speed/public-dns>`_ คำแนะนำในการกำหนดค่า DNS "
 "บนอุปกรณ์แต่ละเครื่องสามารถพบได้ในเว็บไซต์ของผู้ผลิตที่เกี่ยวข้อง"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:69
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:70
 msgid ""
 "Some IoT devices, such as payment terminals, likely do not require DNS "
 "changes, as they are typically pre-configured with custom DNS settings."
@@ -11774,7 +11800,7 @@ msgstr ""
 "อุปกรณ์ IoT บางประเภท เช่น เครื่องชำระเงิน มักจะไม่จำเป็นต้องเปลี่ยนแปลง DNS "
 "เนื่องจากโดยทั่วไปจะได้รับการกำหนดค่าล่วงหน้าด้วยการตั้งค่า DNS แบบกำหนดเอง"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:71
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:72
 msgid ""
 "On some browsers, an error code mentioning the DNS (such as "
 "`DNS_PROBE_FINISHED_NXDOMAIN`) is displayed."
@@ -11782,19 +11808,19 @@ msgstr ""
 "ในเบราว์เซอร์บางตัว จะแสดงรหัสข้อผิดพลาดที่กล่าวถึง DNS (เช่น "
 "`DNS_PROBE_FINISHED_NXDOMAIN`)"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:77
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:78
 msgid "HTTPS certificate generation issues and errors"
 msgstr "ปัญหาและข้อผิดพลาดในการสร้างใบรับรอง HTTPS"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:80
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:81
 msgid "The HTTPS certificate does not generate"
 msgstr "ใบรับรอง HTTPS ไม่สร้าง"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:82
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:83
 msgid "Potential causes include the following:"
 msgstr "สาเหตุที่เป็นไปได้มีดังนี้:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:84
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:85
 msgid ""
 "The database doesn't meet the :ref:`eligibility requirements <iot/"
 "https_certificate_iot/iot-eligibility>` for generating an :ref:`HTTPS "
@@ -11804,7 +11830,7 @@ msgstr ""
 "eligibility>` สำหรับการสร้าง:ref:`ใบรับรอง HTTPS <iot/connect/"
 "https_certificate>`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:87
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:88
 msgid ""
 "The firewall is preventing the HTTPS certificate from generating correctly. "
 "In this case, deactivate the firewall until the certificate is successfully "
@@ -11813,27 +11839,27 @@ msgstr ""
 "ไฟร์วอลล์ป้องกันไม่ให้ใบรับรอง HTTPS ถูกสร้างอย่างถูกต้อง ในกรณีนี้ "
 "ให้ปิดใช้งานไฟร์วอลล์จนกว่าใบรับรองจะถูกสร้างสำเร็จ"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:91
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:92
 msgid ""
 "Some devices, such as routers with a built-in firewall, can prevent the "
 "HTTPS certificate from generating."
 msgstr ""
 "อุปกรณ์บางประเภท เช่น เราเตอร์ที่มีไฟร์วอลล์ในตัว อาจป้องกันไม่ให้ใบรับรอง HTTPS ถูกสร้าง"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:95
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:96
 msgid "Errors"
 msgstr "เกิดข้อผิดพลาด"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:97
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:98
 msgid ""
 "A specific error code is displayed on the IoT system's homepage if any "
-"issues occur during the generation or reception of the ref:`HTTPS "
+"issues occur during the generation or reception of the :ref:`HTTPS "
 "certificate <iot/connect/https_certificate>`."
 msgstr ""
-"รหัสข้อผิดพลาดเฉพาะจะแสดงบนหน้าแรกของระบบ IoT หากเกิดปัญหาใดๆ ในระหว่างการสร้างหรือรับ "
-"ref:`HTTPS certificate <iot/connect/https_certificate>`"
+"รหัสข้อผิดพลาดเฉพาะจะแสดงบนหน้าแรกของระบบ IoT หากเกิดปัญหาใดๆ ระหว่างการสร้างหรือการรั"
+"บ:ref:`ใบรับรอง HTTPS <iot/connect/https_certificate>`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:101
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:102
 msgid ""
 "When you access the IoT system's homepage, it automatically checks for an "
 "HTTPS certificate and attempts to generate one if it is missing. If an error "
@@ -11843,43 +11869,18 @@ msgstr ""
 "โดยอัตโนมัติและพยายามสร้างใบรับรองหากไม่พบ หากปรากฏข้อผิดพลาด "
 "ให้รีเฟรชหน้าเพื่อดูว่าปัญหาได้รับการแก้ไขหรือไม่"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:106
-msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
-msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:107
+msgid "Missing credentials"
+msgstr "ข้อมูลประจำตัวหายไป"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:108
-msgid ""
-"The server configuration is missing, i.e., the database is "
-"not :doc:`connected <../connect>` to the IoT system."
-msgstr ""
-"การกำหนดค่าเซิร์ฟเวอร์หายไป กล่าวคือ ฐานข้อมูลไม่ได้:doc:`เชื่อมต่อ <../connect>` กับระบบ "
-"IoT"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:112
-msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:114
-msgid ""
-"An error occurred while attempting to read the existing ref:`HTTPS "
-"certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
-"certificate file is readable."
-msgstr ""
-"เกิดข้อผิดพลาดขณะพยายามอ่าน ref:`HTTPS certificate <iot/connect/"
-"https_certificate>` ที่มีอยู่ ตรวจสอบว่าไฟล์ใบรับรอง HTTPS สามารถอ่านได้"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:119
-msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:121
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:109
 msgid ""
 "The contract and/or database :abbr:`UUID (Universal Unique Identifier)` is "
 "missing from the IoT."
 msgstr ""
 "สัญญาและ/หรือ :abbr:`UUID (Universal Unique Identifier)` ของฐานข้อมูลหายไปจาก IoT"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:111
 msgid ""
 "Verify that both values are correctly configured. To update "
 "them, :ref:`access the IoT box's <iot/iot-box/homepage>` or :ref:`Windows "
@@ -11891,30 +11892,7 @@ msgstr ""
 "windows-iot/homepage>` คลิกปุ่ม :icon:`fa-cogs` (:guilabel:`cogs`) "
 "จากนั้นคลิก :guilabel:`Credentials`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:128
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:130
-msgid ""
-"An unexpected error occurred while the IoT system tried to reach `<https://"
-"www.odoo.com>`_. This is likely due to network-related issues, such as:"
-msgstr ""
-"เกิดข้อผิดพลาดที่ไม่คาดคิดขณะที่ระบบ IoT พยายามเข้าถึง `<https://www.odoo.com>`_ "
-"สาเหตุมักเกิดจากปัญหาที่เกี่ยวข้องกับเครือข่าย เช่น:"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:133
-msgid "The IoT system does not have Internet access."
-msgstr "ระบบ IoT ไม่มีการเข้าถึงอินเทอร์เน็ต"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
-msgid ""
-"Network restrictions (e.g., firewalls or VPNs) are preventing communication "
-"with https://www.odoo.com."
-msgstr ""
-"ข้อจำกัดของเครือข่าย (เช่น ไฟร์วอลล์หรือ VPN) ป้องกันการสื่อสารกับ https://www.odoo.com"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:138
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:116
 msgid ""
 "To access the full request exception details with information regarding the "
 "error, :ref:`enable the developer mode <developer-mode>`, click the IoT "
@@ -11933,7 +11911,7 @@ msgstr ""
 "homepage>` คลิกปุ่ม :icon:`fa-cogs` (:guilabel:`ฟันเฟือง`) "
 "จากนั้น :guilabel:`ระดับบันทึก` ที่ด้านล่างของหน้า"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:145
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
 msgid ""
 "To address network-related issues, contact your system or network "
 "administrator; these issues are beyond the scope of Odoo support services."
@@ -11941,11 +11919,11 @@ msgstr ""
 "เพื่อแก้ไขปัญหาที่เกี่ยวข้องกับเครือข่าย ให้ติดต่อผู้ดูแลระบบหรือผู้ดูแลเครือข่ายของคุณ "
 "ปัญหาเหล่านี้อยู่นอกเหนือขอบเขตของบริการสนับสนุนของ Odoo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:149
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:127
+msgid "Odoo.com not reachable"
+msgstr "ไม่สามารถเข้าถึง Odoo.com ได้"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:151
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:129
 msgid ""
 "The IoT system successfully reached `<https://www.odoo.com>`_ but received "
 "an unexpected `HTTP response (status codes) <https://developer.mozilla.org/"
@@ -11955,20 +11933,11 @@ msgstr ""
 "(รหัสสถานะ) <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`_ "
 "ที่ไม่คาดคิด"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:154
-msgid ""
-"This error code includes the HTTP status. For example, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a \"Page "
-"Not Found\" response."
-msgstr ""
-"รหัสข้อผิดพลาดนี้รวมถึงสถานะ HTTP ตัวอย่างเช่น `ERR_IOT_HTTPS_LOAD_REQUEST_STATUS "
-"404` หมายความว่าเซิร์ฟเวอร์ส่งคืนการตอบกลับ \"ไม่พบหน้า\""
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:132
 msgid "To solve this issue:"
 msgstr "เพื่อแก้ไขปัญหานี้:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:159
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
 msgid ""
 "Open `<https://www.odoo.com>`_ in a web browser to check if the website is "
 "temporarily down for maintenance."
@@ -11990,20 +11959,20 @@ msgstr ""
 "หากเว็บไซต์ทำงานปกติ ให้เปิด `ตั๋วสนับสนุน <https://www.odoo.com/help>`_ "
 "และตรวจสอบให้แน่ใจว่าได้รวมรหัสสถานะ HTTPS 3 หลักไว้ในตั๋ว"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:141
+msgid "Still no certificate?"
+msgstr "ยังไม่มีใบรับรองหรือ"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:168
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:143
 msgid ""
-"The IoT system successfully connected to `<https://www.odoo.com>`_, but the "
-"server refused to provide the ref:`HTTPS certificate <iot/connect/"
+"If the IoT system successfully connected to `<https://www.odoo.com>`_, but "
+"the server refused to provide the :ref:`HTTPS certificate <iot/connect/"
 "https_certificate>`."
 msgstr ""
-"ระบบ IoT เชื่อมต่อกับ `<https://www.odoo.com>`_ สำเร็จ แต่เซิร์ฟเวอร์ปฏิเสธที่จะให้ "
-"ref:`HTTPS certificate <iot/connect/https_certificate>`"
+"หากระบบ IoT เชื่อมต่อกับ `<https://www.odoo.com>`_ สำเร็จ แต่เซิร์ฟเวอร์ปฏิเสธที่จะใ"
+"ห้:ref:`ใบรับรอง HTTPS <iot/connect/https_certificate>`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:171
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:146
 msgid ""
 "Check that the IoT system and database meet the :ref:`eligibility "
 "requirements <iot/https_certificate_iot/iot-eligibility>` for an HTTPS "
@@ -12011,6 +11980,73 @@ msgid ""
 msgstr ""
 "ตรวจสอบว่าระบบ IoT และฐานข้อมูลเป็นไปตาม:ref:`ข้อกำหนดคุณสมบัติ <iot/"
 "https_certificate_iot/iot-eligibility>`สำหรับใบรับรอง HTTPS"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:150
+msgid "Grant Odoo support team access to an IoT Box"
+msgstr "มอบสิทธิ์การเข้าถึง IoT Box ให้กับทีมสนับสนุน Odoo"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:152
+msgid ""
+"If you need to grant remote access to an IoT Box, you can provide a "
+"Tailscale token on the IoT Box's homepage. This allows the Odoo support team "
+"to access the IoT Box for troubleshooting securely."
+msgstr ""
+"หากคุณต้องการมอบสิทธิ์การเข้าถึง IoT Box จากระยะไกล คุณสามารถระบุโทเค็น Tailscale บนหน้า"
+"แรกของ IoT Box ได้ ซึ่งจะช่วยให้ทีมสนับสนุน Odoo สามารถเข้าถึง IoT Box เพื่อแก้ไขปัญหาได้อย่า"
+"งปลอดภัย"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+msgid ""
+"Only enter a token from a trusted source, such as an official Odoo support "
+"representative. Providing a token grants access to the IoT Box and your "
+"entire local network, so it should be done with caution."
+msgstr ""
+"ป้อนโทเค็นจากแหล่งที่เชื่อถือได้เท่านั้น เช่น ตัวแทนสนับสนุน Odoo อย่างเป็นทางการ การให้โทเค็นจะอ"
+"นุญาตให้เข้าถึง IoT Box และเครือข่ายภายในทั้งหมดของคุณ ดังนั้นควรดำเนินการด้วยความระมัดระวัง"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:161
+msgid ""
+"On the :ref:`IoT Box's homepage <iot/iot-box/homepage>`, click the :icon:`fa-"
+"cogs` (:guilabel:`cogs`) button, then click :guilabel:`Debugging Tools`. In "
+"the pop-up window, enter the Tailscale token provided by the Odoo support "
+"team and click :guilabel:`Enable`."
+msgstr ""
+"บน:ref:`หน้าแรกของ IoT Box <iot/iot-box/homepage>` ให้คลิกปุ่ม:icon:`fa-cogs` "
+"(:guilabel:`เฟือง`) จากนั้นคลิก:guilabel:`เครื่องมือดีบัก` ในหน้าต่างป๊อปอัป ให้ป้อนโทเค็น "
+"Tailscale ที่ทีมสนับสนุน Odoo ให้มา แล้วคลิก:guilabel:`เปิดใช้งาน`"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
+msgid ""
+"**Remote Debug** is only available for :doc:`IoT boxes <../iot_box>`, not "
+"the :doc:`Windows virtual IoT <../windows_iot>`."
+msgstr ""
+"**การดีบักระยะไกล** มีให้ใช้งานเฉพาะ:doc:`IoT boxes <../iot_box>` เท่านั้น ไม่ใ"
+"ช่:doc:`Windows virtual IoT <../windows_iot>`"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:170
+msgid "Is the IoT Box down?"
+msgstr "IoT Box หยุดทำงานหรือไม่"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:172
+msgid ""
+"If the IoT Box is down, you can still enable remote access for the Odoo "
+"support team. Just provide the key in the only field displayed on "
+"the :ref:`homepage <iot/iot-box/homepage>` and click :guilabel:`Enable`."
+msgstr ""
+"หาก IoT Box หยุดทำงาน คุณยังสามารถเปิดใช้งานการเข้าถึงระยะไกลสำหรับทีมสนับสนุน Odoo ได้ เ"
+"พียงระบุคีย์ในฟิลด์เดียวที่แสดงบน:ref:`หน้าแรก <iot/iot-box/homepage>` แล้วคลิ"
+"ก:guilabel:`เปิดใช้งาน`"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:180
+msgid ""
+"Enabling remote access on a down IoT Box is only available from version "
+"above v26.01.2026. If your IoT Box doesn't have this option, you will need "
+"to :ref:`flash the IoT Box's card with the latest image <iot/updating_iot/"
+"image-code>`."
+msgstr ""
+"การเปิดใช้งานการเข้าถึงระยะไกลบน IoT Box ที่หยุดทำงานมีให้ใช้งานเฉพาะเวอร์ชั่นตั้งแต่ "
+"v26.01.2026 ขึ้นไปเท่านั้น หาก IoT Box ของคุณไม่มีตัวเลือกนี้ คุณจะต้อง:ref:`แฟลชการ์ดของ "
+"IoT Box ด้วยอิมเมจล่าสุด <iot/updating_iot/image-code>`"
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:5
 msgid ""
@@ -13626,11 +13662,11 @@ msgstr ""
 "เอกสารส่วนที่เหลือจะใช้ Google Authenticator เป็นตัวอย่าง "
 "เนื่องจากเป็นหนึ่งในเครื่องมือที่นิยมใช้กันทั่วไป ซึ่งไม่ถือเป็นการรับรองผลิตภัณฑ์แต่อย่างใด"
 
-#: ../../content/applications/general/users/2fa.rst:47
+#: ../../content/applications/general/users/2fa.rst:49
 msgid "Two-factor authentication setup"
 msgstr "การตั้งค่าการยืนยันแบบสองขั้นตอน"
 
-#: ../../content/applications/general/users/2fa.rst:49
+#: ../../content/applications/general/users/2fa.rst:51
 msgid ""
 "After selecting an authenticator, log in to Odoo, then click the profile "
 "avatar in the upper-right corner, and select :guilabel:`My Profile` from the "
@@ -13639,7 +13675,7 @@ msgstr ""
 "หลังจากเลือกตัวยืนยันความถูกต้องแล้ว ให้เข้าสู่ระบบ Odoo จากนั้นคลิกที่รูปโปรไฟล์ในมุมขวาบน "
 "และเลือก :guilabel:`โปรไฟล์ของฉัน` จากเมนูแบบเลื่อนลงที่ปรากฏขึ้น"
 
-#: ../../content/applications/general/users/2fa.rst:52
+#: ../../content/applications/general/users/2fa.rst:54
 msgid ""
 "Click the :guilabel:`Account Security` tab, then slide the :guilabel:`Two-"
 "Factor Authentication` toggle to *active*."
@@ -13651,7 +13687,7 @@ msgstr ""
 msgid "The account secuirty tab in a user profile."
 msgstr "แท็บความปลอดภัยบัญชีในโปรไฟล์ผู้ใช้"
 
-#: ../../content/applications/general/users/2fa.rst:58
+#: ../../content/applications/general/users/2fa.rst:60
 msgid ""
 "This generates a :guilabel:`Security Control` pop-up window that requires "
 "password confirmation to continue. Enter the appropriate password, then "
@@ -13662,16 +13698,16 @@ msgstr ""
 "ที่ต้องยืนยันรหัสผ่านเพื่อดำเนินการต่อ ป้อนรหัสผ่านที่ถูกต้อง จากนั้นคลิก :guilabel:`ยืนยันรหัสผ่าน` "
 "จากนั้นหน้าต่างป็อปอัป :guilabel:`เปิดใช้งานการยืนยันแบบสองขั้นตอน` จะปรากฏขึ้น พร้อม |QR|"
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid "The 2fa authentication QR code in Odoo."
 msgstr "รหัส QR การยืนยันตัวตนแบบสองปัจจัยใน Odoo"
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid ""
 "Using the desired authenticator application, scan the |QR| when prompted."
 msgstr "เมื่อใช้แอปพลิเคชันตัวยืนยันความถูกต้องที่ต้องการ ให้สแกน |QR| เมื่อได้รับแจ้ง"
 
-#: ../../content/applications/general/users/2fa.rst:68
+#: ../../content/applications/general/users/2fa.rst:70
 msgid ""
 "If scanning the screen is not possible (e.g., the setup is being completed "
 "on the *same* device as the authenticator application), click the "
@@ -13685,7 +13721,7 @@ msgstr ""
 msgid "A 2fa secret code on an authentication popup."
 msgstr "รหัสลับสำหรับการยืนยันตัวตนแบบสองปัจจัยบนป๊อปอัปการยืนยันตัวตน"
 
-#: ../../content/applications/general/users/2fa.rst:75
+#: ../../content/applications/general/users/2fa.rst:77
 msgid "Afterwards, the authenticator should display a *verification code*."
 msgstr "จากนั้นตัวตรวจสอบความถูกต้องควรแสดง *รหัสยืนยัน*"
 
@@ -13694,7 +13730,7 @@ msgid "A view of the Google authenticator app with the six digit code for 2fa."
 msgstr ""
 "มุมมองของแอป Google Authenticator พร้อมรหัสหกหลักสำหรับการยืนยันตัวตนแบบสองปัจจัย"
 
-#: ../../content/applications/general/users/2fa.rst:80
+#: ../../content/applications/general/users/2fa.rst:82
 msgid ""
 "Enter the code into the :guilabel:`Verification Code` field, then "
 "click :guilabel:`Activate`."
@@ -13706,15 +13742,15 @@ msgid ""
 "enabled."
 msgstr "ข้อความแสดงความสำเร็จที่ปรากฏในโปรไฟล์ผู้ใช้เมื่อเปิดใช้งานการยืนยันตัวตนแบบสองปัจจัยสำเร็จ"
 
-#: ../../content/applications/general/users/2fa.rst:86
+#: ../../content/applications/general/users/2fa.rst:88
 msgid "Logging in"
 msgstr "การเข้าสู่ระบบ"
 
-#: ../../content/applications/general/users/2fa.rst:88
+#: ../../content/applications/general/users/2fa.rst:90
 msgid "To confirm |2fa| setup is complete, log out of Odoo."
 msgstr "หากต้องการยืนยันว่าการตั้งค่า |2fa| เสร็จสมบูรณ์ โปรดออกจากระบบ Odoo"
 
-#: ../../content/applications/general/users/2fa.rst:90
+#: ../../content/applications/general/users/2fa.rst:92
 msgid ""
 "On the login page, input the username and password, then "
 "click :guilabel:`Log in`. On the :guilabel:`Two-factor Authentication` page, "
@@ -13730,7 +13766,7 @@ msgstr ""
 msgid "The login page with 2fa enabled."
 msgstr "หน้าเข้าสู่ระบบพร้อมเปิดใช้งาน 2fa"
 
-#: ../../content/applications/general/users/2fa.rst:98
+#: ../../content/applications/general/users/2fa.rst:100
 msgid ""
 "If a user loses access to their authenticator, an administrator **must** "
 "deactivate |2fa| on the account before the user can log in."
@@ -13738,11 +13774,11 @@ msgstr ""
 "หากผู้ใช้สูญเสียการเข้าถึงตัวยืนยันความถูกต้อง ผู้ดูแลระบบจะ **ต้อง** ปิดใช้งาน |2fa| "
 "ในบัญชีก่อนที่ผู้ใช้จะสามารถเข้าสู่ระบบได้"
 
-#: ../../content/applications/general/users/2fa.rst:102
+#: ../../content/applications/general/users/2fa.rst:104
 msgid "Enforce two-factor authentication"
 msgstr "บังคับใช้การรับรองความถูกต้องแบบ two-factor"
 
-#: ../../content/applications/general/users/2fa.rst:104
+#: ../../content/applications/general/users/2fa.rst:106
 msgid ""
 "To enforce |2fa| for every user in the database, navigate to "
 "the :menuselection:`Settings` app. In the :guilabel:`Permissions` section, "
@@ -13756,13 +13792,13 @@ msgstr ""
 "จากนั้นใช้ปุ่มตัวเลือกเพื่อเลือกว่าจะใช้การตั้งค่านี้กับ :guilabel:`พนักงานเท่านั้น` "
 "หรือ :guilabel:`ผู้ใช้ทั้งหมด`"
 
-#: ../../content/applications/general/users/2fa.rst:110
+#: ../../content/applications/general/users/2fa.rst:112
 msgid ""
 "Selecting :guilabel:`All users` applies the setting to portal users in "
 "addition to employees."
 msgstr "การเลือก :guilabel:`ผู้ใช้ทั้งหมด` จะใช้การตั้งค่ากับผู้ใช้พอร์ทัลนอกเหนือจากพนักงาน"
 
-#: ../../content/applications/general/users/2fa.rst:112
+#: ../../content/applications/general/users/2fa.rst:114
 msgid "Click :guilabel:`Save` to commit any unsaved changes."
 msgstr "คลิก :guilabel:`บันทึก` เพื่อบันทึกการเปลี่ยนแปลงที่ยังไม่ได้บันทึก"
 
@@ -13770,7 +13806,7 @@ msgstr "คลิก :guilabel:`บันทึก` เพื่อบันท�
 msgid "The enforce two factor setting in the Settings application."
 msgstr "บังคับใช้การยืนยันแบบสองขั้นตอนในแอปพลิเคชันการตั้งค่า"
 
-#: ../../content/applications/general/users/2fa.rst:118
+#: ../../content/applications/general/users/2fa.rst:120
 msgid ""
 "If users are frequently required to log in again and complete two-factor "
 "authentication, it may be due to session or inactivity timeout policies "
@@ -13779,7 +13815,7 @@ msgstr ""
 "หากผู้ใช้ต้องเข้าสู่ระบบอีกครั้งบ่อยครั้งและทำการยืนยันตัวตนสองปัจจัย "
 "อาจเป็นเพราะนโยบายการหมดเวลาของเซสชันหรือความไม่มีการใช้งานที่กำหนดค่าไว้สำหรับกลุ่มผู้ใช้อย่างน้อยหนึ่งกลุ่ม"
 
-#: ../../content/applications/general/users/2fa.rst:121
+#: ../../content/applications/general/users/2fa.rst:123
 msgid ""
 "Administrators can configure these policies using the *Timeouts* settings "
 "available on user groups when the *auth_timeout* module is installed. "
@@ -14192,9 +14228,9 @@ msgid ""
 "this group has. The :guilabel:`Name` column represents the name for the "
 "current group's access to the model selected in the :guilabel:`Model` column."
 msgstr ""
-"แท็บ :guilabel:`สิทธิ์การเข้าถึง`: แสดงรายการสิทธิ์ระดับแรก (โมเดล) ที่กลุ่มนี้มี คอลัมน์ "
-":guilabel:`ชื่อ` แสดงชื่อสำหรับการเข้าถึงโมเดลที่เลือกในคอลัมน์ :guilabel:`โมเดล` ของกลุ่มปั"
-"จจุบัน"
+"แท็บ :guilabel:`สิทธิ์การเข้าถึง`: แสดงรายการสิทธิ์ระดับแรก (โมเดล) ที่กลุ่มนี้มี "
+"คอลัมน์ :guilabel:`ชื่อ` แสดงชื่อสำหรับการเข้าถึงโมเดลที่เลือกในคอลัมน์ :guilabel:`โมเดล` "
+"ของกลุ่มปัจจุบัน"
 
 #: ../../content/applications/general/users/access_rights.rst:173
 msgid ""
@@ -14203,9 +14239,10 @@ msgid ""
 "name for the access right in the :guilabel:`Name` column. For each model, "
 "enable the following options as appropriate:"
 msgstr ""
-"หากต้องการเชื่อมโยงสิทธิ์การเข้าถึงใหม่กับกลุ่ม ให้คลิก :guilabel:`เพิ่มรายการ` เลือกโมเดลที่เหม"
-"าะสมจากรายการแบบเลื่อนลง :guilabel:`โมเดล` จากนั้นป้อนชื่อสำหรับสิทธิ์การเข้าถึงในคอลัมน์ "
-":guilabel:`ชื่อ` สำหรับแต่ละโมเดล ให้เปิดใช้งานตัวเลือกต่อไปนี้ตามความเหมาะสม:"
+"หากต้องการเชื่อมโยงสิทธิ์การเข้าถึงใหม่กับกลุ่ม ให้คลิก :guilabel:`เพิ่มรายการ` "
+"เลือกโมเดลที่เหมาะสมจากรายการแบบเลื่อนลง :guilabel:`โมเดล` "
+"จากนั้นป้อนชื่อสำหรับสิทธิ์การเข้าถึงในคอลัมน์ :guilabel:`ชื่อ` สำหรับแต่ละโมเดล "
+"ให้เปิดใช้งานตัวเลือกต่อไปนี้ตามความเหมาะสม:"
 
 #: ../../content/applications/general/users/access_rights.rst:177
 msgid ":guilabel:`Read`: Users can see the object's existing values."
@@ -14227,8 +14264,7 @@ msgstr ":guilabel:`ลบ`: ผู้ใช้สามารถลบค่า�
 msgid ""
 "While there are no conventions for naming access rights, it is advisable to "
 "choose a name that identifies its purpose."
-msgstr ""
-"แม้ว่าจะไม่มีข้อตกลงสำหรับการตั้งชื่อสิทธิ์การเข้าถึง แต่ควรเลือกชื่อที่ระบุวัตถุประสงค์ของมัน"
+msgstr "แม้ว่าจะไม่มีข้อตกลงสำหรับการตั้งชื่อสิทธิ์การเข้าถึง แต่ควรเลือกชื่อที่ระบุวัตถุประสงค์ของมัน"
 
 #: ../../content/applications/general/users/access_rights.rst:186
 msgid ""
@@ -14238,8 +14274,8 @@ msgid ""
 "identifying the group of users in question."
 msgstr ""
 "ตัวอย่างเช่น สิทธิ์การเข้าถึงที่ผู้จัดการการจัดซื้อมีต่อโมเดล :guilabel:`ผู้ติดต่อ` อาจตั้งชื่อว่า "
-"`res.partner.purchase.manager` ซึ่งประกอบด้วยชื่อทางเทคนิคของโมเดล ตามด้วยชื่อที่ระบุกลุ่มผู้"
-"ใช้ที่เกี่ยวข้อง"
+"`res.partner.purchase.manager` ซึ่งประกอบด้วยชื่อทางเทคนิคของโมเดล "
+"ตามด้วยชื่อที่ระบุกลุ่มผู้ใช้ที่เกี่ยวข้อง"
 
 #: ../../content/applications/general/users/access_rights.rst:0
 msgid "Name of access rights to a model."
@@ -14252,9 +14288,9 @@ msgid ""
 "the :guilabel:`Model` name, then the :icon:`fa-arrow-"
 "right` :guilabel:`(Internal link)` icon."
 msgstr ""
-"หากต้องการค้นหาชื่อทางเทคนิคของโมเดลจากมุมมองปัจจุบัน ให้ป้อนข้อความตัวยึดตำแหน่งในฟิลด์ "
-":guilabel:`ชื่อ` ก่อน จากนั้นคลิกชื่อ :guilabel:`โมเดล` แล้วคลิกไอคอน :icon:`fa-arrow-"
-"right` :guilabel:`(ลิงก์ภายใน)`"
+"หากต้องการค้นหาชื่อทางเทคนิคของโมเดลจากมุมมองปัจจุบัน "
+"ให้ป้อนข้อความตัวยึดตำแหน่งในฟิลด์ :guilabel:`ชื่อ` ก่อน จากนั้นคลิกชื่อ :guilabel:`โมเดล` "
+"แล้วคลิกไอคอน :icon:`fa-arrow-right` :guilabel:`(ลิงก์ภายใน)`"
 
 #: ../../content/applications/general/users/access_rights.rst:197
 msgid ""
@@ -14423,8 +14459,8 @@ msgid ""
 "<developer-mode>`. Then, navigate to the *debug* menu, represented by "
 "a :icon:`fa-bug` :guilabel:`(debug)` icon, located in the top banner."
 msgstr ""
-"*โหมดผู้ใช้สูงสุด* ช่วยให้ผู้ใช้สามารถข้ามกฎระเบียนและสิทธิ์การเข้าถึงได้ หากต้องการเปิดใช้งาน *โห"
-"มดผู้ใช้สูงสุด* ให้เปิดใช้งาน :ref:`โหมดนักพัฒนา <developer-mode>` ก่อน จากนั้นไปที่เมนู "
+"*โหมดผู้ใช้สูงสุด* ช่วยให้ผู้ใช้สามารถข้ามกฎระเบียนและสิทธิ์การเข้าถึงได้ หากต้องการเปิดใช้งาน "
+"*โหมดผู้ใช้สูงสุด* ให้เปิดใช้งาน :ref:`โหมดนักพัฒนา <developer-mode>` ก่อน จากนั้นไปที่เมนู "
 "*debug* ซึ่งแสดงด้วยไอคอน :icon:`fa-bug` :guilabel:`(debug)` ที่อยู่ในแบนเนอร์ด้านบน"
 
 #: ../../content/applications/general/users/access_rights.rst:269
@@ -15579,24 +15615,24 @@ msgid ""
 "Open the Settings app, scroll down to the :guilabel:`Integrations` section, "
 "and enable :guilabel:`LDAP Authentication`."
 msgstr ""
-"เปิดแอป Settings เลื่อนลงไปที่ส่วน :guilabel:`การผสานรวม` และเปิดใช้งาน :guilabel:`กา"
-"รยืนยันตัวตน LDAP`"
+"เปิดแอป Settings เลื่อนลงไปที่ส่วน :guilabel:`การผสานรวม` "
+"และเปิดใช้งาน :guilabel:`การยืนยันตัวตน LDAP`"
 
 #: ../../content/applications/general/users/ldap.rst:9
 msgid ""
 "Click :guilabel:`Save`, then go back to the :guilabel:`Integrations` section "
 "and click :guilabel:`LDAP Server`."
 msgstr ""
-"คลิก :guilabel:`บันทึก` จากนั้นกลับไปที่ส่วน :guilabel:`การผสานรวม` และคลิก "
-":guilabel:`เซิร์ฟเวอร์ LDAP`"
+"คลิก :guilabel:`บันทึก` จากนั้นกลับไปที่ส่วน :guilabel:`การผสานรวม` "
+"และคลิก :guilabel:`เซิร์ฟเวอร์ LDAP`"
 
 #: ../../content/applications/general/users/ldap.rst:11
 msgid ""
 "In the :guilabel:`Set up your LDAP Server` list, click :guilabel:`New`, then "
 "select the required company in the dropdown list."
 msgstr ""
-"ในรายการ :guilabel:`ตั้งค่าเซิร์ฟเวอร์ LDAP` ให้คลิก :guilabel:`ใหม่` จากนั้นเลือกบริษัทที่ต้อ"
-"งการในรายการแบบเลื่อนลง"
+"ในรายการ :guilabel:`ตั้งค่าเซิร์ฟเวอร์ LDAP` ให้คลิก :guilabel:`ใหม่` "
+"จากนั้นเลือกบริษัทที่ต้องการในรายการแบบเลื่อนลง"
 
 #: ../../content/applications/general/users/ldap.rst:13
 msgid ""
@@ -15604,16 +15640,17 @@ msgid ""
 "and port in the :guilabel:`LDAP server address` and :guilabel:`LDAP Server "
 "port` fields, respectively."
 msgstr ""
-"ในส่วน :guilabel:`ข้อมูลเซิร์ฟเวอร์` ให้ป้อนที่อยู่ IP และพอร์ตของเซิร์ฟเวอร์ในฟิลด์ "
-":guilabel:`ที่อยู่เซิร์ฟเวอร์ LDAP` และ :guilabel:`พอร์ตเซิร์ฟเวอร์ LDAP` ตามลำดับ"
+"ในส่วน :guilabel:`ข้อมูลเซิร์ฟเวอร์` ให้ป้อนที่อยู่ IP "
+"และพอร์ตของเซิร์ฟเวอร์ในฟิลด์ :guilabel:`ที่อยู่เซิร์ฟเวอร์ LDAP` "
+"และ :guilabel:`พอร์ตเซิร์ฟเวอร์ LDAP` ตามลำดับ"
 
 #: ../../content/applications/general/users/ldap.rst:15
 msgid ""
 "Enable :guilabel:`Use TLS` to request secure TLS/SSL encryption when "
 "connecting to the LDAP server, providing the server has StartTLS enabled."
 msgstr ""
-"เปิดใช้งาน :guilabel:`ใช้ TLS` เพื่อขอการเข้ารหัส TLS/SSL ที่ปลอดภัยเมื่อเชื่อมต่อกับเซิร์ฟเวอ"
-"ร์ LDAP หากเซิร์ฟเวอร์เปิดใช้งาน StartTLS"
+"เปิดใช้งาน :guilabel:`ใช้ TLS` เพื่อขอการเข้ารหัส TLS/SSL "
+"ที่ปลอดภัยเมื่อเชื่อมต่อกับเซิร์ฟเวอร์ LDAP หากเซิร์ฟเวอร์เปิดใช้งาน StartTLS"
 
 #: ../../content/applications/general/users/ldap.rst:17
 msgid ""
@@ -15622,9 +15659,10 @@ msgid ""
 "and :guilabel:`LDAP password` fields, respectively. If the fields are left "
 "empty, the server will perform the query anonymously."
 msgstr ""
-"ในส่วน :guilabel:`ข้อมูลการเข้าสู่ระบบ` ให้ป้อน ID และรหัสผ่านของบัญชีที่ใช้สืบค้นเซิร์ฟเวอร์ในฟิล"
-"ด์ :guilabel:`LDAP binddn` และ :guilabel:`รหัสผ่าน LDAP` ตามลำดับ หากฟิลด์เหล่านี้เว้นว่"
-"างไว้ เซิร์ฟเวอร์จะทำการสืบค้นแบบไม่ระบุชื่อ"
+"ในส่วน :guilabel:`ข้อมูลการเข้าสู่ระบบ` ให้ป้อน ID "
+"และรหัสผ่านของบัญชีที่ใช้สืบค้นเซิร์ฟเวอร์ในฟิลด์ :guilabel:`LDAP binddn` "
+"และ :guilabel:`รหัสผ่าน LDAP` ตามลำดับ หากฟิลด์เหล่านี้เว้นว่างไว้ "
+"เซิร์ฟเวอร์จะทำการสืบค้นแบบไม่ระบุชื่อ"
 
 #: ../../content/applications/general/users/ldap.rst:20
 msgid "In the :guilabel:`Process parameter` section, enter:"
@@ -15976,9 +16014,9 @@ msgid ""
 "country **cannot** be updated. If users need to update their country at that "
 "point, they must reach out to a user with administrator access rights."
 msgstr ""
-"เมื่อระบบสร้างเอกสารใดๆ สำหรับบัญชีของผู้ใช้แล้ว ประเทศของพวกเขา**ไม่สามารถ**อัปเดตได้ หาก"
-"ผู้ใช้จำเป็นต้องอัปเดตประเทศของพวกเขาในขั้นตอนนั้น พวกเขาต้องติดต่อผู้ใช้ที่มีสิทธิ์การเข้าถึงระดับผู้ดูแ"
-"ลระบบ"
+"เมื่อระบบสร้างเอกสารใดๆ สำหรับบัญชีของผู้ใช้แล้ว ประเทศของพวกเขา**ไม่สามารถ**อัปเดตได้ "
+"หากผู้ใช้จำเป็นต้องอัปเดตประเทศของพวกเขาในขั้นตอนนั้น "
+"พวกเขาต้องติดต่อผู้ใช้ที่มีสิทธิ์การเข้าถึงระดับผู้ดูแลระบบ"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:51
 msgid "Update payment info"
@@ -15989,8 +16027,8 @@ msgid ""
 "From the portal dashboard, click the :guilabel:`Payment methods` button. "
 "This brings up a new page that shows any saved payment methods."
 msgstr ""
-"จากแดชบอร์ดพอร์ทัล คลิกปุ่ม :guilabel:`วิธีการชำระเงิน` ซึ่งจะเปิดหน้าใหม่ที่แสดงวิธีการชำระเงิน"
-"ที่บันทึกไว้ทั้งหมด"
+"จากแดชบอร์ดพอร์ทัล คลิกปุ่ม :guilabel:`วิธีการชำระเงิน` "
+"ซึ่งจะเปิดหน้าใหม่ที่แสดงวิธีการชำระเงินที่บันทึกไว้ทั้งหมด"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:56
 msgid ""
@@ -16001,9 +16039,9 @@ msgid ""
 "the :guilabel:`Confirm Deletion` button."
 msgstr ""
 "หากต้องการเพิ่มตัวเลือกการชำระเงินใหม่ ให้เลือกจากวิธีการชำระเงินที่มี ป้อนข้อมูลการชำระเงินใหม่ "
-"และคลิก :guilabel:`บันทึก` เพื่อบันทึกรายละเอียด หากต้องการลบตัวเลือกการชำระเงิน ให้คลิกไอค"
-"อน :icon:`fa-trash` :guilabel:`(ลบวิธีการชำระเงิน)` จากนั้นคลิกปุ่ม :guilabel:`ยืนยันกา"
-"รลบ`"
+"และคลิก :guilabel:`บันทึก` เพื่อบันทึกรายละเอียด หากต้องการลบตัวเลือกการชำระเงิน "
+"ให้คลิกไอคอน :icon:`fa-trash` :guilabel:`(ลบวิธีการชำระเงิน)` "
+"จากนั้นคลิกปุ่ม :guilabel:`ยืนยันการลบ`"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:62
 msgid ""
@@ -16011,8 +16049,8 @@ msgid ""
 "information and enter their new or updated info. Payment information "
 "**cannot** be edited and must be re-entered."
 msgstr ""
-"ผู้ใช้ที่จำเป็นต้องอัปเดตข้อมูลการชำระเงิน**ต้อง**ลบข้อมูลที่มีอยู่และป้อนข้อมูลใหม่หรือข้อมูลที่อัปเดตแล้"
-"ว ข้อมูลการชำระเงิน**ไม่สามารถ**แก้ไขได้และต้องป้อนใหม่"
+"ผู้ใช้ที่จำเป็นต้องอัปเดตข้อมูลการชำระเงิน**ต้อง**ลบข้อมูลที่มีอยู่และป้อนข้อมูลใหม่หรือข้อมูลที่อัปเดตแล้ว "
+"ข้อมูลการชำระเงิน**ไม่สามารถ**แก้ไขได้และต้องป้อนใหม่"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:66
 msgid "Update passwords and manage security"
@@ -16024,8 +16062,8 @@ msgid ""
 "button. This brings up a new page with five sections. The following sections "
 "can each be edited and updated."
 msgstr ""
-"จากแดชบอร์ดพอร์ทัล คลิกปุ่ม :guilabel:`การเชื่อมต่อและความปลอดภัย` ซึ่งจะเปิดหน้าใหม่ที่มีห้าส่ว"
-"น แต่ละส่วนต่อไปนี้สามารถแก้ไxและอัปเดตได้"
+"จากแดชบอร์ดพอร์ทัล คลิกปุ่ม :guilabel:`การเชื่อมต่อและความปลอดภัย` "
+"ซึ่งจะเปิดหน้าใหม่ที่มีห้าส่วน แต่ละส่วนต่อไปนี้สามารถแก้ไxและอัปเดตได้"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:72
 msgid "Change Password"
@@ -16037,8 +16075,8 @@ msgid ""
 "to change to. The new password can be saved by clicking :guilabel:`Change "
 "Password`."
 msgstr ""
-"ที่นี่ผู้ใช้สามารถป้อนรหัสผ่านปัจจุบันและรหัสผ่านใหม่ที่ต้องการเปลี่ยน รหัสผ่านใหม่สามารถบันทึกได้โดยคลิ"
-"ก :guilabel:`เปลี่ยนรหัสผ่าน`"
+"ที่นี่ผู้ใช้สามารถป้อนรหัสผ่านปัจจุบันและรหัสผ่านใหม่ที่ต้องการเปลี่ยน "
+"รหัสผ่านใหม่สามารถบันทึกได้โดยคลิก :guilabel:`เปลี่ยนรหัสผ่าน`"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:80
 msgid ""
@@ -16047,17 +16085,17 @@ msgid ""
 "enabled, a link reading :guilabel:`Disable two-factor authentication` "
 "appears instead."
 msgstr ""
-"สถานะ 2FA ปัจจุบันของผู้ใช้แสดงเป็นการแจ้งเตือน หาก 2FA ไม่ได้เปิดใช้งาน ลิงก์ :guilabel:`เปิ"
-"ดใช้งานการยืนยันตัวตนสองปัจจัย` จะปรากฏขึ้น หากเปิดใช้งานแล้ว ลิงก์ที่เขียนว่า :guilabel:`ปิดใช้"
-"งานการยืนยันตัวตนสองปัจจัย` จะปรากฏแทน"
+"สถานะ 2FA ปัจจุบันของผู้ใช้แสดงเป็นการแจ้งเตือน หาก 2FA ไม่ได้เปิดใช้งาน "
+"ลิงก์ :guilabel:`เปิดใช้งานการยืนยันตัวตนสองปัจจัย` จะปรากฏขึ้น หากเปิดใช้งานแล้ว "
+"ลิงก์ที่เขียนว่า :guilabel:`ปิดใช้งานการยืนยันตัวตนสองปัจจัย` จะปรากฏแทน"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:85
 msgid ""
 "Clicking the :icon:`fa-info-circle` :guilabel:`(Documentation)` icon opens a "
 "page that explains how two-factor authentication (2FA) works."
 msgstr ""
-"การคลิกไอคอน :icon:`fa-info-circle` :guilabel:`(เอกสารประกอบ)` จะเปิดหน้าที่อธิบายว่"
-"าการยืนยันตัวตนสองปัจจัย (2FA) ทำงานอย่างไร"
+"การคลิกไอคอน :icon:`fa-info-circle` :guilabel:`(เอกสารประกอบ)` "
+"จะเปิดหน้าที่อธิบายว่าการยืนยันตัวตนสองปัจจัย (2FA) ทำงานอย่างไร"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:89
 msgid "Passkeys"
@@ -16076,12 +16114,13 @@ msgid ""
 "be renamed by clicking the :icon:`fa-pencil` :guilabel:`(pencil)` button or "
 "deleted by clicking their :icon:`fa-trash` :guilabel:`(trash can)` button."
 msgstr ""
-"คลิก :guilabel:`เพิ่มพาสคีย์` เพื่อสร้างพาสคีย์ที่ทำให้กระบวนการเข้าสู่ระบบง่ายขึ้น พาสคีย์ที่สร้างไว้"
-"ก่อนหน้านี้จะแสดงที่นี่ พร้อมข้อมูลเกี่ยวกับเวลาที่สร้างและเวลาที่ใช้ครั้งล่าสุด เมื่อสร้างพาสคีย์ Odoo จะ"
-"ขอรหัสผ่านเพื่อยืนยันความเป็นเจ้าของบัญชีก่อนอนุญาตให้ตั้งพาสคีย์ เมื่อยืนยันความเป็นเจ้าของบัญชีแล้ว พ"
-"าสคีย์จะต้องถูกตั้งชื่อเพื่อแยกความแตกต่างจากพาสคีย์อื่นๆ การคลิก :guilabel:`สร้าง` จะแสดงพร้อม"
-"ท์ของเบราว์เซอร์เพื่อสร้างพาสคีย์ ดำเนินการสร้างพาสคีย์ให้เสร็จสมบูรณ์ในเบราว์เซอร์ สามารถเปลี่ยน"
-"ชื่อได้โดยคลิกปุ่ม :icon:`fa-pencil` :guilabel:`(ดินสอ)` หรือลบได้โดยคลิกปุ่ม :icon:`fa-"
+"คลิก :guilabel:`เพิ่มพาสคีย์` เพื่อสร้างพาสคีย์ที่ทำให้กระบวนการเข้าสู่ระบบง่ายขึ้น "
+"พาสคีย์ที่สร้างไว้ก่อนหน้านี้จะแสดงที่นี่ พร้อมข้อมูลเกี่ยวกับเวลาที่สร้างและเวลาที่ใช้ครั้งล่าสุด "
+"เมื่อสร้างพาสคีย์ Odoo จะขอรหัสผ่านเพื่อยืนยันความเป็นเจ้าของบัญชีก่อนอนุญาตให้ตั้งพาสคีย์ "
+"เมื่อยืนยันความเป็นเจ้าของบัญชีแล้ว พาสคีย์จะต้องถูกตั้งชื่อเพื่อแยกความแตกต่างจากพาสคีย์อื่นๆ "
+"การคลิก :guilabel:`สร้าง` จะแสดงพร้อมท์ของเบราว์เซอร์เพื่อสร้างพาสคีย์ "
+"ดำเนินการสร้างพาสคีย์ให้เสร็จสมบูรณ์ในเบราว์เซอร์ สามารถเปลี่ยนชื่อได้โดยคลิกปุ่ม :icon:`fa-"
+"pencil` :guilabel:`(ดินสอ)` หรือลบได้โดยคลิกปุ่ม :icon:`fa-"
 "trash` :guilabel:`(ถังขยะ)`"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:101
@@ -16095,9 +16134,9 @@ msgid ""
 "click :guilabel:`Confirm Password`, the system logs them out of all sessions "
 "except for the current one."
 msgstr ""
-"การคลิกปุ่ม :guilabel:`ออกจากระบบจากอุปกรณ์ทั้งหมด` จะแสดงป๊อปอัปที่ขอให้ผู้ใช้ป้อนรหัสผ่าน เมื่อ"
-"พวกเขาทำเช่นนั้นและคลิก :guilabel:`ยืนยันรหัสผ่าน` ระบบจะทำการออกจากระบบทุกเซสชันยกเว้นเ"
-"ซสชันปัจจุบัน"
+"การคลิกปุ่ม :guilabel:`ออกจากระบบจากอุปกรณ์ทั้งหมด` จะแสดงป๊อปอัปที่ขอให้ผู้ใช้ป้อนรหัสผ่าน "
+"เมื่อพวกเขาทำเช่นนั้นและคลิก :guilabel:`ยืนยันรหัสผ่าน` "
+"ระบบจะทำการออกจากระบบทุกเซสชันยกเว้นเซสชันปัจจุบัน"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:108
 msgid "Delete Account"
@@ -16111,9 +16150,9 @@ msgid ""
 "to have their email address and phone number added to an internal block list "
 "to prevent any future communication."
 msgstr ""
-"การคลิกปุ่ม :guilabel:`ลบบัญชี` จะแสดงป๊อปอัปเพื่อลบบัญชีของผู้ใช้อย่างสมบูรณ์และถาวร ผู้ใช้ต้องป้อ"
-"นรหัสผ่านและชื่อเข้าสู่ระบบเพื่อทำกระบวนการให้เสร็จสมบูรณ์ พวกเขายังสามารถเลือกให้เพิ่มที่อยู่อีเมลแ"
-"ละหมายเลขโทรศัพท์ของตนไปยังรายการบล็อกภายในเพื่อป้องกันการติดต่อสื่อสารในอนาคต"
+"การคลิกปุ่ม :guilabel:`ลบบัญชี` จะแสดงป๊อปอัปเพื่อลบบัญชีของผู้ใช้อย่างสมบูรณ์และถาวร "
+"ผู้ใช้ต้องป้อนรหัสผ่านและชื่อเข้าสู่ระบบเพื่อทำกระบวนการให้เสร็จสมบูรณ์ "
+"พวกเขายังสามารถเลือกให้เพิ่มที่อยู่อีเมลและหมายเลขโทรศัพท์ของตนไปยังรายการบล็อกภายในเพื่อป้องกันการติดต่อสื่อสารในอนาคต"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:116
 msgid "Administrator-driven updates"
@@ -16133,11 +16172,11 @@ msgid ""
 "Users` as a filter. After making this selection, search for and open the "
 "portal user that needs to be edited."
 msgstr ""
-"ขั้นแรก ไปที่ :menuselection:`แอปการตั้งค่า --> ผู้ใช้` และคลิก :icon:`oi-arrow-right` "
-":guilabel:`จัดการผู้ใช้` จากนั้น คลิกไอคอน :icon:`fa-times` :guilabel:`(ลบ)` เพื่อล้างตั"
-"วกรองการค้นหา :guilabel:`ผู้ใช้ภายใน` และใช้ปุ่ม :icon:`fa-sort-desc` :guilabel:`(สลั"
-"บแผงค้นหา)` เพื่อเพิ่ม :guilabel:`ผู้ใช้พอร์ทัล` เป็นตัวกรอง หลังจากทำการเลือกนี้แล้ว ให้ค้นหาแล"
-"ะเปิดผู้ใช้พอร์ทัลที่ต้องการแก้ไข"
+"ขั้นแรก ไปที่ :menuselection:`แอปการตั้งค่า --> ผู้ใช้` และคลิก :icon:`oi-arrow-"
+"right` :guilabel:`จัดการผู้ใช้` จากนั้น คลิกไอคอน :icon:`fa-times` :guilabel:`(ลบ)` "
+"เพื่อล้างตัวกรองการค้นหา :guilabel:`ผู้ใช้ภายใน` และใช้ปุ่ม :icon:`fa-sort-"
+"desc` :guilabel:`(สลับแผงค้นหา)` เพื่อเพิ่ม :guilabel:`ผู้ใช้พอร์ทัล` เป็นตัวกรอง "
+"หลังจากทำการเลือกนี้แล้ว ให้ค้นหาและเปิดผู้ใช้พอร์ทัลที่ต้องการแก้ไข"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:128
 msgid "Update email address"
@@ -16207,6 +16246,81 @@ msgstr ":doc:`สิทธิ์การเข้าถึง </applications/ge
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:154
 msgid ":doc:`Portal access documentation <portal_access>`"
 msgstr ":doc:`เอกสารประกอบการเข้าถึงพอร์ทัล <portal_access>`"
+
+#~ msgid ""
+#~ "A specific error code is displayed on the IoT system's homepage if any "
+#~ "issues occur during the generation or reception of the ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`."
+#~ msgstr ""
+#~ "รหัสข้อผิดพลาดเฉพาะจะแสดงบนหน้าแรกของระบบ IoT หากเกิดปัญหาใดๆ "
+#~ "ในระหว่างการสร้างหรือรับ ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`"
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+
+#~ msgid ""
+#~ "The server configuration is missing, i.e., the database is "
+#~ "not :doc:`connected <../connect>` to the IoT system."
+#~ msgstr ""
+#~ "การกำหนดค่าเซิร์ฟเวอร์หายไป กล่าวคือ ฐานข้อมูลไม่ได้:doc:`เชื่อมต่อ <../connect>` "
+#~ "กับระบบ IoT"
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+
+#~ msgid ""
+#~ "An error occurred while attempting to read the existing ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
+#~ "certificate file is readable."
+#~ msgstr ""
+#~ "เกิดข้อผิดพลาดขณะพยายามอ่าน ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>` ที่มีอยู่ ตรวจสอบว่าไฟล์ใบรับรอง HTTPS สามารถอ่านได้"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+
+#~ msgid ""
+#~ "An unexpected error occurred while the IoT system tried to reach "
+#~ "`<https://www.odoo.com>`_. This is likely due to network-related issues, "
+#~ "such as:"
+#~ msgstr ""
+#~ "เกิดข้อผิดพลาดที่ไม่คาดคิดขณะที่ระบบ IoT พยายามเข้าถึง `<https://www.odoo.com>`_ "
+#~ "สาเหตุมักเกิดจากปัญหาที่เกี่ยวข้องกับเครือข่าย เช่น:"
+
+#~ msgid "The IoT system does not have Internet access."
+#~ msgstr "ระบบ IoT ไม่มีการเข้าถึงอินเทอร์เน็ต"
+
+#~ msgid ""
+#~ "Network restrictions (e.g., firewalls or VPNs) are preventing "
+#~ "communication with https://www.odoo.com."
+#~ msgstr ""
+#~ "ข้อจำกัดของเครือข่าย (เช่น ไฟร์วอลล์หรือ VPN) ป้องกันการสื่อสารกับ https://www.odoo.com"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+
+#~ msgid ""
+#~ "This error code includes the HTTP status. For example, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a "
+#~ "\"Page Not Found\" response."
+#~ msgstr ""
+#~ "รหัสข้อผิดพลาดนี้รวมถึงสถานะ HTTP ตัวอย่างเช่น `ERR_IOT_HTTPS_LOAD_REQUEST_STATUS "
+#~ "404` หมายความว่าเซิร์ฟเวอร์ส่งคืนการตอบกลับ \"ไม่พบหน้า\""
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+
+#~ msgid ""
+#~ "The IoT system successfully connected to `<https://www.odoo.com>`_, but "
+#~ "the server refused to provide the ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`."
+#~ msgstr ""
+#~ "ระบบ IoT เชื่อมต่อกับ `<https://www.odoo.com>`_ สำเร็จ แต่เซิร์ฟเวอร์ปฏิเสธที่จะให้ "
+#~ "ref:`HTTPS certificate <iot/connect/https_certificate>`"
 
 #~ msgid ""
 #~ "This configuration only works with a subdomain on the Odoo Online or "

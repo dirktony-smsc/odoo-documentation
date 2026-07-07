@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:21+0000\n"
-"PO-Revision-Date: 2026-06-10 01:13+0000\n"
+"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"PO-Revision-Date: 2026-07-05 01:22+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19-doc/"
 "general/sl/>\n"
@@ -1033,8 +1033,8 @@ msgid ""
 msgstr ""
 "Za dodajanje prejemnika se pomaknite na :menuselection:`Nastavitve --> "
 "razdelek E-pošta` in kliknite :guilabel:`Konfiguriraj povzetke e-pošte`. "
-"Nato izberite želeni povzetek e-pošte in odprite zavihek "
-":guilabel:`Prejemniki`."
+"Nato izberite želeni povzetek e-pošte in odprite "
+"zavihek :guilabel:`Prejemniki`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:154
 msgid ""
@@ -1060,9 +1060,9 @@ msgid ""
 "times` :guilabel:`(cancel)` icon to the far-right of the user listed in "
 "the :guilabel:`Recipients` tab."
 msgstr ""
-"Za odstranitev uporabnika kot prejemnika kliknite ikono :icon:`fa-times` "
-":guilabel:`(prekliči)` na skrajni desni strani uporabnika, navedenega v "
-"zavihku :guilabel:`Prejemniki`."
+"Za odstranitev uporabnika kot prejemnika kliknite ikono :icon:`fa-"
+"times` :guilabel:`(prekliči)` na skrajni desni strani uporabnika, navedenega "
+"v zavihku :guilabel:`Prejemniki`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:163
 msgid "Click :guilabel:`Save` to implement the changes."
@@ -1078,10 +1078,10 @@ msgid ""
 "Emails section`, and click :guilabel:`Configure Digest Emails`. Then, "
 "click :guilabel:`New` to create a new digest email."
 msgstr ""
-"Za ustvarjanje novega povzetka e-pošte se pomaknite na "
-":menuselection:`Nastavitve --> razdelek E-pošta` in kliknite "
-":guilabel:`Konfiguriraj povzetke e-pošte`. Nato kliknite :guilabel:`Novo`, "
-"da ustvarite nov povzetek e-pošte."
+"Za ustvarjanje novega povzetka e-pošte se pomaknite "
+"na :menuselection:`Nastavitve --> razdelek E-pošta` in "
+"kliknite :guilabel:`Konfiguriraj povzetke e-pošte`. Nato "
+"kliknite :guilabel:`Novo`, da ustvarite nov povzetek e-pošte."
 
 #: ../../content/applications/general/companies/digest_emails.rst:173
 msgid ""
@@ -1108,8 +1108,8 @@ msgid ""
 "the :menuselection:`Settings app --> Emails section`."
 msgstr ""
 "Po kliku na :guilabel:`Shrani` je nov povzetek e-pošte po meri na voljo kot "
-"izbira v polju :guilabel:`Povzetek e-pošte`, ki se nahaja v "
-":menuselection:`Nastavitve --> razdelek E-pošta`."
+"izbira v polju :guilabel:`Povzetek e-pošte`, ki se nahaja "
+"v :menuselection:`Nastavitve --> razdelek E-pošta`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:195
 msgid "Custom KPIs with Odoo Studio"
@@ -3451,11 +3451,12 @@ msgid ""
 "server. In other words, only a user with an email address that matches the "
 "set :guilabel:`FROM Filtering` is able to use this server."
 msgstr ""
-"Vsak uporabnik mora imeti nastavljen ločen e-poštni strežnik. "
-":guilabel:`Filtriranje POŠILJATELJ` naj bo nastavljeno tako, da se z tega "
-"strežnika pošilja samo uporabnikova e-pošta. Z drugimi besedami, samo "
-"uporabnik z e-poštnim naslovom, ki se ujema z nastavljenim "
-":guilabel:`Filtriranjem POŠILJATELJ`, lahko uporablja ta strežnik."
+"Vsak uporabnik mora imeti nastavljen ločen e-poštni "
+"strežnik. :guilabel:`Filtriranje POŠILJATELJ` naj bo nastavljeno tako, da se "
+"z tega strežnika pošilja samo uporabnikova e-pošta. Z drugimi besedami, samo "
+"uporabnik z e-poštnim naslovom, ki se ujema z "
+"nastavljenim :guilabel:`Filtriranjem POŠILJATELJ`, lahko uporablja ta "
+"strežnik."
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:252
 msgid ""
@@ -3466,8 +3467,8 @@ msgid ""
 msgstr ""
 "Nastaviti je treba :ref:`nadomestni strežnik <azure_oauth/notifications>`, "
 "ki omogoča pošiljanje :guilabel:`obvestil`. :guilabel:`Filtriranje "
-"POŠILJATELJ` za ta strežnik naj ima vrednost `{mail.default.from}@"
-"{mail.catchall.domain}`."
+"POŠILJATELJ` za ta strežnik naj ima vrednost `{mail.default.from}"
+"@{mail.catchall.domain}`."
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:261
 msgid ""
@@ -3565,14 +3566,14 @@ msgid ""
 "account. The account should be ready to receive email to the Odoo database."
 msgstr ""
 "Dohodni račun naj bo konfiguriran na podoben način kot odhodni e-poštni "
-"račun. Pojdite na :guilabel:`Dohodni e-poštni strežniki` v "
-":guilabel:`Tehničnem meniju` in :guilabel:`Ustvarite` novo konfiguracijo. "
+"račun. Pojdite na :guilabel:`Dohodni e-poštni strežniki` "
+"v :guilabel:`Tehničnem meniju` in :guilabel:`Ustvarite` novo konfiguracijo. "
 "Označite ali izberite gumb poleg :guilabel:`Outlook Oauth avtentikacija` in "
-"vnesite :guilabel:`Microsoft Outlook uporabniško ime`. Kliknite na "
-":guilabel:`Povežite svoj Outlook račun`. Odoo bo prikazal: "
-":guilabel:`Outlook žeton veljaven`. Zdaj :guilabel:`Testirajte in potrdite` "
-"račun. Račun naj bi bil pripravljen za prejemanje e-pošte v podatkovno bazo "
-"Odoo."
+"vnesite :guilabel:`Microsoft Outlook uporabniško ime`. Kliknite "
+"na :guilabel:`Povežite svoj Outlook račun`. Odoo bo "
+"prikazal: :guilabel:`Outlook žeton veljaven`. Zdaj :guilabel:`Testirajte in "
+"potrdite` račun. Račun naj bi bil pripravljen za prejemanje e-pošte v "
+"podatkovno bazo Odoo."
 
 #: ../../content/applications/general/email_communication/email_domain.rst:6
 msgid "Configure DNS records to send emails in Odoo"
@@ -3989,9 +3990,9 @@ msgid ""
 "rua=mailto:postmaster@example.com”` means that aggregate DMARC reports will "
 "be sent to `postmaster\\@example.com`."
 msgstr ""
-":literal:`_dmarc IN TXT “v=DMARC1; p=none; rua=mailto:postmaster@example.com"
-"”` pomeni, da bodo agregirana poročila DMARC poslana na `postmaster\\"
-"@example.com`."
+":literal:`_dmarc IN TXT “v=DMARC1; p=none; "
+"rua=mailto:postmaster@example.com”` pomeni, da bodo agregirana poročila "
+"DMARC poslana na `postmaster\\@example.com`."
 
 #: ../../content/applications/general/email_communication/email_domain.rst:217
 msgid "SPF, DKIM and DMARC documentation of common providers"
@@ -4024,8 +4025,8 @@ msgid ""
 "`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/"
 "317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
 msgstr ""
-"`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/317/"
-"2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
+"`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/"
+"317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:225
 msgid ""
@@ -4048,8 +4049,8 @@ msgid ""
 "`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
 "portal>`_"
 msgstr ""
-"`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-portal>"
-"`_"
+"`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
+"portal>`_"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:230
 msgid ""
@@ -6962,8 +6963,8 @@ msgid ""
 "and :guilabel:`Save` the settings."
 msgstr ""
 "Nato se premakni na :menuselection:`Nastavitve --> Splošne nastavitve` in v "
-"razdelku :guilabel:`Discuss` preveri, da je potrditveno polje za "
-":guilabel:`Strežnike e-pošte po meri` ali :guilabel:`Zunanje strežnike e-"
+"razdelku :guilabel:`Discuss` preveri, da je potrditveno polje "
+"za :guilabel:`Strežnike e-pošte po meri` ali :guilabel:`Zunanje strežnike e-"
 "pošte` označeno. To prikaže novo možnost za :guilabel:`Poverilnice Gmail` "
 "ali :guilabel:`Uporabi strežnik Gmail`. Nato kopiraj in prilepi ustrezne "
 "vrednosti v polji :guilabel:`ID odjemalca` in :guilabel:`Skrivnost "
@@ -6975,9 +6976,9 @@ msgid ""
 "the :guilabel:`Custom Email Servers` setting and then click "
 "the :guilabel:`Outgoing Email Servers` link."
 msgstr ""
-"Za konfiguracijo zunanjega računa Gmail se vrni na vrh nastavitve "
-":guilabel:`Strežniki e-pošte po meri` in nato klikni na povezavo "
-":guilabel:`Odhodni strežniki e-pošte`."
+"Za konfiguracijo zunanjega računa Gmail se vrni na vrh "
+"nastavitve :guilabel:`Strežniki e-pošte po meri` in nato klikni na "
+"povezavo :guilabel:`Odhodni strežniki e-pošte`."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "Configure Outgoing Email Servers in Odoo."
@@ -6990,8 +6991,8 @@ msgid ""
 "email :guilabel:`Username` (if required)."
 msgstr ""
 "Nato klikni na :guilabel:`Novo` ali :guilabel:`Ustvari`, da ustvariš nov e-"
-"poštni strežnik, in izpolni :guilabel:`Ime`, :guilabel:`Opis` ter e-poštno "
-":guilabel:`Uporabniško ime` (če je potrebno)."
+"poštni strežnik, in izpolni :guilabel:`Ime`, :guilabel:`Opis` ter e-"
+"poštno :guilabel:`Uporabniško ime` (če je potrebno)."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:139
 msgid ""
@@ -6999,9 +7000,9 @@ msgid ""
 "(under the :guilabel:`Authenticate with` or :guilabel:`Connection` section). "
 "Finally, click on :guilabel:`Connect your Gmail Account`."
 msgstr ""
-"Nato klikni na :guilabel:`Preverjanje pristnosti Gmail OAuth` ali "
-":guilabel:`Gmail` (v razdelku :guilabel:`Preveri pristnost z` ali "
-":guilabel:`Povezava`). Na koncu klikni na :guilabel:`Poveži svoj račun "
+"Nato klikni na :guilabel:`Preverjanje pristnosti Gmail OAuth` "
+"ali :guilabel:`Gmail` (v razdelku :guilabel:`Preveri pristnost z` "
+"ali :guilabel:`Povezava`). Na koncu klikni na :guilabel:`Poveži svoj račun "
 "Gmail`."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:143
@@ -7019,8 +7020,9 @@ msgid ""
 "click :guilabel:`Continue` to allow the verification and connect the Gmail "
 "account to Odoo."
 msgstr ""
-"Če je e-poštni naslov osebni račun, se prikaže dodaten korak, zato klikni "
-":guilabel:`Nadaljuj`, da odobriš preverjanje in povežeš račun Gmail z Odoo."
+"Če je e-poštni naslov osebni račun, se prikaže dodaten korak, zato "
+"klikni :guilabel:`Nadaljuj`, da odobriš preverjanje in povežeš račun Gmail z "
+"Odoo."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:149
 msgid ""
@@ -7058,8 +7060,8 @@ msgid ""
 "Choosing :guilabel:`Production` as the :guilabel:`Publishing Status` "
 "(instead of :guilabel:`Testing`) will display the following warning message:"
 msgstr ""
-"Če izbereš :guilabel:`Proizvodnja` kot :guilabel:`Status objave` (namesto "
-":guilabel:`Testiranje`), se prikaže naslednje opozorilo:"
+"Če izbereš :guilabel:`Proizvodnja` kot :guilabel:`Status objave` "
+"(namesto :guilabel:`Testiranje`), se prikaže naslednje opozorilo:"
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "OAuth is Limited to 100 Sensitive Scope Logins."
@@ -7073,9 +7075,9 @@ msgid ""
 "click :guilabel:`Back to Testing` to correct the issue."
 msgstr ""
 "Za popravek tega opozorila se premakni na `Google API Platform <https://"
-"console.cloud.google.com/apis/credentials/consent>`_. Če je "
-":guilabel:`Status objave` nastavljen na :guilabel:`V proizvodnji`, klikni "
-":guilabel:`Nazaj na testiranje`, da popraviš težavo."
+"console.cloud.google.com/apis/credentials/consent>`_. Če "
+"je :guilabel:`Status objave` nastavljen na :guilabel:`V proizvodnji`, "
+"klikni :guilabel:`Nazaj na testiranje`, da popraviš težavo."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:179
 msgid "No Test Users Added"
@@ -7475,12 +7477,12 @@ msgid ""
 "consists of the :guilabel:`Host` and :guilabel:`Value`. Paste these into the "
 "corresponding fields in the TXT record."
 msgstr ""
-"Po pridobitvi informacij o zapisu TXT iz računa Mailjet dodajte zapis TXT v "
-":abbr:`DNS (Domain Name System)` domene. Ta postopek se razlikuje glede na "
+"Po pridobitvi informacij o zapisu TXT iz računa Mailjet dodajte zapis TXT "
+"v :abbr:`DNS (Domain Name System)` domene. Ta postopek se razlikuje glede na "
 "ponudnika :abbr:`DNS (Domain Name System)`. Za določene postopke "
-"konfiguracije se obrnite na ponudnika. Informacije o zapisu TXT sestavljajo "
-":guilabel:`Host` in :guilabel:`Value`. Prilepite jih v ustrezna polja v "
-"zapisu TXT."
+"konfiguracije se obrnite na ponudnika. Informacije o zapisu TXT "
+"sestavljajo :guilabel:`Host` in :guilabel:`Value`. Prilepite jih v ustrezna "
+"polja v zapisu TXT."
 
 #: ../../content/applications/general/email_communication/mailjet_api.rst:138
 msgid "Return to Mailjet account information"
@@ -7495,8 +7497,8 @@ msgid ""
 "select :guilabel:`Validate`."
 msgstr ""
 "Po dodajanju zapisa TXT v :abbr:`DNS (Domain Name System)` domene se vrnite "
-"v račun Mailjet. Nato se pomaknite na :menuselection:`Account "
-"Information --> Add a Sender Domain or Address`, kliknite ikono zobnika "
+"v račun Mailjet. Nato se pomaknite na :menuselection:`Account Information --"
+"> Add a Sender Domain or Address`, kliknite ikono zobnika "
 "poleg :guilabel:`Domain` in izberite :guilabel:`Validate`."
 
 #: ../../content/applications/general/email_communication/mailjet_api.rst:144
@@ -7532,8 +7534,8 @@ msgid ""
 msgstr ""
 "Po uspešni nastavitvi domene obstaja možnost :guilabel:`Authenticate this "
 "domain (SPF/DKIM)`. Ta gumb zapolni zapise :abbr:`SPF (Sender Policy "
-"Framework)` in :abbr:`DKIM (DomainKeys Identified Mail) za vnos v ponudnika "
-":abbr:`DNS (Domain Name System)`."
+"Framework)` in :abbr:`DKIM (DomainKeys Identified Mail) za vnos v "
+"ponudnika :abbr:`DNS (Domain Name System)`."
 
 #: ../../content/applications/general/email_communication/mailjet_api.rst:158
 msgid ""
@@ -7559,11 +7561,11 @@ msgid ""
 "Then, create a new outgoing server configuration by clicking on "
 "the :guilabel:`Create` button."
 msgstr ""
-"Za dokončanje nastavitve se pomaknite v bazo podatkov Odoo in pojdite v "
-":guilabel:`Settings`. Z vklopljenim :ref:`developer-mode` pojdite na "
-":menuselection:`Technical Menu --> Email --> Outgoing Mail Servers`. Nato "
-"ustvarite novo konfiguracijo odhodnega strežnika s klikom na gumb "
-":guilabel:`Create`."
+"Za dokončanje nastavitve se pomaknite v bazo podatkov Odoo in pojdite "
+"v :guilabel:`Settings`. Z vklopljenim :ref:`developer-mode` pojdite "
+"na :menuselection:`Technical Menu --> Email --> Outgoing Mail Servers`. Nato "
+"ustvarite novo konfiguracijo odhodnega strežnika s klikom na "
+"gumb :guilabel:`Create`."
 
 #: ../../content/applications/general/email_communication/mailjet_api.rst:174
 msgid ""
@@ -7601,8 +7603,8 @@ msgid ""
 msgstr ""
 "Nato, če se strežnik Mailjet uporablja za množično pošiljanje e-pošte, "
 "nastavite vrednost :guilabel:`Priority` višje od vrednosti katerega koli "
-"transakcijskega e-poštnega strežnika. Nazadnje shranite nastavitve in "
-":guilabel:`Test the Connection`."
+"transakcijskega e-poštnega strežnika. Nazadnje shranite nastavitve "
+"in :guilabel:`Test the Connection`."
 
 #: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "Odoo outgoing email server settings."
@@ -7870,10 +7872,10 @@ msgid ""
 "Cloud <cloud-storage/google>` or :ref:`Microsoft Azure <cloud-storage/"
 "microsoft>` platform instead of the database's server."
 msgstr ""
-"Integracija shranjevanja v oblak omogoča shranjevanje prilog iz "
-":doc:`chatter <../../productivity/discuss/chatter>` in e-pošte na platformi "
-":ref:`Google Cloud <cloud-storage/google>` ali :ref:`Microsoft Azure <cloud-"
-"storage/microsoft>` namesto na strežniku baze podatkov."
+"Integracija shranjevanja v oblak omogoča shranjevanje prilog "
+"iz :doc:`chatter <../../productivity/discuss/chatter>` in e-pošte na "
+"platformi :ref:`Google Cloud <cloud-storage/google>` ali :ref:`Microsoft "
+"Azure <cloud-storage/microsoft>` namesto na strežniku baze podatkov."
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:9
 msgid ""
@@ -9777,7 +9779,7 @@ msgstr ""
 "sistemom IoT."
 
 #: ../../content/applications/general/iot.rst:68
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:5
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:3
 msgid "Troubleshooting"
 msgstr "Odpravljanje težav"
 
@@ -10008,8 +10010,8 @@ msgstr ""
 "kopirajte :guilabel:`Žeton`."
 
 #: ../../content/applications/general/iot/connect.rst:90
-#: ../../content/applications/general/iot/connect.rst:141
-#: ../../content/applications/general/iot/devices/printer.rst:181
+#: ../../content/applications/general/iot/connect.rst:144
+#: ../../content/applications/general/iot/devices/printer.rst:186
 msgid ""
 "Access the :ref:`IoT box's <iot/iot-box/homepage>` or :ref:`Windows virtual "
 "IoT's <iot/windows-iot/homepage>` homepage."
@@ -10109,20 +10111,30 @@ msgstr ""
 "zagonu sistema IoT. Če želite onemogočiti samodejne posodobitve, počistite "
 "polje :guilabel:`Samodejna posodobitev gonilnikov`."
 
-#: ../../content/applications/general/iot/connect.rst:131
+#: ../../content/applications/general/iot/connect.rst:127
+msgid ""
+"On the :ref:`IoT system's form <iot/connect/IoT-form>`, click "
+"the :guilabel:`Test` button to test the connection between the IoT system "
+"and Odoo and assess the quality of the system's Internet connection."
+msgstr ""
+"Na :ref:`obrazcu sistema IoT <iot/connect/IoT-form>` kliknite gumb "
+":guilabel:`Testiraj`, da preizkusite povezavo med sistemom IoT in Odoo ter "
+"ocenite kakovost internetne povezave sistema."
+
+#: ../../content/applications/general/iot/connect.rst:134
 msgid "Disconnecting an IoT system from a database"
 msgstr "Prekinitev povezave sistema IoT s podatkovno zbirko"
 
-#: ../../content/applications/general/iot/connect.rst:133
+#: ../../content/applications/general/iot/connect.rst:136
 msgid "To disconnect the IoT system from a database, follow these steps:"
 msgstr ""
 "Za prekinitev povezave sistema IoT s podatkovno zbirko sledite tem korakom:"
 
-#: ../../content/applications/general/iot/connect.rst:135
+#: ../../content/applications/general/iot/connect.rst:138
 msgid "Open the IoT app and click the relevant IoT system's card."
 msgstr "Odprite aplikacijo IoT in kliknite kartico ustreznega sistema IoT."
 
-#: ../../content/applications/general/iot/connect.rst:136
+#: ../../content/applications/general/iot/connect.rst:139
 msgid ""
 "Click the :icon:`fa-cog` :guilabel:`(Actions)` icon, and "
 "select :guilabel:`Delete`."
@@ -10130,11 +10142,11 @@ msgstr ""
 "Kliknite ikono :icon:`fa-cog` :guilabel:`(Dejanja)` in "
 "izberite :guilabel:`Izbriši`."
 
-#: ../../content/applications/general/iot/connect.rst:139
+#: ../../content/applications/general/iot/connect.rst:142
 msgid "Alternatively:"
 msgstr "Lahko tudi:"
 
-#: ../../content/applications/general/iot/connect.rst:143
+#: ../../content/applications/general/iot/connect.rst:146
 msgid ""
 "Click :guilabel:`Configure` in the :icon:`fa-link` :guilabel:`Odoo database "
 "connected` section."
@@ -10142,15 +10154,15 @@ msgstr ""
 "Kliknite :guilabel:`Konfiguriraj` v razdelku :icon:`fa-"
 "link` :guilabel:`Povezana podatkovna zbirka Odoo`."
 
-#: ../../content/applications/general/iot/connect.rst:145
+#: ../../content/applications/general/iot/connect.rst:148
 msgid "Click :guilabel:`Disconnect` in the popup that opens."
 msgstr "V pojavnem oknu, ki se odpre, kliknite :guilabel:`Prekini povezavo`."
 
-#: ../../content/applications/general/iot/connect.rst:150
+#: ../../content/applications/general/iot/connect.rst:153
 msgid "HTTPS certificate"
 msgstr "HTTPS potrdilo"
 
-#: ../../content/applications/general/iot/connect.rst:152
+#: ../../content/applications/general/iot/connect.rst:155
 msgid ""
 ":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` is the secure, encrypted "
 "version of :abbr:`HTTP (Hypertext Transfer Protocol)`. It uses :abbr:`TLS "
@@ -10168,7 +10180,7 @@ msgstr ""
 "plačilni terminali, za komunikacijo s sistemom IoT zahtevajo veljavno "
 "potrdilo HTTPS; brez njega ne morejo pravilno delovati."
 
-#: ../../content/applications/general/iot/connect.rst:160
+#: ../../content/applications/general/iot/connect.rst:163
 msgid ""
 "In this documentation and throughout Odoo, the term *HTTPS certificate*  "
 "refers to a valid SSL certificate that allows an HTTPS connection."
@@ -10176,7 +10188,7 @@ msgstr ""
 "V tej dokumentaciji in v celotnem Odoo se izraz *potrdilo HTTPS* nanaša na "
 "veljavno potrdilo SSL, ki omogoča povezavo HTTPS."
 
-#: ../../content/applications/general/iot/connect.rst:163
+#: ../../content/applications/general/iot/connect.rst:166
 msgid ""
 "When the IoT system is (re-)started and connected to a database, it "
 "automatically downloads the HTTPS certificate if the database meets the "
@@ -10186,7 +10198,7 @@ msgstr ""
 "prenese potrdilo HTTPS, če podatkovna zbirka izpolnjuje naslednja merila "
 "upravičenosti:"
 
-#: ../../content/applications/general/iot/connect.rst:168
+#: ../../content/applications/general/iot/connect.rst:171
 msgid ""
 "The database must be a **production** instance. The database instance should "
 "not be a copy, a duplicate, a staging, or a development environment."
@@ -10194,15 +10206,15 @@ msgstr ""
 "Podatkovna baza mora biti **produkcijska** instanca. Instanca podatkovne "
 "baze ne sme biti kopija, duplikat, testno ali razvojno okolje."
 
-#: ../../content/applications/general/iot/connect.rst:170
+#: ../../content/applications/general/iot/connect.rst:173
 msgid "The Odoo subscription must be ongoing (:guilabel:`In Progress` status)."
 msgstr "Naročnina na Odoo mora biti aktivna (status :guilabel:`V teku`)."
 
-#: ../../content/applications/general/iot/connect.rst:172
+#: ../../content/applications/general/iot/connect.rst:175
 msgid "When the certificate has been received:"
 msgstr "Ko je potrdilo prejeto:"
 
-#: ../../content/applications/general/iot/connect.rst:174
+#: ../../content/applications/general/iot/connect.rst:177
 msgid ""
 "The IoT system's homepage address is updated to a new HTTPS URL ending with "
 "`.odoo-iot.com`."
@@ -10210,7 +10222,7 @@ msgstr ""
 "Naslov spletne strani sistema IoT je posodobljen na nov HTTPS URL, ki se "
 "konča z `.odoo-iot.com`."
 
-#: ../../content/applications/general/iot/connect.rst:175
+#: ../../content/applications/general/iot/connect.rst:178
 msgid ""
 "The :guilabel:`HTTPS certificate` banner displays the certificate's validity "
 "period. To view this information, click the :icon:`fa-cogs` "
@@ -10224,7 +10236,7 @@ msgstr ""
 msgid "IoT box homepage with HTTPS certificate validity date."
 msgstr "Domača stran IoT boxa z datumom veljavnosti potrdila HTTPS."
 
-#: ../../content/applications/general/iot/connect.rst:183
+#: ../../content/applications/general/iot/connect.rst:186
 msgid ":ref:`iot/troubleshooting/https_certificate`"
 msgstr ":ref:`iot/troubleshooting/https_certificate`"
 
@@ -10369,7 +10381,7 @@ msgstr ""
 "strani :guilabel:`Preverjanja kakovosti`."
 
 #: ../../content/applications/general/iot/devices/camera.rst:58
-#: ../../content/applications/general/iot/devices/printer.rst:69
+#: ../../content/applications/general/iot/devices/printer.rst:74
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_control_points`"
@@ -10378,7 +10390,7 @@ msgstr ""
 "quality_control_points`"
 
 #: ../../content/applications/general/iot/devices/camera.rst:59
-#: ../../content/applications/general/iot/devices/printer.rst:70
+#: ../../content/applications/general/iot/devices/printer.rst:75
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_alerts`"
@@ -10802,14 +10814,27 @@ msgstr ""
 "lahko traja do dve minuti."
 
 #: ../../content/applications/general/iot/devices/printer.rst:33
+msgid ""
+"To test the printer, open the IoT app, click the :ref:`IoT system's card "
+"<iot/connect/IoT-form>`, select the printer device, then "
+"click :guilabel:`Test`. A successful test prints a test page. If no page is "
+"printed, ensure the printer is powered on and the connection is correct."
+msgstr ""
+"Za preizkus tiskalnika odprite aplikacijo IoT, kliknite :ref:`kartico "
+"sistema IoT <iot/connect/IoT-form>`, izberite napravo tiskalnika in nato "
+"kliknite :guilabel:`Testiraj`. Uspešen preizkus natisne testno stran. Če "
+"stran ni natisnjena, se prepričajte, da je tiskalnik vklopljen in da je "
+"povezava pravilna."
+
+#: ../../content/applications/general/iot/devices/printer.rst:38
 msgid "Link a printer"
 msgstr "Povezava tiskalnika"
 
-#: ../../content/applications/general/iot/devices/printer.rst:36
+#: ../../content/applications/general/iot/devices/printer.rst:41
 msgid "Link work orders to a printer"
 msgstr "Povezava delovnih nalogov s tiskalnikom"
 
-#: ../../content/applications/general/iot/devices/printer.rst:38
+#: ../../content/applications/general/iot/devices/printer.rst:43
 msgid ""
 "Work orders can be linked to printers, via a quality control point, to print "
 "labels for manufactured products."
@@ -10817,7 +10842,7 @@ msgstr ""
 "Delovne naloge je mogoče povezati s tiskalniki prek kontrolne točke "
 "kakovosti za tiskanje nalepk za proizvedene izdelke."
 
-#: ../../content/applications/general/iot/devices/printer.rst:41
+#: ../../content/applications/general/iot/devices/printer.rst:46
 msgid ""
 "In the :doc:`Quality app </applications/inventory_and_mrp/quality>`, a "
 "device can be set up on a quality control point. To do so, go to "
@@ -10829,7 +10854,7 @@ msgstr ""
 "narediti, pojdite na :menuselection:`Quality --> Quality Control --> Control "
 "Points` in odprite želeno kontrolno točko."
 
-#: ../../content/applications/general/iot/devices/printer.rst:46
+#: ../../content/applications/general/iot/devices/printer.rst:51
 msgid ""
 "A manufacturing operation and work order operation need to be attached to a "
 "quality control point before the :guilabel:`Type` field allows for "
@@ -10839,7 +10864,7 @@ msgstr ""
 "Label`, je treba k kontrolni točki kakovosti priložiti proizvodno operacijo "
 "in operacijo delovnega naloga."
 
-#: ../../content/applications/general/iot/devices/printer.rst:50
+#: ../../content/applications/general/iot/devices/printer.rst:55
 msgid ""
 "From here, edit the control point by selecting the :guilabel:`Type` field, "
 "and selecting :guilabel:`Print Label` from the dropdown menu of options. "
@@ -10850,7 +10875,7 @@ msgstr ""
 "spustnega menija izberete :guilabel:`Print Label`. S tem se prikaže "
 "polje :guilabel:`Device`, kjer je mogoče izbrati priloženo napravo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:54
+#: ../../content/applications/general/iot/devices/printer.rst:59
 msgid ""
 "The printer can now be used with the selected quality control point. When "
 "the quality control point is reached during the manufacturing process, the "
@@ -10860,7 +10885,7 @@ msgstr ""
 "je med proizvodnim procesom dosežena kontrolna točka kakovosti, baza "
 "podatkov ponudi možnost tiskanja nalepk za določen izdelek."
 
-#: ../../content/applications/general/iot/devices/printer.rst:59
+#: ../../content/applications/general/iot/devices/printer.rst:64
 msgid ""
 "Quality control points can also be accessed by navigating "
 "to :menuselection:`IoT --> Devices`, then selecting the device. Go to "
@@ -10870,7 +10895,7 @@ msgstr ""
 "na :menuselection:`IoT --> Devices` in nato izberete napravo. Pojdite na "
 "zavihek :guilabel:`Quality Control Points`, da jih dodate napravi."
 
-#: ../../content/applications/general/iot/devices/printer.rst:64
+#: ../../content/applications/general/iot/devices/printer.rst:69
 msgid ""
 "On a :doc:`quality check form </applications/inventory_and_mrp/quality/"
 "quality_management/quality_checks>`, the :guilabel:`Type` of check can also "
@@ -10880,29 +10905,29 @@ msgstr ""
 "quality/quality_management/quality_checks>` je mogoče tudi :guilabel:`Type` "
 "preverjanja nastaviti na :guilabel:`Print Label`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:75
+#: ../../content/applications/general/iot/devices/printer.rst:80
 msgid "Link reports to a printer"
 msgstr "Povezovanje poročil s tiskalnikom"
 
-#: ../../content/applications/general/iot/devices/printer.rst:77
+#: ../../content/applications/general/iot/devices/printer.rst:82
 msgid "It is possible to link report types to a specific printer. To do so:"
 msgstr ""
 "Mogoče je povezati vrste poročil z določenim tiskalnikom. Če želite to "
 "narediti:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:79
+#: ../../content/applications/general/iot/devices/printer.rst:84
 msgid "Go to :menuselection:`IoT --> Devices` and select the desired printer."
 msgstr ""
 "Pojdite na :menuselection:`IoT --> Devices` in izberite želeni tiskalnik."
 
-#: ../../content/applications/general/iot/devices/printer.rst:80
+#: ../../content/applications/general/iot/devices/printer.rst:85
 msgid ""
 "Go to the :guilabel:`Printer Reports` tab and click :guilabel:`Add a line`."
 msgstr ""
 "Pojdite na zavihek :guilabel:`Printer Reports` in kliknite :guilabel:`Add a "
 "line`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:81
+#: ../../content/applications/general/iot/devices/printer.rst:86
 msgid ""
 "In the pop-up that opens, select the types of reports to be linked to the "
 "printer and click :guilabel:`Select`."
@@ -10914,7 +10939,7 @@ msgstr ""
 msgid "The list of reports assigned to a printer in the IoT app."
 msgstr "Seznam poročil, dodeljenih tiskalniku v aplikaciji IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:88
+#: ../../content/applications/general/iot/devices/printer.rst:93
 msgid ""
 "Reports can also be configured by :ref:`enabling the developer mode "
 "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
@@ -10926,7 +10951,7 @@ msgstr ""
 "Reports`. Na seznamu izberite želeno poročilo in nastavite :guilabel:`IoT "
 "Device`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:92
+#: ../../content/applications/general/iot/devices/printer.rst:97
 msgid ""
 "The first time a linked report is selected to print, a :guilabel:`Select "
 "Printers` pop-up window appears. Tick the checkbox next to the correct "
@@ -10938,11 +10963,11 @@ msgstr ""
 "tiskalniku za poročilo in kliknite :guilabel:`Print`. V tem trenutku je "
 "poročilo povezano s tiskalnikom."
 
-#: ../../content/applications/general/iot/devices/printer.rst:97
+#: ../../content/applications/general/iot/devices/printer.rst:102
 msgid "Clear device printer cache"
 msgstr "Čiščenje predpomnilnika tiskalnika naprave"
 
-#: ../../content/applications/general/iot/devices/printer.rst:99
+#: ../../content/applications/general/iot/devices/printer.rst:104
 msgid ""
 "After a printer is linked to print a report, the setting is saved in a "
 "browser's cache. This means a user can have different devices saved in their "
@@ -10957,7 +10982,7 @@ msgstr ""
 "poročilo samodejno natisne iz različnih tiskalnikov, odvisno od njihovih "
 "nastavitev."
 
-#: ../../content/applications/general/iot/devices/printer.rst:104
+#: ../../content/applications/general/iot/devices/printer.rst:109
 msgid ""
 "To unlink a report from a printer, navigate to :menuselection:`IoT --> "
 "Configuration --> Reset Linked Printers`. This generates a list of reports "
@@ -10969,7 +10994,7 @@ msgstr ""
 "se ustvari seznam poročil, ki so povezana s tiskalnikom na trenutni napravi. "
 "Kliknite gumb :guilabel:`Unlink` ob vsakem poročilu, da odstranite povezavo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:109
+#: ../../content/applications/general/iot/devices/printer.rst:114
 msgid ""
 "This step **only** prevents the report from automatically printing to the "
 "listed printer from the current browser. The report is still :ref:`linked "
@@ -10984,19 +11009,19 @@ msgid "A list of reports currently linked to a printer in the IoT app."
 msgstr ""
 "Seznam poročil, ki so trenutno povezana s tiskalnikom v aplikaciji IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:117
+#: ../../content/applications/general/iot/devices/printer.rst:122
 msgid ":ref:`POS Order Printing <pos/restaurant/orders-printing>`"
 msgstr ":ref:`Tiskanje naročil POS <pos/restaurant/orders-printing>`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:120
+#: ../../content/applications/general/iot/devices/printer.rst:125
 msgid "Potential issues"
 msgstr "Moreče težave"
 
-#: ../../content/applications/general/iot/devices/printer.rst:123
+#: ../../content/applications/general/iot/devices/printer.rst:128
 msgid "The printer is not detected"
 msgstr "Tiskalnik ni zaznan"
 
-#: ../../content/applications/general/iot/devices/printer.rst:125
+#: ../../content/applications/general/iot/devices/printer.rst:130
 msgid ""
 "If a printer does not appear in the devices list, go to the :ref:`IoT box's "
 "<iot/iot-box/homepage>` or :ref:`Windows virtual IoT's <iot/windows-iot/"
@@ -11008,7 +11033,7 @@ msgstr ""
 "iot/homepage>`, kliknite :guilabel:`Prikaži` v razdelku :guilabel:`Naprave` "
 "in se prepričajte, da je tiskalnik naveden."
 
-#: ../../content/applications/general/iot/devices/printer.rst:129
+#: ../../content/applications/general/iot/devices/printer.rst:134
 msgid ""
 "If the printer does not appear on the IoT system's homepage, "
 "click :guilabel:`Printer Server`, then :guilabel:`Administration`, "
@@ -11020,11 +11045,11 @@ msgstr ""
 "in :guilabel:`Dodaj tiskalnik`. Če tiskalnik ni na seznamu, verjetno ni "
 "pravilno povezan."
 
-#: ../../content/applications/general/iot/devices/printer.rst:134
+#: ../../content/applications/general/iot/devices/printer.rst:139
 msgid "The printer outputs random text"
 msgstr "Tiskalnik izpisuje naključno besedilo"
 
-#: ../../content/applications/general/iot/devices/printer.rst:136
+#: ../../content/applications/general/iot/devices/printer.rst:141
 msgid ""
 "For most printers, the correct driver should be automatically detected and "
 "selected. However, in some cases, the automatic detection mechanism might "
@@ -11036,7 +11061,7 @@ msgstr ""
 "morda ni zadosten in če gonilnik ni najden, lahko tiskalnik izpisuje "
 "naključne znake."
 
-#: ../../content/applications/general/iot/devices/printer.rst:140
+#: ../../content/applications/general/iot/devices/printer.rst:145
 msgid ""
 "The solution is to manually select the corresponding driver. On the IoT "
 "system's homepage, click :guilabel:`Printer Server`, "
@@ -11054,7 +11079,7 @@ msgstr ""
 msgid "Edit the printer connected to the IoT system."
 msgstr "Uredite tiskalnik, povezan z IoT sistemom."
 
-#: ../../content/applications/general/iot/devices/printer.rst:150
+#: ../../content/applications/general/iot/devices/printer.rst:155
 msgid ""
 "Epson receipt printers and Zebra label printers do not need a driver to "
 "work. Make sure that no driver is selected for those printers."
@@ -11063,11 +11088,11 @@ msgstr ""
 "gonilnika za delovanje. Prepričajte se, da za te tiskalnike ni izbran noben "
 "gonilnik."
 
-#: ../../content/applications/general/iot/devices/printer.rst:154
+#: ../../content/applications/general/iot/devices/printer.rst:159
 msgid "The printer is detected but is not recognized correctly"
 msgstr "Tiskalnik je zaznan, vendar ni pravilno prepoznan"
 
-#: ../../content/applications/general/iot/devices/printer.rst:156
+#: ../../content/applications/general/iot/devices/printer.rst:161
 msgid ""
 "If Odoo and the IoT system do not recognize the printer correctly, go "
 "to :menuselection:`IoT --> Devices`, click the device's card to access its "
@@ -11081,11 +11106,11 @@ msgstr ""
 "možnost: :guilabel:`Blagajniški tiskalnik`, :guilabel:`Tiskalnik nalepk` "
 "ali :guilabel:`Pisarniški tiskalnik`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:162
+#: ../../content/applications/general/iot/devices/printer.rst:167
 msgid "Epson configuration special case"
 msgstr "Poseben primer konfiguracije Epson"
 
-#: ../../content/applications/general/iot/devices/printer.rst:164
+#: ../../content/applications/general/iot/devices/printer.rst:169
 msgid ""
 "Most Epson printers support printing receipts in Odoo Point of Sale using "
 "the `GS v 0` command. However, the following Epson printer models do not "
@@ -11095,30 +11120,30 @@ msgstr ""
 "ukazom `GS v 0`. Naslednji modeli Epson tiskalnikov pa ne podpirajo tega "
 "ukaza:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:167
+#: ../../content/applications/general/iot/devices/printer.rst:172
 msgid "TM-U220"
 msgstr "TM-U220"
 
-#: ../../content/applications/general/iot/devices/printer.rst:168
+#: ../../content/applications/general/iot/devices/printer.rst:173
 msgid "TM-U230"
 msgstr "TM-U230"
 
-#: ../../content/applications/general/iot/devices/printer.rst:169
+#: ../../content/applications/general/iot/devices/printer.rst:174
 msgid "TM-P60"
 msgstr "TM-P60"
 
-#: ../../content/applications/general/iot/devices/printer.rst:170
+#: ../../content/applications/general/iot/devices/printer.rst:175
 msgid "TMP-P60II"
 msgstr "TMP-P60II"
 
-#: ../../content/applications/general/iot/devices/printer.rst:172
+#: ../../content/applications/general/iot/devices/printer.rst:177
 msgid ""
 "To bypass this issue, you can configure the printer to use the `ESC *` "
 "command."
 msgstr ""
 "Za obhod te težave lahko konfigurirate tiskalnik za uporabo ukaza `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:174
+#: ../../content/applications/general/iot/devices/printer.rst:179
 msgid ""
 "First, review Epson's website for compatibility for both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -11130,7 +11155,7 @@ msgstr ""
 "gs_lv_0.html>`_ in `ESC * <https://download4.epson.biz/sec_pubs/pos/"
 "reference_en/escpos/esc_asterisk.html>`_."
 
-#: ../../content/applications/general/iot/devices/printer.rst:178
+#: ../../content/applications/general/iot/devices/printer.rst:183
 msgid ""
 "If the printer is incompatible with `GS v 0` but supports `ESC *`, configure "
 "the IoT system to use the `ESC *` command as follows:"
@@ -11138,7 +11163,7 @@ msgstr ""
 "Če tiskalnik ni združljiv z `GS v 0`, ampak podpira `ESC *`, konfigurirajte "
 "IoT sistem za uporabo ukaza `ESC *` na naslednji način:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:183
+#: ../../content/applications/general/iot/devices/printer.rst:188
 msgid ""
 "Click the :guilabel:`Printer server` button, then "
 "click :guilabel:`Administration` on the CUPS page."
@@ -11146,7 +11171,7 @@ msgstr ""
 "Kliknite gumb :guilabel:`Printer server`, nato pa na strani CUPS "
 "kliknite :guilabel:`Administration`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:185
+#: ../../content/applications/general/iot/devices/printer.rst:190
 msgid ""
 "Click :guilabel:`Add Printer` in the :guilabel:`Printers` section, select "
 "the printer, and click :guilabel:`Continue`."
@@ -11154,34 +11179,34 @@ msgstr ""
 "V razdelku :guilabel:`Printers` kliknite :guilabel:`Add Printer`, izberite "
 "tiskalnik in kliknite :guilabel:`Continue`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:189
+#: ../../content/applications/general/iot/devices/printer.rst:194
 msgid "If the printer's name is still uncertain, take the following steps:"
 msgstr "Če je ime tiskalnika še vedno negotovo, sledite naslednjim korakom:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:191
+#: ../../content/applications/general/iot/devices/printer.rst:196
 msgid "Take note of the listed printers on the CUPS page."
 msgstr "Zabeležite si tiskalnike, navedene na strani CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:192
+#: ../../content/applications/general/iot/devices/printer.rst:197
 msgid "Turn the printer off and refresh the page."
 msgstr "Izklopite tiskalnik in osvežite stran."
 
-#: ../../content/applications/general/iot/devices/printer.rst:193
+#: ../../content/applications/general/iot/devices/printer.rst:198
 msgid ""
 "Compare the difference with the first list to see which printer disappeared."
 msgstr ""
 "Primerjajte razliko s prvim seznamom, da ugotovite, kateri tiskalnik je "
 "izginil."
 
-#: ../../content/applications/general/iot/devices/printer.rst:194
+#: ../../content/applications/general/iot/devices/printer.rst:199
 msgid "Turn the printer back on and refresh the page again."
 msgstr "Ponovno vklopite tiskalnik in ponovno osvežite stran."
 
-#: ../../content/applications/general/iot/devices/printer.rst:195
+#: ../../content/applications/general/iot/devices/printer.rst:200
 msgid "Double-check the list again to see if the printer re-appears."
 msgstr "Ponovno preverite seznam, da vidite, ali se tiskalnik ponovno pojavi."
 
-#: ../../content/applications/general/iot/devices/printer.rst:196
+#: ../../content/applications/general/iot/devices/printer.rst:201
 msgid ""
 "The printer that disappeared and reappears again on the listed printers is "
 "the name of the printer in question. It can be :guilabel:`Unknown` "
@@ -11191,7 +11216,7 @@ msgstr ""
 "iskanega tiskalnika. Lahko je :guilabel:`Unknown` pod :guilabel:`Local "
 "printers`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:199
+#: ../../content/applications/general/iot/devices/printer.rst:204
 msgid ""
 "On the :guilabel:`Add Printer` page, specify the printer's :guilabel:`Name` "
 "using the following convention: "
@@ -11201,7 +11226,7 @@ msgstr ""
 "uporabo naslednje konvencije: "
 "`<printer_name>__IMC_<param_1>_<param_2>_..._<param_n>__`, kjer je:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:202
+#: ../../content/applications/general/iot/devices/printer.rst:207
 msgid ""
 "`printer_name` is the printer's name. It can contain any character except "
 "`_`, `/`, `#`, or ` ` (space character)."
@@ -11209,16 +11234,16 @@ msgstr ""
 "`printer_name` je ime tiskalnika. Lahko vsebuje katerikoli znak razen `_`, `/"
 "`, `#` ali ` ` (presledek)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:204
+#: ../../content/applications/general/iot/devices/printer.rst:209
 msgid ""
 "`IMC`: This stands for *Image Mode Column* (the simplified name for `ESC *`)."
 msgstr "`IMC`: To pomeni *Image Mode Column* (poenostavljeno ime za `ESC *`)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:205
+#: ../../content/applications/general/iot/devices/printer.rst:210
 msgid "`param_1`: This stands for the specific parameter:"
 msgstr "`param_1`: To pomeni določen parameter:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:207
+#: ../../content/applications/general/iot/devices/printer.rst:212
 msgid ""
 "`SCALE<X>`: Scale of the picture (with the same aspect ratio). `X` should be "
 "an integer describing the scale percentage that should be used. For example, "
@@ -11229,7 +11254,7 @@ msgstr ""
 "število, ki opisuje odstotek merila, ki naj se uporabi. Na primer, `100` je "
 "izvorna velikost, `50` je polovična velikost in `200` je dvakratna velikost."
 
-#: ../../content/applications/general/iot/devices/printer.rst:210
+#: ../../content/applications/general/iot/devices/printer.rst:215
 msgid ""
 "`LDV`: *Low Density Vertical* (will be set to *High Density Vertical* if not "
 "specified)."
@@ -11237,7 +11262,7 @@ msgstr ""
 "`LDV`: *Low Density Vertical* (bo nastavljen na *High Density Vertical*, če "
 "ni določen)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:211
+#: ../../content/applications/general/iot/devices/printer.rst:216
 msgid ""
 "`LDH`: *Low Density Horizontal* (will be set to *High Density Horizontal* if "
 "not specified)."
@@ -11245,7 +11270,7 @@ msgstr ""
 "`LDH`: *Low Density Horizontal* (bo nastavljen na *High Density Horizontal*, "
 "če ni določen)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:214
+#: ../../content/applications/general/iot/devices/printer.rst:219
 msgid ""
 "*Density* parameters might need to be configured in a particular way, "
 "depending on the printer model."
@@ -11253,7 +11278,7 @@ msgstr ""
 "Parametre *Density* bo morda treba konfigurirati na določen način, odvisno "
 "od modela tiskalnika."
 
-#: ../../content/applications/general/iot/devices/printer.rst:216
+#: ../../content/applications/general/iot/devices/printer.rst:221
 msgid ""
 "Refer to `Epson's ESC * documentation <https://download4.epson.biz/sec_pubs/"
 "pos/reference_en/escpos/esc_asterisk.html>`_ to determine if the printer "
@@ -11263,23 +11288,23 @@ msgstr ""
 "pos/reference_en/escpos/esc_asterisk.html>`_, da ugotovite, ali tiskalnik "
 "zahteva nastavitev teh parametrov."
 
-#: ../../content/applications/general/iot/devices/printer.rst:220
+#: ../../content/applications/general/iot/devices/printer.rst:225
 msgid "The following are examples of proper and improper name formatting:"
 msgstr "Naslednji so primeri pravilnega in nepravilnega oblikovanja imen:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:222
+#: ../../content/applications/general/iot/devices/printer.rst:227
 msgid "Proper name formatting:"
 msgstr "Pravilno oblikovanje imena:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:224
+#: ../../content/applications/general/iot/devices/printer.rst:229
 msgid "`EPSONTMm30II__IMC__`"
 msgstr "`EPSONTMm30II__IMC__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:225
+#: ../../content/applications/general/iot/devices/printer.rst:230
 msgid "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 msgstr "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:227
+#: ../../content/applications/general/iot/devices/printer.rst:232
 msgid ""
 "Improper name formatting (this will not prevent printing, but the result "
 "might not have the expected printed output):"
@@ -11287,22 +11312,22 @@ msgstr ""
 "Nepravilno oblikovanje imena (to ne bo preprečilo tiskanja, vendar rezultat "
 "morda ne bo imel pričakovanega natisnjenega izhoda):"
 
-#: ../../content/applications/general/iot/devices/printer.rst:230
+#: ../../content/applications/general/iot/devices/printer.rst:235
 msgid "`EPSON TMm 30II`: The name cannot contain spaces."
 msgstr "`EPSON TMm 30II`: Ime ne sme vsebovati presledkov."
 
-#: ../../content/applications/general/iot/devices/printer.rst:231
+#: ../../content/applications/general/iot/devices/printer.rst:236
 msgid ""
 "`EPSONTMm30II`: The name itself is correct, but it will not use `ESC *`."
 msgstr ""
 "`EPSONTMm30II`: Ime samo po sebi je pravilno, vendar ne bo uporabljalo `ESC "
 "*`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:232
+#: ../../content/applications/general/iot/devices/printer.rst:237
 msgid "`EPSONTMm30II__IMC`: This name is missing the end `__`."
 msgstr "`EPSONTMm30II__IMC`: Temu imenu manjka končni `__`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:233
+#: ../../content/applications/general/iot/devices/printer.rst:238
 msgid ""
 "`EPSONTMm30II__IMC_XDV__`: The parameter `XDV` does not match any existing "
 "parameters."
@@ -11310,29 +11335,29 @@ msgstr ""
 "`EPSONTMm30II__IMC_XDV__`: Parameter `XDV` se ne ujema z nobenim obstoječim "
 "parametrom."
 
-#: ../../content/applications/general/iot/devices/printer.rst:234
+#: ../../content/applications/general/iot/devices/printer.rst:239
 msgid ""
 "`EPSONTMm30II__IMC_SCALE__`: The parameter `SCALE` is missing the scale "
 "value."
 msgstr "`EPSONTMm30II__IMC_SCALE__`: Parametru `SCALE` manjka vrednost merila."
 
-#: ../../content/applications/general/iot/devices/printer.rst:236
+#: ../../content/applications/general/iot/devices/printer.rst:241
 msgid ""
 "Once the printer's name has been defined using the appropriate naming "
 "convention, click :guilabel:`Continue`."
 msgstr ""
-"Ko je ime tiskalnika določeno z ustrezno konvencijo poimenovanja, kliknite "
-":guilabel:`Nadaljuj`."
+"Ko je ime tiskalnika določeno z ustrezno konvencijo poimenovanja, "
+"kliknite :guilabel:`Nadaljuj`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:238
+#: ../../content/applications/general/iot/devices/printer.rst:243
 msgid ""
 "Set the :guilabel:`Make` value to :guilabel:`Raw` and the :guilabel:`Model` "
 "value to :guilabel:`Raw Queue (en)`."
 msgstr ""
-"Nastavite vrednost :guilabel:`Znamka` na :guilabel:`Raw` in vrednost "
-":guilabel:`Model` na :guilabel:`Raw Queue (en)`."
+"Nastavite vrednost :guilabel:`Znamka` na :guilabel:`Raw` in "
+"vrednost :guilabel:`Model` na :guilabel:`Raw Queue (en)`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:240
+#: ../../content/applications/general/iot/devices/printer.rst:245
 msgid ""
 "Click :guilabel:`Add Printer`. If everything was done correctly, the page "
 "should redirect to the :guilabel:`Banners` page."
@@ -11340,7 +11365,7 @@ msgstr ""
 "Kliknite :guilabel:`Dodaj tiskalnik`. Če je bilo vse narejeno pravilno, bi "
 "se morala stran preusmeriti na stran :guilabel:`Pasice`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:242
+#: ../../content/applications/general/iot/devices/printer.rst:247
 msgid ""
 "Wait a few minutes for the IoT system to detect the printer and sync to "
 "Odoo's server."
@@ -11348,7 +11373,7 @@ msgstr ""
 "Počakajte nekaj minut, da sistem IoT zazna tiskalnik in se sinhronizira s "
 "strežnikom Odoo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:243
+#: ../../content/applications/general/iot/devices/printer.rst:248
 msgid ""
 ":ref:`Access the POS settings <pos/use/settings>` and select your POS, or "
 "click the vertical ellipsis button (:guilabel:`⋮`) on a POS card and "
@@ -11363,7 +11388,7 @@ msgstr ""
 "izberite tiskalnik v polju :guilabel:`Tiskalnik računov`. "
 "Kliknite :guilabel:`Shrani`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:249
+#: ../../content/applications/general/iot/devices/printer.rst:254
 msgid ""
 "If the printer was set up incorrectly (e.g., it continues to print random "
 "text, or the printed receipt is too large or too small), it cannot be "
@@ -11376,7 +11401,7 @@ msgstr ""
 "tiskalnik od začetka s spremenjenimi parametri, pri čemer sledite zgornjim "
 "korakom."
 
-#: ../../content/applications/general/iot/devices/printer.rst:257
+#: ../../content/applications/general/iot/devices/printer.rst:262
 msgid ""
 "The following is an example of the troubleshooting process for a TM-U220B "
 "printer model using the `ESC *` command. The receipt pictured below is an "
@@ -11389,9 +11414,10 @@ msgstr ""
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid "Properly formatted receipt picture from a demo database."
-msgstr "Slika pravilno oblikovanega računa iz predstavitvene podatkovne zbirke."
+msgstr ""
+"Slika pravilno oblikovanega računa iz predstavitvene podatkovne zbirke."
 
-#: ../../content/applications/general/iot/devices/printer.rst:265
+#: ../../content/applications/general/iot/devices/printer.rst:270
 msgid ""
 "Printing this receipt immediately without proper formatting will not work, "
 "as the TM-U220B printer model does not support the `GS v 0` command. "
@@ -11405,7 +11431,7 @@ msgstr ""
 msgid "Printer paper with seemingly random characters."
 msgstr "Tiskalniški papir z navidezno naključnimi znaki."
 
-#: ../../content/applications/general/iot/devices/printer.rst:272
+#: ../../content/applications/general/iot/devices/printer.rst:277
 msgid ""
 "To properly configure formatting for the Epson TM-U220B printer model, "
 "follow these steps:"
@@ -11413,7 +11439,7 @@ msgstr ""
 "Za pravilno konfiguracijo oblikovanja za model tiskalnika Epson TM-U220B "
 "sledite tem korakom:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:274
+#: ../../content/applications/general/iot/devices/printer.rst:279
 msgid ""
 "After checking Epson's website for compatibility with both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -11422,16 +11448,16 @@ msgid ""
 "indeed incompatible with `GS v 0` but supports `ESC *`."
 msgstr ""
 "Po preverjanju Epsonove spletne strani glede združljivosti z ukazoma `GS v 0 "
-"<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/gs_lv_0.html>"
-"`_ in `ESC * <https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
-"esc_asterisk.html>`_ je tiskalnik TM-U220B res nekompatibilen z `GS v 0`, "
-"vendar podpira `ESC *`."
+"<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
+"gs_lv_0.html>`_ in `ESC * <https://download4.epson.biz/sec_pubs/pos/"
+"reference_en/escpos/esc_asterisk.html>`_ je tiskalnik TM-U220B res "
+"nekompatibilen z `GS v 0`, vendar podpira `ESC *`."
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid "Epson compatibility evaluation from Epson website."
 msgstr "Ocena združljivosti Epson s spletne strani Epson."
 
-#: ../../content/applications/general/iot/devices/printer.rst:282
+#: ../../content/applications/general/iot/devices/printer.rst:287
 msgid "When adding the printer, CUPS displays the list of available printers:"
 msgstr "Ko dodajate tiskalnik, CUPS prikaže seznam razpoložljivih tiskalnikov:"
 
@@ -11439,7 +11465,7 @@ msgstr "Ko dodajate tiskalnik, CUPS prikaže seznam razpoložljivih tiskalnikov:
 msgid "Administration menu, add printer selection."
 msgstr "Meni za administracijo, izbira dodajanja tiskalnika."
 
-#: ../../content/applications/general/iot/devices/printer.rst:288
+#: ../../content/applications/general/iot/devices/printer.rst:293
 msgid ""
 "In this case, the printer is connected via USB, so it is not part of "
 "the :guilabel:`Discovered Network Printers`. Instead, it is likely part of "
@@ -11455,7 +11481,7 @@ msgstr ""
 "tiskalnik :guilabel:`Neznano` izgine. Z vnovičnim priklopom se tiskalnik "
 "ponovno prikaže."
 
-#: ../../content/applications/general/iot/devices/printer.rst:294
+#: ../../content/applications/general/iot/devices/printer.rst:299
 msgid ""
 "For the naming convention, since the printer must print using the `ESC *` "
 "command, it is imperative to add `__IMC`."
@@ -11467,7 +11493,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturer's website."
 msgstr "Specifikacije Epson TM-U220 na spletni strani proizvajalca."
 
-#: ../../content/applications/general/iot/devices/printer.rst:300
+#: ../../content/applications/general/iot/devices/printer.rst:305
 msgid ""
 "For this particular model (TM-U220) `m` should be equal to 0 or 1. While "
 "referencing the :guilabel:`Description` table on `Epson's ESC * website "
@@ -11482,7 +11508,7 @@ msgstr ""
 "lahko vrednosti `m` 0, 1, 32 ali 33. Torej v tem primeru vrednost `m` **ne "
 "more** biti 32 ali 33 (sicer se bodo tiskali naključni znaki)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:306
+#: ../../content/applications/general/iot/devices/printer.rst:311
 msgid ""
 "The table includes the numeric values 32 and 33; they both occur if "
 "the :guilabel:`Number of bits for vertical data` is set to 24, i.e. it has a "
@@ -11496,7 +11522,7 @@ msgstr ""
 "treba prisiliti *nizko navpično gostoto*, saj ta model tiskalnika ne podpira "
 "*visoke navpične gostote* za ta ukaz `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:311
+#: ../../content/applications/general/iot/devices/printer.rst:316
 msgid ""
 "To add a *Low Vertical Density*, add the `LDV` parameter to the naming "
 "convention."
@@ -11507,7 +11533,7 @@ msgid ""
 "Add a *Low Vertical Density* (the `LDV` parameter) to the naming convention."
 msgstr "Dodajte *nizko navpično gostoto* (parameter `LDV`) k imenu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:316
+#: ../../content/applications/general/iot/devices/printer.rst:321
 msgid ""
 "Click :guilabel:`Continue` to proceed. Next, set the :guilabel:`Make` value "
 "to :guilabel:`Raw` and the :guilabel:`Model` value to :guilabel:`Raw Queue "
@@ -11521,7 +11547,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturers website."
 msgstr "Specifikacije Epson TM-U220 na spletni strani proizvajalca."
 
-#: ../../content/applications/general/iot/devices/printer.rst:322
+#: ../../content/applications/general/iot/devices/printer.rst:327
 msgid ""
 "However, when trying to print with the naming convention "
 "`EpsonTMU220B__IMC_LDV__`, the receipt is printed, but it is too large and "
@@ -11532,27 +11558,27 @@ msgstr ""
 "natisne, vendar je prevelik in izven robov. To rešite tako, da dodate nov "
 "tiskalnik (in ime) s parametrom `SCALE<X>`, da se prilagodi velikosti računa."
 
-#: ../../content/applications/general/iot/devices/printer.rst:326
+#: ../../content/applications/general/iot/devices/printer.rst:331
 msgid "Here are some examples:"
 msgstr "Tukaj je nekaj primerov:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:331
+#: ../../content/applications/general/iot/devices/printer.rst:336
 msgid "Printer Naming Convention"
 msgstr "Ime tiskalnika"
 
-#: ../../content/applications/general/iot/devices/printer.rst:332
+#: ../../content/applications/general/iot/devices/printer.rst:337
 msgid "`EpsonTMU220B__IMC_LDV__`"
 msgstr "`EpsonTMU220B__IMC_LDV__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:333
+#: ../../content/applications/general/iot/devices/printer.rst:338
 msgid "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 msgstr "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:334
+#: ../../content/applications/general/iot/devices/printer.rst:339
 msgid "`EpsonTMU220B__IMC_LDV_LDH__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:335
+#: ../../content/applications/general/iot/devices/printer.rst:340
 msgid "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 
@@ -11580,11 +11606,11 @@ msgid ""
 msgstr ""
 "Format potrdila z imenovalno konvencijo: EpsonTMU220B__IMC_LDV_LDH_SCALE35__."
 
-#: ../../content/applications/general/iot/devices/printer.rst:348
+#: ../../content/applications/general/iot/devices/printer.rst:353
 msgid "DYMO LabelWriter print issue"
 msgstr "Težava pri tiskanju z DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:350
+#: ../../content/applications/general/iot/devices/printer.rst:355
 msgid ""
 "The DYMO LabelWriter has a known issue in printing with IoT systems. The "
 "OpenPrinting CUPS server installs the printer using :guilabel:`Local RAW "
@@ -11597,7 +11623,7 @@ msgstr ""
 "Printer`. Za tiskanje česar koli je treba nastaviti pravilno :guilabel:`Make "
 "and Model`, da se sklicuje na pravilen gonilnik pri uporabi naprave."
 
-#: ../../content/applications/general/iot/devices/printer.rst:355
+#: ../../content/applications/general/iot/devices/printer.rst:360
 msgid ""
 "Additionally, a new printer needs to be added to reduce the print delay that "
 "occurs after updating the driver."
@@ -11605,7 +11631,7 @@ msgstr ""
 "Poleg tega je treba dodati nov tiskalnik, da se zmanjša zamik tiskanja, ki "
 "se pojavi po posodobitvi gonilnika."
 
-#: ../../content/applications/general/iot/devices/printer.rst:359
+#: ../../content/applications/general/iot/devices/printer.rst:364
 msgid ""
 "The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use "
 "with Odoo and IoT systems. This device combines two printers: a label "
@@ -11623,16 +11649,16 @@ msgstr ""
 "konfiguracijske korake za model DYMO LabelWriter 450 DUO Label (en). Po "
 "potrebi prilagodite izbire modela."
 
-#: ../../content/applications/general/iot/devices/printer.rst:369
+#: ../../content/applications/general/iot/devices/printer.rst:374
 msgid "DYMO LabelWriter not printing"
 msgstr "DYMO LabelWriter ne tiska"
 
-#: ../../content/applications/general/iot/devices/printer.rst:371
+#: ../../content/applications/general/iot/devices/printer.rst:376
 msgid "If the DYMO LabelWriter fails to print, install a new driver:"
 msgstr "Če DYMO LabelWriter ne uspe natisniti, namestite nov gonilnik:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:373
-#: ../../content/applications/general/iot/devices/printer.rst:409
+#: ../../content/applications/general/iot/devices/printer.rst:378
+#: ../../content/applications/general/iot/devices/printer.rst:414
 msgid ""
 "Access the IoT system's homepage and click :menuselection:`Printer server` "
 "to open the OpenPrinting CUPS console."
@@ -11640,7 +11666,7 @@ msgstr ""
 "Odprite domačo stran sistema IoT in kliknite :menuselection:`Printer "
 "server`, da odprete konzolo OpenPrinting CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:375
+#: ../../content/applications/general/iot/devices/printer.rst:380
 msgid ""
 "Click :menuselection:`Printers` in the top menu, then click the printer in "
 "the list."
@@ -11648,11 +11674,11 @@ msgstr ""
 "Kliknite :menuselection:`Printers` v zgornjem meniju, nato kliknite "
 "tiskalnik na seznamu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:376
+#: ../../content/applications/general/iot/devices/printer.rst:381
 msgid "Select :guilabel:`Maintenance` in the first dropdown menu."
 msgstr "V prvem spustnem meniju izberite :guilabel:`Vzdrževanje`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:377
+#: ../../content/applications/general/iot/devices/printer.rst:382
 msgid "Select :guilabel:`Modify Printer` in the second dropdown menu."
 msgstr "V drugem spustnem meniju izberite :guilabel:`Modify Printer`."
 
@@ -11665,7 +11691,7 @@ msgstr ""
 "Spremenite znamko in model tiskalnika DYMO LabelWriter. Označena spustna "
 "menija Vzdrževanje in Modify."
 
-#: ../../content/applications/general/iot/devices/printer.rst:383
+#: ../../content/applications/general/iot/devices/printer.rst:388
 msgid ""
 "Select the specific network connection/printer on which the modification "
 "should be made and click :guilabel:`Continue`."
@@ -11673,7 +11699,7 @@ msgstr ""
 "Izberite določeno omrežno povezavo/tiskalnik, na katerem naj se izvede "
 "sprememba, in kliknite :guilabel:`Continue`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:385
+#: ../../content/applications/general/iot/devices/printer.rst:390
 msgid ""
 "On the next page, click :guilabel:`Continue`, then select :guilabel:`DYMO` "
 "from the :guilabel:`Make` dropdown list."
@@ -11681,7 +11707,7 @@ msgstr ""
 "Na naslednji strani kliknite :guilabel:`Continue`, nato "
 "izberite :guilabel:`DYMO` s spustnega seznama :guilabel:`Make`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:387
+#: ../../content/applications/general/iot/devices/printer.rst:392
 msgid ""
 "Click on :guilabel:`Continue` and set the :guilabel:`Model` "
 "to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO "
@@ -11691,7 +11717,7 @@ msgstr ""
 "na :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (ali katerikoli drug "
 "model tiskalnika DYMO, ki se uporablja)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:389
+#: ../../content/applications/general/iot/devices/printer.rst:394
 msgid ""
 "Click :guilabel:`Modify Printer` to set the new driver; a confirmation page "
 "appears."
@@ -11699,7 +11725,7 @@ msgstr ""
 "Kliknite :guilabel:`Modify Printer`, da nastavite nov gonilnik; prikaže se "
 "potrditvena stran."
 
-#: ../../content/applications/general/iot/devices/printer.rst:390
+#: ../../content/applications/general/iot/devices/printer.rst:395
 msgid ""
 "Click :menuselection:`Printers` in the top menu; all printers installed on "
 "the OpenPrinting CUPS server appear, including the newly "
@@ -11711,7 +11737,7 @@ msgstr ""
 "posodobljenim :guilabel:`DYMO LabelWriter 450 DUO Label` (ali katerimkoli "
 "drugim modelom tiskalnika DYMO, ki se uporablja)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:393
+#: ../../content/applications/general/iot/devices/printer.rst:398
 msgid ""
 "Click the newly updated printer, then click the :guilabel:`Maintenance` "
 "dropdown menu and select :guilabel:`Print Test Page` to print a test label. "
@@ -11723,15 +11749,15 @@ msgstr ""
 "natisnete testno nalepko. Testna nalepka se natisne po nekaj sekundah, če je "
 "bila posodobitev gonilnika uspešna."
 
-#: ../../content/applications/general/iot/devices/printer.rst:397
+#: ../../content/applications/general/iot/devices/printer.rst:402
 msgid "To reduce this delay, add a new printer using the steps below."
 msgstr "Za zmanjšanje te zamude dodajte nov tiskalnik po spodnjih korakih."
 
-#: ../../content/applications/general/iot/devices/printer.rst:400
+#: ../../content/applications/general/iot/devices/printer.rst:405
 msgid "DYMO LabelWriter print delay"
 msgstr "Zamuda tiskanja DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:403
+#: ../../content/applications/general/iot/devices/printer.rst:408
 msgid ""
 "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not "
 "recognized (i.e., it has a :guilabel:`RAW` driver type), then :ref:`update "
@@ -11741,13 +11767,13 @@ msgstr ""
 "ima gonilnik tipa :guilabel:`RAW`), potem :ref:`posodobite gonilnike na "
 "napravi <printer/dymo/update_drivers>`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:407
+#: ../../content/applications/general/iot/devices/printer.rst:412
 msgid ""
 "To resolve the delay issue after modifying the driver, reinstall the printer:"
 msgstr ""
 "Za rešitev težave z zamudo po spremembi gonilnika znova namestite tiskalnik:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:411
+#: ../../content/applications/general/iot/devices/printer.rst:416
 msgid ""
 "Click :menuselection:`Administration` in the top menu, then "
 "click :guilabel:`Add a Printer`."
@@ -11755,7 +11781,7 @@ msgstr ""
 "V zgornjem meniju kliknite :menuselection:`Administration`, nato "
 "kliknite :guilabel:`Add a Printer`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:412
+#: ../../content/applications/general/iot/devices/printer.rst:417
 msgid ""
 "On the next page, in the :guilabel:`Local Printers` section, "
 "select :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO "
@@ -11776,7 +11802,7 @@ msgstr ""
 "Zaslon za dodajanje tiskalnika v OpenPrinting CUPS s poudarjenim DYMO "
 "LabelWriter 450 DUO Label."
 
-#: ../../content/applications/general/iot/devices/printer.rst:420
+#: ../../content/applications/general/iot/devices/printer.rst:425
 msgid ""
 "On the following screen, update the :guilabel:`Name` to something easily "
 "identifiable, as the original printer will remain in the list. Then, "
@@ -11794,7 +11820,7 @@ msgstr ""
 "Stran za preimenovanje tiskalnika v postopku 'Add a Printer' s poudarjenim "
 "poljem za ime."
 
-#: ../../content/applications/general/iot/devices/printer.rst:426
+#: ../../content/applications/general/iot/devices/printer.rst:431
 msgid ""
 "Set the :guilabel:`Model` field to :guilabel:`DYMO LabelWriter 450 DUO Label "
 "(en)` (or whichever DYMO printer model is being used), then "
@@ -11813,7 +11839,7 @@ msgstr ""
 "Zaslon za izbiro modela v konzoli OpenPrinting CUPS s poudarjenim modelom in "
 "gumbom za dodajanje tiskalnika."
 
-#: ../../content/applications/general/iot/devices/printer.rst:434
+#: ../../content/applications/general/iot/devices/printer.rst:439
 msgid ""
 "Click :menuselection:`Printers` in the top menu and click the newly "
 "installed printer :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever "
@@ -11827,7 +11853,7 @@ msgstr ""
 msgid "Printer page with newly installed printer highlighted."
 msgstr "Stran s tiskalniki s poudarjenim na novo nameščenim tiskalnikom."
 
-#: ../../content/applications/general/iot/devices/printer.rst:441
+#: ../../content/applications/general/iot/devices/printer.rst:446
 msgid ""
 "Click the :guilabel:`Maintenance` dropdown list and select :guilabel:`Print "
 "Test Page` to print a test label. The test label should print out "
@@ -11837,11 +11863,11 @@ msgstr ""
 "Test Page` za tiskanje preskusne nalepke. Preskusna nalepka bi se morala "
 "natisniti takoj ali po eni ali dveh sekundah."
 
-#: ../../content/applications/general/iot/devices/printer.rst:445
+#: ../../content/applications/general/iot/devices/printer.rst:450
 msgid "The Zebra printer does not print anything"
 msgstr "Tiskalnik Zebra ne natisne ničesar"
 
-#: ../../content/applications/general/iot/devices/printer.rst:447
+#: ../../content/applications/general/iot/devices/printer.rst:452
 msgid ""
 "Zebra printers are quite sensitive to the format of the printed Zebra "
 "Programming Language (ZPL) code. If nothing comes out of the printer or "
@@ -11857,7 +11883,7 @@ msgstr ""
 "na :menuselection:`Settings --> Technical --> User Interface --> Views` in "
 "poiščite ustrezno predlogo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:454
+#: ../../content/applications/general/iot/devices/printer.rst:459
 msgid ""
 "`Zebra's instructions on printing ZPL files <https://"
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
@@ -11866,15 +11892,15 @@ msgstr ""
 "<https://supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-"
 "Generic-Text-Printer>Zebrova navodila za tiskanje datotek ZPL`_"
 
-#: ../../content/applications/general/iot/devices/printer.rst:458
+#: ../../content/applications/general/iot/devices/printer.rst:463
 msgid "Barcode scanner issues"
 msgstr "Težave s čitalcem črtne kode"
 
-#: ../../content/applications/general/iot/devices/printer.rst:461
+#: ../../content/applications/general/iot/devices/printer.rst:466
 msgid "The characters read by the barcode scanner do not match the barcode"
 msgstr "Znaki, ki jih prebere čitalec črtne kode, se ne ujemajo s črtno kodo"
 
-#: ../../content/applications/general/iot/devices/printer.rst:463
+#: ../../content/applications/general/iot/devices/printer.rst:468
 msgid ""
 "By default, most barcode scanners are configured in the US QWERTY format. If "
 "the barcode scanner uses a different layout, go to :menuselection:`IoT --> "
@@ -11886,8 +11912,8 @@ msgstr ""
 "na :menuselection:`IoT --> Devices` in kliknite kartico naprave za branje "
 "črtne kode. Nato v polju :guilabel:`Keyboard Layout` izberite pravilni jezik."
 
-#: ../../content/applications/general/iot/devices/printer.rst:468
-#: ../../content/applications/general/iot/devices/printer.rst:498
+#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:503
 msgid ""
 "The :guilabel:`Keyboard Layout` is language-specific, with available options "
 "varying based on the device and the language of the database "
@@ -11897,11 +11923,11 @@ msgstr ""
 "razpoložljive možnosti razlikujejo glede na napravo in jezik baze podatkov "
 "(npr. :guilabel:`angleščina (VB)`, :guilabel:`angleščina (ZDA)` itd.)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:478
 msgid "Nothing happens when a barcode is scanned"
 msgstr "Ob skeniranju črtne kode se ne zgodi nič"
 
-#: ../../content/applications/general/iot/devices/printer.rst:475
+#: ../../content/applications/general/iot/devices/printer.rst:480
 msgid ""
 "Make sure the correct device is selected in the :doc:`Point of Sale settings "
 "</applications/sales/point_of_sale/hardware_network/pos_iot>` (when "
@@ -11913,11 +11939,11 @@ msgstr ""
 "(kjer je to primerno) in da je črtna koda konfigurirana tako, da na koncu "
 "vsake črtne kode pošlje znak `ENTER` (koda tipke 28)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:480
+#: ../../content/applications/general/iot/devices/printer.rst:485
 msgid "The barcode scanner is detected as a keyboard"
 msgstr "Skener črtne kode je zaznan kot tipkovnica"
 
-#: ../../content/applications/general/iot/devices/printer.rst:483
+#: ../../content/applications/general/iot/devices/printer.rst:488
 msgid ""
 "Some barcode scanners are identified as USB keyboards rather than barcode "
 "scanners and are not recognized by IoT systems."
@@ -11925,7 +11951,7 @@ msgstr ""
 "Nekateri skenirji črtnih kod so identificirani kot USB tipkovnice namesto "
 "kot skenirji črtnih kod in jih sistemi IoT ne prepoznajo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:486
+#: ../../content/applications/general/iot/devices/printer.rst:491
 msgid ""
 "To change the device type manually, go to :menuselection:`IoT --> Devices` "
 "and click the barcode device's card. Then, enable :guilabel:`Is scanner`."
@@ -11934,11 +11960,11 @@ msgstr ""
 "Naprave` in kliknite kartico naprave za črtno kodo. Nato "
 "omogočite :guilabel:`Je skener`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:490
+#: ../../content/applications/general/iot/devices/printer.rst:495
 msgid "The barcode scanner processes barcode characters individually"
 msgstr "Skener črtne kode obdeluje znake črtne kode posamezno"
 
-#: ../../content/applications/general/iot/devices/printer.rst:492
+#: ../../content/applications/general/iot/devices/printer.rst:497
 msgid ""
 "When accessing the mobile version of Odoo from a mobile device or tablet "
 "paired with a barcode scanner via the IoT system, the scanner might "
@@ -12258,6 +12284,7 @@ msgstr ""
 "okno, geslo ne bo več na voljo."
 
 #: ../../content/applications/general/iot/iot_advanced/ssh_connect.rst:0
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:None
 msgid "The Remote Debugging password generation window."
 msgstr "Okno za ustvarjanje gesla za oddaljeno razhroščevanje."
 
@@ -12281,11 +12308,15 @@ msgstr ":doc:`../iot_box`"
 msgid ":doc:`../connect`"
 msgstr ":doc:`../connect`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:8
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:6
+msgid "Frequently encountered issues"
+msgstr "Pogosto zaznane težave"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:9
 msgid "The pairing code does not appear or does not work"
 msgstr "Koda za seznanitev se ne prikaže ali ne deluje"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:10
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:11
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` might not be displayed or "
 "printed under the following circumstances:"
@@ -12293,11 +12324,11 @@ msgstr ""
 ":ref:`Koda za seznanitev <iot/connect/pairing-code>` morda ne bo prikazana "
 "ali natisnjena v naslednjih okoliščinah:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:13
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
 msgid "The IoT system is not connected to the network."
 msgstr "Sistem IoT ni povezan z omrežjem."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:15
 msgid ""
 "The IoT system is already connected to an Odoo database. :ref:`Disconnect it "
 "from the database <iot/connect/disconnect>`."
@@ -12305,7 +12336,7 @@ msgstr ""
 "Sistem IoT je že povezan z bazo podatkov Odoo. :ref:`Prekinite povezavo z "
 "bazo podatkov <iot/connect/disconnect>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:16
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:17
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` display time has expired. "
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
@@ -12317,11 +12348,11 @@ msgstr ""
 "storitev Windows IoT <iot/windows_iot/restart>`, da ustvarite in prikažete "
 "kodo za seznanitev."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:21
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:22
 msgid "The IoT system does not connect to the database"
 msgstr "Sistem IoT se ne poveže z bazo podatkov"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:23
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:24
 msgid ""
 "The IoT system might take a few minutes to restart when it connects to a "
 "database. If it still does not appear after a few minutes:"
@@ -12329,7 +12360,7 @@ msgstr ""
 "Sistem IoT lahko potrebuje nekaj minut za ponovni zagon, ko se poveže z bazo "
 "podatkov. Če se še vedno ne prikaže po nekaj minutah:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:26
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:27
 msgid ""
 "Verify that the IoT system can reach the database and the server does not "
 "use a multi-database environment."
@@ -12337,8 +12368,8 @@ msgstr ""
 "Preverite, ali sistem IoT lahko doseže bazo podatkov in ali strežnik ne "
 "uporablja okolja z več bazami podatkov."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:28
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:46
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:29
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:47
 msgid ""
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
 "virtual IoT service <iot/windows_iot/restart>`."
@@ -12346,11 +12377,11 @@ msgstr ""
 "Znova zaženite :ref:`napravo IoT <iot/iot-box/restart>` ali :ref:`navidezno "
 "storitev Windows IoT <iot/windows_iot/restart>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:32
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:33
 msgid "The IoT system is connected to the Odoo database but cannot be reached"
 msgstr "Sistem IoT je povezan z bazo podatkov Odoo, vendar ni dosegljiv"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:34
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:35
 msgid ""
 "Verify that the IoT system and the computer running the Odoo database are "
 "connected to the same network and :ref:`update the DNS settings <iot/"
@@ -12360,13 +12391,13 @@ msgstr ""
 "Odoo, povezana v isto omrežje, in :ref:`posodobite nastavitve DNS <iot/"
 "troubleshooting/dns>`, če je potrebno."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:38
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:39
 msgid ""
 "The Windows virtual IoT's homepage cannot be accessed from another device"
 msgstr ""
 "Domači strani virtualnega IoT za Windows ni mogoče dostopati z druge naprave"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:40
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
 msgid ""
 "Ensure the device is connected to the same network as the Windows virtual "
 "IoT."
@@ -12374,15 +12405,15 @@ msgstr ""
 "Prepričajte se, da je naprava povezana v isto omrežje kot Windows navidezni "
 "IoT."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:42
 msgid "Check the :ref:`iot/windows-iot/firewall`."
 msgstr "Preverite :ref:`iot/windows-iot/firewall`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:44
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:45
 msgid "The IoT system does not work after an Odoo upgrade"
 msgstr "Sistem IoT ne deluje po nadgradnji Odoo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:49
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:50
 msgid ""
 "If the issue persists, :ref:`update its image <iot/updating_iot/image-code>` "
 "by flashing the IoT box's card or :ref:`uninstalling the Windows virtual IoT "
@@ -12394,7 +12425,7 @@ msgstr ""
 "Windows navidezni IoT <iot/windows_iot/uninstall>` in :ref:`ponovno "
 "namestitvijo paketa navidezni IoT <iot/windows-iot/installation>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:56
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:57
 msgid ""
 "The IoT system's homepage can be accessed using its IP address but not the "
 "`xxx.odoo-iot.com` URL"
@@ -12402,7 +12433,7 @@ msgstr ""
 "Domača stran sistema IoT je dostopna prek njegovega naslova IP, vendar ne "
 "prek URL-ja `xxx.odoo-iot.com`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:58
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:59
 msgid ""
 "Contact your system or network administrator to address the issue. Network-"
 "related problems are beyond the scope of Odoo support services."
@@ -12410,7 +12441,7 @@ msgstr ""
 "Obrnite se na svojega sistemskega ali omrežnega skrbnika, da odpravite "
 "težavo. Težave, povezane z omrežjem, presegajo obseg storitev podpore Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:61
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:62
 msgid ""
 "If the router allows manual :abbr:`DNS (Domain Name System)` configuration, "
 "update the settings to use `Google DNS <https://developers.google.com/speed/"
@@ -12420,7 +12451,7 @@ msgstr ""
 "System)`, posodobite nastavitve, da uporabite `Google DNS <https://"
 "developers.google.com/speed/public-dns>`_."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:63
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:64
 msgid ""
 "If the router does not support this, you need to update the DNS settings "
 "directly on each device that interacts with the IoT system to use `Google "
@@ -12434,7 +12465,7 @@ msgstr ""
 "konfiguracijo DNS na posameznih napravah najdete na spletnem mestu "
 "ustreznega proizvajalca."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:69
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:70
 msgid ""
 "Some IoT devices, such as payment terminals, likely do not require DNS "
 "changes, as they are typically pre-configured with custom DNS settings."
@@ -12443,7 +12474,7 @@ msgstr ""
 "sprememb DNS, saj so običajno vnaprej konfigurirane s prilagojenimi "
 "nastavitvami DNS."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:71
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:72
 msgid ""
 "On some browsers, an error code mentioning the DNS (such as "
 "`DNS_PROBE_FINISHED_NXDOMAIN`) is displayed."
@@ -12451,19 +12482,19 @@ msgstr ""
 "V nekaterih brskalnikih se prikaže koda napake, ki omenja DNS (na primer "
 "`DNS_PROBE_FINISHED_NXDOMAIN`)."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:77
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:78
 msgid "HTTPS certificate generation issues and errors"
 msgstr "Težave in napake pri ustvarjanju potrdila HTTPS"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:80
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:81
 msgid "The HTTPS certificate does not generate"
 msgstr "Potrdilo HTTPS se ne ustvari"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:82
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:83
 msgid "Potential causes include the following:"
 msgstr "Možni vzroki vključujejo naslednje:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:84
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:85
 msgid ""
 "The database doesn't meet the :ref:`eligibility requirements <iot/"
 "https_certificate_iot/iot-eligibility>` for generating an :ref:`HTTPS "
@@ -12473,7 +12504,7 @@ msgstr ""
 "https_certificate_iot/iot-eligibility>` za ustvarjanje :ref:`potrdila HTTPS "
 "<iot/connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:87
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:88
 msgid ""
 "The firewall is preventing the HTTPS certificate from generating correctly. "
 "In this case, deactivate the firewall until the certificate is successfully "
@@ -12482,7 +12513,7 @@ msgstr ""
 "Požarni zid preprečuje pravilno ustvarjanje potrdila HTTPS. V tem primeru "
 "deaktivirajte požarni zid, dokler potrdilo ni uspešno ustvarjeno."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:91
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:92
 msgid ""
 "Some devices, such as routers with a built-in firewall, can prevent the "
 "HTTPS certificate from generating."
@@ -12490,21 +12521,21 @@ msgstr ""
 "Nekatere naprave, kot so usmerjevalniki z vgrajenim požarnim zidom, lahko "
 "preprečijo ustvarjanje potrdila HTTPS."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:95
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:96
 msgid "Errors"
 msgstr "Napake"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:97
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:98
 msgid ""
 "A specific error code is displayed on the IoT system's homepage if any "
-"issues occur during the generation or reception of the ref:`HTTPS "
+"issues occur during the generation or reception of the :ref:`HTTPS "
 "certificate <iot/connect/https_certificate>`."
 msgstr ""
-"Določena koda napake je prikazana na domači strani sistema IoT, če med "
-"ustvarjanjem ali prejemom ref:`potrdila HTTPS <iot/connect/"
-"https_certificate>` pride do težav."
+"Na domači strani sistema IoT se prikaže določena koda napake, če pride do "
+"težav med ustvarjanjem ali prejemom :ref:`certifikata HTTPS <iot/connect/"
+"https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:101
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:102
 msgid ""
 "When you access the IoT system's homepage, it automatically checks for an "
 "HTTPS certificate and attempts to generate one if it is missing. If an error "
@@ -12514,37 +12545,11 @@ msgstr ""
 "potrdilo HTTPS in poskuša ustvariti novo, če manjka. Če se pojavi napaka, "
 "osvežite stran in preverite, ali je težava odpravljena."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:106
-msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
-msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:107
+msgid "Missing credentials"
+msgstr "Manjkajoče poverilnice"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:108
-msgid ""
-"The server configuration is missing, i.e., the database is "
-"not :doc:`connected <../connect>` to the IoT system."
-msgstr ""
-"Konfiguracija strežnika manjka, tj. baza podatkov ni :doc:`povezana <../"
-"connect>` s sistemom IoT."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:112
-msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:114
-msgid ""
-"An error occurred while attempting to read the existing ref:`HTTPS "
-"certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
-"certificate file is readable."
-msgstr ""
-"Pri poskusu branja obstoječega ref:`potrdila HTTPS <iot/connect/"
-"https_certificate>` je prišlo do napake. Preverite, ali je datoteka potrdila "
-"HTTPS berljiva."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:119
-msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:121
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:109
 msgid ""
 "The contract and/or database :abbr:`UUID (Universal Unique Identifier)` is "
 "missing from the IoT."
@@ -12552,7 +12557,7 @@ msgstr ""
 "Pogodba in/ali :abbr:`UUID (univerzalni enolični identifikator)` baze "
 "podatkov manjka v IoT."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:111
 msgid ""
 "Verify that both values are correctly configured. To update "
 "them, :ref:`access the IoT box's <iot/iot-box/homepage>` or :ref:`Windows "
@@ -12565,32 +12570,7 @@ msgstr ""
 "kliknite gumb :icon:`fa-cogs` (:guilabel:`zobniki`) in nato "
 "kliknite :guilabel:`Poverilnice`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:128
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:130
-msgid ""
-"An unexpected error occurred while the IoT system tried to reach `<https://"
-"www.odoo.com>`_. This is likely due to network-related issues, such as:"
-msgstr ""
-"Prišlo je do nepričakovane napake, ko je sistem IoT poskušal doseči "
-"`<https://www.odoo.com>`_. To je verjetno posledica težav, povezanih z "
-"omrežjem, kot so:"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:133
-msgid "The IoT system does not have Internet access."
-msgstr "Sistem IoT nima dostopa do interneta."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
-msgid ""
-"Network restrictions (e.g., firewalls or VPNs) are preventing communication "
-"with https://www.odoo.com."
-msgstr ""
-"Omrežne omejitve (npr. požarni zidovi ali navidezna zasebna omrežja) "
-"preprečujejo komunikacijo s https://www.odoo.com."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:138
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:116
 msgid ""
 "To access the full request exception details with information regarding the "
 "error, :ref:`enable the developer mode <developer-mode>`, click the IoT "
@@ -12611,7 +12591,7 @@ msgstr ""
 "gumb :icon:`fa-cogs` (:guilabel:`zobniki`) in nato :guilabel:`Raven "
 "dnevnika` na dnu strani."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:145
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
 msgid ""
 "To address network-related issues, contact your system or network "
 "administrator; these issues are beyond the scope of Odoo support services."
@@ -12619,11 +12599,11 @@ msgstr ""
 "Za reševanje težav, povezanih z omrežjem, se obrnite na skrbnika sistema ali "
 "omrežja; te težave presegajo obseg podpornih storitev Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:149
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:127
+msgid "Odoo.com not reachable"
+msgstr "Odoo.com ni dosegljiv"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:151
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:129
 msgid ""
 "The IoT system successfully reached `<https://www.odoo.com>`_ but received "
 "an unexpected `HTTP response (status codes) <https://developer.mozilla.org/"
@@ -12633,21 +12613,11 @@ msgstr ""
 "nepričakovan `odziv HTTP (kode stanja) <https://developer.mozilla.org/en-US/"
 "docs/Web/HTTP/Status>`_."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:154
-msgid ""
-"This error code includes the HTTP status. For example, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a \"Page "
-"Not Found\" response."
-msgstr ""
-"Ta koda napake vključuje stanje HTTP. Na primer, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` pomeni, da je strežnik vrnil odziv "
-"\"Strani ni mogoče najti\"."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:132
 msgid "To solve this issue:"
 msgstr "Za rešitev te težave:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:159
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
 msgid ""
 "Open `<https://www.odoo.com>`_ in a web browser to check if the website is "
 "temporarily down for maintenance."
@@ -12670,21 +12640,21 @@ msgstr ""
 "Če spletno mesto deluje, odprite `Zahtevek za podporo <https://www.odoo.com/"
 "help>`_ in zagotovo vključite 3-mestno kodo stanja HTTPS v zahtevek."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:141
+msgid "Still no certificate?"
+msgstr "Še vedno ni certifikata?"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:168
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:143
 msgid ""
-"The IoT system successfully connected to `<https://www.odoo.com>`_, but the "
-"server refused to provide the ref:`HTTPS certificate <iot/connect/"
+"If the IoT system successfully connected to `<https://www.odoo.com>`_, but "
+"the server refused to provide the :ref:`HTTPS certificate <iot/connect/"
 "https_certificate>`."
 msgstr ""
-"Sistem IoT se je uspešno povezal z `<https://www.odoo.com>`_, vendar je "
-"strežnik zavrnil posredovanje ref:`potrdila HTTPS <iot/connect/"
+"Če se je sistem IoT uspešno povezal z `<https://www.odoo.com>`_, vendar je "
+"strežnik zavrnil zagotovitev :ref:`certifikata HTTPS <iot/connect/"
 "https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:171
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:146
 msgid ""
 "Check that the IoT system and database meet the :ref:`eligibility "
 "requirements <iot/https_certificate_iot/iot-eligibility>` for an HTTPS "
@@ -12693,6 +12663,76 @@ msgstr ""
 "Preverite, da sistem IoT in podatkovna baza izpolnjujeta :ref:`pogoje za "
 "upravičenost <iot/https_certificate_iot/iot-eligibility>` do digitalnega "
 "potrdila HTTPS."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:150
+msgid "Grant Odoo support team access to an IoT Box"
+msgstr "Odobritev dostopa podporni ekipi Odoo do IoT Boxa"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:152
+msgid ""
+"If you need to grant remote access to an IoT Box, you can provide a "
+"Tailscale token on the IoT Box's homepage. This allows the Odoo support team "
+"to access the IoT Box for troubleshooting securely."
+msgstr ""
+"Če morate odobriti oddaljen dostop do IoT Boxa, lahko na domači strani IoT "
+"Boxa navedete žeton Tailscale. To omogoča podporni ekipi Odoo varen dostop "
+"do IoT Boxa za odpravljanje težav."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+msgid ""
+"Only enter a token from a trusted source, such as an official Odoo support "
+"representative. Providing a token grants access to the IoT Box and your "
+"entire local network, so it should be done with caution."
+msgstr ""
+"Vnesite žeton samo iz zaupanja vrednega vira, kot je uradni predstavnik "
+"podpore Odoo. Zagotovitev žetona odobri dostop do IoT Boxa in celotnega "
+"vašega lokalnega omrežja, zato to storite previdno."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:161
+msgid ""
+"On the :ref:`IoT Box's homepage <iot/iot-box/homepage>`, click the :icon:`fa-"
+"cogs` (:guilabel:`cogs`) button, then click :guilabel:`Debugging Tools`. In "
+"the pop-up window, enter the Tailscale token provided by the Odoo support "
+"team and click :guilabel:`Enable`."
+msgstr ""
+"Na :ref:`domači strani IoT Boxa <iot/iot-box/homepage>` kliknite gumb "
+":icon:`fa-cogs` (:guilabel:`zobniki`) in nato kliknite :guilabel:`Orodja za "
+"odpravljanje napak`. V pojavnem oknu vnesite žeton Tailscale, ki ga je "
+"zagotovila podporna ekipa Odoo, in kliknite :guilabel:`Omogoči`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
+msgid ""
+"**Remote Debug** is only available for :doc:`IoT boxes <../iot_box>`, not "
+"the :doc:`Windows virtual IoT <../windows_iot>`."
+msgstr ""
+"**Oddaljeno razhroščevanje** je na voljo samo za :doc:`IoT boxe <../iot_box>"
+"`, ne za :doc:`Windows virtualni IoT <../windows_iot>`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:170
+msgid "Is the IoT Box down?"
+msgstr "Je IoT Box nedosegljiv?"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:172
+msgid ""
+"If the IoT Box is down, you can still enable remote access for the Odoo "
+"support team. Just provide the key in the only field displayed on "
+"the :ref:`homepage <iot/iot-box/homepage>` and click :guilabel:`Enable`."
+msgstr ""
+"Če je IoT Box nedosegljiv, lahko še vedno omogočite oddaljen dostop za "
+"podporno ekipo Odoo. Preprosto vnesite ključ v edino polje, prikazano na "
+":ref:`domači strani <iot/iot-box/homepage>`, in kliknite :guilabel:`Omogoči`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:180
+msgid ""
+"Enabling remote access on a down IoT Box is only available from version "
+"above v26.01.2026. If your IoT Box doesn't have this option, you will need "
+"to :ref:`flash the IoT Box's card with the latest image <iot/updating_iot/"
+"image-code>`."
+msgstr ""
+"Omogočanje oddaljenega dostopa na nedosegljivem IoT Boxu je na voljo samo v "
+"različicah nad v26.01.2026. Če vaš IoT Box nima te možnosti, boste morali "
+":ref:`zapisati kartico IoT Boxa z najnovejšo sliko <iot/updating_iot/image-"
+"code>`."
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:5
 msgid ""
@@ -14412,11 +14452,11 @@ msgstr ""
 "Preostanek tega dokumenta uporablja Google Authenticator kot primer, saj je "
 "eden najpogosteje uporabljenih. To **ni** priporočilo izdelka."
 
-#: ../../content/applications/general/users/2fa.rst:47
+#: ../../content/applications/general/users/2fa.rst:49
 msgid "Two-factor authentication setup"
 msgstr "Nastavitev dvofaktorske avtentikacije"
 
-#: ../../content/applications/general/users/2fa.rst:49
+#: ../../content/applications/general/users/2fa.rst:51
 msgid ""
 "After selecting an authenticator, log in to Odoo, then click the profile "
 "avatar in the upper-right corner, and select :guilabel:`My Profile` from the "
@@ -14425,7 +14465,7 @@ msgstr ""
 "Po izbiri avtentikatorja se prijavite v Odoo, nato kliknite avatar profila v "
 "zgornjem desnem kotu in v spustnem meniju izberite :guilabel:`Moj profil`."
 
-#: ../../content/applications/general/users/2fa.rst:52
+#: ../../content/applications/general/users/2fa.rst:54
 msgid ""
 "Click the :guilabel:`Account Security` tab, then slide the :guilabel:`Two-"
 "Factor Authentication` toggle to *active*."
@@ -14437,7 +14477,7 @@ msgstr ""
 msgid "The account secuirty tab in a user profile."
 msgstr "Zavihek varnosti računa v uporabniškem profilu."
 
-#: ../../content/applications/general/users/2fa.rst:58
+#: ../../content/applications/general/users/2fa.rst:60
 msgid ""
 "This generates a :guilabel:`Security Control` pop-up window that requires "
 "password confirmation to continue. Enter the appropriate password, then "
@@ -14449,16 +14489,16 @@ msgstr ""
 "kliknite :guilabel:`Potrdi geslo`. Nato se prikaže pojavno "
 "okno :guilabel:`Aktivacija dvofaktorske avtentikacije` z |QR|."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid "The 2fa authentication QR code in Odoo."
 msgstr "QR koda za preverjanje pristnosti 2fa v Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid ""
 "Using the desired authenticator application, scan the |QR| when prompted."
 msgstr "Z izbrano aplikacijo za avtentikacijo skenirajte |QR|, ko ste pozvani."
 
-#: ../../content/applications/general/users/2fa.rst:68
+#: ../../content/applications/general/users/2fa.rst:70
 msgid ""
 "If scanning the screen is not possible (e.g., the setup is being completed "
 "on the *same* device as the authenticator application), click the "
@@ -14473,7 +14513,7 @@ msgstr ""
 msgid "A 2fa secret code on an authentication popup."
 msgstr "Skrivna koda 2fa v pojavnem oknu za preverjanje pristnosti."
 
-#: ../../content/applications/general/users/2fa.rst:75
+#: ../../content/applications/general/users/2fa.rst:77
 msgid "Afterwards, the authenticator should display a *verification code*."
 msgstr "Nato naj bi avtentikator prikazal *potrditveno kodo*."
 
@@ -14481,7 +14521,7 @@ msgstr "Nato naj bi avtentikator prikazal *potrditveno kodo*."
 msgid "A view of the Google authenticator app with the six digit code for 2fa."
 msgstr "Pogled aplikacije Google Authenticator s šestmestno kodo za 2fa."
 
-#: ../../content/applications/general/users/2fa.rst:80
+#: ../../content/applications/general/users/2fa.rst:82
 msgid ""
 "Enter the code into the :guilabel:`Verification Code` field, then "
 "click :guilabel:`Activate`."
@@ -14497,15 +14537,15 @@ msgstr ""
 "Sporočilo o uspehu, ki se prikaže v uporabniškem profilu, ko je 2fa uspešno "
 "omogočen."
 
-#: ../../content/applications/general/users/2fa.rst:86
+#: ../../content/applications/general/users/2fa.rst:88
 msgid "Logging in"
 msgstr "Prijava"
 
-#: ../../content/applications/general/users/2fa.rst:88
+#: ../../content/applications/general/users/2fa.rst:90
 msgid "To confirm |2fa| setup is complete, log out of Odoo."
 msgstr "Za potrditev, da je nastavitev |2fa| končana, se odjavite iz Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:90
+#: ../../content/applications/general/users/2fa.rst:92
 msgid ""
 "On the login page, input the username and password, then "
 "click :guilabel:`Log in`. On the :guilabel:`Two-factor Authentication` page, "
@@ -14521,7 +14561,7 @@ msgstr ""
 msgid "The login page with 2fa enabled."
 msgstr "Prijavna stran z omogočeno dvofaktorsko avtentikacijo."
 
-#: ../../content/applications/general/users/2fa.rst:98
+#: ../../content/applications/general/users/2fa.rst:100
 msgid ""
 "If a user loses access to their authenticator, an administrator **must** "
 "deactivate |2fa| on the account before the user can log in."
@@ -14529,11 +14569,11 @@ msgstr ""
 "Če uporabnik izgubi dostop do svojega avtentikatorja, **mora** skrbnik "
 "deaktivirati |2fa| na računu, preden se lahko uporabnik prijavi."
 
-#: ../../content/applications/general/users/2fa.rst:102
+#: ../../content/applications/general/users/2fa.rst:104
 msgid "Enforce two-factor authentication"
 msgstr "Uveljavi dvofaktorsko preverjanje pristnosti"
 
-#: ../../content/applications/general/users/2fa.rst:104
+#: ../../content/applications/general/users/2fa.rst:106
 msgid ""
 "To enforce |2fa| for every user in the database, navigate to "
 "the :menuselection:`Settings` app. In the :guilabel:`Permissions` section, "
@@ -14548,7 +14588,7 @@ msgstr ""
 "nastavitev uporabiti za :guilabel:`Samo zaposlene` ali :guilabel:`Vse "
 "uporabnike`."
 
-#: ../../content/applications/general/users/2fa.rst:110
+#: ../../content/applications/general/users/2fa.rst:112
 msgid ""
 "Selecting :guilabel:`All users` applies the setting to portal users in "
 "addition to employees."
@@ -14556,7 +14596,7 @@ msgstr ""
 "Izbira :guilabel:`Vsi uporabniki` uporabi nastavitev za uporabnike portala "
 "poleg zaposlenih."
 
-#: ../../content/applications/general/users/2fa.rst:112
+#: ../../content/applications/general/users/2fa.rst:114
 msgid "Click :guilabel:`Save` to commit any unsaved changes."
 msgstr "Kliknite :guilabel:`Shrani`, da potrdite vse neshranjene spremembe."
 
@@ -14565,7 +14605,7 @@ msgid "The enforce two factor setting in the Settings application."
 msgstr ""
 "Nastavitev uveljavljanja dvofaktorske avtentikacije v aplikaciji Nastavitve."
 
-#: ../../content/applications/general/users/2fa.rst:118
+#: ../../content/applications/general/users/2fa.rst:120
 msgid ""
 "If users are frequently required to log in again and complete two-factor "
 "authentication, it may be due to session or inactivity timeout policies "
@@ -14575,7 +14615,7 @@ msgstr ""
 "preverjanje, je to morda posledica politik časovnih omejitev seje ali "
 "nedejavnosti, konfiguriranih za eno ali več njihovih uporabniških skupin."
 
-#: ../../content/applications/general/users/2fa.rst:121
+#: ../../content/applications/general/users/2fa.rst:123
 msgid ""
 "Administrators can configure these policies using the *Timeouts* settings "
 "available on user groups when the *auth_timeout* module is installed. "
@@ -15276,8 +15316,8 @@ msgstr ""
 "*Nadprivilegirani način* uporabniku omogoča, da se izogne pravilom zapisov "
 "in pravicam dostopa. Če želite aktivirati *nadprivilegirani način*, najprej "
 "aktivirajte :ref:`razvijalski način <developer-mode>`. Nato se pomaknite do "
-"menija *razhroščevanje*, ki ga predstavlja ikona :icon:`fa-bug` :guilabel:`"
-"(razhroščevanje)`, ki se nahaja v zgornjem pasicu."
+"menija *razhroščevanje*, ki ga predstavlja ikona :icon:`fa-"
+"bug` :guilabel:`(razhroščevanje)`, ki se nahaja v zgornjem pasicu."
 
 #: ../../content/applications/general/users/access_rights.rst:269
 msgid ""
@@ -15331,8 +15371,8 @@ msgid ""
 "select the :guilabel:`Log out` option."
 msgstr ""
 "Če želite zapustiti *nadprivilegirani način*, se odjavite iz računa tako, da "
-"se pomaknete v zgornji desni kot in kliknete na uporabniško ime "
-":guilabel:`OdooBot`. Nato izberite možnost :guilabel:`Odjava`."
+"se pomaknete v zgornji desni kot in kliknete na uporabniško "
+"ime :guilabel:`OdooBot`. Nato izberite možnost :guilabel:`Odjava`."
 
 #: ../../content/applications/general/users/access_rights.rst:290
 msgid ""
@@ -15444,8 +15484,8 @@ msgid ""
 msgstr ""
 "Zdaj ko so sistemski parametri v Odoo nastavljeni, je čas, da ustvarite "
 "ustrezno aplikacijo v Microsoft Azure. Če želite začeti ustvarjati novo "
-"aplikacijo, pojdite na `Microsoftov portal Azure <https://portal.azure.com/>"
-"`_. Prijavite se z računom :guilabel:`Microsoft Outlook Office 365`, če ga "
+"aplikacijo, pojdite na `Microsoftov portal Azure <https://portal.azure.com/"
+">`_. Prijavite se z računom :guilabel:`Microsoft Outlook Office 365`, če ga "
 "imate, sicer se prijavite z osebnim :guilabel:`računom Microsoft`."
 
 #: ../../content/applications/general/users/azure.rst:49
@@ -17173,6 +17213,86 @@ msgstr ":doc:`Pravice dostopa </applications/general/users/access_rights>`"
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:154
 msgid ":doc:`Portal access documentation <portal_access>`"
 msgstr ":doc:`Dokumentacija o dostopu do portala <portal_access>`"
+
+#~ msgid ""
+#~ "A specific error code is displayed on the IoT system's homepage if any "
+#~ "issues occur during the generation or reception of the ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`."
+#~ msgstr ""
+#~ "Določena koda napake je prikazana na domači strani sistema IoT, če med "
+#~ "ustvarjanjem ali prejemom ref:`potrdila HTTPS <iot/connect/"
+#~ "https_certificate>` pride do težav."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+
+#~ msgid ""
+#~ "The server configuration is missing, i.e., the database is "
+#~ "not :doc:`connected <../connect>` to the IoT system."
+#~ msgstr ""
+#~ "Konfiguracija strežnika manjka, tj. baza podatkov ni :doc:`povezana <../"
+#~ "connect>` s sistemom IoT."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+
+#~ msgid ""
+#~ "An error occurred while attempting to read the existing ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
+#~ "certificate file is readable."
+#~ msgstr ""
+#~ "Pri poskusu branja obstoječega ref:`potrdila HTTPS <iot/connect/"
+#~ "https_certificate>` je prišlo do napake. Preverite, ali je datoteka "
+#~ "potrdila HTTPS berljiva."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+
+#~ msgid ""
+#~ "An unexpected error occurred while the IoT system tried to reach "
+#~ "`<https://www.odoo.com>`_. This is likely due to network-related issues, "
+#~ "such as:"
+#~ msgstr ""
+#~ "Prišlo je do nepričakovane napake, ko je sistem IoT poskušal doseči "
+#~ "`<https://www.odoo.com>`_. To je verjetno posledica težav, povezanih z "
+#~ "omrežjem, kot so:"
+
+#~ msgid "The IoT system does not have Internet access."
+#~ msgstr "Sistem IoT nima dostopa do interneta."
+
+#~ msgid ""
+#~ "Network restrictions (e.g., firewalls or VPNs) are preventing "
+#~ "communication with https://www.odoo.com."
+#~ msgstr ""
+#~ "Omrežne omejitve (npr. požarni zidovi ali navidezna zasebna omrežja) "
+#~ "preprečujejo komunikacijo s https://www.odoo.com."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+
+#~ msgid ""
+#~ "This error code includes the HTTP status. For example, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a "
+#~ "\"Page Not Found\" response."
+#~ msgstr ""
+#~ "Ta koda napake vključuje stanje HTTP. Na primer, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` pomeni, da je strežnik vrnil "
+#~ "odziv \"Strani ni mogoče najti\"."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+
+#~ msgid ""
+#~ "The IoT system successfully connected to `<https://www.odoo.com>`_, but "
+#~ "the server refused to provide the ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`."
+#~ msgstr ""
+#~ "Sistem IoT se je uspešno povezal z `<https://www.odoo.com>`_, vendar je "
+#~ "strežnik zavrnil posredovanje ref:`potrdila HTTPS <iot/connect/"
+#~ "https_certificate>`."
 
 #~ msgid ""
 #~ "This configuration only works with a subdomain on the Odoo Online or "

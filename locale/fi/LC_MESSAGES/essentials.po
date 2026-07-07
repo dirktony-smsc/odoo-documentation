@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-08 17:30+0000\n"
-"PO-Revision-Date: 2026-06-10 01:10+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 16:06+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19-doc/"
 "essentials/fi/>\n"
 "Language: fi\n"
@@ -3731,15 +3731,15 @@ msgstr ":guilabel:`Asiakirjat`"
 
 #: ../../content/applications/essentials/html_editor.rst:248
 msgid "Search for a document in the database."
-msgstr ""
+msgstr "Etsi asiakirjaa tietokannasta."
 
 #: ../../content/applications/essentials/html_editor.rst:249
 msgid ":guilabel:`Add URL`: Copy-paste a valid URL."
-msgstr ""
+msgstr ":guilabel:`Lisää URL-osoite`: Kopioi ja liitä kelvollinen URL-osoite."
 
 #: ../../content/applications/essentials/html_editor.rst:250
 msgid ":guilabel:`Upload a document`: Upload a document from a local drive."
-msgstr ""
+msgstr ":guilabel:`Lataa asiakirja`: Lataa asiakirja paikalliselta asemalta."
 
 #: ../../content/applications/essentials/html_editor.rst:252
 msgid ":guilabel:`Icons`: Search for and select one of the available icons."
@@ -3766,13 +3766,16 @@ msgstr ""
 
 #: ../../content/applications/essentials/html_editor.rst:261
 msgid "Media editor toolbar"
-msgstr ""
+msgstr "Mediaeditorin työkalurivi"
 
 #: ../../content/applications/essentials/html_editor.rst:263
 msgid ""
 "After :ref:`inserting an image <insert-media>`, click it to display the "
 "media editor toolbar, and apply any of the following formatting options:"
 msgstr ""
+":ref:`Kuvan lisäämisen <insert-media>` jälkeen napsauta sitä näyttääksesi "
+"mediaeditorin työkalurivin ja käytä jotakin seuraavista "
+"muotoiluvaihtoehdoista:"
 
 #: ../../content/applications/essentials/html_editor.rst:266
 msgid ""
@@ -3846,6 +3849,9 @@ msgid ""
 "Click the :icon:`fa-object-ungroup` :guilabel:`(object)` icon a second time "
 "to reset the transformation."
 msgstr ""
+":icon:`fa-object-ungroup` (:guilabel:`object`): Muuta kuvan kokoa ja kierrä "
+"sitä. Napsauta :icon:`fa-object-ungroup` :guilabel:`(object)` -kuvaketta "
+"toisen kerran palauttaaksesi muunnoksen."
 
 #: ../../content/applications/essentials/html_editor.rst:281
 msgid ""
@@ -3858,23 +3864,23 @@ msgstr ""
 #: ../../content/applications/essentials/html_editor.rst:283
 msgid ""
 "Choose from the `Flexible`, `16:9`, `4:3`, `1:1`, or `2:3` aspect ratios."
-msgstr ""
+msgstr "Valitse `Flexible`-, `16:9`-, `4:3`-, `1:1`- tai `2:3`-kuvasuhde."
 
 #: ../../content/applications/essentials/html_editor.rst:284
 msgid "Zoom in or out."
-msgstr ""
+msgstr "Lähennä tai loitonna."
 
 #: ../../content/applications/essentials/html_editor.rst:285
 msgid "Rotate left or right."
-msgstr ""
+msgstr "Kierrä vasemmalle tai oikealle."
 
 #: ../../content/applications/essentials/html_editor.rst:286
 msgid "Flip horizontally or vertically."
-msgstr ""
+msgstr "Käännä vaaka- tai pystysuunnassa."
 
 #: ../../content/applications/essentials/html_editor.rst:287
 msgid "Reset the image."
-msgstr ""
+msgstr "Palauta kuva."
 
 #: ../../content/applications/essentials/html_editor.rst:289
 msgid ""
@@ -3945,7 +3951,7 @@ msgstr ":guilabel:`Korvaa`: Valitse toinen kuvake."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:3
 msgid "In-app purchases (IAP)"
-msgstr ""
+msgstr "Sovellusostot (IAP)"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:7
 msgid ""
@@ -3954,10 +3960,14 @@ msgid ""
 "list of services is available on the `Odoo IAP Catalog <https://iap.odoo.com/"
 "iap/all-in-app-services>`_."
 msgstr ""
+"Sovellusostot (IAP) ovat valinnaisia palveluita, jotka parantavat Odoo-"
+"tietokantoja. Jokainen palvelu tarjoaa omat erityiset ominaisuutensa ja "
+"toiminnallisuutensa. Täydellinen luettelo palveluista on saatavilla `Odoo "
+"IAP Catalog <https://iap.odoo.com/iap/all-in-app-services>`_ -sivustolla."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:None
 msgid "The IAP catalog with various services available on IAP.Odoo.com."
-msgstr ""
+msgstr "IAP-luettelo, jossa on erilaisia IAP.Odoo.com-palveluita."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:15
 msgid ""
@@ -3966,6 +3976,10 @@ msgid ""
 "scanned or PDF vendor bills, expenses, and resumes with optical character "
 "recognition (OCR) and artificial intelligence (AI)."
 msgstr ""
+":guilabel:`SMS`-palvelu lähettää tekstiviestejä yhteystiedoille suoraan "
+"tietokannasta, ja :guilabel:`Documents Digitization` -palvelu digitoi "
+"skannatut tai PDF-muotoiset toimittajalaskut, kulut ja ansioluettelot "
+"optisella merkintunnistuksella (OCR) ja tekoälyllä (AI)."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:19
 msgid ""
@@ -3974,6 +3988,11 @@ msgid ""
 "service requires its own prepaid credits, and when they run out, users "
 "**must** :ref:`buy more <iap/buying_credits>` in order to keep using it."
 msgstr ""
+"|IAP|-palveluita **ei** tarvitse määrittää tai ottaa käyttöön ennen käyttöä. "
+"Odoo-käyttäjät voivat aktivoida palvelun napsauttamalla sitä sovelluksessa. "
+"Jokainen palvelu vaatii kuitenkin omat ennakkoon maksetut hyvityksensä, ja "
+"kun ne loppuvat, käyttäjien **on** :ref:`ostettava lisää <iap/buying_credits>"
+"`, jotta he voivat jatkaa sen käyttöä."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:24
 msgid ""
@@ -3982,20 +4001,26 @@ msgid ""
 "includes demo/training databases, educational databases, and one-app-free "
 "databases."
 msgstr ""
+"Enterprise Odoo -käyttäjät, joilla on voimassa oleva tilaus, saavat ilmaisia "
+"hyvityksiä testata IAP-ominaisuuksia ennen kuin päättävät ostaa lisää "
+"hyvityksiä tietokantaa varten. Tämä koskee demo-/koulutustietokantoja, "
+"koulutustietokantoja ja yhden sovelluksen ilmaisia tietokantoja."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:31
 msgid "IAP services"
-msgstr ""
+msgstr "IAP-palvelut"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:33
 msgid ""
 "|IAP| services are provided by Odoo, as well as third-parties, and have a "
 "wide range of uses."
 msgstr ""
+"|IAP|-palveluita tarjoavat Odoo sekä kolmannet osapuolet, ja niillä on laaja "
+"valikoima käyttötarkoituksia."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:35
 msgid "The following |IAP| services are offered by Odoo:"
-msgstr ""
+msgstr "Odoo tarjoaa seuraavat |IAP|-palvelut:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:37
 msgid ""
@@ -4405,11 +4430,11 @@ msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:9
 msgid ""
-"Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element on "
-"the interface."
+"Hold :kbd:`Ctrl` (macOS) or :kbd:`Alt` (Windows / Linux) to view the "
+"keyboard shortcuts assigned to each element on the interface."
 msgstr ""
-"Pidä :kbd:`Ctrl` pohjassa nähdäksesi kullekin käyttöliittymän elementille "
-"määritetyt pikanäppäimet."
+"Pidä :kbd:`Ctrl` (macOS) tai :kbd:`Alt` (Windows / Linux) painettuna "
+"nähdäksesi kullekin käyttöliittymän elementille määritetyt pikanäppäimet."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "A selection of keyboard shortcuts in Odoo."
@@ -6788,6 +6813,13 @@ msgstr ""
 "Valitse :guilabel:`Tiimit` -kentästä :guilabel:`Vaiheet` -lomakkeella. "
 "Useampi kuin yksi tiimi voidaan valita, koska sama vaihe voidaan määrittää "
 "useille tiimeille."
+
+#~ msgid ""
+#~ "Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element "
+#~ "on the interface."
+#~ msgstr ""
+#~ "Pidä :kbd:`Ctrl` pohjassa nähdäksesi kullekin käyttöliittymän elementille "
+#~ "määritetyt pikanäppäimet."
 
 #~ msgid "Name"
 #~ msgstr "Nimi"

@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:30+0000\n"
-"PO-Revision-Date: 2026-06-10 00:33+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 15:49+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/sl/>\n"
 "Language: sl\n"
@@ -4544,13 +4544,15 @@ msgid ""
 "For more information about using the Kanban view, see the :ref:`Kanban "
 "<studio/views/multiple-records/kanban>` documentation."
 msgstr ""
+"Za več informacij o uporabi pogleda Kanban si oglejte dokumentacijo "
+":ref:`Kanban <studio/views/multiple-records/kanban>`."
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:69
 #: ../../content/applications/marketing/events/attendee_experience/multi_slots.rst:67
 #: ../../content/applications/marketing/events/attendee_experience/multi_slots.rst:104
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:78
 msgid "List"
-msgstr ""
+msgstr "Seznam"
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:71
 msgid ""
@@ -4587,6 +4589,8 @@ msgid ""
 "For more information about using the List view, see the :ref:`List <studio/"
 "views/multiple-records/list>` documentation."
 msgstr ""
+"Za več informacij o uporabi pogleda Seznam si oglejte dokumentacijo "
+":ref:`Seznam <studio/views/multiple-records/list>`."
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:85
 msgid "Gantt"
@@ -4844,15 +4848,15 @@ msgstr ""
 ":guilabel:`Skupina po meri...`: Združi podatke glede na :ref:`skupino po "
 "meri <search/group>`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:181
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
 msgid "Create event track"
 msgstr "Ustvari sled dogodka"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
 msgid "New event tracks are created from the :guilabel:`Event Tracks` page."
 msgstr "Nove sledi dogodkov se ustvarijo na strani :guilabel:`Sledi dogodkov`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:187
 msgid ""
 "To create a new event track, click :guilabel:`New` in the upper-left corner "
 "to reveal a blank event track form."
@@ -4864,37 +4868,37 @@ msgstr ""
 msgid "Typical event track form in the Odoo Events application."
 msgstr "Tipičen obrazec sledi dogodka v aplikaciji Odoo Dogodki."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:191
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required**."
 msgstr ""
 "Začnite tako, da tej sledi dodelite :guilabel:`Naslov`. To polje je "
 "**obvezno**."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
 msgid ""
 "Optionally, upload an image for the track to be displayed on the track's "
 "webpage."
 msgstr ""
 "Po želji naložite sliko za sled, ki se bo prikazala na spletni strani sledi."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
 msgid "Next, enter details for the track in the following fields:"
 msgstr "Nato vnesite podrobnosti za sled v naslednja polja:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
 msgid ":guilabel:`Track Date`: Specify the date of the track."
 msgstr ":guilabel:`Datum sledi`: Določite datum sledi."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:198
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
 msgid ":guilabel:`Location`: Specify the location of the track."
 msgstr ":guilabel:`Lokacija`: Določite lokacijo sledi."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:201
 msgid ":guilabel:`Duration`: Specify the duration of the track (in minutes)."
 msgstr ":guilabel:`Trajanje`: Določite trajanje sledi (v minutah)."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
 msgid ""
 ":guilabel:`Always Wishlisted`: Specify whether to automatically set the "
 "track as favorite for each registered attendee."
@@ -4902,7 +4906,7 @@ msgstr ""
 ":guilabel:`Vedno na seznamu želja`: Določite, ali naj se sled samodejno "
 "nastavi kot priljubljena za vsakega registriranega udeleženca."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
 msgid ""
 ":guilabel:`Responsible`: Select the database user responsible for managing "
 "the track. By default, this field is assigned to the user who initially "
@@ -4912,7 +4916,7 @@ msgstr ""
 "upravljanje sledi. Privzeto je to polje dodeljeno uporabniku, ki je sled "
 "prvotno ustvaril."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
 msgid ""
 ":guilabel:`Event`: Select the track's associated event. By default, this "
 "field is already populated with the event from the *Event Tracks* page."
@@ -4920,7 +4924,7 @@ msgstr ""
 ":guilabel:`Dogodek`: Izberite povezan dogodek sledi. Privzeto je to polje že "
 "izpolnjeno z dogodkom s strani *Sledi dogodkov*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
 msgid ""
 ":guilabel:`Tags`: Select one or multiple tags for the track to add as "
 "filters on the *Talks* webpage."
@@ -4928,7 +4932,7 @@ msgstr ""
 ":guilabel:`Oznake`: Izberite eno ali več oznak za sled, ki bodo dodane kot "
 "filtri na spletni strani *Predavanja*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:210
 msgid ""
 ":guilabel:`Agenda Color`: Select a color to represent the track on the "
 "*Agenda* webpage."
@@ -4936,7 +4940,7 @@ msgstr ""
 ":guilabel:`Barva agende`: Izberite barvo, ki bo predstavljala sled na "
 "spletni strani *Agenda*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:211
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:213
 msgid ""
 "To access a complete list of locations for event tracks, which can be "
 "modified (and added to) at any time, navigate to :menuselection:`Events app "
@@ -4946,11 +4950,11 @@ msgstr ""
 "kadarkoli spremeniti (in jim dodati), se pomaknite na "
 ":menuselection:`aplikacija Dogodki --> Konfiguracija --> Lokacije sledi`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:217
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
 msgid "Speaker tab"
 msgstr "Zavihek Predavatelj"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:221
 msgid ""
 "The :guilabel:`Speaker` tab on an event track form contains various fields "
 "to configure information about the track host or speaker."
@@ -4962,11 +4966,11 @@ msgstr ""
 msgid "The Speaker tab on an event track form in the Odoo Events application."
 msgstr "Zavihek Predavatelj na obrazcu sledi dogodka v aplikaciji Odoo Dogodki."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:226
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
 msgid "Contact Details section"
 msgstr "Razdelek Kontaktni podatki"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:230
 msgid ""
 "In the :guilabel:`Contact Details` section, click the :guilabel:`Contact` "
 "drop-down field to select an existing contact from the database as the main "
@@ -4976,7 +4980,7 @@ msgstr ""
 ":guilabel:`Stik`, da iz zbirke podatkov izberete obstoječi stik kot glavno "
 "kontaktno osebo za predavanje."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:231
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:233
 msgid ""
 "If this contact is not yet in the database, type in the name of the contact, "
 "and click :guilabel:`Create` to create and edit the contact form later, or "
@@ -4988,7 +4992,7 @@ msgstr ""
 "kliknite :guilabel:`Ustvari in uredi ...`, da se odpre obrazec stika za "
 "takojšnjo konfiguracijo."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:235
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:237
 msgid ""
 "The :guilabel:`Contact Email` and :guilabel:`Contact Phone` fields are "
 "greyed-out and populated with the information found on the chosen contact's "
@@ -4999,11 +5003,11 @@ msgstr ""
 "izpolnjeni z informacijami iz obrazca izbranega stika. Ti polji nista "
 "spremenljivi, ko je polje :guilabel:`Stik` izbrano."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:240
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
 msgid "Speaker Bio section"
 msgstr "Razdelek Biografija predavatelja"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:244
 msgid ""
 "In the :guilabel:`Speaker Bio` section, enter any information related to the "
 "specific speaker scheduled to conduct/host the track."
@@ -5011,7 +5015,7 @@ msgstr ""
 "V razdelku :guilabel:`Biografija govorca` vnesite vse informacije, povezane "
 "s posameznim govorcem, ki bo vodil ali predstavljal to predavanje."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:245
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:247
 msgid ""
 "If the chosen contact in the :guilabel:`Contact Details` section is properly "
 "configured, the :guilabel:`Name`, :guilabel:`Email`, and :guilabel:`Phone` "
@@ -5023,7 +5027,7 @@ msgstr ""
 ":guilabel:`Telefon` samodejno izpolnijo. V nasprotnem primeru informacije "
 "vnesite ročno."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:250
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:252
 msgid ""
 "This information appears on the front-end of the event website, on the "
 "specific track webpage, providing more information about the speaker to the "
@@ -5033,7 +5037,7 @@ msgstr ""
 "posebni spletni strani sledi, in udeležencem sledi zagotovijo več informacij "
 "o predavatelju."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:253
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
 msgid ""
 "Optionally, upload an image to appear alongside the speaker biography on the "
 "event website."
@@ -5041,7 +5045,7 @@ msgstr ""
 "Po želji naložite sliko, ki se bo prikazala poleg biografije govorca na "
 "spletnem mestu dogodka."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:257
 msgid ""
 "Then, enter a :guilabel:`Job Position` for the designated speaker, followed "
 "by the :guilabel:`Company Name` associated with the speaker."
@@ -5049,7 +5053,7 @@ msgstr ""
 "Nato vnesite :guilabel:`Delovno mesto` za določenega predavatelja, ki mu "
 "sledi :guilabel:`Naziv podjetja`, povezano s predavateljem."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:258
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:260
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter a custom biography with "
 "any speaker-related information."
@@ -5057,13 +5061,13 @@ msgstr ""
 "V polje :guilabel:`Biografija` vnesite biografijo po meri z vsemi "
 "informacijami, povezanimi z govorcem."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:264
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
 #: ../../content/applications/marketing/surveys/create.rst:258
 #: ../../content/applications/marketing/surveys/questions.rst:198
 msgid "Description tab"
 msgstr "Zavihek Opis"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Description` tab of an event track form contains a blank text "
 "field to enter any additional information about the track. This information "
@@ -5073,11 +5077,11 @@ msgstr ""
 "polje za vnos dodatnih informacij o predavanju. Te informacije se prikažejo "
 "na strani posameznega predavanja na spletnem mestu dogodka."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:273
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
 msgid "Interactivity tab"
 msgstr "Zavihek Interaktivnost"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:277
 msgid ""
 "The :guilabel:`Interactivity` tab of the track form provides users the "
 "option to display an interactive button for additional attendee engagement."
@@ -5091,7 +5095,7 @@ msgid ""
 msgstr ""
 "Zavihek Interaktivnost na obrazcu sledi dogodka v aplikaciji Odoo Dogodki."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:282
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:284
 msgid ""
 "When the :guilabel:`Magic Button` checkbox is ticked, Odoo displays a *call "
 "to action* button to attendees on the sidebar of the track webpage while the "
@@ -5101,7 +5105,7 @@ msgstr ""
 "prikaže gumb *poziv k dejanju* v stranski vrstici spletne strani predavanja, "
 "medtem ko predavanje poteka."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:285
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
 msgid ""
 "With that checkbox ticked, three more options appear below to configure the "
 "button:"
@@ -5109,7 +5113,7 @@ msgstr ""
 "Ko je to potrditveno polje označeno, se spodaj prikažejo tri dodatne "
 "možnosti za konfiguracijo gumba:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
 msgid ""
 ":guilabel:`Button Title`: Enter a title to appear on the button for "
 "attendees."
@@ -5117,7 +5121,7 @@ msgstr ""
 ":guilabel:`Naslov gumba`: vnesite naslov, ki se bo prikazal udeležencem na "
 "gumbu."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:288
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:290
 msgid ""
 ":guilabel:`Button Target URL`: Enter a URL that leads attendees to a "
 "specific page."
@@ -5125,7 +5129,7 @@ msgstr ""
 ":guilabel:`Ciljni URL gumba`: vnesite URL, ki udeležence vodi na določeno "
 "stran."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:291
 msgid ""
 ":guilabel:`Show Button`: Enter how many :guilabel:`minutes after Track "
 "start` the button should appear."
@@ -5133,16 +5137,16 @@ msgstr ""
 ":guilabel:`Prikaži gumb`: vnesite, koliko :guilabel:`minut po začetku "
 "predavanja` naj se gumb prikaže."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:293
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:295
 msgid ""
 "The magic button **only** appears if there is more than one published track."
 msgstr "Čarobni gumb se prikaže **samo**, če je objavljenih več kot ena sled."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:296
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
 msgid "Publish event track"
 msgstr "Objavi sled dogodka"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:300
 msgid ""
 "Once all the desired configurations are complete on an event track form, "
 "publish the track on the event website by clicking the :guilabel:`Published` "
@@ -5152,7 +5156,7 @@ msgstr ""
 "objavite predavanje na spletnem mestu dogodka tako, da kliknete stopnjo "
 ":guilabel:`Objavljeno` v zgornjem desnem kotu."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:302
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:304
 msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
@@ -5162,7 +5166,7 @@ msgstr ""
 "kjer lahko kartico želenega posnetka povlečete in spustite v ustrezno "
 "stopnjo Kanban."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:305
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:307
 msgid ""
 "An event track can also be published by opening the desired event track form "
 "and clicking the :guilabel:`Go to Website` smart button. Then, toggle "
@@ -5183,11 +5187,11 @@ msgstr ""
 "Možnosti podmenija, povezanega s posnetki, na spletni strani dogodka, "
 "ustvarjeni z Odoo Events."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:315
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
 msgid "Additional track configurations"
 msgstr "Dodatne konfiguracije predavanj"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:319
 msgid ""
 "The :guilabel:`Schedule & Tracks` setting in the **Events** configuration "
 "page provides additional configuration options for users to enable live "
@@ -5197,11 +5201,11 @@ msgstr ""
 "**Dogodki** uporabnikom ponuja dodatne možnosti konfiguracije za omogočanje "
 "neposrednega prenosa in igrifikacije za predavanja."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:323
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
 msgid "Live broadcasting"
 msgstr "Neposredni prenos"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:327
 msgid ""
 "If the :guilabel:`Live Broadcast` setting is enabled in the **Events** app "
 "settings, the option to add a corresponding link in the :guilabel:`YouTube "
@@ -5211,11 +5215,11 @@ msgstr ""
 "aplikacije **Dogodki**, se v obrazcu predavanja prikaže možnost za dodajanje "
 "ustrezne povezave v polje :guilabel:`Povezava do YouTube videa`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:331
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
 msgid "Event gamification"
 msgstr "Igrifikacija dogodka"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:335
 msgid ""
 "If the :guilabel:`Event Gamification` setting is enabled, an :guilabel:`Add "
 "Quiz` button appears on the top-left of a track form, allowing the user to "
@@ -5225,11 +5229,11 @@ msgstr ""
 "levem kotu obrazca sledi prikaže gumb :guilabel:`Dodaj kviz`, ki uporabniku "
 "omogoča ustvarjanje kviza, ki ga udeleženci izpolnijo po koncu sledi."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:338
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
 msgid "Track quiz form"
 msgstr "Obrazec kviza sledi"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:342
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so opens a form to configure the quiz."
@@ -5241,13 +5245,13 @@ msgstr ""
 msgid "The Add Quiz page in the Odoo Events application for an event track."
 msgstr "Stran Dodaj kviz v aplikaciji Odoo Dogodki za sled dogodka."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:346
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page."
 msgstr "Začnite tako, da v prazno polje na vrhu strani vnesete naslov kviza."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:350
 msgid ""
 "If participants are allowed to take the quiz multiple times, tick the "
 "checkbox beside :guilabel:`Allow multiple tries`."
@@ -5255,7 +5259,7 @@ msgstr ""
 "Če lahko udeleženci kviz rešujejo večkrat, označite potrditveno polje poleg "
 ":guilabel:`Dovoli več poskusov`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:351
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:353
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are automatically "
 "populated with the corresponding event and track. These fields are non-"
@@ -5264,11 +5268,11 @@ msgstr ""
 "Polji :guilabel:`Dogodek` in :guilabel:`Sled dogodka` sta samodejno "
 "izpolnjeni z ustreznim dogodkom in sledjo. Ti polji ni mogoče spreminjati."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:355
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
 msgid "Add questions and answers"
 msgstr "Dodajanje vprašanj in odgovorov"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:359
 msgid ""
 "To add questions to the quiz, click :guilabel:`Add a line` beneath "
 "the :guilabel:`Question` column. Doing so reveals a :guilabel:`Create "
@@ -5278,11 +5282,11 @@ msgstr ""
 "stolpcem :guilabel:`Vprašanje`. S tem se prikaže pojavno okno "
 ":guilabel:`Ustvari vprašanja`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:361
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
 msgid "**All** track quiz questions are multiple choice."
 msgstr "**Vsa** vprašanja kviza sledi so vprašanja z več izbirami."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:365
 msgid ""
 "From the pop-up window, enter the question in the blank field at the top. "
 "Then, click :guilabel:`Add a line` to add an answer option."
@@ -5290,20 +5294,20 @@ msgstr ""
 "V pojavnem oknu vnesite vprašanje v prazno polje na vrhu. Nato kliknite "
 ":guilabel:`Dodaj vrstico`, da dodate možnost odgovora."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:366
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
 msgid "Optionally, fill in the following fields:"
 msgstr "Po želji izpolnite naslednja polja:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
 msgid ""
 ":guilabel:`Correct`: Designate whether the option is the correct response."
 msgstr ":guilabel:`Pravilno`: Določite, ali je možnost pravilen odgovor."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:369
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:371
 msgid ":guilabel:`Points`: Specify a point value for the answer option."
 msgstr ":guilabel:`Točke`: Določite vrednost točk za možnost odgovora."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:372
 msgid ""
 ":guilabel:`Extra Comment`: Add any additional comments that should accompany "
 "the answer option."
@@ -5319,7 +5323,7 @@ msgstr ""
 "Pojavno okno Ustvari vprašanja na kvizu sledi, specifičnem za dogodek, v "
 "aplikaciji Odoo Dogodki."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:375
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:377
 msgid ""
 "Once all desired answer options are completed, click :guilabel:`Save & "
 "Close` to save the question, close the pop-up window, and return to the "
@@ -5333,13 +5337,13 @@ msgstr ""
 "vprašanje in takoj začnete ustvarjati novo vprašanje v novem obrazcu "
 ":guilabel:`Ustvari vprašanja`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:381
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:382
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:378
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
@@ -5614,73 +5618,145 @@ msgstr "Predavanja, predlogi in program"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:5
 msgid ""
-"With Odoo *Events*, users can utilize a fully-integrated event website, "
-"where attendees can quickly access various tracks (talks, presentations, "
-"etc.), view entire agendas, and propose talks for the event."
+"With Odoo **Events**, visitors can use the event website to view tracks, "
+"propose talks, and see a detailed agenda for their events."
 msgstr ""
-"Z Odoo *Events* lahko uporabniki uporabljajo popolnoma integrirano spletno "
-"stran dogodka, kjer udeleženci hitro dostopajo do različnih tem (predavanj, "
-"predstavitev itd.), pregledujejo celotne programe in predlagajo predavanja "
-"za dogodek."
+"Z Odoo **Events** lahko obiskovalci uporabljajo spletno stran dogodka za "
+"ogled predavanj, predlaganje govorov in ogled podrobnega urnika za svoje "
+"dogodke."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:10
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:9
+msgid ""
+"In order to access talks, proposals, and agendas, internal users must have "
+"event tracks enabled and set up. See the :doc:`event_tracks` documentation "
+"to learn more about enabling and creating tracks."
+msgstr ""
+"Za dostop do govorov, predlogov in urnikov morajo imeti notranji uporabniki "
+"omogočene in nastavljene sledilce dogodkov. Za več informacij o omogočanju "
+"in ustvarjanju sledilcev si oglejte dokumentacijo :doc:`event_tracks`."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:16
 msgid "Event website"
 msgstr "Spletna stran dogodka"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:12
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:18
 msgid ""
-"To access an event website, navigate to the specific event form in the Odoo "
-"*Events* app, and click the :guilabel:`Go to Website` smart button. Or, "
-"while on the Odoo-built website for the company, click "
-"the :guilabel:`Events` header option, and select the desired event to view "
-"that event's website."
+"When an internal user :doc:`creates an event <../event_setup/"
+"create_events>`, Odoo **Events** generates a separate website for it on the "
+"user's Odoo-built website."
 msgstr ""
-"Za dostop do spletne strani dogodka se pomaknite na obrazec določenega "
-"dogodka v aplikaciji Odoo *Events* in kliknite pametni gumb :guilabel:`Go to "
-"Website`. Ali pa, medtem ko ste na spletni strani podjetja, zgrajeni v "
-"Odooju, kliknite možnost v glavi :guilabel:`Events` in izberite želeni "
-"dogodek za ogled spletne strani tega dogodka."
+"Ko notranji uporabnik :doc:`ustvari dogodek <../event_setup/create_events>`, "
+"Odoo **Events** zanj ustvari ločeno spletno stran na uporabnikovi spletni "
+"strani, zgrajeni z Odoo."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:17
-msgid ""
-"On the event website, there is an event-specific subheader menu with "
-"different options to choose from."
-msgstr ""
-"Na spletni strani dogodka je meni za določen dogodek z različnimi možnostmi."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:21
+msgid "Visitors can access that event website in two ways:"
+msgstr "Obiskovalci lahko do spletne strani dogodka dostopajo na dva načina:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:20
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:23
 msgid ""
-"With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, the "
-"following links are automatically added to the subheader menu, located on "
-"the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, "
-"and :guilabel:`Agenda`."
+"Open the **Events** app, navigate to the specific event, and click "
+"the :guilabel:`Go to Website` smart button."
 msgstr ""
-"Ko je nastavitev *Schedule & Tracks* omogočena v aplikaciji Odoo *Events*, "
-"se v meni na spletni strani dogodka samodejno dodajo naslednje povezave: "
-":guilabel:`Talks`, :guilabel:`Talk Proposals` in :guilabel:`Agenda`."
+"Odprite aplikacijo **Events**, pojdite na določen dogodek in kliknite "
+"pametno tipko :guilabel:`Pojdi na spletno stran`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:28
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:26
 msgid ""
-"To enable the :guilabel:`Schedule & Tracks` setting, navigate "
-"to :menuselection:`Events app --> Configuration --> Settings`, tick the "
-"checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+"Or, while on the Odoo-built website, click the :guilabel:`Events` header "
+"option, then select the desired event."
 msgstr ""
-"Za omogočanje nastavitve :guilabel:`Schedule & Tracks` se pomaknite na "
-":menuselection:`Events app --> Configuration --> Settings`, označite "
-"potrditveno polje ob :guilabel:`Schedule & Tracks` in kliknite "
-":guilabel:`Save`."
+"Ali pa na spletni strani, zgrajeni z Odoo, kliknite možnost glave "
+":guilabel:`Dogodki` in nato izberite želeni dogodek."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:29
+msgid ""
+"On the event website, there is a sub-header menu with different pages, "
+"including the following:"
+msgstr ""
+"Na spletni strani dogodka je meni v podglavi z različnimi stranmi, vključno "
+"z naslednjimi:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:31
+msgid ""
+":guilabel:`Talks`: :ref:`View a schedule <events/talks-proposals-agenda/view-"
+"talks>` of all tracks scheduled for the event, listed by date."
+msgstr ""
+":guilabel:`Govori`: :ref:`Ogled urnika <events/talks-proposals-agenda/view-"
+"talks>` vseh predavanj, načrtovanih za dogodek, razvrščenih po datumu."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:33
-msgid "Talks page"
-msgstr "Stran s predavanji"
+msgid ""
+":guilabel:`Talk Proposals`: :ref:`Submit a proposal <events/talks-proposals-"
+"agenda/propose-talks>` to participate as a speaker during the event."
+msgstr ""
+":guilabel:`Predlogi govorov`: :ref:`Oddajte predlog <events/talks-proposals-"
+"agenda/propose-talks>` za sodelovanje kot govorec med dogodkom."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:35
 msgid ""
-"The :guilabel:`Talks` link takes the attendee to a page filled with all the "
-"planned tracks for the event."
+":guilabel:`Agenda`: :ref:`View a calendar <events/talks-proposals-agenda/"
+"view-agenda>` of all scheduled tracks for the event, showing detailed times "
+"for each date."
 msgstr ""
-"Povezava :guilabel:`Talks` preusmeri udeleženca na stran z vsemi "
-"načrtovanimi temami za dogodek."
+":guilabel:`Urnik`: :ref:`Ogled koledarja <events/talks-proposals-agenda/view-"
+"agenda>` vseh načrtovanih predavanj za dogodek, ki prikazuje podrobne čase "
+"za vsak datum."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:39
+msgid ""
+"If the sub-header menu does not appear, it must be manually enabled by the "
+"internal user."
+msgstr ""
+"Če se meni v podglavi ne prikaže, ga mora notranji uporabnik ročno omogočiti."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:41
+msgid ""
+"To do so, click the :guilabel:`Edit` button at the top. In the editor panel, "
+"click the :guilabel:`Customize` tab at the top, then enable "
+"the :guilabel:`Sub-menu (Specific)` setting. Finally, click :guilabel:`Save` "
+"to apply changes."
+msgstr ""
+"Če želite to narediti, kliknite gumb :guilabel:`Uredi` na vrhu. V plošči "
+"urejevalnika kliknite zavihek :guilabel:`Prilagodi` na vrhu in nato "
+"omogočite nastavitev :guilabel:`Podmeni (določen)`. Na koncu kliknite "
+":guilabel:`Shrani`, da uveljavite spremembe."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:51
+msgid "View talks"
+msgstr "Ogled govorov"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:53
+msgid ""
+"The *Talks* page displays a schedule of planned tracks for the event, sorted "
+"by date."
+msgstr ""
+"Stran *Govori* prikazuje urnik načrtovanih predavanj za dogodek, razvrščenih "
+"po datumu."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+msgid ""
+"Visitors can mark a track as a *Favorite* by clicking the :icon:`fa-bell-"
+"o` :guilabel:`(empty bell)` icon to the right of the track title. A track "
+"marked as a *Favorite* appears with the :icon:`fa-bell` :guilabel:`(filled "
+"bell)` icon. Visitors can then :ref:`filter tracks by favorites <events/"
+"talks-proposals-agenda/filter-favorites>`."
+msgstr ""
+"Obiskovalci lahko predavanje označijo kot *Priljubljeno* tako, da kliknejo "
+"ikono :icon:`fa-bell-o` :guilabel:`(prazni zvonec)` na desni strani naslova "
+"predavanja. Predavanje, označeno kot *Priljubljeno*, se prikaže z ikono "
+":icon:`fa-bell` :guilabel:`(polni zvonec)`. Obiskovalci lahko nato "
+":ref:`filtrirajo predavanja po priljubljenih <events/talks-proposals-agenda/"
+"filter-favorites>`."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:60
+msgid ""
+"Additionally, visitors can also :ref:`filter tracks by their tags <events/"
+"talks-proposals-agenda/filter-tags>` (customized on each track's form)."
+msgstr ""
+"Poleg tega lahko obiskovalci tudi :ref:`filtrirajo predavanja po njihovih "
+"oznakah <events/talks-proposals-agenda/filter-tags>` (prilagojenih v obrazcu "
+"vsakega predavanja)."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5688,75 +5764,105 @@ msgid ""
 msgstr ""
 "Stran Talks na spletni strani dogodka, zgrajeni prek aplikacije Odoo Events."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:42
-msgid ""
-"At the top of :guilabel:`Talks` page, there are drop-down filter menus "
-"beside a :guilabel:`Search a talk...` search bar."
-msgstr ""
-"Na vrhu strani :guilabel:`Talks` so spustni meniji za filtriranje poleg "
-"iskalnega polja :guilabel:`Search a talk...`."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:69
+msgid "Filter by favorites"
+msgstr "Filtriranje po priljubljenih"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:45
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:71
 msgid ""
-"The first drop-down filter menu (with the starting "
-"title: :guilabel:`Favorites`) is the only drop-down filter menu that appears "
-"by default. When clicked, the resulting menu presents two "
-"options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+"To filter the *Talks* page by any tracks marked as a *Favorite*, click on "
+"the :guilabel:`Favorites` drop-down menu."
 msgstr ""
-"Prvi spustni meni za filtriranje (z začetnim naslovom: "
-":guilabel:`Favorites`) je edini spustni meni za filtriranje, ki se prikaže "
-"privzeto. Ko ga kliknete, se prikaže meni z dvema možnostma: "
-":guilabel:`Favorites` in :guilabel:`All Talks`."
+"Za filtriranje strani *Govori* po predavanjih, označenih kot *Priljubljeno*, "
+"kliknite spustni meni :guilabel:`Priljubljeni`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:49
-msgid ""
-"Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
-"favorited by the attendee."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:74
+msgid "Visitors can then choose one of two options:"
+msgstr "Obiskovalci lahko nato izberejo eno od dveh možnosti:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:76
+msgid ":guilabel:`Favorites`: shows **only** tracks marked as *Favorite*."
 msgstr ""
-"Izbira :guilabel:`Favorites` prikaže *samo* teme, ki jih je udeleženec dodal "
-"med priljubljene."
+":guilabel:`Priljubljeni`: prikaže **samo** predavanja, označena kot "
+"*Priljubljeno*."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:52
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+msgid ":guilabel:`All Talks`: shows **all** tracks."
+msgstr ":guilabel:`Vsi pogovori`: prikaže **vse** sledi."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
 msgid ""
-"If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
-"selected, Odoo presents all the event tracks."
+"If the visitor applies the :guilabel:`Favorites` option without having "
+"marked any tracks as a *Favorite*, all event tracks are displayed."
 msgstr ""
-"Če nobena predstavitev ni bila označena kot priljubljena in je izbran filter "
-":guilabel:`Favorites`, Odoo prikaže vse predstavitve dogodka."
+"Če obiskovalec uporabi možnost :guilabel:`Priljubljeni`, ne da bi katero "
+"koli sled označil kot *Priljubljeno*, se prikažejo vse sledi dogodka."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:87
+msgid "Filter by tags"
+msgstr "Filtriraj po značkah"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:89
 msgid ""
-"Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
-"have been favorited or not."
+"If any tracks have tags and tag categories configured in the database "
+"during :ref:`track creation <events/event_tracks/create-track>`, additional "
+"drop-down filter menus will appear at the top of the page next to "
+"the :guilabel:`Favorites` drop-down, allowing users to filter tracks by tag "
+"categories."
 msgstr ""
-"Izbira :guilabel:`All Talks` prikaže *vse* predstavitve, ne glede na to, ali "
-"so bile označene kot priljubljene ali ne."
+"Če imajo katere koli sledi značke in kategorije značk, konfigurirane v bazi "
+"podatkov med :ref:`ustvarjanjem sledi <events/event_tracks/create-track>`, "
+"se bodo na vrhu strani poleg spustnega menija :guilabel:`Priljubljeni` "
+"pojavili dodatni spustni meniji filtrov, ki uporabnikom omogočajo "
+"filtriranje sledi po kategorijah značk."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:58
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
 msgid ""
-"The other drop-down filter menus that appear on this page are related to any "
-"configured tags (and tag categories) created for event tracks in the backend."
+"To add tags and tag categories to track forms, navigate to the **Events** "
+"app and open the desired event. Click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button and open the desired event track."
 msgstr ""
-"Druga spustna menija s filtri, ki se pojavijo na tej strani, so povezana z "
-"vsemi konfiguriranimi oznakami (in kategorijami oznak), ustvarjenimi za "
-"predstavitve dogodkov v zalednem sistemu."
+"Če želite dodati značke in kategorije značk k obrazcem sledi, se pomaknite "
+"na aplikacijo **Dogodki** in odprite želeni dogodek. Kliknite pametno tipko "
+":icon:`fa-microphone` :guilabel:`Sledi` in odprite želeno sled dogodka."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:62
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:98
 msgid ""
-"To add tags and tag categories to track forms, open a desired event track "
-"form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+"On the track form, type a new tag in the :guilabel:`Tags` field. Then, "
 "click :guilabel:`Create and edit...` from the resulting drop-down menu."
 msgstr ""
-"Za dodajanje oznak in kategorij oznak v obrazce predstavitev odprite želeni "
-"obrazec predstavitve dogodka in začnite vnašati novo oznako v polje "
-":guilabel:`Tags`. Nato kliknite :guilabel:`Create and edit...` iz spustnega "
-"menija, ki se prikaže."
+"V obrazcu sledi v polje :guilabel:`Značke` vnesite novo značko. Nato v "
+"prikazanem spustnem meniju kliknite :guilabel:`Ustvari in uredi ...`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:66
-msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
-msgstr "To odpre pojavni obrazec :guilabel:`Create Tags`."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+msgid ""
+"Doing so reveals a :guilabel:`Create Tags` pop-up form with the following "
+"fields:"
+msgstr ""
+"To odpre pojavni obrazec :guilabel:`Ustvari značke` z naslednjimi polji:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:103
+msgid ""
+":guilabel:`Tag Name`: The name of the tag. This field is already populated."
+msgstr ":guilabel:`Ime značke`: Ime značke. To polje je že izpolnjeno."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+msgid ""
+":guilabel:`Color Index`: The color of the track associated with this tag, "
+"displayed on the website."
+msgstr ""
+":guilabel:`Indeks barv`: Barva sledi, povezane s to značko, prikazana na "
+"spletnem mestu."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:106
+msgid ""
+":guilabel:`Category`: The category of the tag. This category appears as the "
+"drop-down filter menu on the *Talks* page."
+msgstr ""
+":guilabel:`Kategorija`: Kategorija značke. Ta kategorija se prikaže kot "
+"spustni meni filtra na strani *Pogovori*."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:0
 msgid ""
 "The Create Tags pop-up form that coincides with drop-down filter menus on "
 "Talks page."
@@ -5764,79 +5870,27 @@ msgstr ""
 "Pojavni obrazec Create Tags, ki se prikaže skupaj s spustnimi meniji s "
 "filtri na strani Talks."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:72
-msgid ""
-"From here, users see the recently added tag in the :guilabel:`Tag Name` "
-"field. Beneath that, there is an option to add a specific :guilabel:`Color "
-"Index` to the tag for added organization."
-msgstr ""
-"Tukaj uporabniki vidijo nedavno dodano oznako v polju :guilabel:`Tag Name`. "
-"Pod tem je možnost dodajanja določenega :guilabel:`Color Index` oznaki za "
-"boljšo organizacijo."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:115
+msgid "Propose talks"
+msgstr "Predlagaj pogovore"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:75
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
 msgid ""
-"Lastly, there is the :guilabel:`Category` field, where users can either "
-"select a pre-existing category for this new tag, or create a new one."
+"The *Talk Proposals* page allows visitors to submit a proposal for a talk "
+"via a custom online form."
 msgstr ""
-"Nazadnje je polje :guilabel:`Category`, kjer lahko uporabniki izberejo že "
-"obstoječo kategorijo za to novo oznako ali ustvarijo novo."
+"Stran *Predlogi pogovorov* obiskovalcem omogoča, da oddajo predlog za "
+"pogovor prek obrazca po meri na spletu."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
 msgid ""
-"All options in the :guilabel:`Category` field for tags appear as their own "
-"drop-down filter menu on the :guilabel:`Talks` page, located on the event "
-"website."
+"By default, the *Talk Proposals* page is automatically generated by Odoo. If "
+"needed, internal users can :doc:`edit <../../../websites/website/web_design/"
+"elements>` any part of the page, including the proposal form."
 msgstr ""
-"Vse možnosti v polju :guilabel:`Category` za oznake se prikažejo kot lastni "
-"spustni meni s filtri na strani :guilabel:`Talks`, ki se nahaja na spletni "
-"strani dogodka."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
-msgid ""
-"Beneath the drop-down filter menus at the top of the :guilabel:`Talks` page, "
-"there is a list of planned tracks for the specific event, organized by day."
-msgstr ""
-"Pod spustnimi meniji s filtri na vrhu strani :guilabel:`Talks` je seznam "
-"načrtovanih predstavitev za določen dogodek, organiziranih po dnevih."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:84
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:141
-msgid ""
-"If an attendee wishes to favorite a track, they can click the :icon:`fa-bell-"
-"o` :guilabel:`(empty bell)` icon, located to the right of the track title. "
-"Attendees will know a track has been favorited when they notice the icon has "
-"been changed to :icon:`fa-bell` :guilabel:`(filled bell)` icon."
-msgstr ""
-"Če želi udeleženec dodati predstavitev med priljubljene, lahko klikne ikono "
-":icon:`fa-bell-o` :guilabel:`(empty bell)`, ki se nahaja desno od naslova "
-"predstavitve. Udeleženci bodo vedeli, da je bila predstavitev dodana med "
-"priljubljene, ko opazijo, da se je ikona spremenila v :icon:`fa-bell` "
-":guilabel:`(filled bell)`."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:88
-msgid ""
-"Favoriting a track this way places it on the list of :guilabel:`Favorites`, "
-"which is accessible from the default drop-down filter menu, located at the "
-"top of the :guilabel:`Talks` page."
-msgstr ""
-"Dodajanje predstavitve med priljubljene na ta način jo postavi na seznam "
-":guilabel:`Favorites`, ki je dostopen iz privzetega spustnega menija s "
-"filtri na vrhu strani :guilabel:`Talks`."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:92
-msgid "Talk Proposals page"
-msgstr "Stran Talk Proposals"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
-msgid ""
-"The :guilabel:`Talk Proposals` link takes attendees to a page on the event "
-"website, wherein they can formerly submit a proposal for a talk "
-"(:dfn:`track`) for the event, via a custom online form."
-msgstr ""
-"Povezava :guilabel:`Talk Proposals` preusmeri udeležence na stran na spletni "
-"strani dogodka, kjer lahko uradno oddajo predlog za predstavitev "
-"(:dfn:`track`) za dogodek prek spletnega obrazca po meri."
+"Privzeto aplikacija Odoo samodejno ustvari stran *Predlogi pogovorov*. Po "
+"potrebi lahko notranji uporabniki :doc:`uredijo <../../../websites/website/"
+"web_design/elements>` kateri koli del strani, vključno z obrazcem za predlog."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5846,101 +5900,82 @@ msgstr ""
 "Stran Talk Proposals na spletni strani dogodka, ustvarjena z aplikacijo Odoo "
 "Events."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:127
 msgid ""
-"In addition to the form, an introduction to the page, along with any other "
-"pertinent information related to the types of talks the event will feature "
-"can be added, if needed."
+"To submit their proposal, visitors fill out the form, then click "
+"the :guilabel:`Submit Proposal` button."
 msgstr ""
-"Poleg obrazca je mogoče dodati uvod na stran skupaj z vsemi drugimi "
-"ustreznimi informacijami, povezanimi z vrstami predstavitev, ki jih bo "
-"dogodek vključeval, če je potrebno."
+"Če želijo oddati svoj predlog, obiskovalci izpolnijo obrazec in nato "
+"kliknejo gumb :guilabel:`Oddaj predlog`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:130
 msgid ""
-"The talk proposal form can be modified in a number of different ways, via "
-"the web builder tools, accessible by clicking :guilabel:`Edit` while on the "
-"specific page."
+"Doing so creates a new track form in the database. Internal users can access "
+"it by navigating to the **Events** app, clicking the relevant event, and "
+"selecting the :icon:`fa-microphone` :guilabel:`Tracks` smart button. The "
+"newly-proposed talk now appears as a new track in the :guilabel:`Proposal` "
+"stage."
 msgstr ""
-"Obrazec za predlog predstavitve je mogoče spremeniti na več različnih "
-"načinov prek orodij spletnega graditelja, do katerih dostopate s klikom na "
-":guilabel:`Edit`, ko ste na določeni strani."
+"To ustvari nov obrazec sledi v bazi podatkov. Notranji uporabniki lahko "
+"dostopajo do njega tako, da se pomaknejo na aplikacijo **Dogodki**, kliknejo "
+"ustrezni dogodek in izberejo pametno tipko :icon:`fa-microphone` "
+":guilabel:`Sledi`. Novo predlagani pogovor se zdaj prikaže kot nova sled v "
+"fazi :guilabel:`Predlog`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:107
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:135
 msgid ""
-"Then, proceed to edit any of the default fields, or add new forms with "
-"the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
-"section of the web builder tools sidebar)."
+"At this point, an internal user can review the proposed talk and accept or "
+"deny the proposal by moving the track to the appropriate stage in the "
+"pipeline."
 msgstr ""
-"Nato uredite katero koli od privzetih polj ali dodajte nove obrazce z "
-"gradnikom :guilabel:`Form` (ki se nahaja v razdelku :guilabel:`Blocks` "
-"stranske vrstice orodij spletnega graditelja)."
+"Na tej točki lahko notranji uporabnik pregleda predlagani pogovor in sprejme "
+"ali zavrne predlog tako, da sled premakne v ustrezno fazo v cevovodu."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:110
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
 msgid ""
-"Once all the necessary information is entered into the form, the attendees "
-"just need to click the :guilabel:`Submit Proposal` button."
+"If accepted, the internal user can publish the track on the event website by "
+"clicking the :guilabel:`Go to Website` smart button and toggling "
+"the :guilabel:`Unpublished` switch at the top to :guilabel:`Published`."
 msgstr ""
-"Ko so vse potrebne informacije vnesene v obrazec, morajo udeleženci samo "
-"klikniti gumb :guilabel:`Submit Proposal`."
+"Če je sprejeta, lahko notranji uporabnik objavi sled na spletnem mestu "
+"dogodka tako, da klikne pametno tipko :guilabel:`Pojdi na spletno mesto` in "
+"preklopi stikalo :guilabel:`Neobjavljeno` na vrhu na :guilabel:`Objavljeno`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:113
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:142
+msgid "Visitors can then see the track on the *Talks* page."
+msgstr "Obiskovalci lahko nato vidijo sled na strani *Pogovori*."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:147
+msgid "View agenda"
+msgstr "Ogled dnevnega reda"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:149
 msgid ""
-"Then, that talk, and all the information entered on the form, can be "
-"accessed on the :guilabel:`Event Tracks` page for that specific event in "
-"the :guilabel:`Proposal` stage, which is accessible via "
-"the :guilabel:`Tracks` smart button on the event form."
+"The *Agenda* page displays an event calendar, showing each talk's specified "
+"location by column and its scheduled time by row."
 msgstr ""
-"Nato je mogoče do te predstavitve in vseh informacij, vnesenih v obrazec, "
-"dostopati na strani :guilabel:`Event Tracks` za ta določen dogodek v fazi "
-":guilabel:`Proposal`, do katere dostopate prek pametnega gumba "
-":guilabel:`Tracks` na obrazcu dogodka."
+"Stran *Dnevni red* prikazuje koledar dogodkov, pri čemer prikazuje določeno "
+"lokacijo vsakega pogovora po stolpcu in njegov načrtovani čas po vrstici."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:152
 msgid ""
-"At that point, an internal user can review the proposed talk, and choose to "
-"accept or deny the proposal."
+"Visitors can click any track on the calendar to open the track's specific "
+"page on the website."
 msgstr ""
-"V tem trenutku lahko notranji uporabnik pregleda predlagano predavanje in se "
-"odloči, ali bo predlog sprejel ali zavrnil."
+"Obiskovalci lahko kliknejo poljubno pot v koledarju, da odprejo njeno "
+"specifično stran na spletni strani."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:155
 msgid ""
-"If accepted, the internal user can then move the track to the next "
-"appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
-"page for the event. Then, they can open that track form, and click "
-"the :guilabel:`Go to Website` smart button to reveal that track's page on "
-"the event website."
+"A talk's location can be found on its track form. To find it, navigate to "
+"**Events** app, click on the relevant event, click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button, and select the desired track. "
+"In the track form, view or modify the :guilabel:`Location` field."
 msgstr ""
-"Če je sprejet, lahko notranji uporabnik nato premakne predavanje v naslednjo "
-"ustrezno fazo v kanban cevovodu na strani :guilabel:`Predavanja dogodka` za "
-"dogodek. Nato lahko odpre obrazec tega predavanja in klikne pametni gumb "
-":guilabel:`Pojdi na spletno mesto`, da prikaže stran tega predavanja na "
-"spletnem mestu dogodka."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:125
-msgid ""
-"From there, they can toggle the :guilabel:`Unpublished` switch in the header "
-"to :guilabel:`Published`, which allows all event attendees to view and "
-"access the talk."
-msgstr ""
-"Od tam lahko preklopi stikalo :guilabel:`Neobjavljeno` v glavi na "
-":guilabel:`Objavljeno`, kar omogoča vsem udeležencem dogodka ogled in dostop "
-"do predavanja."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:129
-msgid "Agenda page"
-msgstr "Stran dnevnega reda"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:131
-msgid ""
-"The :guilabel:`Agenda` link takes attendees to a page on the event website, "
-"showcasing an event calendar, depicting when (and where) events are taking "
-"place for that specific event."
-msgstr ""
-"Povezava :guilabel:`Dnevni red` odpelje udeležence na stran na spletnem "
-"mestu dogodka, ki prikazuje koledar dogodka in prikazuje, kdaj (in kje) "
-"potekajo dogodki za ta določen dogodek."
+"Lokacijo predavanja najdete v obrazcu poti. Da ga najdete, pojdite v "
+"aplikacijo **Dogodki**, kliknite na ustrezen dogodek, kliknite pametni gumb "
+":icon:`fa-microphone` :guilabel:`Poti` in izberite želeno pot. V obrazcu "
+"poti si oglejte ali spremenite polje :guilabel:`Lokacija`."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5949,14 +5984,6 @@ msgid ""
 msgstr ""
 "Stran dnevnega reda dogodka na spletnem mestu dogodka, zgrajeno z aplikacijo "
 "Odoo Events."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
-msgid ""
-"Clicking any track on the calendar takes the attendee to that specific "
-"track's detail page on the event website."
-msgstr ""
-"Klik na katero koli predavanje v koledarju odpelje udeleženca na stran s "
-"podrobnostmi tega določenega predavanja na spletnem mestu dogodka."
 
 #: ../../content/applications/marketing/events/event_reporting.rst:6
 #: ../../content/applications/marketing/marketing_automation.rst:188
@@ -6134,6 +6161,9 @@ msgid ""
 "registered attendees along with additional information such as contact "
 "information and registration status."
 msgstr ""
+"Pogled :icon:`oi-view-list` :guilabel:`(seznam)` prikazuje seznam vseh "
+"registriranih udeležencev skupaj z dodatnimi informacijami, kot so kontaktni "
+"podatki in status registracije."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:83
 msgid ""
@@ -6143,20 +6173,27 @@ msgid ""
 "records into smaller groups by specific criteria such as event or ticket "
 "type."
 msgstr ""
+"Pogled seznama uporabnikom omogoča ogled podrobnih zapisov njihovih "
+"udeležencev v centraliziranem pogledu. Z uporabo možnosti :ref:`Združi po "
+"<events/attendees_report/groups>` lahko uporabniki dolge sezname zapisov "
+"združijo v manjše skupine po določenih kriterijih, kot so dogodek ali vrsta "
+"zahtevka."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:0
 msgid "List view in the Attendees reporting graph view in Odoo Events."
-msgstr ""
+msgstr "Pogled seznama v pogledu grafikona poročanja udeležencev v Odoo Events."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:94
 msgid "Cohort"
-msgstr ""
+msgstr "Kohorta"
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:96
 msgid ""
 "The :icon:`oi-view-cohort` :guilabel:`(cohort)` view displays the percentage "
 "of event registrations per time interval over a certain time period."
 msgstr ""
+"Pogled :icon:`oi-view-cohort` :guilabel:`(kohorta)` prikazuje odstotek "
+"registracij za dogodek na časovni interval v določenem časovnem obdobju."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:99
 msgid ""
@@ -6165,16 +6202,22 @@ msgid ""
 "percentage of registrations over days, weeks, months, or years to identify "
 "trends at specific moments in time."
 msgstr ""
+"Pogled kohorte uporabnikom omogoča ogled širših vzorcev registracij v "
+"prilagodljivem časovnem okviru. Uporabniki lahko na primer spremljajo "
+"spremembo odstotka registracij v dnevih, tednih, mesecih ali letih, da "
+"prepoznajo trende v določenih trenutkih."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:0
 msgid "Cohort view in the Attendees reporting graph view in Odoo Events."
-msgstr ""
+msgstr "Pogled kohorte v pogledu grafikona poročanja udeležencev v Odoo Events."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:106
 msgid ""
 "For more information about using the Cohort view, see the :ref:`Cohort "
 "<studio/views/timeline/cohort>` documentation."
 msgstr ""
+"Za več informacij o uporabi pogleda Kohorta si oglejte dokumentacijo "
+":ref:`Kohorta <studio/views/timeline/cohort>`."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:109
 msgid ""
@@ -6183,6 +6226,10 @@ msgid ""
 "pivot, and cohort views. Additionally, only the :guilabel:`Count` option is "
 "available as a measure for the :guilabel:`Attendees` reporting page."
 msgstr ""
+"Možnost izbire :ref:`mere <reporting/choosing-measures>` iz spustnega menija "
+":guilabel:`Mere` je na voljo samo v pogledih Kanban, pivot in kohorta. Poleg "
+"tega je za stran s poročanjem :guilabel:`Udeleženci` na voljo samo možnost "
+":guilabel:`Število` kot mera."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:118
 msgid ""
@@ -6190,22 +6237,25 @@ msgid ""
 "attendee data by specific criteria in any given view. Multiple filters can "
 "be selected at once."
 msgstr ""
+"Stolpec :guilabel:`Filtri` v spustnem meniju iskalne vrstice razvrsti "
+"podatke udeležencev po določenih kriterijih v katerem koli pogledu. Hkrati "
+"je mogoče izbrati več filtrov."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:123
 msgid ":guilabel:`Ongoing Events`: Filter by ongoing events."
-msgstr ""
+msgstr ":guilabel:`Tekoči dogodki`: Filtriraj po tekočih dogodkih."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:124
 msgid ":guilabel:`Taken`: Filter by events with sold tickets."
-msgstr ""
+msgstr ":guilabel:`Prodano`: Filtriraj po dogodkih s prodanimi zahtevki."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:125
 msgid ":guilabel:`Unconfirmed`: Filter by unconfirmed attendees."
-msgstr ""
+msgstr ":guilabel:`Nepotrjeno`: Filtriraj po nepotrjenih udeležencih."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:126
 msgid ":guilabel:`Registered`: Filter by registered attendees."
-msgstr ""
+msgstr ":guilabel:`Registrirano`: Filtriraj po registriranih udeležencih."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:127
 msgid ""
@@ -6213,6 +6263,9 @@ msgid ""
 "the :icon:`fa-caret-down` :guilabel:`(down)` arrow to reveal a list of "
 "month, quarter, and year options."
 msgstr ""
+":guilabel:`Datum registracije`: Filtriraj po določenem datumu registracije. "
+"Kliknite puščico :icon:`fa-caret-down` :guilabel:`(navzdol)`, da razkrijete "
+"seznam možnosti za mesec, četrtletje in leto."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:130
 msgid ""
@@ -6220,6 +6273,9 @@ msgid ""
 "the :icon:`fa-caret-down` :guilabel:`(down)` arrow to reveal a list of "
 "month, quarter, and year options."
 msgstr ""
+":guilabel:`Datum začetka dogodka`: Filtriraj po določenem datumu začetka "
+"dogodka. Kliknite puščico :icon:`fa-caret-down` :guilabel:`(navzdol)`, da "
+"razkrijete seznam možnosti za mesec, četrtletje in leto."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:133
 msgid ""
@@ -6227,6 +6283,9 @@ msgid ""
 "the :icon:`fa-caret-down` :guilabel:`(down)` arrow to reveal a list of "
 "month, quarter, and year options."
 msgstr ""
+":guilabel:`Datum prisotnosti`: Filtriraj po določenem datumu prisotnosti. "
+"Kliknite puščico :icon:`fa-caret-down` :guilabel:`(navzdol)`, da razkrijete "
+"seznam možnosti za mesec, četrtletje in leto."
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:135
 msgid ":guilabel:`Last 30 days`: Filter by the last 30 days of attendee data."
@@ -20303,6 +20362,288 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "Primer, kako značka izgleda na delu eLearning spletnega mesta."
+
+#~ msgid ""
+#~ "With Odoo *Events*, users can utilize a fully-integrated event website, "
+#~ "where attendees can quickly access various tracks (talks, presentations, "
+#~ "etc.), view entire agendas, and propose talks for the event."
+#~ msgstr ""
+#~ "Z Odoo *Events* lahko uporabniki uporabljajo popolnoma integrirano "
+#~ "spletno stran dogodka, kjer udeleženci hitro dostopajo do različnih tem "
+#~ "(predavanj, predstavitev itd.), pregledujejo celotne programe in "
+#~ "predlagajo predavanja za dogodek."
+
+#~ msgid ""
+#~ "To access an event website, navigate to the specific event form in the "
+#~ "Odoo *Events* app, and click the :guilabel:`Go to Website` smart button. "
+#~ "Or, while on the Odoo-built website for the company, click "
+#~ "the :guilabel:`Events` header option, and select the desired event to "
+#~ "view that event's website."
+#~ msgstr ""
+#~ "Za dostop do spletne strani dogodka se pomaknite na obrazec določenega "
+#~ "dogodka v aplikaciji Odoo *Events* in kliknite pametni gumb :guilabel:`Go "
+#~ "to Website`. Ali pa, medtem ko ste na spletni strani podjetja, zgrajeni v "
+#~ "Odooju, kliknite možnost v glavi :guilabel:`Events` in izberite želeni "
+#~ "dogodek za ogled spletne strani tega dogodka."
+
+#~ msgid ""
+#~ "On the event website, there is an event-specific subheader menu with "
+#~ "different options to choose from."
+#~ msgstr ""
+#~ "Na spletni strani dogodka je meni za določen dogodek z različnimi "
+#~ "možnostmi."
+
+#~ msgid ""
+#~ "With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, "
+#~ "the following links are automatically added to the subheader menu, "
+#~ "located on the event website: :guilabel:`Talks`, :guilabel:`Talk "
+#~ "Proposals`, and :guilabel:`Agenda`."
+#~ msgstr ""
+#~ "Ko je nastavitev *Schedule & Tracks* omogočena v aplikaciji Odoo "
+#~ "*Events*, se v meni na spletni strani dogodka samodejno dodajo naslednje "
+#~ "povezave: :guilabel:`Talks`, :guilabel:`Talk Proposals` "
+#~ "in :guilabel:`Agenda`."
+
+#~ msgid ""
+#~ "To enable the :guilabel:`Schedule & Tracks` setting, navigate "
+#~ "to :menuselection:`Events app --> Configuration --> Settings`, tick the "
+#~ "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+#~ msgstr ""
+#~ "Za omogočanje nastavitve :guilabel:`Schedule & Tracks` se pomaknite "
+#~ "na :menuselection:`Events app --> Configuration --> Settings`, označite "
+#~ "potrditveno polje ob :guilabel:`Schedule & Tracks` in "
+#~ "kliknite :guilabel:`Save`."
+
+#~ msgid "Talks page"
+#~ msgstr "Stran s predavanji"
+
+#~ msgid ""
+#~ "The :guilabel:`Talks` link takes the attendee to a page filled with all "
+#~ "the planned tracks for the event."
+#~ msgstr ""
+#~ "Povezava :guilabel:`Talks` preusmeri udeleženca na stran z vsemi "
+#~ "načrtovanimi temami za dogodek."
+
+#~ msgid ""
+#~ "At the top of :guilabel:`Talks` page, there are drop-down filter menus "
+#~ "beside a :guilabel:`Search a talk...` search bar."
+#~ msgstr ""
+#~ "Na vrhu strani :guilabel:`Talks` so spustni meniji za filtriranje poleg "
+#~ "iskalnega polja :guilabel:`Search a talk...`."
+
+#~ msgid ""
+#~ "The first drop-down filter menu (with the starting "
+#~ "title: :guilabel:`Favorites`) is the only drop-down filter menu that "
+#~ "appears by default. When clicked, the resulting menu presents two "
+#~ "options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+#~ msgstr ""
+#~ "Prvi spustni meni za filtriranje (z začetnim "
+#~ "naslovom: :guilabel:`Favorites`) je edini spustni meni za filtriranje, ki "
+#~ "se prikaže privzeto. Ko ga kliknete, se prikaže meni z dvema "
+#~ "možnostma: :guilabel:`Favorites` in :guilabel:`All Talks`."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
+#~ "favorited by the attendee."
+#~ msgstr ""
+#~ "Izbira :guilabel:`Favorites` prikaže *samo* teme, ki jih je udeleženec "
+#~ "dodal med priljubljene."
+
+#~ msgid ""
+#~ "If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
+#~ "selected, Odoo presents all the event tracks."
+#~ msgstr ""
+#~ "Če nobena predstavitev ni bila označena kot priljubljena in je izbran "
+#~ "filter :guilabel:`Favorites`, Odoo prikaže vse predstavitve dogodka."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if "
+#~ "they have been favorited or not."
+#~ msgstr ""
+#~ "Izbira :guilabel:`All Talks` prikaže *vse* predstavitve, ne glede na to, "
+#~ "ali so bile označene kot priljubljene ali ne."
+
+#~ msgid ""
+#~ "The other drop-down filter menus that appear on this page are related to "
+#~ "any configured tags (and tag categories) created for event tracks in the "
+#~ "backend."
+#~ msgstr ""
+#~ "Druga spustna menija s filtri, ki se pojavijo na tej strani, so povezana "
+#~ "z vsemi konfiguriranimi oznakami (in kategorijami oznak), ustvarjenimi za "
+#~ "predstavitve dogodkov v zalednem sistemu."
+
+#~ msgid ""
+#~ "To add tags and tag categories to track forms, open a desired event track "
+#~ "form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+#~ "click :guilabel:`Create and edit...` from the resulting drop-down menu."
+#~ msgstr ""
+#~ "Za dodajanje oznak in kategorij oznak v obrazce predstavitev odprite "
+#~ "želeni obrazec predstavitve dogodka in začnite vnašati novo oznako v "
+#~ "polje :guilabel:`Tags`. Nato kliknite :guilabel:`Create and edit...` iz "
+#~ "spustnega menija, ki se prikaže."
+
+#~ msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
+#~ msgstr "To odpre pojavni obrazec :guilabel:`Create Tags`."
+
+#~ msgid ""
+#~ "From here, users see the recently added tag in the :guilabel:`Tag Name` "
+#~ "field. Beneath that, there is an option to add a "
+#~ "specific :guilabel:`Color Index` to the tag for added organization."
+#~ msgstr ""
+#~ "Tukaj uporabniki vidijo nedavno dodano oznako v polju :guilabel:`Tag "
+#~ "Name`. Pod tem je možnost dodajanja določenega :guilabel:`Color Index` "
+#~ "oznaki za boljšo organizacijo."
+
+#~ msgid ""
+#~ "Lastly, there is the :guilabel:`Category` field, where users can either "
+#~ "select a pre-existing category for this new tag, or create a new one."
+#~ msgstr ""
+#~ "Nazadnje je polje :guilabel:`Category`, kjer lahko uporabniki izberejo že "
+#~ "obstoječo kategorijo za to novo oznako ali ustvarijo novo."
+
+#~ msgid ""
+#~ "All options in the :guilabel:`Category` field for tags appear as their "
+#~ "own drop-down filter menu on the :guilabel:`Talks` page, located on the "
+#~ "event website."
+#~ msgstr ""
+#~ "Vse možnosti v polju :guilabel:`Category` za oznake se prikažejo kot "
+#~ "lastni spustni meni s filtri na strani :guilabel:`Talks`, ki se nahaja na "
+#~ "spletni strani dogodka."
+
+#~ msgid ""
+#~ "Beneath the drop-down filter menus at the top of the :guilabel:`Talks` "
+#~ "page, there is a list of planned tracks for the specific event, organized "
+#~ "by day."
+#~ msgstr ""
+#~ "Pod spustnimi meniji s filtri na vrhu strani :guilabel:`Talks` je seznam "
+#~ "načrtovanih predstavitev za določen dogodek, organiziranih po dnevih."
+
+#~ msgid ""
+#~ "If an attendee wishes to favorite a track, they can click the :icon:`fa-"
+#~ "bell-o` :guilabel:`(empty bell)` icon, located to the right of the track "
+#~ "title. Attendees will know a track has been favorited when they notice "
+#~ "the icon has been changed to :icon:`fa-bell` :guilabel:`(filled bell)` "
+#~ "icon."
+#~ msgstr ""
+#~ "Če želi udeleženec dodati predstavitev med priljubljene, lahko klikne "
+#~ "ikono :icon:`fa-bell-o` :guilabel:`(empty bell)`, ki se nahaja desno od "
+#~ "naslova predstavitve. Udeleženci bodo vedeli, da je bila predstavitev "
+#~ "dodana med priljubljene, ko opazijo, da se je ikona spremenila "
+#~ "v :icon:`fa-bell` :guilabel:`(filled bell)`."
+
+#~ msgid ""
+#~ "Favoriting a track this way places it on the list "
+#~ "of :guilabel:`Favorites`, which is accessible from the default drop-down "
+#~ "filter menu, located at the top of the :guilabel:`Talks` page."
+#~ msgstr ""
+#~ "Dodajanje predstavitve med priljubljene na ta način jo postavi na "
+#~ "seznam :guilabel:`Favorites`, ki je dostopen iz privzetega spustnega "
+#~ "menija s filtri na vrhu strani :guilabel:`Talks`."
+
+#~ msgid "Talk Proposals page"
+#~ msgstr "Stran Talk Proposals"
+
+#~ msgid ""
+#~ "The :guilabel:`Talk Proposals` link takes attendees to a page on the "
+#~ "event website, wherein they can formerly submit a proposal for a talk "
+#~ "(:dfn:`track`) for the event, via a custom online form."
+#~ msgstr ""
+#~ "Povezava :guilabel:`Talk Proposals` preusmeri udeležence na stran na "
+#~ "spletni strani dogodka, kjer lahko uradno oddajo predlog za predstavitev "
+#~ "(:dfn:`track`) za dogodek prek spletnega obrazca po meri."
+
+#~ msgid ""
+#~ "In addition to the form, an introduction to the page, along with any "
+#~ "other pertinent information related to the types of talks the event will "
+#~ "feature can be added, if needed."
+#~ msgstr ""
+#~ "Poleg obrazca je mogoče dodati uvod na stran skupaj z vsemi drugimi "
+#~ "ustreznimi informacijami, povezanimi z vrstami predstavitev, ki jih bo "
+#~ "dogodek vključeval, če je potrebno."
+
+#~ msgid ""
+#~ "The talk proposal form can be modified in a number of different ways, via "
+#~ "the web builder tools, accessible by clicking :guilabel:`Edit` while on "
+#~ "the specific page."
+#~ msgstr ""
+#~ "Obrazec za predlog predstavitve je mogoče spremeniti na več različnih "
+#~ "načinov prek orodij spletnega graditelja, do katerih dostopate s klikom "
+#~ "na :guilabel:`Edit`, ko ste na določeni strani."
+
+#~ msgid ""
+#~ "Then, proceed to edit any of the default fields, or add new forms with "
+#~ "the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
+#~ "section of the web builder tools sidebar)."
+#~ msgstr ""
+#~ "Nato uredite katero koli od privzetih polj ali dodajte nove obrazce z "
+#~ "gradnikom :guilabel:`Form` (ki se nahaja v razdelku :guilabel:`Blocks` "
+#~ "stranske vrstice orodij spletnega graditelja)."
+
+#~ msgid ""
+#~ "Once all the necessary information is entered into the form, the "
+#~ "attendees just need to click the :guilabel:`Submit Proposal` button."
+#~ msgstr ""
+#~ "Ko so vse potrebne informacije vnesene v obrazec, morajo udeleženci samo "
+#~ "klikniti gumb :guilabel:`Submit Proposal`."
+
+#~ msgid ""
+#~ "Then, that talk, and all the information entered on the form, can be "
+#~ "accessed on the :guilabel:`Event Tracks` page for that specific event in "
+#~ "the :guilabel:`Proposal` stage, which is accessible via "
+#~ "the :guilabel:`Tracks` smart button on the event form."
+#~ msgstr ""
+#~ "Nato je mogoče do te predstavitve in vseh informacij, vnesenih v obrazec, "
+#~ "dostopati na strani :guilabel:`Event Tracks` za ta določen dogodek v "
+#~ "fazi :guilabel:`Proposal`, do katere dostopate prek pametnega "
+#~ "gumba :guilabel:`Tracks` na obrazcu dogodka."
+
+#~ msgid ""
+#~ "At that point, an internal user can review the proposed talk, and choose "
+#~ "to accept or deny the proposal."
+#~ msgstr ""
+#~ "V tem trenutku lahko notranji uporabnik pregleda predlagano predavanje in "
+#~ "se odloči, ali bo predlog sprejel ali zavrnil."
+
+#~ msgid ""
+#~ "If accepted, the internal user can then move the track to the next "
+#~ "appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
+#~ "page for the event. Then, they can open that track form, and click "
+#~ "the :guilabel:`Go to Website` smart button to reveal that track's page on "
+#~ "the event website."
+#~ msgstr ""
+#~ "Če je sprejet, lahko notranji uporabnik nato premakne predavanje v "
+#~ "naslednjo ustrezno fazo v kanban cevovodu na strani :guilabel:`Predavanja "
+#~ "dogodka` za dogodek. Nato lahko odpre obrazec tega predavanja in klikne "
+#~ "pametni gumb :guilabel:`Pojdi na spletno mesto`, da prikaže stran tega "
+#~ "predavanja na spletnem mestu dogodka."
+
+#~ msgid ""
+#~ "From there, they can toggle the :guilabel:`Unpublished` switch in the "
+#~ "header to :guilabel:`Published`, which allows all event attendees to view "
+#~ "and access the talk."
+#~ msgstr ""
+#~ "Od tam lahko preklopi stikalo :guilabel:`Neobjavljeno` v glavi "
+#~ "na :guilabel:`Objavljeno`, kar omogoča vsem udeležencem dogodka ogled in "
+#~ "dostop do predavanja."
+
+#~ msgid "Agenda page"
+#~ msgstr "Stran dnevnega reda"
+
+#~ msgid ""
+#~ "The :guilabel:`Agenda` link takes attendees to a page on the event "
+#~ "website, showcasing an event calendar, depicting when (and where) events "
+#~ "are taking place for that specific event."
+#~ msgstr ""
+#~ "Povezava :guilabel:`Dnevni red` odpelje udeležence na stran na spletnem "
+#~ "mestu dogodka, ki prikazuje koledar dogodka in prikazuje, kdaj (in kje) "
+#~ "potekajo dogodki za ta določen dogodek."
+
+#~ msgid ""
+#~ "Clicking any track on the calendar takes the attendee to that specific "
+#~ "track's detail page on the event website."
+#~ msgstr ""
+#~ "Klik na katero koli predavanje v koledarju odpelje udeleženca na stran s "
+#~ "podrobnostmi tega določenega predavanja na spletnem mestu dogodka."
 
 #~ msgid "Mail"
 #~ msgstr "E-pošta"

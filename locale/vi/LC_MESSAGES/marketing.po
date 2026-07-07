@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:30+0000\n"
-"PO-Revision-Date: 2026-06-10 01:04+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 15:46+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/vi/>\n"
 "Language: vi\n"
@@ -2801,6 +2801,10 @@ msgid ""
 "Refer to the database's actual stage names in the *CRM* app's pipeline to "
 "complete this step, accordingly."
 msgstr ""
+"Bước này giả định rằng các giai đoạn *Mới*, *Đủ điều kiện* và *Thắng* tồn "
+"tại trong quy trình CRM; tuy nhiên, tên giai đoạn có thể khác nhau giữa các "
+"doanh nghiệp. Tham khảo tên giai đoạn thực tế của cơ sở dữ liệu trong quy "
+"trình của ứng dụng *CRM* để hoàn thành bước này cho phù hợp."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:126
 msgid ""
@@ -2810,17 +2814,25 @@ msgid ""
 "the :guilabel:`New`, :guilabel:`Qualified` and :guilabel:`Won` stages to "
 "define the rule's parameters."
 msgstr ""
+"Bắt đầu lại bằng cách nhấp vào :guilabel:`Quy tắc Mới` và chọn "
+":guilabel:`Giai đoạn` từ menu thả xuống của trường đầu tiên. Trong trường "
+"thứ hai, chọn toán tử :guilabel:`không nằm trong`, và trong trường thứ ba, "
+"chọn các giai đoạn :guilabel:`Mới`, :guilabel:`Đủ điều kiện` và "
+":guilabel:`Thắng` để xác định các tham số của quy tắc."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:131
 msgid ""
 "When the rule is added in this way, the logic in the third field renders "
 "as :code:`OR` (`|`) statements."
 msgstr ""
+"Khi quy tắc được thêm theo cách này, logic trong trường thứ ba được hiển thị "
+"dưới dạng các câu lệnh :code:`OR` (`|`)."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid ""
 "Include multiple Stages in the filtering rule, using the \"is in\" operator."
 msgstr ""
+"Bao gồm nhiều Giai đoạn trong quy tắc lọc, sử dụng toán tử \"nằm trong\"."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:139
 msgid ""
@@ -2842,6 +2854,7 @@ msgid ""
 "Three filter rules requiring that the Stage does not contain New, Qualified, "
 "or Won."
 msgstr ""
+"Ba quy tắc lọc yêu cầu Giai đoạn không chứa Mới, Đủ điều kiện hoặc Thắng."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:151
 msgid "Lost Reason"
@@ -2853,6 +2866,9 @@ msgid ""
 "should **not** be targeted for specific :doc:`lost reasons <../../sales/crm/"
 "pipeline/lost_opportunities>`."
 msgstr ""
+"Tiếp theo, thêm một hoặc nhiều quy tắc :guilabel:`Lý do Mất` để loại trừ các "
+"khách hàng tiềm năng **không** nên được nhắm mục tiêu cho các :doc:`lý do "
+"mất cụ thể <../../sales/crm/pipeline/lost_opportunities>`."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:156
 msgid ""
@@ -2876,6 +2892,9 @@ msgid ""
 "preceding steps to add more lost reasons, as needed, where each lost reason "
 "occupies one rule row at a time."
 msgstr ""
+"Nếu chọn toán tử :guilabel:`không chứa`, hãy lặp lại các bước trước để thêm "
+"nhiều lý do mất hơn nếu cần, trong đó mỗi lý do mất chiếm một hàng quy tắc "
+"tại một thời điểm."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:165
 msgid ""
@@ -2883,12 +2902,16 @@ msgid ""
 "to :ref:`select appropriate lost reasons <email_marketing/"
 "select_lost_reasons>`."
 msgstr ""
+"Để biết thêm thông tin, hãy tham khảo phần bên dưới nêu cách :ref:`chọn các "
+"lý do mất phù hợp <email_marketing/select_lost_reasons>`."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid ""
 "A list of filter rules that exclude all lost reasons other than the desired "
 "reason."
 msgstr ""
+"Danh sách các quy tắc lọc loại trừ tất cả các lý do mất khác ngoài lý do "
+"mong muốn."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:175
 msgid "Active"
@@ -2899,6 +2922,8 @@ msgid ""
 "Finally, add a pair of :guilabel:`Active` filters to include both active and "
 "inactive leads for the campaign."
 msgstr ""
+"Cuối cùng, thêm một cặp bộ lọc :guilabel:`Hoạt động` để bao gồm cả khách "
+"hàng tiềm năng đang hoạt động và không hoạt động cho chiến dịch."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:181
 msgid ""
@@ -2907,6 +2932,11 @@ msgid ""
 "greatly impacts the number of targetable records for the email campaign, and "
 "does **not** include a complete or accurate lost leads audience."
 msgstr ""
+"Việc thêm cả bản ghi khách hàng tiềm năng đang hoạt động *và* không hoạt "
+"động là cần thiết để nắm bắt toàn bộ phạm vi khách hàng tiềm năng bị mất "
+"trong cơ sở dữ liệu. Làm một trong hai mà thiếu cái kia sẽ ảnh hưởng lớn đến "
+"số lượng bản ghi có thể nhắm mục tiêu cho chiến dịch email và **không** bao "
+"gồm đối tượng khách hàng tiềm năng bị mất đầy đủ hoặc chính xác."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:186
 msgid ""
@@ -2931,16 +2961,22 @@ msgid ""
 "select :guilabel:`is not` from the operator drop-down menu in the second "
 "field. The rule should then read: :guilabel:`Active` *is not* `set`."
 msgstr ""
+"Đối với trường đầu tiên của quy tắc dưới cùng của nhánh, chọn "
+":guilabel:`Hoạt động` từ menu thả xuống một lần nữa. Tuy nhiên, lần này hãy "
+"chọn :guilabel:`không phải là` từ menu thả xuống toán tử trong trường thứ "
+"hai. Quy tắc sau đó sẽ đọc: :guilabel:`Hoạt động` *không phải là* `đã đặt`."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid ""
 "A pair of Match Any Of filter rules that include both active and inactive "
 "leads."
 msgstr ""
+"Một cặp quy tắc lọc Khớp Bất kỳ bao gồm cả khách hàng tiềm năng đang hoạt "
+"động và không hoạt động."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:201
 msgid "Add body content"
-msgstr ""
+msgstr "Thêm nội dung chính"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:203
 msgid ""
@@ -2963,32 +2999,41 @@ msgid ""
 "Filter 💾 (floppy disk)`, enter a name (such as `Lost Leads`), and "
 "click :guilabel:`Add`."
 msgstr ""
+"Để lưu tập hợp các bộ lọc cho lần sử dụng sau, nhấp vào :guilabel:`Lưu dưới "
+"dạng Bộ lọc Yêu thích 💾 (đĩa mềm)`, nhập tên (chẳng hạn như `Khách hàng "
+"tiềm năng bị mất`) và nhấp vào :guilabel:`Thêm`."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:0
 msgid ""
 "The Save as Favorite Filter pop-up can save the lost leads criteria for "
 "later."
 msgstr ""
+"Cửa sổ bật lên Lưu dưới dạng Bộ lọc Yêu thích có thể lưu tiêu chí khách hàng "
+"tiềm năng bị mất để sử dụng sau."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:217
 msgid "Send or schedule"
-msgstr ""
+msgstr "Gửi hoặc lên lịch"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:219
 msgid "Once all the components of the email campaign are complete, either:"
-msgstr ""
+msgstr "Sau khi tất cả các thành phần của chiến dịch email hoàn tất, hãy:"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:221
 msgid ""
 "click the purple :guilabel:`Send` button at the top-left of the form to "
 "immediately send the email; or"
 msgstr ""
+"nhấp vào nút :guilabel:`Gửi` màu tím ở góc trên bên trái của biểu mẫu để gửi "
+"email ngay lập tức; hoặc"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:223
 msgid ""
 "click the gray :guilabel:`Schedule` button, located to the right of "
 "the :guilabel:`Send` button, to send the email at a future date and time."
 msgstr ""
+"nhấp vào nút :guilabel:`Lên lịch` màu xám, nằm bên phải nút :guilabel:`Gửi`, "
+"để gửi email vào ngày và giờ trong tương lai."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:227
 msgid ""
@@ -4012,6 +4057,11 @@ msgid ""
 "the email, or use a block from the *Footers* section of the email builder, "
 "which includes the unsubscribe link."
 msgstr ""
+"Liên kết *Hủy đăng ký* **không** xuất hiện theo mặc định nếu sử dụng mẫu "
+"*Bắt đầu từ đầu* để tạo thư gửi hàng loạt. Người dùng **phải** thêm thủ công "
+"liên kết hủy đăng ký cụ thể `/unsubscribe_from_list` vào nội dung email hoặc "
+"sử dụng một khối từ phần *Chân trang* của trình tạo email, trong đó có liên "
+"kết hủy đăng ký."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:39
 msgid ""
@@ -4021,12 +4071,18 @@ msgid ""
 "their subscriptions, and informs them that they've "
 "been :guilabel:`Successfully Unsubscribed`."
 msgstr ""
+"Nếu người nhận nhấp vào liên kết *Hủy đăng ký* trong thư gửi hàng loạt, Odoo "
+"sẽ ngay lập tức hủy đăng ký họ khỏi danh sách gửi thư, hiển thị cho họ trang "
+":guilabel:`Đăng ký nhận thư` nơi họ có thể trực tiếp quản lý các đăng ký của "
+"mình và thông báo cho họ rằng họ đã :guilabel:`Hủy đăng ký thành công`."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid ""
 "The Mailng Subscriptions page that appears when 'Unsubscribe' link in "
 "mailing is clicked."
 msgstr ""
+"Trang Đăng ký nhận thư xuất hiện khi nhấp vào liên kết 'Hủy đăng ký' trong "
+"thư gửi hàng loạt."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:48
 msgid ""
@@ -4034,12 +4090,19 @@ msgid ""
 "know why you updated your subscription`, and the user can proceed to choose "
 "the appropriate opt-out reason from a series of options presented to them."
 msgstr ""
+"Bên dưới đó, Odoo yêu cầu người trước đây đã đăng ký :guilabel:`Vui lòng cho "
+"chúng tôi biết tại sao bạn cập nhật đăng ký của mình`, và người dùng có thể "
+"tiếp tục chọn lý do hủy đăng ký phù hợp từ một loạt tùy chọn được trình bày "
+"cho họ."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:53
 msgid ""
 "The opt-out answer options can be created and modified by navigating "
 "to :menuselection:`Email Marketing app --> Configuration --> Optout Reasons`."
 msgstr ""
+"Các tùy chọn câu trả lời hủy đăng ký có thể được tạo và sửa đổi bằng cách "
+"điều hướng đến :menuselection:`Ứng dụng Email Marketing --> Cấu hình --> Lý "
+"do hủy đăng ký`."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:56
 msgid ""
@@ -4048,6 +4111,9 @@ msgid ""
 "logs their reasoning for unsubscribing in the *Email Marketing* app for "
 "future analysis."
 msgstr ""
+"Sau khi chọn lý do hủy đăng ký phù hợp từ các tùy chọn được trình bày, họ có "
+"thể nhấp vào nút :guilabel:`Gửi`. Odoo sau đó sẽ ghi lại lý do hủy đăng ký "
+"của họ trong ứng dụng *Email Marketing* để phân tích sau này."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:61
 #: ../../content/applications/marketing/sms_marketing/mailing_lists_blacklists.rst:102
@@ -4060,6 +4126,9 @@ msgid ""
 "emails during the unsubscription process, on the :guilabel:`Mailing "
 "Subscriptions` page, they must click :guilabel:`Exclude Me`."
 msgstr ""
+"Để người nhận loại bỏ (tức là đưa vào danh sách chặn) chính họ khỏi **tất "
+"cả** email marketing trong quá trình hủy đăng ký, trên trang :guilabel:`Đăng "
+"ký nhận thư`, họ phải nhấp vào :guilabel:`Loại trừ tôi`."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:67
 msgid ""
@@ -4067,11 +4136,16 @@ msgid ""
 "been successfully blacklisted, with a message reading: :guilabel:`✔️ Email "
 "added to our blocklist`."
 msgstr ""
+"Khi nhấp vào :guilabel:`Loại trừ tôi`, Odoo thông báo cho người nhận rằng họ "
+"đã được đưa vào danh sách chặn thành công, với thông báo: :guilabel:`✔️ "
+"Email đã được thêm vào danh sách chặn của chúng tôi`."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid ""
 "The blocklist question on the Mailing Subscriptions page that recipients see."
 msgstr ""
+"Câu hỏi về danh sách chặn trên trang Đăng ký nhận thư mà người nhận nhìn "
+"thấy."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:74
 msgid ""
@@ -4079,6 +4153,10 @@ msgid ""
 "know why you want to be added to our blocklist`, and the user can proceed to "
 "choose the appropriate reason from a series of options presented to them."
 msgstr ""
+"Bên dưới đó, Odoo yêu cầu người trước đây đã đăng ký :guilabel:`Vui lòng cho "
+"chúng tôi biết tại sao bạn muốn được thêm vào danh sách chặn của chúng tôi`, "
+"và người dùng có thể tiếp tục chọn lý do phù hợp từ một loạt tùy chọn được "
+"trình bày cho họ."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:78
 msgid ""
@@ -4087,10 +4165,13 @@ msgid ""
 "reasoning for blacklisting themselves in the *Email Marketing* app for "
 "future analysis."
 msgstr ""
+"Sau khi chọn lý do phù hợp từ các tùy chọn được trình bày, họ có thể nhấp "
+"vào nút :guilabel:`Gửi`. Odoo sau đó sẽ ghi lại lý do tự đưa vào danh sách "
+"chặn của họ trong ứng dụng *Email Marketing* để phân tích sau này."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:83
 msgid "Blacklisted email addresses"
-msgstr ""
+msgstr "Địa chỉ email bị liệt vào danh sách đen"
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:85
 msgid ""
@@ -4098,10 +4179,13 @@ msgid ""
 "to :menuselection:`Email Marketing app --> Configuration --> Blacklisted "
 "Email Addresses`."
 msgstr ""
+"Để xem danh sách đầy đủ tất cả các địa chỉ email bị chặn, điều hướng đến "
+":menuselection:`Ứng dụng Email Marketing --> Cấu hình --> Địa chỉ email bị "
+"chặn`."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "View of the blacklisted email addresses page in Odoo Email Marketing."
-msgstr ""
+msgstr "Chế độ xem trang địa chỉ email bị chặn trong Odoo Email Marketing."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:92
 msgid ""
@@ -4116,6 +4200,7 @@ msgstr ""
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "View of a blacklisted contact detail form in Odoo Email Marketing."
 msgstr ""
+"Chế độ xem biểu mẫu chi tiết liên hệ bị chặn trong Odoo Email Marketing."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:100
 msgid ""
@@ -4123,6 +4208,9 @@ msgid ""
 "message, informing the user when the recipient blacklisted themselves (via "
 "a :guilabel:`Mail Blacklist created` log note)."
 msgstr ""
+"Trong *chatter* của trang bản ghi bị chặn, có một thông báo có dấu thời "
+"gian, thông báo cho người dùng khi người nhận tự đưa mình vào danh sách chặn "
+"(thông qua ghi chú nhật ký :guilabel:`Danh sách chặn thư đã tạo`)."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:104
 msgid ""
@@ -4130,10 +4218,13 @@ msgid ""
 "emails can still receive transactional emails, such as order confirmations, "
 "shipping notifications, etc."
 msgstr ""
+"Email bị chặn được loại trừ khỏi tất cả thư marketing gửi hàng loạt, tuy "
+"nhiên, những email này vẫn có thể nhận email giao dịch, chẳng hạn như xác "
+"nhận đơn hàng, thông báo vận chuyển, v.v."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:108
 msgid "Unblacklist contacts"
-msgstr ""
+msgstr "Bỏ chặn liên hệ"
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:110
 msgid ""
@@ -4141,12 +4232,17 @@ msgid ""
 "upper-left corner of a blacklisted record's page to remove the contact from "
 "the blacklist, allowing them to receive mailings once again."
 msgstr ""
+"Để *Bỏ chặn* liên hệ, nhấp vào nút :guilabel:`Bỏ chặn` ở góc trên bên trái "
+"của trang bản ghi bị chặn để loại bỏ liên hệ khỏi danh sách chặn, cho phép "
+"họ nhận thư gửi hàng loạt một lần nữa."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:114
 msgid ""
 "When :guilabel:`Unblacklist` is clicked, an :guilabel:`Are you sure you want "
 "to unblacklist this Email Address?` pop-up window appears."
 msgstr ""
+"Khi nhấp vào :guilabel:`Bỏ chặn`, một cửa sổ bật lên :guilabel:`Bạn có chắc "
+"chắn muốn bỏ chặn địa chỉ email này không?` sẽ xuất hiện."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:117
 msgid ""
@@ -4736,15 +4832,15 @@ msgstr ""
 ":guilabel:`Nhóm tùy chỉnh...`: Nhóm dữ liệu theo :ref:`nhóm tùy chỉnh "
 "<search/group>`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:181
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
 msgid "Create event track"
 msgstr "Tạo chủ đề sự kiện"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
 msgid "New event tracks are created from the :guilabel:`Event Tracks` page."
 msgstr "Các track sự kiện mới được tạo từ trang :guilabel:`Track sự kiện`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:187
 msgid ""
 "To create a new event track, click :guilabel:`New` in the upper-left corner "
 "to reveal a blank event track form."
@@ -4756,37 +4852,37 @@ msgstr ""
 msgid "Typical event track form in the Odoo Events application."
 msgstr "Biểu mẫu chủ đề sự kiện điển hình trong ứng dụng Sự kiện Odoo."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:191
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required**."
 msgstr ""
 "Bắt đầu bằng cách đặt :guilabel:`Tiêu đề` cho track này. Trường này là **bắt "
 "buộc**."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
 msgid ""
 "Optionally, upload an image for the track to be displayed on the track's "
 "webpage."
 msgstr ""
 "Tùy chọn, tải lên hình ảnh cho track để hiển thị trên trang web của track."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
 msgid "Next, enter details for the track in the following fields:"
 msgstr "Tiếp theo, nhập chi tiết cho track trong các trường sau:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
 msgid ":guilabel:`Track Date`: Specify the date of the track."
 msgstr ":guilabel:`Ngày theo dõi`: Chỉ định ngày của track."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:198
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
 msgid ":guilabel:`Location`: Specify the location of the track."
 msgstr ":guilabel:`Địa điểm`: Chỉ định địa điểm của track."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:201
 msgid ":guilabel:`Duration`: Specify the duration of the track (in minutes)."
 msgstr ":guilabel:`Thời lượng`: Chỉ định thời lượng của track (tính bằng phút)."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
 msgid ""
 ":guilabel:`Always Wishlisted`: Specify whether to automatically set the "
 "track as favorite for each registered attendee."
@@ -4794,7 +4890,7 @@ msgstr ""
 ":guilabel:`Luôn được yêu thích`: Chỉ định có tự động đặt track làm yêu thích "
 "cho mỗi người tham dự đã đăng ký hay không."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
 msgid ""
 ":guilabel:`Responsible`: Select the database user responsible for managing "
 "the track. By default, this field is assigned to the user who initially "
@@ -4804,7 +4900,7 @@ msgstr ""
 "nhiệm quản lý track. Theo mặc định, trường này được chỉ định cho người dùng "
 "đã tạo track ban đầu."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
 msgid ""
 ":guilabel:`Event`: Select the track's associated event. By default, this "
 "field is already populated with the event from the *Event Tracks* page."
@@ -4812,7 +4908,7 @@ msgstr ""
 ":guilabel:`Sự kiện`: Chọn sự kiện liên quan đến track. Theo mặc định, trường "
 "này đã được điền sẵn với sự kiện từ trang *Track sự kiện*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
 msgid ""
 ":guilabel:`Tags`: Select one or multiple tags for the track to add as "
 "filters on the *Talks* webpage."
@@ -4820,7 +4916,7 @@ msgstr ""
 ":guilabel:`Thẻ`: Chọn một hoặc nhiều thẻ cho track để thêm làm bộ lọc trên "
 "trang web *Bài nói chuyện*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:210
 msgid ""
 ":guilabel:`Agenda Color`: Select a color to represent the track on the "
 "*Agenda* webpage."
@@ -4828,7 +4924,7 @@ msgstr ""
 ":guilabel:`Màu lịch trình`: Chọn màu để đại diện cho track trên trang web "
 "*Lịch trình*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:211
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:213
 msgid ""
 "To access a complete list of locations for event tracks, which can be "
 "modified (and added to) at any time, navigate to :menuselection:`Events app "
@@ -4838,11 +4934,11 @@ msgstr ""
 "chỉnh sửa (và bổ sung) bất cứ lúc nào, điều hướng đến :menuselection:`ứng "
 "dụng Sự kiện --> Cấu hình --> Địa điểm Chủ đề`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:217
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
 msgid "Speaker tab"
 msgstr "Tab diễn giả"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:221
 msgid ""
 "The :guilabel:`Speaker` tab on an event track form contains various fields "
 "to configure information about the track host or speaker."
@@ -4854,11 +4950,11 @@ msgstr ""
 msgid "The Speaker tab on an event track form in the Odoo Events application."
 msgstr "Tab Diễn giả trên biểu mẫu chủ đề sự kiện trong ứng dụng Sự kiện Odoo."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:226
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
 msgid "Contact Details section"
 msgstr "Phần Thông tin Liên hệ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:230
 msgid ""
 "In the :guilabel:`Contact Details` section, click the :guilabel:`Contact` "
 "drop-down field to select an existing contact from the database as the main "
@@ -4868,7 +4964,7 @@ msgstr ""
 ":guilabel:`Liên hệ` để chọn một liên hệ hiện có từ cơ sở dữ liệu làm điểm "
 "liên hệ chính cho bài nói chuyện."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:231
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:233
 msgid ""
 "If this contact is not yet in the database, type in the name of the contact, "
 "and click :guilabel:`Create` to create and edit the contact form later, or "
@@ -4880,7 +4976,7 @@ msgstr ""
 ":guilabel:`Tạo và chỉnh sửa...` để được chuyển đến biểu mẫu liên hệ của liên "
 "hệ mới đó để cấu hình ngay lập tức."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:235
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:237
 msgid ""
 "The :guilabel:`Contact Email` and :guilabel:`Contact Phone` fields are "
 "greyed-out and populated with the information found on the chosen contact's "
@@ -4892,11 +4988,11 @@ msgstr ""
 "chọn. Các trường này không thể sửa đổi sau khi trường :guilabel:`Liên hệ` "
 "được chọn."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:240
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
 msgid "Speaker Bio section"
 msgstr "Phần Tiểu sử Diễn giả"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:244
 msgid ""
 "In the :guilabel:`Speaker Bio` section, enter any information related to the "
 "specific speaker scheduled to conduct/host the track."
@@ -4904,7 +5000,7 @@ msgstr ""
 "Trong phần :guilabel:`Tiểu sử diễn giả`, nhập bất kỳ thông tin nào liên quan "
 "đến diễn giả cụ thể được lên lịch để thực hiện/chủ trì track."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:245
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:247
 msgid ""
 "If the chosen contact in the :guilabel:`Contact Details` section is properly "
 "configured, the :guilabel:`Name`, :guilabel:`Email`, and :guilabel:`Phone` "
@@ -4915,7 +5011,7 @@ msgstr ""
 "đúng cách, các trường :guilabel:`Tên`, :guilabel:`Email` và :guilabel:`Điện "
 "thoại` sẽ tự động được điền. Ngược lại, hãy nhập thông tin thủ công."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:250
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:252
 msgid ""
 "This information appears on the front-end of the event website, on the "
 "specific track webpage, providing more information about the speaker to the "
@@ -4925,7 +5021,7 @@ msgstr ""
 "trên trang web chủ đề cụ thể, cung cấp thêm thông tin về diễn giả cho những "
 "người tham dự chủ đề."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:253
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
 msgid ""
 "Optionally, upload an image to appear alongside the speaker biography on the "
 "event website."
@@ -4933,7 +5029,7 @@ msgstr ""
 "Tùy chọn, tải lên một hình ảnh để hiển thị cùng với tiểu sử diễn giả trên "
 "trang web sự kiện."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:257
 msgid ""
 "Then, enter a :guilabel:`Job Position` for the designated speaker, followed "
 "by the :guilabel:`Company Name` associated with the speaker."
@@ -4941,7 +5037,7 @@ msgstr ""
 "Sau đó, nhập :guilabel:`Vị trí công việc` cho diễn giả được chỉ định, tiếp "
 "theo là :guilabel:`Tên công ty` liên quan đến diễn giả."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:258
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:260
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter a custom biography with "
 "any speaker-related information."
@@ -4949,13 +5045,13 @@ msgstr ""
 "Trong trường :guilabel:`Tiểu sử`, tiến hành nhập tiểu sử tùy chỉnh với bất "
 "kỳ thông tin liên quan đến diễn giả nào."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:264
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
 #: ../../content/applications/marketing/surveys/create.rst:258
 #: ../../content/applications/marketing/surveys/questions.rst:198
 msgid "Description tab"
 msgstr "Tab mô tả"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Description` tab of an event track form contains a blank text "
 "field to enter any additional information about the track. This information "
@@ -4965,11 +5061,11 @@ msgstr ""
 "trống để nhập bất kỳ thông tin bổ sung nào về track. Thông tin này xuất hiện "
 "trên trang track cụ thể trên trang web sự kiện."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:273
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
 msgid "Interactivity tab"
 msgstr "Tab Tương tác"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:277
 msgid ""
 "The :guilabel:`Interactivity` tab of the track form provides users the "
 "option to display an interactive button for additional attendee engagement."
@@ -4984,7 +5080,7 @@ msgid ""
 msgstr ""
 "Tab Tương tác trên biểu mẫu theo dõi sự kiện trong ứng dụng Sự kiện Odoo."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:282
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:284
 msgid ""
 "When the :guilabel:`Magic Button` checkbox is ticked, Odoo displays a *call "
 "to action* button to attendees on the sidebar of the track webpage while the "
@@ -4994,7 +5090,7 @@ msgstr ""
 "*kêu gọi hành động* cho người tham dự trên thanh bên của trang web track "
 "trong khi track đang diễn ra."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:285
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
 msgid ""
 "With that checkbox ticked, three more options appear below to configure the "
 "button:"
@@ -5002,14 +5098,14 @@ msgstr ""
 "Với hộp kiểm đó được đánh dấu, ba tùy chọn khác xuất hiện bên dưới để cấu "
 "hình nút:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
 msgid ""
 ":guilabel:`Button Title`: Enter a title to appear on the button for "
 "attendees."
 msgstr ""
 ":guilabel:`Tiêu đề nút`: Nhập tiêu đề sẽ hiển thị trên nút cho người tham dự."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:288
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:290
 msgid ""
 ":guilabel:`Button Target URL`: Enter a URL that leads attendees to a "
 "specific page."
@@ -5017,7 +5113,7 @@ msgstr ""
 ":guilabel:`URL đích của nút`: Nhập URL dẫn người tham dự đến một trang cụ "
 "thể."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:291
 msgid ""
 ":guilabel:`Show Button`: Enter how many :guilabel:`minutes after Track "
 "start` the button should appear."
@@ -5025,18 +5121,18 @@ msgstr ""
 ":guilabel:`Hiển thị nút`: Nhập số :guilabel:`phút sau khi Track bắt đầu` để "
 "nút xuất hiện."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:293
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:295
 msgid ""
 "The magic button **only** appears if there is more than one published track."
 msgstr ""
 "Nút thần kỳ **chỉ** xuất hiện nếu có nhiều hơn một bản theo dõi đã được xuất "
 "bản."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:296
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
 msgid "Publish event track"
 msgstr "Xuất bản bản theo dõi sự kiện"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:300
 msgid ""
 "Once all the desired configurations are complete on an event track form, "
 "publish the track on the event website by clicking the :guilabel:`Published` "
@@ -5046,7 +5142,7 @@ msgstr ""
 "hãy xuất bản track trên trang web sự kiện bằng cách nhấp vào giai đoạn "
 ":guilabel:`Đã xuất bản` ở góc trên bên phải."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:302
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:304
 msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
@@ -5056,7 +5152,7 @@ msgstr ""
 ":guilabel:`Theo dõi sự kiện`, nơi thẻ theo dõi mong muốn có thể được kéo và "
 "thả vào giai đoạn Kanban thích hợp."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:305
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:307
 msgid ""
 "An event track can also be published by opening the desired event track form "
 "and clicking the :guilabel:`Go to Website` smart button. Then, toggle "
@@ -5077,11 +5173,11 @@ msgstr ""
 "Các tùy chọn menu con liên quan đến theo dõi trên trang web sự kiện được xây "
 "dựng bằng Sự kiện Odoo."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:315
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
 msgid "Additional track configurations"
 msgstr "Cấu hình track bổ sung"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:319
 msgid ""
 "The :guilabel:`Schedule & Tracks` setting in the **Events** configuration "
 "page provides additional configuration options for users to enable live "
@@ -5091,11 +5187,11 @@ msgstr ""
 "cấp các tùy chọn cấu hình bổ sung để người dùng bật tính năng phát sóng trực "
 "tiếp và gamification cho các track."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:323
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
 msgid "Live broadcasting"
 msgstr "Phát sóng trực tiếp"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:327
 msgid ""
 "If the :guilabel:`Live Broadcast` setting is enabled in the **Events** app "
 "settings, the option to add a corresponding link in the :guilabel:`YouTube "
@@ -5105,11 +5201,11 @@ msgstr ""
 "**Sự kiện**, tùy chọn để thêm liên kết tương ứng vào trường :guilabel:`Liên "
 "kết video YouTube` sẽ xuất hiện trong biểu mẫu track."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:331
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
 msgid "Event gamification"
 msgstr "Gamification sự kiện"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:335
 msgid ""
 "If the :guilabel:`Event Gamification` setting is enabled, an :guilabel:`Add "
 "Quiz` button appears on the top-left of a track form, allowing the user to "
@@ -5119,11 +5215,11 @@ msgstr ""
 "câu đố` sẽ xuất hiện ở góc trên bên trái của biểu mẫu track, cho phép người "
 "dùng tạo câu đố để người tham dự hoàn thành sau khi track kết thúc."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:338
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
 msgid "Track quiz form"
 msgstr "Biểu mẫu câu đố track"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:342
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so opens a form to configure the quiz."
@@ -5135,13 +5231,13 @@ msgstr ""
 msgid "The Add Quiz page in the Odoo Events application for an event track."
 msgstr "Trang Thêm câu đố trong ứng dụng Sự kiện Odoo cho bản theo dõi sự kiện."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:346
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page."
 msgstr "Bắt đầu bằng cách nhập tiêu đề cho câu đố vào trường trống ở đầu trang."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:350
 msgid ""
 "If participants are allowed to take the quiz multiple times, tick the "
 "checkbox beside :guilabel:`Allow multiple tries`."
@@ -5149,7 +5245,7 @@ msgstr ""
 "Nếu người tham gia được phép làm câu đố nhiều lần, hãy đánh dấu vào hộp kiểm "
 "bên cạnh :guilabel:`Cho phép thử nhiều lần`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:351
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:353
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are automatically "
 "populated with the corresponding event and track. These fields are non-"
@@ -5158,11 +5254,11 @@ msgstr ""
 "Các trường :guilabel:`Sự kiện` và :guilabel:`Track sự kiện` được tự động "
 "điền với sự kiện và track tương ứng. Các trường này không thể chỉnh sửa."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:355
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
 msgid "Add questions and answers"
 msgstr "Thêm câu hỏi và câu trả lời"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:359
 msgid ""
 "To add questions to the quiz, click :guilabel:`Add a line` beneath "
 "the :guilabel:`Question` column. Doing so reveals a :guilabel:`Create "
@@ -5172,11 +5268,11 @@ msgstr ""
 ":guilabel:`Câu hỏi`. Thao tác này sẽ hiển thị cửa sổ bật lên :guilabel:`Tạo "
 "câu hỏi`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:361
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
 msgid "**All** track quiz questions are multiple choice."
 msgstr "**Tất cả** câu hỏi trong câu đố theo dõi đều là câu hỏi trắc nghiệm."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:365
 msgid ""
 "From the pop-up window, enter the question in the blank field at the top. "
 "Then, click :guilabel:`Add a line` to add an answer option."
@@ -5184,22 +5280,22 @@ msgstr ""
 "Từ cửa sổ bật lên, nhập câu hỏi vào trường trống ở trên cùng. Sau đó, nhấp "
 "vào :guilabel:`Thêm một dòng` để thêm tùy chọn trả lời."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:366
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
 msgid "Optionally, fill in the following fields:"
 msgstr "Tùy chọn, hãy điền các trường sau:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
 msgid ""
 ":guilabel:`Correct`: Designate whether the option is the correct response."
 msgstr ""
 ":guilabel:`Đúng`: Chỉ định xem tùy chọn có phải là câu trả lời đúng hay "
 "không."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:369
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:371
 msgid ":guilabel:`Points`: Specify a point value for the answer option."
 msgstr ":guilabel:`Điểm`: Chỉ định giá trị điểm cho tùy chọn câu trả lời."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:372
 msgid ""
 ":guilabel:`Extra Comment`: Add any additional comments that should accompany "
 "the answer option."
@@ -5215,7 +5311,7 @@ msgstr ""
 "Cửa sổ bật lên Tạo câu hỏi trên câu đố theo dõi sự kiện cụ thể trong ứng "
 "dụng Sự kiện Odoo."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:375
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:377
 msgid ""
 "Once all desired answer options are completed, click :guilabel:`Save & "
 "Close` to save the question, close the pop-up window, and return to the "
@@ -5229,13 +5325,13 @@ msgstr ""
 "này và ngay lập tức bắt đầu tạo câu hỏi khác trên biểu mẫu bật lên "
 ":guilabel:`Tạo câu hỏi` mới."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:381
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:382
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:378
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
@@ -5511,74 +5607,147 @@ msgstr "Bài trình bày, đề xuất và chương trình"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:5
 msgid ""
-"With Odoo *Events*, users can utilize a fully-integrated event website, "
-"where attendees can quickly access various tracks (talks, presentations, "
-"etc.), view entire agendas, and propose talks for the event."
+"With Odoo **Events**, visitors can use the event website to view tracks, "
+"propose talks, and see a detailed agenda for their events."
 msgstr ""
-"Với Odoo *Sự kiện*, người dùng có thể sử dụng trang web sự kiện tích hợp "
-"hoàn toàn, nơi người tham dự có thể nhanh chóng truy cập các chủ đề khác "
-"nhau (bài nói chuyện, thuyết trình, v.v.), xem toàn bộ chương trình và đề "
-"xuất bài nói chuyện cho sự kiện."
+"Với Odoo **Events**, khách truy cập có thể sử dụng trang web sự kiện để xem "
+"các track, đề xuất các bài nói chuyện và xem chương trình chi tiết cho các "
+"sự kiện của họ."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:10
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:9
+msgid ""
+"In order to access talks, proposals, and agendas, internal users must have "
+"event tracks enabled and set up. See the :doc:`event_tracks` documentation "
+"to learn more about enabling and creating tracks."
+msgstr ""
+"Để truy cập các buổi thuyết trình, đề xuất và chương trình, người dùng nội "
+"bộ phải bật và thiết lập các track sự kiện. Xem tài liệu :doc:`event_tracks` "
+"để tìm hiểu thêm về cách bật và tạo track."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:16
 msgid "Event website"
 msgstr "Trang web sự kiện"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:12
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:18
 msgid ""
-"To access an event website, navigate to the specific event form in the Odoo "
-"*Events* app, and click the :guilabel:`Go to Website` smart button. Or, "
-"while on the Odoo-built website for the company, click "
-"the :guilabel:`Events` header option, and select the desired event to view "
-"that event's website."
+"When an internal user :doc:`creates an event <../event_setup/"
+"create_events>`, Odoo **Events** generates a separate website for it on the "
+"user's Odoo-built website."
 msgstr ""
-"Để truy cập trang web sự kiện, điều hướng đến biểu mẫu sự kiện cụ thể trong "
-"ứng dụng Odoo *Sự kiện* và nhấp vào nút thông minh :guilabel:`Chuyển đến "
-"Website`. Hoặc, khi đang trên trang web do Odoo xây dựng cho công ty, nhấp "
-"vào tùy chọn tiêu đề :guilabel:`Sự kiện` và chọn sự kiện mong muốn để xem "
-"trang web của sự kiện đó."
+"Khi người dùng nội bộ :doc:`tạo một sự kiện <../event_setup/create_events>`, "
+"Odoo **Events** sẽ tạo một trang web riêng cho sự kiện đó trên trang web "
+"Odoo của người dùng."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:17
-msgid ""
-"On the event website, there is an event-specific subheader menu with "
-"different options to choose from."
-msgstr ""
-"Trên trang web sự kiện, có một menu tiêu đề phụ cụ thể cho sự kiện với các "
-"tùy chọn khác nhau để lựa chọn."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:21
+msgid "Visitors can access that event website in two ways:"
+msgstr "Khách truy cập có thể truy cập trang web sự kiện đó theo hai cách:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:20
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:23
 msgid ""
-"With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, the "
-"following links are automatically added to the subheader menu, located on "
-"the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, "
-"and :guilabel:`Agenda`."
+"Open the **Events** app, navigate to the specific event, and click "
+"the :guilabel:`Go to Website` smart button."
 msgstr ""
-"Với cài đặt *Lịch trình & Chủ đề* được bật trong ứng dụng Odoo *Sự kiện*, "
-"các liên kết sau sẽ tự động được thêm vào menu tiêu đề phụ, nằm trên trang "
-"web sự kiện: :guilabel:`Bài nói chuyện`, :guilabel:`Đề xuất bài nói chuyện` "
-"và :guilabel:`Chương trình`."
+"Mở ứng dụng **Events**, điều hướng đến sự kiện cụ thể và nhấp vào nút thông "
+"minh :guilabel:`Đi đến Trang web`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:28
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:26
 msgid ""
-"To enable the :guilabel:`Schedule & Tracks` setting, navigate "
-"to :menuselection:`Events app --> Configuration --> Settings`, tick the "
-"checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+"Or, while on the Odoo-built website, click the :guilabel:`Events` header "
+"option, then select the desired event."
 msgstr ""
-"Để bật cài đặt :guilabel:`Lịch trình & Chủ đề`, điều hướng đến "
-":menuselection:`Ứng dụng Sự kiện --> Cấu hình --> Cài đặt`, đánh dấu vào ô "
-"bên cạnh :guilabel:`Lịch trình & Chủ đề` và nhấp :guilabel:`Lưu`."
+"Hoặc, khi đang ở trên trang web Odoo, nhấp vào tùy chọn tiêu đề "
+":guilabel:`Sự kiện`, sau đó chọn sự kiện mong muốn."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:29
+msgid ""
+"On the event website, there is a sub-header menu with different pages, "
+"including the following:"
+msgstr ""
+"Trên trang web sự kiện, có một menu tiêu đề phụ với các trang khác nhau, bao "
+"gồm:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:31
+msgid ""
+":guilabel:`Talks`: :ref:`View a schedule <events/talks-proposals-agenda/view-"
+"talks>` of all tracks scheduled for the event, listed by date."
+msgstr ""
+":guilabel:`Buổi thuyết trình`: :ref:`Xem lịch trình <events/talks-proposals-"
+"agenda/view-talks>` của tất cả các track được lên lịch cho sự kiện, được "
+"liệt kê theo ngày."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:33
-msgid "Talks page"
-msgstr "Trang Chủ đề"
+msgid ""
+":guilabel:`Talk Proposals`: :ref:`Submit a proposal <events/talks-proposals-"
+"agenda/propose-talks>` to participate as a speaker during the event."
+msgstr ""
+":guilabel:`Đề xuất buổi thuyết trình`: :ref:`Gửi đề xuất <events/talks-"
+"proposals-agenda/propose-talks>` để tham gia với tư cách diễn giả trong sự "
+"kiện."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:35
 msgid ""
-"The :guilabel:`Talks` link takes the attendee to a page filled with all the "
-"planned tracks for the event."
+":guilabel:`Agenda`: :ref:`View a calendar <events/talks-proposals-agenda/"
+"view-agenda>` of all scheduled tracks for the event, showing detailed times "
+"for each date."
 msgstr ""
-"Liên kết :guilabel:`Chủ đề` đưa người tham dự đến trang chứa tất cả các chủ "
-"đề đã lên lịch cho sự kiện."
+":guilabel:`Chương trình`: :ref:`Xem lịch <events/talks-proposals-agenda/view-"
+"agenda>` của tất cả các track đã lên lịch cho sự kiện, hiển thị thời gian "
+"chi tiết cho mỗi ngày."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:39
+msgid ""
+"If the sub-header menu does not appear, it must be manually enabled by the "
+"internal user."
+msgstr ""
+"Nếu menu tiêu đề phụ không xuất hiện, người dùng nội bộ phải bật thủ công."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:41
+msgid ""
+"To do so, click the :guilabel:`Edit` button at the top. In the editor panel, "
+"click the :guilabel:`Customize` tab at the top, then enable "
+"the :guilabel:`Sub-menu (Specific)` setting. Finally, click :guilabel:`Save` "
+"to apply changes."
+msgstr ""
+"Để thực hiện, nhấp vào nút :guilabel:`Chỉnh sửa` ở trên cùng. Trong bảng "
+"điều khiển trình chỉnh sửa, nhấp vào tab :guilabel:`Tùy chỉnh` ở trên cùng, "
+"sau đó bật cài đặt :guilabel:`Menu phụ (Cụ thể)`. Cuối cùng, nhấp vào "
+":guilabel:`Lưu` để áp dụng thay đổi."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:51
+msgid "View talks"
+msgstr "Xem các buổi thuyết trình"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:53
+msgid ""
+"The *Talks* page displays a schedule of planned tracks for the event, sorted "
+"by date."
+msgstr ""
+"Trang *Buổi thuyết trình* hiển thị lịch trình các track đã lên kế hoạch cho "
+"sự kiện, được sắp xếp theo ngày."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+msgid ""
+"Visitors can mark a track as a *Favorite* by clicking the :icon:`fa-bell-"
+"o` :guilabel:`(empty bell)` icon to the right of the track title. A track "
+"marked as a *Favorite* appears with the :icon:`fa-bell` :guilabel:`(filled "
+"bell)` icon. Visitors can then :ref:`filter tracks by favorites <events/"
+"talks-proposals-agenda/filter-favorites>`."
+msgstr ""
+"Khách truy cập có thể đánh dấu một track là *Yêu thích* bằng cách nhấp vào "
+"biểu tượng :icon:`fa-bell-o` :guilabel:`(chuông rỗng)` ở bên phải tiêu đề "
+"track. Track được đánh dấu là *Yêu thích* sẽ xuất hiện với biểu tượng "
+":icon:`fa-bell` :guilabel:`(chuông đầy)`. Khách truy cập sau đó có thể "
+":ref:`lọc track theo mục yêu thích <events/talks-proposals-agenda/filter-"
+"favorites>`."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:60
+msgid ""
+"Additionally, visitors can also :ref:`filter tracks by their tags <events/"
+"talks-proposals-agenda/filter-tags>` (customized on each track's form)."
+msgstr ""
+"Ngoài ra, khách truy cập cũng có thể :ref:`lọc track theo thẻ của chúng "
+"<events/talks-proposals-agenda/filter-tags>` (được tùy chỉnh trên biểu mẫu "
+"của từng track)."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5587,74 +5756,105 @@ msgstr ""
 "Trang Chủ đề trên trang web sự kiện được xây dựng thông qua ứng dụng Sự kiện "
 "Odoo."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:42
-msgid ""
-"At the top of :guilabel:`Talks` page, there are drop-down filter menus "
-"beside a :guilabel:`Search a talk...` search bar."
-msgstr ""
-"Ở đầu trang :guilabel:`Chủ đề`, có các menu bộ lọc thả xuống bên cạnh thanh "
-"tìm kiếm :guilabel:`Tìm kiếm chủ đề...`."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:69
+msgid "Filter by favorites"
+msgstr "Lọc theo mục yêu thích"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:45
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:71
 msgid ""
-"The first drop-down filter menu (with the starting "
-"title: :guilabel:`Favorites`) is the only drop-down filter menu that appears "
-"by default. When clicked, the resulting menu presents two "
-"options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+"To filter the *Talks* page by any tracks marked as a *Favorite*, click on "
+"the :guilabel:`Favorites` drop-down menu."
 msgstr ""
-"Menu bộ lọc thả xuống đầu tiên (với tiêu đề ban đầu: :guilabel:`Yêu thích`) "
-"là menu bộ lọc thả xuống duy nhất xuất hiện theo mặc định. Khi nhấp vào, "
-"menu kết quả sẽ hiển thị hai tùy chọn: :guilabel:`Yêu thích` và "
-":guilabel:`Tất cả Chủ đề`."
+"Để lọc trang *Buổi thuyết trình* theo bất kỳ track nào được đánh dấu là *Yêu "
+"thích*, nhấp vào menu thả xuống :guilabel:`Yêu thích`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:49
-msgid ""
-"Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
-"favorited by the attendee."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:74
+msgid "Visitors can then choose one of two options:"
+msgstr "Khách truy cập sau đó có thể chọn một trong hai tùy chọn:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:76
+msgid ":guilabel:`Favorites`: shows **only** tracks marked as *Favorite*."
 msgstr ""
-"Chọn :guilabel:`Yêu thích` sẽ chỉ hiển thị các chủ đề đã được người tham dự "
-"đánh dấu yêu thích."
+":guilabel:`Yêu thích`: chỉ hiển thị các track được đánh dấu là *Yêu thích*."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:52
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+msgid ":guilabel:`All Talks`: shows **all** tracks."
+msgstr ":guilabel:`Tất cả buổi thuyết trình`: hiển thị **tất cả** các track."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
 msgid ""
-"If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
-"selected, Odoo presents all the event tracks."
+"If the visitor applies the :guilabel:`Favorites` option without having "
+"marked any tracks as a *Favorite*, all event tracks are displayed."
 msgstr ""
-"Nếu chưa có chủ đề nào được đánh dấu yêu thích và bộ lọc :guilabel:`Yêu "
-"thích` được chọn, Odoo sẽ hiển thị tất cả các chủ đề sự kiện."
+"Nếu khách truy cập áp dụng tùy chọn :guilabel:`Yêu thích` mà không đánh dấu "
+"bất kỳ chủ đề nào là *Yêu thích*, tất cả các chủ đề sự kiện sẽ được hiển thị."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:87
+msgid "Filter by tags"
+msgstr "Lọc theo thẻ"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:89
 msgid ""
-"Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
-"have been favorited or not."
+"If any tracks have tags and tag categories configured in the database "
+"during :ref:`track creation <events/event_tracks/create-track>`, additional "
+"drop-down filter menus will appear at the top of the page next to "
+"the :guilabel:`Favorites` drop-down, allowing users to filter tracks by tag "
+"categories."
 msgstr ""
-"Chọn :guilabel:`Tất cả Chủ đề` sẽ hiển thị tất cả các chủ đề, bất kể chúng "
-"đã được đánh dấu yêu thích hay chưa."
+"Nếu bất kỳ chủ đề nào có thẻ và danh mục thẻ được cấu hình trong cơ sở dữ "
+"liệu trong quá trình :ref:`tạo chủ đề <events/event_tracks/create-track>`, "
+"các menu bộ lọc thả xuống bổ sung sẽ xuất hiện ở đầu trang bên cạnh menu thả "
+"xuống :guilabel:`Yêu thích`, cho phép người dùng lọc chủ đề theo danh mục "
+"thẻ."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:58
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
 msgid ""
-"The other drop-down filter menus that appear on this page are related to any "
-"configured tags (and tag categories) created for event tracks in the backend."
+"To add tags and tag categories to track forms, navigate to the **Events** "
+"app and open the desired event. Click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button and open the desired event track."
 msgstr ""
-"Các menu bộ lọc thả xuống khác xuất hiện trên trang này liên quan đến bất kỳ "
-"thẻ (và danh mục thẻ) đã được cấu hình nào được tạo cho các chủ đề sự kiện "
-"trong hệ thống."
+"Để thêm thẻ và danh mục thẻ vào biểu mẫu chủ đề, điều hướng đến ứng dụng "
+"**Sự kiện** và mở sự kiện mong muốn. Nhấp vào nút thông minh :icon:`fa-"
+"microphone` :guilabel:`Chủ đề` và mở chủ đề sự kiện mong muốn."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:62
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:98
 msgid ""
-"To add tags and tag categories to track forms, open a desired event track "
-"form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+"On the track form, type a new tag in the :guilabel:`Tags` field. Then, "
 "click :guilabel:`Create and edit...` from the resulting drop-down menu."
 msgstr ""
-"Để thêm thẻ và danh mục thẻ vào biểu mẫu chủ đề, mở biểu mẫu chủ đề sự kiện "
-"mong muốn và bắt đầu nhập thẻ mới vào trường :guilabel:`Thẻ`. Sau đó, nhấp "
-":guilabel:`Tạo và chỉnh sửa...` từ menu thả xuống kết quả."
+"Trên biểu mẫu chủ đề, nhập thẻ mới vào trường :guilabel:`Thẻ`. Sau đó, nhấp "
+"vào :guilabel:`Tạo và chỉnh sửa...` từ menu thả xuống xuất hiện."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:66
-msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
-msgstr "Làm như vậy sẽ hiển thị biểu mẫu bật lên :guilabel:`Tạo Thẻ`."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+msgid ""
+"Doing so reveals a :guilabel:`Create Tags` pop-up form with the following "
+"fields:"
+msgstr ""
+"Thao tác này sẽ hiển thị biểu mẫu bật lên :guilabel:`Tạo thẻ` với các trường "
+"sau:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:103
+msgid ""
+":guilabel:`Tag Name`: The name of the tag. This field is already populated."
+msgstr ":guilabel:`Tên thẻ`: Tên của thẻ. Trường này đã được điền sẵn."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+msgid ""
+":guilabel:`Color Index`: The color of the track associated with this tag, "
+"displayed on the website."
+msgstr ""
+":guilabel:`Chỉ số màu`: Màu của chủ đề liên kết với thẻ này, hiển thị trên "
+"trang web."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:106
+msgid ""
+":guilabel:`Category`: The category of the tag. This category appears as the "
+"drop-down filter menu on the *Talks* page."
+msgstr ""
+":guilabel:`Danh mục`: Danh mục của thẻ. Danh mục này xuất hiện dưới dạng "
+"menu bộ lọc thả xuống trên trang *Bài nói chuyện*."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:0
 msgid ""
 "The Create Tags pop-up form that coincides with drop-down filter menus on "
 "Talks page."
@@ -5662,80 +5862,27 @@ msgstr ""
 "Biểu mẫu bật lên Tạo Thẻ đi kèm với các menu bộ lọc thả xuống trên trang Chủ "
 "đề."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:72
-msgid ""
-"From here, users see the recently added tag in the :guilabel:`Tag Name` "
-"field. Beneath that, there is an option to add a specific :guilabel:`Color "
-"Index` to the tag for added organization."
-msgstr ""
-"Từ đây, người dùng sẽ thấy thẻ vừa thêm trong trường :guilabel:`Tên Thẻ`. "
-"Bên dưới đó, có tùy chọn thêm :guilabel:`Chỉ số Màu` cụ thể cho thẻ để tổ "
-"chức tốt hơn."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:115
+msgid "Propose talks"
+msgstr "Đề xuất bài nói chuyện"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:75
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
 msgid ""
-"Lastly, there is the :guilabel:`Category` field, where users can either "
-"select a pre-existing category for this new tag, or create a new one."
+"The *Talk Proposals* page allows visitors to submit a proposal for a talk "
+"via a custom online form."
 msgstr ""
-"Cuối cùng, có trường :guilabel:`Danh mục`, nơi người dùng có thể chọn danh "
-"mục có sẵn cho thẻ mới này hoặc tạo danh mục mới."
+"Trang *Đề xuất bài nói chuyện* cho phép khách truy cập gửi đề xuất cho một "
+"bài nói chuyện thông qua biểu mẫu trực tuyến tùy chỉnh."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
 msgid ""
-"All options in the :guilabel:`Category` field for tags appear as their own "
-"drop-down filter menu on the :guilabel:`Talks` page, located on the event "
-"website."
+"By default, the *Talk Proposals* page is automatically generated by Odoo. If "
+"needed, internal users can :doc:`edit <../../../websites/website/web_design/"
+"elements>` any part of the page, including the proposal form."
 msgstr ""
-"Tất cả các tùy chọn trong trường :guilabel:`Danh mục` cho thẻ sẽ xuất hiện "
-"dưới dạng menu bộ lọc thả xuống riêng trên trang :guilabel:`Chủ đề`, nằm "
-"trên trang web sự kiện."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
-msgid ""
-"Beneath the drop-down filter menus at the top of the :guilabel:`Talks` page, "
-"there is a list of planned tracks for the specific event, organized by day."
-msgstr ""
-"Bên dưới các menu bộ lọc thả xuống ở đầu trang :guilabel:`Chủ đề`, có danh "
-"sách các chủ đề đã lên lịch cho sự kiện cụ thể, được sắp xếp theo ngày."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:84
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:141
-msgid ""
-"If an attendee wishes to favorite a track, they can click the :icon:`fa-bell-"
-"o` :guilabel:`(empty bell)` icon, located to the right of the track title. "
-"Attendees will know a track has been favorited when they notice the icon has "
-"been changed to :icon:`fa-bell` :guilabel:`(filled bell)` icon."
-msgstr ""
-"Nếu người tham dự muốn đánh dấu yêu thích một chủ đề, họ có thể nhấp vào "
-"biểu tượng :icon:`fa-bell-o` :guilabel:`(chuông rỗng)`, nằm ở bên phải tiêu "
-"đề chủ đề. Người tham dự sẽ biết một chủ đề đã được đánh dấu yêu thích khi "
-"nhận thấy biểu tượng đã được thay đổi thành biểu tượng :icon:`fa-bell` "
-":guilabel:`(chuông đầy)`."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:88
-msgid ""
-"Favoriting a track this way places it on the list of :guilabel:`Favorites`, "
-"which is accessible from the default drop-down filter menu, located at the "
-"top of the :guilabel:`Talks` page."
-msgstr ""
-"Đánh dấu yêu thích một chủ đề theo cách này sẽ đưa nó vào danh sách "
-":guilabel:`Yêu thích`, có thể truy cập từ menu bộ lọc thả xuống mặc định, "
-"nằm ở đầu trang :guilabel:`Chủ đề`."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:92
-msgid "Talk Proposals page"
-msgstr "Trang Đề xuất Chủ đề"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
-msgid ""
-"The :guilabel:`Talk Proposals` link takes attendees to a page on the event "
-"website, wherein they can formerly submit a proposal for a talk "
-"(:dfn:`track`) for the event, via a custom online form."
-msgstr ""
-"Liên kết :guilabel:`Talk Proposals` đưa người tham dự đến một trang trên "
-"trang web sự kiện, nơi họ có thể chính thức gửi đề xuất cho một bài thuyết "
-"trình (:dfn:`track`) cho sự kiện, thông qua một biểu mẫu trực tuyến tùy "
-"chỉnh."
+"Theo mặc định, trang *Đề xuất bài nói chuyện* được Odoo tự động tạo. Nếu "
+"cần, người dùng nội bộ có thể :doc:`chỉnh sửa <../../../websites/website/"
+"web_design/elements>` bất kỳ phần nào của trang, bao gồm cả biểu mẫu đề xuất."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5745,101 +5892,85 @@ msgstr ""
 "Trang Talk Proposals trên trang web sự kiện được xây dựng bằng ứng dụng Odoo "
 "Events."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:127
 msgid ""
-"In addition to the form, an introduction to the page, along with any other "
-"pertinent information related to the types of talks the event will feature "
-"can be added, if needed."
+"To submit their proposal, visitors fill out the form, then click "
+"the :guilabel:`Submit Proposal` button."
 msgstr ""
-"Ngoài biểu mẫu, có thể thêm phần giới thiệu về trang, cùng với bất kỳ thông "
-"tin liên quan nào khác về các loại bài thuyết trình mà sự kiện sẽ có, nếu "
-"cần."
+"Để gửi đề xuất của họ, khách truy cập điền vào biểu mẫu, sau đó nhấp vào nút "
+":guilabel:`Gửi đề xuất`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:130
 msgid ""
-"The talk proposal form can be modified in a number of different ways, via "
-"the web builder tools, accessible by clicking :guilabel:`Edit` while on the "
-"specific page."
+"Doing so creates a new track form in the database. Internal users can access "
+"it by navigating to the **Events** app, clicking the relevant event, and "
+"selecting the :icon:`fa-microphone` :guilabel:`Tracks` smart button. The "
+"newly-proposed talk now appears as a new track in the :guilabel:`Proposal` "
+"stage."
 msgstr ""
-"Biểu mẫu đề xuất bài thuyết trình có thể được chỉnh sửa theo nhiều cách khác "
-"nhau, thông qua các công cụ xây dựng web, có thể truy cập bằng cách nhấp vào "
-":guilabel:`Edit` khi đang ở trên trang cụ thể."
+"Thao tác này sẽ tạo một biểu mẫu chủ đề mới trong cơ sở dữ liệu. Người dùng "
+"nội bộ có thể truy cập nó bằng cách điều hướng đến ứng dụng **Sự kiện**, "
+"nhấp vào sự kiện liên quan và chọn nút thông minh :icon:`fa-microphone` "
+":guilabel:`Chủ đề`. Bài nói chuyện được đề xuất mới bây giờ xuất hiện dưới "
+"dạng chủ đề mới trong giai đoạn :guilabel:`Đề xuất`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:107
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:135
 msgid ""
-"Then, proceed to edit any of the default fields, or add new forms with "
-"the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
-"section of the web builder tools sidebar)."
+"At this point, an internal user can review the proposed talk and accept or "
+"deny the proposal by moving the track to the appropriate stage in the "
+"pipeline."
 msgstr ""
-"Sau đó, tiến hành chỉnh sửa bất kỳ trường mặc định nào hoặc thêm biểu mẫu "
-"mới bằng khối xây dựng :guilabel:`Form` (nằm trong phần :guilabel:`Blocks` "
-"của thanh bên công cụ xây dựng web)."
+"Tại thời điểm này, người dùng nội bộ có thể xem xét bài nói chuyện được đề "
+"xuất và chấp nhận hoặc từ chối đề xuất bằng cách di chuyển chủ đề đến giai "
+"đoạn thích hợp trong quy trình."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:110
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
 msgid ""
-"Once all the necessary information is entered into the form, the attendees "
-"just need to click the :guilabel:`Submit Proposal` button."
+"If accepted, the internal user can publish the track on the event website by "
+"clicking the :guilabel:`Go to Website` smart button and toggling "
+"the :guilabel:`Unpublished` switch at the top to :guilabel:`Published`."
 msgstr ""
-"Sau khi nhập tất cả thông tin cần thiết vào biểu mẫu, người tham dự chỉ cần "
-"nhấp vào nút :guilabel:`Submit Proposal`."
+"Nếu được chấp nhận, người dùng nội bộ có thể xuất bản chủ đề trên trang web "
+"sự kiện bằng cách nhấp vào nút thông minh :guilabel:`Đi đến trang web` và "
+"chuyển đổi công tắc :guilabel:`Chưa xuất bản` ở đầu trang thành "
+":guilabel:`Đã xuất bản`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:113
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:142
+msgid "Visitors can then see the track on the *Talks* page."
+msgstr "Khách truy cập sau đó có thể xem chủ đề trên trang *Bài nói chuyện*."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:147
+msgid "View agenda"
+msgstr "Xem lịch trình"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:149
 msgid ""
-"Then, that talk, and all the information entered on the form, can be "
-"accessed on the :guilabel:`Event Tracks` page for that specific event in "
-"the :guilabel:`Proposal` stage, which is accessible via "
-"the :guilabel:`Tracks` smart button on the event form."
+"The *Agenda* page displays an event calendar, showing each talk's specified "
+"location by column and its scheduled time by row."
 msgstr ""
-"Sau đó, bài thuyết trình đó và tất cả thông tin được nhập vào biểu mẫu có "
-"thể được truy cập trên trang :guilabel:`Event Tracks` cho sự kiện cụ thể đó "
-"ở giai đoạn :guilabel:`Proposal`, có thể truy cập thông qua nút thông minh "
-":guilabel:`Tracks` trên biểu mẫu sự kiện."
+"Trang *Lịch trình* hiển thị lịch sự kiện, hiển thị vị trí cụ thể của mỗi bài "
+"nói chuyện theo cột và thời gian theo lịch trình theo hàng."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:152
 msgid ""
-"At that point, an internal user can review the proposed talk, and choose to "
-"accept or deny the proposal."
+"Visitors can click any track on the calendar to open the track's specific "
+"page on the website."
 msgstr ""
-"Tại thời điểm đó, người dùng nội bộ có thể xem xét bài thuyết trình được đề "
-"xuất và chọn chấp nhận hoặc từ chối đề xuất."
+"Khách truy cập có thể nhấp vào bất kỳ chủ đề nào trên lịch để mở trang cụ "
+"thể của chủ đề trên trang web."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:155
 msgid ""
-"If accepted, the internal user can then move the track to the next "
-"appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
-"page for the event. Then, they can open that track form, and click "
-"the :guilabel:`Go to Website` smart button to reveal that track's page on "
-"the event website."
+"A talk's location can be found on its track form. To find it, navigate to "
+"**Events** app, click on the relevant event, click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button, and select the desired track. "
+"In the track form, view or modify the :guilabel:`Location` field."
 msgstr ""
-"Nếu được chấp nhận, người dùng nội bộ sau đó có thể di chuyển track sang "
-"giai đoạn phù hợp tiếp theo trong quy trình Kanban trên trang "
-":guilabel:`Event Tracks` cho sự kiện. Sau đó, họ có thể mở biểu mẫu track đó "
-"và nhấp vào nút thông minh :guilabel:`Go to Website` để hiển thị trang của "
-"track đó trên trang web sự kiện."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:125
-msgid ""
-"From there, they can toggle the :guilabel:`Unpublished` switch in the header "
-"to :guilabel:`Published`, which allows all event attendees to view and "
-"access the talk."
-msgstr ""
-"Từ đó, họ có thể chuyển đổi công tắc :guilabel:`Unpublished` trong tiêu đề "
-"thành :guilabel:`Published`, cho phép tất cả người tham dự sự kiện xem và "
-"truy cập bài thuyết trình."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:129
-msgid "Agenda page"
-msgstr "Trang Agenda"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:131
-msgid ""
-"The :guilabel:`Agenda` link takes attendees to a page on the event website, "
-"showcasing an event calendar, depicting when (and where) events are taking "
-"place for that specific event."
-msgstr ""
-"Liên kết :guilabel:`Agenda` đưa người tham dự đến một trang trên trang web "
-"sự kiện, trình bày lịch sự kiện, mô tả thời gian (và địa điểm) các sự kiện "
-"diễn ra cho sự kiện cụ thể đó."
+"Vị trí của bài nói chuyện có thể được tìm thấy trên biểu mẫu chủ đề của nó. "
+"Để tìm nó, điều hướng đến ứng dụng **Sự kiện**, nhấp vào sự kiện liên quan, "
+"nhấp vào nút thông minh :icon:`fa-microphone` :guilabel:`Chủ đề` và chọn chủ "
+"đề mong muốn. Trong biểu mẫu chủ đề, xem hoặc sửa đổi trường :guilabel:`Vị "
+"trí`."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5848,14 +5979,6 @@ msgid ""
 msgstr ""
 "Trang Agenda sự kiện trên trang web sự kiện được xây dựng bằng ứng dụng Odoo "
 "Events."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
-msgid ""
-"Clicking any track on the calendar takes the attendee to that specific "
-"track's detail page on the event website."
-msgstr ""
-"Nhấp vào bất kỳ track nào trên lịch sẽ đưa người tham dự đến trang chi tiết "
-"của track cụ thể đó trên trang web sự kiện."
 
 #: ../../content/applications/marketing/events/event_reporting.rst:6
 #: ../../content/applications/marketing/marketing_automation.rst:188
@@ -10380,17 +10503,19 @@ msgstr ":guilabel:`E-mail` :guilabel:`je nastaven`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:50
 msgid ":guilabel:`Blacklist` :guilabel:`is not` :guilabel:`set`"
-msgstr ""
+msgstr ":guilabel:`Danh sách chặn` :guilabel:`không được` :guilabel:`đặt`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:51
 msgid ":guilabel:`Mailing lists` :guilabel:`contains` `Newsletter`"
-msgstr ""
+msgstr ":guilabel:`Danh sách gửi thư` :guilabel:`chứa` `Newsletter`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:53
 msgid ""
 "\\* The :guilabel:`Responsible` field is only visible with :ref:`developer-"
 "mode` activated."
 msgstr ""
+"\\* Trường :guilabel:`Người phụ trách` chỉ hiển thị khi :ref:`developer-"
+"mode` được kích hoạt."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:56
 msgid ""
@@ -10399,12 +10524,18 @@ msgid ""
 "the :guilabel:`Workflow` invalidates the existing activities in "
 "the :guilabel:`Workflow`."
 msgstr ""
+":guilabel:`Mô hình mục tiêu` của chiến dịch **không** nên được sửa đổi. Thay "
+"đổi :guilabel:`Mô hình mục tiêu` với các hoạt động trong :guilabel:`Quy "
+"trình làm việc` sẽ làm mất hiệu lực các hoạt động hiện có trong "
+":guilabel:`Quy trình làm việc`."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:60
 msgid ""
 "The *Double Opt-in* campaign template is intended to **only** use "
 "the :guilabel:`Mailing Contact` model."
 msgstr ""
+"Mẫu chiến dịch *Double Opt-in* được thiết kế để **chỉ** sử dụng mô hình "
+":guilabel:`Liên hệ gửi thư`."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:63
 msgid ""
@@ -10412,6 +10543,9 @@ msgid ""
 "campaign: an email activity, with a child server action activity that "
 "triggers *on click*."
 msgstr ""
+"Chiến dịch tải hai hoạt động trong phần :guilabel:`Quy trình làm việc` của "
+"chiến dịch: một hoạt động email, với một hoạt động hành động máy chủ con "
+"kích hoạt *khi nhấp chuột*."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:66
 msgid ""
@@ -10419,12 +10553,18 @@ msgid ""
 "Hours` after the beginning of the workflow. In other words, the email is "
 "sent 1 hour after a new contact is added to the *Newsletter* mailing list."
 msgstr ""
+"Theo mặc định, hoạt động email `Confirmation` được thiết lập để kích hoạt "
+":guilabel:`1 Giờ` sau khi bắt đầu quy trình làm việc. Nói cách khác, email "
+"được gửi 1 giờ sau khi một liên hệ mới được thêm vào danh sách gửi thư "
+"*Newsletter*."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:70
 msgid ""
 "The email activity uses the preconfigured *Confirmation* email template, "
 "which contains a button for the contact to click to confirm their consent."
 msgstr ""
+"Hoạt động email sử dụng mẫu email *Confirmation* được cấu hình sẵn, chứa một "
+"nút để liên hệ nhấp vào nhằm xác nhận sự đồng ý của họ."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:73
 msgid ""
@@ -10432,6 +10572,9 @@ msgid ""
 "o` :guilabel:`Templates` smart button at the top of the campaign form. Then, "
 "in the list of templates, select the `Confirmation` email template."
 msgstr ""
+"Để sửa đổi mẫu email, chọn nút thông minh :icon:`fa-envelope-o` "
+":guilabel:`Mẫu` ở đầu biểu mẫu chiến dịch. Sau đó, trong danh sách các mẫu, "
+"chọn mẫu email `Confirmation`."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:77
 msgid ""
@@ -10439,6 +10582,8 @@ msgid ""
 "recommended to keep the contents of double opt-in confirmation emails short "
 "and to-the-point."
 msgstr ""
+"Hãy nhớ cá nhân hóa nội dung của mẫu email; tuy nhiên, bạn nên giữ nội dung "
+"của các email xác nhận double opt-in ngắn gọn và súc tích."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:80
 msgid ""
@@ -10446,6 +10591,8 @@ msgid ""
 "to the database's website homepage. Click on the button to edit the button "
 "text and URL."
 msgstr ""
+"Nút xác nhận mặc định, trong nội dung của mẫu, liên kết trực tiếp đến trang "
+"chủ website của cơ sở dữ liệu. Nhấp vào nút để chỉnh sửa văn bản nút và URL."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:84
 msgid ""
@@ -10455,18 +10602,26 @@ msgid ""
 "mailing list. Add the link to that page in the URL of the confirmation "
 "button."
 msgstr ""
+"Để mang lại trải nghiệm liền mạch cho liên hệ, hãy cân nhắc :doc:`tạo một "
+"trang trên website <../../../websites/website/structure/pages>` thể hiện "
+"lòng biết ơn đối với liên hệ vì đã xác nhận đăng ký danh sách gửi thư của "
+"họ. Thêm liên kết đến trang đó vào URL của nút xác nhận."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:90
 msgid ""
 "The email template should only include a single call-to-action link for "
 "confirmation, other than an unsubscribe link."
 msgstr ""
+"Mẫu email chỉ nên bao gồm một liên kết kêu gọi hành động duy nhất để xác "
+"nhận, ngoài liên kết hủy đăng ký."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:93
 msgid ""
 "Any click on a link (or button) included in the confirmation email, besides "
 "the unsubscribe button, triggers the *Add to list* server action."
 msgstr ""
+"Mọi lần nhấp vào liên kết (hoặc nút) có trong email xác nhận, ngoại trừ nút "
+"hủy đăng ký, sẽ kích hoạt hành động máy chủ *Add to list*."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:96
 msgid ""
@@ -10475,12 +10630,18 @@ msgid ""
 "unsubscribe_from_list` unsubscribe button that is included in any one of the "
 "footer blocks."
 msgstr ""
+"Trình kích hoạt *Khi nhấp chuột* của hoạt động hành động máy chủ con *Add to "
+"list* không thể phân biệt giữa nhiều URL trong một email, ngoại trừ nút hủy "
+"đăng ký `/unsubscribe_from_list` được bao gồm trong bất kỳ khối chân trang "
+"nào."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:100
 msgid ""
 "The `Add to list` server action activity triggers immediately after a click "
 "in the parent `Confirmation` email activity is detected."
 msgstr ""
+"Hoạt động hành động máy chủ `Add to list` kích hoạt ngay lập tức sau khi "
+"phát hiện một lần nhấp chuột trong hoạt động email cha `Confirmation`."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:103
 msgid ""
@@ -10488,6 +10649,9 @@ msgid ""
 "List* server action, automatically adding the contact to the *Confirmed "
 "contacts* mailing list, if they are not already in the mailing list."
 msgstr ""
+"Khi được kích hoạt, hoạt động `Add to list` thực thi hành động máy chủ *Add "
+"To Confirmed List*, tự động thêm liên hệ vào danh sách gửi thư *Confirmed "
+"contacts*, nếu họ chưa có trong danh sách gửi thư."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:107
 msgid ""
@@ -10495,12 +10659,17 @@ msgid ""
 "the :guilabel:`Open: Activities` pop-up window and edit the server action "
 "activities configuration."
 msgstr ""
+"Để sửa đổi hành động máy chủ, chọn tiêu đề của hoạt động để mở cửa sổ bật "
+"lên :guilabel:`Mở: Hoạt động` và chỉnh sửa cấu hình hoạt động hành động máy "
+"chủ."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:111
 msgid ""
 "Consider setting an :guilabel:`Expiry Duration` to prevent executing the "
 "activity after a specific amount of time."
 msgstr ""
+"Hãy cân nhắc thiết lập :guilabel:`Thời lượng hết hạn` để ngăn thực thi hoạt "
+"động sau một khoảng thời gian cụ thể."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:115
 msgid ""
@@ -10508,6 +10677,9 @@ msgid ""
 "the :guilabel:`Add To Confirmed List` server action, as doing so may trigger "
 "a change in the database's pricing plan."
 msgstr ""
+"Không khuyến nghị sửa đổi mã Python được cấu hình sẵn trong hành động máy "
+"chủ :guilabel:`Add To Confirmed List`, vì làm như vậy có thể kích hoạt thay "
+"đổi trong gói định giá của cơ sở dữ liệu."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:118
 msgid ""
@@ -12348,7 +12520,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_card.rst:3
 msgid "Marketing Card"
-msgstr ""
+msgstr "Thẻ Marketing"
 
 #: ../../content/applications/marketing/marketing_card.rst:5
 msgid ""
@@ -12359,10 +12531,16 @@ msgid ""
 "reach by emailing cards to recipients in bulk and allow recipients to share "
 "the cards to their own networks."
 msgstr ""
+"Ứng dụng **Thẻ Marketing** cho phép người dùng tạo và quản lý các chiến dịch "
+"quảng cáo với thẻ kỹ thuật số được cá nhân hóa cũng như xem phân tích về "
+"hiệu suất chiến dịch của họ. Các nhà tiếp thị sự kiện có thể thiết kế các "
+"mẫu thẻ động bằng cách sử dụng các bố cục khác nhau. Họ cũng có thể mở rộng "
+"phạm vi tiếp cận bằng cách gửi email thẻ hàng loạt cho người nhận và cho "
+"phép người nhận chia sẻ thẻ đến mạng lưới của chính họ."
 
 #: ../../content/applications/marketing/marketing_card.rst:14
 msgid "Card campaigns"
-msgstr ""
+msgstr "Chiến dịch thẻ"
 
 #: ../../content/applications/marketing/marketing_card.rst:16
 msgid ""
@@ -12374,10 +12552,17 @@ msgid ""
 "campaigns, along with icons displaying each campaign's :ref:`performance "
 "metrics <marketing_card/metrics>`."
 msgstr ""
+"Để xem bảng điều khiển của tất cả các chiến dịch thẻ đã tạo, điều hướng đến "
+"ứng dụng **Thẻ Marketing**. Theo mặc định, các chiến dịch thẻ xuất hiện "
+"trong chế độ xem :icon:`oi-view-list` :guilabel:`Danh sách`, cung cấp cho "
+"người dùng thông tin chi tiết về từng chiến dịch. Ngoài ra, chế độ xem "
+":icon:`oi-view-kanban` :guilabel:`Kanban` cung cấp cho người dùng chế độ xem "
+"dạng thẻ của tất cả các chiến dịch, cùng với các biểu tượng hiển thị "
+":ref:`chỉ số hiệu suất <marketing_card/metrics>` của từng chiến dịch."
 
 #: ../../content/applications/marketing/marketing_card.rst:25
 msgid "Create a campaign"
-msgstr ""
+msgstr "Tạo một chiến dịch"
 
 #: ../../content/applications/marketing/marketing_card.rst:27
 msgid ""
@@ -12387,6 +12572,11 @@ msgid ""
 "the :ref:`campaign message <marketing_card/create-campaign/recipient-"
 "message>`."
 msgstr ""
+"Để tạo một chiến dịch, nhấp :guilabel:`Mới`. Thao tác này sẽ mở một biểu mẫu "
+"chiến dịch mới, cho phép người dùng cấu hình thông tin chiến dịch, thiết kế "
+":ref:`bố cục thẻ <marketing_card/create-campaign/card-layout>`, và tùy chỉnh "
+":ref:`thông điệp chiến dịch <marketing_card/create-campaign/recipient-"
+"message>`."
 
 #: ../../content/applications/marketing/marketing_card.rst:None
 msgid "New marketing card campaign form in Odoo Marketing Card."
@@ -14811,11 +15001,11 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/sms_configuration.rst:138
 msgid ":doc:`twilio`"
-msgstr ""
+msgstr ":doc:`twilio`"
 
 #: ../../content/applications/marketing/sms_marketing/sms_configuration.rst:139
 msgid ":doc:`pricing_and_faq`"
-msgstr ""
+msgstr ":doc:`pricing_and_faq`"
 
 #: ../../content/applications/marketing/sms_marketing/twilio.rst:4
 msgid "SMS via Twilio"
@@ -15832,6 +16022,10 @@ msgid ""
 "layout. Each line of the list displays the :guilabel:`Social "
 "Accounts`, :guilabel:`Message`, and :guilabel:`Status` of every post."
 msgstr ""
+"Tùy chọn xem dạng danh sách tương tự như tùy chọn kanban, nhưng thay vì các "
+"khối riêng lẻ, tất cả thông tin bài đăng được hiển thị trong bố cục danh "
+"sách rõ ràng. Mỗi dòng của danh sách hiển thị :guilabel:`Tài khoản mạng xã "
+"hội`, :guilabel:`Tin nhắn` và :guilabel:`Trạng thái` của mỗi bài đăng."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:58
 msgid ""
@@ -15839,16 +16033,23 @@ msgid ""
 "by :guilabel:`Status` and lists all connected :guilabel:`Social Accounts`, "
 "as well."
 msgstr ""
+"Ngoài ra còn có một thanh bên trái hữu ích giúp tổ chức tất cả bài đăng theo "
+":guilabel:`Trạng thái` và liệt kê tất cả :guilabel:`Tài khoản mạng xã hội` "
+"đã kết nối."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:61
 msgid ""
 "The list view is represented by four vertical lines in the upper-right "
 "corner."
 msgstr ""
+"Chế độ xem danh sách được biểu thị bằng bốn đường thẳng đứng ở góc trên bên "
+"phải."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:0
 msgid "View of the list option on the posts page in Odoo Social Marketing."
 msgstr ""
+"Chế độ xem trang bài đăng dạng danh sách trong Odoo Marketing trên Mạng xã "
+"hội."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:67
 msgid "Pivot view"
@@ -15859,22 +16060,29 @@ msgid ""
 "The pivot view option provides a fully customizable grid table, where "
 "different measures of data can be added and analyzed."
 msgstr ""
+"Tùy chọn chế độ xem pivot cung cấp bảng lưới hoàn toàn có thể tùy chỉnh, "
+"trong đó có thể thêm và phân tích các thước đo dữ liệu khác nhau."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:0
 msgid "View of the pivot option on the posts page in Odoo Social Marketing."
 msgstr ""
+"Chế độ xem trang bài đăng dạng pivot trong Odoo Marketing trên Mạng xã hội."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:76
 msgid ""
 "The pivot view option provides numerous analytical options, allowing for in-"
 "depth, detailed analysis of various posts and metrics."
 msgstr ""
+"Tùy chọn chế độ xem pivot cung cấp nhiều tùy chọn phân tích, cho phép phân "
+"tích chi tiết, chuyên sâu các bài đăng và số liệu khác nhau."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:79
 msgid ""
 "Click on any :icon:`fa-plus` :guilabel:`(plus sign)` next to a line in the "
 "pivot table to reveal more metric options to add to the grid."
 msgstr ""
+"Nhấp vào bất kỳ :icon:`fa-plus` :guilabel:`dấu cộng` nào bên cạnh một dòng "
+"trong bảng trục để hiển thị thêm các tùy chọn chỉ số để thêm vào lưới."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:82
 msgid ""
@@ -15882,33 +16090,42 @@ msgid ""
 "available, located to the right of the :guilabel:`Measures` drop-down menu, "
 "in the upper-left corner of the :guilabel:`Social Posts` page."
 msgstr ""
+"Trong chế độ xem pivot, có sẵn tùy chọn :guilabel:`Chèn vào bảng tính`, nằm "
+"ở bên phải menu thả xuống :guilabel:`Thước đo`, ở góc trên bên trái của "
+"trang :guilabel:`Bài đăng mạng xã hội`."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:86
 msgid ""
 "Next to the :guilabel:`Insert in Spreadsheet` are three options, specific to "
 "the pivot view."
 msgstr ""
+"Bên cạnh :guilabel:`Chèn vào bảng tính` là ba tùy chọn dành riêng cho chế độ "
+"xem pivot."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:88
 msgid "From left to right, those options are:"
-msgstr ""
+msgstr "Từ trái sang phải, các tùy chọn đó là:"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:90
 msgid ""
 ":guilabel:`Flip Axis`, which switches the *X* and *Y* axis in the grid table."
-msgstr ""
+msgstr ":guilabel:`Đảo trục`, chuyển đổi trục *X* và *Y* trong bảng lưới."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:91
 msgid ""
 ":guilabel:`Expand All`, which expands each line in the grid, revealing more "
 "detailed information related to it."
 msgstr ""
+":guilabel:`Mở rộng tất cả`, mở rộng từng dòng trong lưới, hiển thị thông tin "
+"chi tiết hơn liên quan đến dòng đó."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:93
 msgid ""
 ":guilabel:`Download`, which, when clicked, instantly downloads the pivot "
 "table as a spreadsheet."
 msgstr ""
+":guilabel:`Tải xuống`, khi nhấp vào, sẽ ngay lập tức tải xuống bảng pivot "
+"dưới dạng bảng tính."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:97
 msgid "Posts"
@@ -15920,12 +16137,17 @@ msgid ""
 "showcasing the content of that specific post, along with all the engagement "
 "data related to it (e.g. likes, comments, etc.)."
 msgstr ""
+"Nhấp vào một bài đăng từ luồng mạng xã hội sẽ hiển thị cửa sổ bật lên, trình "
+"bày nội dung của bài đăng cụ thể đó cùng với tất cả dữ liệu tương tác liên "
+"quan (ví dụ: lượt thích, bình luận, v.v.)."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:None
 msgid ""
 "Sample of a social media post's pop-up window in Odoo Social Marketing "
 "application."
 msgstr ""
+"Mẫu cửa sổ bật lên của bài đăng trên mạng xã hội trong ứng dụng Marketing "
+"trên Mạng xã hội của Odoo."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:105
 msgid ""
@@ -15933,16 +16155,21 @@ msgid ""
 "up window, by typing one in the :guilabel:`Write a comment...` field, and "
 "clicking :guilabel:`Enter` to post that comment."
 msgstr ""
+"Nếu muốn, người dùng có thể để lại bình luận mới cho bài đăng từ cửa sổ bật "
+"lên của bài đăng bằng cách nhập vào trường :guilabel:`Viết bình luận...` và "
+"nhấp vào :guilabel:`Enter` để đăng bình luận đó."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:110
 msgid "Create leads from comments"
-msgstr ""
+msgstr "Tạo khách hàng tiềm năng từ bình luận"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:112
 msgid ""
 "Odoo *Social Marketing* also provides the ability to create leads directly "
 "from social media comments."
 msgstr ""
+"Odoo *Marketing trên Mạng xã hội* cũng cung cấp khả năng tạo khách hàng tiềm "
+"năng trực tiếp từ các bình luận trên mạng xã hội."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:115
 msgid ""
@@ -15951,11 +16178,17 @@ msgid ""
 "window. Then, scroll to the desired comment, and click the :guilabel:`three "
 "vertical dots` icon to the right of that comment."
 msgstr ""
+"Để tạo khách hàng tiềm năng từ bình luận được để lại trên bài đăng mạng xã "
+"hội, hãy nhấp vào bài đăng mong muốn từ bảng điều khiển để hiển thị cửa sổ "
+"bật lên cụ thể của bài đăng đó. Sau đó, cuộn đến bình luận mong muốn và nhấp "
+"vào biểu tượng :guilabel:`ba chấm dọc` ở bên phải bình luận đó."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:119
 msgid ""
 "Doing so reveals a drop-down menu with the option: :guilabel:`Create Lead`."
 msgstr ""
+"Khi làm như vậy, một menu thả xuống sẽ hiển thị với tùy chọn: :guilabel:`Tạo "
+"khách hàng tiềm năng`."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:None
 msgid ""
@@ -15968,6 +16201,9 @@ msgid ""
 "Upon clicking :guilabel:`Create Lead` from the comment's drop-down menu, "
 "a :guilabel:`Convert Post to Lead` pop-up window appears."
 msgstr ""
+"Sau khi nhấp :guilabel:`Tạo Khách hàng Tiềm năng` từ menu thả xuống của bình "
+"luận, một cửa sổ bật lên :guilabel:`Chuyển Đổi Bài Viết thành Khách hàng "
+"Tiềm năng` sẽ xuất hiện."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:None
 msgid ""
@@ -16096,6 +16332,10 @@ msgid ""
 "the :menuselection:`Social Marketing app`, and click :guilabel:`New Post` "
 "located in the upper-right corner of the *Social Marketing* dashboard."
 msgstr ""
+"Để tạo nội dung cho các tài khoản mạng xã hội, điều hướng đến "
+":menuselection:`ứng dụng Marketing trên Mạng xã hội`, và nhấp :guilabel:`Bài "
+"Viết Mới` nằm ở góc trên bên phải của bảng điều khiển *Marketing trên Mạng "
+"xã hội*."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:None
 msgid ""
@@ -16344,6 +16584,9 @@ msgid ""
 "start typing the name of the new campaign in the blank :guilabel:`Campaign` "
 "field, and select either :guilabel:`Create` or :guilabel:`Create and edit`."
 msgstr ""
+"Để tạo một chiến dịch mới trực tiếp từ biểu mẫu chi tiết bài viết mạng xã "
+"hội, bắt đầu nhập tên của chiến dịch mới vào trường :guilabel:`Chiến dịch` "
+"trống, và chọn :guilabel:`Tạo` hoặc :guilabel:`Tạo và chỉnh sửa`."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:None
 msgid ""
@@ -16366,6 +16609,10 @@ msgid ""
 "Identifier`, :guilabel:`Responsible`, and :guilabel:`Tags` can be instantly "
 "configured."
 msgstr ""
+"Nhấp :guilabel:`Tạo và chỉnh sửa` sẽ tạo chiến dịch và hiển thị biểu mẫu bật "
+"lên :guilabel:`Tạo Chiến dịch`, trong đó :guilabel:`Mã Định danh Chiến "
+"dịch`, :guilabel:`Người Phụ trách`, và :guilabel:`Thẻ` có thể được cấu hình "
+"ngay lập tức."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:None
 msgid ""
@@ -16421,6 +16668,9 @@ msgid ""
 "will promptly publish the post at that specific date and time on the pre-"
 "determined social media accounts."
 msgstr ""
+"Sau khi chọn ngày và giờ mong muốn, nhấp :guilabel:`Áp dụng`. Sau đó, Odoo "
+"sẽ nhanh chóng đăng bài viết vào ngày và giờ cụ thể đó trên các tài khoản "
+"mạng xã hội đã xác định trước."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:309
 msgid ""
@@ -16480,6 +16730,9 @@ msgid ""
 "notification. When a user clicks on a push notification, they will be "
 "redirected to the URL specified in this field."
 msgstr ""
+"Trường :guilabel:`URL Mục tiêu` là URL chuyển hướng cho thông báo đẩy. Khi "
+"người dùng nhấp vào thông báo đẩy, họ sẽ được chuyển hướng đến URL được chỉ "
+"định trong trường này."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:334
 msgid ""
@@ -16496,6 +16749,10 @@ msgid ""
 "reveals a pop-up window, in which the desired icon image can be located on "
 "the hard drive, and subsequently uploaded."
 msgstr ""
+"Để tải lên một hình ảnh mới, nhấp vào biểu tượng :icon:`fa-pencil` "
+":guilabel:`bút chì` khi di chuột qua biểu tượng máy ảnh :guilabel:`Hình Ảnh "
+"Biểu tượng`. Thao tác này sẽ hiển thị một cửa sổ bật lên, trong đó có thể "
+"tìm hình ảnh biểu tượng mong muốn trên ổ cứng và sau đó tải lên."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:341
 msgid ""
@@ -16549,6 +16806,8 @@ msgid ""
 "In this equation-like rule field, define the criteria Odoo should take into "
 "account when sending this post to a particular target audience."
 msgstr ""
+"Trong trường quy tắc giống phương trình này, hãy xác định tiêu chí mà Odoo "
+"nên tính đến khi gửi bài viết này đến một đối tượng mục tiêu cụ thể."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:None
 msgid ""
@@ -16563,6 +16822,8 @@ msgid ""
 "To add an additional rule, click the :icon:`fa-plus` :guilabel:`(plus sign)` "
 "to the far-right of the rule."
 msgstr ""
+"Để thêm một quy tắc bổ sung, nhấp vào :icon:`fa-plus` :guilabel:`dấu cộng` ở "
+"phía bên phải của quy tắc."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:369
 msgid ""
@@ -16570,12 +16831,17 @@ msgid ""
 "further specify a target audience), click the unique :guilabel:`branch "
 "icon`, located to the right of the :icon:`fa-plus` :guilabel:`(plus sign)`."
 msgstr ""
+"Để thêm một nhánh (chuỗi các quy tắc bổ sung dựa trên quy tắc trước đó, để "
+"chỉ định thêm đối tượng mục tiêu), nhấp vào :guilabel:`biểu tượng nhánh` duy "
+"nhất, nằm bên phải :icon:`fa-plus` :guilabel:`dấu cộng`."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:373
 msgid ""
 "Lastly, click the :icon:`fa-trash` :guilabel:`(trash can)` icon to delete "
 "any rule."
 msgstr ""
+"Cuối cùng, nhấp vào biểu tượng :icon:`fa-trash` :guilabel:`thùng rác` để xóa "
+"bất kỳ quy tắc nào."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:375
 msgid ""
@@ -19194,22 +19460,30 @@ msgid ""
 "Manager*, they can click the :guilabel:`Next` button to move on to the next "
 "portion of the survey."
 msgstr ""
+"Khi người điều hành/người quản lý cảm thấy người tham gia đã có đủ thời gian "
+"để tiếp nhận các câu trả lời đúng và sai thông qua biểu đồ thanh trên *Trình "
+"quản lý phiên*, họ có thể nhấp vào nút :guilabel:`Tiếp theo` để chuyển sang "
+"phần tiếp theo của khảo sát."
 
 #: ../../content/applications/marketing/surveys/live_session.rst:216
 msgid "Repeat this process until the survey is complete."
-msgstr ""
+msgstr "Lặp lại quy trình này cho đến khi khảo sát hoàn tất."
 
 #: ../../content/applications/marketing/surveys/questions.rst:5
 msgid ""
 "In Odoo *Surveys*, crafting and tailoring survey questions is crucial "
 "for :doc:`creating and customizing surveys <../surveys/create>`."
 msgstr ""
+"Trong Odoo *Surveys*, việc tạo và tùy chỉnh các câu hỏi khảo sát là rất quan "
+"trọng để :doc:`tạo và tùy chỉnh các khảo sát <../surveys/create>`."
 
 #: ../../content/applications/marketing/surveys/questions.rst:8
 msgid ""
 "Fortunately, Odoo provides numerous ways to configure tailored questions for "
 "any kind of survey."
 msgstr ""
+"May mắn thay, Odoo cung cấp nhiều cách để cấu hình các câu hỏi tùy chỉnh cho "
+"bất kỳ loại khảo sát nào."
 
 #: ../../content/applications/marketing/surveys/questions.rst:10
 msgid ""
@@ -19217,6 +19491,10 @@ msgid ""
 "database, navigate to :menuselection:`Surveys app --> Questions & Answers --"
 "> Questions`. There, users can view and modify any question from any survey."
 msgstr ""
+"Để truy cập danh sách *tất cả* các câu hỏi đã được tạo trong cơ sở dữ liệu, "
+"điều hướng đến :menuselection:`ứng dụng Surveys --> Questions & Answers --> "
+"Questions`. Tại đó, người dùng có thể xem và sửa đổi bất kỳ câu hỏi nào từ "
+"bất kỳ khảo sát nào."
 
 #: ../../content/applications/marketing/surveys/questions.rst:14
 msgid ""
@@ -19226,12 +19504,19 @@ msgid ""
 "existing survey from the :guilabel:`Surveys` page (:menuselection:`Surveys "
 "app --> Surveys`)."
 msgstr ""
+"Tuy nhiên, chỉ có một nơi trong ứng dụng Odoo *Surveys* nơi có thể tạo các "
+"câu hỏi khảo sát. Để làm điều đó, điều hướng đến biểu mẫu khảo sát bằng cách "
+"vào :menuselection:`ứng dụng Surveys --> New`, hoặc bằng cách chọn bất kỳ "
+"khảo sát có sẵn nào từ trang :guilabel:`Surveys` (:menuselection:`ứng dụng "
+"Surveys --> Surveys`)."
 
 #: ../../content/applications/marketing/surveys/questions.rst:22
 msgid ""
 "On a survey form, users can view, access, add, and/or delete questions (and "
 "sections) in the :guilabel:`Questions` tab."
 msgstr ""
+"Trên biểu mẫu khảo sát, người dùng có thể xem, truy cập, thêm và/hoặc xóa "
+"câu hỏi (và các phần) trong tab :guilabel:`Questions`."
 
 #: ../../content/applications/marketing/surveys/questions.rst:32
 msgid ""
@@ -19240,16 +19525,22 @@ msgid ""
 "mandatory answer or not, click the :guilabel:`(optional columns)` icon "
 "located to the far-right of the column titles."
 msgstr ""
+"Để hiển thị cột :guilabel:`Mandatory Answer` trên tab :guilabel:`Questions`, "
+"cột này cho biết câu hỏi có yêu cầu câu trả lời bắt buộc hay không, hãy nhấp "
+"vào biểu tượng :guilabel:`(optional columns)` nằm ở phía bên phải các tiêu "
+"đề cột."
 
 #: ../../content/applications/marketing/surveys/questions.rst:None
 msgid ""
 "The slider drop-down menu showing the Mandatory Answer option in Odoo "
 "Surveys."
 msgstr ""
+"Menu thả xuống thanh trượt hiển thị tùy chọn Mandatory Answer trong Odoo "
+"Surveys."
 
 #: ../../content/applications/marketing/surveys/questions.rst:41
 msgid "Create sections"
-msgstr ""
+msgstr "Tạo các phần"
 
 #: ../../content/applications/marketing/surveys/questions.rst:50
 msgid ""
@@ -19258,18 +19549,25 @@ msgid ""
 "survey, in order to populate the section with specific questions that fit "
 "the theme of the section."
 msgstr ""
+"Sau đó, kéo và thả các câu hỏi mong muốn bên dưới một phần, hoặc kéo và thả "
+"tiêu đề phần lên trên (nghĩa là *trước*) (các) câu hỏi mong muốn trong khảo "
+"sát, để điền vào phần với các câu hỏi cụ thể phù hợp với chủ đề của phần."
 
 #: ../../content/applications/marketing/surveys/questions.rst:66
 msgid ""
 "To create questions for the survey, click :guilabel:`Add a question` in "
 "the :guilabel:`Questions` tab."
 msgstr ""
+"Để tạo câu hỏi cho khảo sát, nhấp vào :guilabel:`Add a question` trong tab "
+":guilabel:`Questions`."
 
 #: ../../content/applications/marketing/surveys/questions.rst:69
 msgid ""
 "Clicking :guilabel:`Add a question` opens the :guilabel:`Create Sections and "
 "Questions` pop-up window, in which a survey question can be created."
 msgstr ""
+"Nhấp vào :guilabel:`Add a question` sẽ mở cửa sổ bật lên :guilabel:`Create "
+"Sections and Questions`, trong đó có thể tạo câu hỏi khảo sát."
 
 #: ../../content/applications/marketing/surveys/questions.rst:77
 msgid ""
@@ -19278,18 +19576,22 @@ msgid ""
 "or :guilabel:`Save & New` to save the question and create a new one right "
 "away in a fresh :guilabel:`Create Sections and Questions` pop-up window."
 msgstr ""
+"Khi tất cả các cấu hình mong muốn hoàn tất, nhấp vào :guilabel:`Save & "
+"Close` để lưu câu hỏi và quay lại biểu mẫu khảo sát, hoặc :guilabel:`Save & "
+"New` để lưu câu hỏi và tạo câu hỏi mới ngay lập tức trong cửa sổ bật lên "
+":guilabel:`Create Sections and Questions` mới."
 
 #: ../../content/applications/marketing/surveys/questions.rst:81
 msgid "Click :guilabel:`Discard` to discard the question entirely."
-msgstr ""
+msgstr "Nhấp vào :guilabel:`Discard` để hủy bỏ câu hỏi hoàn toàn."
 
 #: ../../content/applications/marketing/surveys/questions.rst:84
 msgid "Create Sections and Questions pop-up window"
-msgstr ""
+msgstr "Cửa sổ bật lên Create Sections and Questions"
 
 #: ../../content/applications/marketing/surveys/questions.rst:None
 msgid "The Create Sections and Questions pop-up form in Odoo Surveys."
-msgstr ""
+msgstr "Biểu mẫu bật lên Create Sections and Questions trong Odoo Surveys."
 
 #: ../../content/applications/marketing/surveys/questions.rst:90
 msgid ""
@@ -19297,6 +19599,9 @@ msgid ""
 "typing the question into the :guilabel:`Question` field, located at the top "
 "of the pop-up window."
 msgstr ""
+"Trong cửa sổ bật lên :guilabel:`Create Sections and Questions`, bắt đầu bằng "
+"cách nhập câu hỏi vào trường :guilabel:`Question`, nằm ở phía trên cùng của "
+"cửa sổ bật lên."
 
 #: ../../content/applications/marketing/surveys/questions.rst:93
 msgid ""
@@ -19304,10 +19609,13 @@ msgid ""
 "each :guilabel:`Question Type` is to the right of the :guilabel:`Question "
 "Type` field, when a :guilabel:`Question Type` is selected."
 msgstr ""
+"Sau đó, chọn :guilabel:`Question Type` mong muốn. Bản xem trước của mỗi "
+":guilabel:`Question Type` nằm ở bên phải trường :guilabel:`Question Type`, "
+"khi một :guilabel:`Question Type` được chọn."
 
 #: ../../content/applications/marketing/surveys/questions.rst:96
 msgid "Choose from the following :guilabel:`Question Types`:"
-msgstr ""
+msgstr "Chọn từ các :guilabel:`Question Types` sau:"
 
 #: ../../content/applications/marketing/surveys/questions.rst:98
 msgid ""
@@ -19830,12 +20138,15 @@ msgid ""
 "There is only one field in the :guilabel:`Conditional Display` "
 "section: :guilabel:`Triggering Answers`."
 msgstr ""
+"Chỉ có một trường trong phần :guilabel:`Hiển thị có điều kiện`: "
+":guilabel:`Câu trả lời kích hoạt`."
 
 #: ../../content/applications/marketing/surveys/questions.rst:None
 msgid ""
 "The Conditional Display section of the options tab in the Odoo Surveys "
 "application."
 msgstr ""
+"Phần Hiển thị có điều kiện trong tab tùy chọn của ứng dụng Khảo sát Odoo."
 
 #: ../../content/applications/marketing/surveys/questions.rst:315
 msgid ""
@@ -19844,27 +20155,34 @@ msgid ""
 "can be selected. Leave the field empty if the question should always be "
 "displayed."
 msgstr ""
+"Trong trường :guilabel:`Câu trả lời kích hoạt`, chọn các phản hồi cụ thể từ "
+"các câu hỏi trước đó sẽ kích hoạt câu hỏi này. Có thể chọn nhiều hơn một câu "
+"trả lời. Để trống trường này nếu câu hỏi luôn được hiển thị."
 
 #: ../../content/applications/marketing/surveys/questions.rst:320
 msgid "Live Sessions section"
-msgstr ""
+msgstr "Phần Phiên trực tiếp"
 
 #: ../../content/applications/marketing/surveys/questions.rst:322
 msgid ""
 "The option in the :guilabel:`Live Sessions` section of "
 "the :guilabel:`Options` tab are **only** supported by *Live Session* surveys."
 msgstr ""
+"Tùy chọn trong phần :guilabel:`Phiên trực tiếp` của tab :guilabel:`Tùy chọn` "
+"**chỉ** được hỗ trợ bởi các khảo sát *Phiên trực tiếp*."
 
 #: ../../content/applications/marketing/surveys/questions.rst:325
 msgid ""
 "There is only one option available in the :guilabel:`Live Sessions` "
 "section: :guilabel:`Question Time Limit`."
 msgstr ""
+"Chỉ có một tùy chọn khả dụng trong phần :guilabel:`Phiên trực tiếp`: "
+":guilabel:`Giới hạn thời gian câu hỏi`."
 
 #: ../../content/applications/marketing/surveys/questions.rst:None
 msgid ""
 "The Live Sessions section of the Option tab in the Odoo Surveys application."
-msgstr ""
+msgstr "Phần Phiên trực tiếp trong tab Tùy chọn của ứng dụng Khảo sát Odoo."
 
 #: ../../content/applications/marketing/surveys/questions.rst:332
 msgid ""
@@ -19872,12 +20190,17 @@ msgid ""
 "much time (in :guilabel:`seconds`) participants have to answer the question "
 "during a *Live Session* survey."
 msgstr ""
+"Khi tùy chọn :guilabel:`Giới hạn thời gian câu hỏi` được bật, chỉ định thời "
+"gian (tính bằng :guilabel:`giây`) mà người tham gia có để trả lời câu hỏi "
+"trong khảo sát *Phiên trực tiếp*."
 
 #: ../../content/applications/marketing/surveys/questions.rst:336
 msgid ""
 "Survey text colors are directly linked to the colors used for "
 "the :doc:`website theme <../../websites/website/web_design/themes>`."
 msgstr ""
+"Màu văn bản khảo sát được liên kết trực tiếp với các màu được sử dụng cho "
+":doc:`chủ đề website <../../websites/website/web_design/themes>`."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:5
 msgid ""
@@ -19886,6 +20209,10 @@ msgid ""
 "survey, these points are summed up, resulting in the participant's final "
 "score."
 msgstr ""
+"Để đo lường hiệu suất, kiến thức hoặc sự hài lòng tổng thể của người tham "
+"gia khảo sát, Odoo gán điểm cho các câu trả lời khảo sát. Khi kết thúc khảo "
+"sát, các điểm này được tổng hợp lại, cho ra điểm số cuối cùng của người tham "
+"gia."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:9
 msgid ""
@@ -19894,6 +20221,10 @@ msgid ""
 "Under the :guilabel:`Scoring` section, choose between :guilabel:`Scoring "
 "with answers at the end` or :guilabel:`Scoring without answers at the end`."
 msgstr ""
+"Để thêm điểm vào câu hỏi, mở ứng dụng :guilabel:`Khảo sát`, chọn biểu mẫu "
+"khảo sát mong muốn, sau đó nhấp vào tab :guilabel:`Tùy chọn`. Trong phần "
+":guilabel:`Chấm điểm`, chọn giữa :guilabel:`Chấm điểm có câu trả lời ở cuối` "
+"hoặc :guilabel:`Chấm điểm không có câu trả lời ở cuối`."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:14
 msgid ""
@@ -19902,6 +20233,10 @@ msgid ""
 "got right or wrong. On questions where there was an incorrect answer, the "
 "correct answer will be highlighted."
 msgstr ""
+":guilabel:`Chấm điểm có câu trả lời ở cuối` hiển thị cho người tham gia khảo "
+"sát các câu trả lời của họ sau khi hoàn thành khảo sát, và cho biết những "
+"câu hỏi họ trả lời đúng hay sai. Đối với các câu hỏi có câu trả lời không "
+"chính xác, câu trả lời đúng sẽ được làm nổi bật."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:18
 msgid ""
@@ -19909,6 +20244,9 @@ msgid ""
 "participant their answer choices after completing the survey, only their "
 "final score."
 msgstr ""
+":guilabel:`Chấm điểm không có câu trả lời ở cuối` không hiển thị cho người "
+"tham gia khảo sát các lựa chọn câu trả lời của họ sau khi hoàn thành khảo "
+"sát, chỉ hiển thị điểm số cuối cùng của họ."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:21
 msgid ""
@@ -19917,6 +20255,9 @@ msgid ""
 "answer` box for the choice that is the correct answer and attach a score "
 "value."
 msgstr ""
+"Để chỉ định câu trả lời đúng, nhấp vào :guilabel:`tab Câu hỏi` và chọn một "
+"câu hỏi. Trong biểu mẫu câu hỏi, đánh dấu vào ô :guilabel:`Là câu trả lời "
+"đúng` cho lựa chọn là câu trả lời đúng và đính kèm giá trị điểm."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:25
 msgid ""
@@ -19924,6 +20265,9 @@ msgid ""
 "the :guilabel:`Success %`. The percentage entered determines what percentage "
 "of correct answers is needed to pass the survey."
 msgstr ""
+"Quay lại tab :guilabel:`Tùy chọn` của khảo sát, đặt :guilabel:`% Thành "
+"công`. Phần trăm nhập vào xác định phần trăm câu trả lời đúng cần thiết để "
+"vượt qua khảo sát."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:28
 msgid ""
@@ -19932,6 +20276,10 @@ msgid ""
 "indicates that the survey asks questions to test the participants' knowledge "
 "level on a subject."
 msgstr ""
+"Tiếp tục trong tab :guilabel:`Tùy chọn` của khảo sát, người quản trị khảo "
+"sát cũng có thể chọn biến khảo sát thành chứng chỉ. Chứng chỉ chỉ ra rằng "
+"khảo sát đặt các câu hỏi để kiểm tra trình độ kiến thức của người tham gia "
+"về một chủ đề."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:32
 msgid ""
@@ -19941,6 +20289,10 @@ msgid ""
 "survey with a final score that is greater than or equal to the "
 "set :guilabel:`Success %`."
 msgstr ""
+"Khi bật tùy chọn :guilabel:`Là chứng chỉ`, chọn :guilabel:`Mẫu email chứng "
+"chỉ`. Chứng chỉ sẽ tự động được gửi qua email bằng mẫu email này cho người "
+"dùng vượt qua khảo sát với điểm số cuối cùng lớn hơn hoặc bằng :guilabel:`% "
+"Thành công` đã đặt."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:36
 msgid ""
@@ -19962,6 +20314,7 @@ msgid ""
 "Setting the Required Score (percentage), login required, and certification "
 "template."
 msgstr ""
+"Cài đặt Điểm số yêu cầu (phần trăm), yêu cầu đăng nhập và mẫu chứng chỉ."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:46
 msgid ""
@@ -19970,10 +20323,297 @@ msgid ""
 "gaining points. Besides the awardee, website visitors who access "
 "the :guilabel:`Courses` page will also be able to see the granted badges."
 msgstr ""
+"Huy hiệu được hiển thị trên phần eLearning của cổng thông tin của người dùng "
+"nhất định, và là cách để đặt các mốc quan trọng và trao thưởng cho người "
+"tham gia khi vượt qua khảo sát hoặc đạt được điểm. Ngoài người được trao "
+"thưởng, khách truy cập website truy cập trang :guilabel:`Khóa học` cũng có "
+"thể xem các huy hiệu được cấp."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
-msgstr ""
+msgstr "Ví dụ về cách huy hiệu hiển thị trên phần eLearning của website."
+
+#~ msgid ""
+#~ "With Odoo *Events*, users can utilize a fully-integrated event website, "
+#~ "where attendees can quickly access various tracks (talks, presentations, "
+#~ "etc.), view entire agendas, and propose talks for the event."
+#~ msgstr ""
+#~ "Với Odoo *Sự kiện*, người dùng có thể sử dụng trang web sự kiện tích hợp "
+#~ "hoàn toàn, nơi người tham dự có thể nhanh chóng truy cập các chủ đề khác "
+#~ "nhau (bài nói chuyện, thuyết trình, v.v.), xem toàn bộ chương trình và đề "
+#~ "xuất bài nói chuyện cho sự kiện."
+
+#~ msgid ""
+#~ "To access an event website, navigate to the specific event form in the "
+#~ "Odoo *Events* app, and click the :guilabel:`Go to Website` smart button. "
+#~ "Or, while on the Odoo-built website for the company, click "
+#~ "the :guilabel:`Events` header option, and select the desired event to "
+#~ "view that event's website."
+#~ msgstr ""
+#~ "Để truy cập trang web sự kiện, điều hướng đến biểu mẫu sự kiện cụ thể "
+#~ "trong ứng dụng Odoo *Sự kiện* và nhấp vào nút thông "
+#~ "minh :guilabel:`Chuyển đến Website`. Hoặc, khi đang trên trang web do "
+#~ "Odoo xây dựng cho công ty, nhấp vào tùy chọn tiêu đề :guilabel:`Sự kiện` "
+#~ "và chọn sự kiện mong muốn để xem trang web của sự kiện đó."
+
+#~ msgid ""
+#~ "On the event website, there is an event-specific subheader menu with "
+#~ "different options to choose from."
+#~ msgstr ""
+#~ "Trên trang web sự kiện, có một menu tiêu đề phụ cụ thể cho sự kiện với "
+#~ "các tùy chọn khác nhau để lựa chọn."
+
+#~ msgid ""
+#~ "With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, "
+#~ "the following links are automatically added to the subheader menu, "
+#~ "located on the event website: :guilabel:`Talks`, :guilabel:`Talk "
+#~ "Proposals`, and :guilabel:`Agenda`."
+#~ msgstr ""
+#~ "Với cài đặt *Lịch trình & Chủ đề* được bật trong ứng dụng Odoo *Sự kiện*, "
+#~ "các liên kết sau sẽ tự động được thêm vào menu tiêu đề phụ, nằm trên "
+#~ "trang web sự kiện: :guilabel:`Bài nói chuyện`, :guilabel:`Đề xuất bài nói "
+#~ "chuyện` và :guilabel:`Chương trình`."
+
+#~ msgid ""
+#~ "To enable the :guilabel:`Schedule & Tracks` setting, navigate "
+#~ "to :menuselection:`Events app --> Configuration --> Settings`, tick the "
+#~ "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+#~ msgstr ""
+#~ "Để bật cài đặt :guilabel:`Lịch trình & Chủ đề`, điều hướng "
+#~ "đến :menuselection:`Ứng dụng Sự kiện --> Cấu hình --> Cài đặt`, đánh dấu "
+#~ "vào ô bên cạnh :guilabel:`Lịch trình & Chủ đề` và nhấp :guilabel:`Lưu`."
+
+#~ msgid "Talks page"
+#~ msgstr "Trang Chủ đề"
+
+#~ msgid ""
+#~ "The :guilabel:`Talks` link takes the attendee to a page filled with all "
+#~ "the planned tracks for the event."
+#~ msgstr ""
+#~ "Liên kết :guilabel:`Chủ đề` đưa người tham dự đến trang chứa tất cả các "
+#~ "chủ đề đã lên lịch cho sự kiện."
+
+#~ msgid ""
+#~ "At the top of :guilabel:`Talks` page, there are drop-down filter menus "
+#~ "beside a :guilabel:`Search a talk...` search bar."
+#~ msgstr ""
+#~ "Ở đầu trang :guilabel:`Chủ đề`, có các menu bộ lọc thả xuống bên cạnh "
+#~ "thanh tìm kiếm :guilabel:`Tìm kiếm chủ đề...`."
+
+#~ msgid ""
+#~ "The first drop-down filter menu (with the starting "
+#~ "title: :guilabel:`Favorites`) is the only drop-down filter menu that "
+#~ "appears by default. When clicked, the resulting menu presents two "
+#~ "options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+#~ msgstr ""
+#~ "Menu bộ lọc thả xuống đầu tiên (với tiêu đề ban đầu: :guilabel:`Yêu "
+#~ "thích`) là menu bộ lọc thả xuống duy nhất xuất hiện theo mặc định. Khi "
+#~ "nhấp vào, menu kết quả sẽ hiển thị hai tùy chọn: :guilabel:`Yêu thích` "
+#~ "và :guilabel:`Tất cả Chủ đề`."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
+#~ "favorited by the attendee."
+#~ msgstr ""
+#~ "Chọn :guilabel:`Yêu thích` sẽ chỉ hiển thị các chủ đề đã được người tham "
+#~ "dự đánh dấu yêu thích."
+
+#~ msgid ""
+#~ "If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
+#~ "selected, Odoo presents all the event tracks."
+#~ msgstr ""
+#~ "Nếu chưa có chủ đề nào được đánh dấu yêu thích và bộ lọc :guilabel:`Yêu "
+#~ "thích` được chọn, Odoo sẽ hiển thị tất cả các chủ đề sự kiện."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if "
+#~ "they have been favorited or not."
+#~ msgstr ""
+#~ "Chọn :guilabel:`Tất cả Chủ đề` sẽ hiển thị tất cả các chủ đề, bất kể "
+#~ "chúng đã được đánh dấu yêu thích hay chưa."
+
+#~ msgid ""
+#~ "The other drop-down filter menus that appear on this page are related to "
+#~ "any configured tags (and tag categories) created for event tracks in the "
+#~ "backend."
+#~ msgstr ""
+#~ "Các menu bộ lọc thả xuống khác xuất hiện trên trang này liên quan đến bất "
+#~ "kỳ thẻ (và danh mục thẻ) đã được cấu hình nào được tạo cho các chủ đề sự "
+#~ "kiện trong hệ thống."
+
+#~ msgid ""
+#~ "To add tags and tag categories to track forms, open a desired event track "
+#~ "form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+#~ "click :guilabel:`Create and edit...` from the resulting drop-down menu."
+#~ msgstr ""
+#~ "Để thêm thẻ và danh mục thẻ vào biểu mẫu chủ đề, mở biểu mẫu chủ đề sự "
+#~ "kiện mong muốn và bắt đầu nhập thẻ mới vào trường :guilabel:`Thẻ`. Sau "
+#~ "đó, nhấp :guilabel:`Tạo và chỉnh sửa...` từ menu thả xuống kết quả."
+
+#~ msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
+#~ msgstr "Làm như vậy sẽ hiển thị biểu mẫu bật lên :guilabel:`Tạo Thẻ`."
+
+#~ msgid ""
+#~ "From here, users see the recently added tag in the :guilabel:`Tag Name` "
+#~ "field. Beneath that, there is an option to add a "
+#~ "specific :guilabel:`Color Index` to the tag for added organization."
+#~ msgstr ""
+#~ "Từ đây, người dùng sẽ thấy thẻ vừa thêm trong trường :guilabel:`Tên Thẻ`. "
+#~ "Bên dưới đó, có tùy chọn thêm :guilabel:`Chỉ số Màu` cụ thể cho thẻ để tổ "
+#~ "chức tốt hơn."
+
+#~ msgid ""
+#~ "Lastly, there is the :guilabel:`Category` field, where users can either "
+#~ "select a pre-existing category for this new tag, or create a new one."
+#~ msgstr ""
+#~ "Cuối cùng, có trường :guilabel:`Danh mục`, nơi người dùng có thể chọn "
+#~ "danh mục có sẵn cho thẻ mới này hoặc tạo danh mục mới."
+
+#~ msgid ""
+#~ "All options in the :guilabel:`Category` field for tags appear as their "
+#~ "own drop-down filter menu on the :guilabel:`Talks` page, located on the "
+#~ "event website."
+#~ msgstr ""
+#~ "Tất cả các tùy chọn trong trường :guilabel:`Danh mục` cho thẻ sẽ xuất "
+#~ "hiện dưới dạng menu bộ lọc thả xuống riêng trên trang :guilabel:`Chủ đề`, "
+#~ "nằm trên trang web sự kiện."
+
+#~ msgid ""
+#~ "Beneath the drop-down filter menus at the top of the :guilabel:`Talks` "
+#~ "page, there is a list of planned tracks for the specific event, organized "
+#~ "by day."
+#~ msgstr ""
+#~ "Bên dưới các menu bộ lọc thả xuống ở đầu trang :guilabel:`Chủ đề`, có "
+#~ "danh sách các chủ đề đã lên lịch cho sự kiện cụ thể, được sắp xếp theo "
+#~ "ngày."
+
+#~ msgid ""
+#~ "If an attendee wishes to favorite a track, they can click the :icon:`fa-"
+#~ "bell-o` :guilabel:`(empty bell)` icon, located to the right of the track "
+#~ "title. Attendees will know a track has been favorited when they notice "
+#~ "the icon has been changed to :icon:`fa-bell` :guilabel:`(filled bell)` "
+#~ "icon."
+#~ msgstr ""
+#~ "Nếu người tham dự muốn đánh dấu yêu thích một chủ đề, họ có thể nhấp vào "
+#~ "biểu tượng :icon:`fa-bell-o` :guilabel:`(chuông rỗng)`, nằm ở bên phải "
+#~ "tiêu đề chủ đề. Người tham dự sẽ biết một chủ đề đã được đánh dấu yêu "
+#~ "thích khi nhận thấy biểu tượng đã được thay đổi thành biểu "
+#~ "tượng :icon:`fa-bell` :guilabel:`(chuông đầy)`."
+
+#~ msgid ""
+#~ "Favoriting a track this way places it on the list "
+#~ "of :guilabel:`Favorites`, which is accessible from the default drop-down "
+#~ "filter menu, located at the top of the :guilabel:`Talks` page."
+#~ msgstr ""
+#~ "Đánh dấu yêu thích một chủ đề theo cách này sẽ đưa nó vào danh "
+#~ "sách :guilabel:`Yêu thích`, có thể truy cập từ menu bộ lọc thả xuống mặc "
+#~ "định, nằm ở đầu trang :guilabel:`Chủ đề`."
+
+#~ msgid "Talk Proposals page"
+#~ msgstr "Trang Đề xuất Chủ đề"
+
+#~ msgid ""
+#~ "The :guilabel:`Talk Proposals` link takes attendees to a page on the "
+#~ "event website, wherein they can formerly submit a proposal for a talk "
+#~ "(:dfn:`track`) for the event, via a custom online form."
+#~ msgstr ""
+#~ "Liên kết :guilabel:`Talk Proposals` đưa người tham dự đến một trang trên "
+#~ "trang web sự kiện, nơi họ có thể chính thức gửi đề xuất cho một bài "
+#~ "thuyết trình (:dfn:`track`) cho sự kiện, thông qua một biểu mẫu trực "
+#~ "tuyến tùy chỉnh."
+
+#~ msgid ""
+#~ "In addition to the form, an introduction to the page, along with any "
+#~ "other pertinent information related to the types of talks the event will "
+#~ "feature can be added, if needed."
+#~ msgstr ""
+#~ "Ngoài biểu mẫu, có thể thêm phần giới thiệu về trang, cùng với bất kỳ "
+#~ "thông tin liên quan nào khác về các loại bài thuyết trình mà sự kiện sẽ "
+#~ "có, nếu cần."
+
+#~ msgid ""
+#~ "The talk proposal form can be modified in a number of different ways, via "
+#~ "the web builder tools, accessible by clicking :guilabel:`Edit` while on "
+#~ "the specific page."
+#~ msgstr ""
+#~ "Biểu mẫu đề xuất bài thuyết trình có thể được chỉnh sửa theo nhiều cách "
+#~ "khác nhau, thông qua các công cụ xây dựng web, có thể truy cập bằng cách "
+#~ "nhấp vào :guilabel:`Edit` khi đang ở trên trang cụ thể."
+
+#~ msgid ""
+#~ "Then, proceed to edit any of the default fields, or add new forms with "
+#~ "the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
+#~ "section of the web builder tools sidebar)."
+#~ msgstr ""
+#~ "Sau đó, tiến hành chỉnh sửa bất kỳ trường mặc định nào hoặc thêm biểu mẫu "
+#~ "mới bằng khối xây dựng :guilabel:`Form` (nằm trong "
+#~ "phần :guilabel:`Blocks` của thanh bên công cụ xây dựng web)."
+
+#~ msgid ""
+#~ "Once all the necessary information is entered into the form, the "
+#~ "attendees just need to click the :guilabel:`Submit Proposal` button."
+#~ msgstr ""
+#~ "Sau khi nhập tất cả thông tin cần thiết vào biểu mẫu, người tham dự chỉ "
+#~ "cần nhấp vào nút :guilabel:`Submit Proposal`."
+
+#~ msgid ""
+#~ "Then, that talk, and all the information entered on the form, can be "
+#~ "accessed on the :guilabel:`Event Tracks` page for that specific event in "
+#~ "the :guilabel:`Proposal` stage, which is accessible via "
+#~ "the :guilabel:`Tracks` smart button on the event form."
+#~ msgstr ""
+#~ "Sau đó, bài thuyết trình đó và tất cả thông tin được nhập vào biểu mẫu có "
+#~ "thể được truy cập trên trang :guilabel:`Event Tracks` cho sự kiện cụ thể "
+#~ "đó ở giai đoạn :guilabel:`Proposal`, có thể truy cập thông qua nút thông "
+#~ "minh :guilabel:`Tracks` trên biểu mẫu sự kiện."
+
+#~ msgid ""
+#~ "At that point, an internal user can review the proposed talk, and choose "
+#~ "to accept or deny the proposal."
+#~ msgstr ""
+#~ "Tại thời điểm đó, người dùng nội bộ có thể xem xét bài thuyết trình được "
+#~ "đề xuất và chọn chấp nhận hoặc từ chối đề xuất."
+
+#~ msgid ""
+#~ "If accepted, the internal user can then move the track to the next "
+#~ "appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
+#~ "page for the event. Then, they can open that track form, and click "
+#~ "the :guilabel:`Go to Website` smart button to reveal that track's page on "
+#~ "the event website."
+#~ msgstr ""
+#~ "Nếu được chấp nhận, người dùng nội bộ sau đó có thể di chuyển track sang "
+#~ "giai đoạn phù hợp tiếp theo trong quy trình Kanban trên "
+#~ "trang :guilabel:`Event Tracks` cho sự kiện. Sau đó, họ có thể mở biểu mẫu "
+#~ "track đó và nhấp vào nút thông minh :guilabel:`Go to Website` để hiển thị "
+#~ "trang của track đó trên trang web sự kiện."
+
+#~ msgid ""
+#~ "From there, they can toggle the :guilabel:`Unpublished` switch in the "
+#~ "header to :guilabel:`Published`, which allows all event attendees to view "
+#~ "and access the talk."
+#~ msgstr ""
+#~ "Từ đó, họ có thể chuyển đổi công tắc :guilabel:`Unpublished` trong tiêu "
+#~ "đề thành :guilabel:`Published`, cho phép tất cả người tham dự sự kiện xem "
+#~ "và truy cập bài thuyết trình."
+
+#~ msgid "Agenda page"
+#~ msgstr "Trang Agenda"
+
+#~ msgid ""
+#~ "The :guilabel:`Agenda` link takes attendees to a page on the event "
+#~ "website, showcasing an event calendar, depicting when (and where) events "
+#~ "are taking place for that specific event."
+#~ msgstr ""
+#~ "Liên kết :guilabel:`Agenda` đưa người tham dự đến một trang trên trang "
+#~ "web sự kiện, trình bày lịch sự kiện, mô tả thời gian (và địa điểm) các sự "
+#~ "kiện diễn ra cho sự kiện cụ thể đó."
+
+#~ msgid ""
+#~ "Clicking any track on the calendar takes the attendee to that specific "
+#~ "track's detail page on the event website."
+#~ msgstr ""
+#~ "Nhấp vào bất kỳ track nào trên lịch sẽ đưa người tham dự đến trang chi "
+#~ "tiết của track cụ thể đó trên trang web sự kiện."
 
 #~ msgid ""
 #~ "The :guilabel:`Event Gamification` feature lets users share a quiz after "

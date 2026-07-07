@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:21+0000\n"
-"PO-Revision-Date: 2026-06-09 23:36+0000\n"
+"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"PO-Revision-Date: 2026-07-05 00:13+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-19-doc/"
 "general/it/>\n"
@@ -9989,7 +9989,7 @@ msgstr ""
 "al sistema IoT."
 
 #: ../../content/applications/general/iot.rst:68
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:5
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:3
 msgid "Troubleshooting"
 msgstr "Risoluzione problemi"
 
@@ -10224,8 +10224,8 @@ msgstr ""
 "il :guilabel:`Token`."
 
 #: ../../content/applications/general/iot/connect.rst:90
-#: ../../content/applications/general/iot/connect.rst:141
-#: ../../content/applications/general/iot/devices/printer.rst:181
+#: ../../content/applications/general/iot/connect.rst:144
+#: ../../content/applications/general/iot/devices/printer.rst:186
 msgid ""
 "Access the :ref:`IoT box's <iot/iot-box/homepage>` or :ref:`Windows virtual "
 "IoT's <iot/windows-iot/homepage>` homepage."
@@ -10328,20 +10328,30 @@ msgstr ""
 "automatici, deselezionare l'opzione :guilabel:`Aggiornamento automatico dei "
 "driver`."
 
-#: ../../content/applications/general/iot/connect.rst:131
+#: ../../content/applications/general/iot/connect.rst:127
+msgid ""
+"On the :ref:`IoT system's form <iot/connect/IoT-form>`, click "
+"the :guilabel:`Test` button to test the connection between the IoT system "
+"and Odoo and assess the quality of the system's Internet connection."
+msgstr ""
+"Nel :ref:`modulo del sistema IoT <iot/connect/IoT-form>`, fare clic sul "
+"pulsante :guilabel:`Test` per testare la connessione tra il sistema IoT e "
+"Odoo e valutare la qualità della connessione Internet del sistema."
+
+#: ../../content/applications/general/iot/connect.rst:134
 msgid "Disconnecting an IoT system from a database"
 msgstr "Disconnettere un sistema IoT da un database"
 
-#: ../../content/applications/general/iot/connect.rst:133
+#: ../../content/applications/general/iot/connect.rst:136
 msgid "To disconnect the IoT system from a database, follow these steps:"
 msgstr ""
 "Per disconnettere il sistema IoT da un database, seguire questi passaggi:"
 
-#: ../../content/applications/general/iot/connect.rst:135
+#: ../../content/applications/general/iot/connect.rst:138
 msgid "Open the IoT app and click the relevant IoT system's card."
 msgstr "Aprire l'app IoT e fare clic sulla scheda del sistema IoT pertinente."
 
-#: ../../content/applications/general/iot/connect.rst:136
+#: ../../content/applications/general/iot/connect.rst:139
 msgid ""
 "Click the :icon:`fa-cog` :guilabel:`(Actions)` icon, and "
 "select :guilabel:`Delete`."
@@ -10349,11 +10359,11 @@ msgstr ""
 "Fare clic sull'icona :icon:`fa-cog` :guilabel:`(Azioni)` e "
 "selezionare :guilabel:`Elimina`."
 
-#: ../../content/applications/general/iot/connect.rst:139
+#: ../../content/applications/general/iot/connect.rst:142
 msgid "Alternatively:"
 msgstr "In alternativa:"
 
-#: ../../content/applications/general/iot/connect.rst:143
+#: ../../content/applications/general/iot/connect.rst:146
 msgid ""
 "Click :guilabel:`Configure` in the :icon:`fa-link` :guilabel:`Odoo database "
 "connected` section."
@@ -10361,15 +10371,15 @@ msgstr ""
 "Fare clic su :guilabel:`Configura` nella sezione :icon:`fa-"
 "link` :guilabel:`Database Odoo connesso`."
 
-#: ../../content/applications/general/iot/connect.rst:145
+#: ../../content/applications/general/iot/connect.rst:148
 msgid "Click :guilabel:`Disconnect` in the popup that opens."
 msgstr "Fare clic su :guilabel:`Disconnetti` nel popup che si apre."
 
-#: ../../content/applications/general/iot/connect.rst:150
+#: ../../content/applications/general/iot/connect.rst:153
 msgid "HTTPS certificate"
 msgstr "Certificato HTTPS"
 
-#: ../../content/applications/general/iot/connect.rst:152
+#: ../../content/applications/general/iot/connect.rst:155
 msgid ""
 ":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` is the secure, encrypted "
 "version of :abbr:`HTTP (Hypertext Transfer Protocol)`. It uses :abbr:`TLS "
@@ -10388,7 +10398,7 @@ msgstr ""
 "certificato HTTPS valido per comunicare con il sistema IoT; senza di esso, "
 "non possono interagire correttamente."
 
-#: ../../content/applications/general/iot/connect.rst:160
+#: ../../content/applications/general/iot/connect.rst:163
 msgid ""
 "In this documentation and throughout Odoo, the term *HTTPS certificate*  "
 "refers to a valid SSL certificate that allows an HTTPS connection."
@@ -10397,7 +10407,7 @@ msgstr ""
 "riferimento a un certificato SSL valido che permette la connessione di un "
 "HTTPS."
 
-#: ../../content/applications/general/iot/connect.rst:163
+#: ../../content/applications/general/iot/connect.rst:166
 msgid ""
 "When the IoT system is (re-)started and connected to a database, it "
 "automatically downloads the HTTPS certificate if the database meets the "
@@ -10407,7 +10417,7 @@ msgstr ""
 "scarica automaticamente il certificato HTTPS se il database soddisfa i "
 "seguenti criteri di idoneità:"
 
-#: ../../content/applications/general/iot/connect.rst:168
+#: ../../content/applications/general/iot/connect.rst:171
 msgid ""
 "The database must be a **production** instance. The database instance should "
 "not be a copy, a duplicate, a staging, or a development environment."
@@ -10416,15 +10426,15 @@ msgstr ""
 "non deve essere una copia, un duplicato, un ambiente di staging o di "
 "sviluppo."
 
-#: ../../content/applications/general/iot/connect.rst:170
+#: ../../content/applications/general/iot/connect.rst:173
 msgid "The Odoo subscription must be ongoing (:guilabel:`In Progress` status)."
 msgstr "L'abbonamento Odoo deve essere attivo (stato :guilabel:`In corso`)."
 
-#: ../../content/applications/general/iot/connect.rst:172
+#: ../../content/applications/general/iot/connect.rst:175
 msgid "When the certificate has been received:"
 msgstr "Una volta ricevuto il certificato:"
 
-#: ../../content/applications/general/iot/connect.rst:174
+#: ../../content/applications/general/iot/connect.rst:177
 msgid ""
 "The IoT system's homepage address is updated to a new HTTPS URL ending with "
 "`.odoo-iot.com`."
@@ -10432,7 +10442,7 @@ msgstr ""
 "L'indirizzo della home page del sistema IoT viene aggiornato a un nuovo URL "
 "HTTPS che termina con `.odoo-iot.com`."
 
-#: ../../content/applications/general/iot/connect.rst:175
+#: ../../content/applications/general/iot/connect.rst:178
 msgid ""
 "The :guilabel:`HTTPS certificate` banner displays the certificate's validity "
 "period. To view this information, click the :icon:`fa-cogs` "
@@ -10447,7 +10457,7 @@ msgstr ""
 msgid "IoT box homepage with HTTPS certificate validity date."
 msgstr "Pagina principale box IoT con data validità certificato HTTPS."
 
-#: ../../content/applications/general/iot/connect.rst:183
+#: ../../content/applications/general/iot/connect.rst:186
 msgid ":ref:`iot/troubleshooting/https_certificate`"
 msgstr ":ref:`iot/troubleshooting/https_certificate`"
 
@@ -10600,7 +10610,7 @@ msgstr ""
 "pagina :guilabel:`Controlli qualità`."
 
 #: ../../content/applications/general/iot/devices/camera.rst:58
-#: ../../content/applications/general/iot/devices/printer.rst:69
+#: ../../content/applications/general/iot/devices/printer.rst:74
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_control_points`"
@@ -10609,7 +10619,7 @@ msgstr ""
 "quality_control_points`"
 
 #: ../../content/applications/general/iot/devices/camera.rst:59
-#: ../../content/applications/general/iot/devices/printer.rst:70
+#: ../../content/applications/general/iot/devices/printer.rst:75
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_alerts`"
@@ -11047,14 +11057,27 @@ msgstr ""
 "nell'elenco :guilabel:`Dispositivi` dell'app IoT."
 
 #: ../../content/applications/general/iot/devices/printer.rst:33
+msgid ""
+"To test the printer, open the IoT app, click the :ref:`IoT system's card "
+"<iot/connect/IoT-form>`, select the printer device, then "
+"click :guilabel:`Test`. A successful test prints a test page. If no page is "
+"printed, ensure the printer is powered on and the connection is correct."
+msgstr ""
+"Per testare la stampante, aprire l'app IoT, fare clic sulla :ref:`scheda del "
+"sistema IoT <iot/connect/IoT-form>`, selezionare il dispositivo stampante, "
+"quindi fare clic su :guilabel:`Test`. Un test riuscito stampa una pagina di "
+"prova. Se non viene stampata alcuna pagina, assicurarsi che la stampante sia "
+"accesa e che la connessione sia corretta."
+
+#: ../../content/applications/general/iot/devices/printer.rst:38
 msgid "Link a printer"
 msgstr "Collegare una stampante"
 
-#: ../../content/applications/general/iot/devices/printer.rst:36
+#: ../../content/applications/general/iot/devices/printer.rst:41
 msgid "Link work orders to a printer"
 msgstr "Collegare ordini di lavoro a una stampante"
 
-#: ../../content/applications/general/iot/devices/printer.rst:38
+#: ../../content/applications/general/iot/devices/printer.rst:43
 msgid ""
 "Work orders can be linked to printers, via a quality control point, to print "
 "labels for manufactured products."
@@ -11063,7 +11086,7 @@ msgstr ""
 "punto di controllo qualità, per stampare le etichette dei prodotti "
 "fabbricati."
 
-#: ../../content/applications/general/iot/devices/printer.rst:41
+#: ../../content/applications/general/iot/devices/printer.rst:46
 msgid ""
 "In the :doc:`Quality app </applications/inventory_and_mrp/quality>`, a "
 "device can be set up on a quality control point. To do so, go to "
@@ -11075,7 +11098,7 @@ msgstr ""
 "farlo, apri l'app :menuselection:`Qualità --> Controllo qualità --> Punti "
 "controllo` e apri il punto di controllo desiderato."
 
-#: ../../content/applications/general/iot/devices/printer.rst:46
+#: ../../content/applications/general/iot/devices/printer.rst:51
 msgid ""
 "A manufacturing operation and work order operation need to be attached to a "
 "quality control point before the :guilabel:`Type` field allows for "
@@ -11085,7 +11108,7 @@ msgstr ""
 "l'opzione :guilabel:`Stampa etichetta`, è necessario collegare un'operazione "
 "di produzione e di ordine di lavoro al punto controllo qualità."
 
-#: ../../content/applications/general/iot/devices/printer.rst:50
+#: ../../content/applications/general/iot/devices/printer.rst:55
 msgid ""
 "From here, edit the control point by selecting the :guilabel:`Type` field, "
 "and selecting :guilabel:`Print Label` from the dropdown menu of options. "
@@ -11097,7 +11120,7 @@ msgstr ""
 "discesa. Apparirà un campo chiamato :guilabel:`Dispositivo` dove potrai "
 "selezionare il dispositivo desiderato."
 
-#: ../../content/applications/general/iot/devices/printer.rst:54
+#: ../../content/applications/general/iot/devices/printer.rst:59
 msgid ""
 "The printer can now be used with the selected quality control point. When "
 "the quality control point is reached during the manufacturing process, the "
@@ -11108,7 +11131,7 @@ msgstr ""
 "processo di produzione, il database presenta l'opzione di stampa per le "
 "etichette per un prodotto specifico."
 
-#: ../../content/applications/general/iot/devices/printer.rst:59
+#: ../../content/applications/general/iot/devices/printer.rst:64
 msgid ""
 "Quality control points can also be accessed by navigating "
 "to :menuselection:`IoT --> Devices`, then selecting the device. Go to "
@@ -11119,7 +11142,7 @@ msgstr ""
 "dispositivo. Apri la scheda :guilabel:`Punti controllo qualità` per "
 "aggiungerli al dispositivo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:64
+#: ../../content/applications/general/iot/devices/printer.rst:69
 msgid ""
 "On a :doc:`quality check form </applications/inventory_and_mrp/quality/"
 "quality_management/quality_checks>`, the :guilabel:`Type` of check can also "
@@ -11129,30 +11152,30 @@ msgstr ""
 "quality/quality_management/quality_checks>`, è possibile impostare anche "
 "il :guilabel:`Tipo` di controllo per la :guilabel:`Stampa etichetta`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:75
+#: ../../content/applications/general/iot/devices/printer.rst:80
 msgid "Link reports to a printer"
 msgstr "Collegare resoconti a una stampante"
 
-#: ../../content/applications/general/iot/devices/printer.rst:77
+#: ../../content/applications/general/iot/devices/printer.rst:82
 msgid "It is possible to link report types to a specific printer. To do so:"
 msgstr ""
 "È possibile collegare vari tipi di resoconti a una stampante specifica. Per "
 "farlo:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:79
+#: ../../content/applications/general/iot/devices/printer.rst:84
 msgid "Go to :menuselection:`IoT --> Devices` and select the desired printer."
 msgstr ""
 "vai su :menuselection:`IoT --> Dispositivi` e seleziona la stampante "
 "desiderata;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:80
+#: ../../content/applications/general/iot/devices/printer.rst:85
 msgid ""
 "Go to the :guilabel:`Printer Reports` tab and click :guilabel:`Add a line`."
 msgstr ""
 "accedi alla scheda :guilabel:`Resoconti stampante` e fai clic "
 "su :guilabel:`Aggiungi riga`;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:81
+#: ../../content/applications/general/iot/devices/printer.rst:86
 msgid ""
 "In the pop-up that opens, select the types of reports to be linked to the "
 "printer and click :guilabel:`Select`."
@@ -11164,7 +11187,7 @@ msgstr ""
 msgid "The list of reports assigned to a printer in the IoT app."
 msgstr "L'elenco di resoconti assegnati a una stampante nell'app IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:88
+#: ../../content/applications/general/iot/devices/printer.rst:93
 msgid ""
 "Reports can also be configured by :ref:`enabling the developer mode "
 "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
@@ -11176,7 +11199,7 @@ msgstr ""
 "Funzioni tecniche --> Resoconti`. Seleziona il resoconto desiderato "
 "dall'elenco e configura un :guilabel:`Dispositivo IoT`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:92
+#: ../../content/applications/general/iot/devices/printer.rst:97
 msgid ""
 "The first time a linked report is selected to print, a :guilabel:`Select "
 "Printers` pop-up window appears. Tick the checkbox next to the correct "
@@ -11188,11 +11211,11 @@ msgstr ""
 "casella accanto alla stampante corretta per il resoconto e poi clicca "
 "su :guilabel:`Stampa`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:97
+#: ../../content/applications/general/iot/devices/printer.rst:102
 msgid "Clear device printer cache"
 msgstr "Cancella la cache della stampante del dispositivo"
 
-#: ../../content/applications/general/iot/devices/printer.rst:99
+#: ../../content/applications/general/iot/devices/printer.rst:104
 msgid ""
 "After a printer is linked to print a report, the setting is saved in a "
 "browser's cache. This means a user can have different devices saved in their "
@@ -11207,7 +11230,7 @@ msgstr ""
 "diversi possono far stampare automaticamente un resoconto da stampanti "
 "diverse, in base alle preferenze."
 
-#: ../../content/applications/general/iot/devices/printer.rst:104
+#: ../../content/applications/general/iot/devices/printer.rst:109
 msgid ""
 "To unlink a report from a printer, navigate to :menuselection:`IoT --> "
 "Configuration --> Reset Linked Printers`. This generates a list of reports "
@@ -11220,7 +11243,7 @@ msgstr ""
 "nel dispositivo attuale. Fai clic sul pulsante :guilabel:`Scollega` accanto "
 "a ogni resoconto per eliminare il collegamento."
 
-#: ../../content/applications/general/iot/devices/printer.rst:109
+#: ../../content/applications/general/iot/devices/printer.rst:114
 msgid ""
 "This step **only** prevents the report from automatically printing to the "
 "listed printer from the current browser. The report is still :ref:`linked "
@@ -11236,20 +11259,20 @@ msgid "A list of reports currently linked to a printer in the IoT app."
 msgstr ""
 "Un elenco di resoconti attualmente collegati a una stampante nell'app IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:117
+#: ../../content/applications/general/iot/devices/printer.rst:122
 msgid ":ref:`POS Order Printing <pos/restaurant/orders-printing>`"
 msgstr ""
 ":ref:`Stampa ordini del Punto vendita <pos/restaurant/orders-printing>`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:120
+#: ../../content/applications/general/iot/devices/printer.rst:125
 msgid "Potential issues"
 msgstr "Potenziali problemi"
 
-#: ../../content/applications/general/iot/devices/printer.rst:123
+#: ../../content/applications/general/iot/devices/printer.rst:128
 msgid "The printer is not detected"
 msgstr "La stampante non viene individuata"
 
-#: ../../content/applications/general/iot/devices/printer.rst:125
+#: ../../content/applications/general/iot/devices/printer.rst:130
 msgid ""
 "If a printer does not appear in the devices list, go to the :ref:`IoT box's "
 "<iot/iot-box/homepage>` or :ref:`Windows virtual IoT's <iot/windows-iot/"
@@ -11262,7 +11285,7 @@ msgstr ""
 "su :guilabel:`Mostra` nella sezione :guilabel:`Dispositivi` e assicurati che "
 "la stampante appaia nell'elenco."
 
-#: ../../content/applications/general/iot/devices/printer.rst:129
+#: ../../content/applications/general/iot/devices/printer.rst:134
 msgid ""
 "If the printer does not appear on the IoT system's homepage, "
 "click :guilabel:`Printer Server`, then :guilabel:`Administration`, "
@@ -11274,11 +11297,11 @@ msgstr ""
 "e :guilabel:`Aggiungi stampante`. Se la stampante non è nell'elenco, "
 "potrebbe non essere connessa in modo corretto."
 
-#: ../../content/applications/general/iot/devices/printer.rst:134
+#: ../../content/applications/general/iot/devices/printer.rst:139
 msgid "The printer outputs random text"
 msgstr "La stampante emette un testo casuale"
 
-#: ../../content/applications/general/iot/devices/printer.rst:136
+#: ../../content/applications/general/iot/devices/printer.rst:141
 msgid ""
 "For most printers, the correct driver should be automatically detected and "
 "selected. However, in some cases, the automatic detection mechanism might "
@@ -11291,7 +11314,7 @@ msgstr ""
 "non viene trovato alcun driver, la stampante potrebbe stampare caratteri "
 "casuali."
 
-#: ../../content/applications/general/iot/devices/printer.rst:140
+#: ../../content/applications/general/iot/devices/printer.rst:145
 msgid ""
 "The solution is to manually select the corresponding driver. On the IoT "
 "system's homepage, click :guilabel:`Printer Server`, "
@@ -11310,7 +11333,7 @@ msgstr ""
 msgid "Edit the printer connected to the IoT system."
 msgstr "Modificare la stampante collegata al sistema IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:150
+#: ../../content/applications/general/iot/devices/printer.rst:155
 msgid ""
 "Epson receipt printers and Zebra label printers do not need a driver to "
 "work. Make sure that no driver is selected for those printers."
@@ -11319,11 +11342,11 @@ msgstr ""
 "bisogno di un driver per funzionare. Assicurati che non sia selezionato "
 "alcun driver per queste stampanti."
 
-#: ../../content/applications/general/iot/devices/printer.rst:154
+#: ../../content/applications/general/iot/devices/printer.rst:159
 msgid "The printer is detected but is not recognized correctly"
 msgstr "La stampante viene individuata ma non riconosciuta correttamente"
 
-#: ../../content/applications/general/iot/devices/printer.rst:156
+#: ../../content/applications/general/iot/devices/printer.rst:161
 msgid ""
 "If Odoo and the IoT system do not recognize the printer correctly, go "
 "to :menuselection:`IoT --> Devices`, click the device's card to access its "
@@ -11338,11 +11361,11 @@ msgstr ""
 "appropriata: :guilabel:`Stampante ricevuta`, :guilabel:`Stampante etichetta` "
 "o :guilabel:`Stampante ufficio`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:162
+#: ../../content/applications/general/iot/devices/printer.rst:167
 msgid "Epson configuration special case"
 msgstr "Casi speciali configurazione Epson"
 
-#: ../../content/applications/general/iot/devices/printer.rst:164
+#: ../../content/applications/general/iot/devices/printer.rst:169
 msgid ""
 "Most Epson printers support printing receipts in Odoo Point of Sale using "
 "the `GS v 0` command. However, the following Epson printer models do not "
@@ -11352,23 +11375,23 @@ msgstr ""
 "Punto vendita Odoo utilizzando il comando `GS v 0`. Tuttavia, le seguenti "
 "stampanti Epson non supportano il comando:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:167
+#: ../../content/applications/general/iot/devices/printer.rst:172
 msgid "TM-U220"
 msgstr "TM-U220"
 
-#: ../../content/applications/general/iot/devices/printer.rst:168
+#: ../../content/applications/general/iot/devices/printer.rst:173
 msgid "TM-U230"
 msgstr "TM-U230"
 
-#: ../../content/applications/general/iot/devices/printer.rst:169
+#: ../../content/applications/general/iot/devices/printer.rst:174
 msgid "TM-P60"
 msgstr "TM-P60"
 
-#: ../../content/applications/general/iot/devices/printer.rst:170
+#: ../../content/applications/general/iot/devices/printer.rst:175
 msgid "TMP-P60II"
 msgstr "TMP-P60II"
 
-#: ../../content/applications/general/iot/devices/printer.rst:172
+#: ../../content/applications/general/iot/devices/printer.rst:177
 msgid ""
 "To bypass this issue, you can configure the printer to use the `ESC *` "
 "command."
@@ -11376,7 +11399,7 @@ msgstr ""
 "Per aggirare il problema, è possibile configurare la stampante per "
 "l'utilizzo del comando `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:174
+#: ../../content/applications/general/iot/devices/printer.rst:179
 msgid ""
 "First, review Epson's website for compatibility for both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -11388,7 +11411,7 @@ msgstr ""
 "gs_lv_0.html>`_ ed `ESC * <https://download4.epson.biz/sec_pubs/pos/"
 "reference_en/escpos/esc_asterisk.html>`_."
 
-#: ../../content/applications/general/iot/devices/printer.rst:178
+#: ../../content/applications/general/iot/devices/printer.rst:183
 msgid ""
 "If the printer is incompatible with `GS v 0` but supports `ESC *`, configure "
 "the IoT system to use the `ESC *` command as follows:"
@@ -11396,7 +11419,7 @@ msgstr ""
 "Se la stampante non è compatiile con `GS v 0` ma supporta `ESC *`, configura "
 "il sistema IoT per utilizzare il comando come segue:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:183
+#: ../../content/applications/general/iot/devices/printer.rst:188
 msgid ""
 "Click the :guilabel:`Printer server` button, then "
 "click :guilabel:`Administration` on the CUPS page."
@@ -11404,7 +11427,7 @@ msgstr ""
 "fai clic sul pulsante :guilabel:`Server stampante` e poi fai clic "
 "su :guilabel:`Amministrazione` sulla pagina CUPS;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:185
+#: ../../content/applications/general/iot/devices/printer.rst:190
 msgid ""
 "Click :guilabel:`Add Printer` in the :guilabel:`Printers` section, select "
 "the printer, and click :guilabel:`Continue`."
@@ -11413,32 +11436,32 @@ msgstr ""
 "sezione :guilabel:`Stampanti`, seleziona la stampante e fai clic "
 "su :guilabel:`Continua`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:189
+#: ../../content/applications/general/iot/devices/printer.rst:194
 msgid "If the printer's name is still uncertain, take the following steps:"
 msgstr "Se il nome della stampante non è ancora certom segui questi step:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:191
+#: ../../content/applications/general/iot/devices/printer.rst:196
 msgid "Take note of the listed printers on the CUPS page."
 msgstr "prendi nota delle stampanti elencate nella pagina CUPS;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:192
+#: ../../content/applications/general/iot/devices/printer.rst:197
 msgid "Turn the printer off and refresh the page."
 msgstr "Spegni la stampante e ricarica la pagina;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:193
+#: ../../content/applications/general/iot/devices/printer.rst:198
 msgid ""
 "Compare the difference with the first list to see which printer disappeared."
 msgstr "confronta con il primo elenco per vedere quale stampante è scomparsa;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:194
+#: ../../content/applications/general/iot/devices/printer.rst:199
 msgid "Turn the printer back on and refresh the page again."
 msgstr "Riaccendi la stampante e ricarica la pagina;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:195
+#: ../../content/applications/general/iot/devices/printer.rst:200
 msgid "Double-check the list again to see if the printer re-appears."
 msgstr "Controlla di nuovo l'elenco per vedere se appare la stampante;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:196
+#: ../../content/applications/general/iot/devices/printer.rst:201
 msgid ""
 "The printer that disappeared and reappears again on the listed printers is "
 "the name of the printer in question. It can be :guilabel:`Unknown` "
@@ -11448,7 +11471,7 @@ msgstr ""
 "della stampante in questione. Può avere il nome :guilabel:`Sconosciuta` "
 "nella sezione :guilabel:`Stampanti locali`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:199
+#: ../../content/applications/general/iot/devices/printer.rst:204
 msgid ""
 "On the :guilabel:`Add Printer` page, specify the printer's :guilabel:`Name` "
 "using the following convention: "
@@ -11458,7 +11481,7 @@ msgstr ""
 "della stampante utilizzando la seguente convenzione: "
 "`<printer_name>__IMC_<param_1>_<param_2>_..._<param_n>__`, dove:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:202
+#: ../../content/applications/general/iot/devices/printer.rst:207
 msgid ""
 "`printer_name` is the printer's name. It can contain any character except "
 "`_`, `/`, `#`, or ` ` (space character)."
@@ -11466,16 +11489,16 @@ msgstr ""
 "`printer_name` è il nome della stampante. Può contenere qualsiasi carattere "
 "eccetto `_`, `/`, `#` o ` ` (carattere spazio)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:204
+#: ../../content/applications/general/iot/devices/printer.rst:209
 msgid ""
 "`IMC`: This stands for *Image Mode Column* (the simplified name for `ESC *`)."
 msgstr "`IMC`: ovvero *Image Mode Column* nome semplificato per `ESC *`)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:205
+#: ../../content/applications/general/iot/devices/printer.rst:210
 msgid "`param_1`: This stands for the specific parameter:"
 msgstr "`param_1`: parametro specifico:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:207
+#: ../../content/applications/general/iot/devices/printer.rst:212
 msgid ""
 "`SCALE<X>`: Scale of the picture (with the same aspect ratio). `X` should be "
 "an integer describing the scale percentage that should be used. For example, "
@@ -11487,7 +11510,7 @@ msgstr ""
 "utilizzare. Ad esempio, `100` è la dimensione originale, `50` corrisponde "
 "alla metà e `200` al doppio."
 
-#: ../../content/applications/general/iot/devices/printer.rst:210
+#: ../../content/applications/general/iot/devices/printer.rst:215
 msgid ""
 "`LDV`: *Low Density Vertical* (will be set to *High Density Vertical* if not "
 "specified)."
@@ -11495,7 +11518,7 @@ msgstr ""
 "`LDV`: *Low Density Vertical* (verrà impostata su *High Density Vertical* se "
 "non specificato)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:211
+#: ../../content/applications/general/iot/devices/printer.rst:216
 msgid ""
 "`LDH`: *Low Density Horizontal* (will be set to *High Density Horizontal* if "
 "not specified)."
@@ -11503,7 +11526,7 @@ msgstr ""
 "`LDH`: *Low Density Horizontal* (verrà impostata su *High Density "
 "Horizontal* se non specificato)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:214
+#: ../../content/applications/general/iot/devices/printer.rst:219
 msgid ""
 "*Density* parameters might need to be configured in a particular way, "
 "depending on the printer model."
@@ -11511,7 +11534,7 @@ msgstr ""
 "Potrebbe essere necessario configurare i parametri relativi alla *densità* "
 "in un modo particolare in base al modello di stampante."
 
-#: ../../content/applications/general/iot/devices/printer.rst:216
+#: ../../content/applications/general/iot/devices/printer.rst:221
 msgid ""
 "Refer to `Epson's ESC * documentation <https://download4.epson.biz/sec_pubs/"
 "pos/reference_en/escpos/esc_asterisk.html>`_ to determine if the printer "
@@ -11521,24 +11544,24 @@ msgstr ""
 "sec_pubs/pos/reference_en/escpos/esc_asterisk.html>`_ per capire se la "
 "stampante richiede la configurazione dei parametri."
 
-#: ../../content/applications/general/iot/devices/printer.rst:220
+#: ../../content/applications/general/iot/devices/printer.rst:225
 msgid "The following are examples of proper and improper name formatting:"
 msgstr ""
 "Di seguito alcuni esempi di nomi formattati in modo giusto e sbagliato."
 
-#: ../../content/applications/general/iot/devices/printer.rst:222
+#: ../../content/applications/general/iot/devices/printer.rst:227
 msgid "Proper name formatting:"
 msgstr "Formattazione nome giusta:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:224
+#: ../../content/applications/general/iot/devices/printer.rst:229
 msgid "`EPSONTMm30II__IMC__`"
 msgstr "`EPSONTMm30II__IMC__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:225
+#: ../../content/applications/general/iot/devices/printer.rst:230
 msgid "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 msgstr "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:227
+#: ../../content/applications/general/iot/devices/printer.rst:232
 msgid ""
 "Improper name formatting (this will not prevent printing, but the result "
 "might not have the expected printed output):"
@@ -11546,20 +11569,20 @@ msgstr ""
 "Formattazione nome errata (non impedirà la stampa ma il risultato potrebbe "
 "non essere quello desiderato):"
 
-#: ../../content/applications/general/iot/devices/printer.rst:230
+#: ../../content/applications/general/iot/devices/printer.rst:235
 msgid "`EPSON TMm 30II`: The name cannot contain spaces."
 msgstr "`EPSON TMm 30II`: il nome non può contenere spazi"
 
-#: ../../content/applications/general/iot/devices/printer.rst:231
+#: ../../content/applications/general/iot/devices/printer.rst:236
 msgid ""
 "`EPSONTMm30II`: The name itself is correct, but it will not use `ESC *`."
 msgstr "`EPSONTMm30II`: il nome è corretto ma non utilizzerà `ESC *`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:232
+#: ../../content/applications/general/iot/devices/printer.rst:237
 msgid "`EPSONTMm30II__IMC`: This name is missing the end `__`."
 msgstr "`EPSONTMm30II__IMC`: il nome manca della fine `__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:233
+#: ../../content/applications/general/iot/devices/printer.rst:238
 msgid ""
 "`EPSONTMm30II__IMC_XDV__`: The parameter `XDV` does not match any existing "
 "parameters."
@@ -11567,14 +11590,14 @@ msgstr ""
 "`EPSONTMm30II__IMC_XDV__`: il parametro `XDV` non corrisponde a nessuno dei "
 "parametri esistenti"
 
-#: ../../content/applications/general/iot/devices/printer.rst:234
+#: ../../content/applications/general/iot/devices/printer.rst:239
 msgid ""
 "`EPSONTMm30II__IMC_SCALE__`: The parameter `SCALE` is missing the scale "
 "value."
 msgstr ""
 "`EPSONTMm30II__IMC_SCALE__`: il parametro `SCALE` manca il valore della scala"
 
-#: ../../content/applications/general/iot/devices/printer.rst:236
+#: ../../content/applications/general/iot/devices/printer.rst:241
 msgid ""
 "Once the printer's name has been defined using the appropriate naming "
 "convention, click :guilabel:`Continue`."
@@ -11582,7 +11605,7 @@ msgstr ""
 "una volta che il nome della stampante è stato definito utilizzando la "
 "convenzione di denominazione appropriata, fai clic su :guilabel:`Continua`;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:238
+#: ../../content/applications/general/iot/devices/printer.rst:243
 msgid ""
 "Set the :guilabel:`Make` value to :guilabel:`Raw` and the :guilabel:`Model` "
 "value to :guilabel:`Raw Queue (en)`."
@@ -11591,7 +11614,7 @@ msgstr ""
 "su :guilabel:`Raw` e per il valore :guilabel:`Model` scegli :guilabel:`Raw "
 "Queue (en)`;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:240
+#: ../../content/applications/general/iot/devices/printer.rst:245
 msgid ""
 "Click :guilabel:`Add Printer`. If everything was done correctly, the page "
 "should redirect to the :guilabel:`Banners` page."
@@ -11599,7 +11622,7 @@ msgstr ""
 "fai clic su :guilabel:`Aggiungi stampante`. Se tutto è stato fatto "
 "correttamente, la pagina dovrebbe reindirizzare alla pagina *Banner*;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:242
+#: ../../content/applications/general/iot/devices/printer.rst:247
 msgid ""
 "Wait a few minutes for the IoT system to detect the printer and sync to "
 "Odoo's server."
@@ -11607,7 +11630,7 @@ msgstr ""
 "aspetta alcuni minuti per far sì che il sistema individui la stampante e si "
 "sincronizzi con il server Odoo;"
 
-#: ../../content/applications/general/iot/devices/printer.rst:243
+#: ../../content/applications/general/iot/devices/printer.rst:248
 msgid ""
 ":ref:`Access the POS settings <pos/use/settings>` and select your POS, or "
 "click the vertical ellipsis button (:guilabel:`⋮`) on a POS card and "
@@ -11622,7 +11645,7 @@ msgstr ""
 "Box` e seleziona la stampante nel campo :guilabel:`Stampante per ricevute`. "
 "Fai clic su :guilabel:`Salva`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:249
+#: ../../content/applications/general/iot/devices/printer.rst:254
 msgid ""
 "If the printer was set up incorrectly (e.g., it continues to print random "
 "text, or the printed receipt is too large or too small), it cannot be "
@@ -11635,7 +11658,7 @@ msgstr ""
 "CUPS. Occorre invece configurare una nuova stampante da zero con i parametri "
 "modificati, seguendo i passi precedenti."
 
-#: ../../content/applications/general/iot/devices/printer.rst:257
+#: ../../content/applications/general/iot/devices/printer.rst:262
 msgid ""
 "The following is an example of the troubleshooting process for a TM-U220B "
 "printer model using the `ESC *` command. The receipt pictured below is an "
@@ -11651,7 +11674,7 @@ msgstr ""
 msgid "Properly formatted receipt picture from a demo database."
 msgstr "Immagine di una ricevuta formattata correttamente da un database demo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:265
+#: ../../content/applications/general/iot/devices/printer.rst:270
 msgid ""
 "Printing this receipt immediately without proper formatting will not work, "
 "as the TM-U220B printer model does not support the `GS v 0` command. "
@@ -11665,7 +11688,7 @@ msgstr ""
 msgid "Printer paper with seemingly random characters."
 msgstr "Carta stampante con caratteri casuali."
 
-#: ../../content/applications/general/iot/devices/printer.rst:272
+#: ../../content/applications/general/iot/devices/printer.rst:277
 msgid ""
 "To properly configure formatting for the Epson TM-U220B printer model, "
 "follow these steps:"
@@ -11673,7 +11696,7 @@ msgstr ""
 "Per configurare in modo appropriato la formattazione per il modello "
 "stampante Epson TM-U220B segui questi step:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:274
+#: ../../content/applications/general/iot/devices/printer.rst:279
 msgid ""
 "After checking Epson's website for compatibility with both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -11691,7 +11714,7 @@ msgstr ""
 msgid "Epson compatibility evaluation from Epson website."
 msgstr "Valutazione compatibilità Epson dal sito web Epson."
 
-#: ../../content/applications/general/iot/devices/printer.rst:282
+#: ../../content/applications/general/iot/devices/printer.rst:287
 msgid "When adding the printer, CUPS displays the list of available printers:"
 msgstr ""
 "Quando aggiungi la stampante, il sistema CUPS mostra l'elenco di stampanti "
@@ -11701,7 +11724,7 @@ msgstr ""
 msgid "Administration menu, add printer selection."
 msgstr "Menu amministrazione, selezione aggiunta stampante."
 
-#: ../../content/applications/general/iot/devices/printer.rst:288
+#: ../../content/applications/general/iot/devices/printer.rst:293
 msgid ""
 "In this case, the printer is connected via USB, so it is not part of "
 "the :guilabel:`Discovered Network Printers`. Instead, it is likely part of "
@@ -11718,7 +11741,7 @@ msgstr ""
 "Ricollegandola, la stampante riappare, quindi si può dire che si tratta "
 "della stampante in questione."
 
-#: ../../content/applications/general/iot/devices/printer.rst:294
+#: ../../content/applications/general/iot/devices/printer.rst:299
 msgid ""
 "For the naming convention, since the printer must print using the `ESC *` "
 "command, it is imperative to add `__IMC`."
@@ -11730,7 +11753,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturer's website."
 msgstr "Specifiche Epson TM-U220 sul sito web del produttore."
 
-#: ../../content/applications/general/iot/devices/printer.rst:300
+#: ../../content/applications/general/iot/devices/printer.rst:305
 msgid ""
 "For this particular model (TM-U220) `m` should be equal to 0 or 1. While "
 "referencing the :guilabel:`Description` table on `Epson's ESC * website "
@@ -11746,7 +11769,7 @@ msgstr ""
 "nel caso della stampante, il valore `m` ***non*** può essere 32 o 33 "
 "(altrimenti verranno stampati caratteri casuali)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:306
+#: ../../content/applications/general/iot/devices/printer.rst:311
 msgid ""
 "The table includes the numeric values 32 and 33; they both occur if "
 "the :guilabel:`Number of bits for vertical data` is set to 24, i.e. it has a "
@@ -11761,7 +11784,7 @@ msgstr ""
 "modello di stampante non supporta il *High Vertical Density* per il comando "
 "`ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:311
+#: ../../content/applications/general/iot/devices/printer.rst:316
 msgid ""
 "To add a *Low Vertical Density*, add the `LDV` parameter to the naming "
 "convention."
@@ -11776,7 +11799,7 @@ msgstr ""
 "Aggiungi un *Low Vertical Density*, (parametro `LDV`) alla convenzione di "
 "denominazione."
 
-#: ../../content/applications/general/iot/devices/printer.rst:316
+#: ../../content/applications/general/iot/devices/printer.rst:321
 msgid ""
 "Click :guilabel:`Continue` to proceed. Next, set the :guilabel:`Make` value "
 "to :guilabel:`Raw` and the :guilabel:`Model` value to :guilabel:`Raw Queue "
@@ -11790,7 +11813,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturers website."
 msgstr "Specifiche Epson TM-U220 sul sito web dei produttori."
 
-#: ../../content/applications/general/iot/devices/printer.rst:322
+#: ../../content/applications/general/iot/devices/printer.rst:327
 msgid ""
 "However, when trying to print with the naming convention "
 "`EpsonTMU220B__IMC_LDV__`, the receipt is printed, but it is too large and "
@@ -11803,27 +11826,27 @@ msgstr ""
 "(e convenzione di denominazione) con il parametro `SCALE<X>` per adattarlo "
 "alla dimensione della ricevuta."
 
-#: ../../content/applications/general/iot/devices/printer.rst:326
+#: ../../content/applications/general/iot/devices/printer.rst:331
 msgid "Here are some examples:"
 msgstr "Ecco alcuni esempi:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:331
+#: ../../content/applications/general/iot/devices/printer.rst:336
 msgid "Printer Naming Convention"
 msgstr "Convenzione di denominazione stampanti"
 
-#: ../../content/applications/general/iot/devices/printer.rst:332
+#: ../../content/applications/general/iot/devices/printer.rst:337
 msgid "`EpsonTMU220B__IMC_LDV__`"
 msgstr "`EpsonTMU220B__IMC_LDV__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:333
+#: ../../content/applications/general/iot/devices/printer.rst:338
 msgid "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 msgstr "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:334
+#: ../../content/applications/general/iot/devices/printer.rst:339
 msgid "`EpsonTMU220B__IMC_LDV_LDH__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:335
+#: ../../content/applications/general/iot/devices/printer.rst:340
 msgid "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 
@@ -11851,11 +11874,11 @@ msgid ""
 msgstr ""
 "Formato ricevuta che usa la convenzione: EpsonTMU220B__IMC_LDV_LDH_SCALE35__."
 
-#: ../../content/applications/general/iot/devices/printer.rst:348
+#: ../../content/applications/general/iot/devices/printer.rst:353
 msgid "DYMO LabelWriter print issue"
 msgstr "Problema di stampa DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:350
+#: ../../content/applications/general/iot/devices/printer.rst:355
 msgid ""
 "The DYMO LabelWriter has a known issue in printing with IoT systems. The "
 "OpenPrinting CUPS server installs the printer using :guilabel:`Local RAW "
@@ -11869,7 +11892,7 @@ msgstr ""
 "necessario impostare la corretta :guilabel:`Marca e modello`, in modo che "
 "venga fatto riferimento al driver corretto quando si utilizza il dispositivo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:355
+#: ../../content/applications/general/iot/devices/printer.rst:360
 msgid ""
 "Additionally, a new printer needs to be added to reduce the print delay that "
 "occurs after updating the driver."
@@ -11877,7 +11900,7 @@ msgstr ""
 "Inoltre, è necessario aggiungere una nuova stampante per ridurre il ritardo "
 "di stampa che si verifica dopo l'aggiornamento del driver."
 
-#: ../../content/applications/general/iot/devices/printer.rst:359
+#: ../../content/applications/general/iot/devices/printer.rst:364
 msgid ""
 "The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use "
 "with Odoo and IoT systems. This device combines two printers: a label "
@@ -11896,16 +11919,16 @@ msgstr ""
 "configurazione per il modello DYMO LabelWriter 450 DUO Label (en). La scelta "
 "del modello dipende dalle necessità."
 
-#: ../../content/applications/general/iot/devices/printer.rst:369
+#: ../../content/applications/general/iot/devices/printer.rst:374
 msgid "DYMO LabelWriter not printing"
 msgstr "DYMO LabelWriter non stampa"
 
-#: ../../content/applications/general/iot/devices/printer.rst:371
+#: ../../content/applications/general/iot/devices/printer.rst:376
 msgid "If the DYMO LabelWriter fails to print, install a new driver:"
 msgstr "Se la DYMO LabelWriter non stampa, installa un nuovo driver:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:373
-#: ../../content/applications/general/iot/devices/printer.rst:409
+#: ../../content/applications/general/iot/devices/printer.rst:378
+#: ../../content/applications/general/iot/devices/printer.rst:414
 msgid ""
 "Access the IoT system's homepage and click :menuselection:`Printer server` "
 "to open the OpenPrinting CUPS console."
@@ -11913,7 +11936,7 @@ msgstr ""
 "accedi alla pagina principale del sistema IoT e fai clic "
 "su :menuselection:`Server stampante` per aprire la console CUPS OpenPrinting"
 
-#: ../../content/applications/general/iot/devices/printer.rst:375
+#: ../../content/applications/general/iot/devices/printer.rst:380
 msgid ""
 "Click :menuselection:`Printers` in the top menu, then click the printer in "
 "the list."
@@ -11921,11 +11944,11 @@ msgstr ""
 "fai clic su :menuselection:`Stampanti` nel menu in alto e poi fai clic sulla "
 "stampante nell'elenco"
 
-#: ../../content/applications/general/iot/devices/printer.rst:376
+#: ../../content/applications/general/iot/devices/printer.rst:381
 msgid "Select :guilabel:`Maintenance` in the first dropdown menu."
 msgstr "seleziona :guilabel:`Manutenzione` nel primo menu a tendina"
 
-#: ../../content/applications/general/iot/devices/printer.rst:377
+#: ../../content/applications/general/iot/devices/printer.rst:382
 msgid "Select :guilabel:`Modify Printer` in the second dropdown menu."
 msgstr "seleziona :guilabel:`Modifica stampante` nel secondo menu a tendina"
 
@@ -11939,7 +11962,7 @@ msgstr ""
 "Manutenzione e Modifica\n"
 "sono evidenziati."
 
-#: ../../content/applications/general/iot/devices/printer.rst:383
+#: ../../content/applications/general/iot/devices/printer.rst:388
 msgid ""
 "Select the specific network connection/printer on which the modification "
 "should be made and click :guilabel:`Continue`."
@@ -11947,7 +11970,7 @@ msgstr ""
 "seleziona la connessione di rete/stampante specifica su cui deve essere "
 "effettuata la modifica e fai clic su :guilabel:`Continua`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:385
+#: ../../content/applications/general/iot/devices/printer.rst:390
 msgid ""
 "On the next page, click :guilabel:`Continue`, then select :guilabel:`DYMO` "
 "from the :guilabel:`Make` dropdown list."
@@ -11955,7 +11978,7 @@ msgstr ""
 "nella pagina successiva, fai clic su :guilabel:`Continua` e poi "
 "seleziona :guilabel:`DYMO` dall'elenco a discesa :guilabel:`Make`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:387
+#: ../../content/applications/general/iot/devices/printer.rst:392
 msgid ""
 "Click on :guilabel:`Continue` and set the :guilabel:`Model` "
 "to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO "
@@ -11965,7 +11988,7 @@ msgstr ""
 "su :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (o qualsiasi modello di "
 "stampante DYMO in utilizzo)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:389
+#: ../../content/applications/general/iot/devices/printer.rst:394
 msgid ""
 "Click :guilabel:`Modify Printer` to set the new driver; a confirmation page "
 "appears."
@@ -11973,7 +11996,7 @@ msgstr ""
 "fai clic su :guilabel:`Modifica stampante` per impostare nuovi driver, "
 "apparirà una pagina di conferma"
 
-#: ../../content/applications/general/iot/devices/printer.rst:390
+#: ../../content/applications/general/iot/devices/printer.rst:395
 msgid ""
 "Click :menuselection:`Printers` in the top menu; all printers installed on "
 "the OpenPrinting CUPS server appear, including the newly "
@@ -11985,7 +12008,7 @@ msgstr ""
 "la :guilabel:`DYMO LabelWriter 450 DUO Label` aggiornata di recente (o "
 "qualsiasi modello di stampante DYMO utilizzata)"
 
-#: ../../content/applications/general/iot/devices/printer.rst:393
+#: ../../content/applications/general/iot/devices/printer.rst:398
 msgid ""
 "Click the newly updated printer, then click the :guilabel:`Maintenance` "
 "dropdown menu and select :guilabel:`Print Test Page` to print a test label. "
@@ -11998,17 +12021,17 @@ msgstr ""
 "stampata dopo pochi secondi se l'aggiornamento del driver è avvenuto con "
 "successo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:397
+#: ../../content/applications/general/iot/devices/printer.rst:402
 msgid "To reduce this delay, add a new printer using the steps below."
 msgstr ""
 "Per ridurre il ritardo, aggiungi una nuova stampante utilizzando la "
 "procedura descritta di seguito."
 
-#: ../../content/applications/general/iot/devices/printer.rst:400
+#: ../../content/applications/general/iot/devices/printer.rst:405
 msgid "DYMO LabelWriter print delay"
 msgstr "Ritardo stampa DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:403
+#: ../../content/applications/general/iot/devices/printer.rst:408
 msgid ""
 "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not "
 "recognized (i.e., it has a :guilabel:`RAW` driver type), then :ref:`update "
@@ -12018,14 +12041,14 @@ msgstr ""
 "riconosciuta (ovvero ha un tipo di driver :guilabel:`RAW`), :ref:`aggiorna i "
 "driver sul dispositivo <printer/dymo/update_drivers>`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:407
+#: ../../content/applications/general/iot/devices/printer.rst:412
 msgid ""
 "To resolve the delay issue after modifying the driver, reinstall the printer:"
 msgstr ""
 "Per risolvere il problema legato al ritardo dopo aver modificato il driver, "
 "installa di nuovo la stampante:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:411
+#: ../../content/applications/general/iot/devices/printer.rst:416
 msgid ""
 "Click :menuselection:`Administration` in the top menu, then "
 "click :guilabel:`Add a Printer`."
@@ -12033,7 +12056,7 @@ msgstr ""
 "fai clic su :menuselection:`Amministrazione` nel menu in alto, poi fai clic "
 "su :guilabel:`Aggiungi stampante`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:412
+#: ../../content/applications/general/iot/devices/printer.rst:417
 msgid ""
 "On the next page, in the :guilabel:`Local Printers` section, "
 "select :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO "
@@ -12055,7 +12078,7 @@ msgstr ""
 "DYMO LabelWriter 450 DUO\n"
 "evidenziata."
 
-#: ../../content/applications/general/iot/devices/printer.rst:420
+#: ../../content/applications/general/iot/devices/printer.rst:425
 msgid ""
 "On the following screen, update the :guilabel:`Name` to something easily "
 "identifiable, as the original printer will remain in the list. Then, "
@@ -12073,7 +12096,7 @@ msgstr ""
 "Pagina rinomina stampante nel flusso 'Aggiungi stampante' con il campo nome "
 "evidenziato."
 
-#: ../../content/applications/general/iot/devices/printer.rst:426
+#: ../../content/applications/general/iot/devices/printer.rst:431
 msgid ""
 "Set the :guilabel:`Model` field to :guilabel:`DYMO LabelWriter 450 DUO Label "
 "(en)` (or whichever DYMO printer model is being used), then "
@@ -12093,7 +12116,7 @@ msgstr ""
 "aggiungi stampante\n"
 "evidenziati."
 
-#: ../../content/applications/general/iot/devices/printer.rst:434
+#: ../../content/applications/general/iot/devices/printer.rst:439
 msgid ""
 "Click :menuselection:`Printers` in the top menu and click the newly "
 "installed printer :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever "
@@ -12107,7 +12130,7 @@ msgstr ""
 msgid "Printer page with newly installed printer highlighted."
 msgstr "Pagina della stampante con evidenziata la stampante appena installata."
 
-#: ../../content/applications/general/iot/devices/printer.rst:441
+#: ../../content/applications/general/iot/devices/printer.rst:446
 msgid ""
 "Click the :guilabel:`Maintenance` dropdown list and select :guilabel:`Print "
 "Test Page` to print a test label. The test label should print out "
@@ -12118,11 +12141,11 @@ msgstr ""
 "prova. L'etichetta di prova dovrebbe essere stampata immediatamente oppure "
 "dopo un paio di secondi."
 
-#: ../../content/applications/general/iot/devices/printer.rst:445
+#: ../../content/applications/general/iot/devices/printer.rst:450
 msgid "The Zebra printer does not print anything"
 msgstr "La stampante Zebra non stampa nulla"
 
-#: ../../content/applications/general/iot/devices/printer.rst:447
+#: ../../content/applications/general/iot/devices/printer.rst:452
 msgid ""
 "Zebra printers are quite sensitive to the format of the printed Zebra "
 "Programming Language (ZPL) code. If nothing comes out of the printer or "
@@ -12139,7 +12162,7 @@ msgstr ""
 "su :menuselection:`Impostazioni --> Funzioni tecniche --> Interfaccia utente "
 "--> Viste` e cerca il modello corrispondente."
 
-#: ../../content/applications/general/iot/devices/printer.rst:454
+#: ../../content/applications/general/iot/devices/printer.rst:459
 msgid ""
 "`Zebra's instructions on printing ZPL files <https://"
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
@@ -12149,17 +12172,17 @@ msgstr ""
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
 "Printer?language=it`_"
 
-#: ../../content/applications/general/iot/devices/printer.rst:458
+#: ../../content/applications/general/iot/devices/printer.rst:463
 msgid "Barcode scanner issues"
 msgstr "Problemi lettore codici a barre"
 
-#: ../../content/applications/general/iot/devices/printer.rst:461
+#: ../../content/applications/general/iot/devices/printer.rst:466
 msgid "The characters read by the barcode scanner do not match the barcode"
 msgstr ""
 "I caratteri letti dal lettore di codici a barre non corrispondono al codice "
 "a barre"
 
-#: ../../content/applications/general/iot/devices/printer.rst:463
+#: ../../content/applications/general/iot/devices/printer.rst:468
 msgid ""
 "By default, most barcode scanners are configured in the US QWERTY format. If "
 "the barcode scanner uses a different layout, go to :menuselection:`IoT --> "
@@ -12172,8 +12195,8 @@ msgstr ""
 "clic sulla scheda del dispositivo per i codici a barre. In seguito, "
 "seleziona la lingua corretta nel campo  :guilabel:`Layout tastiera`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:468
-#: ../../content/applications/general/iot/devices/printer.rst:498
+#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:503
 msgid ""
 "The :guilabel:`Keyboard Layout` is language-specific, with available options "
 "varying based on the device and the language of the database "
@@ -12183,11 +12206,11 @@ msgstr ""
 "disponibili variano a seconda del dispositivo e della lingua del database "
 "(ad es.: :guilabel:`English (UK)`, :guilabel:`English (US)`, ecc.)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:478
 msgid "Nothing happens when a barcode is scanned"
 msgstr "Non accade nulla al momento della scansione di un codice a barre"
 
-#: ../../content/applications/general/iot/devices/printer.rst:475
+#: ../../content/applications/general/iot/devices/printer.rst:480
 msgid ""
 "Make sure the correct device is selected in the :doc:`Point of Sale settings "
 "</applications/sales/point_of_sale/hardware_network/pos_iot>` (when "
@@ -12200,11 +12223,11 @@ msgstr ""
 "codice a barre sia configurato per inviare un carattere `ENTER` (keycode 28) "
 "alla fine di ogni codice a barre."
 
-#: ../../content/applications/general/iot/devices/printer.rst:480
+#: ../../content/applications/general/iot/devices/printer.rst:485
 msgid "The barcode scanner is detected as a keyboard"
 msgstr "Il lettore di codici a barre viene rilevato come tastiera"
 
-#: ../../content/applications/general/iot/devices/printer.rst:483
+#: ../../content/applications/general/iot/devices/printer.rst:488
 msgid ""
 "Some barcode scanners are identified as USB keyboards rather than barcode "
 "scanners and are not recognized by IoT systems."
@@ -12212,7 +12235,7 @@ msgstr ""
 "Alcuni lettori di codici a barre vengono identificati come tastiere USB "
 "invece che lettori e non vengono riconosciuti dai sistemi IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:486
+#: ../../content/applications/general/iot/devices/printer.rst:491
 msgid ""
 "To change the device type manually, go to :menuselection:`IoT --> Devices` "
 "and click the barcode device's card. Then, enable :guilabel:`Is scanner`."
@@ -12221,12 +12244,12 @@ msgstr ""
 "su :menuselection:`IoT --> Dispositivi` e fai clic sulla scheda del "
 "dispositivo codici a barre. In seguito, attiva :guilabel:`È scanner`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:490
+#: ../../content/applications/general/iot/devices/printer.rst:495
 msgid "The barcode scanner processes barcode characters individually"
 msgstr ""
 "Il lettore di codici a barre elabora i caratteri del codice singolarmente"
 
-#: ../../content/applications/general/iot/devices/printer.rst:492
+#: ../../content/applications/general/iot/devices/printer.rst:497
 msgid ""
 "When accessing the mobile version of Odoo from a mobile device or tablet "
 "paired with a barcode scanner via the IoT system, the scanner might "
@@ -12554,6 +12577,7 @@ msgstr ""
 "password non sarà più disponibile."
 
 #: ../../content/applications/general/iot/iot_advanced/ssh_connect.rst:0
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:None
 msgid "The Remote Debugging password generation window."
 msgstr "Finestra generazione password debugging remoto."
 
@@ -12577,11 +12601,15 @@ msgstr ":doc:`../iot_box`"
 msgid ":doc:`../connect`"
 msgstr ":doc:`../connect`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:8
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:6
+msgid "Frequently encountered issues"
+msgstr "Problemi frequenti"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:9
 msgid "The pairing code does not appear or does not work"
 msgstr "Il codice di abbinamento non appare o non funziona"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:10
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:11
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` might not be displayed or "
 "printed under the following circumstances:"
@@ -12589,11 +12617,11 @@ msgstr ""
 "Il :ref:`codice di abbinamento <iot/connect/pairing-code>` potrebbe non "
 "apparire o essere stampato nelle seguenti circostanze:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:13
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
 msgid "The IoT system is not connected to the network."
 msgstr "Il sistema IoT non è connesso alla rete."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:15
 msgid ""
 "The IoT system is already connected to an Odoo database. :ref:`Disconnect it "
 "from the database <iot/connect/disconnect>`."
@@ -12601,7 +12629,7 @@ msgstr ""
 "Il sistema IoT è già connesso a un database Odoo. :ref:`Disconnetterlo dal "
 "database <iot/connect/disconnect>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:16
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:17
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` display time has expired. "
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
@@ -12613,11 +12641,11 @@ msgstr ""
 "il :ref:`servizio IoT virtuale Windows <iot/windows_iot/restart>` per "
 "generare e visualizzare il codice di abbinamento."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:21
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:22
 msgid "The IoT system does not connect to the database"
 msgstr "Il sistema IoT non si connette al database"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:23
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:24
 msgid ""
 "The IoT system might take a few minutes to restart when it connects to a "
 "database. If it still does not appear after a few minutes:"
@@ -12625,7 +12653,7 @@ msgstr ""
 "Il sistema IoT potrebbe impiegare alcuni minuti per riavviarsi quando si "
 "connette a un database. Se dopo alcuni minuti non viene ancora visualizzato:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:26
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:27
 msgid ""
 "Verify that the IoT system can reach the database and the server does not "
 "use a multi-database environment."
@@ -12633,8 +12661,8 @@ msgstr ""
 "verifica che il sistema IoT possa raggiungere il database e che il server "
 "non utilizzi un ambiente multi-database;"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:28
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:46
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:29
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:47
 msgid ""
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
 "virtual IoT service <iot/windows_iot/restart>`."
@@ -12642,11 +12670,11 @@ msgstr ""
 "Riavviare l':ref:`IoT box <iot/iot-box/restart>` o il :ref:`servizio IoT "
 "virtuale Windows <iot/windows_iot/restart>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:32
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:33
 msgid "The IoT system is connected to the Odoo database but cannot be reached"
 msgstr "Il sistema IoT è connesso al database Odoo ma non può essere raggiunto"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:34
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:35
 msgid ""
 "Verify that the IoT system and the computer running the Odoo database are "
 "connected to the same network and :ref:`update the DNS settings <iot/"
@@ -12656,13 +12684,13 @@ msgstr ""
 "siano connessi alla stessa rete e :ref:`aggiornare le impostazioni DNS <iot/"
 "troubleshooting/dns>` se necessario."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:38
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:39
 msgid ""
 "The Windows virtual IoT's homepage cannot be accessed from another device"
 msgstr ""
 "Pagina principale Windows virtual IoT non accessibile da un altro dispositivo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:40
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
 msgid ""
 "Ensure the device is connected to the same network as the Windows virtual "
 "IoT."
@@ -12670,15 +12698,15 @@ msgstr ""
 "Assicurarsi che il dispositivo sia connesso alla stessa rete dell'IoT "
 "virtuale Windows."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:42
 msgid "Check the :ref:`iot/windows-iot/firewall`."
 msgstr "Verifica la :ref:`iot/windows-iot/firewall`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:44
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:45
 msgid "The IoT system does not work after an Odoo upgrade"
 msgstr "Il sistema IoT non funziona dopo un aggiornamento di Odoo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:49
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:50
 msgid ""
 "If the issue persists, :ref:`update its image <iot/updating_iot/image-code>` "
 "by flashing the IoT box's card or :ref:`uninstalling the Windows virtual IoT "
@@ -12691,7 +12719,7 @@ msgstr ""
 "uninstall>` e :ref:`reinstallando il pacchetto IoT virtuale <iot/windows-iot/"
 "installation>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:56
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:57
 msgid ""
 "The IoT system's homepage can be accessed using its IP address but not the "
 "`xxx.odoo-iot.com` URL"
@@ -12699,7 +12727,7 @@ msgstr ""
 "Accesso alla pagina principale del sistema IoT tramite indirizzo IP ma non "
 "via URL `xxx.odoo-iot.com`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:58
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:59
 msgid ""
 "Contact your system or network administrator to address the issue. Network-"
 "related problems are beyond the scope of Odoo support services."
@@ -12708,7 +12736,7 @@ msgstr ""
 "problemi legati alla rete non rientrano nell'ambito dei servizi di "
 "assistenza Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:61
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:62
 msgid ""
 "If the router allows manual :abbr:`DNS (Domain Name System)` configuration, "
 "update the settings to use `Google DNS <https://developers.google.com/speed/"
@@ -12718,7 +12746,7 @@ msgstr ""
 "System)`, aggiorna le impostazioni per utilizzare il `DNS di Google <https://"
 "developers.google.com/speed/public-dns>`_."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:63
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:64
 msgid ""
 "If the router does not support this, you need to update the DNS settings "
 "directly on each device that interacts with the IoT system to use `Google "
@@ -12732,7 +12760,7 @@ msgstr ""
 "dns>`_. Le istruzioni per la configurazione del DNS su dispositivi singoli "
 "si trovano sul sito web di ogni fornitore."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:69
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:70
 msgid ""
 "Some IoT devices, such as payment terminals, likely do not require DNS "
 "changes, as they are typically pre-configured with custom DNS settings."
@@ -12741,7 +12769,7 @@ msgstr ""
 "richiedono modifiche al DNS, in quanto sono tipicamente preconfigurati con "
 "impostazioni DNS personalizzate."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:71
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:72
 msgid ""
 "On some browsers, an error code mentioning the DNS (such as "
 "`DNS_PROBE_FINISHED_NXDOMAIN`) is displayed."
@@ -12749,19 +12777,19 @@ msgstr ""
 "Su alcuni browser, viene visualizzato un codice di errore che menziona il "
 "DNS (come `DNS_PROBE_FINISHED_NXDOMAIN`)."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:77
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:78
 msgid "HTTPS certificate generation issues and errors"
 msgstr "Errori e problemi legati alla generazione del certificato HTTPS"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:80
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:81
 msgid "The HTTPS certificate does not generate"
 msgstr "Certificato HTTPS non generato"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:82
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:83
 msgid "Potential causes include the following:"
 msgstr "Tra le potenziali cause:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:84
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:85
 msgid ""
 "The database doesn't meet the :ref:`eligibility requirements <iot/"
 "https_certificate_iot/iot-eligibility>` for generating an :ref:`HTTPS "
@@ -12771,7 +12799,7 @@ msgstr ""
 "https_certificate_iot/iot-eligibility>` per generare un :ref:`certificato "
 "HTTPS <iot/connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:87
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:88
 msgid ""
 "The firewall is preventing the HTTPS certificate from generating correctly. "
 "In this case, deactivate the firewall until the certificate is successfully "
@@ -12781,7 +12809,7 @@ msgstr ""
 "questo caso, disattiva il firewall finché il certificato non viene generato "
 "correttamente."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:91
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:92
 msgid ""
 "Some devices, such as routers with a built-in firewall, can prevent the "
 "HTTPS certificate from generating."
@@ -12789,21 +12817,21 @@ msgstr ""
 "Alcuni dispositivi, come i router con firewall integrato, possono impedire "
 "la generazione del certificato HTTPS."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:95
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:96
 msgid "Errors"
 msgstr "Errori"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:97
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:98
 msgid ""
 "A specific error code is displayed on the IoT system's homepage if any "
-"issues occur during the generation or reception of the ref:`HTTPS "
+"issues occur during the generation or reception of the :ref:`HTTPS "
 "certificate <iot/connect/https_certificate>`."
 msgstr ""
 "Un codice di errore specifico viene visualizzato sulla homepage del sistema "
 "IoT se si verificano problemi durante la generazione o la ricezione del "
-"ref:`certificato HTTPS <iot/connect/https_certificate>`."
+":ref:`certificato HTTPS <iot/connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:101
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:102
 msgid ""
 "When you access the IoT system's homepage, it automatically checks for an "
 "HTTPS certificate and attempts to generate one if it is missing. If an error "
@@ -12814,37 +12842,11 @@ msgstr ""
 "se manca. Se compare un errore, aggiorna la pagina per verificare se il "
 "problema è stato risolto."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:106
-msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
-msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:107
+msgid "Missing credentials"
+msgstr "Credenziali mancanti"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:108
-msgid ""
-"The server configuration is missing, i.e., the database is "
-"not :doc:`connected <../connect>` to the IoT system."
-msgstr ""
-"La configurazione del server è mancante, cioè il database non "
-"è :doc:`connesso <../connect>` al sistema IoT."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:112
-msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:114
-msgid ""
-"An error occurred while attempting to read the existing ref:`HTTPS "
-"certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
-"certificate file is readable."
-msgstr ""
-"Si è verificato un errore durante il tentativo di leggere il "
-"ref:`certificato HTTPS <iot/connect/https_certificate>` esistente. "
-"Verificare che il file del certificato HTTPS sia leggibile."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:119
-msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:121
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:109
 msgid ""
 "The contract and/or database :abbr:`UUID (Universal Unique Identifier)` is "
 "missing from the IoT."
@@ -12852,7 +12854,7 @@ msgstr ""
 "L':abbr:`UUID (Universal Unique Identifier)` del contratto e/o del database "
 "manca dall'IoT."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:111
 msgid ""
 "Verify that both values are correctly configured. To update "
 "them, :ref:`access the IoT box's <iot/iot-box/homepage>` or :ref:`Windows "
@@ -12865,32 +12867,7 @@ msgstr ""
 "homepage>`, fare clic sul pulsante :icon:`fa-cogs` (:guilabel:`ingranaggi`), "
 "quindi fare clic su :guilabel:`Credenziali`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:128
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:130
-msgid ""
-"An unexpected error occurred while the IoT system tried to reach `<https://"
-"www.odoo.com>`_. This is likely due to network-related issues, such as:"
-msgstr ""
-"Si è verificato un errore inaspettato quando il sistema IoT ha cercato di "
-"raggiungere `<https://www.odoo.com>`_.  Il problema sembra essere collegato "
-"a problemi di rete:"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:133
-msgid "The IoT system does not have Internet access."
-msgstr "il sistema IoT non ha accesso a Internet"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
-msgid ""
-"Network restrictions (e.g., firewalls or VPNs) are preventing communication "
-"with https://www.odoo.com."
-msgstr ""
-"sono presenti restrizioni di rete (ad es. firewall o VPN) che impediscono la "
-"comunicazione con https://www.odoo.com."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:138
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:116
 msgid ""
 "To access the full request exception details with information regarding the "
 "error, :ref:`enable the developer mode <developer-mode>`, click the IoT "
@@ -12911,7 +12888,7 @@ msgstr ""
 "homepage>`, fai clic sul pulsante :icon:`fa-cogs` (:guilabel:`ingranaggio`) "
 "e poi :guilabel:`Livello log` in fondo alla pagina."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:145
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
 msgid ""
 "To address network-related issues, contact your system or network "
 "administrator; these issues are beyond the scope of Odoo support services."
@@ -12920,11 +12897,11 @@ msgstr ""
 "sistema o di rete. Questi problemi esulano dall'ambito dei servizi di "
 "assistenza di Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:149
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:127
+msgid "Odoo.com not reachable"
+msgstr "Odoo.com non raggiungibile"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:151
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:129
 msgid ""
 "The IoT system successfully reached `<https://www.odoo.com>`_ but received "
 "an unexpected `HTTP response (status codes) <https://developer.mozilla.org/"
@@ -12934,21 +12911,11 @@ msgstr ""
 "ricevuto una `risposta HTTP (codici stato) <https://developer.mozilla.org/en-"
 "US/docs/Web/HTTP/Status>`_ insolita."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:154
-msgid ""
-"This error code includes the HTTP status. For example, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a \"Page "
-"Not Found\" response."
-msgstr ""
-"Questo codice di errore include lo stato dell'HTTP. Ad esempio, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` significa che il server ha "
-"restituito la risposta \"Page Not Found\"."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:132
 msgid "To solve this issue:"
 msgstr "Per risolvere il problema:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:159
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
 msgid ""
 "Open `<https://www.odoo.com>`_ in a web browser to check if the website is "
 "temporarily down for maintenance."
@@ -12972,21 +12939,21 @@ msgstr ""
 "www.odoo.com/help>`_ e assicurati di includere il codice di stato HTTPS a 3 "
 "cifre nel ticket."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:141
+msgid "Still no certificate?"
+msgstr "Ancora nessun certificato?"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:168
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:143
 msgid ""
-"The IoT system successfully connected to `<https://www.odoo.com>`_, but the "
-"server refused to provide the ref:`HTTPS certificate <iot/connect/"
+"If the IoT system successfully connected to `<https://www.odoo.com>`_, but "
+"the server refused to provide the :ref:`HTTPS certificate <iot/connect/"
 "https_certificate>`."
 msgstr ""
-"Il sistema IoT si è connesso correttamente a `<https://www.odoo.com>`_, ma "
-"il server ha rifiutato di fornire il ref:`certificato HTTPS <iot/connect/"
+"Se il sistema IoT si è connesso con successo a `<https://www.odoo.com>`_, ma "
+"il server ha rifiutato di fornire il :ref:`certificato HTTPS <iot/connect/"
 "https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:171
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:146
 msgid ""
 "Check that the IoT system and database meet the :ref:`eligibility "
 "requirements <iot/https_certificate_iot/iot-eligibility>` for an HTTPS "
@@ -12995,6 +12962,79 @@ msgstr ""
 "Verifica che il sistem IoT e il database rispettino i :ref:`requisiti di "
 "ammissibilità <iot/https_certificate_iot/iot-eligibility>` per un "
 "certificato HTTPS."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:150
+msgid "Grant Odoo support team access to an IoT Box"
+msgstr "Concedere al team di supporto Odoo l'accesso a un IoT Box"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:152
+msgid ""
+"If you need to grant remote access to an IoT Box, you can provide a "
+"Tailscale token on the IoT Box's homepage. This allows the Odoo support team "
+"to access the IoT Box for troubleshooting securely."
+msgstr ""
+"Se è necessario concedere l'accesso remoto a un IoT Box, è possibile fornire "
+"un token Tailscale nella homepage dell'IoT Box. Ciò consente al team di "
+"supporto Odoo di accedere all'IoT Box in modo sicuro per la risoluzione dei "
+"problemi."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+msgid ""
+"Only enter a token from a trusted source, such as an official Odoo support "
+"representative. Providing a token grants access to the IoT Box and your "
+"entire local network, so it should be done with caution."
+msgstr ""
+"Inserire un token solo da una fonte attendibile, come un rappresentante "
+"ufficiale del supporto Odoo. Fornire un token concede l'accesso all'IoT Box "
+"e all'intera rete locale, quindi deve essere fatto con cautela."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:161
+msgid ""
+"On the :ref:`IoT Box's homepage <iot/iot-box/homepage>`, click the :icon:`fa-"
+"cogs` (:guilabel:`cogs`) button, then click :guilabel:`Debugging Tools`. In "
+"the pop-up window, enter the Tailscale token provided by the Odoo support "
+"team and click :guilabel:`Enable`."
+msgstr ""
+"Nella :ref:`homepage dell'IoT Box <iot/iot-box/homepage>`, fare clic sul "
+"pulsante :icon:`fa-cogs` (:guilabel:`ingranaggi`), quindi fare clic su "
+":guilabel:`Strumenti di debug`. Nella finestra pop-up, inserire il token "
+"Tailscale fornito dal team di supporto Odoo e fare clic su "
+":guilabel:`Abilita`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
+msgid ""
+"**Remote Debug** is only available for :doc:`IoT boxes <../iot_box>`, not "
+"the :doc:`Windows virtual IoT <../windows_iot>`."
+msgstr ""
+"**Debug remoto** è disponibile solo per :doc:`IoT box <../iot_box>`, non per "
+":doc:`IoT virtuale Windows <../windows_iot>`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:170
+msgid "Is the IoT Box down?"
+msgstr "L'IoT Box è inattivo?"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:172
+msgid ""
+"If the IoT Box is down, you can still enable remote access for the Odoo "
+"support team. Just provide the key in the only field displayed on "
+"the :ref:`homepage <iot/iot-box/homepage>` and click :guilabel:`Enable`."
+msgstr ""
+"Se l'IoT Box è inattivo, è comunque possibile abilitare l'accesso remoto per "
+"il team di supporto Odoo. È sufficiente fornire la chiave nell'unico campo "
+"visualizzato nella :ref:`homepage <iot/iot-box/homepage>` e fare clic su "
+":guilabel:`Abilita`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:180
+msgid ""
+"Enabling remote access on a down IoT Box is only available from version "
+"above v26.01.2026. If your IoT Box doesn't have this option, you will need "
+"to :ref:`flash the IoT Box's card with the latest image <iot/updating_iot/"
+"image-code>`."
+msgstr ""
+"L'abilitazione dell'accesso remoto su un IoT Box inattivo è disponibile solo "
+"dalla versione v26.01.2026 in poi. Se il proprio IoT Box non dispone di "
+"questa opzione, sarà necessario :ref:`flashare la scheda dell'IoT Box con "
+"l'immagine più recente <iot/updating_iot/image-code>`."
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:5
 msgid ""
@@ -14753,11 +14793,11 @@ msgstr ""
 "più comunemente utilizzati. **Non** si tratta di un'approvazione del "
 "prodotto."
 
-#: ../../content/applications/general/users/2fa.rst:47
+#: ../../content/applications/general/users/2fa.rst:49
 msgid "Two-factor authentication setup"
 msgstr "Configurazione autenticazione a due fattori"
 
-#: ../../content/applications/general/users/2fa.rst:49
+#: ../../content/applications/general/users/2fa.rst:51
 msgid ""
 "After selecting an authenticator, log in to Odoo, then click the profile "
 "avatar in the upper-right corner, and select :guilabel:`My Profile` from the "
@@ -14767,7 +14807,7 @@ msgstr ""
 "sull'avatar del profilo nell'angolo in alto a destra e "
 "seleziona :guilabel:`Il mio profilo` dal menu a tendina."
 
-#: ../../content/applications/general/users/2fa.rst:52
+#: ../../content/applications/general/users/2fa.rst:54
 msgid ""
 "Click the :guilabel:`Account Security` tab, then slide the :guilabel:`Two-"
 "Factor Authentication` toggle to *active*."
@@ -14780,7 +14820,7 @@ msgstr ""
 msgid "The account secuirty tab in a user profile."
 msgstr "La scheda di sicurezza dell'account in un profilo utente."
 
-#: ../../content/applications/general/users/2fa.rst:58
+#: ../../content/applications/general/users/2fa.rst:60
 msgid ""
 "This generates a :guilabel:`Security Control` pop-up window that requires "
 "password confirmation to continue. Enter the appropriate password, then "
@@ -14792,18 +14832,18 @@ msgstr ""
 "quindi fai clic su :guilabel:`Conferma password`. Apparirà la finestra pop-"
 "up :guilabel:`Attivazione autenticazione a due fattori`, con un |QR|."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid "The 2fa authentication QR code in Odoo."
 msgstr "Il codice QR di autenticazione 2fa in Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid ""
 "Using the desired authenticator application, scan the |QR| when prompted."
 msgstr ""
 "Utilizza l'applicazione di autenticazione che preferisci e scansiona il |QR| "
 "quando viene mostrato."
 
-#: ../../content/applications/general/users/2fa.rst:68
+#: ../../content/applications/general/users/2fa.rst:70
 msgid ""
 "If scanning the screen is not possible (e.g., the setup is being completed "
 "on the *same* device as the authenticator application), click the "
@@ -14820,7 +14860,7 @@ msgstr ""
 msgid "A 2fa secret code on an authentication popup."
 msgstr "Un codice segreto 2fa su un popup di autenticazione."
 
-#: ../../content/applications/general/users/2fa.rst:75
+#: ../../content/applications/general/users/2fa.rst:77
 msgid "Afterwards, the authenticator should display a *verification code*."
 msgstr "In seguito, l'autenticatore dovrebbe mostrare un *codice di verifica*."
 
@@ -14829,7 +14869,7 @@ msgid "A view of the Google authenticator app with the six digit code for 2fa."
 msgstr ""
 "Una vista dell'app Google Authenticator con il codice a sei cifre per 2fa."
 
-#: ../../content/applications/general/users/2fa.rst:80
+#: ../../content/applications/general/users/2fa.rst:82
 msgid ""
 "Enter the code into the :guilabel:`Verification Code` field, then "
 "click :guilabel:`Activate`."
@@ -14845,17 +14885,17 @@ msgstr ""
 "Il messaggio di successo che appare in un profilo utente quando 2fa viene "
 "abilitato con successo."
 
-#: ../../content/applications/general/users/2fa.rst:86
+#: ../../content/applications/general/users/2fa.rst:88
 msgid "Logging in"
 msgstr "Accedere"
 
-#: ../../content/applications/general/users/2fa.rst:88
+#: ../../content/applications/general/users/2fa.rst:90
 msgid "To confirm |2fa| setup is complete, log out of Odoo."
 msgstr ""
 "Per confermare il completamento della configurazione della  |2fa|, esci da "
 "Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:90
+#: ../../content/applications/general/users/2fa.rst:92
 msgid ""
 "On the login page, input the username and password, then "
 "click :guilabel:`Log in`. On the :guilabel:`Two-factor Authentication` page, "
@@ -14871,7 +14911,7 @@ msgstr ""
 msgid "The login page with 2fa enabled."
 msgstr "La pagina di accesso con 2fa abilitata."
 
-#: ../../content/applications/general/users/2fa.rst:98
+#: ../../content/applications/general/users/2fa.rst:100
 msgid ""
 "If a user loses access to their authenticator, an administrator **must** "
 "deactivate |2fa| on the account before the user can log in."
@@ -14879,11 +14919,11 @@ msgstr ""
 "Se un utente perde l'accesso al proprio autenticatore, un amministratore "
 "**deve** disattivare la |2fa| sull'account prima che l'utente possa accedere."
 
-#: ../../content/applications/general/users/2fa.rst:102
+#: ../../content/applications/general/users/2fa.rst:104
 msgid "Enforce two-factor authentication"
 msgstr "Applicare l'autenticazione a due fattori"
 
-#: ../../content/applications/general/users/2fa.rst:104
+#: ../../content/applications/general/users/2fa.rst:106
 msgid ""
 "To enforce |2fa| for every user in the database, navigate to "
 "the :menuselection:`Settings` app. In the :guilabel:`Permissions` section, "
@@ -14898,7 +14938,7 @@ msgstr ""
 "utilizzare i pulsanti di opzione per scegliere se applicare questa "
 "impostazione a :guilabel:`Solo dipendenti` o :guilabel:`Tutti gli utenti`."
 
-#: ../../content/applications/general/users/2fa.rst:110
+#: ../../content/applications/general/users/2fa.rst:112
 msgid ""
 "Selecting :guilabel:`All users` applies the setting to portal users in "
 "addition to employees."
@@ -14906,7 +14946,7 @@ msgstr ""
 "Selezionando :guilabel:`Tutti gli utenti` l'impostazione viene applicata "
 "agli utenti del portale oltre ai dipendenti."
 
-#: ../../content/applications/general/users/2fa.rst:112
+#: ../../content/applications/general/users/2fa.rst:114
 msgid "Click :guilabel:`Save` to commit any unsaved changes."
 msgstr "Fai clic su :guilabel:`Salva` per salvare le modifiche."
 
@@ -14915,7 +14955,7 @@ msgid "The enforce two factor setting in the Settings application."
 msgstr ""
 "L'impostazione autenticazione a due fattori nell'applicazione Impostazioni."
 
-#: ../../content/applications/general/users/2fa.rst:118
+#: ../../content/applications/general/users/2fa.rst:120
 msgid ""
 "If users are frequently required to log in again and complete two-factor "
 "authentication, it may be due to session or inactivity timeout policies "
@@ -14926,7 +14966,7 @@ msgstr ""
 "di timeout della sessione o di inattività configurati per uno o più dei loro "
 "gruppi utente."
 
-#: ../../content/applications/general/users/2fa.rst:121
+#: ../../content/applications/general/users/2fa.rst:123
 msgid ""
 "Administrators can configure these policies using the *Timeouts* settings "
 "available on user groups when the *auth_timeout* module is installed. "
@@ -17590,6 +17630,86 @@ msgstr ":doc:`Diritti di accesso </applications/general/users/access_rights>`"
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:154
 msgid ":doc:`Portal access documentation <portal_access>`"
 msgstr ":doc:`Documentazione accesso portale <portal_access>`"
+
+#~ msgid ""
+#~ "A specific error code is displayed on the IoT system's homepage if any "
+#~ "issues occur during the generation or reception of the ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`."
+#~ msgstr ""
+#~ "Un codice di errore specifico viene visualizzato sulla homepage del "
+#~ "sistema IoT se si verificano problemi durante la generazione o la "
+#~ "ricezione del ref:`certificato HTTPS <iot/connect/https_certificate>`."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+
+#~ msgid ""
+#~ "The server configuration is missing, i.e., the database is "
+#~ "not :doc:`connected <../connect>` to the IoT system."
+#~ msgstr ""
+#~ "La configurazione del server è mancante, cioè il database non "
+#~ "è :doc:`connesso <../connect>` al sistema IoT."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+
+#~ msgid ""
+#~ "An error occurred while attempting to read the existing ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
+#~ "certificate file is readable."
+#~ msgstr ""
+#~ "Si è verificato un errore durante il tentativo di leggere il "
+#~ "ref:`certificato HTTPS <iot/connect/https_certificate>` esistente. "
+#~ "Verificare che il file del certificato HTTPS sia leggibile."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+
+#~ msgid ""
+#~ "An unexpected error occurred while the IoT system tried to reach "
+#~ "`<https://www.odoo.com>`_. This is likely due to network-related issues, "
+#~ "such as:"
+#~ msgstr ""
+#~ "Si è verificato un errore inaspettato quando il sistema IoT ha cercato di "
+#~ "raggiungere `<https://www.odoo.com>`_.  Il problema sembra essere "
+#~ "collegato a problemi di rete:"
+
+#~ msgid "The IoT system does not have Internet access."
+#~ msgstr "il sistema IoT non ha accesso a Internet"
+
+#~ msgid ""
+#~ "Network restrictions (e.g., firewalls or VPNs) are preventing "
+#~ "communication with https://www.odoo.com."
+#~ msgstr ""
+#~ "sono presenti restrizioni di rete (ad es. firewall o VPN) che impediscono "
+#~ "la comunicazione con https://www.odoo.com."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+
+#~ msgid ""
+#~ "This error code includes the HTTP status. For example, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a "
+#~ "\"Page Not Found\" response."
+#~ msgstr ""
+#~ "Questo codice di errore include lo stato dell'HTTP. Ad esempio, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` significa che il server ha "
+#~ "restituito la risposta \"Page Not Found\"."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+
+#~ msgid ""
+#~ "The IoT system successfully connected to `<https://www.odoo.com>`_, but "
+#~ "the server refused to provide the ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`."
+#~ msgstr ""
+#~ "Il sistema IoT si è connesso correttamente a `<https://www.odoo.com>`_, "
+#~ "ma il server ha rifiutato di fornire il ref:`certificato HTTPS <iot/"
+#~ "connect/https_certificate>`."
 
 #~ msgid ""
 #~ "This configuration only works with a subdomain on the Odoo Online or "

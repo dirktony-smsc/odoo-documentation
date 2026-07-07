@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:21+0000\n"
-"PO-Revision-Date: 2026-06-10 01:35+0000\n"
+"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"PO-Revision-Date: 2026-07-05 00:22+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19-doc/"
 "general/hi/>\n"
@@ -2568,9 +2568,9 @@ msgid ""
 "the domain and within Odoo. This introduces an extra layer of complexity and "
 "necessitates technical knowledge (mainly regarding DNS and mail protocols)."
 msgstr ""
-"अगर आप Odoo के सबडोमेन `@company-name.odoo.com` से आउटगोइंग ईमेल भेजने के बजाय "
-":ref:`अपने खुद के डोमेन से <email-outbound-custom-domain>` भेजना पसंद करते हैं, तो "
-"डोमेन और Odoo के भीतर **अतिरिक्त कॉन्फ़िगरेशन ज़रूरी होगा**। इससे जटिलता की एक "
+"अगर आप Odoo के सबडोमेन `@company-name.odoo.com` से आउटगोइंग ईमेल भेजने के "
+"बजाय :ref:`अपने खुद के डोमेन से <email-outbound-custom-domain>` भेजना पसंद करते हैं, "
+"तो डोमेन और Odoo के भीतर **अतिरिक्त कॉन्फ़िगरेशन ज़रूरी होगा**। इससे जटिलता की एक "
 "अतिरिक्त परत जुड़ जाती है और टेक्निकल नॉलेज की आवश्यकता होती है (मुख्य रूप से DNS और मेल "
 "प्रोटोकॉल के संबंध में)।"
 
@@ -2908,16 +2908,19 @@ msgid ""
 "API permissions needed for Odoo integration are listed under the Microsoft "
 "Graph."
 msgstr ""
+"Odoo इंटिग्रेशन के लिए ज़रूरी एपीआई अनुमतियाँ Microsoft Graph के अंतर्गत सूचीबद्ध हैं।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:70
 msgid "Assign users and groups"
-msgstr ""
+msgstr "उपयोगकर्ता और ग्रुप असाइन करें"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:72
 msgid ""
 "After adding the API permissions, navigate back to the :guilabel:`Overview` "
 "of the :guilabel:`Application` in the top of the left sidebar menu."
 msgstr ""
+"एपीआई अनुमतियाँ जोड़ने के बाद, बाएं साइडबार मेन्यू के ऊपर :guilabel:`ऐप्लिकेशन` "
+"के :guilabel:`पूरी जानकारी` पर वापस जाएं।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:75
 msgid ""
@@ -2926,6 +2929,9 @@ msgid ""
 "Local Directory`, or the last option on the bottom right-hand side of the "
 "table."
 msgstr ""
+"अब, इस ऐप्लिकेशन में उपयोगकर्ता जोड़ें। :guilabel:`Essentials` पूरी जानकारी टेबल के "
+"अंतर्गत, :guilabel:`Managed Application in Local Directory` लेबल वाले लिंक पर "
+"क्लिक करें, या टेबल के नीचे दाहिनी ओर अंतिम विकल्प पर क्लिक करें।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid ""
@@ -2933,6 +2939,8 @@ msgid ""
 "for the\n"
 "created application."
 msgstr ""
+"बनाए गए ऐप्लिकेशन के लिए Managed application in local directory लिंक पर क्लिक करके "
+"उपयोगकर्ता/ग्रुप जोड़ें।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:84
 msgid ""
@@ -2942,6 +2950,10 @@ msgid ""
 "only :guilabel:`Users`. Personal accounts will only allow "
 "for :guilabel:`Users` to be added."
 msgstr ""
+"बाएं साइडबार मेन्यू में, :guilabel:`Users and Groups` चुनें। अगला, :guilabel:`(+) Add "
+"User/Group` पर क्लिक करें। अकाउंट के आधार पर, या तो :guilabel:`Group` "
+"और :guilabel:`User` जोड़ा जा सकता है, या सिर्फ़ :guilabel:`Users` जोड़े जा सकते हैं। "
+"व्यक्तिगत अकाउंट सिर्फ़ :guilabel:`Users` जोड़ने की अनुमति देंगे।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:89
 msgid ""
@@ -2951,11 +2963,16 @@ msgid ""
 "groups, click :guilabel:`Select`, and then :guilabel:`Assign` them to the "
 "application."
 msgstr ""
+":guilabel:`Users` या :guilabel:`Groups` के अंतर्गत, :guilabel:`None Selected` "
+"पर क्लिक करें और उन उपयोगकर्ताओं या उपयोगकर्ताओं के ग्रुप को जोड़ें जो Odoo "
+"में :guilabel:`Microsoft account` से ईमेल भेजेंगे। उपयोगकर्ताओं/ग्रुप को :guilabel:`Add` "
+"करें, :guilabel:`Select` पर क्लिक करें, और फिर उन्हें ऐप्लिकेशन में :guilabel:`Assign` "
+"करें।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:95
 #: ../../content/applications/general/integrations/google_translate.rst:59
 msgid "Create credentials"
-msgstr ""
+msgstr "क्रेडेंशियल बनाएं"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:97
 msgid ""
@@ -2966,10 +2983,16 @@ msgid ""
 "ID` or :guilabel:`Application ID` is located under the :guilabel:`Display "
 "Name` in the :guilabel:`Essentials` overview of the app."
 msgstr ""
+"अब जब Microsoft Azure ऐप्लिकेशन सेट अप हो गया है, Odoo सेटअप के लिए क्रेडेंशियल बनाने "
+"की ज़रूरत है। इनमें :guilabel:`Client ID` और :guilabel:`Client Secret` शामिल हैं। "
+"शुरू करने के लिए, :guilabel:`Client ID` को ऐप्लिकेशन के :guilabel:`Overview` पेज से "
+"कॉपी किया जा सकता है। :guilabel:`Client ID` या :guilabel:`Application ID`, "
+"ऐप्लिकेशन की :guilabel:`Essentials` पूरी जानकारी में :guilabel:`Display Name` के "
+"अंतर्गत स्थित है।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Application/Client ID located in the Overview of the app."
-msgstr ""
+msgstr "ऐप्लिकेशन की पूरी जानकारी में स्थित Application/Client ID।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:107
 msgid ""
@@ -2978,6 +3001,10 @@ msgid ""
 "Then, a :guilabel:`Client Secret` needs to be produced. In order to do this, "
 "click on the :guilabel:`(+) New Client Secret` button."
 msgstr ""
+"अगला, :guilabel:`Client Secret Value` प्राप्त करने की ज़रूरत है। यह वैल्यू प्राप्त करने "
+"के लिए, बाएं साइडबार मेन्यू में :guilabel:`Certificates & Secrets` पर क्लिक करें। फिर, "
+"एक :guilabel:`Client Secret` बनाने की ज़रूरत है। ऐसा करने के लिए, :guilabel:`(+) "
+"New Client Secret` बटन पर क्लिक करें।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:111
 msgid ""
@@ -2985,6 +3012,9 @@ msgid ""
 "client secret`. Under :guilabel:`Description`, type in `Odoo Fetchmail` or "
 "something recognizable, and then set the :guilabel:`expiration date`."
 msgstr ""
+"दाईं ओर एक विंडो :guilabel:`Add a client secret` लेबल वाले बटन के साथ दिखाई "
+"देगी। :guilabel:`Description` के अंतर्गत, `Odoo Fetchmail` या कुछ पहचानने योग्य "
+"टाइप करें, और फिर :guilabel:`expiration date` सेट करें।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:116
 msgid ""
@@ -2993,6 +3023,9 @@ msgid ""
 "service, so the expiration date should be noted and set to the furthest "
 "possible date."
 msgstr ""
+"अगर पहला :guilabel:`Client Secret` समाप्त हो जाता है तो एक नया बनाना और "
+"कॉन्फ़िगर करना होगा। इस स्थिति में, सर्विस में रुकावट आ सकती है, इसलिए समाप्ति तारीख को "
+"नोट किया जाना चाहिए और सबसे दूर की संभावित तारीख पर सेट किया जाना चाहिए।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:120
 msgid ""
@@ -3002,33 +3035,38 @@ msgid ""
 "Value` into a notepad as it will become encrypted after leaving this page. "
 "The :guilabel:`Secret ID` is not needed."
 msgstr ""
+"अगला, जब ये दोनों वैल्यू दर्ज हो जाएं तो :guilabel:`Add` पर क्लिक करें। "
+"एक :guilabel:`Client Secret Value` और :guilabel:`Secret ID` बनाया "
+"जाएगा। :guilabel:`Value` या :guilabel:`Client Secret Value` को नोटपैड में कॉपी "
+"करना ज़रूरी है क्योंकि यह पेज छोड़ने के बाद एन्क्रिप्ट हो जाएगा। :guilabel:`Secret ID` "
+"की ज़रूरत नहीं है।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Client Secret Value or Value in the app's credentials."
-msgstr ""
+msgstr "ऐप्लिकेशन के क्रेडेंशियल में Client Secret Value या Value।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:129
 msgid ""
 "After these steps, the following items should be ready to be set up in Odoo:"
-msgstr ""
+msgstr "इन चरणों के बाद, निम्नलिखित आइटम Odoo में सेट अप करने के लिए तैयार होने चाहिए:"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:131
 msgid "A client ID (:guilabel:`Client ID` or :guilabel:`Application ID`)"
-msgstr ""
+msgstr "एक क्लाइंट आईडी (:guilabel:`Client ID` या :guilabel:`Application ID`)"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:132
 msgid "A client secret (:guilabel:`Value` or :guilabel:`Client Secret Value`)"
-msgstr ""
+msgstr "एक क्लाइंट सीक्रेट (:guilabel:`Value` या :guilabel:`Client Secret Value`)"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:134
 msgid ""
 "This completes the setup on the :guilabel:`Microsoft Azure Portal` side."
-msgstr ""
+msgstr "यह :guilabel:`Microsoft Azure Portal` की ओर से सेटअप पूरा करता है।"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:137
 #: ../../content/applications/general/email_communication/google_oauth.rst:111
 msgid "Setup in Odoo"
-msgstr ""
+msgstr "Odoo में सेटअप"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:140
 msgid "Enter Microsoft Outlook credentials"
@@ -3373,13 +3411,13 @@ msgid ""
 "state: :guilabel:`Outlook Token Valid` Now :guilabel:`Test and Confirm` the "
 "account. The account should be ready to receive email to the Odoo database."
 msgstr ""
-"इनकमिंग अकाउंट को आउटगोइंग ईमेल अकाउंट के समान तरीके से कॉन्फ़िगर किया जाना चाहिए। "
-":guilabel:`टेक्निकल मेन्यू` में :guilabel:`इनकमिंग मेल सर्वर` पर जाएं और एक नया "
+"इनकमिंग अकाउंट को आउटगोइंग ईमेल अकाउंट के समान तरीके से कॉन्फ़िगर किया जाना "
+"चाहिए। :guilabel:`टेक्निकल मेन्यू` में :guilabel:`इनकमिंग मेल सर्वर` पर जाएं और एक नया "
 "कॉन्फ़िगरेशन :guilabel:`बनाएं`। :guilabel:`Outlook Oauth Authentication` के बगल में "
-"बटन चेक या सेलेक्ट करें और :guilabel:`Microsoft Outlook username` एंटर करें। "
-":guilabel:`Connect your Outlook account` पर क्लिक करें। Odoo कहेगा: "
-":guilabel:`Outlook Token Valid` अब अकाउंट को :guilabel:`टेस्ट और कन्फर्म` करें। "
-"अकाउंट Odoo डेटाबेस पर ईमेल प्राप्त करने के लिए तैयार होना चाहिए।"
+"बटन चेक या सेलेक्ट करें और :guilabel:`Microsoft Outlook username` एंटर "
+"करें। :guilabel:`Connect your Outlook account` पर क्लिक करें। Odoo "
+"कहेगा: :guilabel:`Outlook Token Valid` अब अकाउंट को :guilabel:`टेस्ट और कन्फर्म` "
+"करें। अकाउंट Odoo डेटाबेस पर ईमेल प्राप्त करने के लिए तैयार होना चाहिए।"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:6
 msgid "Configure DNS records to send emails in Odoo"
@@ -3402,8 +3440,8 @@ msgid ""
 "address** (e.g., `\\@company-name.odoo.com`) are pre-configured to **send "
 "authenticated emails** compliant with the SPF, DKIM, and DMARC protocols."
 msgstr ""
-"**Odoo Online** और **Odoo.sh** डेटाबेस जो **डिफ़ॉल्ट Odoo सबडोमेन एड्रेस** (जैसे, `\\"
-"@company-name.odoo.com`) का इस्तेमाल करते हैं, SPF, DKIM, और DMARC प्रोटोकॉल के "
+"**Odoo Online** और **Odoo.sh** डेटाबेस जो **डिफ़ॉल्ट Odoo सबडोमेन एड्रेस** (जैसे, "
+"`\\@company-name.odoo.com`) का इस्तेमाल करते हैं, SPF, DKIM, और DMARC प्रोटोकॉल के "
 "अनुरूप **प्रमाणित ईमेल भेजने** के लिए पहले से कॉन्फ़िगर किए गए हैं।"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:16
@@ -3791,8 +3829,9 @@ msgid ""
 "rua=mailto:postmaster@example.com”` means that aggregate DMARC reports will "
 "be sent to `postmaster\\@example.com`."
 msgstr ""
-":literal:`_dmarc IN TXT “v=DMARC1; p=none; rua=mailto:postmaster@example.com"
-"”` का मतलब है कि समग्र DMARC रिपोर्ट `postmaster\\@example.com` को भेजी जाएंगी।"
+":literal:`_dmarc IN TXT “v=DMARC1; p=none; "
+"rua=mailto:postmaster@example.com”` का मतलब है कि समग्र DMARC रिपोर्ट "
+"`postmaster\\@example.com` को भेजी जाएंगी।"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:217
 msgid "SPF, DKIM and DMARC documentation of common providers"
@@ -3825,8 +3864,8 @@ msgid ""
 "`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/"
 "317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
 msgstr ""
-"`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/317/"
-"2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
+"`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/"
+"317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:225
 msgid ""
@@ -3849,8 +3888,8 @@ msgid ""
 "`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
 "portal>`_"
 msgstr ""
-"`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-portal>"
-"`_"
+"`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
+"portal>`_"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:230
 msgid ""
@@ -3920,8 +3959,7 @@ msgstr "रिकॉर्ड से शुरुआत में भेजे �
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:None
 msgid "The local-part \"info\" is used for the alias of the sales team."
-msgstr ""
-"सेल्स टीम के एलियास के लिए लोकल-पार्ट \"info\" का इस्तेमाल किया जाता है।"
+msgstr "सेल्स टीम के एलियास के लिए लोकल-पार्ट \"info\" का इस्तेमाल किया जाता है।"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:30
 msgid ""
@@ -3975,8 +4013,7 @@ msgstr ""
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:None
 msgid ""
 "Bounce email from \"MAILER-DEAMON\" explaining how to contact the database."
-msgstr ""
-"\"MAILER-DEAMON\" से बाउंस ईमेल जो बताता है कि डेटाबेस से कैसे संपर्क करें।"
+msgstr "\"MAILER-DEAMON\" से बाउंस ईमेल जो बताता है कि डेटाबेस से कैसे संपर्क करें।"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:55
 msgid ""
@@ -7623,8 +7660,8 @@ msgid ""
 "Click the :icon:`fa-ellipsis-v` (:guilabel:`Actions`) button, then "
 "select :guilabel:`Manage keys`."
 msgstr ""
-":icon:`fa-ellipsis-v` (:guilabel:`Actions`) बटन क्लिक करें, फिर "
-":guilabel:`Manage keys` सेलेक्ट करें।"
+":icon:`fa-ellipsis-v` (:guilabel:`Actions`) बटन क्लिक करें, "
+"फिर :guilabel:`Manage keys` सेलेक्ट करें।"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:0
 msgid "Accessing the \"Manage keys\" action"
@@ -7655,8 +7692,8 @@ msgid ""
 "Open the navigation sidebar on the Google Cloud console, then go "
 "to :menuselection:`Cloud Storage --> Buckets --> Create`."
 msgstr ""
-"Google Cloud कंसोल पर नेविगेशन साइडबार खोलें, फिर :menuselection:`Cloud "
-"Storage --> Buckets --> Create` पर जाएं।"
+"Google Cloud कंसोल पर नेविगेशन साइडबार खोलें, फिर :menuselection:`Cloud Storage --"
+"> Buckets --> Create` पर जाएं।"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:67
 msgid ""
@@ -7666,15 +7703,14 @@ msgid ""
 "and note it down as it will be used when :ref:`configuring Odoo <cloud-"
 "storage/google/odoo>`."
 msgstr ""
-"`बकेट नामकरण गाइडलाइन <https://cloud.google.com/storage/docs/"
-"buckets?_gl=1*h4hwrv*_ga*MTcwNDM2NDE1Ny4xNzQzNzUxOTEy*_ga_WH2QY8WWF5*MTc0Mzc2NDMyOS4zLjEuMTc0Mzc2NDMyOS42MC4wLjA.#naming>"
-"`_ का पालन करते हुए एक बकेट नाम दर्ज करें और इसे नोट कर लें क्योंकि :ref:`Odoo कॉन्फ़िगर "
-"करते समय <cloud-storage/google/odoo>` इसका उपयोग किया जाएगा।"
+"`बकेट नामकरण गाइडलाइन <https://cloud.google.com/storage/docs/buckets?"
+"_gl=1*h4hwrv*_ga*MTcwNDM2NDE1Ny4xNzQzNzUxOTEy*_ga_WH2QY8WWF5*MTc0Mzc2NDMyOS4zLjEuMTc0Mzc2NDMyOS42MC4wLjA.#naming>`_ "
+"का पालन करते हुए एक बकेट नाम दर्ज करें और इसे नोट कर लें क्योंकि :ref:`Odoo कॉन्फ़िगर करते "
+"समय <cloud-storage/google/odoo>` इसका उपयोग किया जाएगा।"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:69
 msgid "Configure the bucket as desired and click :guilabel:`Create` when done."
-msgstr ""
-"बकेट को इच्छानुसार कॉन्फ़िगर करें और पूरा होने पर :guilabel:`Create` क्लिक करें।"
+msgstr "बकेट को इच्छानुसार कॉन्फ़िगर करें और पूरा होने पर :guilabel:`Create` क्लिक करें।"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:0
 msgid "Creating a bucket"
@@ -7685,8 +7721,8 @@ msgid ""
 "Click the :icon:`fa-ellipsis-v` (:guilabel:`More actions`) button, then "
 "select :guilabel:`Edit access`."
 msgstr ""
-":icon:`fa-ellipsis-v` (:guilabel:`More actions`) बटन क्लिक करें, फिर "
-":guilabel:`Edit access` सेलेक्ट करें।"
+":icon:`fa-ellipsis-v` (:guilabel:`More actions`) बटन क्लिक करें, "
+"फिर :guilabel:`Edit access` सेलेक्ट करें।"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:0
 msgid "Accessing the \"Edit access\" action of a Google Cloud storage bucket"
@@ -7705,8 +7741,8 @@ msgid ""
 "Select :guilabel:`Storage Admin` as :guilabel:`Role` under "
 "the :guilabel:`Cloud Storage` section and click :guilabel:`Save`."
 msgstr ""
-":guilabel:`Cloud Storage` सेक्शन के अंतर्गत :guilabel:`Role` के रूप में "
-":guilabel:`Storage Admin` सेलेक्ट करें और :guilabel:`Save` क्लिक करें।"
+":guilabel:`Cloud Storage` सेक्शन के अंतर्गत :guilabel:`Role` के रूप "
+"में :guilabel:`Storage Admin` सेलेक्ट करें और :guilabel:`Save` क्लिक करें।"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:0
 msgid "Adding a principal to a Google Cloud storage bucket"
@@ -9392,7 +9428,7 @@ msgid ""
 msgstr "IoT सिस्टम से प्रिंटर, स्क्रीन, माप टूल आदि जैसे डिवाइस कनेक्ट करें।"
 
 #: ../../content/applications/general/iot.rst:68
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:5
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:3
 msgid "Troubleshooting"
 msgstr "ट्रबलशूटिंग"
 
@@ -9616,8 +9652,8 @@ msgstr ""
 "करें।"
 
 #: ../../content/applications/general/iot/connect.rst:90
-#: ../../content/applications/general/iot/connect.rst:141
-#: ../../content/applications/general/iot/devices/printer.rst:181
+#: ../../content/applications/general/iot/connect.rst:144
+#: ../../content/applications/general/iot/devices/printer.rst:186
 msgid ""
 "Access the :ref:`IoT box's <iot/iot-box/homepage>` or :ref:`Windows virtual "
 "IoT's <iot/windows-iot/homepage>` homepage."
@@ -9716,19 +9752,29 @@ msgstr ""
 "ऑटोमैटिकली :ref:`अपडेट <iot_updating_iot/handlers>` हो जाते हैं। ऑटोमैटिक अपडेट को "
 "डिसेबल करने के लिए, :guilabel:`ऑटोमैटिक ड्राइवर अपडेट` विकल्प को अनचेक करें।"
 
-#: ../../content/applications/general/iot/connect.rst:131
+#: ../../content/applications/general/iot/connect.rst:127
+msgid ""
+"On the :ref:`IoT system's form <iot/connect/IoT-form>`, click "
+"the :guilabel:`Test` button to test the connection between the IoT system "
+"and Odoo and assess the quality of the system's Internet connection."
+msgstr ""
+":ref:`IoT सिस्टम के फ़ॉर्म <iot/connect/IoT-form>` पर, IoT सिस्टम और Odoo के बीच "
+"कनेक्शन को टेस्ट करने और सिस्टम के इंटरनेट कनेक्शन की क्वालिटी का आकलन करने के लिए "
+":guilabel:`टेस्ट` बटन पर क्लिक करें।"
+
+#: ../../content/applications/general/iot/connect.rst:134
 msgid "Disconnecting an IoT system from a database"
 msgstr "डेटाबेस से IoT सिस्टम को डिस्कनेक्ट करना"
 
-#: ../../content/applications/general/iot/connect.rst:133
+#: ../../content/applications/general/iot/connect.rst:136
 msgid "To disconnect the IoT system from a database, follow these steps:"
 msgstr "डेटाबेस से IoT सिस्टम को डिस्कनेक्ट करने के लिए, इन स्टेप्स को फ़ॉलो करें:"
 
-#: ../../content/applications/general/iot/connect.rst:135
+#: ../../content/applications/general/iot/connect.rst:138
 msgid "Open the IoT app and click the relevant IoT system's card."
 msgstr "IoT ऐप्लिकेशन खोलें और संबंधित IoT सिस्टम के कार्ड पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/connect.rst:136
+#: ../../content/applications/general/iot/connect.rst:139
 msgid ""
 "Click the :icon:`fa-cog` :guilabel:`(Actions)` icon, and "
 "select :guilabel:`Delete`."
@@ -9736,11 +9782,11 @@ msgstr ""
 ":icon:`fa-cog` :guilabel:`(ऐक्शन)` आइकॉन पर क्लिक करें, और :guilabel:`मिटाएं` "
 "सेलेक्ट करें।"
 
-#: ../../content/applications/general/iot/connect.rst:139
+#: ../../content/applications/general/iot/connect.rst:142
 msgid "Alternatively:"
 msgstr "वैकल्पिक रूप से:"
 
-#: ../../content/applications/general/iot/connect.rst:143
+#: ../../content/applications/general/iot/connect.rst:146
 msgid ""
 "Click :guilabel:`Configure` in the :icon:`fa-link` :guilabel:`Odoo database "
 "connected` section."
@@ -9748,15 +9794,15 @@ msgstr ""
 ":icon:`fa-link` :guilabel:`Odoo डेटाबेस कनेक्टेड` सेक्शन में :guilabel:`कॉन्फ़िगर` पर "
 "क्लिक करें।"
 
-#: ../../content/applications/general/iot/connect.rst:145
+#: ../../content/applications/general/iot/connect.rst:148
 msgid "Click :guilabel:`Disconnect` in the popup that opens."
 msgstr "खुलने वाले पॉपअप में :guilabel:`डिस्कनेक्ट` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/connect.rst:150
+#: ../../content/applications/general/iot/connect.rst:153
 msgid "HTTPS certificate"
 msgstr "HTTPS सर्टिफ़िकेट"
 
-#: ../../content/applications/general/iot/connect.rst:152
+#: ../../content/applications/general/iot/connect.rst:155
 msgid ""
 ":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` is the secure, encrypted "
 "version of :abbr:`HTTP (Hypertext Transfer Protocol)`. It uses :abbr:`TLS "
@@ -9773,7 +9819,7 @@ msgstr ""
 "करता है। कुछ नेटवर्क डिवाइस, जैसे कि पेमेंट टर्मिनल, IoT सिस्टम के साथ संचार करने के लिए एक "
 "वैध HTTPS सर्टिफ़िकेट की आवश्यकता होती है; इसके बिना, वे ठीक से इंटरैक्ट नहीं कर सकते।"
 
-#: ../../content/applications/general/iot/connect.rst:160
+#: ../../content/applications/general/iot/connect.rst:163
 msgid ""
 "In this documentation and throughout Odoo, the term *HTTPS certificate*  "
 "refers to a valid SSL certificate that allows an HTTPS connection."
@@ -9781,7 +9827,7 @@ msgstr ""
 "इस दस्तावेज़ और पूरे Odoo में, *HTTPS सर्टिफ़िकेट* टर्म एक वैलिड SSL सर्टिफ़िकेट को रेफ़र "
 "करती है जो HTTPS कनेक्शन की अनुमति देता है।"
 
-#: ../../content/applications/general/iot/connect.rst:163
+#: ../../content/applications/general/iot/connect.rst:166
 msgid ""
 "When the IoT system is (re-)started and connected to a database, it "
 "automatically downloads the HTTPS certificate if the database meets the "
@@ -9790,7 +9836,7 @@ msgstr ""
 "जब IoT सिस्टम (री-)स्टार्ट होता है और डेटाबेस से कनेक्ट होता है, तो यह ऑटोमैटिकली HTTPS "
 "सर्टिफ़िकेट डाउनलोड करता है अगर डेटाबेस निम्नलिखित योग्यता मानदंडों को पूरा करता है:"
 
-#: ../../content/applications/general/iot/connect.rst:168
+#: ../../content/applications/general/iot/connect.rst:171
 msgid ""
 "The database must be a **production** instance. The database instance should "
 "not be a copy, a duplicate, a staging, or a development environment."
@@ -9798,15 +9844,15 @@ msgstr ""
 "डेटाबेस एक **प्रॉडक्शन** इंस्टेंस होना चाहिए। डेटाबेस इंस्टेंस कॉपी, डुप्लीकेट, स्टेजिंग, या "
 "डेवलपमेंट एनवायरमेंट नहीं होना चाहिए।"
 
-#: ../../content/applications/general/iot/connect.rst:170
+#: ../../content/applications/general/iot/connect.rst:173
 msgid "The Odoo subscription must be ongoing (:guilabel:`In Progress` status)."
 msgstr "Odoo सब्सक्रिप्शन चालू होनी चाहिए (:guilabel:`प्रोग्रेस में` स्टेटस)।"
 
-#: ../../content/applications/general/iot/connect.rst:172
+#: ../../content/applications/general/iot/connect.rst:175
 msgid "When the certificate has been received:"
 msgstr "जब सर्टिफ़िकेट मिल जाए:"
 
-#: ../../content/applications/general/iot/connect.rst:174
+#: ../../content/applications/general/iot/connect.rst:177
 msgid ""
 "The IoT system's homepage address is updated to a new HTTPS URL ending with "
 "`.odoo-iot.com`."
@@ -9814,7 +9860,7 @@ msgstr ""
 "IoT सिस्टम के होमपेज का पता `.odoo-iot.com` के साथ समाप्त होने वाले नए HTTPS यूआरएल "
 "पर अपडेट हो जाता है।"
 
-#: ../../content/applications/general/iot/connect.rst:175
+#: ../../content/applications/general/iot/connect.rst:178
 msgid ""
 "The :guilabel:`HTTPS certificate` banner displays the certificate's validity "
 "period. To view this information, click the :icon:`fa-cogs` "
@@ -9828,7 +9874,7 @@ msgstr ""
 msgid "IoT box homepage with HTTPS certificate validity date."
 msgstr "HTTPS सर्टिफ़िकेट वैधता तारीख के साथ IoT बॉक्स होमपेज।"
 
-#: ../../content/applications/general/iot/connect.rst:183
+#: ../../content/applications/general/iot/connect.rst:186
 msgid ":ref:`iot/troubleshooting/https_certificate`"
 msgstr ":ref:`iot/troubleshooting/https_certificate`"
 
@@ -9970,7 +10016,7 @@ msgstr ""
 "नया` पर जाएं।"
 
 #: ../../content/applications/general/iot/devices/camera.rst:58
-#: ../../content/applications/general/iot/devices/printer.rst:69
+#: ../../content/applications/general/iot/devices/printer.rst:74
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_control_points`"
@@ -9979,7 +10025,7 @@ msgstr ""
 "quality_control_points`"
 
 #: ../../content/applications/general/iot/devices/camera.rst:59
-#: ../../content/applications/general/iot/devices/printer.rst:70
+#: ../../content/applications/general/iot/devices/printer.rst:75
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_alerts`"
@@ -10175,9 +10221,9 @@ msgid ""
 "the :abbr:`USB (Universal Serial Bus)` cable into the :abbr:`IoT (Internet "
 "of Things)` box, and the device appears in the Odoo database."
 msgstr ""
-":abbr:`USB (यूनिवर्सल सीरियल बस)` द्वारा कनेक्ट किए गए डिवाइस को जोड़ने के लिए, "
-":abbr:`USB (यूनिवर्सल सीरियल बस)` केबल को :abbr:`IoT (इंटरनेट ऑफ थिंग्स)` बॉक्स में "
-"प्लग करें, और डिवाइस Odoo डेटाबेस में दिखाई देता है।"
+":abbr:`USB (यूनिवर्सल सीरियल बस)` द्वारा कनेक्ट किए गए डिवाइस को जोड़ने के "
+"लिए, :abbr:`USB (यूनिवर्सल सीरियल बस)` केबल को :abbr:`IoT (इंटरनेट ऑफ थिंग्स)` बॉक्स "
+"में प्लग करें, और डिवाइस Odoo डेटाबेस में दिखाई देता है।"
 
 #: ../../content/applications/general/iot/devices/measurement_tool.rst:None
 msgid "Measurement tool recognized on the IoT box."
@@ -10193,8 +10239,8 @@ msgid ""
 "for further explanation), and the :abbr:`IoT (Internet of Things)` box "
 "automatically connects to the device."
 msgstr ""
-"डिवाइस पर ब्लूटूथ फंक्शनलिटी को एक्टिवेट करें (अधिक जानकारी के लिए डिवाइस मैनुअल देखें), और "
-":abbr:`IoT (इंटरनेट ऑफ थिंग्स)` बॉक्स ऑटोमैटिकली डिवाइस से कनेक्ट हो जाता है।"
+"डिवाइस पर ब्लूटूथ फंक्शनलिटी को एक्टिवेट करें (अधिक जानकारी के लिए डिवाइस मैनुअल देखें), "
+"और :abbr:`IoT (इंटरनेट ऑफ थिंग्स)` बॉक्स ऑटोमैटिकली डिवाइस से कनेक्ट हो जाता है।"
 
 #: ../../content/applications/general/iot/devices/measurement_tool.rst:None
 msgid "Bluetooth indicator on measurement tool."
@@ -10204,8 +10250,7 @@ msgstr "मापन टूल पर ब्लूटूथ इंडिके�
 msgid ""
 "Link a measurement tool to a quality control point in the manufacturing "
 "process"
-msgstr ""
-"मैन्युफ़ैक्चरिंग प्रोसेस में क्वालिटी कंट्रोल पॉइंट से मापन टूल को लिंक करें"
+msgstr "मैन्युफ़ैक्चरिंग प्रोसेस में क्वालिटी कंट्रोल पॉइंट से मापन टूल को लिंक करें"
 
 #: ../../content/applications/general/iot/devices/measurement_tool.rst:39
 msgid ""
@@ -10214,9 +10259,10 @@ msgid ""
 "Control Points`, and open the desired control point to which the measurement "
 "tool should be linked."
 msgstr ""
-"*क्वालिटी ऐप्लिकेशन* में, एक डिवाइस को क्वालिटी कंट्रोल पॉइंट पर सेट अप किया जा सकता है"
-"। ऐसा करने के लिए, :menuselection:`क्वालिटी ऐप्लिकेशन --> क्वालिटी कंट्रोल --> कंट्रोल "
-"पॉइंट` पर जाएं, और वह वांछित कंट्रोल पॉइंट खोलें जिससे मापन टूल को लिंक किया जाना चाहिए।"
+"*क्वालिटी ऐप्लिकेशन* में, एक डिवाइस को क्वालिटी कंट्रोल पॉइंट पर सेट अप किया जा सकता "
+"है। ऐसा करने के लिए, :menuselection:`क्वालिटी ऐप्लिकेशन --> क्वालिटी कंट्रोल --> "
+"कंट्रोल पॉइंट` पर जाएं, और वह वांछित कंट्रोल पॉइंट खोलें जिससे मापन टूल को लिंक किया जाना "
+"चाहिए।"
 
 #: ../../content/applications/general/iot/devices/measurement_tool.rst:43
 msgid ""
@@ -10268,8 +10314,8 @@ msgid ""
 "Checks --> New`."
 msgstr ""
 "क्वालिटी चेक डिटेल फ़ॉर्म पर, चेक का :guilabel:`टाइप` भी :guilabel:`मेज़र` के रूप में "
-"निर्दिष्ट किया जा सकता है। :menuselection:`क्वालिटी ऐप्लिकेशन --> क्वालिटी "
-"कंट्रोल --> क्वालिटी चेक --> नया` पर जाकर नया क्वालिटी चेक डिटेल पेज ऐक्सेस करें।"
+"निर्दिष्ट किया जा सकता है। :menuselection:`क्वालिटी ऐप्लिकेशन --> क्वालिटी कंट्रोल --"
+"> क्वालिटी चेक --> नया` पर जाकर नया क्वालिटी चेक डिटेल पेज ऐक्सेस करें।"
 
 #: ../../content/applications/general/iot/devices/measurement_tool.rst:68
 msgid ""
@@ -10388,14 +10434,26 @@ msgstr ""
 "लग सकता है।"
 
 #: ../../content/applications/general/iot/devices/printer.rst:33
+msgid ""
+"To test the printer, open the IoT app, click the :ref:`IoT system's card "
+"<iot/connect/IoT-form>`, select the printer device, then "
+"click :guilabel:`Test`. A successful test prints a test page. If no page is "
+"printed, ensure the printer is powered on and the connection is correct."
+msgstr ""
+"प्रिंटर को टेस्ट करने के लिए, IoT ऐप्लिकेशन खोलें, :ref:`IoT सिस्टम के कार्ड <iot/connect/"
+"IoT-form>` पर क्लिक करें, प्रिंटर डिवाइस को चुनें, फिर :guilabel:`टेस्ट` पर क्लिक करें। "
+"सफल टेस्ट से एक टेस्ट पेज प्रिंट होता है। अगर कोई पेज प्रिंट नहीं होता है, तो सुनिश्चित करें "
+"कि प्रिंटर चालू है और कनेक्शन सही है।"
+
+#: ../../content/applications/general/iot/devices/printer.rst:38
 msgid "Link a printer"
 msgstr "प्रिंटर लिंक करें"
 
-#: ../../content/applications/general/iot/devices/printer.rst:36
+#: ../../content/applications/general/iot/devices/printer.rst:41
 msgid "Link work orders to a printer"
 msgstr "प्रिंटर से वर्क ऑर्डर लिंक करें"
 
-#: ../../content/applications/general/iot/devices/printer.rst:38
+#: ../../content/applications/general/iot/devices/printer.rst:43
 msgid ""
 "Work orders can be linked to printers, via a quality control point, to print "
 "labels for manufactured products."
@@ -10403,7 +10461,7 @@ msgstr ""
 "निर्मित प्रॉडक्ट के लिए लेबल प्रिंट करने हेतु, वर्क ऑर्डर को क्वालिटी कंट्रोल पॉइंट के ज़रिए "
 "प्रिंटर से लिंक किया जा सकता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:41
+#: ../../content/applications/general/iot/devices/printer.rst:46
 msgid ""
 "In the :doc:`Quality app </applications/inventory_and_mrp/quality>`, a "
 "device can be set up on a quality control point. To do so, go to "
@@ -10415,7 +10473,7 @@ msgstr ""
 "लिए, :menuselection:`क्वालिटी --> क्वालिटी कंट्रोल --> कंट्रोल पॉइंट` पर जाएं, और "
 "वांछित कंट्रोल पॉइंट खोलें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:46
+#: ../../content/applications/general/iot/devices/printer.rst:51
 msgid ""
 "A manufacturing operation and work order operation need to be attached to a "
 "quality control point before the :guilabel:`Type` field allows for "
@@ -10424,7 +10482,7 @@ msgstr ""
 ":guilabel:`टाइप` फ़ील्ड में :guilabel:`लेबल प्रिंट करें` विकल्प चुनने की अनुमति देने से पहले, "
 "क्वालिटी कंट्रोल पॉइंट से मैन्युफ़ैक्चरिंग ऑपरेशन और वर्क ऑर्डर ऑपरेशन जोड़ा जाना ज़रूरी है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:50
+#: ../../content/applications/general/iot/devices/printer.rst:55
 msgid ""
 "From here, edit the control point by selecting the :guilabel:`Type` field, "
 "and selecting :guilabel:`Print Label` from the dropdown menu of options. "
@@ -10435,7 +10493,7 @@ msgstr ""
 "ड्रॉपडाउन मेन्यू से :guilabel:`लेबल प्रिंट करें` चुनें। ऐसा करने से :guilabel:`डिवाइस` फ़ील्ड "
 "दिखाई देता है, जहां अटैच किया गया डिवाइस चुना जा सकता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:54
+#: ../../content/applications/general/iot/devices/printer.rst:59
 msgid ""
 "The printer can now be used with the selected quality control point. When "
 "the quality control point is reached during the manufacturing process, the "
@@ -10445,7 +10503,7 @@ msgstr ""
 "मैन्युफ़ैक्चरिंग प्रक्रिया के दौरान क्वालिटी कंट्रोल पॉइंट पर पहुंचा जाता है, तो डेटाबेस किसी "
 "विशेष प्रॉडक्ट के लिए लेबल प्रिंट करने का विकल्प प्रस्तुत करता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:59
+#: ../../content/applications/general/iot/devices/printer.rst:64
 msgid ""
 "Quality control points can also be accessed by navigating "
 "to :menuselection:`IoT --> Devices`, then selecting the device. Go to "
@@ -10455,7 +10513,7 @@ msgstr ""
 "जा सकता है, फिर डिवाइस चुनें। डिवाइस में जोड़ने के लिए :guilabel:`क्वालिटी कंट्रोल पॉइंट` "
 "टैब पर जाएं।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:64
+#: ../../content/applications/general/iot/devices/printer.rst:69
 msgid ""
 "On a :doc:`quality check form </applications/inventory_and_mrp/quality/"
 "quality_management/quality_checks>`, the :guilabel:`Type` of check can also "
@@ -10465,25 +10523,25 @@ msgstr ""
 "quality_management/quality_checks>` पर, चेक का :guilabel:`टाइप` "
 "भी :guilabel:`लेबल प्रिंट करें` पर सेट किया जा सकता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:75
+#: ../../content/applications/general/iot/devices/printer.rst:80
 msgid "Link reports to a printer"
 msgstr "प्रिंटर से रिपोर्ट लिंक करें"
 
-#: ../../content/applications/general/iot/devices/printer.rst:77
+#: ../../content/applications/general/iot/devices/printer.rst:82
 msgid "It is possible to link report types to a specific printer. To do so:"
 msgstr "रिपोर्ट टाइप को किसी विशेष प्रिंटर से लिंक करना संभव है। ऐसा करने के लिए:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:79
+#: ../../content/applications/general/iot/devices/printer.rst:84
 msgid "Go to :menuselection:`IoT --> Devices` and select the desired printer."
 msgstr ":menuselection:`IoT --> Devices` पर जाएं और वांछित प्रिंटर चुनें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:80
+#: ../../content/applications/general/iot/devices/printer.rst:85
 msgid ""
 "Go to the :guilabel:`Printer Reports` tab and click :guilabel:`Add a line`."
 msgstr ""
 ":guilabel:`Printer Reports` टैब पर जाएं और :guilabel:`Add a line` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:81
+#: ../../content/applications/general/iot/devices/printer.rst:86
 msgid ""
 "In the pop-up that opens, select the types of reports to be linked to the "
 "printer and click :guilabel:`Select`."
@@ -10495,7 +10553,7 @@ msgstr ""
 msgid "The list of reports assigned to a printer in the IoT app."
 msgstr "IoT ऐप्लिकेशन में प्रिंटर को असाइन की गई रिपोर्ट की सूची।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:88
+#: ../../content/applications/general/iot/devices/printer.rst:93
 msgid ""
 "Reports can also be configured by :ref:`enabling the developer mode "
 "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
@@ -10506,7 +10564,7 @@ msgstr ""
 "और :menuselection:`Settings --> Technical --> Reports` पर जाकर भी कॉन्फ़िगर "
 "किया जा सकता है। सूची से वांछित रिपोर्ट चुनें और :guilabel:`IoT Device` सेट करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:92
+#: ../../content/applications/general/iot/devices/printer.rst:97
 msgid ""
 "The first time a linked report is selected to print, a :guilabel:`Select "
 "Printers` pop-up window appears. Tick the checkbox next to the correct "
@@ -10518,11 +10576,11 @@ msgstr ""
 "पर टिक करें और :guilabel:`Print` पर क्लिक करें। उस समय, रिपोर्ट प्रिंटर से लिंक हो "
 "जाती है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:97
+#: ../../content/applications/general/iot/devices/printer.rst:102
 msgid "Clear device printer cache"
 msgstr "डिवाइस प्रिंटर कैश साफ़ करें"
 
-#: ../../content/applications/general/iot/devices/printer.rst:99
+#: ../../content/applications/general/iot/devices/printer.rst:104
 msgid ""
 "After a printer is linked to print a report, the setting is saved in a "
 "browser's cache. This means a user can have different devices saved in their "
@@ -10536,7 +10594,7 @@ msgstr ""
 "इसका यह भी मतलब है कि अलग-अलग उपयोगकर्ताओं के पास उनकी प्राथमिकताओं के आधार पर अलग-"
 "अलग प्रिंटर से ऑटोमैटिकली प्रिंट की गई रिपोर्ट हो सकती है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:104
+#: ../../content/applications/general/iot/devices/printer.rst:109
 msgid ""
 "To unlink a report from a printer, navigate to :menuselection:`IoT --> "
 "Configuration --> Reset Linked Printers`. This generates a list of reports "
@@ -10548,7 +10606,7 @@ msgstr ""
 "डिवाइस पर प्रिंटर से लिंक हैं। लिंक हटाने के लिए प्रत्येक रिपोर्ट के बगल "
 "में :guilabel:`Unlink` बटन पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:109
+#: ../../content/applications/general/iot/devices/printer.rst:114
 msgid ""
 "This step **only** prevents the report from automatically printing to the "
 "listed printer from the current browser. The report is still :ref:`linked "
@@ -10562,19 +10620,19 @@ msgstr ""
 msgid "A list of reports currently linked to a printer in the IoT app."
 msgstr "IoT ऐप्लिकेशन में वर्तमान में प्रिंटर से लिंक की गई रिपोर्ट की सूची।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:117
+#: ../../content/applications/general/iot/devices/printer.rst:122
 msgid ":ref:`POS Order Printing <pos/restaurant/orders-printing>`"
 msgstr ":ref:`पीओएस ऑर्डर प्रिंटिंग <pos/restaurant/orders-printing>`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:120
+#: ../../content/applications/general/iot/devices/printer.rst:125
 msgid "Potential issues"
 msgstr "संभावित समस्याएं"
 
-#: ../../content/applications/general/iot/devices/printer.rst:123
+#: ../../content/applications/general/iot/devices/printer.rst:128
 msgid "The printer is not detected"
 msgstr "प्रिंटर का पता नहीं चल रहा है"
 
-#: ../../content/applications/general/iot/devices/printer.rst:125
+#: ../../content/applications/general/iot/devices/printer.rst:130
 msgid ""
 "If a printer does not appear in the devices list, go to the :ref:`IoT box's "
 "<iot/iot-box/homepage>` or :ref:`Windows virtual IoT's <iot/windows-iot/"
@@ -10586,7 +10644,7 @@ msgstr ""
 "जाएं, :guilabel:`Devices` सेक्शन में :guilabel:`Show` पर क्लिक करें, और सुनिश्चित करें "
 "कि प्रिंटर सूचीबद्ध है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:129
+#: ../../content/applications/general/iot/devices/printer.rst:134
 msgid ""
 "If the printer does not appear on the IoT system's homepage, "
 "click :guilabel:`Printer Server`, then :guilabel:`Administration`, "
@@ -10597,11 +10655,11 @@ msgstr ""
 "Server`, फिर :guilabel:`Administration`, और :guilabel:`Add Printer` पर क्लिक "
 "करें। अगर प्रिंटर सूची में नहीं है, तो संभवतः यह ठीक से कनेक्ट नहीं है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:134
+#: ../../content/applications/general/iot/devices/printer.rst:139
 msgid "The printer outputs random text"
 msgstr "प्रिंटर रैंडम टेक्स्ट प्रिंट करता है"
 
-#: ../../content/applications/general/iot/devices/printer.rst:136
+#: ../../content/applications/general/iot/devices/printer.rst:141
 msgid ""
 "For most printers, the correct driver should be automatically detected and "
 "selected. However, in some cases, the automatic detection mechanism might "
@@ -10612,7 +10670,7 @@ msgstr ""
 "मामलों में, ऑटोमैटिक डिटेक्शन मैकेनिज्म पर्याप्त नहीं हो सकता है, और अगर कोई ड्राइवर नहीं "
 "मिलता है, तो प्रिंटर रैंडम कैरेक्टर प्रिंट कर सकता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:140
+#: ../../content/applications/general/iot/devices/printer.rst:145
 msgid ""
 "The solution is to manually select the corresponding driver. On the IoT "
 "system's homepage, click :guilabel:`Printer Server`, "
@@ -10629,7 +10687,7 @@ msgstr ""
 msgid "Edit the printer connected to the IoT system."
 msgstr "IoT सिस्टम से कनेक्टेड प्रिंटर में बदलाव करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:150
+#: ../../content/applications/general/iot/devices/printer.rst:155
 msgid ""
 "Epson receipt printers and Zebra label printers do not need a driver to "
 "work. Make sure that no driver is selected for those printers."
@@ -10637,11 +10695,11 @@ msgstr ""
 "Epson रसीद प्रिंटर और Zebra लेबल प्रिंटर को काम करने के लिए ड्राइवर की आवश्यकता नहीं "
 "होती है। सुनिश्चित करें कि इन प्रिंटर के लिए कोई ड्राइवर चुना नहीं गया है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:154
+#: ../../content/applications/general/iot/devices/printer.rst:159
 msgid "The printer is detected but is not recognized correctly"
 msgstr "प्रिंटर का पता लग गया है लेकिन सही तरीके से पहचाना नहीं गया"
 
-#: ../../content/applications/general/iot/devices/printer.rst:156
+#: ../../content/applications/general/iot/devices/printer.rst:161
 msgid ""
 "If Odoo and the IoT system do not recognize the printer correctly, go "
 "to :menuselection:`IoT --> Devices`, click the device's card to access its "
@@ -10655,11 +10713,11 @@ msgstr ""
 "करें: :guilabel:`Receipt Printer`, :guilabel:`Label Printer`, "
 "या :guilabel:`Office Printer`।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:162
+#: ../../content/applications/general/iot/devices/printer.rst:167
 msgid "Epson configuration special case"
 msgstr "Epson कॉन्फ़िगरेशन विशेष केस"
 
-#: ../../content/applications/general/iot/devices/printer.rst:164
+#: ../../content/applications/general/iot/devices/printer.rst:169
 msgid ""
 "Most Epson printers support printing receipts in Odoo Point of Sale using "
 "the `GS v 0` command. However, the following Epson printer models do not "
@@ -10669,23 +10727,23 @@ msgstr ""
 "करने का समर्थन करते हैं। हालांकि, निम्नलिखित Epson प्रिंटर मॉडल इस कमांड का समर्थन नहीं "
 "करते हैं:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:167
+#: ../../content/applications/general/iot/devices/printer.rst:172
 msgid "TM-U220"
 msgstr "TM-U220"
 
-#: ../../content/applications/general/iot/devices/printer.rst:168
+#: ../../content/applications/general/iot/devices/printer.rst:173
 msgid "TM-U230"
 msgstr "TM-U230"
 
-#: ../../content/applications/general/iot/devices/printer.rst:169
+#: ../../content/applications/general/iot/devices/printer.rst:174
 msgid "TM-P60"
 msgstr "TM-P60"
 
-#: ../../content/applications/general/iot/devices/printer.rst:170
+#: ../../content/applications/general/iot/devices/printer.rst:175
 msgid "TMP-P60II"
 msgstr "TMP-P60II"
 
-#: ../../content/applications/general/iot/devices/printer.rst:172
+#: ../../content/applications/general/iot/devices/printer.rst:177
 msgid ""
 "To bypass this issue, you can configure the printer to use the `ESC *` "
 "command."
@@ -10693,7 +10751,7 @@ msgstr ""
 "इस समस्या को दूर करने के लिए, आप प्रिंटर को `ESC *` कमांड का उपयोग करने के लिए "
 "कॉन्फ़िगर कर सकते हैं।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:174
+#: ../../content/applications/general/iot/devices/printer.rst:179
 msgid ""
 "First, review Epson's website for compatibility for both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -10705,7 +10763,7 @@ msgstr ""
 "reference_en/escpos/esc_asterisk.html>`_ दोनों कमांड के लिए संगतता के लिए Epson "
 "की वेबसाइट देखें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:178
+#: ../../content/applications/general/iot/devices/printer.rst:183
 msgid ""
 "If the printer is incompatible with `GS v 0` but supports `ESC *`, configure "
 "the IoT system to use the `ESC *` command as follows:"
@@ -10713,7 +10771,7 @@ msgstr ""
 "अगर प्रिंटर `GS v 0` के साथ असंगत है लेकिन `ESC *` का समर्थन करता है, तो IoT सिस्टम "
 "को `ESC *` कमांड का उपयोग करने के लिए निम्नानुसार कॉन्फ़िगर करें:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:183
+#: ../../content/applications/general/iot/devices/printer.rst:188
 msgid ""
 "Click the :guilabel:`Printer server` button, then "
 "click :guilabel:`Administration` on the CUPS page."
@@ -10721,7 +10779,7 @@ msgstr ""
 ":guilabel:`Printer server` बटन पर क्लिक करें, फिर CUPS पेज "
 "पर :guilabel:`Administration` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:185
+#: ../../content/applications/general/iot/devices/printer.rst:190
 msgid ""
 "Click :guilabel:`Add Printer` in the :guilabel:`Printers` section, select "
 "the printer, and click :guilabel:`Continue`."
@@ -10729,33 +10787,33 @@ msgstr ""
 ":guilabel:`Printers` सेक्शन में :guilabel:`Add Printer` पर क्लिक करें, प्रिंटर चुनें, "
 "और :guilabel:`Continue` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:189
+#: ../../content/applications/general/iot/devices/printer.rst:194
 msgid "If the printer's name is still uncertain, take the following steps:"
 msgstr "अगर प्रिंटर का नाम अभी भी अनिश्चित है, तो निम्नलिखित कदम उठाएं:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:191
+#: ../../content/applications/general/iot/devices/printer.rst:196
 msgid "Take note of the listed printers on the CUPS page."
 msgstr "CUPS पेज पर सूचीबद्ध प्रिंटर का नोट लें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:192
+#: ../../content/applications/general/iot/devices/printer.rst:197
 msgid "Turn the printer off and refresh the page."
 msgstr "प्रिंटर बंद करें और पेज को रीफ्रेश करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:193
+#: ../../content/applications/general/iot/devices/printer.rst:198
 msgid ""
 "Compare the difference with the first list to see which printer disappeared."
 msgstr ""
 "पहली सूची के साथ अंतर की तुलना करें यह देखने के लिए कि कौन सा प्रिंटर गायब हो गया।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:194
+#: ../../content/applications/general/iot/devices/printer.rst:199
 msgid "Turn the printer back on and refresh the page again."
 msgstr "प्रिंटर को फिर से चालू करें और पेज को दोबारा रीफ्रेश करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:195
+#: ../../content/applications/general/iot/devices/printer.rst:200
 msgid "Double-check the list again to see if the printer re-appears."
 msgstr "यह देखने के लिए सूची को दोबारा जांचें कि क्या प्रिंटर फिर से दिखाई देता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:196
+#: ../../content/applications/general/iot/devices/printer.rst:201
 msgid ""
 "The printer that disappeared and reappears again on the listed printers is "
 "the name of the printer in question. It can be :guilabel:`Unknown` "
@@ -10765,17 +10823,17 @@ msgstr ""
 "उल्लेखित प्रिंटर का नाम है। यह :guilabel:`लोकल प्रिंटर` के अंतर्गत :guilabel:`अज्ञात` "
 "हो सकता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:199
+#: ../../content/applications/general/iot/devices/printer.rst:204
 msgid ""
 "On the :guilabel:`Add Printer` page, specify the printer's :guilabel:`Name` "
 "using the following convention: "
 "`<printer_name>__IMC_<param_1>_<param_2>_..._<param_n>__`, where:"
 msgstr ""
-":guilabel:`प्रिंटर जोड़ें` पेज पर, निम्नलिखित कन्वेंशन का उपयोग करके प्रिंटर का "
-":guilabel:`नाम` निर्दिष्ट करें: `<printer_name>__IMC_<param_1>_<param_2>"
-"_..._<param_n>__`, जहां:"
+":guilabel:`प्रिंटर जोड़ें` पेज पर, निम्नलिखित कन्वेंशन का उपयोग करके प्रिंटर "
+"का :guilabel:`नाम` निर्दिष्ट करें: "
+"`<printer_name>__IMC_<param_1>_<param_2>_..._<param_n>__`, जहां:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:202
+#: ../../content/applications/general/iot/devices/printer.rst:207
 msgid ""
 "`printer_name` is the printer's name. It can contain any character except "
 "`_`, `/`, `#`, or ` ` (space character)."
@@ -10783,16 +10841,16 @@ msgstr ""
 "`printer_name` प्रिंटर का नाम है। इसमें `_`, `/`, `#`, या ` ` (स्पेस कैरेक्टर) को "
 "छोड़कर कोई भी कैरेक्टर हो सकता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:204
+#: ../../content/applications/general/iot/devices/printer.rst:209
 msgid ""
 "`IMC`: This stands for *Image Mode Column* (the simplified name for `ESC *`)."
 msgstr "`IMC`: यह *Image Mode Column* के लिए है (`ESC *` का सरलीकृत नाम)।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:205
+#: ../../content/applications/general/iot/devices/printer.rst:210
 msgid "`param_1`: This stands for the specific parameter:"
 msgstr "`param_1`: यह विशिष्ट पैरामीटर के लिए है:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:207
+#: ../../content/applications/general/iot/devices/printer.rst:212
 msgid ""
 "`SCALE<X>`: Scale of the picture (with the same aspect ratio). `X` should be "
 "an integer describing the scale percentage that should be used. For example, "
@@ -10803,7 +10861,7 @@ msgstr ""
 "जो स्केल प्रतिशत का वर्णन करता है जिसका उपयोग किया जाना चाहिए। उदाहरण के लिए, "
 "`100` मूल साइज़ है, `50` आधा साइज़ है, और `200` दोगुना साइज़ है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:210
+#: ../../content/applications/general/iot/devices/printer.rst:215
 msgid ""
 "`LDV`: *Low Density Vertical* (will be set to *High Density Vertical* if not "
 "specified)."
@@ -10811,7 +10869,7 @@ msgstr ""
 "`LDV`: *Low Density Vertical* (अगर निर्दिष्ट नहीं है तो *High Density Vertical* "
 "पर सेट हो जाएगा)।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:211
+#: ../../content/applications/general/iot/devices/printer.rst:216
 msgid ""
 "`LDH`: *Low Density Horizontal* (will be set to *High Density Horizontal* if "
 "not specified)."
@@ -10819,7 +10877,7 @@ msgstr ""
 "`LDH`: *Low Density Horizontal* (अगर निर्दिष्ट नहीं है तो *High Density "
 "Horizontal* पर सेट हो जाएगा)।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:214
+#: ../../content/applications/general/iot/devices/printer.rst:219
 msgid ""
 "*Density* parameters might need to be configured in a particular way, "
 "depending on the printer model."
@@ -10827,7 +10885,7 @@ msgstr ""
 "*Density* पैरामीटर को प्रिंटर मॉडल के आधार पर किसी विशेष तरीके से कॉन्फ़िगर करने की "
 "आवश्यकता हो सकती है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:216
+#: ../../content/applications/general/iot/devices/printer.rst:221
 msgid ""
 "Refer to `Epson's ESC * documentation <https://download4.epson.biz/sec_pubs/"
 "pos/reference_en/escpos/esc_asterisk.html>`_ to determine if the printer "
@@ -10837,23 +10895,23 @@ msgstr ""
 "`Epson के ESC * दस्तावेज़ <https://download4.epson.biz/sec_pubs/pos/reference_en/"
 "escpos/esc_asterisk.html>`_ को देखें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:220
+#: ../../content/applications/general/iot/devices/printer.rst:225
 msgid "The following are examples of proper and improper name formatting:"
 msgstr "निम्नलिखित उचित और अनुचित नाम फ़ॉर्मेटिंग के उदाहरण हैं:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:222
+#: ../../content/applications/general/iot/devices/printer.rst:227
 msgid "Proper name formatting:"
 msgstr "उचित नाम फ़ॉर्मेटिंग:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:224
+#: ../../content/applications/general/iot/devices/printer.rst:229
 msgid "`EPSONTMm30II__IMC__`"
 msgstr "`EPSONTMm30II__IMC__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:225
+#: ../../content/applications/general/iot/devices/printer.rst:230
 msgid "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 msgstr "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:227
+#: ../../content/applications/general/iot/devices/printer.rst:232
 msgid ""
 "Improper name formatting (this will not prevent printing, but the result "
 "might not have the expected printed output):"
@@ -10861,33 +10919,33 @@ msgstr ""
 "अनुचित नाम फ़ॉर्मेटिंग (इससे प्रिंटिंग नहीं रुकेगी, लेकिन परिणाम अपेक्षित प्रिंटेड आउटपुट नहीं "
 "हो सकता है):"
 
-#: ../../content/applications/general/iot/devices/printer.rst:230
+#: ../../content/applications/general/iot/devices/printer.rst:235
 msgid "`EPSON TMm 30II`: The name cannot contain spaces."
 msgstr "`EPSON TMm 30II`: नाम में स्पेस नहीं हो सकता।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:231
+#: ../../content/applications/general/iot/devices/printer.rst:236
 msgid ""
 "`EPSONTMm30II`: The name itself is correct, but it will not use `ESC *`."
 msgstr "`EPSONTMm30II`: नाम स्वयं सही है, लेकिन यह `ESC *` का उपयोग नहीं करेगा।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:232
+#: ../../content/applications/general/iot/devices/printer.rst:237
 msgid "`EPSONTMm30II__IMC`: This name is missing the end `__`."
 msgstr "`EPSONTMm30II__IMC`: इस नाम में अंत में `__` गायब है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:233
+#: ../../content/applications/general/iot/devices/printer.rst:238
 msgid ""
 "`EPSONTMm30II__IMC_XDV__`: The parameter `XDV` does not match any existing "
 "parameters."
 msgstr ""
 "`EPSONTMm30II__IMC_XDV__`: पैरामीटर `XDV` किसी भी मौजूदा पैरामीटर से मेल नहीं खाता।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:234
+#: ../../content/applications/general/iot/devices/printer.rst:239
 msgid ""
 "`EPSONTMm30II__IMC_SCALE__`: The parameter `SCALE` is missing the scale "
 "value."
 msgstr "`EPSONTMm30II__IMC_SCALE__`: पैरामीटर `SCALE` में स्केल वैल्यू गायब है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:236
+#: ../../content/applications/general/iot/devices/printer.rst:241
 msgid ""
 "Once the printer's name has been defined using the appropriate naming "
 "convention, click :guilabel:`Continue`."
@@ -10895,7 +10953,7 @@ msgstr ""
 "जब प्रिंटर का नाम उपयुक्त नामकरण कन्वेंशन का उपयोग करके निर्धारित कर दिया जाए, "
 "तो :guilabel:`Continue` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:238
+#: ../../content/applications/general/iot/devices/printer.rst:243
 msgid ""
 "Set the :guilabel:`Make` value to :guilabel:`Raw` and the :guilabel:`Model` "
 "value to :guilabel:`Raw Queue (en)`."
@@ -10903,7 +10961,7 @@ msgstr ""
 ":guilabel:`Make` वैल्यू को :guilabel:`Raw` और :guilabel:`Model` वैल्यू "
 "को :guilabel:`Raw Queue (en)` पर सेट करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:240
+#: ../../content/applications/general/iot/devices/printer.rst:245
 msgid ""
 "Click :guilabel:`Add Printer`. If everything was done correctly, the page "
 "should redirect to the :guilabel:`Banners` page."
@@ -10911,7 +10969,7 @@ msgstr ""
 ":guilabel:`Add Printer` पर क्लिक करें। यदि सब कुछ सही तरीके से किया गया है, तो "
 "पेज :guilabel:`Banners` पेज पर रीडायरेक्ट हो जाना चाहिए।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:242
+#: ../../content/applications/general/iot/devices/printer.rst:247
 msgid ""
 "Wait a few minutes for the IoT system to detect the printer and sync to "
 "Odoo's server."
@@ -10919,7 +10977,7 @@ msgstr ""
 "IoT सिस्टम द्वारा प्रिंटर का पता लगाने और Odoo के सर्वर से सिंक होने के लिए कुछ मिनट "
 "प्रतीक्षा करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:243
+#: ../../content/applications/general/iot/devices/printer.rst:248
 msgid ""
 ":ref:`Access the POS settings <pos/use/settings>` and select your POS, or "
 "click the vertical ellipsis button (:guilabel:`⋮`) on a POS card and "
@@ -10933,7 +10991,7 @@ msgstr ""
 "करें, :guilabel:`IoT Box` को सक्षम करें, और :guilabel:`Receipt Printer` फ़ील्ड में "
 "प्रिंटर को सेलेक्ट करें। :guilabel:`Save` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:249
+#: ../../content/applications/general/iot/devices/printer.rst:254
 msgid ""
 "If the printer was set up incorrectly (e.g., it continues to print random "
 "text, or the printed receipt is too large or too small), it cannot be "
@@ -10945,7 +11003,7 @@ msgstr ""
 "ज़रिए संशोधित नहीं किया जा सकता। इसके बजाय, ऊपर दिए गए चरणों का पालन करते हुए, "
 "संशोधित पैरामीटर के साथ शुरुआत से एक नया प्रिंटर कॉन्फ़िगर करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:257
+#: ../../content/applications/general/iot/devices/printer.rst:262
 msgid ""
 "The following is an example of the troubleshooting process for a TM-U220B "
 "printer model using the `ESC *` command. The receipt pictured below is an "
@@ -10960,7 +11018,7 @@ msgstr ""
 msgid "Properly formatted receipt picture from a demo database."
 msgstr "डेमो डेटाबेस से उचित रूप से फ़ॉर्मेट की गई रसीद की तस्वीर।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:265
+#: ../../content/applications/general/iot/devices/printer.rst:270
 msgid ""
 "Printing this receipt immediately without proper formatting will not work, "
 "as the TM-U220B printer model does not support the `GS v 0` command. "
@@ -10973,7 +11031,7 @@ msgstr ""
 msgid "Printer paper with seemingly random characters."
 msgstr "प्रिंटर पेपर पर रैंडम कैरेक्टर दिखाई दे रहे हैं।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:272
+#: ../../content/applications/general/iot/devices/printer.rst:277
 msgid ""
 "To properly configure formatting for the Epson TM-U220B printer model, "
 "follow these steps:"
@@ -10981,7 +11039,7 @@ msgstr ""
 "Epson TM-U220B प्रिंटर मॉडल के लिए फ़ॉर्मेटिंग को ठीक से कॉन्फ़िगर करने के लिए, इन चरणों "
 "का पालन करें:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:274
+#: ../../content/applications/general/iot/devices/printer.rst:279
 msgid ""
 "After checking Epson's website for compatibility with both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -10999,7 +11057,7 @@ msgstr ""
 msgid "Epson compatibility evaluation from Epson website."
 msgstr "Epson वेबसाइट से Epson कम्पैटिबिलिटी मूल्यांकन।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:282
+#: ../../content/applications/general/iot/devices/printer.rst:287
 msgid "When adding the printer, CUPS displays the list of available printers:"
 msgstr "प्रिंटर जोड़ते समय, CUPS उपलब्ध प्रिंटरों की सूची प्रदर्शित करता है:"
 
@@ -11007,7 +11065,7 @@ msgstr "प्रिंटर जोड़ते समय, CUPS उपलब्
 msgid "Administration menu, add printer selection."
 msgstr "एडमिनिस्ट्रेशन मेनू, प्रिंटर जोड़ने का चयन।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:288
+#: ../../content/applications/general/iot/devices/printer.rst:293
 msgid ""
 "In this case, the printer is connected via USB, so it is not part of "
 "the :guilabel:`Discovered Network Printers`. Instead, it is likely part of "
@@ -11022,7 +11080,7 @@ msgstr ""
 "अनप्लग करने और पेज को रिफ्रेश करने पर, :guilabel:`Unknown` प्रिंटर गायब हो जाता है। "
 "इसे वापस प्लग इन करने पर, प्रिंटर फिर से दिखाई देता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:294
+#: ../../content/applications/general/iot/devices/printer.rst:299
 msgid ""
 "For the naming convention, since the printer must print using the `ESC *` "
 "command, it is imperative to add `__IMC`."
@@ -11034,7 +11092,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturer's website."
 msgstr "निर्माता की वेबसाइट पर Epson TM-U220 स्पेसिफिकेशन।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:300
+#: ../../content/applications/general/iot/devices/printer.rst:305
 msgid ""
 "For this particular model (TM-U220) `m` should be equal to 0 or 1. While "
 "referencing the :guilabel:`Description` table on `Epson's ESC * website "
@@ -11049,7 +11107,7 @@ msgstr ""
 "वैल्यू 0, 1, 32, या 33 हो सकती हैं। तो, इस स्थिति में, `m` वैल्यू 32 या 33 **नहीं** हो "
 "सकती (अन्यथा, रैंडम कैरेक्टर प्रिंट होंगे)।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:306
+#: ../../content/applications/general/iot/devices/printer.rst:311
 msgid ""
 "The table includes the numeric values 32 and 33; they both occur if "
 "the :guilabel:`Number of bits for vertical data` is set to 24, i.e. it has a "
@@ -11063,7 +11121,7 @@ msgstr ""
 "Density* को बाध्य करना होगा, क्योंकि यह प्रिंटर मॉडल इस कमांड `ESC *` के लिए *High "
 "Vertical Density* को सपोर्ट नहीं करता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:311
+#: ../../content/applications/general/iot/devices/printer.rst:316
 msgid ""
 "To add a *Low Vertical Density*, add the `LDV` parameter to the naming "
 "convention."
@@ -11074,21 +11132,21 @@ msgid ""
 "Add a *Low Vertical Density* (the `LDV` parameter) to the naming convention."
 msgstr "नामकरण परंपरा में *Low Vertical Density* (`LDV` पैरामीटर) जोड़ें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:316
+#: ../../content/applications/general/iot/devices/printer.rst:321
 msgid ""
 "Click :guilabel:`Continue` to proceed. Next, set the :guilabel:`Make` value "
 "to :guilabel:`Raw` and the :guilabel:`Model` value to :guilabel:`Raw Queue "
 "(en)`."
 msgstr ""
-"आगे बढ़ने के लिए :guilabel:`Continue` क्लिक करें। अगला, :guilabel:`Make` वैल्यू को "
-":guilabel:`Raw` और :guilabel:`Model` वैल्यू को :guilabel:`Raw Queue (en)` पर सेट "
-"करें।"
+"आगे बढ़ने के लिए :guilabel:`Continue` क्लिक करें। अगला, :guilabel:`Make` वैल्यू "
+"को :guilabel:`Raw` और :guilabel:`Model` वैल्यू को :guilabel:`Raw Queue (en)` पर "
+"सेट करें।"
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid "Epson TM-U220 specifications on manufacturers website."
 msgstr "निर्माता की वेबसाइट पर Epson TM-U220 विनिर्देश।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:322
+#: ../../content/applications/general/iot/devices/printer.rst:327
 msgid ""
 "However, when trying to print with the naming convention "
 "`EpsonTMU220B__IMC_LDV__`, the receipt is printed, but it is too large and "
@@ -11100,27 +11158,27 @@ msgstr ""
 "लिए, रसीद के साइज़ के अनुसार अनुकूलित करने के लिए `SCALE<X>` पैरामीटर के साथ एक नया "
 "प्रिंटर (और नामकरण परंपरा) जोड़ें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:326
+#: ../../content/applications/general/iot/devices/printer.rst:331
 msgid "Here are some examples:"
 msgstr "यहां कुछ उदाहरण हैं:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:331
+#: ../../content/applications/general/iot/devices/printer.rst:336
 msgid "Printer Naming Convention"
 msgstr "प्रिंटर नामकरण परंपरा"
 
-#: ../../content/applications/general/iot/devices/printer.rst:332
+#: ../../content/applications/general/iot/devices/printer.rst:337
 msgid "`EpsonTMU220B__IMC_LDV__`"
 msgstr "`EpsonTMU220B__IMC_LDV__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:333
+#: ../../content/applications/general/iot/devices/printer.rst:338
 msgid "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 msgstr "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:334
+#: ../../content/applications/general/iot/devices/printer.rst:339
 msgid "`EpsonTMU220B__IMC_LDV_LDH__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:335
+#: ../../content/applications/general/iot/devices/printer.rst:340
 msgid "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 
@@ -11140,8 +11198,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid "Receipt format using naming convention: EpsonTMU220B__IMC_LDV_LDH__."
-msgstr ""
-"नामकरण परंपरा का उपयोग करते हुए रसीद फ़ॉर्मैट: EpsonTMU220B__IMC_LDV_LDH__।"
+msgstr "नामकरण परंपरा का उपयोग करते हुए रसीद फ़ॉर्मैट: EpsonTMU220B__IMC_LDV_LDH__।"
 
 #: ../../content/applications/general/iot/devices/printer.rst:0
 msgid ""
@@ -11149,11 +11206,11 @@ msgid ""
 msgstr ""
 "नामकरण परंपरा का उपयोग करते हुए रसीद फ़ॉर्मैट: EpsonTMU220B__IMC_LDV_LDH_SCALE35__।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:348
+#: ../../content/applications/general/iot/devices/printer.rst:353
 msgid "DYMO LabelWriter print issue"
 msgstr "DYMO LabelWriter प्रिंट समस्या"
 
-#: ../../content/applications/general/iot/devices/printer.rst:350
+#: ../../content/applications/general/iot/devices/printer.rst:355
 msgid ""
 "The DYMO LabelWriter has a known issue in printing with IoT systems. The "
 "OpenPrinting CUPS server installs the printer using :guilabel:`Local RAW "
@@ -11166,7 +11223,7 @@ msgstr ""
 "है। कुछ भी प्रिंट करने के लिए, डिवाइस का उपयोग करते समय सही ड्राइवर को रेफ़रेंस करने के "
 "लिए सही :guilabel:`Make and Model` सेट करना आवश्यक है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:355
+#: ../../content/applications/general/iot/devices/printer.rst:360
 msgid ""
 "Additionally, a new printer needs to be added to reduce the print delay that "
 "occurs after updating the driver."
@@ -11174,7 +11231,7 @@ msgstr ""
 "इसके अलावा, ड्राइवर अपडेट करने के बाद होने वाली प्रिंट देरी को कम करने के लिए एक नया "
 "प्रिंटर जोड़ने की आवश्यकता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:359
+#: ../../content/applications/general/iot/devices/printer.rst:364
 msgid ""
 "The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use "
 "with Odoo and IoT systems. This device combines two printers: a label "
@@ -11189,19 +11246,19 @@ msgstr ""
 "निम्नलिखित प्रक्रियाओं को कॉन्फ़िगर करते समय, सही मॉडल (या तो DYMO LabelWriter 450 "
 "DUO Label (en) या DYMO LabelWriter 450 DUO Tape (en)) का चयन करना आवश्यक है। "
 "निरंतरता के लिए, निम्नलिखित प्रक्रियाएं DYMO LabelWriter 450 DUO Label (en) मॉडल के "
-"लिए कॉन्फ़िगरेशन चरणों की रूपरेखा प्रस्तुत करती हैं। आवश्यकतानुसार मॉडल चयन को समायोजित करें"
-"।"
+"लिए कॉन्फ़िगरेशन चरणों की रूपरेखा प्रस्तुत करती हैं। आवश्यकतानुसार मॉडल चयन को समायोजित "
+"करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:369
+#: ../../content/applications/general/iot/devices/printer.rst:374
 msgid "DYMO LabelWriter not printing"
 msgstr "DYMO LabelWriter प्रिंट नहीं कर रहा"
 
-#: ../../content/applications/general/iot/devices/printer.rst:371
+#: ../../content/applications/general/iot/devices/printer.rst:376
 msgid "If the DYMO LabelWriter fails to print, install a new driver:"
 msgstr "अगर DYMO LabelWriter प्रिंट करने में विफल रहता है, तो नया ड्राइवर इंस्टॉल करें:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:373
-#: ../../content/applications/general/iot/devices/printer.rst:409
+#: ../../content/applications/general/iot/devices/printer.rst:378
+#: ../../content/applications/general/iot/devices/printer.rst:414
 msgid ""
 "Access the IoT system's homepage and click :menuselection:`Printer server` "
 "to open the OpenPrinting CUPS console."
@@ -11209,18 +11266,18 @@ msgstr ""
 "IoT सिस्टम के होमपेज पर ऐक्सेस करें और OpenPrinting CUPS कंसोल खोलने के "
 "लिए :menuselection:`प्रिंटर सर्वर` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:375
+#: ../../content/applications/general/iot/devices/printer.rst:380
 msgid ""
 "Click :menuselection:`Printers` in the top menu, then click the printer in "
 "the list."
 msgstr ""
 "टॉप मेन्यू में :menuselection:`प्रिंटर्स` पर क्लिक करें, फिर लिस्ट में प्रिंटर पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:376
+#: ../../content/applications/general/iot/devices/printer.rst:381
 msgid "Select :guilabel:`Maintenance` in the first dropdown menu."
 msgstr "पहले ड्रॉपडाउन मेन्यू में :guilabel:`मेंटनेंस` सेलेक्ट करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:377
+#: ../../content/applications/general/iot/devices/printer.rst:382
 msgid "Select :guilabel:`Modify Printer` in the second dropdown menu."
 msgstr "दूसरे ड्रॉपडाउन मेन्यू में :guilabel:`मॉडिफाई प्रिंटर` सेलेक्ट करें।"
 
@@ -11233,7 +11290,7 @@ msgstr ""
 "DYMO LabelWriter के मेक और मॉडल को मॉडिफाई करें। मेंटनेंस और मॉडिफाई ड्रॉपडाउन मेन्यू "
 "हाइलाइट किए गए हैं।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:383
+#: ../../content/applications/general/iot/devices/printer.rst:388
 msgid ""
 "Select the specific network connection/printer on which the modification "
 "should be made and click :guilabel:`Continue`."
@@ -11241,7 +11298,7 @@ msgstr ""
 "विशिष्ट नेटवर्क कनेक्शन/प्रिंटर सेलेक्ट करें जिस पर मॉडिफिकेशन किया जाना चाहिए "
 "और :guilabel:`जारी रखें` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:385
+#: ../../content/applications/general/iot/devices/printer.rst:390
 msgid ""
 "On the next page, click :guilabel:`Continue`, then select :guilabel:`DYMO` "
 "from the :guilabel:`Make` dropdown list."
@@ -11249,7 +11306,7 @@ msgstr ""
 "अगले पेज पर, :guilabel:`जारी रखें` पर क्लिक करें, फिर :guilabel:`मेक` ड्रॉपडाउन लिस्ट "
 "से :guilabel:`DYMO` सेलेक्ट करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:387
+#: ../../content/applications/general/iot/devices/printer.rst:392
 msgid ""
 "Click on :guilabel:`Continue` and set the :guilabel:`Model` "
 "to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO "
@@ -11259,7 +11316,7 @@ msgstr ""
 "LabelWriter 450 DUO Label (en)` पर सेट करें (या जो भी DYMO प्रिंटर मॉडल उपयोग "
 "किया जा रहा है)।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:389
+#: ../../content/applications/general/iot/devices/printer.rst:394
 msgid ""
 "Click :guilabel:`Modify Printer` to set the new driver; a confirmation page "
 "appears."
@@ -11267,7 +11324,7 @@ msgstr ""
 "नया ड्राइवर सेट करने के लिए :guilabel:`मॉडिफाई प्रिंटर` पर क्लिक करें; एक कन्फर्मेशन पेज "
 "दिखाई देता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:390
+#: ../../content/applications/general/iot/devices/printer.rst:395
 msgid ""
 "Click :menuselection:`Printers` in the top menu; all printers installed on "
 "the OpenPrinting CUPS server appear, including the newly "
@@ -11279,7 +11336,7 @@ msgstr ""
 "LabelWriter 450 DUO Label` (या जो भी DYMO प्रिंटर मॉडल उपयोग किया जा रहा है) "
 "शामिल है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:393
+#: ../../content/applications/general/iot/devices/printer.rst:398
 msgid ""
 "Click the newly updated printer, then click the :guilabel:`Maintenance` "
 "dropdown menu and select :guilabel:`Print Test Page` to print a test label. "
@@ -11290,15 +11347,15 @@ msgstr ""
 "करें और टेस्ट लेबल प्रिंट करने के लिए :guilabel:`प्रिंट टेस्ट पेज` सेलेक्ट करें। अगर ड्राइवर "
 "अपडेट सफल रहा तो कुछ सेकंड के बाद टेस्ट लेबल प्रिंट हो जाता है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:397
+#: ../../content/applications/general/iot/devices/printer.rst:402
 msgid "To reduce this delay, add a new printer using the steps below."
 msgstr "इस देरी को कम करने के लिए, नीचे दिए गए स्टेप्स का उपयोग करके नया प्रिंटर जोड़ें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:400
+#: ../../content/applications/general/iot/devices/printer.rst:405
 msgid "DYMO LabelWriter print delay"
 msgstr "DYMO LabelWriter प्रिंट देरी"
 
-#: ../../content/applications/general/iot/devices/printer.rst:403
+#: ../../content/applications/general/iot/devices/printer.rst:408
 msgid ""
 "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not "
 "recognized (i.e., it has a :guilabel:`RAW` driver type), then :ref:`update "
@@ -11308,14 +11365,14 @@ msgstr ""
 "जा रहा है (यानी, इसमें :guilabel:`RAW` ड्राइवर टाइप है), तो :ref:`डिवाइस पर "
 "ड्राइवरों को अपडेट करें <printer/dymo/update_drivers>`।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:407
+#: ../../content/applications/general/iot/devices/printer.rst:412
 msgid ""
 "To resolve the delay issue after modifying the driver, reinstall the printer:"
 msgstr ""
 "ड्राइवर को मॉडिफाई करने के बाद देरी की समस्या को हल करने के लिए, प्रिंटर को फिर से "
 "इंस्टॉल करें:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:411
+#: ../../content/applications/general/iot/devices/printer.rst:416
 msgid ""
 "Click :menuselection:`Administration` in the top menu, then "
 "click :guilabel:`Add a Printer`."
@@ -11323,7 +11380,7 @@ msgstr ""
 "टॉप मेन्यू में :menuselection:`एडमिनिस्ट्रेशन` पर क्लिक करें, फिर :guilabel:`ऐड अ "
 "प्रिंटर` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:412
+#: ../../content/applications/general/iot/devices/printer.rst:417
 msgid ""
 "On the next page, in the :guilabel:`Local Printers` section, "
 "select :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO "
@@ -11343,7 +11400,7 @@ msgstr ""
 "OpenPrinting CUPS पर ऐड अ प्रिंटर स्क्रीन जिसमें DYMO LabelWriter 450 DUO Label "
 "हाइलाइट किया गया है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:420
+#: ../../content/applications/general/iot/devices/printer.rst:425
 msgid ""
 "On the following screen, update the :guilabel:`Name` to something easily "
 "identifiable, as the original printer will remain in the list. Then, "
@@ -11358,7 +11415,7 @@ msgid ""
 "highlighted."
 msgstr "'प्रिंटर जोड़ें' फ़्लो में प्रिंटर पेज का नाम बदलें, नाम फ़ील्ड हाइलाइट किया गया है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:426
+#: ../../content/applications/general/iot/devices/printer.rst:431
 msgid ""
 "Set the :guilabel:`Model` field to :guilabel:`DYMO LabelWriter 450 DUO Label "
 "(en)` (or whichever DYMO printer model is being used), then "
@@ -11377,7 +11434,7 @@ msgstr ""
 "OpenPrinting CUPS कंसोल पर मॉडल स्क्रीन चुनें, मॉडल और प्रिंटर जोड़ें हाइलाइट किया गया "
 "है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:434
+#: ../../content/applications/general/iot/devices/printer.rst:439
 msgid ""
 "Click :menuselection:`Printers` in the top menu and click the newly "
 "installed printer :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever "
@@ -11391,7 +11448,7 @@ msgstr ""
 msgid "Printer page with newly installed printer highlighted."
 msgstr "प्रिंटर पेज, नए इंस्टॉल किए गए प्रिंटर को हाइलाइट किया गया है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:441
+#: ../../content/applications/general/iot/devices/printer.rst:446
 msgid ""
 "Click the :guilabel:`Maintenance` dropdown list and select :guilabel:`Print "
 "Test Page` to print a test label. The test label should print out "
@@ -11401,11 +11458,11 @@ msgstr ""
 "लिए :guilabel:`टेस्ट पेज प्रिंट करें` को सेलेक्ट करें। टेस्ट लेबल तुरंत या एक-दो सेकंड के बाद "
 "प्रिंट हो जाना चाहिए।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:445
+#: ../../content/applications/general/iot/devices/printer.rst:450
 msgid "The Zebra printer does not print anything"
 msgstr "Zebra प्रिंटर कुछ भी प्रिंट नहीं करता"
 
-#: ../../content/applications/general/iot/devices/printer.rst:447
+#: ../../content/applications/general/iot/devices/printer.rst:452
 msgid ""
 "Zebra printers are quite sensitive to the format of the printed Zebra "
 "Programming Language (ZPL) code. If nothing comes out of the printer or "
@@ -11420,7 +11477,7 @@ msgstr ""
 "मोड <developer-mode>` को एक्टिवेट करें, :menuselection:`सेटिंग --> टेक्निकल --> यूज़र "
 "इंटरफ़ेस --> व्यूज़` पर जाएं और संबंधित टेम्प्लेट को खोजें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:454
+#: ../../content/applications/general/iot/devices/printer.rst:459
 msgid ""
 "`Zebra's instructions on printing ZPL files <https://"
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
@@ -11429,15 +11486,15 @@ msgstr ""
 "`ZPL फ़ाइलों को प्रिंट करने पर Zebra के निर्देश <https://supportcommunity.zebra.com/"
 "s/article/Print-a-zpl-file-using-the-Generic-Text-Printer>`_"
 
-#: ../../content/applications/general/iot/devices/printer.rst:458
+#: ../../content/applications/general/iot/devices/printer.rst:463
 msgid "Barcode scanner issues"
 msgstr "बारकोड स्कैनर की समस्याएं"
 
-#: ../../content/applications/general/iot/devices/printer.rst:461
+#: ../../content/applications/general/iot/devices/printer.rst:466
 msgid "The characters read by the barcode scanner do not match the barcode"
 msgstr "बारकोड स्कैनर द्वारा पढ़े गए कैरेक्टर बारकोड से मेल नहीं खाते"
 
-#: ../../content/applications/general/iot/devices/printer.rst:463
+#: ../../content/applications/general/iot/devices/printer.rst:468
 msgid ""
 "By default, most barcode scanners are configured in the US QWERTY format. If "
 "the barcode scanner uses a different layout, go to :menuselection:`IoT --> "
@@ -11449,8 +11506,8 @@ msgstr ""
 "जाएं और बारकोड डिवाइस के कार्ड पर क्लिक करें। फिर, :guilabel:`कीबोर्ड लेआउट` फ़ील्ड में "
 "सही भाषा को सेलेक्ट करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:468
-#: ../../content/applications/general/iot/devices/printer.rst:498
+#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:503
 msgid ""
 "The :guilabel:`Keyboard Layout` is language-specific, with available options "
 "varying based on the device and the language of the database "
@@ -11460,11 +11517,11 @@ msgstr ""
 "आधार पर अलग-अलग होते हैं (जैसे, :guilabel:`English (UK)`, :guilabel:`English "
 "(US)`, आदि)।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:478
 msgid "Nothing happens when a barcode is scanned"
 msgstr "बारकोड स्कैन करने पर कुछ नहीं होता"
 
-#: ../../content/applications/general/iot/devices/printer.rst:475
+#: ../../content/applications/general/iot/devices/printer.rst:480
 msgid ""
 "Make sure the correct device is selected in the :doc:`Point of Sale settings "
 "</applications/sales/point_of_sale/hardware_network/pos_iot>` (when "
@@ -11476,11 +11533,11 @@ msgstr ""
 "लागू हो) और बारकोड हर बारकोड के अंत में `ENTER` कैरेक्टर (keycode 28) भेजने के लिए "
 "कॉन्फ़िगर किया गया है।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:480
+#: ../../content/applications/general/iot/devices/printer.rst:485
 msgid "The barcode scanner is detected as a keyboard"
 msgstr "बारकोड स्कैनर को कीबोर्ड के रूप में पहचाना जाता है"
 
-#: ../../content/applications/general/iot/devices/printer.rst:483
+#: ../../content/applications/general/iot/devices/printer.rst:488
 msgid ""
 "Some barcode scanners are identified as USB keyboards rather than barcode "
 "scanners and are not recognized by IoT systems."
@@ -11488,7 +11545,7 @@ msgstr ""
 "कुछ बारकोड स्कैनर को USB कीबोर्ड के रूप में पहचाना जाता है न कि बारकोड स्कैनर के रूप में और "
 "IoT सिस्टम द्वारा इन्हें मान्यता नहीं मिलती।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:486
+#: ../../content/applications/general/iot/devices/printer.rst:491
 msgid ""
 "To change the device type manually, go to :menuselection:`IoT --> Devices` "
 "and click the barcode device's card. Then, enable :guilabel:`Is scanner`."
@@ -11496,11 +11553,11 @@ msgstr ""
 "डिवाइस टाइप को मैन्युअली बदलने के लिए, :menuselection:`IoT --> डिवाइस` पर जाएं और "
 "बारकोड डिवाइस के कार्ड पर क्लिक करें। फिर, :guilabel:`स्कैनर है` को एनेबल करें।"
 
-#: ../../content/applications/general/iot/devices/printer.rst:490
+#: ../../content/applications/general/iot/devices/printer.rst:495
 msgid "The barcode scanner processes barcode characters individually"
 msgstr "बारकोड स्कैनर बारकोड कैरेक्टर को अलग-अलग प्रोसेस करता है"
 
-#: ../../content/applications/general/iot/devices/printer.rst:492
+#: ../../content/applications/general/iot/devices/printer.rst:497
 msgid ""
 "When accessing the mobile version of Odoo from a mobile device or tablet "
 "paired with a barcode scanner via the IoT system, the scanner might "
@@ -11526,8 +11583,8 @@ msgid ""
 "integrated device."
 msgstr ""
 "EU सदस्य देशों में, स्केल को इंटीग्रेटेड डिवाइस के रूप में इस्तेमाल करने के लिए `सर्टिफ़िकेशन "
-"कानूनी तौर पर ज़रूरी है <https://eur-lex.europa.eu/legal-content/EN/TXT/"
-"?uri=uriserv%3AOJ.L_.2014.096.01.0107.01.ENG>`_।"
+"कानूनी तौर पर ज़रूरी है <https://eur-lex.europa.eu/legal-content/EN/TXT/?"
+"uri=uriserv%3AOJ.L_.2014.096.01.0107.01.ENG>`_।"
 
 #: ../../content/applications/general/iot/devices/scale.rst:10
 msgid ""
@@ -11647,8 +11704,7 @@ msgstr ""
 #: ../../content/applications/general/iot/devices/scale.rst:50
 msgid ""
 "Press **>0<** (multiple times if necessary) until :guilabel:`GRP 4` appears."
-msgstr ""
-"**>0<** दबाएँ (ज़रूरत पड़ने पर कई बार) जब तक :guilabel:`GRP 4` दिखाई न दे।"
+msgstr "**>0<** दबाएँ (ज़रूरत पड़ने पर कई बार) जब तक :guilabel:`GRP 4` दिखाई न दे।"
 
 #: ../../content/applications/general/iot/devices/scale.rst:51
 msgid "Press **>T<** until :guilabel:`EXIT` appears."
@@ -11664,8 +11720,7 @@ msgstr "**>0<** दबाएँ।"
 
 #: ../../content/applications/general/iot/devices/scale.rst:57
 msgid "Press **>0<** again to :guilabel:`SAVE`; the scale restarts."
-msgstr ""
-":guilabel:`SAVE` करने के लिए फिर से **>0<** दबाएँ; स्केल रीस्टार्ट हो जाता है।"
+msgstr ":guilabel:`SAVE` करने के लिए फिर से **>0<** दबाएँ; स्केल रीस्टार्ट हो जाता है।"
 
 #: ../../content/applications/general/iot/devices/scale.rst:58
 msgid ""
@@ -11811,6 +11866,7 @@ msgstr ""
 "उपलब्ध नहीं होगा।"
 
 #: ../../content/applications/general/iot/iot_advanced/ssh_connect.rst:0
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:None
 msgid "The Remote Debugging password generation window."
 msgstr "रिमोट डिबगिंग पासवर्ड जनरेशन विंडो।"
 
@@ -11819,8 +11875,8 @@ msgid ""
 "Enter the :guilabel:`Authentication Token` provided by the user attempting "
 "to connect to the IoT box."
 msgstr ""
-"IoT बॉक्स से कनेक्ट करने का प्रयास कर रहे उपयोगकर्ता द्वारा प्रदान किया गया "
-":guilabel:`ऑथेंटिकेशन टोकन` दर्ज करें।"
+"IoT बॉक्स से कनेक्ट करने का प्रयास कर रहे उपयोगकर्ता द्वारा प्रदान किया "
+"गया :guilabel:`ऑथेंटिकेशन टोकन` दर्ज करें।"
 
 #: ../../content/applications/general/iot/iot_advanced/ssh_connect.rst:30
 msgid "Click :guilabel:`Enable Remote Debugging`."
@@ -11834,11 +11890,15 @@ msgstr ":doc:`../iot_box`"
 msgid ":doc:`../connect`"
 msgstr ":doc:`../connect`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:8
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:6
+msgid "Frequently encountered issues"
+msgstr "अक्सर आने वाली समस्याएँ"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:9
 msgid "The pairing code does not appear or does not work"
 msgstr "पेयरिंग कोड दिखाई नहीं देता या काम नहीं करता"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:10
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:11
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` might not be displayed or "
 "printed under the following circumstances:"
@@ -11846,11 +11906,11 @@ msgstr ""
 ":ref:`पेयरिंग कोड <iot/connect/pairing-code>` निम्नलिखित परिस्थितियों में प्रदर्शित "
 "या प्रिंट नहीं हो सकता:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:13
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
 msgid "The IoT system is not connected to the network."
 msgstr "IoT सिस्टम नेटवर्क से कनेक्ट नहीं है।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:15
 msgid ""
 "The IoT system is already connected to an Odoo database. :ref:`Disconnect it "
 "from the database <iot/connect/disconnect>`."
@@ -11858,7 +11918,7 @@ msgstr ""
 "IoT सिस्टम पहले से ही Odoo डेटाबेस से कनेक्ट है। :ref:`इसे डेटाबेस से डिस्कनेक्ट करें <iot/"
 "connect/disconnect>`।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:16
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:17
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` display time has expired. "
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
@@ -11869,11 +11929,11 @@ msgstr ""
 "कोड जनरेट और प्रदर्शित करने के लिए :ref:`IoT बॉक्स <iot/iot-box/restart>` "
 "या :ref:`Windows वर्चुअल IoT सर्विस <iot/windows_iot/restart>` को रीस्टार्ट करें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:21
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:22
 msgid "The IoT system does not connect to the database"
 msgstr "IoT सिस्टम डेटाबेस से कनेक्ट नहीं होता है"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:23
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:24
 msgid ""
 "The IoT system might take a few minutes to restart when it connects to a "
 "database. If it still does not appear after a few minutes:"
@@ -11881,7 +11941,7 @@ msgstr ""
 "IoT सिस्टम को डेटाबेस से कनेक्ट होने पर रीस्टार्ट होने में कुछ मिनट लग सकते हैं। अगर यह कुछ "
 "मिनट बाद भी दिखाई नहीं देता:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:26
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:27
 msgid ""
 "Verify that the IoT system can reach the database and the server does not "
 "use a multi-database environment."
@@ -11889,8 +11949,8 @@ msgstr ""
 "सत्यापित करें कि IoT सिस्टम डेटाबेस तक पहुंच सकता है और सर्वर मल्टी-डेटाबेस एनवायरमेंट का "
 "इस्तेमाल नहीं करता।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:28
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:46
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:29
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:47
 msgid ""
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
 "virtual IoT service <iot/windows_iot/restart>`."
@@ -11898,11 +11958,11 @@ msgstr ""
 ":ref:`IoT बॉक्स <iot/iot-box/restart>` या :ref:`Windows वर्चुअल IoT सर्विस <iot/"
 "windows_iot/restart>` को रीस्टार्ट करें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:32
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:33
 msgid "The IoT system is connected to the Odoo database but cannot be reached"
 msgstr "IoT सिस्टम Odoo डेटाबेस से कनेक्ट है लेकिन पहुंचा नहीं जा सकता"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:34
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:35
 msgid ""
 "Verify that the IoT system and the computer running the Odoo database are "
 "connected to the same network and :ref:`update the DNS settings <iot/"
@@ -11911,26 +11971,26 @@ msgstr ""
 "सत्यापित करें कि IoT सिस्टम और Odoo डेटाबेस चलाने वाला कंप्यूटर समान नेटवर्क से कनेक्ट हैं और "
 "यदि आवश्यक हो तो :ref:`DNS सेटिंग अपडेट करें <iot/troubleshooting/dns>`।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:38
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:39
 msgid ""
 "The Windows virtual IoT's homepage cannot be accessed from another device"
 msgstr "Windows वर्चुअल IoT का होमपेज किसी अन्य डिवाइस से एक्सेस नहीं किया जा सकता"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:40
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
 msgid ""
 "Ensure the device is connected to the same network as the Windows virtual "
 "IoT."
 msgstr "सुनिश्चित करें कि डिवाइस Windows वर्चुअल IoT के समान नेटवर्क से कनेक्ट है।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:42
 msgid "Check the :ref:`iot/windows-iot/firewall`."
 msgstr ":ref:`iot/windows-iot/firewall` जांचें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:44
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:45
 msgid "The IoT system does not work after an Odoo upgrade"
 msgstr "Odoo अपग्रेड के बाद IoT सिस्टम वर्क नहीं करता है"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:49
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:50
 msgid ""
 "If the issue persists, :ref:`update its image <iot/updating_iot/image-code>` "
 "by flashing the IoT box's card or :ref:`uninstalling the Windows virtual IoT "
@@ -11942,7 +12002,7 @@ msgstr ""
 "करें <iot/windows_iot/uninstall>` और :ref:`वर्चुअल IoT पैकेज को फिर से इंस्टॉल करें "
 "<iot/windows-iot/installation>`।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:56
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:57
 msgid ""
 "The IoT system's homepage can be accessed using its IP address but not the "
 "`xxx.odoo-iot.com` URL"
@@ -11950,7 +12010,7 @@ msgstr ""
 "IoT सिस्टम का होमपेज इसके आईपी पते का इस्तेमाल करके ऐक्सेस किया जा सकता है लेकिन "
 "`xxx.odoo-iot.com` यूआरएल से नहीं"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:58
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:59
 msgid ""
 "Contact your system or network administrator to address the issue. Network-"
 "related problems are beyond the scope of Odoo support services."
@@ -11958,7 +12018,7 @@ msgstr ""
 "इस समस्या को हल करने के लिए अपने सिस्टम या नेटवर्क एडमिन से संपर्क करें। नेटवर्क संबंधी "
 "समस्याएं Odoo सर्विस के स्कोप से बाहर हैं।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:61
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:62
 msgid ""
 "If the router allows manual :abbr:`DNS (Domain Name System)` configuration, "
 "update the settings to use `Google DNS <https://developers.google.com/speed/"
@@ -11968,7 +12028,7 @@ msgstr ""
 "`Google DNS <https://developers.google.com/speed/public-dns>`_ इस्तेमाल करने के "
 "लिए सेटिंग अपडेट करें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:63
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:64
 msgid ""
 "If the router does not support this, you need to update the DNS settings "
 "directly on each device that interacts with the IoT system to use `Google "
@@ -11981,7 +12041,7 @@ msgstr ""
 "इंटरैक्ट करने वाले प्रत्येक डिवाइस पर सीधे DNS सेटिंग अपडेट करनी होगी। व्यक्तिगत डिवाइस पर "
 "DNS कॉन्फ़िगर करने के निर्देश संबंधित मैन्युफ़ैक्चरर की वेबसाइट पर मिल सकते हैं।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:69
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:70
 msgid ""
 "Some IoT devices, such as payment terminals, likely do not require DNS "
 "changes, as they are typically pre-configured with custom DNS settings."
@@ -11989,7 +12049,7 @@ msgstr ""
 "कुछ IoT डिवाइस, जैसे पेमेंट टर्मिनल, को शायद DNS बदलाव की ज़रूरत नहीं है, क्योंकि वे आमतौर "
 "पर कस्टम DNS सेटिंग के साथ पहले से कॉन्फ़िगर होते हैं।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:71
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:72
 msgid ""
 "On some browsers, an error code mentioning the DNS (such as "
 "`DNS_PROBE_FINISHED_NXDOMAIN`) is displayed."
@@ -11997,19 +12057,19 @@ msgstr ""
 "कुछ ब्राउज़र पर, DNS का उल्लेख करने वाला एक गड़बड़ी कोड (जैसे "
 "`DNS_PROBE_FINISHED_NXDOMAIN`) दिखाई देता है।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:77
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:78
 msgid "HTTPS certificate generation issues and errors"
 msgstr "HTTPS सर्टिफ़िकेट जनरेशन समस्याएं और गड़बड़ियां"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:80
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:81
 msgid "The HTTPS certificate does not generate"
 msgstr "HTTPS सर्टिफ़िकेट जनरेट नहीं होता"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:82
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:83
 msgid "Potential causes include the following:"
 msgstr "संभावित कारणों में निम्नलिखित शामिल हैं:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:84
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:85
 msgid ""
 "The database doesn't meet the :ref:`eligibility requirements <iot/"
 "https_certificate_iot/iot-eligibility>` for generating an :ref:`HTTPS "
@@ -12019,7 +12079,7 @@ msgstr ""
 "लिए :ref:`पात्रता आवश्यकताओं <iot/https_certificate_iot/iot-eligibility>` को "
 "पूरा नहीं करता है।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:87
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:88
 msgid ""
 "The firewall is preventing the HTTPS certificate from generating correctly. "
 "In this case, deactivate the firewall until the certificate is successfully "
@@ -12028,7 +12088,7 @@ msgstr ""
 "फ़ायरवॉल HTTPS सर्टिफ़िकेट को सही तरीके से जनरेट होने से रोक रहा है। इस स्थिति में, "
 "सर्टिफ़िकेट सफलतापूर्वक जनरेट होने तक फ़ायरवॉल को निष्क्रिय करें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:91
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:92
 msgid ""
 "Some devices, such as routers with a built-in firewall, can prevent the "
 "HTTPS certificate from generating."
@@ -12036,21 +12096,21 @@ msgstr ""
 "कुछ डिवाइस, जैसे बिल्ट-इन फ़ायरवॉल वाले राउटर, HTTPS सर्टिफ़िकेट को जनरेट होने से रोक "
 "सकते हैं।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:95
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:96
 msgid "Errors"
 msgstr "गड़बड़ियां"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:97
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:98
 msgid ""
 "A specific error code is displayed on the IoT system's homepage if any "
-"issues occur during the generation or reception of the ref:`HTTPS "
+"issues occur during the generation or reception of the :ref:`HTTPS "
 "certificate <iot/connect/https_certificate>`."
 msgstr ""
-"यदि IoT सिस्टम के होमपेज पर ref:`HTTPS सर्टिफ़िकेट <iot/connect/"
-"https_certificate>` की जनरेशन या रिसेप्शन के दौरान कोई भी समस्या आती है तो एक "
-"विशिष्ट गड़बड़ी कोड दिखाया जाता है।"
+":ref:`HTTPS सर्टिफ़िकेट <iot/connect/https_certificate>` के जनरेशन या रिसेप्शन के "
+"दौरान कोई भी समस्या आने पर IoT सिस्टम के होमपेज पर एक विशिष्ट एरर कोड प्रदर्शित होता "
+"है।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:101
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:102
 msgid ""
 "When you access the IoT system's homepage, it automatically checks for an "
 "HTTPS certificate and attempts to generate one if it is missing. If an error "
@@ -12060,42 +12120,18 @@ msgstr ""
 "करता है और अगर यह मौजूद नहीं है तो एक जनरेट करने का प्रयास करता है। अगर कोई गड़बड़ी "
 "दिखाई देती है, तो पेज को रीफ्रेश करें यह देखने के लिए कि समस्या हल हो गई है या नहीं।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:106
-msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
-msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:107
+msgid "Missing credentials"
+msgstr "क्रेडेंशियल गायब हैं"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:108
-msgid ""
-"The server configuration is missing, i.e., the database is "
-"not :doc:`connected <../connect>` to the IoT system."
-msgstr ""
-"सर्वर कॉन्फ़िगरेशन गायब है, यानी डेटाबेस IoT सिस्टम से :doc:`कनेक्ट <../connect>` नहीं है।"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:112
-msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:114
-msgid ""
-"An error occurred while attempting to read the existing ref:`HTTPS "
-"certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
-"certificate file is readable."
-msgstr ""
-"मौजूदा ref:`HTTPS सर्टिफ़िकेट <iot/connect/https_certificate>` को पढ़ने का प्रयास "
-"करते समय एक गड़बड़ी हुई। सत्यापित करें कि HTTPS सर्टिफ़िकेट फ़ाइल पढ़ने योग्य है।"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:119
-msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:121
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:109
 msgid ""
 "The contract and/or database :abbr:`UUID (Universal Unique Identifier)` is "
 "missing from the IoT."
 msgstr ""
 "IoT से कॉन्ट्रैक्ट और/या डेटाबेस :abbr:`UUID (यूनिवर्सल यूनीक आइडेंटिफ़ॉयर)` गायब है।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:111
 msgid ""
 "Verify that both values are correctly configured. To update "
 "them, :ref:`access the IoT box's <iot/iot-box/homepage>` or :ref:`Windows "
@@ -12107,31 +12143,7 @@ msgstr ""
 "होमपेज को ऐक्सेस करें <iot/windows-iot/homepage>`, :icon:`fa-cogs` "
 "(:guilabel:`cogs`) बटन पर क्लिक करें, फिर :guilabel:`Credentials` पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:128
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:130
-msgid ""
-"An unexpected error occurred while the IoT system tried to reach `<https://"
-"www.odoo.com>`_. This is likely due to network-related issues, such as:"
-msgstr ""
-"IoT सिस्टम द्वारा `<https://www.odoo.com>`_ तक पहुंचने का प्रयास करते समय एक "
-"अनपेक्षित गड़बड़ी हुई। यह संभवतः नेटवर्क संबंधी समस्याओं के कारण है, जैसे:"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:133
-msgid "The IoT system does not have Internet access."
-msgstr "IoT सिस्टम के पास इंटरनेट ऐक्सेस नहीं है।"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
-msgid ""
-"Network restrictions (e.g., firewalls or VPNs) are preventing communication "
-"with https://www.odoo.com."
-msgstr ""
-"नेटवर्क प्रतिबंध (जैसे, फ़ायरवॉल या VPN) https://www.odoo.com के साथ कम्युनिकेशन को रोक "
-"रहे हैं।"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:138
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:116
 msgid ""
 "To access the full request exception details with information regarding the "
 "error, :ref:`enable the developer mode <developer-mode>`, click the IoT "
@@ -12143,15 +12155,15 @@ msgid ""
 "then :guilabel:`Log level` at the bottom of the page."
 msgstr ""
 "गड़बड़ी से संबंधित जानकारी के साथ पूरे अनुरोध के विवरण को ऐक्सेस करने के लिए, :ref:`डेवलपर "
-"मोड सक्षम करें <developer-mode>`, IoT ऐप्लिकेशन में IoT सिस्टम के कार्ड पर क्लिक करें, और "
-":ref:`IoT सिस्टम के फ़ॉर्म <iot/connect/IoT-form>` पर :guilabel:`डाउनलोड लॉग` पर "
-"क्लिक करें। IoT सिस्टम की लॉग फ़ाइल में रिकॉर्ड किए गए लॉग लेवल को परिभाषित करने के "
+"मोड सक्षम करें <developer-mode>`, IoT ऐप्लिकेशन में IoT सिस्टम के कार्ड पर क्लिक करें, "
+"और :ref:`IoT सिस्टम के फ़ॉर्म <iot/connect/IoT-form>` पर :guilabel:`डाउनलोड लॉग` "
+"पर क्लिक करें। IoT सिस्टम की लॉग फ़ाइल में रिकॉर्ड किए गए लॉग लेवल को परिभाषित करने के "
 "लिए, :ref:`IoT बॉक्स को ऐक्सेस करें <iot/windows-iot/homepage>` या :ref:`Windows "
 "वर्चुअल IoT को ऐक्सेस करें <iot/iot-box/homepage>`, होमपेज पर :icon:`fa-cogs` "
 "(:guilabel:`कॉग्स`) बटन पर क्लिक करें, फिर पेज के निचले भाग में :guilabel:`लॉग लेवल` "
 "पर क्लिक करें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:145
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
 msgid ""
 "To address network-related issues, contact your system or network "
 "administrator; these issues are beyond the scope of Odoo support services."
@@ -12159,11 +12171,11 @@ msgstr ""
 "नेटवर्क से संबंधित समस्याओं को हल करने के लिए, अपने सिस्टम या नेटवर्क एडमिन से संपर्क करें; ये "
 "समस्याएं Odoo सपोर्ट सर्विस के स्कोप से बाहर हैं।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:149
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:127
+msgid "Odoo.com not reachable"
+msgstr "Odoo.com तक पहुँच नहीं है"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:151
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:129
 msgid ""
 "The IoT system successfully reached `<https://www.odoo.com>`_ but received "
 "an unexpected `HTTP response (status codes) <https://developer.mozilla.org/"
@@ -12173,21 +12185,11 @@ msgstr ""
 "`HTTP रिस्पांस (स्टेटस कोड) <https://developer.mozilla.org/en-US/docs/Web/HTTP/"
 "Status>`_ प्राप्त हुआ।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:154
-msgid ""
-"This error code includes the HTTP status. For example, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a \"Page "
-"Not Found\" response."
-msgstr ""
-"इस गड़बड़ी कोड में HTTP स्टेटस शामिल है। उदाहरण के लिए, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` का मतलब है कि सर्वर ने \"पेज नॉट फ़ाउंड\" "
-"रिस्पांस दिया।"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:132
 msgid "To solve this issue:"
 msgstr "इस समस्या को हल करने के लिए:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:159
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
 msgid ""
 "Open `<https://www.odoo.com>`_ in a web browser to check if the website is "
 "temporarily down for maintenance."
@@ -12210,21 +12212,20 @@ msgstr ""
 "अगर वेबसाइट चालू है, तो एक `सपोर्ट टिकट <https://www.odoo.com/help>`_ खोलें और "
 "टिकट में 3-अंकों का HTTPS स्टेटस कोड शामिल करना सुनिश्चित करें।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:141
+msgid "Still no certificate?"
+msgstr "अभी भी कोई सर्टिफ़िकेट नहीं?"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:168
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:143
 msgid ""
-"The IoT system successfully connected to `<https://www.odoo.com>`_, but the "
-"server refused to provide the ref:`HTTPS certificate <iot/connect/"
+"If the IoT system successfully connected to `<https://www.odoo.com>`_, but "
+"the server refused to provide the :ref:`HTTPS certificate <iot/connect/"
 "https_certificate>`."
 msgstr ""
-"IoT सिस्टम ने सफलतापूर्वक `<https://www.odoo.com>`_ से कनेक्ट किया, लेकिन सर्वर ने "
-"ref:`HTTPS सर्टिफ़िकेट <iot/connect/https_certificate>` प्रदान करने से इनकार कर "
-"दिया।"
+"अगर IoT सिस्टम `<https://www.odoo.com>`_ से सफलतापूर्वक कनेक्ट हो गया, लेकिन सर्वर ने "
+":ref:`HTTPS सर्टिफ़िकेट <iot/connect/https_certificate>` देने से इनकार कर दिया।"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:171
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:146
 msgid ""
 "Check that the IoT system and database meet the :ref:`eligibility "
 "requirements <iot/https_certificate_iot/iot-eligibility>` for an HTTPS "
@@ -12232,6 +12233,75 @@ msgid ""
 msgstr ""
 "जांचें कि IoT सिस्टम और डेटाबेस HTTPS सर्टिफ़िकेट के लिए :ref:`योग्यता आवश्यकताओं <iot/"
 "https_certificate_iot/iot-eligibility>` को पूरा करते हैं।"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:150
+msgid "Grant Odoo support team access to an IoT Box"
+msgstr "Odoo सपोर्ट टीम को IoT बॉक्स तक ऐक्सेस दें"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:152
+msgid ""
+"If you need to grant remote access to an IoT Box, you can provide a "
+"Tailscale token on the IoT Box's homepage. This allows the Odoo support team "
+"to access the IoT Box for troubleshooting securely."
+msgstr ""
+"अगर आपको IoT बॉक्स तक रिमोट ऐक्सेस देना है, तो आप IoT बॉक्स के होमपेज पर Tailscale "
+"टोकन दे सकते हैं। इससे Odoo सपोर्ट टीम सुरक्षित रूप से समस्या निवारण के लिए IoT बॉक्स तक "
+"पहुँच सकती है।"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+msgid ""
+"Only enter a token from a trusted source, such as an official Odoo support "
+"representative. Providing a token grants access to the IoT Box and your "
+"entire local network, so it should be done with caution."
+msgstr ""
+"केवल विश्वसनीय सोर्स से टोकन दर्ज करें, जैसे कि आधिकारिक Odoo सपोर्ट प्रतिनिधि। टोकन देने "
+"से IoT बॉक्स और आपके पूरे लोकल नेटवर्क तक ऐक्सेस मिलता है, इसलिए इसे सावधानी से करना "
+"चाहिए।"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:161
+msgid ""
+"On the :ref:`IoT Box's homepage <iot/iot-box/homepage>`, click the :icon:`fa-"
+"cogs` (:guilabel:`cogs`) button, then click :guilabel:`Debugging Tools`. In "
+"the pop-up window, enter the Tailscale token provided by the Odoo support "
+"team and click :guilabel:`Enable`."
+msgstr ""
+":ref:`IoT बॉक्स के होमपेज <iot/iot-box/homepage>` पर, :icon:`fa-cogs` "
+"(:guilabel:`कॉग्स`) बटन पर क्लिक करें, फिर :guilabel:`डीबगिंग टूल्स` पर क्लिक करें। "
+"पॉप-अप विंडो में, Odoo सपोर्ट टीम द्वारा दिया गया Tailscale टोकन दर्ज करें और "
+":guilabel:`एनेबल` पर क्लिक करें।"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
+msgid ""
+"**Remote Debug** is only available for :doc:`IoT boxes <../iot_box>`, not "
+"the :doc:`Windows virtual IoT <../windows_iot>`."
+msgstr ""
+"**रिमोट डीबग** केवल :doc:`IoT बॉक्स <../iot_box>` के लिए उपलब्ध है, :doc:`Windows "
+"वर्चुअल IoT <../windows_iot>` के लिए नहीं।"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:170
+msgid "Is the IoT Box down?"
+msgstr "क्या IoT बॉक्स डाउन है?"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:172
+msgid ""
+"If the IoT Box is down, you can still enable remote access for the Odoo "
+"support team. Just provide the key in the only field displayed on "
+"the :ref:`homepage <iot/iot-box/homepage>` and click :guilabel:`Enable`."
+msgstr ""
+"अगर IoT बॉक्स डाउन है, तो भी आप Odoo सपोर्ट टीम के लिए रिमोट ऐक्सेस एनेबल कर सकते हैं। "
+"बस :ref:`होमपेज <iot/iot-box/homepage>` पर प्रदर्शित एकमात्र फ़ील्ड में की दें और "
+":guilabel:`एनेबल` पर क्लिक करें।"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:180
+msgid ""
+"Enabling remote access on a down IoT Box is only available from version "
+"above v26.01.2026. If your IoT Box doesn't have this option, you will need "
+"to :ref:`flash the IoT Box's card with the latest image <iot/updating_iot/"
+"image-code>`."
+msgstr ""
+"डाउन IoT बॉक्स पर रिमोट ऐक्सेस एनेबल करना केवल v26.01.2026 से ऊपर के वर्शन से उपलब्ध है"
+"। अगर आपके IoT बॉक्स में यह विकल्प नहीं है, तो आपको :ref:`IoT बॉक्स के कार्ड को नवीनतम "
+"इमेज से फ्लैश करना होगा <iot/updating_iot/image-code>`।"
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:5
 msgid ""
@@ -12269,9 +12339,9 @@ msgid ""
 "then :guilabel:`Update` in the :guilabel:`Version` section."
 msgstr ""
 "यह जांचने के लिए कि IoT बॉक्स अप-टू-डेट है या नहीं (और यदि आवश्यक हो तो इसे अपडेट करने के "
-"लिए), :ref:`IoT बॉक्स के होमपेज को ऐक्सेस करें <iot/iot-box/homepage>`, ऊपर-दाईं ओर "
-":icon:`fa-cogs` (:guilabel:`कॉग्स`) बटन पर क्लिक करें, फिर :guilabel:`वर्शन` सेक्शन "
-"में :guilabel:`अपडेट करें` पर क्लिक करें।"
+"लिए), :ref:`IoT बॉक्स के होमपेज को ऐक्सेस करें <iot/iot-box/homepage>`, ऊपर-दाईं "
+"ओर :icon:`fa-cogs` (:guilabel:`कॉग्स`) बटन पर क्लिक करें, फिर :guilabel:`वर्शन` "
+"सेक्शन में :guilabel:`अपडेट करें` पर क्लिक करें।"
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:24
 msgid ""
@@ -12346,8 +12416,7 @@ msgstr ":guilabel:`टारगेट चुनें` पर क्लिक �
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:45
 msgid "Click :guilabel:`Flash` and wait for the process to finish."
-msgstr ""
-":guilabel:`फ़्लैश` पर क्लिक करें और प्रक्रिया समाप्त होने की प्रतीक्षा करें।"
+msgstr ":guilabel:`फ़्लैश` पर क्लिक करें और प्रक्रिया समाप्त होने की प्रतीक्षा करें।"
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:0
 msgid "Flashing the SD card with balenaEtcher"
@@ -13894,11 +13963,11 @@ msgstr ""
 "इस दस्तावेज़ का शेष हिस्सा उदाहरण के रूप में Google Authenticator का इस्तेमाल करता है, "
 "क्योंकि यह सबसे अधिक इस्तेमाल किए जाने वाले में से एक है। यह प्रॉडक्ट का समर्थन **नहीं** है।"
 
-#: ../../content/applications/general/users/2fa.rst:47
+#: ../../content/applications/general/users/2fa.rst:49
 msgid "Two-factor authentication setup"
 msgstr "टू-फ़ैक्टर ऑथेंटिकेशन सेटअप"
 
-#: ../../content/applications/general/users/2fa.rst:49
+#: ../../content/applications/general/users/2fa.rst:51
 msgid ""
 "After selecting an authenticator, log in to Odoo, then click the profile "
 "avatar in the upper-right corner, and select :guilabel:`My Profile` from the "
@@ -13907,7 +13976,7 @@ msgstr ""
 "ऑथेंटिकेटर चुनने के बाद, Odoo में लॉगिन करें, फिर ऊपरी-दाएं कोने में प्रोफ़ाइल अवतार पर क्लिक "
 "करें, और ड्रॉप-डाउन मेन्यू से :guilabel:`My Profile` सेलेक्ट करें।"
 
-#: ../../content/applications/general/users/2fa.rst:52
+#: ../../content/applications/general/users/2fa.rst:54
 msgid ""
 "Click the :guilabel:`Account Security` tab, then slide the :guilabel:`Two-"
 "Factor Authentication` toggle to *active*."
@@ -13919,7 +13988,7 @@ msgstr ""
 msgid "The account secuirty tab in a user profile."
 msgstr "उपयोगकर्ता प्रोफ़ाइल में अकाउंट सिक्योरिटी टैब।"
 
-#: ../../content/applications/general/users/2fa.rst:58
+#: ../../content/applications/general/users/2fa.rst:60
 msgid ""
 "This generates a :guilabel:`Security Control` pop-up window that requires "
 "password confirmation to continue. Enter the appropriate password, then "
@@ -13931,16 +14000,16 @@ msgstr ""
 "Password` पर क्लिक करें। इसके बाद, एक :guilabel:`Two-Factor Authentication "
 "Activation` पॉप-अप विंडो दिखाई देती है, जिसमें |QR| होता है।"
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid "The 2fa authentication QR code in Odoo."
 msgstr "Odoo में 2fa ऑथेंटिकेशन क्यूआर कोड।"
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid ""
 "Using the desired authenticator application, scan the |QR| when prompted."
 msgstr "अपनी पसंद के ऑथेंटिकेटर ऐप्लिकेशन का उपयोग करके, |QR| को स्कैन करें जब कहा जाए।"
 
-#: ../../content/applications/general/users/2fa.rst:68
+#: ../../content/applications/general/users/2fa.rst:70
 msgid ""
 "If scanning the screen is not possible (e.g., the setup is being completed "
 "on the *same* device as the authenticator application), click the "
@@ -13955,7 +14024,7 @@ msgstr ""
 msgid "A 2fa secret code on an authentication popup."
 msgstr "ऑथेंटिकेशन पॉपअप पर 2fa सीक्रेट कोड।"
 
-#: ../../content/applications/general/users/2fa.rst:75
+#: ../../content/applications/general/users/2fa.rst:77
 msgid "Afterwards, the authenticator should display a *verification code*."
 msgstr "इसके बाद, ऑथेंटिकेटर एक *वेरिफ़िकेशन कोड* दिखाएगा।"
 
@@ -13963,7 +14032,7 @@ msgstr "इसके बाद, ऑथेंटिकेटर एक *वेर
 msgid "A view of the Google authenticator app with the six digit code for 2fa."
 msgstr "Google ऑथेंटिकेटर ऐप का दृश्य जिसमें 2fa के लिए छह अंकों का कोड है।"
 
-#: ../../content/applications/general/users/2fa.rst:80
+#: ../../content/applications/general/users/2fa.rst:82
 msgid ""
 "Enter the code into the :guilabel:`Verification Code` field, then "
 "click :guilabel:`Activate`."
@@ -13978,15 +14047,15 @@ msgid ""
 msgstr ""
 "सफलता मैसेज जो उपयोगकर्ता प्रोफ़ाइल में दिखाई देता है जब 2fa सफलतापूर्वक सक्षम हो जाता है।"
 
-#: ../../content/applications/general/users/2fa.rst:86
+#: ../../content/applications/general/users/2fa.rst:88
 msgid "Logging in"
 msgstr "लॉगिन करना"
 
-#: ../../content/applications/general/users/2fa.rst:88
+#: ../../content/applications/general/users/2fa.rst:90
 msgid "To confirm |2fa| setup is complete, log out of Odoo."
 msgstr "|2fa| सेटअप पूरा होने की पुष्टि करने के लिए, Odoo से लॉग आउट करें।"
 
-#: ../../content/applications/general/users/2fa.rst:90
+#: ../../content/applications/general/users/2fa.rst:92
 msgid ""
 "On the login page, input the username and password, then "
 "click :guilabel:`Log in`. On the :guilabel:`Two-factor Authentication` page, "
@@ -14002,7 +14071,7 @@ msgstr ""
 msgid "The login page with 2fa enabled."
 msgstr "2fa सक्षम के साथ लॉगिन पेज।"
 
-#: ../../content/applications/general/users/2fa.rst:98
+#: ../../content/applications/general/users/2fa.rst:100
 msgid ""
 "If a user loses access to their authenticator, an administrator **must** "
 "deactivate |2fa| on the account before the user can log in."
@@ -14010,11 +14079,11 @@ msgstr ""
 "अगर कोई उपयोगकर्ता अपने ऑथेंटिकेटर तक एक्सेस खो देता है, तो एडमिनिस्ट्रेटर को उपयोगकर्ता "
 "के लॉगिन करने से पहले अकाउंट पर |2fa| को **अक्षम** करना होगा।"
 
-#: ../../content/applications/general/users/2fa.rst:102
+#: ../../content/applications/general/users/2fa.rst:104
 msgid "Enforce two-factor authentication"
 msgstr "टू-फ़ैक्टर ऑथेंटिकेशन लागू करें"
 
-#: ../../content/applications/general/users/2fa.rst:104
+#: ../../content/applications/general/users/2fa.rst:106
 msgid ""
 "To enforce |2fa| for every user in the database, navigate to "
 "the :menuselection:`Settings` app. In the :guilabel:`Permissions` section, "
@@ -14028,7 +14097,7 @@ msgstr ""
 "इस्तेमाल करें कि इस सेटिंग को :guilabel:`Employees only` या :guilabel:`All users` "
 "पर लागू करना है।"
 
-#: ../../content/applications/general/users/2fa.rst:110
+#: ../../content/applications/general/users/2fa.rst:112
 msgid ""
 "Selecting :guilabel:`All users` applies the setting to portal users in "
 "addition to employees."
@@ -14036,7 +14105,7 @@ msgstr ""
 ":guilabel:`All users` को सेलेक्ट करने से यह सेटिंग कर्मचारियों के अलावा पोर्टल यूज़र्स पर "
 "भी लागू होती है।"
 
-#: ../../content/applications/general/users/2fa.rst:112
+#: ../../content/applications/general/users/2fa.rst:114
 msgid "Click :guilabel:`Save` to commit any unsaved changes."
 msgstr ""
 "किसी भी बिना सेव किए गए बदलाव को कमिट करने के लिए :guilabel:`Save` पर क्लिक करें।"
@@ -14045,7 +14114,7 @@ msgstr ""
 msgid "The enforce two factor setting in the Settings application."
 msgstr "Settings ऐप्लिकेशन में टू-फ़ैक्टर सेटिंग लागू करें।"
 
-#: ../../content/applications/general/users/2fa.rst:118
+#: ../../content/applications/general/users/2fa.rst:120
 msgid ""
 "If users are frequently required to log in again and complete two-factor "
 "authentication, it may be due to session or inactivity timeout policies "
@@ -14055,7 +14124,7 @@ msgstr ""
 "हो रहा है, तो यह उनके एक या अधिक यूज़र ग्रुप के लिए कॉन्फ़िगर की गई सेशन या निष्क्रियता "
 "टाइमआउट पॉलिसी के कारण हो सकता है।"
 
-#: ../../content/applications/general/users/2fa.rst:121
+#: ../../content/applications/general/users/2fa.rst:123
 msgid ""
 "Administrators can configure these policies using the *Timeouts* settings "
 "available on user groups when the *auth_timeout* module is installed. "
@@ -15465,8 +15534,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/facebook.rst:113
 msgid "First, activate :ref:`Developer mode <developer-mode/activation>`."
-msgstr ""
-"सबसे पहले, :ref:`डेवलपर मोड <developer-mode/activation>` को सक्रिय करें।"
+msgstr "सबसे पहले, :ref:`डेवलपर मोड <developer-mode/activation>` को सक्रिय करें।"
 
 #: ../../content/applications/general/users/facebook.rst:115
 msgid ""
@@ -15474,9 +15542,9 @@ msgid ""
 "the :guilabel:`Integrations` section. There, tick the checkbox "
 "labeled, :guilabel:`OAuth Authentication`. Click :guilabel:`Save`."
 msgstr ""
-":menuselection:`सेटिंग ऐप्लिकेशन` पर जाएं, और :guilabel:`इंटीग्रेशन` सेक्शन तक स्क्रॉल करें"
-"। वहां, :guilabel:`OAuth ऑथेंटिकेशन` लेबल वाले चेकबॉक्स पर टिक करें। :guilabel:`सेव करें` "
-"पर क्लिक करें।"
+":menuselection:`सेटिंग ऐप्लिकेशन` पर जाएं, और :guilabel:`इंटीग्रेशन` सेक्शन तक स्क्रॉल "
+"करें। वहां, :guilabel:`OAuth ऑथेंटिकेशन` लेबल वाले चेकबॉक्स पर टिक करें। :guilabel:`सेव "
+"करें` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/facebook.rst:None
 msgid "The enable OAuth setting in the Settings app."
@@ -15559,8 +15627,7 @@ msgstr "Google API डैशबोर्ड"
 #: ../../content/applications/general/users/google.rst:33
 msgid ""
 "Go to the `Google API Dashboard <https://console.developers.google.com/>`_."
-msgstr ""
-"`Google API डैशबोर्ड <https://console.developers.google.com/>`_ पर जाएं।"
+msgstr "`Google API डैशबोर्ड <https://console.developers.google.com/>`_ पर जाएं।"
 
 #: ../../content/applications/general/users/google.rst:34
 msgid ""
@@ -15568,9 +15635,9 @@ msgid ""
 "on :guilabel:`Create Project`, fill out the project name and other details "
 "of the company, and click on :guilabel:`Create`."
 msgstr ""
-"सुनिश्चित करें कि सही प्रोजेक्ट खुला है। यदि अभी तक कोई प्रोजेक्ट नहीं है, तो "
-":guilabel:`Create Project` पर क्लिक करें, प्रोजेक्ट का नाम और कंपनी की अन्य जानकारी "
-"भरें, और :guilabel:`Create` पर क्लिक करें।"
+"सुनिश्चित करें कि सही प्रोजेक्ट खुला है। यदि अभी तक कोई प्रोजेक्ट नहीं है, "
+"तो :guilabel:`Create Project` पर क्लिक करें, प्रोजेक्ट का नाम और कंपनी की अन्य "
+"जानकारी भरें, और :guilabel:`Create` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/google.rst:0
 msgid "Filling out the details of a new project."
@@ -15582,8 +15649,7 @@ msgstr "ड्रॉप-डाउन मेनू से कंपनी का 
 
 #: ../../content/applications/general/users/google.rst:50
 msgid "On the left side menu, click on :menuselection:`OAuth consent screen`."
-msgstr ""
-"बाईं ओर के मेनू में, :menuselection:`OAuth consent screen` पर क्लिक करें।"
+msgstr "बाईं ओर के मेनू में, :menuselection:`OAuth consent screen` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/google.rst:0
 msgid "Google OAuth consent selection menu."
@@ -15594,8 +15660,8 @@ msgid ""
 "Choose one of the options (:guilabel:`Internal` / :guilabel:`External`), and "
 "click on :guilabel:`Create`."
 msgstr ""
-"विकल्पों में से एक (:guilabel:`Internal` / :guilabel:`External`) चुनें, और "
-":guilabel:`Create` पर क्लिक करें।"
+"विकल्पों में से एक (:guilabel:`Internal` / :guilabel:`External`) चुनें, "
+"और :guilabel:`Create` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/google.rst:0
 msgid "Choice of a user type in OAuth consent."
@@ -15614,8 +15680,8 @@ msgid ""
 "On the :menuselection:`Scopes` page, leave all fields as is, and click "
 "on :guilabel:`Save and Continue`."
 msgstr ""
-":menuselection:`Scopes` पेज पर, सभी फ़ील्ड को जैसे हैं वैसे ही छोड़ दें, और "
-":guilabel:`Save and Continue` पर क्लिक करें।"
+":menuselection:`Scopes` पेज पर, सभी फ़ील्ड को जैसे हैं वैसे ही छोड़ दें, "
+"और :guilabel:`Save and Continue` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/google.rst:74
 msgid ""
@@ -15632,8 +15698,7 @@ msgstr ""
 #: ../../content/applications/general/users/google.rst:77
 msgid ""
 "Finally, scroll to the bottom, and click on :guilabel:`Back to Dashboard`."
-msgstr ""
-"अंत में, नीचे स्क्रॉल करें, और :guilabel:`Back to Dashboard` पर क्लिक करें।"
+msgstr "अंत में, नीचे स्क्रॉल करें, और :guilabel:`Back to Dashboard` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/google.rst:82
 msgid "Credentials"
@@ -15790,11 +15855,13 @@ msgid ""
 "`Google Cloud Platform Console Help - Setting up OAuth 2.0 <https://"
 "support.google.com/cloud/answer/6158849>`_"
 msgstr ""
+"<https://support.google.com/cloud/answer/6158849> `Google Cloud Platform "
+"Console हेल्प - OAuth 2.0 सेट करना`_"
 
 #: ../../content/applications/general/users/language.rst:3
 #: ../../content/applications/general/users/language.rst:30
 msgid "Change languages"
-msgstr ""
+msgstr "भाषाएँ बदलें"
 
 #: ../../content/applications/general/users/language.rst:5
 msgid ""
@@ -15804,14 +15871,18 @@ msgid ""
 "language or to :doc:`translate <../../websites/website/configuration/"
 "translate>` your website."
 msgstr ""
+"आप अपने डेटाबेस की भाषा इसकी क्रिएशन के समय चुनते हैं। हालाँकि, आप अतिरिक्त भाषाओं "
+"को :ref:`जोड़ <language/add>` और :ref:`इंस्टॉल <language/install>` कर सकते हैं "
+"ताकि उपयोगकर्ता डेटाबेस को किसी अन्य भाषा में मैनेज कर सकें या अपनी वेबसाइट "
+"का :doc:`अनुवाद <../../websites/website/configuration/translate>` कर सकें।"
 
 #: ../../content/applications/general/users/language.rst:13
 msgid "Add languages"
-msgstr ""
+msgstr "भाषाएं जोड़ें"
 
 #: ../../content/applications/general/users/language.rst:15
 msgid "To download additional languages:"
-msgstr ""
+msgstr "अतिरिक्त भाषाएँ डाउनलोड करने के लिए:"
 
 #: ../../content/applications/general/users/language.rst:17
 msgid ""
@@ -15819,22 +15890,29 @@ msgid ""
 "select :menuselection:`My profile`, and click the :icon:`fa-globe` "
 "(:guilabel:`globe`) icon next to the :guilabel:`Language` field;"
 msgstr ""
+"या तो ऊपरी-दाएँ कोने में प्रोफ़ाइल आइकॉन पर क्लिक करें, :menuselection:`My profile` "
+"चुनें, और :guilabel:`Language` फ़ील्ड के बगल में :icon:`fa-globe` "
+"(:guilabel:`globe`) आइकॉन पर क्लिक करें;"
 
 #: ../../content/applications/general/users/language.rst:19
 msgid ""
 "or go to the **Settings** app, and click :guilabel:`Add Languages` in "
 "the :guilabel:`Languages` section."
 msgstr ""
+"या **Settings** ऐप्लिकेशन में जाएं, और :guilabel:`Languages` सेक्शन "
+"में :guilabel:`Add Languages` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/language.rst:22
 msgid ""
 "You can then select the languages you want from the dropdown menu and "
 "click :guilabel:`Add`."
 msgstr ""
+"फिर आप ड्रॉपडाउन मेन्यू से अपनी इच्छित भाषाएँ चुन सकते हैं और :guilabel:`Add` पर क्लिक "
+"कर सकते हैं।"
 
 #: ../../content/applications/general/users/language.rst:25
 msgid ":doc:`Translations <../../websites/website/configuration/translate>`"
-msgstr ""
+msgstr ":doc:`अनुवाद <../../websites/website/configuration/translate>`"
 
 #: ../../content/applications/general/users/language.rst:32
 msgid ""
@@ -15842,24 +15920,29 @@ msgid ""
 "upper-right corner, go to :menuselection:`My profile`, and select "
 "a :guilabel:`Language` in the dropdown list."
 msgstr ""
+"अपनी पसंदीदा भाषा चुनने के लिए, उपयोगकर्ता ऊपरी-दाएँ कोने में प्रोफ़ाइल आइकॉन पर क्लिक "
+"कर सकते हैं, :menuselection:`My profile` में जा सकते हैं, और ड्रॉपडाउन लिस्ट "
+"में :guilabel:`Language` चुन सकते हैं।"
 
 #: ../../content/applications/general/users/language.rst:36
 msgid "Change another user's language"
-msgstr ""
+msgstr "किसी अन्य उपयोगकर्ता की भाषा बदलें"
 
 #: ../../content/applications/general/users/language.rst:38
 msgid "To change the database language for a user:"
-msgstr ""
+msgstr "किसी उपयोगकर्ता के लिए डेटाबेस भाषा बदलने के लिए:"
 
 #: ../../content/applications/general/users/language.rst:40
 msgid ""
 "Go to the :guilabel:`Settings` app and click :guilabel:`Manage Users` in "
 "the :guilabel:`Users` section."
 msgstr ""
+":guilabel:`Settings` ऐप्लिकेशन में जाएं और :guilabel:`Users` सेक्शन "
+"में :guilabel:`Manage Users` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/language.rst:43
 msgid "Click on the user whose language you want to change."
-msgstr ""
+msgstr "उस उपयोगकर्ता पर क्लिक करें जिसकी भाषा आप बदलना चाहते हैं।"
 
 #: ../../content/applications/general/users/language.rst:45
 msgid ""
@@ -15867,32 +15950,40 @@ msgid ""
 "previously :ref:`installed language <language/add>` from "
 "the :guilabel:`Language` dropdown menu."
 msgstr ""
+":guilabel:`Preferences` टैब में जाएं और :guilabel:`Language` ड्रॉपडाउन मेन्यू से पहले "
+"से :ref:`इंस्टॉल की गई भाषा <language/add>` चुनें।"
 
 #: ../../content/applications/general/users/language.rst:49
 msgid "Emails and documents will be sent to the user in the selected language."
-msgstr ""
+msgstr "उपयोगकर्ता को चुनी गई भाषा में ईमेल और दस्तावेज़ भेजे जाएंगे।"
 
 #: ../../content/applications/general/users/ldap.rst:3
 msgid "LDAP authentication"
-msgstr ""
+msgstr "LDAP प्रमाणीकरण"
 
 #: ../../content/applications/general/users/ldap.rst:5
 msgid ""
 "To configure :abbr:`LDAP (Lightweight Directory Access Protocol)` "
 "authentication in Odoo:"
 msgstr ""
+"Odoo में :abbr:`LDAP (Lightweight Directory Access Protocol)` प्रमाणीकरण "
+"कॉन्फ़िगर करने के लिए:"
 
 #: ../../content/applications/general/users/ldap.rst:7
 msgid ""
 "Open the Settings app, scroll down to the :guilabel:`Integrations` section, "
 "and enable :guilabel:`LDAP Authentication`."
 msgstr ""
+"Settings ऐप्लिकेशन खोलें, :guilabel:`Integrations` सेक्शन तक स्क्रॉल करें, "
+"और :guilabel:`LDAP Authentication` सक्षम करें।"
 
 #: ../../content/applications/general/users/ldap.rst:9
 msgid ""
 "Click :guilabel:`Save`, then go back to the :guilabel:`Integrations` section "
 "and click :guilabel:`LDAP Server`."
 msgstr ""
+":guilabel:`Save` पर क्लिक करें, फिर :guilabel:`Integrations` सेक्शन में वापस जाएं "
+"और :guilabel:`LDAP Server` पर क्लिक करें।"
 
 #: ../../content/applications/general/users/ldap.rst:11
 msgid ""
@@ -16533,6 +16624,84 @@ msgstr ":doc:`ऐक्सेस अधिकार </applications/general/users
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:154
 msgid ":doc:`Portal access documentation <portal_access>`"
 msgstr ":doc:`पोर्टल ऐक्सेस दस्तावेज़ <portal_access>`"
+
+#~ msgid ""
+#~ "A specific error code is displayed on the IoT system's homepage if any "
+#~ "issues occur during the generation or reception of the ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`."
+#~ msgstr ""
+#~ "यदि IoT सिस्टम के होमपेज पर ref:`HTTPS सर्टिफ़िकेट <iot/connect/"
+#~ "https_certificate>` की जनरेशन या रिसेप्शन के दौरान कोई भी समस्या आती है तो एक "
+#~ "विशिष्ट गड़बड़ी कोड दिखाया जाता है।"
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+
+#~ msgid ""
+#~ "The server configuration is missing, i.e., the database is "
+#~ "not :doc:`connected <../connect>` to the IoT system."
+#~ msgstr ""
+#~ "सर्वर कॉन्फ़िगरेशन गायब है, यानी डेटाबेस IoT सिस्टम से :doc:`कनेक्ट <../connect>` "
+#~ "नहीं है।"
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+
+#~ msgid ""
+#~ "An error occurred while attempting to read the existing ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
+#~ "certificate file is readable."
+#~ msgstr ""
+#~ "मौजूदा ref:`HTTPS सर्टिफ़िकेट <iot/connect/https_certificate>` को पढ़ने का "
+#~ "प्रयास करते समय एक गड़बड़ी हुई। सत्यापित करें कि HTTPS सर्टिफ़िकेट फ़ाइल पढ़ने योग्य है।"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+
+#~ msgid ""
+#~ "An unexpected error occurred while the IoT system tried to reach "
+#~ "`<https://www.odoo.com>`_. This is likely due to network-related issues, "
+#~ "such as:"
+#~ msgstr ""
+#~ "IoT सिस्टम द्वारा `<https://www.odoo.com>`_ तक पहुंचने का प्रयास करते समय एक "
+#~ "अनपेक्षित गड़बड़ी हुई। यह संभवतः नेटवर्क संबंधी समस्याओं के कारण है, जैसे:"
+
+#~ msgid "The IoT system does not have Internet access."
+#~ msgstr "IoT सिस्टम के पास इंटरनेट ऐक्सेस नहीं है।"
+
+#~ msgid ""
+#~ "Network restrictions (e.g., firewalls or VPNs) are preventing "
+#~ "communication with https://www.odoo.com."
+#~ msgstr ""
+#~ "नेटवर्क प्रतिबंध (जैसे, फ़ायरवॉल या VPN) https://www.odoo.com के साथ कम्युनिकेशन को "
+#~ "रोक रहे हैं।"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+
+#~ msgid ""
+#~ "This error code includes the HTTP status. For example, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a "
+#~ "\"Page Not Found\" response."
+#~ msgstr ""
+#~ "इस गड़बड़ी कोड में HTTP स्टेटस शामिल है। उदाहरण के लिए, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` का मतलब है कि सर्वर ने \"पेज नॉट "
+#~ "फ़ाउंड\" रिस्पांस दिया।"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+
+#~ msgid ""
+#~ "The IoT system successfully connected to `<https://www.odoo.com>`_, but "
+#~ "the server refused to provide the ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`."
+#~ msgstr ""
+#~ "IoT सिस्टम ने सफलतापूर्वक `<https://www.odoo.com>`_ से कनेक्ट किया, लेकिन सर्वर ने "
+#~ "ref:`HTTPS सर्टिफ़िकेट <iot/connect/https_certificate>` प्रदान करने से इनकार कर "
+#~ "दिया।"
 
 #~ msgid ""
 #~ "This configuration only works with a subdomain on the Odoo Online or "

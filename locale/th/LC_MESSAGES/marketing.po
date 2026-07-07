@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:30+0000\n"
-"PO-Revision-Date: 2026-06-10 00:59+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 14:30+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Thai <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/th/>\n"
 "Language: th\n"
@@ -4487,15 +4487,15 @@ msgstr ""
 ":guilabel:`จัดกลุ่มแบบกำหนดเอง...`: จัดกลุ่มข้อมูลตาม:ref:`กลุ่มที่กำหนดเอง <search/"
 "group>`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:181
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
 msgid "Create event track"
 msgstr "สร้างแทร็กอีเวนต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
 msgid "New event tracks are created from the :guilabel:`Event Tracks` page."
 msgstr "แทร็กอีเวนต์ใหม่จะถูกสร้างจากหน้า :guilabel:`แทร็กอีเวนต์`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:187
 msgid ""
 "To create a new event track, click :guilabel:`New` in the upper-left corner "
 "to reveal a blank event track form."
@@ -4507,35 +4507,35 @@ msgstr ""
 msgid "Typical event track form in the Odoo Events application."
 msgstr "ฟอร์มแทร็กอีเวนต์ทั่วไปในแอปพลิเคชัน Odoo อีเวนต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:191
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required**."
 msgstr ""
 "เริ่มต้นด้วยการตั้งชื่อแทร็กนี้ใน :guilabel:`ชื่อ` ฟิลด์นี้เป็น **ฟิลด์บังคับ**"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
 msgid ""
 "Optionally, upload an image for the track to be displayed on the track's "
 "webpage."
 msgstr "สามารถอัปโหลดรูปภาพสำหรับแทร็กเพื่อแสดงบนเว็บเพจของแทร็กได้ (ไม่บังคับ)"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
 msgid "Next, enter details for the track in the following fields:"
 msgstr "ถัดไป ให้ป้อนรายละเอียดสำหรับแทร็กในฟิลด์ต่อไปนี้:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
 msgid ":guilabel:`Track Date`: Specify the date of the track."
 msgstr ":guilabel:`วันที่ของแทร็ก`: ระบุวันที่ของแทร็ก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:198
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
 msgid ":guilabel:`Location`: Specify the location of the track."
 msgstr ":guilabel:`สถานที่`: ระบุสถานที่ของแทร็ก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:201
 msgid ":guilabel:`Duration`: Specify the duration of the track (in minutes)."
 msgstr ":guilabel:`ระยะเวลา`: ระบุระยะเวลาของแทร็ก (เป็นนาที)"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
 msgid ""
 ":guilabel:`Always Wishlisted`: Specify whether to automatically set the "
 "track as favorite for each registered attendee."
@@ -4543,7 +4543,7 @@ msgstr ""
 ":guilabel:`เพิ่มในรายการโปรดเสมอ`: ระบุว่าจะตั้งค่าแทร็กเป็นรายการโปรดโดยอัตโนมัติสำหรับผู้เ"
 "ข้าร่วมที่ลงทะเบียนแต่ละคนหรือไม่"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
 msgid ""
 ":guilabel:`Responsible`: Select the database user responsible for managing "
 "the track. By default, this field is assigned to the user who initially "
@@ -4552,7 +4552,7 @@ msgstr ""
 ":guilabel:`ผู้รับผิดชอบ`: เลือกผู้ใช้ฐานข้อมูลที่รับผิดชอบในการจัดการแทร็ก ค่าเริ่มต้นของฟิลด์นี้จะถูก"
 "กำหนดให้กับผู้ใช้ที่สร้างแทร็กขึ้นมาในตอนแรก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
 msgid ""
 ":guilabel:`Event`: Select the track's associated event. By default, this "
 "field is already populated with the event from the *Event Tracks* page."
@@ -4560,7 +4560,7 @@ msgstr ""
 ":guilabel:`อีเว้นต์`: เลือกอีเว้นต์ที่เชื่อมโยงกับแทร็ก ค่าเริ่มต้นของฟิลด์นี้จะถูกกรอกข้อมูลด้วยอีเว้นต์"
 "จากหน้า *Event Tracks* อยู่แล้ว"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
 msgid ""
 ":guilabel:`Tags`: Select one or multiple tags for the track to add as "
 "filters on the *Talks* webpage."
@@ -4568,13 +4568,13 @@ msgstr ""
 ":guilabel:`แท็ก`: เลือกแท็กหนึ่งแท็กหรือหลายแท็กสำหรับแทร็กเพื่อเพิ่มเป็นตัวกรองบนหน้าเว็บ "
 "*Talks*"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:210
 msgid ""
 ":guilabel:`Agenda Color`: Select a color to represent the track on the "
 "*Agenda* webpage."
 msgstr ":guilabel:`สีวาระ`: เลือกสีเพื่อแสดงแทร็กบนหน้าเว็บ *Agenda*"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:211
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:213
 msgid ""
 "To access a complete list of locations for event tracks, which can be "
 "modified (and added to) at any time, navigate to :menuselection:`Events app "
@@ -4583,11 +4583,11 @@ msgstr ""
 "หากต้องการเข้าถึงรายการสถานที่ทั้งหมดสำหรับแทร็กอีเวนต์ ซึ่งสามารถแก้ไข (และเพิ่มเติม) ได้ตลอดเ"
 "วลา ให้ไปที่ :menuselection:`แอปอีเวนต์ --> การกำหนดค่า --> สถานที่แทร็ก`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:217
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
 msgid "Speaker tab"
 msgstr "แท็บวิทยากร"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:221
 msgid ""
 "The :guilabel:`Speaker` tab on an event track form contains various fields "
 "to configure information about the track host or speaker."
@@ -4599,11 +4599,11 @@ msgstr ""
 msgid "The Speaker tab on an event track form in the Odoo Events application."
 msgstr "แท็บวิทยากรในฟอร์มแทร็กอีเวนต์ในแอปพลิเคชัน Odoo อีเวนต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:226
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
 msgid "Contact Details section"
 msgstr "ส่วนรายละเอียดผู้ติดต่อ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:230
 msgid ""
 "In the :guilabel:`Contact Details` section, click the :guilabel:`Contact` "
 "drop-down field to select an existing contact from the database as the main "
@@ -4612,7 +4612,7 @@ msgstr ""
 "ในส่วน :guilabel:`รายละเอียดผู้ติดต่อ` คลิกฟิลด์แบบเลื่อนลง :guilabel:`ผู้ติดต่อ` เพื่อเลือกผู้ติด"
 "ต่อที่มีอยู่ในฐานข้อมูลเป็นผู้ติดต่อหลักสำหรับการบรรยาย"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:231
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:233
 msgid ""
 "If this contact is not yet in the database, type in the name of the contact, "
 "and click :guilabel:`Create` to create and edit the contact form later, or "
@@ -4623,7 +4623,7 @@ msgstr ""
 "อร์มผู้ติดต่อในภายหลัง หรือคลิก :guilabel:`สร้างและแก้ไข...` เพื่อไปยังฟอร์มผู้ติดต่อของผู้ติดต่อให"
 "ม่เพื่อกำหนดค่าทันที"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:235
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:237
 msgid ""
 "The :guilabel:`Contact Email` and :guilabel:`Contact Phone` fields are "
 "greyed-out and populated with the information found on the chosen contact's "
@@ -4634,11 +4634,11 @@ msgstr ""
 "วยข้อมูลที่พบในฟอร์มผู้ติดต่อที่เลือก ฟิลด์เหล่านี้ไม่สามารถแก้ไखได้เมื่อเลือกฟิลด์ :guilabel:`ผู้ติดต่อ` "
 "แล้ว"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:240
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
 msgid "Speaker Bio section"
 msgstr "ส่วนประวัติวิทยากร"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:244
 msgid ""
 "In the :guilabel:`Speaker Bio` section, enter any information related to the "
 "specific speaker scheduled to conduct/host the track."
@@ -4646,7 +4646,7 @@ msgstr ""
 "ในส่วน :guilabel:`ประวัติผู้บรรยาย` ให้ป้อนข้อมูลใดๆ ที่เกี่ยวข้องกับผู้บรรยายที่กำหนดไว้เพื่อดำเนิน"
 "การ/เป็นพิธีกรแทร็ก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:245
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:247
 msgid ""
 "If the chosen contact in the :guilabel:`Contact Details` section is properly "
 "configured, the :guilabel:`Name`, :guilabel:`Email`, and :guilabel:`Phone` "
@@ -4657,7 +4657,7 @@ msgstr ""
 ":guilabel:`ชื่อ` :guilabel:`อีเมล` และ :guilabel:`โทรศัพท์` จะถูกกรอกข้อมูลโดยอัตโนมัติ "
 "หากไม่เป็นเช่นนั้น ให้ป้อนข้อมูลด้วยตนเอง"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:250
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:252
 msgid ""
 "This information appears on the front-end of the event website, on the "
 "specific track webpage, providing more information about the speaker to the "
@@ -4666,14 +4666,14 @@ msgstr ""
 "ข้อมูลนี้จะปรากฏที่ส่วนหน้าของเว็บไซต์อีเวนต์ในหน้าเว็บของแทร็กเฉพาะ เพื่อให้ข้อมูลเพิ่มเติมเกี่ยวกับวิท"
 "ยากรแก่ผู้เข้าร่วมแทร็ก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:253
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
 msgid ""
 "Optionally, upload an image to appear alongside the speaker biography on the "
 "event website."
 msgstr ""
 "หากต้องการ ให้อัปโหลดรูปภาพเพื่อแสดงควบคู่กับประวัติผู้บรรยายบนเว็บไซต์อีเว้นต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:257
 msgid ""
 "Then, enter a :guilabel:`Job Position` for the designated speaker, followed "
 "by the :guilabel:`Company Name` associated with the speaker."
@@ -4681,7 +4681,7 @@ msgstr ""
 "จากนั้น ป้อน :guilabel:`ตำแหน่งงาน` สำหรับวิทยากรที่กำหนด ตามด้วย :guilabel:`ชื่อบริษัท` ที่"
 "เกี่ยวข้องกับวิทยากร"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:258
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:260
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter a custom biography with "
 "any speaker-related information."
@@ -4689,13 +4689,13 @@ msgstr ""
 "ในฟิลด์ :guilabel:`ประวัติ` ให้ดำเนินการป้อนประวัติที่กำหนดเองพร้อมข้อมูลที่เกี่ยวข้องกับผู้บรรยายใ"
 "ดๆ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:264
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
 #: ../../content/applications/marketing/surveys/create.rst:258
 #: ../../content/applications/marketing/surveys/questions.rst:198
 msgid "Description tab"
 msgstr "แท็บคำอธิบาย"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Description` tab of an event track form contains a blank text "
 "field to enter any additional information about the track. This information "
@@ -4704,11 +4704,11 @@ msgstr ""
 "แท็บ :guilabel:`คำอธิบาย` ในฟอร์มแทร็กอีเว้นต์ประกอบด้วยฟิลด์ข้อความว่างเปล่าเพื่อป้อนข้อมูลเพิ่ม"
 "เติมเกี่ยวกับแทร็ก ข้อมูลนี้จะปรากฏบนหน้าแทร็กเฉพาะบนเว็บไซต์อีเว้นต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:273
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
 msgid "Interactivity tab"
 msgstr "แท็บการโต้ตอบ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:277
 msgid ""
 "The :guilabel:`Interactivity` tab of the track form provides users the "
 "option to display an interactive button for additional attendee engagement."
@@ -4721,7 +4721,7 @@ msgid ""
 "The Interactivity tab on an event track form in the Odoo Events application."
 msgstr "แท็บการโต้ตอบในฟอร์มแทร็กอีเวนต์ในแอปพลิเคชัน Odoo Events"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:282
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:284
 msgid ""
 "When the :guilabel:`Magic Button` checkbox is ticked, Odoo displays a *call "
 "to action* button to attendees on the sidebar of the track webpage while the "
@@ -4730,7 +4730,7 @@ msgstr ""
 "เมื่อทำเครื่องหมายในช่องทำเครื่องหมาย :guilabel:`ปุ่มวิเศษ` Odoo จะแสดงปุ่ม *call to "
 "action* ให้ผู้เข้าร่วมบนแถบด้านข้างของหน้าเว็บแทร็กในขณะที่แทร็กกำลังดำเนินการ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:285
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
 msgid ""
 "With that checkbox ticked, three more options appear below to configure the "
 "button:"
@@ -4738,37 +4738,37 @@ msgstr ""
 "เมื่อทำเครื่องหมายในช่องทำเครื่องหมายนั้น ตัวเลือกเพิ่มเติมอีกสามตัวเลือกจะปรากฏด้านล่างเพื่อกำหนด"
 "ค่าปุ่ม:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
 msgid ""
 ":guilabel:`Button Title`: Enter a title to appear on the button for "
 "attendees."
 msgstr ":guilabel:`ชื่อปุ่ม`: ป้อนชื่อเรื่องเพื่อแสดงบนปุ่มสำหรับผู้เข้าร่วม"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:288
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:290
 msgid ""
 ":guilabel:`Button Target URL`: Enter a URL that leads attendees to a "
 "specific page."
 msgstr ""
 ":guilabel:`URL เป้าหมายของปุ่ม`: ป้อน URL ที่นำผู้เข้าร่วมไปยังหน้าเฉพาะ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:291
 msgid ""
 ":guilabel:`Show Button`: Enter how many :guilabel:`minutes after Track "
 "start` the button should appear."
 msgstr ""
 ":guilabel:`แสดงปุ่ม`: ป้อนจำนวน :guilabel:`นาทีหลังจากแทร็กเริ่มต้น` ที่ปุ่มควรปรากฏ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:293
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:295
 msgid ""
 "The magic button **only** appears if there is more than one published track."
 msgstr ""
 "ปุ่มวิเศษจะปรากฏ**เฉพาะ**เมื่อมีแทร็กที่เผยแพร่มากกว่าหนึ่งแทร็กเท่านั้น"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:296
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
 msgid "Publish event track"
 msgstr "เผยแพร่แทร็กอีเวนต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:300
 msgid ""
 "Once all the desired configurations are complete on an event track form, "
 "publish the track on the event website by clicking the :guilabel:`Published` "
@@ -4777,7 +4777,7 @@ msgstr ""
 "เมื่อการกำหนดค่าที่ต้องการทั้งหมดเสร็จสมบูรณ์ในฟอร์มแทร็กอีเวนต์แล้ว ให้เผยแพร่แทร็กบนเว็บไซต์อีเวน"
 "ต์โดยคลิกขั้นตอน :guilabel:`Published` ที่มุมขวาบน"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:302
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:304
 msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
@@ -4786,7 +4786,7 @@ msgstr ""
 "สามารถเปลี่ยนขั้นตอนของแทร็กได้จากหน้า :guilabel:`แทร็กอีเวนต์` ซึ่งสามารถลากและวางการ์ดแท"
 "ร็กที่ต้องการไปยังขั้นตอน Kanban ที่เหมาะสม"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:305
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:307
 msgid ""
 "An event track can also be published by opening the desired event track form "
 "and clicking the :guilabel:`Go to Website` smart button. Then, toggle "
@@ -4805,11 +4805,11 @@ msgid ""
 msgstr ""
 "ตัวเลือกเมนูย่อยที่เกี่ยวข้องกับแทร็กบนเว็บไซต์อีเวนต์ที่สร้างด้วย Odoo Events"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:315
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
 msgid "Additional track configurations"
 msgstr "การกำหนดค่าแทร็กเพิ่มเติม"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:319
 msgid ""
 "The :guilabel:`Schedule & Tracks` setting in the **Events** configuration "
 "page provides additional configuration options for users to enable live "
@@ -4818,11 +4818,11 @@ msgstr ""
 "การตั้งค่า :guilabel:`Schedule & Tracks` ในหน้าการกำหนดค่า **Events** มีตัวเลือกการกำ"
 "หนดค่าเพิ่มเติมสำหรับผู้ใช้เพื่อเปิดใช้งานการถ่ายทอดสดและเกมมิฟิเคชันสำหรับแทร็ก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:323
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
 msgid "Live broadcasting"
 msgstr "การถ่ายทอดสด"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:327
 msgid ""
 "If the :guilabel:`Live Broadcast` setting is enabled in the **Events** app "
 "settings, the option to add a corresponding link in the :guilabel:`YouTube "
@@ -4831,11 +4831,11 @@ msgstr ""
 "หากเปิดใช้งานการตั้งค่า :guilabel:`Live Broadcast` ในการตั้งค่าแอป **Events** ตัวเลือกใ"
 "นการเพิ่มลิงก์ที่เกี่ยวข้องในฟิลด์ :guilabel:`YouTube Video Link` จะปรากฏในฟอร์มแทร็ก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:331
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
 msgid "Event gamification"
 msgstr "เกมมิฟิเคชันอีเวนต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:335
 msgid ""
 "If the :guilabel:`Event Gamification` setting is enabled, an :guilabel:`Add "
 "Quiz` button appears on the top-left of a track form, allowing the user to "
@@ -4845,11 +4845,11 @@ msgstr ""
 "รากฏที่ด้านซ้ายบนของฟอร์มแทร็ก ทำให้ผู้ใช้สามารถสร้างแบบทดสอบสำหรับผู้เข้าร่วมเพื่อทำเมื่อแทร็กสิ้นสุ"
 "ดลง"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:338
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
 msgid "Track quiz form"
 msgstr "ฟอร์มแบบทดสอบแทร็ก"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:342
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so opens a form to configure the quiz."
@@ -4861,13 +4861,13 @@ msgstr ""
 msgid "The Add Quiz page in the Odoo Events application for an event track."
 msgstr "หน้าเพิ่มแบบทดสอบในแอปพลิเคชัน Odoo Events สำหรับแทร็กอีเวนต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:346
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page."
 msgstr "เริ่มต้นด้วยการป้อนชื่อสำหรับแบบทดสอบในฟิลด์ว่างที่ด้านบนของหน้า"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:350
 msgid ""
 "If participants are allowed to take the quiz multiple times, tick the "
 "checkbox beside :guilabel:`Allow multiple tries`."
@@ -4875,7 +4875,7 @@ msgstr ""
 "หากอนุญาตให้ผู้เข้าร่วมทำแบบทดสอบได้หลายครั้ง ให้ทำเครื่องหมายในช่องถัดจาก "
 ":guilabel:`Allow multiple tries`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:351
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:353
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are automatically "
 "populated with the corresponding event and track. These fields are non-"
@@ -4884,11 +4884,11 @@ msgstr ""
 "ฟิลด์ :guilabel:`Event` และ :guilabel:`Event Track` จะถูกเติมโดยอัตโนมัติด้วยอีเวนต์และ"
 "แทร็กที่เกี่ยวข้อง ฟิลด์เหล่านี้ไม่สามารถแก้ไขได้"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:355
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
 msgid "Add questions and answers"
 msgstr "เพิ่มคำถามและคำตอบ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:359
 msgid ""
 "To add questions to the quiz, click :guilabel:`Add a line` beneath "
 "the :guilabel:`Question` column. Doing so reveals a :guilabel:`Create "
@@ -4897,11 +4897,11 @@ msgstr ""
 "เมื่อต้องการเพิ่มคำถามลงในแบบทดสอบ ให้คลิก :guilabel:`เพิ่มรายการ` ใต้คอลัมน์ "
 ":guilabel:`คำถาม` การทำเช่นนี้จะเปิดหน้าต่างป๊อปอัป :guilabel:`สร้างคำถาม`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:361
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
 msgid "**All** track quiz questions are multiple choice."
 msgstr "คำถามในแบบทดสอบแทร็ก**ทั้งหมด**เป็นแบบปรนัย"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:365
 msgid ""
 "From the pop-up window, enter the question in the blank field at the top. "
 "Then, click :guilabel:`Add a line` to add an answer option."
@@ -4909,20 +4909,20 @@ msgstr ""
 "จากหน้าต่างป๊อปอัป ให้ป้อนคำถามในฟิลด์ว่างที่ด้านบน จากนั้นคลิก :guilabel:`Add a line` เพื่อเพิ่"
 "มตัวเลือกคำตอบ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:366
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
 msgid "Optionally, fill in the following fields:"
 msgstr "ตัวเลือก: กรอกฟิลด์ต่อไปนี้"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
 msgid ""
 ":guilabel:`Correct`: Designate whether the option is the correct response."
 msgstr ":guilabel:`Correct`: ระบุว่าตัวเลือกนั้นเป็นคำตอบที่ถูกต้องหรือไม่"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:369
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:371
 msgid ":guilabel:`Points`: Specify a point value for the answer option."
 msgstr ":guilabel:`Points`: ระบุค่าคะแนนสำหรับตัวเลือกคำตอบ"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:372
 msgid ""
 ":guilabel:`Extra Comment`: Add any additional comments that should accompany "
 "the answer option."
@@ -4935,7 +4935,7 @@ msgid ""
 "Odoo Events app."
 msgstr "หน้าต่างป๊อปอัปสร้างคำถามในแบบทดสอบแทร็กเฉพาะอีเวนต์ในแอป Odoo Events"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:375
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:377
 msgid ""
 "Once all desired answer options are completed, click :guilabel:`Save & "
 "Close` to save the question, close the pop-up window, and return to the "
@@ -4947,13 +4947,13 @@ msgstr ""
 "คำถาม ปิดหน้าต่างป๊อปอัป และกลับไปที่ฟอร์มแบบทดสอบแทร็ก หรือคลิก :guilabel:`Save & New` เ"
 "พื่อบันทึกคำถามนี้และเริ่มสร้างคำถามอื่นทันทีในฟอร์มป๊อปอัป :guilabel:`Create Questions` ใหม่"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:381
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:382
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:378
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
@@ -5214,272 +5214,339 @@ msgstr "การบรรยาย ข้อเสนอ และวาระ�
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:5
 msgid ""
-"With Odoo *Events*, users can utilize a fully-integrated event website, "
-"where attendees can quickly access various tracks (talks, presentations, "
-"etc.), view entire agendas, and propose talks for the event."
+"With Odoo **Events**, visitors can use the event website to view tracks, "
+"propose talks, and see a detailed agenda for their events."
 msgstr ""
-"ด้วย Odoo *Events* ผู้ใช้สามารถใช้เว็บไซต์อีเวนต์ที่ผสานรวมอย่างสมบูรณ์ ซึ่งผู้เข้าร่วมสามารถเข้าถึ"
-"งแทร็กต่างๆ (การบรรยาย การนำเสนอ ฯลฯ) ดูวาระการประชุมทั้งหมด และเสนอหัวข้อการบรรยายสำ"
-"หรับอีเวนต์ได้อย่างรวดเร็ว"
+"ด้วย Odoo **อีเวนต์** ผู้เยี่ยมชมสามารถใช้เว็บไซต์อีเวนต์เพื่อดูแทร็ก เสนอการบรรยาย และดูวาระที่"
+"ละเอียดสำหรับอีเวนต์ของตน"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:10
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:9
+msgid ""
+"In order to access talks, proposals, and agendas, internal users must have "
+"event tracks enabled and set up. See the :doc:`event_tracks` documentation "
+"to learn more about enabling and creating tracks."
+msgstr ""
+"เพื่อเข้าถึงการบรรยาย ข้อเสนอ และวาระ ผู้ใช้ภายในต้องเปิดใช้งานและตั้งค่าแทร็กอีเวนต์ ดู "
+":doc:`event_tracks` เอกสารประกอบเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการเปิดใช้งานและการสร้างแทร็ก"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:16
 msgid "Event website"
 msgstr "เว็บไซต์อีเวนต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:12
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:18
 msgid ""
-"To access an event website, navigate to the specific event form in the Odoo "
-"*Events* app, and click the :guilabel:`Go to Website` smart button. Or, "
-"while on the Odoo-built website for the company, click "
-"the :guilabel:`Events` header option, and select the desired event to view "
-"that event's website."
+"When an internal user :doc:`creates an event <../event_setup/"
+"create_events>`, Odoo **Events** generates a separate website for it on the "
+"user's Odoo-built website."
 msgstr ""
-"ในการเข้าถึงเว็บไซต์อีเวนต์ ให้ไปที่ฟอร์มอีเวนต์เฉพาะในแอป Odoo *Events* และคลิกปุ่มสมาร์ท "
-":guilabel:`ไปที่เว็บไซต์` หรือขณะอยู่บนเว็บไซต์ที่สร้างด้วย Odoo สำหรับบริษัท ให้คลิกตัวเลือกส่วนหั"
-"ว :guilabel:`อีเวนต์` และเลือกอีเวนต์ที่ต้องการเพื่อดูเว็บไซต์ของอีเวนต์นั้น"
+"เมื่อผู้ใช้ภายใน :doc:`สร้างอีเวนต์ <../event_setup/create_events>` Odoo **อีเวนต์** จะ"
+"สร้างเว็บไซต์แยกต่างหากสำหรับอีเวนต์นั้นบนเว็บไซต์ที่สร้างด้วย Odoo ของผู้ใช้"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:17
-msgid ""
-"On the event website, there is an event-specific subheader menu with "
-"different options to choose from."
-msgstr ""
-"บนเว็บไซต์อีเวนต์ จะมีเมนูย่อยส่วนหัวเฉพาะอีเวนต์ที่มีตัวเลือกต่างๆ ให้เลือก"
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:21
+msgid "Visitors can access that event website in two ways:"
+msgstr "ผู้เยี่ยมชมสามารถเข้าถึงเว็บไซต์อีเวนต์นั้นได้สองวิธี:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:20
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:23
 msgid ""
-"With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, the "
-"following links are automatically added to the subheader menu, located on "
-"the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, "
-"and :guilabel:`Agenda`."
+"Open the **Events** app, navigate to the specific event, and click "
+"the :guilabel:`Go to Website` smart button."
 msgstr ""
-"เมื่อเปิดใช้งานการตั้งค่า *Schedule & Tracks* ในแอป Odoo *Events* แล้ว ลิงก์ต่อไปนี้จะถูกเพิ่"
-"มลงในเมนูย่อยส่วนหัวที่อยู่บนเว็บไซต์อีเวนต์โดยอัตโนมัติ: :guilabel:`การบรรยาย` :guilabel:`ข้"
-"อเสนอการบรรยาย` และ :guilabel:`วาระการประชุม`"
+"เปิดแอป**อีเวนต์** ไปยังอีเวนต์ที่ต้องการ และคลิกปุ่มอัจฉริยะ :guilabel:`ไปยังเว็บไซต์`"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:28
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:26
 msgid ""
-"To enable the :guilabel:`Schedule & Tracks` setting, navigate "
-"to :menuselection:`Events app --> Configuration --> Settings`, tick the "
-"checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+"Or, while on the Odoo-built website, click the :guilabel:`Events` header "
+"option, then select the desired event."
 msgstr ""
-"ในการเปิดใช้งานการตั้งค่า :guilabel:`Schedule & Tracks` ให้ไปที่ :menuselection:`แอป "
-"Events --> การกำหนดค่า --> การตั้งค่า` ทำเครื่องหมายในช่องถัดจาก :guilabel:`Schedule "
-"& Tracks` และคลิก :guilabel:`บันทึก`"
+"หรือขณะอยู่บนเว็บไซต์ที่สร้างด้วย Odoo คลิกตัวเลือกหัวเรื่อง :guilabel:`อีเวนต์` จากนั้นเลือกอีเวน"
+"ต์ที่ต้องการ"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:29
+msgid ""
+"On the event website, there is a sub-header menu with different pages, "
+"including the following:"
+msgstr "บนเว็บไซต์อีเวนต์ มีเมนูหัวเรื่องย่อยที่มีหน้าต่างๆ รวมถึงต่อไปนี้:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:31
+msgid ""
+":guilabel:`Talks`: :ref:`View a schedule <events/talks-proposals-agenda/view-"
+"talks>` of all tracks scheduled for the event, listed by date."
+msgstr ""
+":guilabel:`การบรรยาย`: :ref:`ดูตารางเวลา <events/talks-proposals-agenda/view-"
+"talks>` ของแทร็กทั้งหมดที่กำหนดไว้สำหรับอีเวนต์ แสดงรายการตามวันที่"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:33
-msgid "Talks page"
-msgstr "หน้าการบรรยาย"
+msgid ""
+":guilabel:`Talk Proposals`: :ref:`Submit a proposal <events/talks-proposals-"
+"agenda/propose-talks>` to participate as a speaker during the event."
+msgstr ""
+":guilabel:`ข้อเสนอการบรรยาย`: :ref:`ส่งข้อเสนอ <events/talks-proposals-agenda/"
+"propose-talks>` เพื่อเข้าร่วมในฐานะวิทยากรในระหว่างอีเวนต์"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:35
 msgid ""
-"The :guilabel:`Talks` link takes the attendee to a page filled with all the "
-"planned tracks for the event."
+":guilabel:`Agenda`: :ref:`View a calendar <events/talks-proposals-agenda/"
+"view-agenda>` of all scheduled tracks for the event, showing detailed times "
+"for each date."
 msgstr ""
+":guilabel:`วาระ`: :ref:`ดูปฏิทิน <events/talks-proposals-agenda/view-agenda>` ขอ"
+"งแทร็กที่กำหนดไว้ทั้งหมดสำหรับอีเวนต์ แสดงเวลาโดยละเอียดสำหรับแต่ละวันที่"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:39
+msgid ""
+"If the sub-header menu does not appear, it must be manually enabled by the "
+"internal user."
+msgstr "หากเมนูหัวเรื่องย่อยไม่ปรากฏ จะต้องเปิดใช้งานด้วยตนเองโดยผู้ใช้ภายใน"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:41
+msgid ""
+"To do so, click the :guilabel:`Edit` button at the top. In the editor panel, "
+"click the :guilabel:`Customize` tab at the top, then enable "
+"the :guilabel:`Sub-menu (Specific)` setting. Finally, click :guilabel:`Save` "
+"to apply changes."
+msgstr ""
+"ในการดำเนินการดังกล่าว คลิกปุ่ม :guilabel:`แก้ไข` ที่ด้านบน ในแผงตัวแก้ไข คลิกแท็บ "
+":guilabel:`ปรับแต่ง` ที่ด้านบน จากนั้นเปิดใช้งานการตั้งค่า :guilabel:`เมนูย่อย (เฉพาะเจาะจ"
+"ง)` สุดท้าย คลิก :guilabel:`บันทึก` เพื่อใช้การเปลี่ยนแปลง"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:51
+msgid "View talks"
+msgstr "ดูการบรรยาย"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:53
+msgid ""
+"The *Talks* page displays a schedule of planned tracks for the event, sorted "
+"by date."
+msgstr ""
+"หน้า *การบรรยาย* แสดงตารางเวลาของแทร็กที่วางแผนไว้สำหรับอีเวนต์ เรียงตามวันที่"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+msgid ""
+"Visitors can mark a track as a *Favorite* by clicking the :icon:`fa-bell-"
+"o` :guilabel:`(empty bell)` icon to the right of the track title. A track "
+"marked as a *Favorite* appears with the :icon:`fa-bell` :guilabel:`(filled "
+"bell)` icon. Visitors can then :ref:`filter tracks by favorites <events/"
+"talks-proposals-agenda/filter-favorites>`."
+msgstr ""
+"ผู้เยี่ยมชมสามารถทำเครื่องหมายแทร็กเป็น *รายการโปรด* ได้โดยคลิกไอคอน :icon:`fa-bell-o` "
+":guilabel:`(กระดิ่งว่าง)` ทางด้านขวาของชื่อแทร็ก แทร็กที่ทำเครื่องหมายเป็น *รายการโปรด* จะ"
+"ปรากฏพร้อมไอคอน :icon:`fa-bell` :guilabel:`(กระดิ่งเต็ม)` จากนั้นผู้เยี่ยมชมสามารถ "
+":ref:`กรองแทร็กตามรายการโปรด <events/talks-proposals-agenda/filter-favorites>`"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:60
+msgid ""
+"Additionally, visitors can also :ref:`filter tracks by their tags <events/"
+"talks-proposals-agenda/filter-tags>` (customized on each track's form)."
+msgstr ""
+"นอกจากนี้ ผู้เยี่ยมชมยังสามารถ :ref:`กรองแทร็กตามแท็ก <events/talks-proposals-agenda/"
+"filter-tags>` (ปรับแต่งในแบบฟอร์มของแต่ละแทร็ก)"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
 "The Talks page on an event website built through the Odoo Events application."
-msgstr ""
+msgstr "หน้า Talks บนเว็บไซต์อีเวนต์ที่สร้างขึ้นผ่านแอปพลิเคชัน Odoo Events"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:42
-msgid ""
-"At the top of :guilabel:`Talks` page, there are drop-down filter menus "
-"beside a :guilabel:`Search a talk...` search bar."
-msgstr ""
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:69
+msgid "Filter by favorites"
+msgstr "กรองตามรายการโปรด"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:45
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:71
 msgid ""
-"The first drop-down filter menu (with the starting "
-"title: :guilabel:`Favorites`) is the only drop-down filter menu that appears "
-"by default. When clicked, the resulting menu presents two "
-"options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+"To filter the *Talks* page by any tracks marked as a *Favorite*, click on "
+"the :guilabel:`Favorites` drop-down menu."
 msgstr ""
+"หากต้องการกรองหน้า *การบรรยาย* ตามแทร็กใดๆ ที่ทำเครื่องหมายเป็น *รายการโปรด* คลิกเมนูแบ"
+"บเลื่อนลง :guilabel:`รายการโปรด`"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:49
-msgid ""
-"Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
-"favorited by the attendee."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:74
+msgid "Visitors can then choose one of two options:"
+msgstr "จากนั้นผู้เยี่ยมชมสามารถเลือกตัวเลือกใดตัวเลือกหนึ่งจากสองตัวเลือก:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:76
+msgid ":guilabel:`Favorites`: shows **only** tracks marked as *Favorite*."
 msgstr ""
+":guilabel:`รายการโปรด`: แสดง**เฉพาะ**แทร็กที่ทำเครื่องหมายเป็น *รายการโปรด*"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:52
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+msgid ":guilabel:`All Talks`: shows **all** tracks."
+msgstr ":guilabel:`All Talks`: แสดง**ทั้งหมด**แทร็ก"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
 msgid ""
-"If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
-"selected, Odoo presents all the event tracks."
+"If the visitor applies the :guilabel:`Favorites` option without having "
+"marked any tracks as a *Favorite*, all event tracks are displayed."
 msgstr ""
+"หากผู้เข้าชมใช้ตัวเลือก :guilabel:`Favorites` โดยไม่ได้ทำเครื่องหมายแทร็กใด ๆ เป็น "
+"*Favorite* แทร็กอีเวนต์ทั้งหมดจะแสดงขึ้น"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:87
+msgid "Filter by tags"
+msgstr "ตัวกรองตามแท็ก"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:89
 msgid ""
-"Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
-"have been favorited or not."
+"If any tracks have tags and tag categories configured in the database "
+"during :ref:`track creation <events/event_tracks/create-track>`, additional "
+"drop-down filter menus will appear at the top of the page next to "
+"the :guilabel:`Favorites` drop-down, allowing users to filter tracks by tag "
+"categories."
 msgstr ""
+"หากแทร็กใด ๆ มีแท็กและหมวดหมู่แท็กที่กำหนดค่าไว้ในฐานข้อมูลระหว่าง :ref:`การสร้างแทร็ก "
+"<events/event_tracks/create-track>` เมนูตัวกรองแบบเลื่อนลงเพิ่มเติมจะปรากฏที่ด้านบนของห"
+"น้าถัดจากเมนูแบบเลื่อนลง :guilabel:`Favorites` ช่วยให้ผู้ใช้สามารถกรองแทร็กตามหมวดหมู่แท็กไ"
+"ด้"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:58
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
 msgid ""
-"The other drop-down filter menus that appear on this page are related to any "
-"configured tags (and tag categories) created for event tracks in the backend."
+"To add tags and tag categories to track forms, navigate to the **Events** "
+"app and open the desired event. Click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button and open the desired event track."
 msgstr ""
+"เมื่อต้องการเพิ่มแท็กและหมวดหมู่แท็กลงในฟอร์มแทร็ก ให้ไปที่แอป **อีเวนต์** และเปิดอีเวนต์ที่ต้องกา"
+"ร คลิกปุ่มสมาร์ท :icon:`fa-microphone` :guilabel:`Tracks` และเปิดแทร็กอีเวนต์ที่ต้องการ"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:62
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:98
 msgid ""
-"To add tags and tag categories to track forms, open a desired event track "
-"form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+"On the track form, type a new tag in the :guilabel:`Tags` field. Then, "
 "click :guilabel:`Create and edit...` from the resulting drop-down menu."
 msgstr ""
+"ในฟอร์มแทร็ก ให้พิมพ์แท็กใหม่ในฟิลด์ :guilabel:`Tags` จากนั้นคลิก :guilabel:`Create and "
+"edit...` จากเมนูแบบเลื่อนลงที่ปรากฏขึ้น"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:66
-msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+msgid ""
+"Doing so reveals a :guilabel:`Create Tags` pop-up form with the following "
+"fields:"
 msgstr ""
+"การทำเช่นนี้จะแสดงฟอร์มป๊อปอัป :guilabel:`Create Tags` พร้อมฟิลด์ต่อไปนี้:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:103
+msgid ""
+":guilabel:`Tag Name`: The name of the tag. This field is already populated."
+msgstr ":guilabel:`Tag Name`: ชื่อของแท็ก ฟิลด์นี้กรอกข้อมูลไว้แล้ว"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+msgid ""
+":guilabel:`Color Index`: The color of the track associated with this tag, "
+"displayed on the website."
+msgstr ""
+":guilabel:`Color Index`: สีของแทร็กที่เกี่ยวข้องกับแท็กนี้ ซึ่งแสดงบนเว็บไซต์"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:106
+msgid ""
+":guilabel:`Category`: The category of the tag. This category appears as the "
+"drop-down filter menu on the *Talks* page."
+msgstr ""
+":guilabel:`Category`: หมวดหมู่ของแท็ก หมวดหมู่นี้จะปรากฏเป็นเมนูตัวกรองแบบเลื่อนลงในหน้า "
+"*Talks*"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:0
 msgid ""
 "The Create Tags pop-up form that coincides with drop-down filter menus on "
 "Talks page."
 msgstr ""
+"แบบฟอร์มป๊อปอัป Create Tags ที่แสดงพร้อมกับเมนูกรองแบบดรอปดาวน์บนหน้า Talks"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:72
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:115
+msgid "Propose talks"
+msgstr "เสนอการพูดคุย"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
 msgid ""
-"From here, users see the recently added tag in the :guilabel:`Tag Name` "
-"field. Beneath that, there is an option to add a specific :guilabel:`Color "
-"Index` to the tag for added organization."
+"The *Talk Proposals* page allows visitors to submit a proposal for a talk "
+"via a custom online form."
 msgstr ""
+"หน้า *Talk Proposals* ช่วยให้ผู้เข้าชมสามารถส่งข้อเสนอสำหรับการพูดคุยผ่านฟอร์มออนไลน์ที่กำหนด"
+"เองได้"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:75
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
 msgid ""
-"Lastly, there is the :guilabel:`Category` field, where users can either "
-"select a pre-existing category for this new tag, or create a new one."
+"By default, the *Talk Proposals* page is automatically generated by Odoo. If "
+"needed, internal users can :doc:`edit <../../../websites/website/web_design/"
+"elements>` any part of the page, including the proposal form."
 msgstr ""
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
-msgid ""
-"All options in the :guilabel:`Category` field for tags appear as their own "
-"drop-down filter menu on the :guilabel:`Talks` page, located on the event "
-"website."
-msgstr ""
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
-msgid ""
-"Beneath the drop-down filter menus at the top of the :guilabel:`Talks` page, "
-"there is a list of planned tracks for the specific event, organized by day."
-msgstr ""
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:84
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:141
-msgid ""
-"If an attendee wishes to favorite a track, they can click the :icon:`fa-bell-"
-"o` :guilabel:`(empty bell)` icon, located to the right of the track title. "
-"Attendees will know a track has been favorited when they notice the icon has "
-"been changed to :icon:`fa-bell` :guilabel:`(filled bell)` icon."
-msgstr ""
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:88
-msgid ""
-"Favoriting a track this way places it on the list of :guilabel:`Favorites`, "
-"which is accessible from the default drop-down filter menu, located at the "
-"top of the :guilabel:`Talks` page."
-msgstr ""
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:92
-msgid "Talk Proposals page"
-msgstr ""
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
-msgid ""
-"The :guilabel:`Talk Proposals` link takes attendees to a page on the event "
-"website, wherein they can formerly submit a proposal for a talk "
-"(:dfn:`track`) for the event, via a custom online form."
-msgstr ""
+"โดยค่าเริ่มต้น หน้า *Talk Proposals* จะถูกสร้างขึ้นโดยอัตโนมัติโดย Odoo หากจำเป็น ผู้ใช้ภายใน"
+"สามารถ :doc:`แก้ไข <../../../websites/website/web_design/elements>` ส่วนใด ๆ ขอ"
+"งหน้าได้ รวมถึงฟอร์มข้อเสนอ"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
 "The Talk Proposals page on the event website built with the Odoo Events "
 "application."
 msgstr ""
+"หน้า Talk Proposals บนเว็บไซต์อีเวนต์ที่สร้างด้วยแอปพลิเคชัน Odoo Events"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:127
 msgid ""
-"In addition to the form, an introduction to the page, along with any other "
-"pertinent information related to the types of talks the event will feature "
-"can be added, if needed."
+"To submit their proposal, visitors fill out the form, then click "
+"the :guilabel:`Submit Proposal` button."
 msgstr ""
-"นอกจากฟอร์มแล้ว คุณสามารถเพิ่มข้อมูลเบื้องต้นของหน้าเว็บ พร้อมกับข้อมูลที่เกี่ยวข้องอื่นๆ เกี่ยวกับประเ"
-"ภทของการบรรยายที่อีเวนต์จะนำเสนอได้หากจำเป็น"
+"เพื่อส่งข้อเสนอ ผู้เข้าชมต้องกรอกฟอร์ม จากนั้นคลิกปุ่ม :guilabel:`Submit Proposal`"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:130
 msgid ""
-"The talk proposal form can be modified in a number of different ways, via "
-"the web builder tools, accessible by clicking :guilabel:`Edit` while on the "
-"specific page."
+"Doing so creates a new track form in the database. Internal users can access "
+"it by navigating to the **Events** app, clicking the relevant event, and "
+"selecting the :icon:`fa-microphone` :guilabel:`Tracks` smart button. The "
+"newly-proposed talk now appears as a new track in the :guilabel:`Proposal` "
+"stage."
 msgstr ""
-"คุณสามารถแก้ไขฟอร์มเสนอการบรรยายได้หลายวิธีผ่านเครื่องมือสร้างเว็บ โดยเข้าถึงได้โดยคลิก "
-":guilabel:`แก้ไข` ขณะอยู่ในหน้านั้นๆ"
+"การทำเช่นนี้จะสร้างฟอร์มแทร็กใหม่ในฐานข้อมูล ผู้ใช้ภายในสามารถเข้าถึงได้โดยไปที่แอป **อีเวนต์** "
+"คลิกอีเวนต์ที่เกี่ยวข้อง และเลือกปุ่มสมาร์ท :icon:`fa-microphone` :guilabel:`Tracks` การพู"
+"ดคุยที่เสนอใหม่จะปรากฏเป็นแทร็กใหม่ในขั้นตอน :guilabel:`Proposal`"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:107
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:135
 msgid ""
-"Then, proceed to edit any of the default fields, or add new forms with "
-"the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
-"section of the web builder tools sidebar)."
+"At this point, an internal user can review the proposed talk and accept or "
+"deny the proposal by moving the track to the appropriate stage in the "
+"pipeline."
 msgstr ""
-"จากนั้น แก้ไขฟิลด์เริ่มต้นใดก็ได้ หรือเพิ่มฟอร์มใหม่ด้วยบล็อกสร้าง :guilabel:`ฟอร์ม` (อยู่ในส่วน "
-":guilabel:`บล็อก` ของแถบด้านข้างเครื่องมือสร้างเว็บ)"
+"ณ จุดนี้ ผู้ใช้ภายในสามารถตรวจสอบการพูดคุยที่เสนอและยอมรับหรือปฏิเสธข้อเสนอโดยย้ายแทร็กไปยังขั้น"
+"ตอนที่เหมาะสมในไปป์ไลน์"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:110
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
 msgid ""
-"Once all the necessary information is entered into the form, the attendees "
-"just need to click the :guilabel:`Submit Proposal` button."
+"If accepted, the internal user can publish the track on the event website by "
+"clicking the :guilabel:`Go to Website` smart button and toggling "
+"the :guilabel:`Unpublished` switch at the top to :guilabel:`Published`."
 msgstr ""
-"เมื่อกรอกข้อมูลที่จำเป็นทั้งหมดในฟอร์มแล้ว ผู้เข้าร่วมอีเวนต์เพียงแค่คลิกปุ่ม :guilabel:`ส่งข้อเสนอ`"
+"หากได้รับการยอมรับ ผู้ใช้ภายในสามารถเผยแพร่แทร็กบนเว็บไซต์อีเวนต์ได้โดยคลิกปุ่มสมาร์ท "
+":guilabel:`Go to Website` และสลับสวิตช์ :guilabel:`Unpublished` ที่ด้านบนเป็น "
+":guilabel:`Published`"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:113
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:142
+msgid "Visitors can then see the track on the *Talks* page."
+msgstr "จากนั้นผู้เข้าชมจะเห็นแทร็กในหน้า *Talks*"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:147
+msgid "View agenda"
+msgstr "ดูวาระการประชุม"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:149
 msgid ""
-"Then, that talk, and all the information entered on the form, can be "
-"accessed on the :guilabel:`Event Tracks` page for that specific event in "
-"the :guilabel:`Proposal` stage, which is accessible via "
-"the :guilabel:`Tracks` smart button on the event form."
+"The *Agenda* page displays an event calendar, showing each talk's specified "
+"location by column and its scheduled time by row."
 msgstr ""
-"จากนั้น การบรรยายนั้นและข้อมูลทั้งหมดที่กรอกในฟอร์มสามารถเข้าถึงได้ที่หน้า :guilabel:`แทร็กอีเวน"
-"ต์` สำหรับอีเวนต์นั้นๆ ในขั้นตอน :guilabel:`ข้อเสนอ` ซึ่งเข้าถึงได้ผ่านปุ่มอัจฉริยะ :guilabel:`แ"
-"ทร็ก` ในฟอร์มอีเวนต์"
+"หน้า *Agenda* แสดงปฏิทินอีเวนต์ โดยแสดงสถานที่ที่กำหนดของการพูดคุยแต่ละรายการตามคอลัมน์ และ"
+"เวลาที่กำหนดไว้ตามแถว"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:152
 msgid ""
-"At that point, an internal user can review the proposed talk, and choose to "
-"accept or deny the proposal."
+"Visitors can click any track on the calendar to open the track's specific "
+"page on the website."
 msgstr ""
-"ณ จุดนั้น ผู้ใช้ภายในสามารถตรวจสอบการบรรยายที่เสนอและเลือกที่จะอนุมัติหรือปฏิเสธข้อเสนอได้"
+"ผู้เข้าชมสามารถคลิกแทร็กใด ๆ ในปฏิทินเพื่อเปิดหน้าเฉพาะของแทร็กบนเว็บไซต์"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:155
 msgid ""
-"If accepted, the internal user can then move the track to the next "
-"appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
-"page for the event. Then, they can open that track form, and click "
-"the :guilabel:`Go to Website` smart button to reveal that track's page on "
-"the event website."
+"A talk's location can be found on its track form. To find it, navigate to "
+"**Events** app, click on the relevant event, click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button, and select the desired track. "
+"In the track form, view or modify the :guilabel:`Location` field."
 msgstr ""
-"หากอนุมัติแล้ว ผู้ใช้ภายในสามารถย้ายแทร็กไปยังขั้นตอนที่เหมาะสมถัดไปในไปป์ไลน์ Kanban บนหน้า "
-":guilabel:`แทร็กอีเวนต์` สำหรับอีเวนต์ จากนั้นเปิดฟอร์มแทร็กนั้นและคลิกปุ่มอัจฉริยะ "
-":guilabel:`ไปที่เว็บไซต์` เพื่อแสดงหน้าของแทร็กนั้นบนเว็บไซต์อีเวนต์"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:125
-msgid ""
-"From there, they can toggle the :guilabel:`Unpublished` switch in the header "
-"to :guilabel:`Published`, which allows all event attendees to view and "
-"access the talk."
-msgstr ""
-"จากนั้น พวกเขาสามารถสลับสวิตช์ :guilabel:`ยังไม่เผยแพร่` ในส่วนหัวไปเป็น :guilabel:`เผยแ"
-"พร่แล้ว` ซึ่งทำให้ผู้เข้าร่วมอีเวนต์ทุกคนสามารถดูและเข้าถึงการบรรยายได้"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:129
-msgid "Agenda page"
-msgstr "หน้ากำหนดการ"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:131
-msgid ""
-"The :guilabel:`Agenda` link takes attendees to a page on the event website, "
-"showcasing an event calendar, depicting when (and where) events are taking "
-"place for that specific event."
-msgstr ""
-"ลิงก์ :guilabel:`กำหนดการ` นำผู้เข้าร่วมไปยังหน้าบนเว็บไซต์อีเวนต์ที่แสดงปฏิทินอีเวนต์ โดยระบุว่า"
-"อีเวนต์จะจัดขึ้นเมื่อใด (และที่ไหน) สำหรับอีเวนต์นั้นๆ"
+"สถานที่ของการบรรยายสามารถพบได้ในแบบฟอร์มแทร็กของอีเวนต์ หากต้องการค้นหา ให้ไปที่แอป **อีเว"
+"นต์** คลิกที่อีเวนต์ที่เกี่ยวข้อง คลิกปุ่มสมาร์ท :icon:`fa-microphone` :guilabel:`แทร็ก` และเ"
+"ลือกแทร็กที่ต้องการ ในแบบฟอร์มแทร็ก ให้ดูหรือแก้ไขฟิลด์ :guilabel:`สถานที่`"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5487,13 +5554,6 @@ msgid ""
 "application."
 msgstr ""
 "หน้ากำหนดการของอีเวนต์บนเว็บไซต์อีเวนต์ที่สร้างด้วยแอปพลิเคชัน Odoo อีเวนต์"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
-msgid ""
-"Clicking any track on the calendar takes the attendee to that specific "
-"track's detail page on the event website."
-msgstr ""
-"การคลิกแทร็กใดๆ บนปฏิทินจะนำผู้เข้าร่วมไปยังหน้ารายละเอียดของแทร็กนั้นๆ บนเว็บไซต์อีเวนต์"
 
 #: ../../content/applications/marketing/events/event_reporting.rst:6
 #: ../../content/applications/marketing/marketing_automation.rst:188
@@ -5879,18 +5939,24 @@ msgid ""
 "chart` :guilabel:`(Bar)` and :icon:`fa-database` :guilabel:`(Stacked)` "
 "options selected. Remove the default filters in the search bar."
 msgstr ""
+"เพื่อสร้างรายงานนี้ ให้ใช้มุมมองกราฟเริ่มต้น โดยเลือกตัวเลือก :icon:`fa-bar-chart` "
+":guilabel:`(แท่ง)` และ :icon:`fa-database` :guilabel:`(ซ้อนกัน)` ลบตัวกรองเริ่มต้นใน"
+"แถบค้นหา"
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:179
 msgid ""
 "Then, click the :icon:`fa-caret-down` :guilabel:`(down)` arrow to the right "
 "of the search bar to open the drop-down menu of filter and grouping options."
 msgstr ""
+"จากนั้น คลิกลูกศร :icon:`fa-caret-down` :guilabel:`(ลง)` ทางขวาของแถบค้นหาเพื่อเปิดเม"
+"นูแบบเลื่อนลงของตัวเลือกตัวกรองและการจัดกลุ่ม"
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:182
 msgid ""
 "Select the :guilabel:`Last 30 days` filter from the :guilabel:`Filters` "
 "column to filter the data."
 msgstr ""
+"เลือกตัวกรอง :guilabel:`30 วันล่าสุด` จากคอลัมน์ :guilabel:`ตัวกรอง` เพื่อกรองข้อมูล"
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:185
 msgid ""
@@ -5898,16 +5964,21 @@ msgid ""
 "the :guilabel:`Group By` column **in that sequential order**. This groups "
 "the data by event, then by ticket type."
 msgstr ""
+"ถัดไป เลือกตัวเลือก :guilabel:`อีเวนต์` และ :guilabel:`ประเภทตั๋ว` จากคอลัมน์ "
+":guilabel:`จัดกลุ่มตาม` **ตามลำดับนั้น** การดำเนินการนี้จะจัดกลุ่มข้อมูลตามอีเวนต์ จากนั้นตามปร"
+"ะเภทตั๋ว"
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:189
 msgid ""
 "The order in which the options are selected in the :guilabel:`Group By` "
 "columns directly affects how the data is grouped and displayed in the report."
 msgstr ""
+"ลำดับที่เลือกตัวเลือกในคอลัมน์ :guilabel:`จัดกลุ่มตาม` มีผลโดยตรงต่อวิธีที่ข้อมูลถูกจัดกลุ่มและแสดงใ"
+"นรายงาน"
 
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:193
 msgid ":doc:`revenues_report`"
-msgstr ""
+msgstr ":doc:`revenues_report`"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:5
 msgid ""
@@ -6076,7 +6147,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:72
 msgid ":doc:`../../../essentials/search`"
-msgstr ""
+msgstr ":doc:`../../../essentials/search`"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:77
 msgid ""
@@ -8909,6 +8980,8 @@ msgid ""
 "access to registered event attendees as they arrive and store attendee-"
 "related data in the reporting metrics."
 msgstr ""
+"คุณสมบัติ *โต๊ะลงทะเบียน* ใน Odoo **อีเวนต์** ช่วยให้ผู้ใช้สามารถอนุญาตให้ผู้เข้าร่วมอีเวนต์ที่ลงทะ"
+"เบียนแล้วเข้าถึงได้เมื่อพวกเขามาถึง และเก็บข้อมูลที่เกี่ยวข้องกับผู้เข้าร่วมไว้ในตัวชี้วัดการรายงาน"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:9
 msgid "Registration Desk page"
@@ -8920,6 +8993,8 @@ msgid ""
 "to :menuselection:`Events app --> Registration Desk` to open "
 "the :guilabel:`Registration Desk` page."
 msgstr ""
+"บนอุปกรณ์มือถือ (บนแอป Odoo หรือในเบราว์เซอร์) ไปที่ :menuselection:`แอปอีเวนต์ --> โต๊ะล"
+"งทะเบียน` เพื่อเปิดหน้า :guilabel:`โต๊ะลงทะเบียน`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:None
 msgid "The Registration Desk page in the Odoo Events application."
@@ -8930,6 +9005,8 @@ msgid ""
 "In the :guilabel:`Registration Desk` box, the user has the option to "
 "either :guilabel:`Scan a badge` or :guilabel:`Select Attendee`."
 msgstr ""
+"ในกล่อง :guilabel:`โต๊ะลงทะเบียน` ผู้ใช้มีตัวเลือกที่จะ :guilabel:`สแกนป้าย` หรือ "
+":guilabel:`เลือกผู้เข้าร่วม`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:21
 msgid "Scan a badge"
@@ -8941,6 +9018,8 @@ msgid ""
 "to :menuselection:`Events app --> Registration Desk` and tap "
 "the :guilabel:`Scan or Tap` option."
 msgstr ""
+"เพื่อสแกนรหัสบนป้ายของผู้เข้าร่วมอีเวนต์ ไปที่ :menuselection:`แอปอีเวนต์ --> โต๊ะลงทะเบียน` "
+"และแตะที่ตัวเลือก :guilabel:`สแกนหรือแตะ`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:27
 msgid ""
@@ -8956,6 +9035,9 @@ msgid ""
 "the box can be manually adjusted by dragging the :icon:`fa-"
 "crop` :guilabel:`(crop)` icon."
 msgstr ""
+"เมื่อ Odoo เข้าถึงกล้องได้ หน้าต่างป๊อปอัป :guilabel:`เครื่องสแกนบาร์โค้ด` จะปรากฏขึ้น แสดงกล่"
+"องช่องมองในเฟรมกล้อง ขนาดของกล่องสามารถปรับด้วยตนเองได้โดยการลากไอคอน :icon:`fa-"
+"crop` :guilabel:`(ครอบตัด)`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:None
 msgid ""
@@ -8970,16 +9052,20 @@ msgid ""
 "attendee is then granted access to the event and their attendance is logged "
 "in the Odoo **Events** app."
 msgstr ""
+"เมื่อรหัสบัตรอยู่ตรงกลางช่องมองภาพ รหัสจะถูกสแกน หน้าต่างป๊อปอัป :guilabel:`เครื่องสแกนบาร์โค้"
+"ด` จะหายไป และผู้เข้าร่วมจะได้รับสิทธิ์เข้าร่วมงาน เมื่อสแกนรหัสแล้ว การเข้าร่วมจะถูกบันทึกลงในแอ"
+"ป Odoo **กิจกรรม**"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:41
 msgid ""
 "If the scanned barcode is invalid, an error pop-up message appears in the "
 "upper-right corner."
 msgstr ""
+"หากบาร์โค้ดที่สแกนไม่ถูกต้อง ข้อความป๊อปอัปแสดงข้อผิดพลาดจะปรากฏในมุมบนขวา"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:44
 msgid "Select Attendee"
-msgstr ""
+msgstr "การเลือกผู้เข้าร่วม"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:46
 msgid ""
@@ -8987,6 +9073,8 @@ msgid ""
 "to :menuselection:`Events app --> Registration Desk` and tap "
 "the :guilabel:`Select Attendee` option."
 msgstr ""
+"เพื่ออนุญาตให้ผู้เข้าร่วมอีเวนต์เข้าถึงด้วยตนเอง ไปที่ :menuselection:`แอปอีเวนต์ --> โต๊ะลงทะเ"
+"บียน` และแตะที่ตัวเลือก :guilabel:`เลือกผู้เข้าร่วม`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:49
 msgid ""
@@ -8997,6 +9085,10 @@ msgid ""
 "their name, registered event, associated company (if applicable), ticket "
 "type (if applicable), and registration status."
 msgstr ""
+"การดำเนินการนี้จะเปิดหน้า :guilabel:`ผู้เข้าร่วม` พร้อมผู้เข้าร่วมที่ลงทะเบียนทั้งหมดในทุกอีเวนต์ใน"
+"ฐานข้อมูล โดยค่าเริ่มต้น หน้านี้เปิดในมุมมอง :icon:`oi-view-kanban` :guilabel:`(คัมบัง)` ช่"
+"วยให้ผู้ใช้เห็นภาพรวมของผู้เข้าร่วมทั้งหมดได้ในพริบตา ผู้เข้าร่วมแต่ละคนจะแสดงเป็นการ์ดพร้อมชื่อ อีเว"
+"นต์ที่ลงทะเบียน บริษัทที่เกี่ยวข้อง (ถ้ามี) ประเภทตั๋ว (ถ้ามี) และสถานะการลงทะเบียน"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:55
 msgid ""
@@ -9005,6 +9097,10 @@ msgid ""
 "on a line with their name, contact information, registered event, ticket "
 "type, registration status, and an option to :guilabel:`Mark as Attending`."
 msgstr ""
+"อีกทางหนึ่ง ผู้ใช้สามารถดูรายการโดยละเอียดของผู้เข้าร่วมทั้งหมดโดยใช้มุมมอง :icon:`oi-view-"
+"list` :guilabel:`(รายการ)` ผู้เข้าร่วมแต่ละคนจะแสดงในบรรทัดพร้อมชื่อ ข้อมูลติดต่อ อีเวนต์ที่ลง"
+"ทะเบียน ประเภทตั๋ว สถานะการลงทะเบียน และตัวเลือกในการ :guilabel:`ทำเครื่องหมายว่าเข้าร่ว"
+"ม`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:None
 msgid ""
@@ -9021,6 +9117,10 @@ msgid ""
 "Click :guilabel:`Continue` at the bottom-left to mark the attendee "
 "as :guilabel:`Attended`."
 msgstr ""
+"เพื่ออนุญาตให้ผู้เข้าร่วมเข้าถึงและทำเครื่องหมายว่า :guilabel:`เข้าร่วมแล้ว` ในมุมมองคัมบัง ให้คลิ"
+"กที่การ์ดของพวกเขา หน้าต่างป๊อปอัปที่เป็นผลลัพธ์จะแจ้งให้ผู้ใช้ทราบว่าผู้เข้าร่วมได้ถูกทำเครื่องหมายว่าล"
+"งทะเบียนแล้ว คลิก :guilabel:`ดำเนินการต่อ` ที่มุมล่างซ้ายเพื่อทำเครื่องหมายผู้เข้าร่วมว่า "
+":guilabel:`เข้าร่วมแล้ว`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:67
 msgid ""
@@ -9028,6 +9128,9 @@ msgid ""
 "button on the attendee's line. The button then disappears and the attendee's "
 "registration status changes to :guilabel:`Attended`."
 msgstr ""
+"อีกทางหนึ่ง ในมุมมองรายการ คลิกที่ปุ่ม :guilabel:`ทำเครื่องหมายว่าเข้าร่วม` ในบรรทัดของผู้เข้าร่"
+"วม จากนั้นปุ่มจะหายไปและสถานะการลงทะเบียนของผู้เข้าร่วมจะเปลี่ยนเป็น :guilabel:`เข้าร่วมแล้"
+"ว`"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:72
 msgid ""
@@ -15839,6 +15942,9 @@ msgid ""
 "present for surveys that have enabled the *Is a Certification* option on the "
 "survey form."
 msgstr ""
+":guilabel:`Start Live Session`: คลิกเพื่อเริ่มแบบสอบถาม *Live session* และเปิดหน้าต่า"
+"งจัดการเซสชันในแท็บใหม่ ปุ่มนี้จะ**ไม่**แสดงสำหรับแบบสอบถามที่เปิดใช้งานตัวเลือก *Is a "
+"Certification* ในฟอร์มแบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys.rst:139
 msgid ""
@@ -15846,6 +15952,9 @@ msgid ""
 "been officially started. This button option **only** appears on survey lines "
 "that have previously initiated a live session."
 msgstr ""
+":guilabel:`End Live Session`: คลิกเพื่อสิ้นสุดแบบสอบถาม *Live session* ที่เริ่มต้นไปแล้วอ"
+"ย่างเป็นทางการ ตัวเลือกปุ่มนี้จะแสดง**เฉพาะ**บนรายการแบบสอบถามที่เคยเริ่มต้น live session "
+"ไปแล้วเท่านั้น"
 
 #: ../../content/applications/marketing/surveys.rst:143
 msgid ""
@@ -15854,6 +15963,9 @@ msgid ""
 "particular line. When the :guilabel:`⋮ (three dots)` icon is clicked, a drop-"
 "down menu with some configuration-related options appear:"
 msgstr ""
+"เหนือปุ่มที่อยู่ทางด้านขวาสุดของรายการแบบสอบถาม ไอคอน :guilabel:`⋮ (สามจุด)` จะปรากฏขึ้นเ"
+"มื่อเคอร์เซอร์วางอยู่เหนือรายการนั้น เมื่อคลิกไอคอน :guilabel:`⋮ (สามจุด)` เมนูแบบดรอปดาวน์พ"
+"ร้อมตัวเลือกที่เกี่ยวข้องกับการกำหนดค่าจะปรากฏขึ้น:"
 
 #: ../../content/applications/marketing/surveys.rst:147
 msgid "The options are:"
@@ -15864,12 +15976,16 @@ msgid ""
 ":guilabel:`Edit Survey`: when clicked, Odoo reveals the survey form for that "
 "particular survey, which can then be modified in a number of different ways."
 msgstr ""
+":guilabel:`Edit Survey`: เมื่อคลิก Odoo จะแสดงฟอร์มแบบสอบถามสำหรับแบบสอบถามนั้นๆ ซึ่งส"
+"ามารถแก้ไขได้หลายวิธี"
 
 #: ../../content/applications/marketing/surveys.rst:151
 msgid ""
 ":guilabel:`Share`: when clicked, Odoo reveals the :guilabel:`Share a Survey` "
 "pop-up form that can be used to invite potential participants to the survey."
 msgstr ""
+":guilabel:`Share`: เมื่อคลิก Odoo จะแสดงฟอร์มป๊อปอัป :guilabel:`Share a Survey` ที่สา"
+"มารถใช้เชิญผู้เข้าร่วมที่มีศักยภาพไปยังแบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys.rst:153
 msgid ""
@@ -15878,18 +15994,22 @@ msgid ""
 "can do by clicking the :guilabel:`Delete` button at the bottom of the pop-up "
 "window."
 msgstr ""
+":guilabel:`Delete`: เมื่อคลิก Odoo จะแสดงหน้าต่างป๊อปอัป ซึ่งผู้ใช้**ต้อง**ยืนยันว่าต้องการลบแ"
+"บบสอบถามทั้งหมด ซึ่งสามารถทำได้โดยคลิกปุ่ม :guilabel:`Delete` ที่ด้านล่างของหน้าต่างป๊อปอัป"
 
 #: ../../content/applications/marketing/surveys.rst:156
 msgid ""
 ":guilabel:`Color`: users can opt to choose a color to add to the survey line "
 "on the dashboard for added organizational purposes, if needed."
 msgstr ""
+":guilabel:`Color`: ผู้ใช้สามารถเลือกสีเพื่อเพิ่มลงในรายการแบบสอบถามบนแดชบอร์ดเพื่อวัตถุประส"
+"งค์ในการจัดระเบียบเพิ่มเติมหากจำเป็น"
 
 #: ../../content/applications/marketing/surveys.rst:None
 msgid ""
 "The three-dot drop-down menu of options that appears on the Odoo Surveys "
 "dashboard."
-msgstr ""
+msgstr "เมนูแบบดรอปดาวน์สามจุดของตัวเลือกที่แสดงบนแดชบอร์ด Odoo Surveys"
 
 #: ../../content/applications/marketing/surveys.rst:163
 msgid ""
@@ -15898,12 +16018,15 @@ msgid ""
 "icon. When clicked, a mini pop-up window appears, from which activities "
 "related to that particular survey can be scheduled and customized."
 msgstr ""
+"ใต้ปุ่มที่อยู่ทางด้านขวาสุดของรายการแบบสอบถาม มีปุ่ม *Activities* ที่แสดงด้วยไอคอน "
+":guilabel:`🕘 (นาฬิกา)` เมื่อคลิก หน้าต่างป๊อปอัปขนาดเล็กจะปรากฏขึ้น ซึ่งสามารถกำหนดตารางแ"
+"ละปรับแต่งกิจกรรมที่เกี่ยวข้องกับแบบสอบถามนั้นๆ ได้"
 
 #: ../../content/applications/marketing/surveys.rst:None
 msgid ""
 "The Schedule Activities drop-down menu that appears on the Odoo Surveys "
 "dashboard."
-msgstr ""
+msgstr "เมนูแบบดรอปดาวน์ Schedule Activities ที่แสดงบนแดชบอร์ด Odoo Surveys"
 
 #: ../../content/applications/marketing/surveys.rst:174
 msgid ""
@@ -15911,26 +16034,29 @@ msgid ""
 "is also a list view option available in the upper-right corner, represented "
 "by a :guilabel:`≣ (bars)` icon."
 msgstr ""
+"แดชบอร์ด *Surveys* จะแสดงในมุมมองคัมบังตามค่าเริ่มต้น แต่ยังมีตัวเลือกมุมมองรายการที่มีอยู่ในมุมข"
+"วาบน ซึ่งแสดงด้วยไอคอน :guilabel:`≡ (แถบ)`"
 
 #: ../../content/applications/marketing/surveys.rst:177
 msgid ""
 "When the :guilabel:`≣ (bars)` icon is clicked, the survey related data is "
 "displayed in a list view."
 msgstr ""
+"เมื่อคลิกไอคอน :guilabel:`≡ (แถบ)` ข้อมูลที่เกี่ยวข้องกับแบบสอบถามจะแสดงในมุมมองรายการ"
 
 #: ../../content/applications/marketing/surveys.rst:None
 msgid "The list view option located on the Odoo Surveys application dashboard."
-msgstr ""
+msgstr "ตัวเลือกมุมมองรายการที่อยู่บนแดชบอร์ดแอปพลิเคชัน Odoo Surveys"
 
 #: ../../content/applications/marketing/surveys.rst:183
 msgid ""
 "The columns shown on the *Surveys* app dashboard, while in list view, are as "
 "follows:"
-msgstr ""
+msgstr "คอลัมน์ที่แสดงบนแดชบอร์ดแอป *Surveys* ขณะอยู่ในมุมมองรายการมีดังนี้:"
 
 #: ../../content/applications/marketing/surveys.rst:185
 msgid ":guilabel:`Survey Title`"
-msgstr ""
+msgstr ":guilabel:`Survey Title`"
 
 #: ../../content/applications/marketing/surveys.rst:186
 msgid ":guilabel:`Responsible`"
@@ -15938,7 +16064,7 @@ msgstr ":guilabel:`ผู้รับผิดชอบ`"
 
 #: ../../content/applications/marketing/surveys.rst:187
 msgid ":guilabel:`Average Duration`"
-msgstr ""
+msgstr ":guilabel:`Average Duration`"
 
 #: ../../content/applications/marketing/surveys.rst:188
 msgid ":guilabel:`Registered`"
@@ -15946,11 +16072,11 @@ msgstr ":guilabel:`ลงทะเบียนแล้ว`"
 
 #: ../../content/applications/marketing/surveys.rst:189
 msgid ":guilabel:`Success Ratio (%)`"
-msgstr ""
+msgstr ":guilabel:`Success Ratio (%)`"
 
 #: ../../content/applications/marketing/surveys.rst:190
 msgid ":guilabel:`Avg Score (%)`"
-msgstr ""
+msgstr ":guilabel:`คะแนนเฉลี่ย (%)`"
 
 #: ../../content/applications/marketing/surveys.rst:193
 msgid ""
@@ -15959,10 +16085,13 @@ msgid ""
 "located to the far-right of the column titles, represented by "
 "a :guilabel:`(slider with two dots)` icon."
 msgstr ""
+"สามารถเพิ่มคอลัมน์เพิ่มเติมไปยังแดชบอร์ดของแอปพลิเคชัน *แบบสอบถาม* ได้ในขณะที่อยู่ในมุมมองรายก"
+"าร โดยคลิกที่เมนูดรอปดาวน์ *ตัวเลือกเพิ่มเติม* ซึ่งอยู่ที่ด้านขวาสุดของหัวคอลัมน์ แสดงด้วยไอคอน "
+":guilabel:`(สไลเดอร์ที่มีจุดสองจุด)`"
 
 #: ../../content/applications/marketing/surveys.rst:198
 msgid "Activities view"
-msgstr ""
+msgstr "มุมมองกิจกรรม"
 
 #: ../../content/applications/marketing/surveys.rst:200
 msgid ""
@@ -16128,12 +16257,14 @@ msgid ""
 "displayed in the default list view, there is a :guilabel:`See results` "
 "button."
 msgstr ""
+"บนแดชบอร์ด :guilabel:`แบบสอบถาม` ทางด้านขวาสุดของแต่ละบรรทัดของแบบสอบถามที่แสดงในมุมม"
+"องรายการเริ่มต้น จะมีปุ่ม :guilabel:`ดูผลลัพธ์`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The 'See Results' button present on the main dashboard of the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "ปุ่ม 'ดูผลลัพธ์' ที่ปรากฏบนแดชบอร์ดหลักของแอปพลิเคชัน Odoo แบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:37
 msgid ""
@@ -16142,12 +16273,16 @@ msgid ""
 "results and responses, with an informative :guilabel:`Results Overview` and "
 "some filtering drop-down menus at the top."
 msgstr ""
+"เมื่อคลิกปุ่ม :guilabel:`ดูผลลัพธ์` แท็บเบราว์เซอร์ใหม่จะเปิดขึ้น แสดงหน้าแยกต่างหากที่เต็มไปด้วยผ"
+"ลลัพธ์และคำตอบทั้งหมดของแบบสอบถามนั้นๆ พร้อมด้วย :guilabel:`ภาพรวมผลลัพธ์` ที่ให้ข้อมูลและเม"
+"นูดรอปดาวน์สำหรับกรองบางส่วนที่ด้านบน"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical survey results page when 'See results' is clicked from the Odoo "
 "Surveys dashboard."
 msgstr ""
+"หน้าผลลัพธ์แบบสอบถามทั่วไปเมื่อคลิก 'ดูผลลัพธ์' จากแดชบอร์ด Odoo แบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:45
 msgid ""
@@ -16155,12 +16290,15 @@ msgid ""
 "middle of a blue header banner. When clicked, Odoo returns the user to the "
 "survey form for that particular survey."
 msgstr ""
+"ที่ด้านบนของหน้า มีลิงก์ :guilabel:`แก้ไขแบบสอบถาม` อยู่ตรงกลางของแบนเนอร์ส่วนหัวสีน้ำเงิน เมื่"
+"อคลิก Odoo จะนำผู้ใช้กลับไปยังฟอร์มแบบสอบถามสำหรับแบบสอบถามนั้นๆ"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:48
 msgid ""
 "Beneath that, is the title of the survey, and its description, if one was "
 "configured for it on its survey form."
 msgstr ""
+"ด้านล่างนั้น คือชื่อของแบบสอบถามและคำอธิบาย หากมีการกำหนดค่าไว้ในฟอร์มแบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:51
 msgid ""
@@ -16168,6 +16306,8 @@ msgid ""
 "filtering options, which can be used to personalize and segment the survey "
 "results in a number of different ways."
 msgstr ""
+"ทางด้านขวาของชื่อแบบสอบถาม มีเมนูดรอปดาวน์สองรายการพร้อมตัวเลือกการกรองต่างๆ ซึ่งสามารถใช้"
+"เพื่อปรับแต่งและแบ่งกลุ่มผลลัพธ์แบบสอบถามในหลายวิธี"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:54
 msgid ""
@@ -16176,24 +16316,31 @@ msgid ""
 "from all the submitted surveys, regardless if they have been fully completed "
 "or not."
 msgstr ""
+"เมนูดรอปดาวน์การกรองแรกถูกตั้งค่าที่ตัวเลือกเริ่มต้น :guilabel:`แบบสอบถามทั้งหมด` ซึ่งหมายความ"
+"ว่าผลลัพธ์ด้านล่างกำลังแสดงผลลัพธ์และคำตอบจากแบบสอบถามที่ส่งทั้งหมด โดยไม่คำนึงว่าจะกรอกเสร็จส"
+"มบูรณ์หรือไม่"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:58
 msgid ""
 "When that drop-down menu is clicked open, another "
 "option, :guilabel:`Completed surveys`, appears."
 msgstr ""
+"เมื่อคลิกเปิดเมนูดรอปดาวน์นั้น ตัวเลือกอื่นคือ :guilabel:`แบบสอบถามที่เสร็จสมบูรณ์` จะปรากฏขึ้น"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The 'All surveys' drop-down menu opened on the 'See results' page of the "
 "Odoo Surveys app."
 msgstr ""
+"เมนูดรอปดาวน์ 'แบบสอบถามทั้งหมด' ที่เปิดอยู่บนหน้า 'ดูผลลัพธ์' ของแอป Odoo แบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:64
 msgid ""
 "With that drop-down menu open, the number corresponding to each filter "
 "option appears to the right of each option."
 msgstr ""
+"เมื่อเมนูดรอปดาวน์นั้นเปิดอยู่ ตัวเลขที่สอดคล้องกับแต่ละตัวเลือกการกรองจะปรากฏทางด้านขวาของแต่ละ"
+"ตัวเลือก"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:67
 msgid ""
@@ -16201,6 +16348,8 @@ msgid ""
 "menu of filter options that can be used to further customize the results "
 "showcased on this page."
 msgstr ""
+"ทางด้านขวาของเมนูดรอปดาวน์ตัวเลือกการกรองนั้น มีเมนูดรอปดาวน์ตัวเลือกการกรองอีกรายการหนึ่งที่ส"
+"ามารถใช้เพื่อปรับแต่งผลลัพธ์ที่แสดงบนหน้านี้เพิ่มเติม"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:70
 msgid ""
@@ -16208,6 +16357,8 @@ msgid ""
 "default. This option shows the results and responses from all participants "
 "who have passed or failed this particular survey."
 msgstr ""
+"เมนูดรอปดาวน์นั้นถูกตั้งค่าที่ตัวเลือก :guilabel:`ผ่านและไม่ผ่าน` ตามค่าเริ่มต้น ตัวเลือกนี้แสดงผลลัพ"
+"ธ์และคำตอบจากผู้เข้าร่วมทั้งหมดที่ผ่านหรือไม่ผ่านแบบสอบถามนี้"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:75
 msgid ""
@@ -16215,6 +16366,8 @@ msgid ""
 "being analyzed has a *Scoring* option configured, or if the *Is a "
 "Certification* feature has been enabled."
 msgstr ""
+"เมนูดรอปดาวน์ตัวเลือกการกรองที่สองนี้จะปรากฏ**เฉพาะ**เมื่อแบบสอบถามที่กำลังวิเคราะห์มีการกำหน"
+"ดค่าตัวเลือก *การให้คะแนน* หรือหากเปิดใช้งานฟีเจอร์ *เป็นใบรับรอง* แล้ว"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:78
 msgid ""
@@ -16222,12 +16375,14 @@ msgid ""
 "additional options appear: :guilabel:`Passed only` and :guilabel:`Failed "
 "only`."
 msgstr ""
+"เมื่อคลิกเปิดเมนูดรอปดาวน์ตัวเลือกการกรองที่สองนั้น ตัวเลือกเพิ่มเติมสองรายการจะปรากฏขึ้น: "
+":guilabel:`ผ่านเท่านั้น` และ :guilabel:`ไม่ผ่านเท่านั้น`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The 'Passed and Failed' drop-down menu on the 'See results' page of the Odoo "
 "Surveys app."
-msgstr ""
+msgstr "เมนูดรอปดาวน์ 'ผ่านและไม่ผ่าน' บนหน้า 'ดูผลลัพธ์' ของแอป Odoo แบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:85
 msgid ""
@@ -16235,24 +16390,30 @@ msgid ""
 "participants who have passed the survey, or who have failed the survey, "
 "respectively."
 msgstr ""
+"แต่ละตัวเลือกจะกรองผลลัพธ์ด้านล่างเพื่อแสดงเฉพาะคำตอบจากผู้เข้าร่วมที่ผ่านแบบสอบถาม หรือผู้ที่ไม่ผ่า"
+"นแบบสอบถามตามลำดับ"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:88
 msgid ""
 "Directly beneath the survey title, there is a :guilabel:`Print` button. When "
 "clicked, the entire results page can be printed."
 msgstr ""
+"ใต้หัวเรื่องของแบบสอบถามโดยตรง มีปุ่ม :guilabel:`พิมพ์` เมื่อคลิก หน้าผลลัพธ์ทั้งหมดสามารถพิมพ์ไ"
+"ด้"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:91
 msgid ""
 "The :guilabel:`Results Overview` section is below the survey title, filter "
 "option drop-down menus, and :guilabel:`Print` button."
 msgstr ""
+"ส่วน :guilabel:`ภาพรวมผลลัพธ์` อยู่ด้านล่างหัวเรื่องแบบสอบถาม เมนูแบบเลื่อนลงของตัวเลือกตัวกร"
+"อง และปุ่ม :guilabel:`พิมพ์`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The 'Results Overview' section on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "ส่วน 'ภาพรวมผลลัพธ์' ในหน้า 'ดูผลลัพธ์' ของแอปพลิเคชัน Odoo แบบสอบถาม"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:98
 msgid ""
@@ -18683,6 +18844,141 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "ตัวอย่างลักษณะของตราสัญลักษณ์ในส่วนอบรมออนไลน์ของเว็บไซต์"
+
+#~ msgid ""
+#~ "With Odoo *Events*, users can utilize a fully-integrated event website, "
+#~ "where attendees can quickly access various tracks (talks, presentations, "
+#~ "etc.), view entire agendas, and propose talks for the event."
+#~ msgstr ""
+#~ "ด้วย Odoo *Events* ผู้ใช้สามารถใช้เว็บไซต์อีเวนต์ที่ผสานรวมอย่างสมบูรณ์ "
+#~ "ซึ่งผู้เข้าร่วมสามารถเข้าถึงแทร็กต่างๆ (การบรรยาย การนำเสนอ ฯลฯ) ดูวาระการประชุมทั้งหมด "
+#~ "และเสนอหัวข้อการบรรยายสำหรับอีเวนต์ได้อย่างรวดเร็ว"
+
+#~ msgid ""
+#~ "To access an event website, navigate to the specific event form in the "
+#~ "Odoo *Events* app, and click the :guilabel:`Go to Website` smart button. "
+#~ "Or, while on the Odoo-built website for the company, click "
+#~ "the :guilabel:`Events` header option, and select the desired event to "
+#~ "view that event's website."
+#~ msgstr ""
+#~ "ในการเข้าถึงเว็บไซต์อีเวนต์ ให้ไปที่ฟอร์มอีเวนต์เฉพาะในแอป Odoo *Events* "
+#~ "และคลิกปุ่มสมาร์ท :guilabel:`ไปที่เว็บไซต์` หรือขณะอยู่บนเว็บไซต์ที่สร้างด้วย Odoo "
+#~ "สำหรับบริษัท ให้คลิกตัวเลือกส่วนหัว :guilabel:`อีเวนต์` "
+#~ "และเลือกอีเวนต์ที่ต้องการเพื่อดูเว็บไซต์ของอีเวนต์นั้น"
+
+#~ msgid ""
+#~ "On the event website, there is an event-specific subheader menu with "
+#~ "different options to choose from."
+#~ msgstr "บนเว็บไซต์อีเวนต์ จะมีเมนูย่อยส่วนหัวเฉพาะอีเวนต์ที่มีตัวเลือกต่างๆ ให้เลือก"
+
+#~ msgid ""
+#~ "With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, "
+#~ "the following links are automatically added to the subheader menu, "
+#~ "located on the event website: :guilabel:`Talks`, :guilabel:`Talk "
+#~ "Proposals`, and :guilabel:`Agenda`."
+#~ msgstr ""
+#~ "เมื่อเปิดใช้งานการตั้งค่า *Schedule & Tracks* ในแอป Odoo *Events* แล้ว "
+#~ "ลิงก์ต่อไปนี้จะถูกเพิ่มลงในเมนูย่อยส่วนหัวที่อยู่บนเว็บไซต์อีเวนต์โดยอัตโนมัติ: :guilabel:`การบรรยาย` :guilabel:`ข้อเสนอการบรรยาย` "
+#~ "และ :guilabel:`วาระการประชุม`"
+
+#~ msgid ""
+#~ "To enable the :guilabel:`Schedule & Tracks` setting, navigate "
+#~ "to :menuselection:`Events app --> Configuration --> Settings`, tick the "
+#~ "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+#~ msgstr ""
+#~ "ในการเปิดใช้งานการตั้งค่า :guilabel:`Schedule & Tracks` "
+#~ "ให้ไปที่ :menuselection:`แอป Events --> การกำหนดค่า --> การตั้งค่า` "
+#~ "ทำเครื่องหมายในช่องถัดจาก :guilabel:`Schedule & Tracks` "
+#~ "และคลิก :guilabel:`บันทึก`"
+
+#~ msgid "Talks page"
+#~ msgstr "หน้าการบรรยาย"
+
+#~ msgid ""
+#~ "In addition to the form, an introduction to the page, along with any "
+#~ "other pertinent information related to the types of talks the event will "
+#~ "feature can be added, if needed."
+#~ msgstr ""
+#~ "นอกจากฟอร์มแล้ว คุณสามารถเพิ่มข้อมูลเบื้องต้นของหน้าเว็บ พร้อมกับข้อมูลที่เกี่ยวข้องอื่นๆ "
+#~ "เกี่ยวกับประเภทของการบรรยายที่อีเวนต์จะนำเสนอได้หากจำเป็น"
+
+#~ msgid ""
+#~ "The talk proposal form can be modified in a number of different ways, via "
+#~ "the web builder tools, accessible by clicking :guilabel:`Edit` while on "
+#~ "the specific page."
+#~ msgstr ""
+#~ "คุณสามารถแก้ไขฟอร์มเสนอการบรรยายได้หลายวิธีผ่านเครื่องมือสร้างเว็บ "
+#~ "โดยเข้าถึงได้โดยคลิก :guilabel:`แก้ไข` ขณะอยู่ในหน้านั้นๆ"
+
+#~ msgid ""
+#~ "Then, proceed to edit any of the default fields, or add new forms with "
+#~ "the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
+#~ "section of the web builder tools sidebar)."
+#~ msgstr ""
+#~ "จากนั้น แก้ไขฟิลด์เริ่มต้นใดก็ได้ หรือเพิ่มฟอร์มใหม่ด้วยบล็อกสร้าง :guilabel:`ฟอร์ม` "
+#~ "(อยู่ในส่วน :guilabel:`บล็อก` ของแถบด้านข้างเครื่องมือสร้างเว็บ)"
+
+#~ msgid ""
+#~ "Once all the necessary information is entered into the form, the "
+#~ "attendees just need to click the :guilabel:`Submit Proposal` button."
+#~ msgstr ""
+#~ "เมื่อกรอกข้อมูลที่จำเป็นทั้งหมดในฟอร์มแล้ว "
+#~ "ผู้เข้าร่วมอีเวนต์เพียงแค่คลิกปุ่ม :guilabel:`ส่งข้อเสนอ`"
+
+#~ msgid ""
+#~ "Then, that talk, and all the information entered on the form, can be "
+#~ "accessed on the :guilabel:`Event Tracks` page for that specific event in "
+#~ "the :guilabel:`Proposal` stage, which is accessible via "
+#~ "the :guilabel:`Tracks` smart button on the event form."
+#~ msgstr ""
+#~ "จากนั้น "
+#~ "การบรรยายนั้นและข้อมูลทั้งหมดที่กรอกในฟอร์มสามารถเข้าถึงได้ที่หน้า :guilabel:`แทร็กอีเวนต์` "
+#~ "สำหรับอีเวนต์นั้นๆ ในขั้นตอน :guilabel:`ข้อเสนอ` "
+#~ "ซึ่งเข้าถึงได้ผ่านปุ่มอัจฉริยะ :guilabel:`แทร็ก` ในฟอร์มอีเวนต์"
+
+#~ msgid ""
+#~ "At that point, an internal user can review the proposed talk, and choose "
+#~ "to accept or deny the proposal."
+#~ msgstr ""
+#~ "ณ จุดนั้น ผู้ใช้ภายในสามารถตรวจสอบการบรรยายที่เสนอและเลือกที่จะอนุมัติหรือปฏิเสธข้อเสนอได้"
+
+#~ msgid ""
+#~ "If accepted, the internal user can then move the track to the next "
+#~ "appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
+#~ "page for the event. Then, they can open that track form, and click "
+#~ "the :guilabel:`Go to Website` smart button to reveal that track's page on "
+#~ "the event website."
+#~ msgstr ""
+#~ "หากอนุมัติแล้ว ผู้ใช้ภายในสามารถย้ายแทร็กไปยังขั้นตอนที่เหมาะสมถัดไปในไปป์ไลน์ Kanban "
+#~ "บนหน้า :guilabel:`แทร็กอีเวนต์` สำหรับอีเวนต์ "
+#~ "จากนั้นเปิดฟอร์มแทร็กนั้นและคลิกปุ่มอัจฉริยะ :guilabel:`ไปที่เว็บไซต์` "
+#~ "เพื่อแสดงหน้าของแทร็กนั้นบนเว็บไซต์อีเวนต์"
+
+#~ msgid ""
+#~ "From there, they can toggle the :guilabel:`Unpublished` switch in the "
+#~ "header to :guilabel:`Published`, which allows all event attendees to view "
+#~ "and access the talk."
+#~ msgstr ""
+#~ "จากนั้น พวกเขาสามารถสลับสวิตช์ :guilabel:`ยังไม่เผยแพร่` "
+#~ "ในส่วนหัวไปเป็น :guilabel:`เผยแพร่แล้ว` "
+#~ "ซึ่งทำให้ผู้เข้าร่วมอีเวนต์ทุกคนสามารถดูและเข้าถึงการบรรยายได้"
+
+#~ msgid "Agenda page"
+#~ msgstr "หน้ากำหนดการ"
+
+#~ msgid ""
+#~ "The :guilabel:`Agenda` link takes attendees to a page on the event "
+#~ "website, showcasing an event calendar, depicting when (and where) events "
+#~ "are taking place for that specific event."
+#~ msgstr ""
+#~ "ลิงก์ :guilabel:`กำหนดการ` นำผู้เข้าร่วมไปยังหน้าบนเว็บไซต์อีเวนต์ที่แสดงปฏิทินอีเวนต์ "
+#~ "โดยระบุว่าอีเวนต์จะจัดขึ้นเมื่อใด (และที่ไหน) สำหรับอีเวนต์นั้นๆ"
+
+#~ msgid ""
+#~ "Clicking any track on the calendar takes the attendee to that specific "
+#~ "track's detail page on the event website."
+#~ msgstr ""
+#~ "การคลิกแทร็กใดๆ บนปฏิทินจะนำผู้เข้าร่วมไปยังหน้ารายละเอียดของแทร็กนั้นๆ บนเว็บไซต์อีเวนต์"
 
 #~ msgid ""
 #~ "The :guilabel:`Event Gamification` feature lets users share a quiz after "

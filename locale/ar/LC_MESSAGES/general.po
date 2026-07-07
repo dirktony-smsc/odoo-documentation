@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:21+0000\n"
-"PO-Revision-Date: 2026-06-10 00:53+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 15:34+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19-doc/"
 "general/ar/>\n"
 "Language: ar\n"
@@ -639,9 +639,10 @@ msgid ""
 "to :menuselection:`Settings app --> Emails section`, activate "
 "the :guilabel:`Digest Emails` feature, and click :guilabel:`Save`."
 msgstr ""
-"لبدء إرسال رسائل الملخص الإلكترونية، ابدأ بالانتقال إلى :menuselection:`تطبيق "
-"الإعدادات --> قسم رسائل البريد الإلكتروني`، وقم بتفعيل ميزة :guilabel:`رسائل "
-"الملخص الإلكترونية`، ثم انقر على :guilabel:`حفظ`."
+"لبدء إرسال رسائل الملخص الإلكترونية، ابدأ بالانتقال "
+"إلى :menuselection:`تطبيق الإعدادات --> قسم رسائل البريد الإلكتروني`، وقم "
+"بتفعيل ميزة :guilabel:`رسائل الملخص الإلكترونية`، ثم انقر "
+"على :guilabel:`حفظ`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:None
 msgid "Digest Emails section inside General Settings."
@@ -707,10 +708,10 @@ msgid ""
 "un-ticking the checkbox, and clicking :guilabel:`Save`. See the section "
 "on :ref:`digest-emails/deactivate`."
 msgstr ""
-"لإلغاء تفعيل رسالة الملخص الإلكترونية، انتقل إلى :menuselection:`الإعدادات --> "
-"قسم رسائل البريد الإلكتروني`. ثم، قم بإلغاء تفعيل ميزة :guilabel:`رسائل "
-"الملخص الإلكترونية`، عن طريق إلغاء تحديد مربع الاختيار، والنقر على "
-":guilabel:`حفظ`. راجع القسم الخاص بـ :ref:`digest-emails/deactivate`."
+"لإلغاء تفعيل رسالة الملخص الإلكترونية، انتقل إلى :menuselection:`الإعدادات --"
+"> قسم رسائل البريد الإلكتروني`. ثم، قم بإلغاء تفعيل ميزة :guilabel:`رسائل "
+"الملخص الإلكترونية`، عن طريق إلغاء تحديد مربع الاختيار، والنقر "
+"على :guilabel:`حفظ`. راجع القسم الخاص بـ :ref:`digest-emails/deactivate`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:38
 msgid "Customize default digest email"
@@ -2881,9 +2882,9 @@ msgid ""
 "depending on the URL used to log in to the database."
 msgstr ""
 "في قسم :guilabel:`عنوان URL لإعادة التوجيه`، حدد :guilabel:`ويب` كمنصة، ثم "
-"أدخل `https://<web base url>/microsoft_outlook/confirm` في حقل "
-":guilabel:`عنوان URL`. يخضع `web.base.url` للتغيير حسب عنوان URL المستخدم "
-"لتسجيل الدخول إلى قاعدة البيانات."
+"أدخل `https://<web base url>/microsoft_outlook/confirm` في "
+"حقل :guilabel:`عنوان URL`. يخضع `web.base.url` للتغيير حسب عنوان URL "
+"المستخدم لتسجيل الدخول إلى قاعدة البيانات."
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:41
 msgid ""
@@ -9207,8 +9208,8 @@ msgid ""
 "also change if the browser is in *Incognito* mode."
 msgstr ""
 "إذا ظل اللوح فارغًا بعد فترة قصيرة، فمن المحتمل أن إعدادات ملفات تعريف "
-"الارتباط في المتصفح منعته من التحميل. لاحظ أن هذه الإعدادات تتغير أيضًا إذا كان "
-"المتصفح في وضع *التصفح المتخفي*."
+"الارتباط في المتصفح منعته من التحميل. لاحظ أن هذه الإعدادات تتغير أيضًا إذا "
+"كان المتصفح في وضع *التصفح المتخفي*."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:94
 msgid ""
@@ -9273,9 +9274,9 @@ msgid ""
 "the :guilabel:`Apps` button in the upper right-side, and "
 "select :guilabel:`Odoo Inbox Addin` to open the panel."
 msgstr ""
-"لاستخدام المكون الإضافي، افتح أي بريد إلكتروني في صندوق بريد Outlook، انقر على "
-"زر :guilabel:`التطبيقات` في الجانب الأيمن العلوي، واختر :guilabel:`Odoo Inbox "
-"Addin` لفتح اللوح."
+"لاستخدام المكون الإضافي، افتح أي بريد إلكتروني في صندوق بريد Outlook، انقر "
+"على زر :guilabel:`التطبيقات` في الجانب الأيمن العلوي، واختر :guilabel:`Odoo "
+"Inbox Addin` لفتح اللوح."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:128
 msgid ""
@@ -9294,8 +9295,8 @@ msgid ""
 "To create a contact record in Odoo from an email, click the :icon:`fa-plus-"
 "circle` :guilabel:`(circle plus)` icon."
 msgstr ""
-"لإنشاء سجل جهة اتصال في Odoo من بريد إلكتروني، انقر على أيقونة :icon:`fa-plus-"
-"circle` :guilabel:`(دائرة زائد)`."
+"لإنشاء سجل جهة اتصال في Odoo من بريد إلكتروني، انقر على أيقونة :icon:`fa-"
+"plus-circle` :guilabel:`(دائرة زائد)`."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:137
 msgid ""
@@ -9315,10 +9316,11 @@ msgid ""
 "email is used as the opportunity title, and the content of the email is "
 "added to the :guilabel:`Notes` tab of the opportunity."
 msgstr ""
-"لإنشاء فرصة من بريد إلكتروني، انقر على أيقونة :icon:`fa-plus` :guilabel:`"
-"(زائد)` بجوار :guilabel:`الفرص`. سيؤدي ذلك إلى فتح سجل فرصة جديد في Odoo في "
-"علامة تبويب جديدة. يُستخدم موضوع البريد الإلكتروني كعنوان للفرصة، ويُضاف محتوى "
-"البريد الإلكتروني إلى علامة تبويب :guilabel:`الملاحظات` في الفرصة."
+"لإنشاء فرصة من بريد إلكتروني، انقر على أيقونة :icon:`fa-"
+"plus` :guilabel:`(زائد)` بجوار :guilabel:`الفرص`. سيؤدي ذلك إلى فتح سجل فرصة "
+"جديد في Odoo في علامة تبويب جديدة. يُستخدم موضوع البريد الإلكتروني كعنوان "
+"للفرصة، ويُضاف محتوى البريد الإلكتروني إلى علامة تبويب :guilabel:`الملاحظات` "
+"في الفرصة."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:148
 msgid "Create a task"
@@ -9333,12 +9335,12 @@ msgid ""
 "Odoo in a new tab. The subject of the email is used as the task title, and "
 "the content of the email is added to the :guilabel:`Description` tab."
 msgstr ""
-"لإنشاء مهمة من بريد إلكتروني، انقر على أيقونة :icon:`fa-plus` :guilabel:`"
-"(زائد)` بجوار :guilabel:`المهام`. ثم، أدخل عنوان المشروع حيث يجب إنشاء "
-"المهمة في الحقل الناتج، واختر المشروع المناسب من القائمة الناتجة. سيؤدي ذلك "
-"إلى فتح سجل مهمة جديد في Odoo في علامة تبويب جديدة. يُستخدم موضوع البريد "
-"الإلكتروني كعنوان للمهمة، ويُضاف محتوى البريد الإلكتروني إلى علامة تبويب "
-":guilabel:`الوصف`."
+"لإنشاء مهمة من بريد إلكتروني، انقر على أيقونة :icon:`fa-"
+"plus` :guilabel:`(زائد)` بجوار :guilabel:`المهام`. ثم، أدخل عنوان المشروع "
+"حيث يجب إنشاء المهمة في الحقل الناتج، واختر المشروع المناسب من القائمة "
+"الناتجة. سيؤدي ذلك إلى فتح سجل مهمة جديد في Odoo في علامة تبويب جديدة. "
+"يُستخدم موضوع البريد الإلكتروني كعنوان للمهمة، ويُضاف محتوى البريد الإلكتروني "
+"إلى علامة تبويب :guilabel:`الوصف`."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:157
 msgid "Create a ticket"
@@ -9352,10 +9354,11 @@ msgid ""
 "content of the email is added to the :guilabel:`Description` tab of the "
 "ticket."
 msgstr ""
-"لإنشاء تذكرة من بريد إلكتروني، انقر على أيقونة :icon:`fa-plus` :guilabel:`"
-"(زائد)` بجوار :guilabel:`التذاكر`. سيؤدي ذلك إلى فتح سجل تذكرة جديد في Odoo "
-"في علامة تبويب جديدة. يُستخدم موضوع البريد الإلكتروني كعنوان للتذكرة، ويُضاف "
-"محتوى البريد الإلكتروني إلى علامة تبويب :guilabel:`الوصف` في التذكرة."
+"لإنشاء تذكرة من بريد إلكتروني، انقر على أيقونة :icon:`fa-"
+"plus` :guilabel:`(زائد)` بجوار :guilabel:`التذاكر`. سيؤدي ذلك إلى فتح سجل "
+"تذكرة جديد في Odoo في علامة تبويب جديدة. يُستخدم موضوع البريد الإلكتروني "
+"كعنوان للتذكرة، ويُضاف محتوى البريد الإلكتروني إلى علامة "
+"تبويب :guilabel:`الوصف` في التذكرة."
 
 #: ../../content/applications/general/integrations/unsplash.rst:3
 msgid "Unsplash"
@@ -9570,8 +9573,8 @@ msgid ""
 "Connect the IoT system to your Odoo database and troubleshoot potential "
 "connection issues."
 msgstr ""
-"توصيل نظام إنترنت الأشياء بقاعدة بيانات Odoo الخاصة بك واستكشاف مشكلات الاتصال "
-"المحتملة."
+"توصيل نظام إنترنت الأشياء بقاعدة بيانات Odoo الخاصة بك واستكشاف مشكلات "
+"الاتصال المحتملة."
 
 #: ../../content/applications/general/iot.rst:63
 #: ../../content/applications/general/iot/devices.rst:7
@@ -9583,10 +9586,11 @@ msgid ""
 "Connect devices such as printers, screens, measurement tools, etc., to the "
 "IoT system."
 msgstr ""
-"توصيل الأجهزة مثل الطابعات والشاشات وأدوات القياس وغيرها بنظام إنترنت الأشياء."
+"توصيل الأجهزة مثل الطابعات والشاشات وأدوات القياس وغيرها بنظام إنترنت "
+"الأشياء."
 
 #: ../../content/applications/general/iot.rst:68
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:5
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:3
 msgid "Troubleshooting"
 msgstr "Troubleshooting"
 
@@ -9815,8 +9819,8 @@ msgstr ""
 "انسخ :guilabel:`الرمز المميز`."
 
 #: ../../content/applications/general/iot/connect.rst:90
-#: ../../content/applications/general/iot/connect.rst:141
-#: ../../content/applications/general/iot/devices/printer.rst:181
+#: ../../content/applications/general/iot/connect.rst:144
+#: ../../content/applications/general/iot/devices/printer.rst:186
 msgid ""
 "Access the :ref:`IoT box's <iot/iot-box/homepage>` or :ref:`Windows virtual "
 "IoT's <iot/windows-iot/homepage>` homepage."
@@ -9912,19 +9916,26 @@ msgstr ""
 "التشغيل تلقائيًا في كل مرة يتم فيها إعادة تشغيل نظام IoT. لتعطيل التحديثات "
 "التلقائية، قم بإلغاء تحديد خيار :guilabel:`التحديث التلقائي لبرامج التشغيل`."
 
-#: ../../content/applications/general/iot/connect.rst:131
+#: ../../content/applications/general/iot/connect.rst:127
+msgid ""
+"On the :ref:`IoT system's form <iot/connect/IoT-form>`, click "
+"the :guilabel:`Test` button to test the connection between the IoT system "
+"and Odoo and assess the quality of the system's Internet connection."
+msgstr ""
+
+#: ../../content/applications/general/iot/connect.rst:134
 msgid "Disconnecting an IoT system from a database"
 msgstr "فصل نظام IoT من قاعدة بيانات"
 
-#: ../../content/applications/general/iot/connect.rst:133
+#: ../../content/applications/general/iot/connect.rst:136
 msgid "To disconnect the IoT system from a database, follow these steps:"
 msgstr "لفصل نظام IoT من قاعدة بيانات، اتبع الخطوات التالية:"
 
-#: ../../content/applications/general/iot/connect.rst:135
+#: ../../content/applications/general/iot/connect.rst:138
 msgid "Open the IoT app and click the relevant IoT system's card."
 msgstr "افتح تطبيق IoT وانقر على بطاقة نظام IoT المعني."
 
-#: ../../content/applications/general/iot/connect.rst:136
+#: ../../content/applications/general/iot/connect.rst:139
 msgid ""
 "Click the :icon:`fa-cog` :guilabel:`(Actions)` icon, and "
 "select :guilabel:`Delete`."
@@ -9932,11 +9943,11 @@ msgstr ""
 "انقر على أيقونة :icon:`fa-cog` :guilabel:`(الإجراءات)`، "
 "واختر :guilabel:`حذف`."
 
-#: ../../content/applications/general/iot/connect.rst:139
+#: ../../content/applications/general/iot/connect.rst:142
 msgid "Alternatively:"
 msgstr "بدلاً من ذلك:"
 
-#: ../../content/applications/general/iot/connect.rst:143
+#: ../../content/applications/general/iot/connect.rst:146
 msgid ""
 "Click :guilabel:`Configure` in the :icon:`fa-link` :guilabel:`Odoo database "
 "connected` section."
@@ -9944,15 +9955,15 @@ msgstr ""
 "انقر على :guilabel:`تكوين` في قسم :icon:`fa-link` :guilabel:`قاعدة بيانات "
 "Odoo متصلة`."
 
-#: ../../content/applications/general/iot/connect.rst:145
+#: ../../content/applications/general/iot/connect.rst:148
 msgid "Click :guilabel:`Disconnect` in the popup that opens."
 msgstr "انقر على :guilabel:`قطع الاتصال` في النافذة المنبثقة التي تفتح."
 
-#: ../../content/applications/general/iot/connect.rst:150
+#: ../../content/applications/general/iot/connect.rst:153
 msgid "HTTPS certificate"
 msgstr "شهادة HTTPS"
 
-#: ../../content/applications/general/iot/connect.rst:152
+#: ../../content/applications/general/iot/connect.rst:155
 msgid ""
 ":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` is the secure, encrypted "
 "version of :abbr:`HTTP (Hypertext Transfer Protocol)`. It uses :abbr:`TLS "
@@ -9969,7 +9980,7 @@ msgstr ""
 "الشبكة، مثل أجهزة الدفع، شهادة HTTPS صالحة للتواصل مع نظام إنترنت الأشياء؛ "
 "وبدونها، لا يمكنها التفاعل بشكل صحيح."
 
-#: ../../content/applications/general/iot/connect.rst:160
+#: ../../content/applications/general/iot/connect.rst:163
 msgid ""
 "In this documentation and throughout Odoo, the term *HTTPS certificate*  "
 "refers to a valid SSL certificate that allows an HTTPS connection."
@@ -9977,7 +9988,7 @@ msgstr ""
 "في هذه الوثائق وفي جميع أنحاء Odoo، يشير مصطلح *شهادة HTTPS* إلى شهادة SSL "
 "صالحة تسمح باتصال HTTPS."
 
-#: ../../content/applications/general/iot/connect.rst:163
+#: ../../content/applications/general/iot/connect.rst:166
 msgid ""
 "When the IoT system is (re-)started and connected to a database, it "
 "automatically downloads the HTTPS certificate if the database meets the "
@@ -9987,7 +9998,7 @@ msgstr ""
 "فإنه يقوم تلقائيًا بتنزيل شهادة HTTPS إذا كانت قاعدة البيانات تستوفي معايير "
 "الأهلية التالية:"
 
-#: ../../content/applications/general/iot/connect.rst:168
+#: ../../content/applications/general/iot/connect.rst:171
 msgid ""
 "The database must be a **production** instance. The database instance should "
 "not be a copy, a duplicate, a staging, or a development environment."
@@ -9995,15 +10006,15 @@ msgstr ""
 "يجب أن تكون قاعدة البيانات نسخة **إنتاجية**. لا ينبغي أن تكون نسخة من قاعدة "
 "البيانات أو نسخة مكررة أو بيئة تجهيزية أو بيئة تطوير."
 
-#: ../../content/applications/general/iot/connect.rst:170
+#: ../../content/applications/general/iot/connect.rst:173
 msgid "The Odoo subscription must be ongoing (:guilabel:`In Progress` status)."
 msgstr "يجب أن يكون اشتراك Odoo ساريًا (الحالة :guilabel:`قيد التقدم`)."
 
-#: ../../content/applications/general/iot/connect.rst:172
+#: ../../content/applications/general/iot/connect.rst:175
 msgid "When the certificate has been received:"
 msgstr "عندما يتم استلام الشهادة:"
 
-#: ../../content/applications/general/iot/connect.rst:174
+#: ../../content/applications/general/iot/connect.rst:177
 msgid ""
 "The IoT system's homepage address is updated to a new HTTPS URL ending with "
 "`.odoo-iot.com`."
@@ -10011,7 +10022,7 @@ msgstr ""
 "يتم تحديث عنوان الصفحة الرئيسية لنظام إنترنت الأشياء إلى عنوان HTTPS جديد "
 "ينتهي بـ `.odoo-iot.com`."
 
-#: ../../content/applications/general/iot/connect.rst:175
+#: ../../content/applications/general/iot/connect.rst:178
 msgid ""
 "The :guilabel:`HTTPS certificate` banner displays the certificate's validity "
 "period. To view this information, click the :icon:`fa-cogs` "
@@ -10025,7 +10036,7 @@ msgstr ""
 msgid "IoT box homepage with HTTPS certificate validity date."
 msgstr "الصفحة الرئيسية لصندوق إنترنت الأشياء مع تاريخ صلاحية شهادة HTTPS."
 
-#: ../../content/applications/general/iot/connect.rst:183
+#: ../../content/applications/general/iot/connect.rst:186
 msgid ":ref:`iot/troubleshooting/https_certificate`"
 msgstr ":ref:`iot/troubleshooting/https_certificate`"
 
@@ -10168,7 +10179,7 @@ msgstr ""
 "صفحة :guilabel:`فحوصات الجودة`."
 
 #: ../../content/applications/general/iot/devices/camera.rst:58
-#: ../../content/applications/general/iot/devices/printer.rst:69
+#: ../../content/applications/general/iot/devices/printer.rst:74
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_control_points`"
@@ -10177,7 +10188,7 @@ msgstr ""
 "quality_control_points`"
 
 #: ../../content/applications/general/iot/devices/camera.rst:59
-#: ../../content/applications/general/iot/devices/printer.rst:70
+#: ../../content/applications/general/iot/devices/printer.rst:75
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_alerts`"
@@ -10588,14 +10599,22 @@ msgstr ""
 "تطبيق إنترنت الأشياء."
 
 #: ../../content/applications/general/iot/devices/printer.rst:33
+msgid ""
+"To test the printer, open the IoT app, click the :ref:`IoT system's card "
+"<iot/connect/IoT-form>`, select the printer device, then "
+"click :guilabel:`Test`. A successful test prints a test page. If no page is "
+"printed, ensure the printer is powered on and the connection is correct."
+msgstr ""
+
+#: ../../content/applications/general/iot/devices/printer.rst:38
 msgid "Link a printer"
 msgstr "ربط طابعة"
 
-#: ../../content/applications/general/iot/devices/printer.rst:36
+#: ../../content/applications/general/iot/devices/printer.rst:41
 msgid "Link work orders to a printer"
 msgstr "ربط أوامر العمل بطابعة"
 
-#: ../../content/applications/general/iot/devices/printer.rst:38
+#: ../../content/applications/general/iot/devices/printer.rst:43
 msgid ""
 "Work orders can be linked to printers, via a quality control point, to print "
 "labels for manufactured products."
@@ -10603,7 +10622,7 @@ msgstr ""
 "يمكن ربط أوامر العمل بالطابعات، عبر نقطة مراقبة جودة، لطباعة الملصقات "
 "للمنتجات المصنعة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:41
+#: ../../content/applications/general/iot/devices/printer.rst:46
 msgid ""
 "In the :doc:`Quality app </applications/inventory_and_mrp/quality>`, a "
 "device can be set up on a quality control point. To do so, go to "
@@ -10614,7 +10633,7 @@ msgstr ""
 "جهاز على نقطة مراقبة جودة. للقيام بذلك، انتقل إلى :menuselection:`الجودة --> "
 "مراقبة الجودة --> نقاط المراقبة`، وافتح نقطة المراقبة المطلوبة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:46
+#: ../../content/applications/general/iot/devices/printer.rst:51
 msgid ""
 "A manufacturing operation and work order operation need to be attached to a "
 "quality control point before the :guilabel:`Type` field allows for "
@@ -10623,7 +10642,7 @@ msgstr ""
 "يجب إرفاق عملية تصنيع وعملية أمر عمل بنقطة مراقبة جودة قبل أن يسمح "
 "حقل :guilabel:`النوع` باختيار خيار :guilabel:`طباعة ملصق`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:50
+#: ../../content/applications/general/iot/devices/printer.rst:55
 msgid ""
 "From here, edit the control point by selecting the :guilabel:`Type` field, "
 "and selecting :guilabel:`Print Label` from the dropdown menu of options. "
@@ -10634,7 +10653,7 @@ msgstr ""
 "واختيار :guilabel:`طباعة ملصق` من القائمة المنسدلة للخيارات. سيؤدي ذلك إلى "
 "إظهار حقل :guilabel:`الجهاز`، حيث يمكن تحديد الجهاز المرفق."
 
-#: ../../content/applications/general/iot/devices/printer.rst:54
+#: ../../content/applications/general/iot/devices/printer.rst:59
 msgid ""
 "The printer can now be used with the selected quality control point. When "
 "the quality control point is reached during the manufacturing process, the "
@@ -10644,7 +10663,7 @@ msgstr ""
 "إلى نقطة مراقبة الجودة أثناء عملية التصنيع، تعرض قاعدة البيانات خيار طباعة "
 "الملصقات لمنتج معين."
 
-#: ../../content/applications/general/iot/devices/printer.rst:59
+#: ../../content/applications/general/iot/devices/printer.rst:64
 msgid ""
 "Quality control points can also be accessed by navigating "
 "to :menuselection:`IoT --> Devices`, then selecting the device. Go to "
@@ -10654,7 +10673,7 @@ msgstr ""
 "الأشياء --> الأجهزة`، ثم تحديد الجهاز. انتقل إلى علامة "
 "التبويب :guilabel:`نقاط مراقبة الجودة` لإضافتها إلى الجهاز."
 
-#: ../../content/applications/general/iot/devices/printer.rst:64
+#: ../../content/applications/general/iot/devices/printer.rst:69
 msgid ""
 "On a :doc:`quality check form </applications/inventory_and_mrp/quality/"
 "quality_management/quality_checks>`, the :guilabel:`Type` of check can also "
@@ -10664,27 +10683,27 @@ msgstr ""
 "quality_management/quality_checks>`، يمكن أيضًا ضبط :guilabel:`النوع` للفحص "
 "على :guilabel:`طباعة ملصق`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:75
+#: ../../content/applications/general/iot/devices/printer.rst:80
 msgid "Link reports to a printer"
 msgstr "ربط التقارير بطابعة"
 
-#: ../../content/applications/general/iot/devices/printer.rst:77
+#: ../../content/applications/general/iot/devices/printer.rst:82
 msgid "It is possible to link report types to a specific printer. To do so:"
 msgstr "من الممكن ربط أنواع التقارير بطابعة معينة. للقيام بذلك:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:79
+#: ../../content/applications/general/iot/devices/printer.rst:84
 msgid "Go to :menuselection:`IoT --> Devices` and select the desired printer."
 msgstr ""
 "انتقل إلى :menuselection:`إنترنت الأشياء --> الأجهزة` واختر الطابعة المطلوبة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:80
+#: ../../content/applications/general/iot/devices/printer.rst:85
 msgid ""
 "Go to the :guilabel:`Printer Reports` tab and click :guilabel:`Add a line`."
 msgstr ""
 "انتقل إلى علامة التبويب :guilabel:`تقارير الطابعة` وانقر "
 "على :guilabel:`إضافة سطر`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:81
+#: ../../content/applications/general/iot/devices/printer.rst:86
 msgid ""
 "In the pop-up that opens, select the types of reports to be linked to the "
 "printer and click :guilabel:`Select`."
@@ -10696,7 +10715,7 @@ msgstr ""
 msgid "The list of reports assigned to a printer in the IoT app."
 msgstr "قائمة التقارير المخصصة للطابعة في تطبيق إنترنت الأشياء."
 
-#: ../../content/applications/general/iot/devices/printer.rst:88
+#: ../../content/applications/general/iot/devices/printer.rst:93
 msgid ""
 "Reports can also be configured by :ref:`enabling the developer mode "
 "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
@@ -10707,7 +10726,7 @@ msgstr ""
 "والانتقال إلى :menuselection:`الإعدادات --> تقني --> التقارير`. اختر التقرير "
 "المطلوب من القائمة وحدد :guilabel:`جهاز إنترنت الأشياء`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:92
+#: ../../content/applications/general/iot/devices/printer.rst:97
 msgid ""
 "The first time a linked report is selected to print, a :guilabel:`Select "
 "Printers` pop-up window appears. Tick the checkbox next to the correct "
@@ -10719,11 +10738,11 @@ msgstr ""
 "الصحيحة للتقرير، وانقر على :guilabel:`طباعة`. عند هذه النقطة، يتم ربط "
 "التقرير بالطابعة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:97
+#: ../../content/applications/general/iot/devices/printer.rst:102
 msgid "Clear device printer cache"
 msgstr "مسح مخبأ طابعة الجهاز"
 
-#: ../../content/applications/general/iot/devices/printer.rst:99
+#: ../../content/applications/general/iot/devices/printer.rst:104
 msgid ""
 "After a printer is linked to print a report, the setting is saved in a "
 "browser's cache. This means a user can have different devices saved in their "
@@ -10737,7 +10756,7 @@ msgstr ""
 "مستخدمين مختلفين يمكنهم طباعة تقرير تلقائيًا من طابعات مختلفة، بناءً على "
 "تفضيلاتهم."
 
-#: ../../content/applications/general/iot/devices/printer.rst:104
+#: ../../content/applications/general/iot/devices/printer.rst:109
 msgid ""
 "To unlink a report from a printer, navigate to :menuselection:`IoT --> "
 "Configuration --> Reset Linked Printers`. This generates a list of reports "
@@ -10749,7 +10768,7 @@ msgstr ""
 "المرتبطة بطابعة على الجهاز الحالي. انقر على زر :guilabel:`إلغاء الربط` بجوار "
 "كل تقرير لإزالة الربط."
 
-#: ../../content/applications/general/iot/devices/printer.rst:109
+#: ../../content/applications/general/iot/devices/printer.rst:114
 msgid ""
 "This step **only** prevents the report from automatically printing to the "
 "listed printer from the current browser. The report is still :ref:`linked "
@@ -10763,19 +10782,19 @@ msgstr ""
 msgid "A list of reports currently linked to a printer in the IoT app."
 msgstr "قائمة التقارير المرتبطة حاليًا بطابعة في تطبيق إنترنت الأشياء."
 
-#: ../../content/applications/general/iot/devices/printer.rst:117
+#: ../../content/applications/general/iot/devices/printer.rst:122
 msgid ":ref:`POS Order Printing <pos/restaurant/orders-printing>`"
 msgstr ":ref:`طباعة طلبات نقاط البيع <pos/restaurant/orders-printing>`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:120
+#: ../../content/applications/general/iot/devices/printer.rst:125
 msgid "Potential issues"
 msgstr "المشاكل المحتملة"
 
-#: ../../content/applications/general/iot/devices/printer.rst:123
+#: ../../content/applications/general/iot/devices/printer.rst:128
 msgid "The printer is not detected"
 msgstr "الطابعة غير مكتشفة"
 
-#: ../../content/applications/general/iot/devices/printer.rst:125
+#: ../../content/applications/general/iot/devices/printer.rst:130
 msgid ""
 "If a printer does not appear in the devices list, go to the :ref:`IoT box's "
 "<iot/iot-box/homepage>` or :ref:`Windows virtual IoT's <iot/windows-iot/"
@@ -10787,7 +10806,7 @@ msgstr ""
 "لنظام Windows <iot/windows-iot/homepage>`، وانقر على :guilabel:`عرض` في "
 "قسم :guilabel:`الأجهزة`، وتأكد من إدراج الطابعة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:129
+#: ../../content/applications/general/iot/devices/printer.rst:134
 msgid ""
 "If the printer does not appear on the IoT system's homepage, "
 "click :guilabel:`Printer Server`, then :guilabel:`Administration`, "
@@ -10798,11 +10817,11 @@ msgstr ""
 "على :guilabel:`خادم الطابعة`، ثم :guilabel:`الإدارة`، و:guilabel:`إضافة "
 "طابعة`. إذا لم تكن الطابعة في القائمة، فمن المحتمل أنها غير متصلة بشكل صحيح."
 
-#: ../../content/applications/general/iot/devices/printer.rst:134
+#: ../../content/applications/general/iot/devices/printer.rst:139
 msgid "The printer outputs random text"
 msgstr "الطابعة تُخرج نصًا عشوائيًا"
 
-#: ../../content/applications/general/iot/devices/printer.rst:136
+#: ../../content/applications/general/iot/devices/printer.rst:141
 msgid ""
 "For most printers, the correct driver should be automatically detected and "
 "selected. However, in some cases, the automatic detection mechanism might "
@@ -10813,7 +10832,7 @@ msgstr ""
 "ومع ذلك، في بعض الحالات، قد لا تكون آلية الاكتشاف التلقائي كافية، وإذا لم "
 "يتم العثور على برنامج تشغيل، فقد تطبع الطابعة أحرفًا عشوائية."
 
-#: ../../content/applications/general/iot/devices/printer.rst:140
+#: ../../content/applications/general/iot/devices/printer.rst:145
 msgid ""
 "The solution is to manually select the corresponding driver. On the IoT "
 "system's homepage, click :guilabel:`Printer Server`, "
@@ -10831,7 +10850,7 @@ msgstr ""
 msgid "Edit the printer connected to the IoT system."
 msgstr "تحرير الطابعة المتصلة بنظام إنترنت الأشياء."
 
-#: ../../content/applications/general/iot/devices/printer.rst:150
+#: ../../content/applications/general/iot/devices/printer.rst:155
 msgid ""
 "Epson receipt printers and Zebra label printers do not need a driver to "
 "work. Make sure that no driver is selected for those printers."
@@ -10839,11 +10858,11 @@ msgstr ""
 "طابعات الإيصالات من Epson وطابعات الملصقات من Zebra لا تحتاج إلى برنامج "
 "تشغيل للعمل. تأكد من عدم تحديد أي برنامج تشغيل لهذه الطابعات."
 
-#: ../../content/applications/general/iot/devices/printer.rst:154
+#: ../../content/applications/general/iot/devices/printer.rst:159
 msgid "The printer is detected but is not recognized correctly"
 msgstr "تم اكتشاف الطابعة ولكن لم يتم التعرف عليها بشكل صحيح"
 
-#: ../../content/applications/general/iot/devices/printer.rst:156
+#: ../../content/applications/general/iot/devices/printer.rst:161
 msgid ""
 "If Odoo and the IoT system do not recognize the printer correctly, go "
 "to :menuselection:`IoT --> Devices`, click the device's card to access its "
@@ -10857,11 +10876,11 @@ msgstr ""
 "المناسب: :guilabel:`طابعة إيصالات`، أو :guilabel:`طابعة ملصقات`، "
 "أو :guilabel:`طابعة مكتبية`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:162
+#: ../../content/applications/general/iot/devices/printer.rst:167
 msgid "Epson configuration special case"
 msgstr "حالة خاصة لتكوين Epson"
 
-#: ../../content/applications/general/iot/devices/printer.rst:164
+#: ../../content/applications/general/iot/devices/printer.rst:169
 msgid ""
 "Most Epson printers support printing receipts in Odoo Point of Sale using "
 "the `GS v 0` command. However, the following Epson printer models do not "
@@ -10870,29 +10889,29 @@ msgstr ""
 "تدعم معظم طابعات Epson طباعة الإيصالات في نقطة البيع Odoo باستخدام أمر `GS v "
 "0`. ومع ذلك، فإن طرازات طابعات Epson التالية لا تدعم هذا الأمر:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:167
+#: ../../content/applications/general/iot/devices/printer.rst:172
 msgid "TM-U220"
 msgstr "TM-U220"
 
-#: ../../content/applications/general/iot/devices/printer.rst:168
+#: ../../content/applications/general/iot/devices/printer.rst:173
 msgid "TM-U230"
 msgstr "TM-U230"
 
-#: ../../content/applications/general/iot/devices/printer.rst:169
+#: ../../content/applications/general/iot/devices/printer.rst:174
 msgid "TM-P60"
 msgstr "TM-P60"
 
-#: ../../content/applications/general/iot/devices/printer.rst:170
+#: ../../content/applications/general/iot/devices/printer.rst:175
 msgid "TMP-P60II"
 msgstr "TMP-P60II"
 
-#: ../../content/applications/general/iot/devices/printer.rst:172
+#: ../../content/applications/general/iot/devices/printer.rst:177
 msgid ""
 "To bypass this issue, you can configure the printer to use the `ESC *` "
 "command."
 msgstr "لتجاوز هذه المشكلة، يمكنك تكوين الطابعة لاستخدام أمر `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:174
+#: ../../content/applications/general/iot/devices/printer.rst:179
 msgid ""
 "First, review Epson's website for compatibility for both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -10904,7 +10923,7 @@ msgstr ""
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
 "esc_asterisk.html>`_."
 
-#: ../../content/applications/general/iot/devices/printer.rst:178
+#: ../../content/applications/general/iot/devices/printer.rst:183
 msgid ""
 "If the printer is incompatible with `GS v 0` but supports `ESC *`, configure "
 "the IoT system to use the `ESC *` command as follows:"
@@ -10912,7 +10931,7 @@ msgstr ""
 "إذا كانت الطابعة غير متوافقة مع `GS v 0` ولكنها تدعم `ESC *`، قم بتكوين نظام "
 "إنترنت الأشياء لاستخدام أمر `ESC *` كما يلي:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:183
+#: ../../content/applications/general/iot/devices/printer.rst:188
 msgid ""
 "Click the :guilabel:`Printer server` button, then "
 "click :guilabel:`Administration` on the CUPS page."
@@ -10920,7 +10939,7 @@ msgstr ""
 "انقر على زر :guilabel:`خادم الطابعة`، ثم انقر على :guilabel:`الإدارة` في "
 "صفحة CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:185
+#: ../../content/applications/general/iot/devices/printer.rst:190
 msgid ""
 "Click :guilabel:`Add Printer` in the :guilabel:`Printers` section, select "
 "the printer, and click :guilabel:`Continue`."
@@ -10928,32 +10947,32 @@ msgstr ""
 "انقر على :guilabel:`إضافة طابعة` في قسم :guilabel:`الطابعات`، وحدد الطابعة، "
 "ثم انقر على :guilabel:`متابعة`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:189
+#: ../../content/applications/general/iot/devices/printer.rst:194
 msgid "If the printer's name is still uncertain, take the following steps:"
 msgstr "إذا كان اسم الطابعة لا يزال غير مؤكد، اتبع الخطوات التالية:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:191
+#: ../../content/applications/general/iot/devices/printer.rst:196
 msgid "Take note of the listed printers on the CUPS page."
 msgstr "قم بتدوين الطابعات المدرجة في صفحة CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:192
+#: ../../content/applications/general/iot/devices/printer.rst:197
 msgid "Turn the printer off and refresh the page."
 msgstr "أطفئ الطابعة وحدّث الصفحة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:193
+#: ../../content/applications/general/iot/devices/printer.rst:198
 msgid ""
 "Compare the difference with the first list to see which printer disappeared."
 msgstr "قارن الفرق مع القائمة الأولى لترى أي طابعة اختفت."
 
-#: ../../content/applications/general/iot/devices/printer.rst:194
+#: ../../content/applications/general/iot/devices/printer.rst:199
 msgid "Turn the printer back on and refresh the page again."
 msgstr "أعد تشغيل الطابعة وحدّث الصفحة مرة أخرى."
 
-#: ../../content/applications/general/iot/devices/printer.rst:195
+#: ../../content/applications/general/iot/devices/printer.rst:200
 msgid "Double-check the list again to see if the printer re-appears."
 msgstr "تحقق من القائمة مرة أخرى لترى ما إذا كانت الطابعة تظهر من جديد."
 
-#: ../../content/applications/general/iot/devices/printer.rst:196
+#: ../../content/applications/general/iot/devices/printer.rst:201
 msgid ""
 "The printer that disappeared and reappears again on the listed printers is "
 "the name of the printer in question. It can be :guilabel:`Unknown` "
@@ -10962,7 +10981,7 @@ msgstr ""
 "الطابعة التي اختفت وظهرت مرة أخرى في قائمة الطابعات هي اسم الطابعة المطلوبة. "
 "يمكن أن تكون :guilabel:`غير معروفة` ضمن :guilabel:`الطابعات المحلية`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:199
+#: ../../content/applications/general/iot/devices/printer.rst:204
 msgid ""
 "On the :guilabel:`Add Printer` page, specify the printer's :guilabel:`Name` "
 "using the following convention: "
@@ -10972,7 +10991,7 @@ msgstr ""
 "الصيغة التالية: `<printer_name>__IMC_<param_1>_<param_2>_..._<param_n>__`، "
 "حيث:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:202
+#: ../../content/applications/general/iot/devices/printer.rst:207
 msgid ""
 "`printer_name` is the printer's name. It can contain any character except "
 "`_`, `/`, `#`, or ` ` (space character)."
@@ -10980,16 +10999,16 @@ msgstr ""
 "`printer_name` هو اسم الطابعة. يمكن أن يحتوي على أي حرف باستثناء `_` أو `/` "
 "أو `#` أو ` ` (حرف المسافة)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:204
+#: ../../content/applications/general/iot/devices/printer.rst:209
 msgid ""
 "`IMC`: This stands for *Image Mode Column* (the simplified name for `ESC *`)."
 msgstr "`IMC`: تعني *وضع صورة العمود* (الاسم المبسط لـ `ESC *`)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:205
+#: ../../content/applications/general/iot/devices/printer.rst:210
 msgid "`param_1`: This stands for the specific parameter:"
 msgstr "‏`param_1`: يمثل هذا المعامل المحدد:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:207
+#: ../../content/applications/general/iot/devices/printer.rst:212
 msgid ""
 "`SCALE<X>`: Scale of the picture (with the same aspect ratio). `X` should be "
 "an integer describing the scale percentage that should be used. For example, "
@@ -11000,7 +11019,7 @@ msgstr ""
 "يكون `X` عددًا صحيحًا يصف النسبة المئوية للمقياس التي يجب استخدامها. على سبيل "
 "المثال، `100` هو الحجم الأصلي، و`50` هو نصف الحجم، و`200` هو ضعف الحجم."
 
-#: ../../content/applications/general/iot/devices/printer.rst:210
+#: ../../content/applications/general/iot/devices/printer.rst:215
 msgid ""
 "`LDV`: *Low Density Vertical* (will be set to *High Density Vertical* if not "
 "specified)."
@@ -11008,7 +11027,7 @@ msgstr ""
 "‏`LDV`: *كثافة منخفضة عمودية* (سيتم تعيينها إلى *كثافة عالية عمودية* إذا لم "
 "يتم تحديدها)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:211
+#: ../../content/applications/general/iot/devices/printer.rst:216
 msgid ""
 "`LDH`: *Low Density Horizontal* (will be set to *High Density Horizontal* if "
 "not specified)."
@@ -11016,7 +11035,7 @@ msgstr ""
 "‏`LDH`: *كثافة منخفضة أفقية* (سيتم تعيينها إلى *كثافة عالية أفقية* إذا لم يتم "
 "تحديدها)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:214
+#: ../../content/applications/general/iot/devices/printer.rst:219
 msgid ""
 "*Density* parameters might need to be configured in a particular way, "
 "depending on the printer model."
@@ -11024,7 +11043,7 @@ msgstr ""
 "قد تحتاج معاملات *الكثافة* إلى التكوين بطريقة معينة، اعتمادًا على طراز "
 "الطابعة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:216
+#: ../../content/applications/general/iot/devices/printer.rst:221
 msgid ""
 "Refer to `Epson's ESC * documentation <https://download4.epson.biz/sec_pubs/"
 "pos/reference_en/escpos/esc_asterisk.html>`_ to determine if the printer "
@@ -11034,23 +11053,23 @@ msgstr ""
 "reference_en/escpos/esc_asterisk.html>`_ لتحديد ما إذا كانت الطابعة تتطلب "
 "تعيين هذه المعاملات."
 
-#: ../../content/applications/general/iot/devices/printer.rst:220
+#: ../../content/applications/general/iot/devices/printer.rst:225
 msgid "The following are examples of proper and improper name formatting:"
 msgstr "فيما يلي أمثلة على تنسيق الأسماء الصحيح وغير الصحيح:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:222
+#: ../../content/applications/general/iot/devices/printer.rst:227
 msgid "Proper name formatting:"
 msgstr "تنسيق الاسم الصحيح:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:224
+#: ../../content/applications/general/iot/devices/printer.rst:229
 msgid "`EPSONTMm30II__IMC__`"
 msgstr "`EPSONTMm30II__IMC__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:225
+#: ../../content/applications/general/iot/devices/printer.rst:230
 msgid "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 msgstr "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:227
+#: ../../content/applications/general/iot/devices/printer.rst:232
 msgid ""
 "Improper name formatting (this will not prevent printing, but the result "
 "might not have the expected printed output):"
@@ -11058,32 +11077,32 @@ msgstr ""
 "تنسيق الاسم غير الصحيح (لن يمنع هذا الطباعة، ولكن قد لا تكون النتيجة "
 "المطبوعة كما هو متوقع):"
 
-#: ../../content/applications/general/iot/devices/printer.rst:230
+#: ../../content/applications/general/iot/devices/printer.rst:235
 msgid "`EPSON TMm 30II`: The name cannot contain spaces."
 msgstr "‏`EPSON TMm 30II`: لا يمكن أن يحتوي الاسم على مسافات."
 
-#: ../../content/applications/general/iot/devices/printer.rst:231
+#: ../../content/applications/general/iot/devices/printer.rst:236
 msgid ""
 "`EPSONTMm30II`: The name itself is correct, but it will not use `ESC *`."
 msgstr "‏`EPSONTMm30II`: الاسم نفسه صحيح، لكنه لن يستخدم `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:232
+#: ../../content/applications/general/iot/devices/printer.rst:237
 msgid "`EPSONTMm30II__IMC`: This name is missing the end `__`."
 msgstr "‏`EPSONTMm30II__IMC`: هذا الاسم يفتقد `__` النهائي."
 
-#: ../../content/applications/general/iot/devices/printer.rst:233
+#: ../../content/applications/general/iot/devices/printer.rst:238
 msgid ""
 "`EPSONTMm30II__IMC_XDV__`: The parameter `XDV` does not match any existing "
 "parameters."
 msgstr "‏`EPSONTMm30II__IMC_XDV__`: المعامل `XDV` لا يطابق أي معاملات موجودة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:234
+#: ../../content/applications/general/iot/devices/printer.rst:239
 msgid ""
 "`EPSONTMm30II__IMC_SCALE__`: The parameter `SCALE` is missing the scale "
 "value."
 msgstr "‏`EPSONTMm30II__IMC_SCALE__`: المعامل `SCALE` يفتقد قيمة المقياس."
 
-#: ../../content/applications/general/iot/devices/printer.rst:236
+#: ../../content/applications/general/iot/devices/printer.rst:241
 msgid ""
 "Once the printer's name has been defined using the appropriate naming "
 "convention, click :guilabel:`Continue`."
@@ -11091,7 +11110,7 @@ msgstr ""
 "بمجرد تحديد اسم الطابعة باستخدام اصطلاح التسمية المناسب، انقر "
 "فوق :guilabel:`متابعة`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:238
+#: ../../content/applications/general/iot/devices/printer.rst:243
 msgid ""
 "Set the :guilabel:`Make` value to :guilabel:`Raw` and the :guilabel:`Model` "
 "value to :guilabel:`Raw Queue (en)`."
@@ -11099,7 +11118,7 @@ msgstr ""
 "اضبط قيمة :guilabel:`الصنع` على :guilabel:`Raw` وقيمة :guilabel:`الطراز` "
 "على :guilabel:`Raw Queue (en)`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:240
+#: ../../content/applications/general/iot/devices/printer.rst:245
 msgid ""
 "Click :guilabel:`Add Printer`. If everything was done correctly, the page "
 "should redirect to the :guilabel:`Banners` page."
@@ -11107,14 +11126,14 @@ msgstr ""
 "انقر فوق :guilabel:`إضافة طابعة`. إذا تم كل شيء بشكل صحيح، يجب أن تتم إعادة "
 "توجيه الصفحة إلى صفحة :guilabel:`اللافتات`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:242
+#: ../../content/applications/general/iot/devices/printer.rst:247
 msgid ""
 "Wait a few minutes for the IoT system to detect the printer and sync to "
 "Odoo's server."
 msgstr ""
 "انتظر بضع دقائق حتى يكتشف نظام إنترنت الأشياء الطابعة ويتزامن مع خادم Odoo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:243
+#: ../../content/applications/general/iot/devices/printer.rst:248
 msgid ""
 ":ref:`Access the POS settings <pos/use/settings>` and select your POS, or "
 "click the vertical ellipsis button (:guilabel:`⋮`) on a POS card and "
@@ -11128,7 +11147,7 @@ msgstr ""
 "قسم :guilabel:`الأجهزة المتصلة`، وفعّل :guilabel:`IoT Box`، وحدد الطابعة في "
 "حقل :guilabel:`طابعة الإيصالات`. انقر على :guilabel:`حفظ`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:249
+#: ../../content/applications/general/iot/devices/printer.rst:254
 msgid ""
 "If the printer was set up incorrectly (e.g., it continues to print random "
 "text, or the printed receipt is too large or too small), it cannot be "
@@ -11140,7 +11159,7 @@ msgstr ""
 "اسم الطابعة في CUPS. بدلاً من ذلك، قم بتكوين طابعة جديدة من الصفر بمعاملات "
 "معدلة، باتباع الخطوات المذكورة أعلاه."
 
-#: ../../content/applications/general/iot/devices/printer.rst:257
+#: ../../content/applications/general/iot/devices/printer.rst:262
 msgid ""
 "The following is an example of the troubleshooting process for a TM-U220B "
 "printer model using the `ESC *` command. The receipt pictured below is an "
@@ -11155,7 +11174,7 @@ msgstr ""
 msgid "Properly formatted receipt picture from a demo database."
 msgstr "صورة إيصال منسقة بشكل صحيح من قاعدة بيانات تجريبية."
 
-#: ../../content/applications/general/iot/devices/printer.rst:265
+#: ../../content/applications/general/iot/devices/printer.rst:270
 msgid ""
 "Printing this receipt immediately without proper formatting will not work, "
 "as the TM-U220B printer model does not support the `GS v 0` command. "
@@ -11168,14 +11187,14 @@ msgstr ""
 msgid "Printer paper with seemingly random characters."
 msgstr "ورق طابعة يحتوي على أحرف تبدو عشوائية."
 
-#: ../../content/applications/general/iot/devices/printer.rst:272
+#: ../../content/applications/general/iot/devices/printer.rst:277
 msgid ""
 "To properly configure formatting for the Epson TM-U220B printer model, "
 "follow these steps:"
 msgstr ""
 "لتكوين التنسيق بشكل صحيح لطراز طابعة Epson TM-U220B، اتبع الخطوات التالية:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:274
+#: ../../content/applications/general/iot/devices/printer.rst:279
 msgid ""
 "After checking Epson's website for compatibility with both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -11193,7 +11212,7 @@ msgstr ""
 msgid "Epson compatibility evaluation from Epson website."
 msgstr "تقييم توافق Epson من موقع Epson الإلكتروني."
 
-#: ../../content/applications/general/iot/devices/printer.rst:282
+#: ../../content/applications/general/iot/devices/printer.rst:287
 msgid "When adding the printer, CUPS displays the list of available printers:"
 msgstr "عند إضافة الطابعة، يعرض CUPS قائمة الطابعات المتاحة:"
 
@@ -11201,7 +11220,7 @@ msgstr "عند إضافة الطابعة، يعرض CUPS قائمة الطابع
 msgid "Administration menu, add printer selection."
 msgstr "قائمة الإدارة، اختيار إضافة طابعة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:288
+#: ../../content/applications/general/iot/devices/printer.rst:293
 msgid ""
 "In this case, the printer is connected via USB, so it is not part of "
 "the :guilabel:`Discovered Network Printers`. Instead, it is likely part of "
@@ -11216,7 +11235,7 @@ msgstr ""
 "الخاص بالطابعة عن نظام إنترنت الأشياء وتحديث الصفحة، تختفي "
 "الطابعة :guilabel:`غير المعروفة`. بإعادة توصيلها، تظهر الطابعة مرة أخرى."
 
-#: ../../content/applications/general/iot/devices/printer.rst:294
+#: ../../content/applications/general/iot/devices/printer.rst:299
 msgid ""
 "For the naming convention, since the printer must print using the `ESC *` "
 "command, it is imperative to add `__IMC`."
@@ -11228,7 +11247,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturer's website."
 msgstr "مواصفات Epson TM-U220 على موقع الشركة المصنعة الإلكتروني."
 
-#: ../../content/applications/general/iot/devices/printer.rst:300
+#: ../../content/applications/general/iot/devices/printer.rst:305
 msgid ""
 "For this particular model (TM-U220) `m` should be equal to 0 or 1. While "
 "referencing the :guilabel:`Description` table on `Epson's ESC * website "
@@ -11244,7 +11263,7 @@ msgstr ""
 "هذه الحالة، قيمة `m` **لا يمكن** أن تكون 32 أو 33 (وإلا، سيتم طباعة أحرف "
 "عشوائية)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:306
+#: ../../content/applications/general/iot/devices/printer.rst:311
 msgid ""
 "The table includes the numeric values 32 and 33; they both occur if "
 "the :guilabel:`Number of bits for vertical data` is set to 24, i.e. it has a "
@@ -11257,7 +11276,7 @@ msgstr ""
 "حالة تكوين Epson TM-U220، سيلزم فرض *الكثافة الرأسية المنخفضة*، حيث أن طراز "
 "الطابعة هذا لا يدعم *الكثافة الرأسية العالية* لهذا الأمر `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:311
+#: ../../content/applications/general/iot/devices/printer.rst:316
 msgid ""
 "To add a *Low Vertical Density*, add the `LDV` parameter to the naming "
 "convention."
@@ -11268,7 +11287,7 @@ msgid ""
 "Add a *Low Vertical Density* (the `LDV` parameter) to the naming convention."
 msgstr "أضف *كثافة رأسية منخفضة* (معامل `LDV`) إلى اصطلاح التسمية."
 
-#: ../../content/applications/general/iot/devices/printer.rst:316
+#: ../../content/applications/general/iot/devices/printer.rst:321
 msgid ""
 "Click :guilabel:`Continue` to proceed. Next, set the :guilabel:`Make` value "
 "to :guilabel:`Raw` and the :guilabel:`Model` value to :guilabel:`Raw Queue "
@@ -11281,7 +11300,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturers website."
 msgstr "مواصفات Epson TM-U220 على موقع الشركة المصنعة الإلكتروني."
 
-#: ../../content/applications/general/iot/devices/printer.rst:322
+#: ../../content/applications/general/iot/devices/printer.rst:327
 msgid ""
 "However, when trying to print with the naming convention "
 "`EpsonTMU220B__IMC_LDV__`, the receipt is printed, but it is too large and "
@@ -11292,27 +11311,27 @@ msgstr ""
 "طباعة الإيصال، لكنه كبير جداً وخارج الهامش. لحل هذا، أضف طابعة جديدة (واصطلاح "
 "تسمية جديد) مع معامل `SCALE<X>` للتكيف مع حجم الإيصال."
 
-#: ../../content/applications/general/iot/devices/printer.rst:326
+#: ../../content/applications/general/iot/devices/printer.rst:331
 msgid "Here are some examples:"
 msgstr "إليك بعض الأمثلة:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:331
+#: ../../content/applications/general/iot/devices/printer.rst:336
 msgid "Printer Naming Convention"
 msgstr "اصطلاح تسمية الطابعة"
 
-#: ../../content/applications/general/iot/devices/printer.rst:332
+#: ../../content/applications/general/iot/devices/printer.rst:337
 msgid "`EpsonTMU220B__IMC_LDV__`"
 msgstr "`EpsonTMU220B__IMC_LDV__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:333
+#: ../../content/applications/general/iot/devices/printer.rst:338
 msgid "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 msgstr "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:334
+#: ../../content/applications/general/iot/devices/printer.rst:339
 msgid "`EpsonTMU220B__IMC_LDV_LDH__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:335
+#: ../../content/applications/general/iot/devices/printer.rst:340
 msgid "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 
@@ -11340,11 +11359,11 @@ msgid ""
 msgstr ""
 "تنسيق الإيصال باستخدام اصطلاح التسمية: EpsonTMU220B__IMC_LDV_LDH_SCALE35__."
 
-#: ../../content/applications/general/iot/devices/printer.rst:348
+#: ../../content/applications/general/iot/devices/printer.rst:353
 msgid "DYMO LabelWriter print issue"
 msgstr "مشكلة طباعة DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:350
+#: ../../content/applications/general/iot/devices/printer.rst:355
 msgid ""
 "The DYMO LabelWriter has a known issue in printing with IoT systems. The "
 "OpenPrinting CUPS server installs the printer using :guilabel:`Local RAW "
@@ -11358,7 +11377,7 @@ msgstr ""
 "تعيين :guilabel:`الصنع والطراز` الصحيح للإشارة إلى برنامج التشغيل الصحيح عند "
 "استخدام الجهاز."
 
-#: ../../content/applications/general/iot/devices/printer.rst:355
+#: ../../content/applications/general/iot/devices/printer.rst:360
 msgid ""
 "Additionally, a new printer needs to be added to reduce the print delay that "
 "occurs after updating the driver."
@@ -11366,7 +11385,7 @@ msgstr ""
 "بالإضافة إلى ذلك، يلزم إضافة طابعة جديدة لتقليل تأخير الطباعة الذي يحدث بعد "
 "تحديث برنامج التشغيل."
 
-#: ../../content/applications/general/iot/devices/printer.rst:359
+#: ../../content/applications/general/iot/devices/printer.rst:364
 msgid ""
 "The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use "
 "with Odoo and IoT systems. This device combines two printers: a label "
@@ -11383,17 +11402,17 @@ msgstr ""
 "للاتساق، تحدد العمليات التالية خطوات التكوين لطراز DYMO LabelWriter 450 DUO "
 "Label (en). اضبط اختيارات الطراز حسب الحاجة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:369
+#: ../../content/applications/general/iot/devices/printer.rst:374
 msgid "DYMO LabelWriter not printing"
 msgstr "DYMO LabelWriter لا تطبع"
 
-#: ../../content/applications/general/iot/devices/printer.rst:371
+#: ../../content/applications/general/iot/devices/printer.rst:376
 msgid "If the DYMO LabelWriter fails to print, install a new driver:"
 msgstr ""
 "إذا فشلت طابعة DYMO LabelWriter في الطباعة، قم بتثبيت برنامج تشغيل جديد:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:373
-#: ../../content/applications/general/iot/devices/printer.rst:409
+#: ../../content/applications/general/iot/devices/printer.rst:378
+#: ../../content/applications/general/iot/devices/printer.rst:414
 msgid ""
 "Access the IoT system's homepage and click :menuselection:`Printer server` "
 "to open the OpenPrinting CUPS console."
@@ -11401,7 +11420,7 @@ msgstr ""
 "ادخل إلى الصفحة الرئيسية لنظام إنترنت الأشياء وانقر على :menuselection:`خادم "
 "الطابعة` لفتح وحدة التحكم OpenPrinting CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:375
+#: ../../content/applications/general/iot/devices/printer.rst:380
 msgid ""
 "Click :menuselection:`Printers` in the top menu, then click the printer in "
 "the list."
@@ -11409,11 +11428,11 @@ msgstr ""
 "انقر على :menuselection:`الطابعات` في القائمة العلوية، ثم انقر على الطابعة "
 "في القائمة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:376
+#: ../../content/applications/general/iot/devices/printer.rst:381
 msgid "Select :guilabel:`Maintenance` in the first dropdown menu."
 msgstr "حدد :guilabel:`الصيانة` في القائمة المنسدلة الأولى."
 
-#: ../../content/applications/general/iot/devices/printer.rst:377
+#: ../../content/applications/general/iot/devices/printer.rst:382
 msgid "Select :guilabel:`Modify Printer` in the second dropdown menu."
 msgstr "حدد :guilabel:`تعديل الطابعة` في القائمة المنسدلة الثانية."
 
@@ -11426,7 +11445,7 @@ msgstr ""
 "تعديل الصنع والطراز الخاص بطابعة DYMO LabelWriter. القوائم المنسدلة الصيانة "
 "والتعديل مميزة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:383
+#: ../../content/applications/general/iot/devices/printer.rst:388
 msgid ""
 "Select the specific network connection/printer on which the modification "
 "should be made and click :guilabel:`Continue`."
@@ -11434,7 +11453,7 @@ msgstr ""
 "حدد اتصال الشبكة/الطابعة المحددة التي يجب إجراء التعديل عليها وانقر "
 "على :guilabel:`متابعة`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:385
+#: ../../content/applications/general/iot/devices/printer.rst:390
 msgid ""
 "On the next page, click :guilabel:`Continue`, then select :guilabel:`DYMO` "
 "from the :guilabel:`Make` dropdown list."
@@ -11442,7 +11461,7 @@ msgstr ""
 "في الصفحة التالية، انقر على :guilabel:`متابعة`، ثم حدد :guilabel:`DYMO` من "
 "قائمة :guilabel:`الصنع` المنسدلة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:387
+#: ../../content/applications/general/iot/devices/printer.rst:392
 msgid ""
 "Click on :guilabel:`Continue` and set the :guilabel:`Model` "
 "to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO "
@@ -11451,7 +11470,7 @@ msgstr ""
 "انقر على :guilabel:`متابعة` واضبط :guilabel:`الطراز` على :guilabel:`DYMO "
 "LabelWriter 450 DUO Label (en)` (أو أي طراز طابعة DYMO يتم استخدامه)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:389
+#: ../../content/applications/general/iot/devices/printer.rst:394
 msgid ""
 "Click :guilabel:`Modify Printer` to set the new driver; a confirmation page "
 "appears."
@@ -11459,7 +11478,7 @@ msgstr ""
 "انقر على :guilabel:`تعديل الطابعة` لتعيين برنامج التشغيل الجديد؛ تظهر صفحة "
 "تأكيد."
 
-#: ../../content/applications/general/iot/devices/printer.rst:390
+#: ../../content/applications/general/iot/devices/printer.rst:395
 msgid ""
 "Click :menuselection:`Printers` in the top menu; all printers installed on "
 "the OpenPrinting CUPS server appear, including the newly "
@@ -11470,7 +11489,7 @@ msgstr ""
 "المثبتة على خادم OpenPrinting CUPS، بما في ذلك :guilabel:`DYMO LabelWriter "
 "450 DUO Label` المحدثة حديثًا (أو أي طراز آخر من طابعات DYMO المستخدمة)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:393
+#: ../../content/applications/general/iot/devices/printer.rst:398
 msgid ""
 "Click the newly updated printer, then click the :guilabel:`Maintenance` "
 "dropdown menu and select :guilabel:`Print Test Page` to print a test label. "
@@ -11481,15 +11500,15 @@ msgstr ""
 "المنسدلة :guilabel:`الصيانة` واختر :guilabel:`طباعة صفحة اختبار` لطباعة ملصق "
 "اختبار. يتم طباعة ملصق الاختبار بعد بضع ثوانٍ إذا نجح تحديث برنامج التشغيل."
 
-#: ../../content/applications/general/iot/devices/printer.rst:397
+#: ../../content/applications/general/iot/devices/printer.rst:402
 msgid "To reduce this delay, add a new printer using the steps below."
 msgstr "لتقليل هذا التأخير، أضف طابعة جديدة باستخدام الخطوات أدناه."
 
-#: ../../content/applications/general/iot/devices/printer.rst:400
+#: ../../content/applications/general/iot/devices/printer.rst:405
 msgid "DYMO LabelWriter print delay"
 msgstr "تأخير طباعة DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:403
+#: ../../content/applications/general/iot/devices/printer.rst:408
 msgid ""
 "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not "
 "recognized (i.e., it has a :guilabel:`RAW` driver type), then :ref:`update "
@@ -11499,12 +11518,12 @@ msgstr ""
 "عليها (أي أنها تحتوي على نوع برنامج تشغيل :guilabel:`RAW`)، فقم :ref:`بتحديث "
 "برامج التشغيل على الجهاز <printer/dymo/update_drivers>`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:407
+#: ../../content/applications/general/iot/devices/printer.rst:412
 msgid ""
 "To resolve the delay issue after modifying the driver, reinstall the printer:"
 msgstr "لحل مشكلة التأخير بعد تعديل برنامج التشغيل، أعد تثبيت الطابعة:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:411
+#: ../../content/applications/general/iot/devices/printer.rst:416
 msgid ""
 "Click :menuselection:`Administration` in the top menu, then "
 "click :guilabel:`Add a Printer`."
@@ -11512,7 +11531,7 @@ msgstr ""
 "انقر على :menuselection:`الإدارة` في القائمة العلوية، ثم انقر "
 "على :guilabel:`إضافة طابعة`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:412
+#: ../../content/applications/general/iot/devices/printer.rst:417
 msgid ""
 "On the next page, in the :guilabel:`Local Printers` section, "
 "select :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO "
@@ -11533,7 +11552,7 @@ msgstr ""
 "شاشة إضافة طابعة على OpenPrinting CUPS مع تمييز DYMO LabelWriter 450 DUO "
 "Label."
 
-#: ../../content/applications/general/iot/devices/printer.rst:420
+#: ../../content/applications/general/iot/devices/printer.rst:425
 msgid ""
 "On the following screen, update the :guilabel:`Name` to something easily "
 "identifiable, as the original printer will remain in the list. Then, "
@@ -11549,7 +11568,7 @@ msgid ""
 msgstr ""
 "صفحة إعادة تسمية الطابعة في سير عمل \"إضافة طابعة\"، مع تمييز حقل الاسم."
 
-#: ../../content/applications/general/iot/devices/printer.rst:426
+#: ../../content/applications/general/iot/devices/printer.rst:431
 msgid ""
 "Set the :guilabel:`Model` field to :guilabel:`DYMO LabelWriter 450 DUO Label "
 "(en)` (or whichever DYMO printer model is being used), then "
@@ -11568,7 +11587,7 @@ msgstr ""
 "شاشة اختيار الطراز على وحدة تحكم OpenPrinting CUPS مع تمييز الطراز وإضافة "
 "طابعة."
 
-#: ../../content/applications/general/iot/devices/printer.rst:434
+#: ../../content/applications/general/iot/devices/printer.rst:439
 msgid ""
 "Click :menuselection:`Printers` in the top menu and click the newly "
 "installed printer :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever "
@@ -11582,7 +11601,7 @@ msgstr ""
 msgid "Printer page with newly installed printer highlighted."
 msgstr "صفحة طابعة مع طابعة مثبتة حديثًا."
 
-#: ../../content/applications/general/iot/devices/printer.rst:441
+#: ../../content/applications/general/iot/devices/printer.rst:446
 msgid ""
 "Click the :guilabel:`Maintenance` dropdown list and select :guilabel:`Print "
 "Test Page` to print a test label. The test label should print out "
@@ -11592,11 +11611,11 @@ msgstr ""
 "اختبار` لطباعة ملصق اختبار. يجب أن يتم طباعة ملصق الاختبار على الفور، أو بعد "
 "ثانية أو ثانيتين."
 
-#: ../../content/applications/general/iot/devices/printer.rst:445
+#: ../../content/applications/general/iot/devices/printer.rst:450
 msgid "The Zebra printer does not print anything"
 msgstr "طابعة Zebra لا تطبع أي شيء"
 
-#: ../../content/applications/general/iot/devices/printer.rst:447
+#: ../../content/applications/general/iot/devices/printer.rst:452
 msgid ""
 "Zebra printers are quite sensitive to the format of the printed Zebra "
 "Programming Language (ZPL) code. If nothing comes out of the printer or "
@@ -11611,7 +11630,7 @@ msgstr ""
 "وانتقل إلى :menuselection:`الإعدادات --> تقني --> واجهة المستخدم --> طرق "
 "العرض`، وابحث عن القالب المقابل."
 
-#: ../../content/applications/general/iot/devices/printer.rst:454
+#: ../../content/applications/general/iot/devices/printer.rst:459
 msgid ""
 "`Zebra's instructions on printing ZPL files <https://"
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
@@ -11620,15 +11639,15 @@ msgstr ""
 "`تعليمات Zebra حول طباعة ملفات ZPL <https://supportcommunity.zebra.com/s/"
 "article/Print-a-zpl-file-using-the-Generic-Text-Printer>`_"
 
-#: ../../content/applications/general/iot/devices/printer.rst:458
+#: ../../content/applications/general/iot/devices/printer.rst:463
 msgid "Barcode scanner issues"
 msgstr "مشاكل ماسح الباركود"
 
-#: ../../content/applications/general/iot/devices/printer.rst:461
+#: ../../content/applications/general/iot/devices/printer.rst:466
 msgid "The characters read by the barcode scanner do not match the barcode"
 msgstr "الأحرف المقروءة بواسطة ماسح الباركود لا تتطابق مع الباركود"
 
-#: ../../content/applications/general/iot/devices/printer.rst:463
+#: ../../content/applications/general/iot/devices/printer.rst:468
 msgid ""
 "By default, most barcode scanners are configured in the US QWERTY format. If "
 "the barcode scanner uses a different layout, go to :menuselection:`IoT --> "
@@ -11639,8 +11658,8 @@ msgstr ""
 "ماسح :menuselection:`إنترنت الأشياء --> الأجهزة` واضغط على بطاقة جهاز "
 "الباركود. ثم اختر اللغة الصحيحة في حقل :guilabel:`تخطيط لوحة المفاتيح`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:468
-#: ../../content/applications/general/iot/devices/printer.rst:498
+#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:503
 msgid ""
 "The :guilabel:`Keyboard Layout` is language-specific, with available options "
 "varying based on the device and the language of the database "
@@ -11650,11 +11669,11 @@ msgstr ""
 "بناءً على الجهاز ولغة قاعدة البيانات (مثل :guilabel:`الإنجليزية (المملكة "
 "المتحدة)`، :guilabel:`الإنجليزية (الولايات المتحدة)`، إلخ)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:478
 msgid "Nothing happens when a barcode is scanned"
 msgstr "لا يحدث شيء عند مسح باركود"
 
-#: ../../content/applications/general/iot/devices/printer.rst:475
+#: ../../content/applications/general/iot/devices/printer.rst:480
 msgid ""
 "Make sure the correct device is selected in the :doc:`Point of Sale settings "
 "</applications/sales/point_of_sale/hardware_network/pos_iot>` (when "
@@ -11665,11 +11684,11 @@ msgstr ""
 "point_of_sale/hardware_network/pos_iot>` (عند الاقتضاء) وأن الباركود تم "
 "تكوينه لإرسال حرف `ENTER` (رمز المفتاح 28) في نهاية كل باركود."
 
-#: ../../content/applications/general/iot/devices/printer.rst:480
+#: ../../content/applications/general/iot/devices/printer.rst:485
 msgid "The barcode scanner is detected as a keyboard"
 msgstr "يتم اكتشاف ماسح الباركود كلوحة مفاتيح"
 
-#: ../../content/applications/general/iot/devices/printer.rst:483
+#: ../../content/applications/general/iot/devices/printer.rst:488
 msgid ""
 "Some barcode scanners are identified as USB keyboards rather than barcode "
 "scanners and are not recognized by IoT systems."
@@ -11677,7 +11696,7 @@ msgstr ""
 "يتم التعرف على بعض ماسحات الباركود كلوحات مفاتيح USB بدلاً من ماسحات باركود "
 "ولا يتم التعرف عليها بواسطة أنظمة إنترنت الأشياء."
 
-#: ../../content/applications/general/iot/devices/printer.rst:486
+#: ../../content/applications/general/iot/devices/printer.rst:491
 msgid ""
 "To change the device type manually, go to :menuselection:`IoT --> Devices` "
 "and click the barcode device's card. Then, enable :guilabel:`Is scanner`."
@@ -11685,11 +11704,11 @@ msgstr ""
 "لتغيير نوع الجهاز يدويًا، انتقل إلى :menuselection:`إنترنت الأشياء --> "
 "الأجهزة` واضغط على بطاقة جهاز الباركود. ثم قم بتفعيل :guilabel:`هو ماسح`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:490
+#: ../../content/applications/general/iot/devices/printer.rst:495
 msgid "The barcode scanner processes barcode characters individually"
 msgstr "يعالج ماسح الباركود أحرف الباركود بشكل فردي"
 
-#: ../../content/applications/general/iot/devices/printer.rst:492
+#: ../../content/applications/general/iot/devices/printer.rst:497
 msgid ""
 "When accessing the mobile version of Odoo from a mobile device or tablet "
 "paired with a barcode scanner via the IoT system, the scanner might "
@@ -11730,11 +11749,11 @@ msgid ""
 msgstr ""
 "لتوصيل ميزان بنظام إنترنت الأشياء، استخدم كابل USB. في بعض الحالات، قد تحتاج "
 "إلى محول تسلسلي إلى USB لإكمال الاتصال. إذا كان الميزان `متوافقًا مع نظام "
-"إنترنت الأشياء <https://www.odoo.com/page/iot-hardware>`_، فلا حاجة لإعداد إضافي"
-"؛ يتم اكتشاف الميزان تلقائيًا بمجرد توصيله. إذا لم يتم اكتشاف الميزان، أعد "
-"تشغيل صندوق إنترنت الأشياء أو :ref:`أعد تشغيل خدمة Windows الافتراضية لإنترنت "
-"الأشياء <iot/windows_iot/restart>` و:ref:`قم بتحديث برامج تشغيل الميزان "
-"<iot_updating_iot/handlers>`."
+"إنترنت الأشياء <https://www.odoo.com/page/iot-hardware>`_، فلا حاجة لإعداد "
+"إضافي؛ يتم اكتشاف الميزان تلقائيًا بمجرد توصيله. إذا لم يتم اكتشاف الميزان، "
+"أعد تشغيل صندوق إنترنت الأشياء أو :ref:`أعد تشغيل خدمة Windows الافتراضية "
+"لإنترنت الأشياء <iot/windows_iot/restart>` و:ref:`قم بتحديث برامج تشغيل "
+"الميزان <iot_updating_iot/handlers>`."
 
 #: ../../content/applications/general/iot/devices/scale.rst:18
 msgid ""
@@ -12001,6 +12020,7 @@ msgstr ""
 "المنبثقة، لن تكون كلمة المرور متاحة بعد الآن."
 
 #: ../../content/applications/general/iot/iot_advanced/ssh_connect.rst:0
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:None
 msgid "The Remote Debugging password generation window."
 msgstr "نافذة إنشاء كلمة مرور التصحيح عن بُعد."
 
@@ -12024,11 +12044,15 @@ msgstr ":doc:`../iot_box`"
 msgid ":doc:`../connect`"
 msgstr ":doc:`../connect`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:8
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:6
+msgid "Frequently encountered issues"
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:9
 msgid "The pairing code does not appear or does not work"
 msgstr "رمز الاقتران لا يظهر أو لا يعمل"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:10
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:11
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` might not be displayed or "
 "printed under the following circumstances:"
@@ -12036,11 +12060,11 @@ msgstr ""
 "قد لا يتم عرض أو طباعة :ref:`رمز الاقتران <iot/connect/pairing-code>` في "
 "الظروف التالية:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:13
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
 msgid "The IoT system is not connected to the network."
 msgstr "نظام إنترنت الأشياء غير متصل بالشبكة."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:15
 msgid ""
 "The IoT system is already connected to an Odoo database. :ref:`Disconnect it "
 "from the database <iot/connect/disconnect>`."
@@ -12048,7 +12072,7 @@ msgstr ""
 "نظام إنترنت الأشياء متصل بالفعل بقاعدة بيانات Odoo. :ref:`افصله عن قاعدة "
 "البيانات <iot/connect/disconnect>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:16
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:17
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` display time has expired. "
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
@@ -12060,11 +12084,11 @@ msgstr ""
 "الأشياء الافتراضية لنظام Windows <iot/windows_iot/restart>` لإنشاء وعرض رمز "
 "الإقران."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:21
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:22
 msgid "The IoT system does not connect to the database"
 msgstr "نظام إنترنت الأشياء لا يتصل بقاعدة البيانات"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:23
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:24
 msgid ""
 "The IoT system might take a few minutes to restart when it connects to a "
 "database. If it still does not appear after a few minutes:"
@@ -12072,7 +12096,7 @@ msgstr ""
 "قد يستغرق نظام إنترنت الأشياء بضع دقائق لإعادة التشغيل عند الاتصال بقاعدة "
 "البيانات. إذا لم يظهر بعد بضع دقائق:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:26
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:27
 msgid ""
 "Verify that the IoT system can reach the database and the server does not "
 "use a multi-database environment."
@@ -12080,8 +12104,8 @@ msgstr ""
 "تحقق من أن نظام إنترنت الأشياء يمكنه الوصول إلى قاعدة البيانات وأن الخادم لا "
 "يستخدم بيئة متعددة قواعد البيانات."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:28
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:46
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:29
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:47
 msgid ""
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
 "virtual IoT service <iot/windows_iot/restart>`."
@@ -12089,11 +12113,11 @@ msgstr ""
 "أعد تشغيل :ref:`صندوق إنترنت الأشياء <iot/iot-box/restart>` أو :ref:`خدمة "
 "إنترنت الأشياء الافتراضية لنظام Windows <iot/windows_iot/restart>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:32
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:33
 msgid "The IoT system is connected to the Odoo database but cannot be reached"
 msgstr "نظام إنترنت الأشياء متصل بقاعدة بيانات Odoo لكن لا يمكن الوصول إليه"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:34
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:35
 msgid ""
 "Verify that the IoT system and the computer running the Odoo database are "
 "connected to the same network and :ref:`update the DNS settings <iot/"
@@ -12102,14 +12126,14 @@ msgstr ""
 "تحقق من أن نظام إنترنت الأشياء والكمبيوتر الذي يشغل قاعدة بيانات Odoo متصلان "
 "بنفس الشبكة و:ref:`حدّث إعدادات DNS <iot/troubleshooting/dns>` إذا لزم الأمر."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:38
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:39
 msgid ""
 "The Windows virtual IoT's homepage cannot be accessed from another device"
 msgstr ""
 "لا يمكن الوصول إلى الصفحة الرئيسية لنظام Windows الافتراضي لإنترنت الأشياء "
 "من جهاز آخر"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:40
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
 msgid ""
 "Ensure the device is connected to the same network as the Windows virtual "
 "IoT."
@@ -12117,15 +12141,15 @@ msgstr ""
 "تأكد من أن الجهاز متصل بنفس الشبكة التي تتصل بها خدمة إنترنت الأشياء "
 "الافتراضية لنظام Windows."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:42
 msgid "Check the :ref:`iot/windows-iot/firewall`."
 msgstr "تحقق من :ref:`iot/windows-iot/firewall`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:44
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:45
 msgid "The IoT system does not work after an Odoo upgrade"
 msgstr "نظام إنترنت الأشياء لا يعمل بعد ترقية Odoo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:49
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:50
 msgid ""
 "If the issue persists, :ref:`update its image <iot/updating_iot/image-code>` "
 "by flashing the IoT box's card or :ref:`uninstalling the Windows virtual IoT "
@@ -12137,7 +12161,7 @@ msgstr ""
 "الافتراضي لنظام Windows <iot/windows_iot/uninstall>` ثم :ref:`إعادة تثبيت "
 "حزمة إنترنت الأشياء الافتراضية <iot/windows-iot/installation>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:56
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:57
 msgid ""
 "The IoT system's homepage can be accessed using its IP address but not the "
 "`xxx.odoo-iot.com` URL"
@@ -12145,7 +12169,7 @@ msgstr ""
 "يمكن الوصول إلى الصفحة الرئيسية لنظام إنترنت الأشياء باستخدام عنوان IP الخاص "
 "به ولكن ليس باستخدام عنوان URL `xxx.odoo-iot.com`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:58
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:59
 msgid ""
 "Contact your system or network administrator to address the issue. Network-"
 "related problems are beyond the scope of Odoo support services."
@@ -12153,7 +12177,7 @@ msgstr ""
 "اتصل بمسؤول النظام أو الشبكة لديك لمعالجة المشكلة. المشكلات المتعلقة بالشبكة "
 "خارج نطاق خدمات دعم Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:61
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:62
 msgid ""
 "If the router allows manual :abbr:`DNS (Domain Name System)` configuration, "
 "update the settings to use `Google DNS <https://developers.google.com/speed/"
@@ -12163,7 +12187,7 @@ msgstr ""
 "فقم بتحديث الإعدادات لاستخدام `Google DNS <https://developers.google.com/"
 "speed/public-dns>`_."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:63
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:64
 msgid ""
 "If the router does not support this, you need to update the DNS settings "
 "directly on each device that interacts with the IoT system to use `Google "
@@ -12176,7 +12200,7 @@ msgstr ""
 "developers.google.com/speed/public-dns>`_. يمكن العثور على تعليمات تكوين DNS "
 "على الأجهزة الفردية في موقع الشركة المصنعة المعني."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:69
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:70
 msgid ""
 "Some IoT devices, such as payment terminals, likely do not require DNS "
 "changes, as they are typically pre-configured with custom DNS settings."
@@ -12184,26 +12208,26 @@ msgstr ""
 "بعض أجهزة إنترنت الأشياء، مثل طرفيات الدفع، لا تتطلب على الأرجح تغييرات في "
 "DNS، حيث أنها عادةً ما تكون مُعدّة مسبقًا بإعدادات DNS مخصصة."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:71
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:72
 msgid ""
 "On some browsers, an error code mentioning the DNS (such as "
 "`DNS_PROBE_FINISHED_NXDOMAIN`) is displayed."
 msgstr ""
 "في بعض المتصفحات، يُعرض رمز خطأ يذكر DNS (مثل `DNS_PROBE_FINISHED_NXDOMAIN`)."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:77
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:78
 msgid "HTTPS certificate generation issues and errors"
 msgstr "مشكلات وأخطاء إنشاء شهادة HTTPS"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:80
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:81
 msgid "The HTTPS certificate does not generate"
 msgstr "لا يتم إنشاء شهادة HTTPS"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:82
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:83
 msgid "Potential causes include the following:"
 msgstr "تشمل الأسباب المحتملة ما يلي:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:84
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:85
 msgid ""
 "The database doesn't meet the :ref:`eligibility requirements <iot/"
 "https_certificate_iot/iot-eligibility>` for generating an :ref:`HTTPS "
@@ -12212,7 +12236,7 @@ msgstr ""
 "قاعدة البيانات لا تستوفي :ref:`متطلبات الأهلية <iot/https_certificate_iot/"
 "iot-eligibility>` لإنشاء :ref:`شهادة HTTPS <iot/connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:87
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:88
 msgid ""
 "The firewall is preventing the HTTPS certificate from generating correctly. "
 "In this case, deactivate the firewall until the certificate is successfully "
@@ -12221,7 +12245,7 @@ msgstr ""
 "يمنع جدار الحماية شهادة HTTPS من الإنشاء بشكل صحيح. في هذه الحالة، قم بإلغاء "
 "تنشيط جدار الحماية حتى يتم إنشاء الشهادة بنجاح."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:91
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:92
 msgid ""
 "Some devices, such as routers with a built-in firewall, can prevent the "
 "HTTPS certificate from generating."
@@ -12229,21 +12253,18 @@ msgstr ""
 "يمكن لبعض الأجهزة، مثل أجهزة التوجيه ذات جدار الحماية المدمج، أن تمنع إنشاء "
 "شهادة HTTPS."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:95
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:96
 msgid "Errors"
 msgstr "الأخطاء"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:97
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:98
 msgid ""
 "A specific error code is displayed on the IoT system's homepage if any "
-"issues occur during the generation or reception of the ref:`HTTPS "
+"issues occur during the generation or reception of the :ref:`HTTPS "
 "certificate <iot/connect/https_certificate>`."
 msgstr ""
-"يُعرض رمز خطأ محدد على الصفحة الرئيسية لنظام إنترنت الأشياء في حالة حدوث أي "
-"مشاكل أثناء إنشاء أو استلام ref:`شهادة HTTPS <iot/connect/"
-"https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:101
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:102
 msgid ""
 "When you access the IoT system's homepage, it automatically checks for an "
 "HTTPS certificate and attempts to generate one if it is missing. If an error "
@@ -12253,36 +12274,11 @@ msgstr ""
 "شهادة HTTPS ويحاول إنشاء واحدة إذا كانت مفقودة. إذا ظهر خطأ، قم بتحديث "
 "الصفحة لمعرفة ما إذا كانت المشكلة قد حُلّت."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:106
-msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
-msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:108
-msgid ""
-"The server configuration is missing, i.e., the database is "
-"not :doc:`connected <../connect>` to the IoT system."
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:107
+msgid "Missing credentials"
 msgstr ""
-"تكوين الخادم مفقود، أي أن قاعدة البيانات غير :doc:`متصلة <../connect>` بنظام "
-"إنترنت الأشياء."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:112
-msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:114
-msgid ""
-"An error occurred while attempting to read the existing ref:`HTTPS "
-"certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
-"certificate file is readable."
-msgstr ""
-"حدث خطأ أثناء محاولة قراءة ref:`شهادة HTTPS <iot/connect/https_certificate>` "
-"الموجودة. تحقق من أن ملف شهادة HTTPS قابل للقراءة."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:119
-msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:121
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:109
 msgid ""
 "The contract and/or database :abbr:`UUID (Universal Unique Identifier)` is "
 "missing from the IoT."
@@ -12290,7 +12286,7 @@ msgstr ""
 "العقد و/أو :abbr:`المُعرّف الفريد العام (UUID) لقاعدة البيانات` مفقود من نظام "
 "إنترنت الأشياء."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:111
 msgid ""
 "Verify that both values are correctly configured. To update "
 "them, :ref:`access the IoT box's <iot/iot-box/homepage>` or :ref:`Windows "
@@ -12303,31 +12299,7 @@ msgstr ""
 "على زر :icon:`fa-cogs` (:guilabel:`التروس`)، ثم انقر على :guilabel:`بيانات "
 "الاعتماد`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:128
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:130
-msgid ""
-"An unexpected error occurred while the IoT system tried to reach `<https://"
-"www.odoo.com>`_. This is likely due to network-related issues, such as:"
-msgstr ""
-"حدث خطأ غير متوقع أثناء محاولة نظام إنترنت الأشياء الوصول إلى `<https://"
-"www.odoo.com>`_. من المحتمل أن يكون ذلك بسبب مشكلات متعلقة بالشبكة، مثل:"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:133
-msgid "The IoT system does not have Internet access."
-msgstr "نظام إنترنت الأشياء لا يملك اتصالاً بالإنترنت."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
-msgid ""
-"Network restrictions (e.g., firewalls or VPNs) are preventing communication "
-"with https://www.odoo.com."
-msgstr ""
-"قيود الشبكة (مثل جدران الحماية أو الشبكات الافتراضية الخاصة) تمنع الاتصال بـ "
-"https://www.odoo.com."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:138
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:116
 msgid ""
 "To access the full request exception details with information regarding the "
 "error, :ref:`enable the developer mode <developer-mode>`, click the IoT "
@@ -12347,7 +12319,7 @@ msgstr ""
 "<iot/iot-box/homepage>`، انقر على زر :icon:`fa-cogs` (:guilabel:`التروس`)، "
 "ثم :guilabel:`مستوى السجل` في أسفل الصفحة."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:145
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
 msgid ""
 "To address network-related issues, contact your system or network "
 "administrator; these issues are beyond the scope of Odoo support services."
@@ -12355,11 +12327,11 @@ msgstr ""
 "لمعالجة المشكلات المتعلقة بالشبكة، اتصل بمسؤول النظام أو الشبكة لديك؛ هذه "
 "المشكلات خارج نطاق خدمات دعم Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:149
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:127
+msgid "Odoo.com not reachable"
+msgstr ""
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:151
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:129
 msgid ""
 "The IoT system successfully reached `<https://www.odoo.com>`_ but received "
 "an unexpected `HTTP response (status codes) <https://developer.mozilla.org/"
@@ -12369,21 +12341,11 @@ msgstr ""
 "`استجابة HTTP (رموز الحالة) <https://developer.mozilla.org/en-US/docs/Web/"
 "HTTP/Status>`_ غير متوقعة."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:154
-msgid ""
-"This error code includes the HTTP status. For example, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a \"Page "
-"Not Found\" response."
-msgstr ""
-"يتضمن رمز الخطأ هذا حالة HTTP. على سبيل المثال، "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` يعني أن الخادم أرجع استجابة \"الصفحة "
-"غير موجودة\"."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:132
 msgid "To solve this issue:"
 msgstr "لحل هذه المشكلة:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:159
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
 msgid ""
 "Open `<https://www.odoo.com>`_ in a web browser to check if the website is "
 "temporarily down for maintenance."
@@ -12404,20 +12366,18 @@ msgstr ""
 "إذا كان الموقع الإلكتروني يعمل، افتح `تذكرة دعم <https://www.odoo.com/"
 "help>`_ وتأكد من تضمين رمز حالة HTTPS المكون من 3 أرقام في التذكرة."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:141
+msgid "Still no certificate?"
+msgstr ""
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:168
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:143
 msgid ""
-"The IoT system successfully connected to `<https://www.odoo.com>`_, but the "
-"server refused to provide the ref:`HTTPS certificate <iot/connect/"
+"If the IoT system successfully connected to `<https://www.odoo.com>`_, but "
+"the server refused to provide the :ref:`HTTPS certificate <iot/connect/"
 "https_certificate>`."
 msgstr ""
-"نجح نظام إنترنت الأشياء في الاتصال بـ `<https://www.odoo.com>`_، لكن الخادم "
-"رفض توفير ref:`شهادة HTTPS <iot/connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:171
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:146
 msgid ""
 "Check that the IoT system and database meet the :ref:`eligibility "
 "requirements <iot/https_certificate_iot/iot-eligibility>` for an HTTPS "
@@ -12425,6 +12385,57 @@ msgid ""
 msgstr ""
 "تحقق من أن نظام إنترنت الأشياء وقاعدة البيانات يستوفيان :ref:`متطلبات "
 "الأهلية <iot/https_certificate_iot/iot-eligibility>` للحصول على شهادة HTTPS."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:150
+msgid "Grant Odoo support team access to an IoT Box"
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:152
+msgid ""
+"If you need to grant remote access to an IoT Box, you can provide a "
+"Tailscale token on the IoT Box's homepage. This allows the Odoo support team "
+"to access the IoT Box for troubleshooting securely."
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+msgid ""
+"Only enter a token from a trusted source, such as an official Odoo support "
+"representative. Providing a token grants access to the IoT Box and your "
+"entire local network, so it should be done with caution."
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:161
+msgid ""
+"On the :ref:`IoT Box's homepage <iot/iot-box/homepage>`, click the :icon:`fa-"
+"cogs` (:guilabel:`cogs`) button, then click :guilabel:`Debugging Tools`. In "
+"the pop-up window, enter the Tailscale token provided by the Odoo support "
+"team and click :guilabel:`Enable`."
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
+msgid ""
+"**Remote Debug** is only available for :doc:`IoT boxes <../iot_box>`, not "
+"the :doc:`Windows virtual IoT <../windows_iot>`."
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:170
+msgid "Is the IoT Box down?"
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:172
+msgid ""
+"If the IoT Box is down, you can still enable remote access for the Odoo "
+"support team. Just provide the key in the only field displayed on "
+"the :ref:`homepage <iot/iot-box/homepage>` and click :guilabel:`Enable`."
+msgstr ""
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:180
+msgid ""
+"Enabling remote access on a down IoT Box is only available from version "
+"above v26.01.2026. If your IoT Box doesn't have this option, you will need "
+"to :ref:`flash the IoT Box's card with the latest image <iot/updating_iot/"
+"image-code>`."
+msgstr ""
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:5
 msgid ""
@@ -14111,11 +14122,11 @@ msgstr ""
 "يستخدم باقي هذا المستند Google Authenticator كمثال، لأنه أحد أكثر البرامج "
 "استخداماً. هذا **ليس** تأييداً للمنتج."
 
-#: ../../content/applications/general/users/2fa.rst:47
+#: ../../content/applications/general/users/2fa.rst:49
 msgid "Two-factor authentication setup"
 msgstr "إعداد المصادقة الثنائية"
 
-#: ../../content/applications/general/users/2fa.rst:49
+#: ../../content/applications/general/users/2fa.rst:51
 msgid ""
 "After selecting an authenticator, log in to Odoo, then click the profile "
 "avatar in the upper-right corner, and select :guilabel:`My Profile` from the "
@@ -14125,7 +14136,7 @@ msgstr ""
 "في الزاوية اليمنى العليا، واختر :guilabel:`ملفي الشخصي` من القائمة المنسدلة "
 "الناتجة."
 
-#: ../../content/applications/general/users/2fa.rst:52
+#: ../../content/applications/general/users/2fa.rst:54
 msgid ""
 "Click the :guilabel:`Account Security` tab, then slide the :guilabel:`Two-"
 "Factor Authentication` toggle to *active*."
@@ -14137,7 +14148,7 @@ msgstr ""
 msgid "The account secuirty tab in a user profile."
 msgstr "علامة تبويب أمان الحساب في ملف تعريف المستخدم."
 
-#: ../../content/applications/general/users/2fa.rst:58
+#: ../../content/applications/general/users/2fa.rst:60
 msgid ""
 "This generates a :guilabel:`Security Control` pop-up window that requires "
 "password confirmation to continue. Enter the appropriate password, then "
@@ -14149,16 +14160,16 @@ msgstr ""
 "كلمة المرور`. بعد ذلك، تظهر نافذة منبثقة :guilabel:`تفعيل المصادقة "
 "الثنائية`، تحتوي على |QR|."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid "The 2fa authentication QR code in Odoo."
 msgstr "رمز الاستجابة السريعة للمصادقة الثنائية في Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid ""
 "Using the desired authenticator application, scan the |QR| when prompted."
 msgstr "باستخدام تطبيق المصادقة المطلوب، امسح |QR| عند المطالبة."
 
-#: ../../content/applications/general/users/2fa.rst:68
+#: ../../content/applications/general/users/2fa.rst:70
 msgid ""
 "If scanning the screen is not possible (e.g., the setup is being completed "
 "on the *same* device as the authenticator application), click the "
@@ -14173,7 +14184,7 @@ msgstr ""
 msgid "A 2fa secret code on an authentication popup."
 msgstr "رمز سري للمصادقة الثنائية على نافذة منبثقة للمصادقة."
 
-#: ../../content/applications/general/users/2fa.rst:75
+#: ../../content/applications/general/users/2fa.rst:77
 msgid "Afterwards, the authenticator should display a *verification code*."
 msgstr "بعد ذلك، يجب أن يعرض تطبيق المصادقة *رمز التحقق*."
 
@@ -14181,7 +14192,7 @@ msgstr "بعد ذلك، يجب أن يعرض تطبيق المصادقة *رمز
 msgid "A view of the Google authenticator app with the six digit code for 2fa."
 msgstr "عرض لتطبيق Google Authenticator مع رمز من ستة أرقام للمصادقة الثنائية."
 
-#: ../../content/applications/general/users/2fa.rst:80
+#: ../../content/applications/general/users/2fa.rst:82
 msgid ""
 "Enter the code into the :guilabel:`Verification Code` field, then "
 "click :guilabel:`Activate`."
@@ -14196,15 +14207,15 @@ msgstr ""
 "رسالة النجاح التي تظهر في ملف تعريف المستخدم عند تفعيل المصادقة الثنائية "
 "بنجاح."
 
-#: ../../content/applications/general/users/2fa.rst:86
+#: ../../content/applications/general/users/2fa.rst:88
 msgid "Logging in"
 msgstr "تسجيل الدخول"
 
-#: ../../content/applications/general/users/2fa.rst:88
+#: ../../content/applications/general/users/2fa.rst:90
 msgid "To confirm |2fa| setup is complete, log out of Odoo."
 msgstr "لتأكيد اكتمال إعداد |2fa|، قم بتسجيل الخروج من Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:90
+#: ../../content/applications/general/users/2fa.rst:92
 msgid ""
 "On the login page, input the username and password, then "
 "click :guilabel:`Log in`. On the :guilabel:`Two-factor Authentication` page, "
@@ -14220,7 +14231,7 @@ msgstr ""
 msgid "The login page with 2fa enabled."
 msgstr "صفحة تسجيل الدخول مع تفعيل المصادقة الثنائية."
 
-#: ../../content/applications/general/users/2fa.rst:98
+#: ../../content/applications/general/users/2fa.rst:100
 msgid ""
 "If a user loses access to their authenticator, an administrator **must** "
 "deactivate |2fa| on the account before the user can log in."
@@ -14228,11 +14239,11 @@ msgstr ""
 "إذا فقد المستخدم الوصول إلى تطبيق المصادقة الخاص به، **يجب** على المسؤول "
 "إلغاء تفعيل |2fa| على الحساب قبل أن يتمكن المستخدم من تسجيل الدخول."
 
-#: ../../content/applications/general/users/2fa.rst:102
+#: ../../content/applications/general/users/2fa.rst:104
 msgid "Enforce two-factor authentication"
 msgstr "تنفيذ المصادقة ثنائية العوامل"
 
-#: ../../content/applications/general/users/2fa.rst:104
+#: ../../content/applications/general/users/2fa.rst:106
 msgid ""
 "To enforce |2fa| for every user in the database, navigate to "
 "the :menuselection:`Settings` app. In the :guilabel:`Permissions` section, "
@@ -14246,7 +14257,7 @@ msgstr ""
 "الاختيار لتحديد ما إذا كنت تريد تطبيق هذا الإعداد على :guilabel:`الموظفون "
 "فقط` أو :guilabel:`جميع المستخدمين`."
 
-#: ../../content/applications/general/users/2fa.rst:110
+#: ../../content/applications/general/users/2fa.rst:112
 msgid ""
 "Selecting :guilabel:`All users` applies the setting to portal users in "
 "addition to employees."
@@ -14254,7 +14265,7 @@ msgstr ""
 "اختيار :guilabel:`جميع المستخدمين` يطبق الإعداد على مستخدمي البوابة بالإضافة "
 "إلى الموظفين."
 
-#: ../../content/applications/general/users/2fa.rst:112
+#: ../../content/applications/general/users/2fa.rst:114
 msgid "Click :guilabel:`Save` to commit any unsaved changes."
 msgstr "انقر على :guilabel:`حفظ` لتطبيق أي تغييرات غير محفوظة."
 
@@ -14262,7 +14273,7 @@ msgstr "انقر على :guilabel:`حفظ` لتطبيق أي تغييرات غي
 msgid "The enforce two factor setting in the Settings application."
 msgstr "إعداد فرض المصادقة الثنائية في تطبيق الإعدادات."
 
-#: ../../content/applications/general/users/2fa.rst:118
+#: ../../content/applications/general/users/2fa.rst:120
 msgid ""
 "If users are frequently required to log in again and complete two-factor "
 "authentication, it may be due to session or inactivity timeout policies "
@@ -14272,7 +14283,7 @@ msgstr ""
 "الثنائية، فقد يكون ذلك بسبب سياسات انتهاء الجلسة أو عدم النشاط المكوَّنة "
 "لواحدة أو أكثر من مجموعات المستخدمين الخاصة بهم."
 
-#: ../../content/applications/general/users/2fa.rst:121
+#: ../../content/applications/general/users/2fa.rst:123
 msgid ""
 "Administrators can configure these policies using the *Timeouts* settings "
 "available on user groups when the *auth_timeout* module is installed. "
@@ -15084,8 +15095,8 @@ msgid ""
 "finish."
 msgstr ""
 "انقر على :guilabel:`جديد` وفي الصف الفارغ الذي يظهر، أضف معامل النظام التالي "
-"`auth_oauth.authorization_header` إلى حقل :guilabel:`المفتاح`، وعيّن "
-":guilabel:`القيمة` إلى `1`. ثم انقر على :guilabel:`حفظ` للإنهاء."
+"`auth_oauth.authorization_header` إلى حقل :guilabel:`المفتاح`، "
+"وعيّن :guilabel:`القيمة` إلى `1`. ثم انقر على :guilabel:`حفظ` للإنهاء."
 
 #: ../../content/applications/general/users/azure.rst:37
 msgid "Microsoft Azure dashboard"
@@ -15264,17 +15275,17 @@ msgid ""
 "Microsoft account to the Odoo user."
 msgstr ""
 "يحتاج Odoo إلى إذن لقراءة معلومات الملف الشخصي للمستخدم المسجل دخوله من "
-"Microsoft Graph أثناء تدفق OAuth. كحد أدنى، تأكد من منح الإذن المفوض "
-":guilabel:`User.Read` على تسجيل تطبيق Azure. وإلا فقد تفشل عملية تسجيل الدخول "
-"أو لا تتمكن من ربط حساب Microsoft بمستخدم Odoo بشكل صحيح."
+"Microsoft Graph أثناء تدفق OAuth. كحد أدنى، تأكد من منح الإذن "
+"المفوض :guilabel:`User.Read` على تسجيل تطبيق Azure. وإلا فقد تفشل عملية "
+"تسجيل الدخول أو لا تتمكن من ربط حساب Microsoft بمستخدم Odoo بشكل صحيح."
 
 #: ../../content/applications/general/users/azure.rst:120
 msgid ""
 ":guilabel:`User.Read` is often added by default for new app registrations, "
 "but it should be explicitly verified here."
 msgstr ""
-"غالبًا ما تتم إضافة :guilabel:`User.Read` افتراضيًا لتسجيلات التطبيقات الجديدة، "
-"ولكن يجب التحقق منه صراحةً هنا."
+"غالبًا ما تتم إضافة :guilabel:`User.Read` افتراضيًا لتسجيلات التطبيقات "
+"الجديدة، ولكن يجب التحقق منه صراحةً هنا."
 
 #: ../../content/applications/general/users/azure.rst:123
 msgid ""
@@ -16487,9 +16498,9 @@ msgid ""
 "information` button under the user contact information. This brings up a new "
 "page where contact information can be updated."
 msgstr ""
-"من لوحة البيانات الخاصة بالبوابة، انقر فوق زر :icon:`fa-pencil` "
-":guilabel:`تحرير المعلومات` أسفل معلومات جهة اتصال المستخدم. يؤدي هذا إلى "
-"فتح صفحة جديدة حيث يمكن تحديث معلومات جهة الاتصال."
+"من لوحة البيانات الخاصة بالبوابة، انقر فوق زر :icon:`fa-"
+"pencil` :guilabel:`تحرير المعلومات` أسفل معلومات جهة اتصال المستخدم. يؤدي "
+"هذا إلى فتح صفحة جديدة حيث يمكن تحديث معلومات جهة الاتصال."
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:26
 msgid "On this screen, users can update their:"
@@ -16737,11 +16748,11 @@ msgid ""
 "login. Users' email addresses can be changed in the :guilabel:`Manage Users` "
 "module, the **Contacts** app, or by the users themselves in the portal."
 msgstr ""
-"لا يمكن للمستخدمين تغيير أسماء تسجيل الدخول الخاصة بهم. تغيير :icon:`fa-key` "
-":guilabel:`تسجيل الدخول` يغير فقط *اسم المستخدم* في تسجيل دخول المستخدم إلى "
-"البوابة. يمكن تغيير عناوين البريد الإلكتروني للمستخدمين في وحدة "
-":guilabel:`إدارة المستخدمين`، أو تطبيق **جهات الاتصال**، أو من قبل المستخدمين "
-"أنفسهم في البوابة."
+"لا يمكن للمستخدمين تغيير أسماء تسجيل الدخول الخاصة بهم. تغيير :icon:`fa-"
+"key` :guilabel:`تسجيل الدخول` يغير فقط *اسم المستخدم* في تسجيل دخول المستخدم "
+"إلى البوابة. يمكن تغيير عناوين البريد الإلكتروني للمستخدمين في "
+"وحدة :guilabel:`إدارة المستخدمين`، أو تطبيق **جهات الاتصال**، أو من قبل "
+"المستخدمين أنفسهم في البوابة."
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:141
 msgid "Update passwords"
@@ -16754,8 +16765,8 @@ msgid ""
 "to:"
 msgstr ""
 "يمكن تعديل إعدادات الأمان للمستخدمين ضمن علامة التبويب :guilabel:`الأمان` في "
-"نموذج جهة الاتصال الخاص بهم. ضمن علامة التبويب :guilabel:`الأمان`، توجد خيارات "
-"من أجل:"
+"نموذج جهة الاتصال الخاص بهم. ضمن علامة التبويب :guilabel:`الأمان`، توجد "
+"خيارات من أجل:"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:146
 msgid ""
@@ -16786,6 +16797,83 @@ msgstr ":doc:`حقوق الوصول </applications/general/users/access_rights>`
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:154
 msgid ":doc:`Portal access documentation <portal_access>`"
 msgstr ":doc:`وثائق الوصول إلى البوابة <portal_access>`"
+
+#~ msgid ""
+#~ "A specific error code is displayed on the IoT system's homepage if any "
+#~ "issues occur during the generation or reception of the ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`."
+#~ msgstr ""
+#~ "يُعرض رمز خطأ محدد على الصفحة الرئيسية لنظام إنترنت الأشياء في حالة حدوث "
+#~ "أي مشاكل أثناء إنشاء أو استلام ref:`شهادة HTTPS <iot/connect/"
+#~ "https_certificate>`."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+
+#~ msgid ""
+#~ "The server configuration is missing, i.e., the database is "
+#~ "not :doc:`connected <../connect>` to the IoT system."
+#~ msgstr ""
+#~ "تكوين الخادم مفقود، أي أن قاعدة البيانات غير :doc:`متصلة <../connect>` "
+#~ "بنظام إنترنت الأشياء."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+
+#~ msgid ""
+#~ "An error occurred while attempting to read the existing ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
+#~ "certificate file is readable."
+#~ msgstr ""
+#~ "حدث خطأ أثناء محاولة قراءة ref:`شهادة HTTPS <iot/connect/"
+#~ "https_certificate>` الموجودة. تحقق من أن ملف شهادة HTTPS قابل للقراءة."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+
+#~ msgid ""
+#~ "An unexpected error occurred while the IoT system tried to reach "
+#~ "`<https://www.odoo.com>`_. This is likely due to network-related issues, "
+#~ "such as:"
+#~ msgstr ""
+#~ "حدث خطأ غير متوقع أثناء محاولة نظام إنترنت الأشياء الوصول إلى `<https://"
+#~ "www.odoo.com>`_. من المحتمل أن يكون ذلك بسبب مشكلات متعلقة بالشبكة، مثل:"
+
+#~ msgid "The IoT system does not have Internet access."
+#~ msgstr "نظام إنترنت الأشياء لا يملك اتصالاً بالإنترنت."
+
+#~ msgid ""
+#~ "Network restrictions (e.g., firewalls or VPNs) are preventing "
+#~ "communication with https://www.odoo.com."
+#~ msgstr ""
+#~ "قيود الشبكة (مثل جدران الحماية أو الشبكات الافتراضية الخاصة) تمنع الاتصال "
+#~ "بـ https://www.odoo.com."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+
+#~ msgid ""
+#~ "This error code includes the HTTP status. For example, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a "
+#~ "\"Page Not Found\" response."
+#~ msgstr ""
+#~ "يتضمن رمز الخطأ هذا حالة HTTP. على سبيل المثال، "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` يعني أن الخادم أرجع استجابة "
+#~ "\"الصفحة غير موجودة\"."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+
+#~ msgid ""
+#~ "The IoT system successfully connected to `<https://www.odoo.com>`_, but "
+#~ "the server refused to provide the ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`."
+#~ msgstr ""
+#~ "نجح نظام إنترنت الأشياء في الاتصال بـ `<https://www.odoo.com>`_، لكن "
+#~ "الخادم رفض توفير ref:`شهادة HTTPS <iot/connect/https_certificate>`."
 
 #~ msgid ""
 #~ "This configuration only works with a subdomain on the Odoo Online or "

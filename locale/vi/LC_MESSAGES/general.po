@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:21+0000\n"
-"PO-Revision-Date: 2026-06-10 01:10+0000\n"
+"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"PO-Revision-Date: 2026-07-05 00:01+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19-doc/"
 "general/vi/>\n"
@@ -659,9 +659,9 @@ msgid ""
 "to :menuselection:`Settings app --> Emails section`, activate "
 "the :guilabel:`Digest Emails` feature, and click :guilabel:`Save`."
 msgstr ""
-"Để bắt đầu gửi email tóm tắt, trước tiên hãy điều hướng đến "
-":menuselection:`ứng dụng Cài đặt --> mục Email`, kích hoạt tính năng "
-":guilabel:`Email tóm tắt` và nhấp :guilabel:`Lưu`."
+"Để bắt đầu gửi email tóm tắt, trước tiên hãy điều hướng "
+"đến :menuselection:`ứng dụng Cài đặt --> mục Email`, kích hoạt tính "
+"năng :guilabel:`Email tóm tắt` và nhấp :guilabel:`Lưu`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:None
 msgid "Digest Emails section inside General Settings."
@@ -728,10 +728,10 @@ msgid ""
 "un-ticking the checkbox, and clicking :guilabel:`Save`. See the section "
 "on :ref:`digest-emails/deactivate`."
 msgstr ""
-"Để hủy kích hoạt email tóm tắt, hãy điều hướng đến :menuselection:`Cài "
-"đặt --> mục Email`. Sau đó, hủy kích hoạt tính năng :guilabel:`Email tóm "
-"tắt`, bằng cách bỏ chọn hộp kiểm và nhấp :guilabel:`Lưu`. Xem mục tại "
-":ref:`digest-emails/deactivate`."
+"Để hủy kích hoạt email tóm tắt, hãy điều hướng đến :menuselection:`Cài đặt --"
+"> mục Email`. Sau đó, hủy kích hoạt tính năng :guilabel:`Email tóm tắt`, "
+"bằng cách bỏ chọn hộp kiểm và nhấp :guilabel:`Lưu`. Xem mục tại :ref:`digest-"
+"emails/deactivate`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:38
 msgid "Customize default digest email"
@@ -831,9 +831,10 @@ msgid ""
 "click :guilabel:`Deactivate`."
 msgstr ""
 "Để hủy kích hoạt thủ công một email tóm tắt riêng lẻ, trước tiên hãy điều "
-"hướng đến :menuselection:`ứng dụng Cài đặt --> mục Email` và nhấp "
-":guilabel:`Cấu hình Email tóm tắt`. Sau đó, chọn email tóm tắt mong muốn từ "
-"danh sách cần hủy kích hoạt. Tiếp theo, nhấp :guilabel:`Hủy kích hoạt`."
+"hướng đến :menuselection:`ứng dụng Cài đặt --> mục Email` và "
+"nhấp :guilabel:`Cấu hình Email tóm tắt`. Sau đó, chọn email tóm tắt mong "
+"muốn từ danh sách cần hủy kích hoạt. Tiếp theo, nhấp :guilabel:`Hủy kích "
+"hoạt`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:75
 msgid "Manually send digest email"
@@ -846,10 +847,11 @@ msgid ""
 "Then, select the desired digest email, and click :guilabel:`SEND NOW`. This "
 "button is located in the top menu, just above the :guilabel:`Digest Name`."
 msgstr ""
-"Để gửi email tóm tắt thủ công, trước tiên hãy điều hướng đến "
-":menuselection:`ứng dụng Cài đặt --> mục Email` và nhấp :guilabel:`Cấu hình "
-"Email tóm tắt`. Sau đó, chọn email tóm tắt mong muốn và nhấp :guilabel:`GỬI "
-"NGAY`. Nút này nằm ở menu trên cùng, ngay phía trên :guilabel:`Tên tóm tắt`."
+"Để gửi email tóm tắt thủ công, trước tiên hãy điều hướng "
+"đến :menuselection:`ứng dụng Cài đặt --> mục Email` và nhấp :guilabel:`Cấu "
+"hình Email tóm tắt`. Sau đó, chọn email tóm tắt mong muốn và "
+"nhấp :guilabel:`GỬI NGAY`. Nút này nằm ở menu trên cùng, ngay phía "
+"trên :guilabel:`Tên tóm tắt`."
 
 #: ../../content/applications/general/companies/digest_emails.rst:85
 msgid "KPIs"
@@ -3262,9 +3264,9 @@ msgid ""
 "automatically loads the :guilabel:`token` in Odoo, and a tag "
 "stating :guilabel:`Outlook Token Valid` appears in green."
 msgstr ""
-"Sau đó, cho phép Odoo truy cập vào tài khoản Microsoft bằng cách nhấp vào "
-":guilabel:`Yes`. Sau đó, trang sẽ điều hướng trở lại :guilabel:`Máy chủ thư "
-"đi` mới được cấu hình trong Odoo. Cấu hình sẽ tự động tải :guilabel:`mã "
+"Sau đó, cho phép Odoo truy cập vào tài khoản Microsoft bằng cách nhấp "
+"vào :guilabel:`Yes`. Sau đó, trang sẽ điều hướng trở lại :guilabel:`Máy chủ "
+"thư đi` mới được cấu hình trong Odoo. Cấu hình sẽ tự động tải :guilabel:`mã "
 "thông báo` trong Odoo và một thẻ ghi :guilabel:`Outlook Token Valid` xuất "
 "hiện màu xanh lá cây."
 
@@ -3329,9 +3331,9 @@ msgid ""
 "activating :ref:`developer-mode` in the :menuselection:`Settings --> "
 "Technical --> Parameters --> System Parameters` menu."
 msgstr ""
-":guilabel:`Tham số hệ thống` có thể được truy cập bằng cách kích hoạt "
-":ref:`developer-mode` trong menu :menuselection:`Cài đặt --> Kỹ thuật --> "
-"Tham số --> Tham số hệ thống`."
+":guilabel:`Tham số hệ thống` có thể được truy cập bằng cách kích "
+"hoạt :ref:`developer-mode` trong menu :menuselection:`Cài đặt --> Kỹ thuật --"
+"> Tham số --> Tham số hệ thống`."
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:214
 msgid ""
@@ -3384,8 +3386,9 @@ msgid ""
 "configuration to work."
 msgstr ""
 "Ngoài máy chủ email chung, các máy chủ email riêng lẻ có thể được thiết lập "
-"cho người dùng trong cơ sở dữ liệu. Các địa chỉ email này phải được đặt làm "
-":guilabel:`Lọc FROM` trên từng máy chủ riêng lẻ để cấu hình này hoạt động."
+"cho người dùng trong cơ sở dữ liệu. Các địa chỉ email này phải được đặt "
+"làm :guilabel:`Lọc FROM` trên từng máy chủ riêng lẻ để cấu hình này hoạt "
+"động."
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:237
 msgid ""
@@ -3933,9 +3936,9 @@ msgid ""
 "rua=mailto:postmaster@example.com”` means that aggregate DMARC reports will "
 "be sent to `postmaster\\@example.com`."
 msgstr ""
-":literal:`_dmarc IN TXT “v=DMARC1; p=none; rua=mailto:postmaster@example.com"
-"”` có nghĩa là các báo cáo tổng hợp DMARC sẽ được gửi đến `postmaster\\"
-"@example.com`."
+":literal:`_dmarc IN TXT “v=DMARC1; p=none; "
+"rua=mailto:postmaster@example.com”` có nghĩa là các báo cáo tổng hợp DMARC "
+"sẽ được gửi đến `postmaster\\@example.com`."
 
 #: ../../content/applications/general/email_communication/email_domain.rst:217
 msgid "SPF, DKIM and DMARC documentation of common providers"
@@ -7357,16 +7360,16 @@ msgid ""
 "The domain needs to be added to the Mailjet account and then validated "
 "through the :abbr:`DNS (Domain Name System)`."
 msgstr ""
-"Miền cần được thêm vào tài khoản Mailjet và sau đó xác thực thông qua "
-":abbr:`DNS (Hệ thống tên miền)`."
+"Miền cần được thêm vào tài khoản Mailjet và sau đó xác thực thông "
+"qua :abbr:`DNS (Hệ thống tên miền)`."
 
 #: ../../content/applications/general/email_communication/mailjet_api.rst:117
 msgid ""
 "After that, fill out the :guilabel:`Add a new Domain` page on Mailjet and "
 "click :guilabel:`Continue`."
 msgstr ""
-"Sau đó, điền vào trang :guilabel:`Thêm Miền mới` trên Mailjet và nhấp "
-":guilabel:`Tiếp tục`."
+"Sau đó, điền vào trang :guilabel:`Thêm Miền mới` trên Mailjet và "
+"nhấp :guilabel:`Tiếp tục`."
 
 #: ../../content/applications/general/email_communication/mailjet_api.rst:120
 msgid ""
@@ -7631,9 +7634,9 @@ msgid ""
 "desired project is already selected by default, proceed to the next step."
 msgstr ""
 "Nếu bạn đã tạo một dự án nhưng muốn chuyển sang dự án khác, hãy nhấp vào tên "
-"dự án đã chọn ở góc trên bên trái. Sau đó, trong cửa sổ bật lên "
-":guilabel:`Chọn một tài nguyên`, hãy chọn thủ công một dự án. Nếu dự án mong "
-"muốn đã được chọn theo mặc định, hãy tiến hành bước tiếp theo."
+"dự án đã chọn ở góc trên bên trái. Sau đó, trong cửa sổ bật "
+"lên :guilabel:`Chọn một tài nguyên`, hãy chọn thủ công một dự án. Nếu dự án "
+"mong muốn đã được chọn theo mặc định, hãy tiến hành bước tiếp theo."
 
 #: ../../content/applications/general/integrations/address_autocomplete.rst:50
 msgid ""
@@ -8364,16 +8367,16 @@ msgid ""
 "the :ref:`application (client) ID <cloud-storage/microsoft/app>` in "
 "the :guilabel:`Azure Client ID` field; and"
 msgstr ""
-":ref:`ID ứng dụng (client) <cloud-storage/microsoft/app>` trong trường "
-":guilabel:`Azure Client ID`; và"
+":ref:`ID ứng dụng (client) <cloud-storage/microsoft/app>` trong "
+"trường :guilabel:`Azure Client ID`; và"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:269
 msgid ""
 "the :ref:`client secret's value <cloud-storage/microsoft/app>` in "
 "the :guilabel:`Azure Client Secret` field."
 msgstr ""
-":ref:`giá trị bí mật của client <cloud-storage/microsoft/app>` trong trường "
-":guilabel:`Azure Client Secret`."
+":ref:`giá trị bí mật của client <cloud-storage/microsoft/app>` trong "
+"trường :guilabel:`Azure Client Secret`."
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:272
 msgid ""
@@ -8404,9 +8407,9 @@ msgid ""
 "Localization`. Then, choose between using the OpenStreetMap or Google Places "
 "API."
 msgstr ""
-"Để sử dụng tính năng này, mở ứng dụng :guilabel:`Cài đặt`, và trong phần "
-":guilabel:`Tích hợp`, kích hoạt :guilabel:`Định vị địa lý`. Sau đó, chọn "
-"giữa việc sử dụng OpenStreetMap hoặc Google Places API."
+"Để sử dụng tính năng này, mở ứng dụng :guilabel:`Cài đặt`, và trong "
+"phần :guilabel:`Tích hợp`, kích hoạt :guilabel:`Định vị địa lý`. Sau đó, "
+"chọn giữa việc sử dụng OpenStreetMap hoặc Google Places API."
 
 #: ../../content/applications/general/integrations/geolocation.rst:14
 msgid "**OpenStreetMap**"
@@ -9423,10 +9426,10 @@ msgid ""
 "email is used as the opportunity title, and the content of the email is "
 "added to the :guilabel:`Notes` tab of the opportunity."
 msgstr ""
-"Để tạo cơ hội từ email, hãy nhấp vào biểu tượng :icon:`fa-plus` :guilabel:`"
-"(cộng)` bên cạnh :guilabel:`Cơ hội`. Thao tác này sẽ mở bản ghi cơ hội mới "
-"trong Odoo ở tab mới. Tiêu đề của email được dùng làm tiêu đề cơ hội, và nội "
-"dung email được thêm vào tab :guilabel:`Ghi chú` của cơ hội."
+"Để tạo cơ hội từ email, hãy nhấp vào biểu tượng :icon:`fa-"
+"plus` :guilabel:`(cộng)` bên cạnh :guilabel:`Cơ hội`. Thao tác này sẽ mở bản "
+"ghi cơ hội mới trong Odoo ở tab mới. Tiêu đề của email được dùng làm tiêu đề "
+"cơ hội, và nội dung email được thêm vào tab :guilabel:`Ghi chú` của cơ hội."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:148
 msgid "Create a task"
@@ -9441,12 +9444,12 @@ msgid ""
 "Odoo in a new tab. The subject of the email is used as the task title, and "
 "the content of the email is added to the :guilabel:`Description` tab."
 msgstr ""
-"Để tạo tác vụ từ email, hãy nhấp vào biểu tượng :icon:`fa-plus` :guilabel:`"
-"(cộng)` bên cạnh :guilabel:`Tác vụ`. Sau đó, nhập tiêu đề của dự án nơi tác "
-"vụ cần được tạo vào trường hiện ra, và chọn dự án thích hợp từ danh sách kết "
-"quả. Thao tác này sẽ mở bản ghi tác vụ mới trong Odoo ở tab mới. Tiêu đề của "
-"email được dùng làm tiêu đề tác vụ, và nội dung email được thêm vào tab "
-":guilabel:`Mô tả`."
+"Để tạo tác vụ từ email, hãy nhấp vào biểu tượng :icon:`fa-"
+"plus` :guilabel:`(cộng)` bên cạnh :guilabel:`Tác vụ`. Sau đó, nhập tiêu đề "
+"của dự án nơi tác vụ cần được tạo vào trường hiện ra, và chọn dự án thích "
+"hợp từ danh sách kết quả. Thao tác này sẽ mở bản ghi tác vụ mới trong Odoo ở "
+"tab mới. Tiêu đề của email được dùng làm tiêu đề tác vụ, và nội dung email "
+"được thêm vào tab :guilabel:`Mô tả`."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:157
 msgid "Create a ticket"
@@ -9460,11 +9463,11 @@ msgid ""
 "content of the email is added to the :guilabel:`Description` tab of the "
 "ticket."
 msgstr ""
-"Để tạo tác vụ từ email, hãy nhấp vào biểu tượng :icon:`fa-plus` :guilabel:`"
-"(cộng)` bên cạnh :guilabel:`Phiếu yêu cầu`. Thao tác này sẽ mở bản ghi phiếu "
-"yêu cầu mới trong Odoo ở tab mới. Tiêu đề của email được dùng làm tiêu đề "
-"phiếu yêu cầu, và nội dung email được thêm vào tab :guilabel:`Mô tả` của "
-"phiếu yêu cầu."
+"Để tạo tác vụ từ email, hãy nhấp vào biểu tượng :icon:`fa-"
+"plus` :guilabel:`(cộng)` bên cạnh :guilabel:`Phiếu yêu cầu`. Thao tác này sẽ "
+"mở bản ghi phiếu yêu cầu mới trong Odoo ở tab mới. Tiêu đề của email được "
+"dùng làm tiêu đề phiếu yêu cầu, và nội dung email được thêm vào "
+"tab :guilabel:`Mô tả` của phiếu yêu cầu."
 
 #: ../../content/applications/general/integrations/unsplash.rst:3
 msgid "Unsplash"
@@ -9696,7 +9699,7 @@ msgstr ""
 "thống IoT."
 
 #: ../../content/applications/general/iot.rst:68
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:5
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:3
 msgid "Troubleshooting"
 msgstr "Khắc phục sự cố"
 
@@ -9923,8 +9926,8 @@ msgstr ""
 "chép :guilabel:`Mã thông báo`."
 
 #: ../../content/applications/general/iot/connect.rst:90
-#: ../../content/applications/general/iot/connect.rst:141
-#: ../../content/applications/general/iot/devices/printer.rst:181
+#: ../../content/applications/general/iot/connect.rst:144
+#: ../../content/applications/general/iot/devices/printer.rst:186
 msgid ""
 "Access the :ref:`IoT box's <iot/iot-box/homepage>` or :ref:`Windows virtual "
 "IoT's <iot/windows-iot/homepage>` homepage."
@@ -10023,20 +10026,30 @@ msgstr ""
 "handlers>` mỗi khi hệ thống IoT được khởi động lại. Để tắt cập nhật tự động, "
 "bỏ chọn tùy chọn :guilabel:`Cập nhật trình điều khiển tự động`."
 
-#: ../../content/applications/general/iot/connect.rst:131
+#: ../../content/applications/general/iot/connect.rst:127
+msgid ""
+"On the :ref:`IoT system's form <iot/connect/IoT-form>`, click "
+"the :guilabel:`Test` button to test the connection between the IoT system "
+"and Odoo and assess the quality of the system's Internet connection."
+msgstr ""
+"Trên :ref:`biểu mẫu hệ thống IoT <iot/connect/IoT-form>`, nhấp vào nút "
+":guilabel:`Kiểm tra` để kiểm tra kết nối giữa hệ thống IoT và Odoo cũng như "
+"đánh giá chất lượng kết nối Internet của hệ thống."
+
+#: ../../content/applications/general/iot/connect.rst:134
 msgid "Disconnecting an IoT system from a database"
 msgstr "Ngắt kết nối hệ thống IoT khỏi cơ sở dữ liệu"
 
-#: ../../content/applications/general/iot/connect.rst:133
+#: ../../content/applications/general/iot/connect.rst:136
 msgid "To disconnect the IoT system from a database, follow these steps:"
 msgstr ""
 "Để ngắt kết nối hệ thống IoT khỏi cơ sở dữ liệu, hãy làm theo các bước sau:"
 
-#: ../../content/applications/general/iot/connect.rst:135
+#: ../../content/applications/general/iot/connect.rst:138
 msgid "Open the IoT app and click the relevant IoT system's card."
 msgstr "Mở ứng dụng IoT và nhấp vào thẻ hệ thống IoT liên quan."
 
-#: ../../content/applications/general/iot/connect.rst:136
+#: ../../content/applications/general/iot/connect.rst:139
 msgid ""
 "Click the :icon:`fa-cog` :guilabel:`(Actions)` icon, and "
 "select :guilabel:`Delete`."
@@ -10044,11 +10057,11 @@ msgstr ""
 "Nhấp vào biểu tượng :icon:`fa-cog` :guilabel:`(Hành động)`, rồi "
 "chọn :guilabel:`Xóa`."
 
-#: ../../content/applications/general/iot/connect.rst:139
+#: ../../content/applications/general/iot/connect.rst:142
 msgid "Alternatively:"
 msgstr "Hoặc:"
 
-#: ../../content/applications/general/iot/connect.rst:143
+#: ../../content/applications/general/iot/connect.rst:146
 msgid ""
 "Click :guilabel:`Configure` in the :icon:`fa-link` :guilabel:`Odoo database "
 "connected` section."
@@ -10056,15 +10069,15 @@ msgstr ""
 "Nhấp vào :guilabel:`Cấu hình` trong phần :icon:`fa-link` :guilabel:`Đã kết "
 "nối với cơ sở dữ liệu Odoo`."
 
-#: ../../content/applications/general/iot/connect.rst:145
+#: ../../content/applications/general/iot/connect.rst:148
 msgid "Click :guilabel:`Disconnect` in the popup that opens."
 msgstr "Nhấp vào :guilabel:`Ngắt kết nối` trong cửa sổ bật lên xuất hiện."
 
-#: ../../content/applications/general/iot/connect.rst:150
+#: ../../content/applications/general/iot/connect.rst:153
 msgid "HTTPS certificate"
 msgstr "Chứng chỉ HTTPS"
 
-#: ../../content/applications/general/iot/connect.rst:152
+#: ../../content/applications/general/iot/connect.rst:155
 msgid ""
 ":abbr:`HTTPS (Hypertext Transfer Protocol Secure)` is the secure, encrypted "
 "version of :abbr:`HTTP (Hypertext Transfer Protocol)`. It uses :abbr:`TLS "
@@ -10082,7 +10095,7 @@ msgstr ""
 "thiết bị đầu cuối thanh toán, yêu cầu chứng chỉ HTTPS hợp lệ để giao tiếp "
 "với hệ thống IoT; nếu không có nó, chúng không thể tương tác đúng cách."
 
-#: ../../content/applications/general/iot/connect.rst:160
+#: ../../content/applications/general/iot/connect.rst:163
 msgid ""
 "In this documentation and throughout Odoo, the term *HTTPS certificate*  "
 "refers to a valid SSL certificate that allows an HTTPS connection."
@@ -10090,7 +10103,7 @@ msgstr ""
 "V této dokumentaci a v celém Odoo označuje termín *HTTPS certifikát* platný "
 "SSL certifikát, který umožňuje HTTPS připojení."
 
-#: ../../content/applications/general/iot/connect.rst:163
+#: ../../content/applications/general/iot/connect.rst:166
 msgid ""
 "When the IoT system is (re-)started and connected to a database, it "
 "automatically downloads the HTTPS certificate if the database meets the "
@@ -10100,7 +10113,7 @@ msgstr ""
 "động tải xuống chứng chỉ HTTPS nếu cơ sở dữ liệu đáp ứng các tiêu chí đủ "
 "điều kiện sau:"
 
-#: ../../content/applications/general/iot/connect.rst:168
+#: ../../content/applications/general/iot/connect.rst:171
 msgid ""
 "The database must be a **production** instance. The database instance should "
 "not be a copy, a duplicate, a staging, or a development environment."
@@ -10108,16 +10121,16 @@ msgstr ""
 "Databáze musí být **produkční** instance. Instance databáze by neměla být "
 "kopie, duplikát, přípravné nebo vývojové prostředí."
 
-#: ../../content/applications/general/iot/connect.rst:170
+#: ../../content/applications/general/iot/connect.rst:173
 msgid "The Odoo subscription must be ongoing (:guilabel:`In Progress` status)."
 msgstr ""
 "Gói đăng ký Odoo phải đang hoạt động (trạng thái :guilabel:`Đang tiến hành`)."
 
-#: ../../content/applications/general/iot/connect.rst:172
+#: ../../content/applications/general/iot/connect.rst:175
 msgid "When the certificate has been received:"
 msgstr "Když byl certifikát obdržen:"
 
-#: ../../content/applications/general/iot/connect.rst:174
+#: ../../content/applications/general/iot/connect.rst:177
 msgid ""
 "The IoT system's homepage address is updated to a new HTTPS URL ending with "
 "`.odoo-iot.com`."
@@ -10125,7 +10138,7 @@ msgstr ""
 "Địa chỉ trang chủ của hệ thống IoT được cập nhật sang URL HTTPS mới kết thúc "
 "bằng `.odoo-iot.com`."
 
-#: ../../content/applications/general/iot/connect.rst:175
+#: ../../content/applications/general/iot/connect.rst:178
 msgid ""
 "The :guilabel:`HTTPS certificate` banner displays the certificate's validity "
 "period. To view this information, click the :icon:`fa-cogs` "
@@ -10139,7 +10152,7 @@ msgstr ""
 msgid "IoT box homepage with HTTPS certificate validity date."
 msgstr "Domovská stránka IoT boxu s datem platnosti HTTPS certifikátu."
 
-#: ../../content/applications/general/iot/connect.rst:183
+#: ../../content/applications/general/iot/connect.rst:186
 msgid ":ref:`iot/troubleshooting/https_certificate`"
 msgstr ":ref:`iot/troubleshooting/https_certificate`"
 
@@ -10283,7 +10296,7 @@ msgstr ""
 "mới` để tạo kiểm tra chất lượng mới từ trang :guilabel:`Kiểm tra chất lượng`."
 
 #: ../../content/applications/general/iot/devices/camera.rst:58
-#: ../../content/applications/general/iot/devices/printer.rst:69
+#: ../../content/applications/general/iot/devices/printer.rst:74
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_control_points`"
@@ -10292,7 +10305,7 @@ msgstr ""
 "quality_control_points`"
 
 #: ../../content/applications/general/iot/devices/camera.rst:59
-#: ../../content/applications/general/iot/devices/printer.rst:70
+#: ../../content/applications/general/iot/devices/printer.rst:75
 msgid ""
 ":doc:`/applications/inventory_and_mrp/quality/quality_management/"
 "quality_alerts`"
@@ -10720,14 +10733,26 @@ msgstr ""
 "bị` của ứng dụng IoT."
 
 #: ../../content/applications/general/iot/devices/printer.rst:33
+msgid ""
+"To test the printer, open the IoT app, click the :ref:`IoT system's card "
+"<iot/connect/IoT-form>`, select the printer device, then "
+"click :guilabel:`Test`. A successful test prints a test page. If no page is "
+"printed, ensure the printer is powered on and the connection is correct."
+msgstr ""
+"Để kiểm tra máy in, mở ứng dụng IoT, nhấp vào :ref:`thẻ hệ thống IoT <iot/"
+"connect/IoT-form>`, chọn thiết bị máy in, sau đó nhấp vào :guilabel:`Kiểm "
+"tra`. Kiểm tra thành công sẽ in một trang thử nghiệm. Nếu không có trang nào "
+"được in, hãy đảm bảo máy in đã được bật nguồn và kết nối đúng."
+
+#: ../../content/applications/general/iot/devices/printer.rst:38
 msgid "Link a printer"
 msgstr "Liên kết máy in"
 
-#: ../../content/applications/general/iot/devices/printer.rst:36
+#: ../../content/applications/general/iot/devices/printer.rst:41
 msgid "Link work orders to a printer"
 msgstr "Liên kết lệnh sản xuất với máy in"
 
-#: ../../content/applications/general/iot/devices/printer.rst:38
+#: ../../content/applications/general/iot/devices/printer.rst:43
 msgid ""
 "Work orders can be linked to printers, via a quality control point, to print "
 "labels for manufactured products."
@@ -10735,7 +10760,7 @@ msgstr ""
 "Lệnh sản xuất có thể được liên kết với máy in thông qua điểm kiểm soát chất "
 "lượng để in nhãn cho sản phẩm được sản xuất."
 
-#: ../../content/applications/general/iot/devices/printer.rst:41
+#: ../../content/applications/general/iot/devices/printer.rst:46
 msgid ""
 "In the :doc:`Quality app </applications/inventory_and_mrp/quality>`, a "
 "device can be set up on a quality control point. To do so, go to "
@@ -10747,7 +10772,7 @@ msgstr ""
 "đi đến :menuselection:`Chất lượng --> Kiểm soát chất lượng --> Điểm kiểm "
 "soát`, và mở điểm kiểm soát mong muốn."
 
-#: ../../content/applications/general/iot/devices/printer.rst:46
+#: ../../content/applications/general/iot/devices/printer.rst:51
 msgid ""
 "A manufacturing operation and work order operation need to be attached to a "
 "quality control point before the :guilabel:`Type` field allows for "
@@ -10757,7 +10782,7 @@ msgstr ""
 "soát chất lượng trước khi trường :guilabel:`Loại` cho phép chọn tùy "
 "chọn :guilabel:`In nhãn`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:50
+#: ../../content/applications/general/iot/devices/printer.rst:55
 msgid ""
 "From here, edit the control point by selecting the :guilabel:`Type` field, "
 "and selecting :guilabel:`Print Label` from the dropdown menu of options. "
@@ -10768,7 +10793,7 @@ msgstr ""
 "chọn :guilabel:`In nhãn` từ menu thả xuống các tùy chọn. Thực hiện như vậy "
 "sẽ hiển thị trường :guilabel:`Thiết bị`, nơi có thể chọn thiết bị đã gắn."
 
-#: ../../content/applications/general/iot/devices/printer.rst:54
+#: ../../content/applications/general/iot/devices/printer.rst:59
 msgid ""
 "The printer can now be used with the selected quality control point. When "
 "the quality control point is reached during the manufacturing process, the "
@@ -10778,7 +10803,7 @@ msgstr ""
 "Khi đạt đến điểm kiểm soát chất lượng trong quá trình sản xuất, cơ sở dữ "
 "liệu sẽ hiển thị tùy chọn in nhãn cho sản phẩm cụ thể."
 
-#: ../../content/applications/general/iot/devices/printer.rst:59
+#: ../../content/applications/general/iot/devices/printer.rst:64
 msgid ""
 "Quality control points can also be accessed by navigating "
 "to :menuselection:`IoT --> Devices`, then selecting the device. Go to "
@@ -10788,7 +10813,7 @@ msgstr ""
 "đến :menuselection:`IoT --> Thiết bị`, sau đó chọn thiết bị. Đi đến "
 "tab :guilabel:`Điểm kiểm soát chất lượng` để thêm chúng vào thiết bị."
 
-#: ../../content/applications/general/iot/devices/printer.rst:64
+#: ../../content/applications/general/iot/devices/printer.rst:69
 msgid ""
 "On a :doc:`quality check form </applications/inventory_and_mrp/quality/"
 "quality_management/quality_checks>`, the :guilabel:`Type` of check can also "
@@ -10798,25 +10823,25 @@ msgstr ""
 "quality/quality_management/quality_checks>`, :guilabel:`Loại` kiểm tra cũng "
 "có thể được đặt thành :guilabel:`In nhãn`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:75
+#: ../../content/applications/general/iot/devices/printer.rst:80
 msgid "Link reports to a printer"
 msgstr "Liên kết báo cáo với máy in"
 
-#: ../../content/applications/general/iot/devices/printer.rst:77
+#: ../../content/applications/general/iot/devices/printer.rst:82
 msgid "It is possible to link report types to a specific printer. To do so:"
 msgstr "Có thể liên kết các loại báo cáo với máy in cụ thể. Để thực hiện:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:79
+#: ../../content/applications/general/iot/devices/printer.rst:84
 msgid "Go to :menuselection:`IoT --> Devices` and select the desired printer."
 msgstr "Truy cập :menuselection:`IoT --> Devices` và chọn máy in mong muốn."
 
-#: ../../content/applications/general/iot/devices/printer.rst:80
+#: ../../content/applications/general/iot/devices/printer.rst:85
 msgid ""
 "Go to the :guilabel:`Printer Reports` tab and click :guilabel:`Add a line`."
 msgstr ""
 "Chuyển đến tab :guilabel:`Printer Reports` và nhấp :guilabel:`Add a line`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:81
+#: ../../content/applications/general/iot/devices/printer.rst:86
 msgid ""
 "In the pop-up that opens, select the types of reports to be linked to the "
 "printer and click :guilabel:`Select`."
@@ -10828,7 +10853,7 @@ msgstr ""
 msgid "The list of reports assigned to a printer in the IoT app."
 msgstr "Danh sách các báo cáo được gán cho máy in trong ứng dụng IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:88
+#: ../../content/applications/general/iot/devices/printer.rst:93
 msgid ""
 "Reports can also be configured by :ref:`enabling the developer mode "
 "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
@@ -10840,7 +10865,7 @@ msgstr ""
 "> Reports`. Chọn báo cáo mong muốn từ danh sách và đặt :guilabel:`IoT "
 "Device`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:92
+#: ../../content/applications/general/iot/devices/printer.rst:97
 msgid ""
 "The first time a linked report is selected to print, a :guilabel:`Select "
 "Printers` pop-up window appears. Tick the checkbox next to the correct "
@@ -10851,11 +10876,11 @@ msgstr ""
 "Printers` sẽ xuất hiện. Đánh dấu vào ô chọn bên cạnh máy in phù hợp cho báo "
 "cáo và nhấp :guilabel:`Print`. Lúc này, báo cáo đã được liên kết với máy in."
 
-#: ../../content/applications/general/iot/devices/printer.rst:97
+#: ../../content/applications/general/iot/devices/printer.rst:102
 msgid "Clear device printer cache"
 msgstr "Xóa bộ nhớ cache máy in thiết bị"
 
-#: ../../content/applications/general/iot/devices/printer.rst:99
+#: ../../content/applications/general/iot/devices/printer.rst:104
 msgid ""
 "After a printer is linked to print a report, the setting is saved in a "
 "browser's cache. This means a user can have different devices saved in their "
@@ -10870,7 +10895,7 @@ msgstr ""
 "nghĩa là những người dùng khác nhau có thể in tự động một báo cáo từ các máy "
 "in khác nhau, dựa trên sở thích của họ."
 
-#: ../../content/applications/general/iot/devices/printer.rst:104
+#: ../../content/applications/general/iot/devices/printer.rst:109
 msgid ""
 "To unlink a report from a printer, navigate to :menuselection:`IoT --> "
 "Configuration --> Reset Linked Printers`. This generates a list of reports "
@@ -10882,7 +10907,7 @@ msgstr ""
 "báo cáo được liên kết với máy in trên thiết bị hiện tại. Nhấp "
 "nút :guilabel:`Unlink` bên cạnh mỗi báo cáo để xóa liên kết."
 
-#: ../../content/applications/general/iot/devices/printer.rst:109
+#: ../../content/applications/general/iot/devices/printer.rst:114
 msgid ""
 "This step **only** prevents the report from automatically printing to the "
 "listed printer from the current browser. The report is still :ref:`linked "
@@ -10897,19 +10922,19 @@ msgid "A list of reports currently linked to a printer in the IoT app."
 msgstr ""
 "Danh sách các báo cáo hiện đang được liên kết với máy in trong ứng dụng IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:117
+#: ../../content/applications/general/iot/devices/printer.rst:122
 msgid ":ref:`POS Order Printing <pos/restaurant/orders-printing>`"
 msgstr ":ref:`POS Order Printing <pos/restaurant/orders-printing>`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:120
+#: ../../content/applications/general/iot/devices/printer.rst:125
 msgid "Potential issues"
 msgstr "Các vấn đề tiềm ẩn"
 
-#: ../../content/applications/general/iot/devices/printer.rst:123
+#: ../../content/applications/general/iot/devices/printer.rst:128
 msgid "The printer is not detected"
 msgstr "Máy in không được phát hiện"
 
-#: ../../content/applications/general/iot/devices/printer.rst:125
+#: ../../content/applications/general/iot/devices/printer.rst:130
 msgid ""
 "If a printer does not appear in the devices list, go to the :ref:`IoT box's "
 "<iot/iot-box/homepage>` or :ref:`Windows virtual IoT's <iot/windows-iot/"
@@ -10921,7 +10946,7 @@ msgstr ""
 "<iot/windows-iot/homepage>`, nhấp :guilabel:`Show` trong "
 "phần :guilabel:`Devices` và đảm bảo máy in được liệt kê."
 
-#: ../../content/applications/general/iot/devices/printer.rst:129
+#: ../../content/applications/general/iot/devices/printer.rst:134
 msgid ""
 "If the printer does not appear on the IoT system's homepage, "
 "click :guilabel:`Printer Server`, then :guilabel:`Administration`, "
@@ -10933,11 +10958,11 @@ msgstr ""
 "và :guilabel:`Add Printer`. Nếu máy in không có trong danh sách, có khả năng "
 "nó chưa được kết nối đúng cách."
 
-#: ../../content/applications/general/iot/devices/printer.rst:134
+#: ../../content/applications/general/iot/devices/printer.rst:139
 msgid "The printer outputs random text"
 msgstr "Máy in xuất ra văn bản ngẫu nhiên"
 
-#: ../../content/applications/general/iot/devices/printer.rst:136
+#: ../../content/applications/general/iot/devices/printer.rst:141
 msgid ""
 "For most printers, the correct driver should be automatically detected and "
 "selected. However, in some cases, the automatic detection mechanism might "
@@ -10949,7 +10974,7 @@ msgstr ""
 "không đủ và nếu không tìm thấy trình điều khiển, máy in có thể in ra các ký "
 "tự ngẫu nhiên."
 
-#: ../../content/applications/general/iot/devices/printer.rst:140
+#: ../../content/applications/general/iot/devices/printer.rst:145
 msgid ""
 "The solution is to manually select the corresponding driver. On the IoT "
 "system's homepage, click :guilabel:`Printer Server`, "
@@ -10967,7 +10992,7 @@ msgstr ""
 msgid "Edit the printer connected to the IoT system."
 msgstr "Chỉnh sửa máy in được kết nối với hệ thống IoT."
 
-#: ../../content/applications/general/iot/devices/printer.rst:150
+#: ../../content/applications/general/iot/devices/printer.rst:155
 msgid ""
 "Epson receipt printers and Zebra label printers do not need a driver to "
 "work. Make sure that no driver is selected for those printers."
@@ -10975,11 +11000,11 @@ msgstr ""
 "Máy in hóa đơn Epson và máy in nhãn Zebra không cần trình điều khiển để hoạt "
 "động. Đảm bảo rằng không có trình điều khiển nào được chọn cho các máy in đó."
 
-#: ../../content/applications/general/iot/devices/printer.rst:154
+#: ../../content/applications/general/iot/devices/printer.rst:159
 msgid "The printer is detected but is not recognized correctly"
 msgstr "Máy in được phát hiện nhưng không được nhận dạng chính xác"
 
-#: ../../content/applications/general/iot/devices/printer.rst:156
+#: ../../content/applications/general/iot/devices/printer.rst:161
 msgid ""
 "If Odoo and the IoT system do not recognize the printer correctly, go "
 "to :menuselection:`IoT --> Devices`, click the device's card to access its "
@@ -10993,11 +11018,11 @@ msgstr ""
 "hợp: :guilabel:`Máy in hóa đơn`, :guilabel:`Máy in nhãn`, "
 "hoặc :guilabel:`Máy in văn phòng`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:162
+#: ../../content/applications/general/iot/devices/printer.rst:167
 msgid "Epson configuration special case"
 msgstr "Trường hợp đặc biệt cấu hình Epson"
 
-#: ../../content/applications/general/iot/devices/printer.rst:164
+#: ../../content/applications/general/iot/devices/printer.rst:169
 msgid ""
 "Most Epson printers support printing receipts in Odoo Point of Sale using "
 "the `GS v 0` command. However, the following Epson printer models do not "
@@ -11006,30 +11031,30 @@ msgstr ""
 "Hầu hết máy in Epson hỗ trợ in hóa đơn trong Odoo POS bằng lệnh `GS v 0`. "
 "Tuy nhiên, các mẫu máy in Epson sau không hỗ trợ lệnh này:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:167
+#: ../../content/applications/general/iot/devices/printer.rst:172
 msgid "TM-U220"
 msgstr "TM-U220"
 
-#: ../../content/applications/general/iot/devices/printer.rst:168
+#: ../../content/applications/general/iot/devices/printer.rst:173
 msgid "TM-U230"
 msgstr "TM-U230"
 
-#: ../../content/applications/general/iot/devices/printer.rst:169
+#: ../../content/applications/general/iot/devices/printer.rst:174
 msgid "TM-P60"
 msgstr "TM-P60"
 
-#: ../../content/applications/general/iot/devices/printer.rst:170
+#: ../../content/applications/general/iot/devices/printer.rst:175
 msgid "TMP-P60II"
 msgstr "TMP-P60II"
 
-#: ../../content/applications/general/iot/devices/printer.rst:172
+#: ../../content/applications/general/iot/devices/printer.rst:177
 msgid ""
 "To bypass this issue, you can configure the printer to use the `ESC *` "
 "command."
 msgstr ""
 "Để giải quyết vấn đề này, bạn có thể cấu hình máy in sử dụng lệnh `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:174
+#: ../../content/applications/general/iot/devices/printer.rst:179
 msgid ""
 "First, review Epson's website for compatibility for both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -11041,7 +11066,7 @@ msgstr ""
 "escpos/gs_lv_0.html>`_ và `ESC * <https://download4.epson.biz/sec_pubs/pos/"
 "reference_en/escpos/esc_asterisk.html>`_."
 
-#: ../../content/applications/general/iot/devices/printer.rst:178
+#: ../../content/applications/general/iot/devices/printer.rst:183
 msgid ""
 "If the printer is incompatible with `GS v 0` but supports `ESC *`, configure "
 "the IoT system to use the `ESC *` command as follows:"
@@ -11049,7 +11074,7 @@ msgstr ""
 "Nếu máy in không tương thích với `GS v 0` nhưng hỗ trợ `ESC *`, hãy cấu hình "
 "hệ thống IoT để sử dụng lệnh `ESC *` như sau:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:183
+#: ../../content/applications/general/iot/devices/printer.rst:188
 msgid ""
 "Click the :guilabel:`Printer server` button, then "
 "click :guilabel:`Administration` on the CUPS page."
@@ -11057,7 +11082,7 @@ msgstr ""
 "Nhấp vào nút :guilabel:`Máy chủ máy in`, sau đó nhấp vào :guilabel:`Quản "
 "trị` trên trang CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:185
+#: ../../content/applications/general/iot/devices/printer.rst:190
 msgid ""
 "Click :guilabel:`Add Printer` in the :guilabel:`Printers` section, select "
 "the printer, and click :guilabel:`Continue`."
@@ -11065,33 +11090,33 @@ msgstr ""
 "Nhấp vào :guilabel:`Thêm máy in` trong phần :guilabel:`Máy in`, chọn máy in "
 "và nhấp vào :guilabel:`Tiếp tục`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:189
+#: ../../content/applications/general/iot/devices/printer.rst:194
 msgid "If the printer's name is still uncertain, take the following steps:"
 msgstr "Nếu tên máy in vẫn chưa chắc chắn, hãy thực hiện các bước sau:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:191
+#: ../../content/applications/general/iot/devices/printer.rst:196
 msgid "Take note of the listed printers on the CUPS page."
 msgstr "Ghi nhận các máy in được liệt kê trên trang CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:192
+#: ../../content/applications/general/iot/devices/printer.rst:197
 msgid "Turn the printer off and refresh the page."
 msgstr "Tắt máy in và làm mới trang."
 
-#: ../../content/applications/general/iot/devices/printer.rst:193
+#: ../../content/applications/general/iot/devices/printer.rst:198
 msgid ""
 "Compare the difference with the first list to see which printer disappeared."
 msgstr ""
 "So sánh sự khác biệt với danh sách đầu tiên để xem máy in nào biến mất."
 
-#: ../../content/applications/general/iot/devices/printer.rst:194
+#: ../../content/applications/general/iot/devices/printer.rst:199
 msgid "Turn the printer back on and refresh the page again."
 msgstr "Bật lại máy in và làm mới trang một lần nữa."
 
-#: ../../content/applications/general/iot/devices/printer.rst:195
+#: ../../content/applications/general/iot/devices/printer.rst:200
 msgid "Double-check the list again to see if the printer re-appears."
 msgstr "Kiểm tra lại danh sách để xem máy in có xuất hiện trở lại không."
 
-#: ../../content/applications/general/iot/devices/printer.rst:196
+#: ../../content/applications/general/iot/devices/printer.rst:201
 msgid ""
 "The printer that disappeared and reappears again on the listed printers is "
 "the name of the printer in question. It can be :guilabel:`Unknown` "
@@ -11100,7 +11125,7 @@ msgstr ""
 "Máy in biến mất và xuất hiện lại trong danh sách máy in chính là tên của máy "
 "in cần tìm. Nó có thể là :guilabel:`Unknown` trong :guilabel:`Máy in cục bộ`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:199
+#: ../../content/applications/general/iot/devices/printer.rst:204
 msgid ""
 "On the :guilabel:`Add Printer` page, specify the printer's :guilabel:`Name` "
 "using the following convention: "
@@ -11110,7 +11135,7 @@ msgstr ""
 "quy ước sau: `<printer_name>__IMC_<param_1>_<param_2>_..._<param_n>__`, "
 "trong đó:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:202
+#: ../../content/applications/general/iot/devices/printer.rst:207
 msgid ""
 "`printer_name` is the printer's name. It can contain any character except "
 "`_`, `/`, `#`, or ` ` (space character)."
@@ -11118,17 +11143,17 @@ msgstr ""
 "`printer_name` là tên máy in. Nó có thể chứa bất kỳ ký tự nào trừ `_`, `/`, "
 "`#` hoặc ` ` (ký tự khoảng trắng)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:204
+#: ../../content/applications/general/iot/devices/printer.rst:209
 msgid ""
 "`IMC`: This stands for *Image Mode Column* (the simplified name for `ESC *`)."
 msgstr ""
 "`IMC`: Viết tắt của *Image Mode Column* (tên đơn giản hóa cho `ESC *`)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:205
+#: ../../content/applications/general/iot/devices/printer.rst:210
 msgid "`param_1`: This stands for the specific parameter:"
 msgstr "`param_1`: Viết tắt của tham số cụ thể:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:207
+#: ../../content/applications/general/iot/devices/printer.rst:212
 msgid ""
 "`SCALE<X>`: Scale of the picture (with the same aspect ratio). `X` should be "
 "an integer describing the scale percentage that should be used. For example, "
@@ -11139,7 +11164,7 @@ msgstr ""
 "nguyên mô tả phần trăm tỷ lệ cần sử dụng. Ví dụ: `100` là kích thước gốc, "
 "`50` là một nửa kích thước và `200` là gấp đôi kích thước."
 
-#: ../../content/applications/general/iot/devices/printer.rst:210
+#: ../../content/applications/general/iot/devices/printer.rst:215
 msgid ""
 "`LDV`: *Low Density Vertical* (will be set to *High Density Vertical* if not "
 "specified)."
@@ -11147,7 +11172,7 @@ msgstr ""
 "`LDV`: *Dọc Mật độ Thấp* (sẽ được đặt thành *Dọc Mật độ Cao* nếu không chỉ "
 "định)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:211
+#: ../../content/applications/general/iot/devices/printer.rst:216
 msgid ""
 "`LDH`: *Low Density Horizontal* (will be set to *High Density Horizontal* if "
 "not specified)."
@@ -11155,7 +11180,7 @@ msgstr ""
 "`LDH`: *Ngang Mật độ Thấp* (sẽ được đặt thành *Ngang Mật độ Cao* nếu không "
 "chỉ định)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:214
+#: ../../content/applications/general/iot/devices/printer.rst:219
 msgid ""
 "*Density* parameters might need to be configured in a particular way, "
 "depending on the printer model."
@@ -11163,7 +11188,7 @@ msgstr ""
 "Các tham số *Mật độ* có thể cần được cấu hình theo cách cụ thể, tùy thuộc "
 "vào model máy in."
 
-#: ../../content/applications/general/iot/devices/printer.rst:216
+#: ../../content/applications/general/iot/devices/printer.rst:221
 msgid ""
 "Refer to `Epson's ESC * documentation <https://download4.epson.biz/sec_pubs/"
 "pos/reference_en/escpos/esc_asterisk.html>`_ to determine if the printer "
@@ -11173,23 +11198,23 @@ msgstr ""
 "pos/reference_en/escpos/esc_asterisk.html>`_ để xác định xem máy in có yêu "
 "cầu thiết lập các tham số này hay không."
 
-#: ../../content/applications/general/iot/devices/printer.rst:220
+#: ../../content/applications/general/iot/devices/printer.rst:225
 msgid "The following are examples of proper and improper name formatting:"
 msgstr "Sau đây là các ví dụ về định dạng tên đúng và không đúng:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:222
+#: ../../content/applications/general/iot/devices/printer.rst:227
 msgid "Proper name formatting:"
 msgstr "Định dạng tên đúng:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:224
+#: ../../content/applications/general/iot/devices/printer.rst:229
 msgid "`EPSONTMm30II__IMC__`"
 msgstr "`EPSONTMm30II__IMC__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:225
+#: ../../content/applications/general/iot/devices/printer.rst:230
 msgid "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 msgstr "`EPSON_TM_U220__IMC_LDV_LDH_SCALE80__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:227
+#: ../../content/applications/general/iot/devices/printer.rst:232
 msgid ""
 "Improper name formatting (this will not prevent printing, but the result "
 "might not have the expected printed output):"
@@ -11197,21 +11222,21 @@ msgstr ""
 "Định dạng tên không đúng (điều này sẽ không ngăn in, nhưng kết quả có thể "
 "không có đầu ra in như mong đợi):"
 
-#: ../../content/applications/general/iot/devices/printer.rst:230
+#: ../../content/applications/general/iot/devices/printer.rst:235
 msgid "`EPSON TMm 30II`: The name cannot contain spaces."
 msgstr "`EPSON TMm 30II`: Tên không được chứa khoảng trắng."
 
-#: ../../content/applications/general/iot/devices/printer.rst:231
+#: ../../content/applications/general/iot/devices/printer.rst:236
 msgid ""
 "`EPSONTMm30II`: The name itself is correct, but it will not use `ESC *`."
 msgstr ""
 "`EPSONTMm30II`: Bản thân tên là đúng, nhưng nó sẽ không sử dụng `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:232
+#: ../../content/applications/general/iot/devices/printer.rst:237
 msgid "`EPSONTMm30II__IMC`: This name is missing the end `__`."
 msgstr "`EPSONTMm30II__IMC`: Tên này thiếu `__` ở cuối."
 
-#: ../../content/applications/general/iot/devices/printer.rst:233
+#: ../../content/applications/general/iot/devices/printer.rst:238
 msgid ""
 "`EPSONTMm30II__IMC_XDV__`: The parameter `XDV` does not match any existing "
 "parameters."
@@ -11219,13 +11244,13 @@ msgstr ""
 "`EPSONTMm30II__IMC_XDV__`: Tham số `XDV` không khớp với bất kỳ tham số hiện "
 "có nào."
 
-#: ../../content/applications/general/iot/devices/printer.rst:234
+#: ../../content/applications/general/iot/devices/printer.rst:239
 msgid ""
 "`EPSONTMm30II__IMC_SCALE__`: The parameter `SCALE` is missing the scale "
 "value."
 msgstr "`EPSONTMm30II__IMC_SCALE__`: Tham số `SCALE` thiếu giá trị tỷ lệ."
 
-#: ../../content/applications/general/iot/devices/printer.rst:236
+#: ../../content/applications/general/iot/devices/printer.rst:241
 msgid ""
 "Once the printer's name has been defined using the appropriate naming "
 "convention, click :guilabel:`Continue`."
@@ -11233,7 +11258,7 @@ msgstr ""
 "Sau khi tên máy in đã được xác định bằng quy ước đặt tên thích hợp, nhấp "
 "vào :guilabel:`Tiếp tục`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:238
+#: ../../content/applications/general/iot/devices/printer.rst:243
 msgid ""
 "Set the :guilabel:`Make` value to :guilabel:`Raw` and the :guilabel:`Model` "
 "value to :guilabel:`Raw Queue (en)`."
@@ -11241,7 +11266,7 @@ msgstr ""
 "Đặt giá trị :guilabel:`Make` thành :guilabel:`Raw` và giá "
 "trị :guilabel:`Model` thành :guilabel:`Raw Queue (en)`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:240
+#: ../../content/applications/general/iot/devices/printer.rst:245
 msgid ""
 "Click :guilabel:`Add Printer`. If everything was done correctly, the page "
 "should redirect to the :guilabel:`Banners` page."
@@ -11249,7 +11274,7 @@ msgstr ""
 "Nhấp vào :guilabel:`Add Printer`. Nếu mọi thứ đã được thực hiện đúng, trang "
 "sẽ chuyển hướng đến trang :guilabel:`Banners`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:242
+#: ../../content/applications/general/iot/devices/printer.rst:247
 msgid ""
 "Wait a few minutes for the IoT system to detect the printer and sync to "
 "Odoo's server."
@@ -11257,7 +11282,7 @@ msgstr ""
 "Đợi vài phút để hệ thống IoT phát hiện máy in và đồng bộ với máy chủ của "
 "Odoo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:243
+#: ../../content/applications/general/iot/devices/printer.rst:248
 msgid ""
 ":ref:`Access the POS settings <pos/use/settings>` and select your POS, or "
 "click the vertical ellipsis button (:guilabel:`⋮`) on a POS card and "
@@ -11271,7 +11296,7 @@ msgstr ""
 "nối`, bật :guilabel:`IoT Box`, và chọn máy in trong trường :guilabel:`Máy in "
 "hóa đơn`. Nhấp :guilabel:`Lưu`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:249
+#: ../../content/applications/general/iot/devices/printer.rst:254
 msgid ""
 "If the printer was set up incorrectly (e.g., it continues to print random "
 "text, or the printed receipt is too large or too small), it cannot be "
@@ -11283,7 +11308,7 @@ msgstr ""
 "thông qua tên máy in trong CUPS. Thay vào đó, hãy cấu hình một máy in mới từ "
 "đầu với các tham số đã sửa đổi, theo các bước trên."
 
-#: ../../content/applications/general/iot/devices/printer.rst:257
+#: ../../content/applications/general/iot/devices/printer.rst:262
 msgid ""
 "The following is an example of the troubleshooting process for a TM-U220B "
 "printer model using the `ESC *` command. The receipt pictured below is an "
@@ -11298,7 +11323,7 @@ msgstr ""
 msgid "Properly formatted receipt picture from a demo database."
 msgstr "Hình ảnh hóa đơn được định dạng đúng từ cơ sở dữ liệu demo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:265
+#: ../../content/applications/general/iot/devices/printer.rst:270
 msgid ""
 "Printing this receipt immediately without proper formatting will not work, "
 "as the TM-U220B printer model does not support the `GS v 0` command. "
@@ -11312,7 +11337,7 @@ msgstr ""
 msgid "Printer paper with seemingly random characters."
 msgstr "Giấy in với các ký tự xuất hiện ngẫu nhiên."
 
-#: ../../content/applications/general/iot/devices/printer.rst:272
+#: ../../content/applications/general/iot/devices/printer.rst:277
 msgid ""
 "To properly configure formatting for the Epson TM-U220B printer model, "
 "follow these steps:"
@@ -11320,7 +11345,7 @@ msgstr ""
 "Để cấu hình định dạng đúng cho máy in Epson TM-U220B, hãy thực hiện các bước "
 "sau:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:274
+#: ../../content/applications/general/iot/devices/printer.rst:279
 msgid ""
 "After checking Epson's website for compatibility with both the `GS v 0 "
 "<https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/"
@@ -11338,7 +11363,7 @@ msgstr ""
 msgid "Epson compatibility evaluation from Epson website."
 msgstr "Đánh giá tính tương thích của Epson từ trang web Epson."
 
-#: ../../content/applications/general/iot/devices/printer.rst:282
+#: ../../content/applications/general/iot/devices/printer.rst:287
 msgid "When adding the printer, CUPS displays the list of available printers:"
 msgstr "Khi thêm máy in, CUPS hiển thị danh sách các máy in khả dụng:"
 
@@ -11346,7 +11371,7 @@ msgstr "Khi thêm máy in, CUPS hiển thị danh sách các máy in khả dụn
 msgid "Administration menu, add printer selection."
 msgstr "Menu quản trị, lựa chọn thêm máy in."
 
-#: ../../content/applications/general/iot/devices/printer.rst:288
+#: ../../content/applications/general/iot/devices/printer.rst:293
 msgid ""
 "In this case, the printer is connected via USB, so it is not part of "
 "the :guilabel:`Discovered Network Printers`. Instead, it is likely part of "
@@ -11362,7 +11387,7 @@ msgstr ""
 "in :guilabel:`Không xác định` sẽ biến mất. Khi cắm lại cáp USB, máy in sẽ "
 "xuất hiện trở lại."
 
-#: ../../content/applications/general/iot/devices/printer.rst:294
+#: ../../content/applications/general/iot/devices/printer.rst:299
 msgid ""
 "For the naming convention, since the printer must print using the `ESC *` "
 "command, it is imperative to add `__IMC`."
@@ -11374,7 +11399,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturer's website."
 msgstr "Thông số kỹ thuật Epson TM-U220 trên trang web của nhà sản xuất."
 
-#: ../../content/applications/general/iot/devices/printer.rst:300
+#: ../../content/applications/general/iot/devices/printer.rst:305
 msgid ""
 "For this particular model (TM-U220) `m` should be equal to 0 or 1. While "
 "referencing the :guilabel:`Description` table on `Epson's ESC * website "
@@ -11390,7 +11415,7 @@ msgstr ""
 "trị `m` **không thể** là 32 hoặc 33 (nếu không, các ký tự ngẫu nhiên sẽ được "
 "in)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:306
+#: ../../content/applications/general/iot/devices/printer.rst:311
 msgid ""
 "The table includes the numeric values 32 and 33; they both occur if "
 "the :guilabel:`Number of bits for vertical data` is set to 24, i.e. it has a "
@@ -11403,7 +11428,7 @@ msgstr ""
 "máy in Epson TM-U220, cần buộc sử dụng *Mật độ dọc thấp* vì mẫu máy in này "
 "không hỗ trợ *Mật độ dọc cao* cho lệnh `ESC *`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:311
+#: ../../content/applications/general/iot/devices/printer.rst:316
 msgid ""
 "To add a *Low Vertical Density*, add the `LDV` parameter to the naming "
 "convention."
@@ -11414,7 +11439,7 @@ msgid ""
 "Add a *Low Vertical Density* (the `LDV` parameter) to the naming convention."
 msgstr "Thêm *Mật độ dọc thấp* (tham số `LDV`) vào quy ước đặt tên."
 
-#: ../../content/applications/general/iot/devices/printer.rst:316
+#: ../../content/applications/general/iot/devices/printer.rst:321
 msgid ""
 "Click :guilabel:`Continue` to proceed. Next, set the :guilabel:`Make` value "
 "to :guilabel:`Raw` and the :guilabel:`Model` value to :guilabel:`Raw Queue "
@@ -11428,7 +11453,7 @@ msgstr ""
 msgid "Epson TM-U220 specifications on manufacturers website."
 msgstr "Thông số kỹ thuật Epson TM-U220 trên trang web của nhà sản xuất."
 
-#: ../../content/applications/general/iot/devices/printer.rst:322
+#: ../../content/applications/general/iot/devices/printer.rst:327
 msgid ""
 "However, when trying to print with the naming convention "
 "`EpsonTMU220B__IMC_LDV__`, the receipt is printed, but it is too large and "
@@ -11440,27 +11465,27 @@ msgstr ""
 "một máy in mới (và quy ước đặt tên) với tham số `SCALE<X>` để điều chỉnh "
 "theo kích thước hóa đơn."
 
-#: ../../content/applications/general/iot/devices/printer.rst:326
+#: ../../content/applications/general/iot/devices/printer.rst:331
 msgid "Here are some examples:"
 msgstr "Dưới đây là một số ví dụ:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:331
+#: ../../content/applications/general/iot/devices/printer.rst:336
 msgid "Printer Naming Convention"
 msgstr "Quy ước đặt tên máy in"
 
-#: ../../content/applications/general/iot/devices/printer.rst:332
+#: ../../content/applications/general/iot/devices/printer.rst:337
 msgid "`EpsonTMU220B__IMC_LDV__`"
 msgstr "`EpsonTMU220B__IMC_LDV__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:333
+#: ../../content/applications/general/iot/devices/printer.rst:338
 msgid "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 msgstr "`EpsonTMU220B__IMC_LDV_SCALE75__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:334
+#: ../../content/applications/general/iot/devices/printer.rst:339
 msgid "`EpsonTMU220B__IMC_LDV_LDH__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH__`"
 
-#: ../../content/applications/general/iot/devices/printer.rst:335
+#: ../../content/applications/general/iot/devices/printer.rst:340
 msgid "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 msgstr "`EpsonTMU220B__IMC_LDV_LDH_SCALE35__`"
 
@@ -11490,11 +11515,11 @@ msgstr ""
 "Định dạng biên lai sử dụng quy ước đặt tên: "
 "EpsonTMU220B__IMC_LDV_LDH_SCALE35__."
 
-#: ../../content/applications/general/iot/devices/printer.rst:348
+#: ../../content/applications/general/iot/devices/printer.rst:353
 msgid "DYMO LabelWriter print issue"
 msgstr "Sự cố in DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:350
+#: ../../content/applications/general/iot/devices/printer.rst:355
 msgid ""
 "The DYMO LabelWriter has a known issue in printing with IoT systems. The "
 "OpenPrinting CUPS server installs the printer using :guilabel:`Local RAW "
@@ -11507,7 +11532,7 @@ msgstr ""
 "Printer`. Để in bất kỳ thứ gì, cần đặt đúng :guilabel:`Make and Model` để "
 "tham chiếu trình điều khiển chính xác khi sử dụng thiết bị."
 
-#: ../../content/applications/general/iot/devices/printer.rst:355
+#: ../../content/applications/general/iot/devices/printer.rst:360
 msgid ""
 "Additionally, a new printer needs to be added to reduce the print delay that "
 "occurs after updating the driver."
@@ -11515,7 +11540,7 @@ msgstr ""
 "Ngoài ra, cần thêm máy in mới để giảm độ trễ in xảy ra sau khi cập nhật "
 "trình điều khiển."
 
-#: ../../content/applications/general/iot/devices/printer.rst:359
+#: ../../content/applications/general/iot/devices/printer.rst:364
 msgid ""
 "The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use "
 "with Odoo and IoT systems. This device combines two printers: a label "
@@ -11533,16 +11558,16 @@ msgstr ""
 "các bước cấu hình cho mẫu DYMO LabelWriter 450 DUO Label (en). Điều chỉnh "
 "lựa chọn mẫu máy theo nhu cầu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:369
+#: ../../content/applications/general/iot/devices/printer.rst:374
 msgid "DYMO LabelWriter not printing"
 msgstr "DYMO LabelWriter không in được"
 
-#: ../../content/applications/general/iot/devices/printer.rst:371
+#: ../../content/applications/general/iot/devices/printer.rst:376
 msgid "If the DYMO LabelWriter fails to print, install a new driver:"
 msgstr "Nếu DYMO LabelWriter không in được, hãy cài đặt trình điều khiển mới:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:373
-#: ../../content/applications/general/iot/devices/printer.rst:409
+#: ../../content/applications/general/iot/devices/printer.rst:378
+#: ../../content/applications/general/iot/devices/printer.rst:414
 msgid ""
 "Access the IoT system's homepage and click :menuselection:`Printer server` "
 "to open the OpenPrinting CUPS console."
@@ -11550,7 +11575,7 @@ msgstr ""
 "Truy cập trang chủ của hệ thống IoT và nhấp :menuselection:`Printer server` "
 "để mở bảng điều khiển OpenPrinting CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:375
+#: ../../content/applications/general/iot/devices/printer.rst:380
 msgid ""
 "Click :menuselection:`Printers` in the top menu, then click the printer in "
 "the list."
@@ -11558,11 +11583,11 @@ msgstr ""
 "Nhấp :menuselection:`Printers` trong menu trên cùng, sau đó nhấp vào máy in "
 "trong danh sách."
 
-#: ../../content/applications/general/iot/devices/printer.rst:376
+#: ../../content/applications/general/iot/devices/printer.rst:381
 msgid "Select :guilabel:`Maintenance` in the first dropdown menu."
 msgstr "Chọn :guilabel:`Bảo dưỡng` trong menu thả xuống đầu tiên."
 
-#: ../../content/applications/general/iot/devices/printer.rst:377
+#: ../../content/applications/general/iot/devices/printer.rst:382
 msgid "Select :guilabel:`Modify Printer` in the second dropdown menu."
 msgstr "Chọn :guilabel:`Modify Printer` trong menu thả xuống thứ hai."
 
@@ -11575,7 +11600,7 @@ msgstr ""
 "Sửa đổi make và model của DYMO LabelWriter. Menu thả xuống Maintenance và "
 "Modify được đánh dấu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:383
+#: ../../content/applications/general/iot/devices/printer.rst:388
 msgid ""
 "Select the specific network connection/printer on which the modification "
 "should be made and click :guilabel:`Continue`."
@@ -11583,7 +11608,7 @@ msgstr ""
 "Chọn kết nối mạng/máy in cụ thể mà sửa đổi cần được thực hiện và "
 "nhấp :guilabel:`Continue`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:385
+#: ../../content/applications/general/iot/devices/printer.rst:390
 msgid ""
 "On the next page, click :guilabel:`Continue`, then select :guilabel:`DYMO` "
 "from the :guilabel:`Make` dropdown list."
@@ -11591,7 +11616,7 @@ msgstr ""
 "Ở trang tiếp theo, nhấp :guilabel:`Continue`, sau đó chọn :guilabel:`DYMO` "
 "từ danh sách thả xuống :guilabel:`Make`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:387
+#: ../../content/applications/general/iot/devices/printer.rst:392
 msgid ""
 "Click on :guilabel:`Continue` and set the :guilabel:`Model` "
 "to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO "
@@ -11601,7 +11626,7 @@ msgstr ""
 "LabelWriter 450 DUO Label (en)` (hoặc bất kỳ mẫu máy in DYMO nào đang được "
 "sử dụng)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:389
+#: ../../content/applications/general/iot/devices/printer.rst:394
 msgid ""
 "Click :guilabel:`Modify Printer` to set the new driver; a confirmation page "
 "appears."
@@ -11609,7 +11634,7 @@ msgstr ""
 "Nhấp :guilabel:`Modify Printer` để đặt trình điều khiển mới; trang xác nhận "
 "xuất hiện."
 
-#: ../../content/applications/general/iot/devices/printer.rst:390
+#: ../../content/applications/general/iot/devices/printer.rst:395
 msgid ""
 "Click :menuselection:`Printers` in the top menu; all printers installed on "
 "the OpenPrinting CUPS server appear, including the newly "
@@ -11621,7 +11646,7 @@ msgstr ""
 "LabelWriter 450 DUO Label` vừa cập nhật (hoặc bất kỳ mẫu máy in DYMO nào "
 "đang được sử dụng)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:393
+#: ../../content/applications/general/iot/devices/printer.rst:398
 msgid ""
 "Click the newly updated printer, then click the :guilabel:`Maintenance` "
 "dropdown menu and select :guilabel:`Print Test Page` to print a test label. "
@@ -11632,15 +11657,15 @@ msgstr ""
 "dưỡng` và chọn :guilabel:`Print Test Page` để in nhãn thử nghiệm. Nhãn thử "
 "nghiệm được in sau vài giây nếu cập nhật trình điều khiển thành công."
 
-#: ../../content/applications/general/iot/devices/printer.rst:397
+#: ../../content/applications/general/iot/devices/printer.rst:402
 msgid "To reduce this delay, add a new printer using the steps below."
 msgstr "Để giảm độ trễ này, hãy thêm máy in mới bằng các bước dưới đây."
 
-#: ../../content/applications/general/iot/devices/printer.rst:400
+#: ../../content/applications/general/iot/devices/printer.rst:405
 msgid "DYMO LabelWriter print delay"
 msgstr "Độ trễ in DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:403
+#: ../../content/applications/general/iot/devices/printer.rst:408
 msgid ""
 "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not "
 "recognized (i.e., it has a :guilabel:`RAW` driver type), then :ref:`update "
@@ -11650,14 +11675,14 @@ msgstr ""
 "(tức là có kiểu trình điều khiển :guilabel:`RAW`), hãy :ref:`cập nhật trình "
 "điều khiển trên thiết bị <printer/dymo/update_drivers>`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:407
+#: ../../content/applications/general/iot/devices/printer.rst:412
 msgid ""
 "To resolve the delay issue after modifying the driver, reinstall the printer:"
 msgstr ""
 "Để giải quyết vấn đề chậm trễ sau khi sửa đổi trình điều khiển, hãy cài đặt "
 "lại máy in:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:411
+#: ../../content/applications/general/iot/devices/printer.rst:416
 msgid ""
 "Click :menuselection:`Administration` in the top menu, then "
 "click :guilabel:`Add a Printer`."
@@ -11665,7 +11690,7 @@ msgstr ""
 "Nhấp vào :menuselection:`Administration` trong menu trên cùng, sau đó nhấp "
 "vào :guilabel:`Add a Printer`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:412
+#: ../../content/applications/general/iot/devices/printer.rst:417
 msgid ""
 "On the next page, in the :guilabel:`Local Printers` section, "
 "select :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO "
@@ -11686,7 +11711,7 @@ msgstr ""
 "Màn hình thêm máy in trên OpenPrinting CUPS với DYMO LabelWriter 450 DUO "
 "Label được đánh dấu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:420
+#: ../../content/applications/general/iot/devices/printer.rst:425
 msgid ""
 "On the following screen, update the :guilabel:`Name` to something easily "
 "identifiable, as the original printer will remain in the list. Then, "
@@ -11704,7 +11729,7 @@ msgstr ""
 "Trang đổi tên máy in trong quy trình 'Add a Printer', với trường tên được "
 "đánh dấu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:426
+#: ../../content/applications/general/iot/devices/printer.rst:431
 msgid ""
 "Set the :guilabel:`Model` field to :guilabel:`DYMO LabelWriter 450 DUO Label "
 "(en)` (or whichever DYMO printer model is being used), then "
@@ -11723,7 +11748,7 @@ msgstr ""
 "Màn hình chọn model trên bảng điều khiển OpenPrinting CUPS với model và add "
 "a printer được đánh dấu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:434
+#: ../../content/applications/general/iot/devices/printer.rst:439
 msgid ""
 "Click :menuselection:`Printers` in the top menu and click the newly "
 "installed printer :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever "
@@ -11737,7 +11762,7 @@ msgstr ""
 msgid "Printer page with newly installed printer highlighted."
 msgstr "Trang máy in với máy in mới cài đặt được đánh dấu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:441
+#: ../../content/applications/general/iot/devices/printer.rst:446
 msgid ""
 "Click the :guilabel:`Maintenance` dropdown list and select :guilabel:`Print "
 "Test Page` to print a test label. The test label should print out "
@@ -11747,11 +11772,11 @@ msgstr ""
 "Test Page` để in nhãn thử nghiệm. Nhãn thử nghiệm sẽ được in ngay lập tức "
 "hoặc sau một hoặc hai giây."
 
-#: ../../content/applications/general/iot/devices/printer.rst:445
+#: ../../content/applications/general/iot/devices/printer.rst:450
 msgid "The Zebra printer does not print anything"
 msgstr "Máy in Zebra không in được gì"
 
-#: ../../content/applications/general/iot/devices/printer.rst:447
+#: ../../content/applications/general/iot/devices/printer.rst:452
 msgid ""
 "Zebra printers are quite sensitive to the format of the printed Zebra "
 "Programming Language (ZPL) code. If nothing comes out of the printer or "
@@ -11766,7 +11791,7 @@ msgstr ""
 "<developer-mode>`, truy cập :menuselection:`Cài đặt --> Kỹ thuật --> Giao "
 "diện người dùng --> Chế độ xem`, và tìm kiếm mẫu tương ứng."
 
-#: ../../content/applications/general/iot/devices/printer.rst:454
+#: ../../content/applications/general/iot/devices/printer.rst:459
 msgid ""
 "`Zebra's instructions on printing ZPL files <https://"
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
@@ -11775,15 +11800,15 @@ msgstr ""
 "`Hướng dẫn của Zebra về in tệp ZPL <https://supportcommunity.zebra.com/s/"
 "article/Print-a-zpl-file-using-the-Generic-Text-Printer>`_"
 
-#: ../../content/applications/general/iot/devices/printer.rst:458
+#: ../../content/applications/general/iot/devices/printer.rst:463
 msgid "Barcode scanner issues"
 msgstr "Vấn đề về máy quét mã vạch"
 
-#: ../../content/applications/general/iot/devices/printer.rst:461
+#: ../../content/applications/general/iot/devices/printer.rst:466
 msgid "The characters read by the barcode scanner do not match the barcode"
 msgstr "Các ký tự được đọc bởi máy quét mã vạch không khớp với mã vạch"
 
-#: ../../content/applications/general/iot/devices/printer.rst:463
+#: ../../content/applications/general/iot/devices/printer.rst:468
 msgid ""
 "By default, most barcode scanners are configured in the US QWERTY format. If "
 "the barcode scanner uses a different layout, go to :menuselection:`IoT --> "
@@ -11795,8 +11820,8 @@ msgstr ""
 "vào :menuselection:`IoT --> Devices` và nhấp vào thẻ thiết bị quét mã vạch. "
 "Sau đó, chọn ngôn ngữ chính xác trong trường :guilabel:`Keyboard Layout`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:468
-#: ../../content/applications/general/iot/devices/printer.rst:498
+#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:503
 msgid ""
 "The :guilabel:`Keyboard Layout` is language-specific, with available options "
 "varying based on the device and the language of the database "
@@ -11806,11 +11831,11 @@ msgstr ""
 "khác nhau tùy theo thiết bị và ngôn ngữ của cơ sở dữ liệu (ví "
 "dụ: :guilabel:`English (UK)`, :guilabel:`English (US)`, v.v.)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:473
+#: ../../content/applications/general/iot/devices/printer.rst:478
 msgid "Nothing happens when a barcode is scanned"
 msgstr "Không có gì xảy ra khi quét mã vạch"
 
-#: ../../content/applications/general/iot/devices/printer.rst:475
+#: ../../content/applications/general/iot/devices/printer.rst:480
 msgid ""
 "Make sure the correct device is selected in the :doc:`Point of Sale settings "
 "</applications/sales/point_of_sale/hardware_network/pos_iot>` (when "
@@ -11822,11 +11847,11 @@ msgstr ""
 "dụng) và mã vạch được cấu hình để gửi ký tự `ENTER` (keycode 28) ở cuối mỗi "
 "mã vạch."
 
-#: ../../content/applications/general/iot/devices/printer.rst:480
+#: ../../content/applications/general/iot/devices/printer.rst:485
 msgid "The barcode scanner is detected as a keyboard"
 msgstr "Máy quét mã vạch được phát hiện là bàn phím"
 
-#: ../../content/applications/general/iot/devices/printer.rst:483
+#: ../../content/applications/general/iot/devices/printer.rst:488
 msgid ""
 "Some barcode scanners are identified as USB keyboards rather than barcode "
 "scanners and are not recognized by IoT systems."
@@ -11834,7 +11859,7 @@ msgstr ""
 "Một số máy quét mã vạch được nhận dạng là bàn phím USB thay vì máy quét mã "
 "vạch và không được hệ thống IoT nhận diện."
 
-#: ../../content/applications/general/iot/devices/printer.rst:486
+#: ../../content/applications/general/iot/devices/printer.rst:491
 msgid ""
 "To change the device type manually, go to :menuselection:`IoT --> Devices` "
 "and click the barcode device's card. Then, enable :guilabel:`Is scanner`."
@@ -11843,11 +11868,11 @@ msgstr ""
 "Thiết bị` và nhấp vào thẻ thiết bị quét mã vạch. Sau đó, bật :guilabel:`Là "
 "máy quét`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:490
+#: ../../content/applications/general/iot/devices/printer.rst:495
 msgid "The barcode scanner processes barcode characters individually"
 msgstr "Máy quét mã vạch xử lý từng ký tự mã vạch riêng lẻ"
 
-#: ../../content/applications/general/iot/devices/printer.rst:492
+#: ../../content/applications/general/iot/devices/printer.rst:497
 msgid ""
 "When accessing the mobile version of Odoo from a mobile device or tablet "
 "paired with a barcode scanner via the IoT system, the scanner might "
@@ -12160,6 +12185,7 @@ msgstr ""
 "khả dụng nữa."
 
 #: ../../content/applications/general/iot/iot_advanced/ssh_connect.rst:0
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:None
 msgid "The Remote Debugging password generation window."
 msgstr "Cửa sổ tạo mật khẩu Remote Debugging."
 
@@ -12183,11 +12209,15 @@ msgstr ":doc:`../iot_box`"
 msgid ":doc:`../connect`"
 msgstr ":doc:`../connect`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:8
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:6
+msgid "Frequently encountered issues"
+msgstr "Các sự cố thường gặp"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:9
 msgid "The pairing code does not appear or does not work"
 msgstr "Mã ghép nối không xuất hiện hoặc không hoạt động"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:10
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:11
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` might not be displayed or "
 "printed under the following circumstances:"
@@ -12195,11 +12225,11 @@ msgstr ""
 ":ref:`Mã ghép nối <iot/connect/pairing-code>` có thể không được hiển thị "
 "hoặc in trong các trường hợp sau:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:13
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
 msgid "The IoT system is not connected to the network."
 msgstr "Hệ thống IoT không kết nối với mạng."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:14
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:15
 msgid ""
 "The IoT system is already connected to an Odoo database. :ref:`Disconnect it "
 "from the database <iot/connect/disconnect>`."
@@ -12207,7 +12237,7 @@ msgstr ""
 "Hệ thống IoT đã được kết nối với cơ sở dữ liệu Odoo. :ref:`Ngắt kết nối khỏi "
 "cơ sở dữ liệu <iot/connect/disconnect>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:16
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:17
 msgid ""
 "The :ref:`pairing code <iot/connect/pairing-code>` display time has expired. "
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
@@ -12218,11 +12248,11 @@ msgstr ""
 "Khởi động lại :ref:`hộp IoT <iot/iot-box/restart>` hoặc :ref:`dịch vụ IoT ảo "
 "Windows <iot/windows_iot/restart>` để tạo và hiển thị mã ghép nối."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:21
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:22
 msgid "The IoT system does not connect to the database"
 msgstr "Hệ thống IoT không kết nối được với cơ sở dữ liệu"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:23
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:24
 msgid ""
 "The IoT system might take a few minutes to restart when it connects to a "
 "database. If it still does not appear after a few minutes:"
@@ -12230,7 +12260,7 @@ msgstr ""
 "Hệ thống IoT có thể mất vài phút để khởi động lại khi kết nối với cơ sở dữ "
 "liệu. Nếu vẫn không xuất hiện sau vài phút:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:26
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:27
 msgid ""
 "Verify that the IoT system can reach the database and the server does not "
 "use a multi-database environment."
@@ -12238,8 +12268,8 @@ msgstr ""
 "Xác minh rằng hệ thống IoT có thể truy cập cơ sở dữ liệu và máy chủ không sử "
 "dụng môi trường đa cơ sở dữ liệu."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:28
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:46
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:29
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:47
 msgid ""
 "Restart the :ref:`IoT box <iot/iot-box/restart>` or the :ref:`Windows "
 "virtual IoT service <iot/windows_iot/restart>`."
@@ -12247,12 +12277,12 @@ msgstr ""
 "Khởi động lại :ref:`hộp IoT <iot/iot-box/restart>` hoặc :ref:`dịch vụ IoT ảo "
 "Windows <iot/windows_iot/restart>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:32
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:33
 msgid "The IoT system is connected to the Odoo database but cannot be reached"
 msgstr ""
 "Hệ thống IoT đã kết nối với cơ sở dữ liệu Odoo nhưng không thể truy cập được"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:34
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:35
 msgid ""
 "Verify that the IoT system and the computer running the Odoo database are "
 "connected to the same network and :ref:`update the DNS settings <iot/"
@@ -12262,26 +12292,26 @@ msgstr ""
 "với cùng một mạng và :ref:`cập nhật cài đặt DNS <iot/troubleshooting/dns>` "
 "nếu cần thiết."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:38
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:39
 msgid ""
 "The Windows virtual IoT's homepage cannot be accessed from another device"
 msgstr "Không thể truy cập trang chủ của Windows virtual IoT từ thiết bị khác"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:40
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
 msgid ""
 "Ensure the device is connected to the same network as the Windows virtual "
 "IoT."
 msgstr "Đảm bảo thiết bị được kết nối với cùng mạng với Windows virtual IoT."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:41
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:42
 msgid "Check the :ref:`iot/windows-iot/firewall`."
 msgstr "Kiểm tra :ref:`iot/windows-iot/firewall`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:44
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:45
 msgid "The IoT system does not work after an Odoo upgrade"
 msgstr "Hệ thống IoT không hoạt động sau khi nâng cấp Odoo"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:49
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:50
 msgid ""
 "If the issue persists, :ref:`update its image <iot/updating_iot/image-code>` "
 "by flashing the IoT box's card or :ref:`uninstalling the Windows virtual IoT "
@@ -12293,7 +12323,7 @@ msgstr ""
 "Windows virtual IoT <iot/windows_iot/uninstall>` và :ref:`cài đặt lại gói "
 "virtual IoT <iot/windows-iot/installation>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:56
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:57
 msgid ""
 "The IoT system's homepage can be accessed using its IP address but not the "
 "`xxx.odoo-iot.com` URL"
@@ -12301,7 +12331,7 @@ msgstr ""
 "Domovská stránka IoT systému je přístupná pomocí IP adresy, ale ne pomocí "
 "URL `xxx.odoo-iot.com`"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:58
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:59
 msgid ""
 "Contact your system or network administrator to address the issue. Network-"
 "related problems are beyond the scope of Odoo support services."
@@ -12309,7 +12339,7 @@ msgstr ""
 "Kontaktujte správce systému nebo sítě, abyste vyřešili tento problém. "
 "Problémy související se sítí jsou mimo rozsah služeb podpory Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:61
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:62
 msgid ""
 "If the router allows manual :abbr:`DNS (Domain Name System)` configuration, "
 "update the settings to use `Google DNS <https://developers.google.com/speed/"
@@ -12319,7 +12349,7 @@ msgstr ""
 "aktualizujte nastavení tak, aby používalo `Google DNS <https://"
 "developers.google.com/speed/public-dns>`_."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:63
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:64
 msgid ""
 "If the router does not support this, you need to update the DNS settings "
 "directly on each device that interacts with the IoT system to use `Google "
@@ -12333,7 +12363,7 @@ msgstr ""
 "konfiguraci DNS na jednotlivých zařízeních najdete na webových stránkách "
 "příslušného výrobce."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:69
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:70
 msgid ""
 "Some IoT devices, such as payment terminals, likely do not require DNS "
 "changes, as they are typically pre-configured with custom DNS settings."
@@ -12341,7 +12371,7 @@ msgstr ""
 "Některá IoT zařízení, například platební terminály, pravděpodobně nevyžadují "
 "změny DNS, protože jsou obvykle předkonfigurována s vlastním nastavením DNS."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:71
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:72
 msgid ""
 "On some browsers, an error code mentioning the DNS (such as "
 "`DNS_PROBE_FINISHED_NXDOMAIN`) is displayed."
@@ -12349,19 +12379,19 @@ msgstr ""
 "V některých prohlížečích se zobrazuje kód chyby související s DNS (například "
 "`DNS_PROBE_FINISHED_NXDOMAIN`)."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:77
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:78
 msgid "HTTPS certificate generation issues and errors"
 msgstr "Problémy a chyby při generování HTTPS certifikátu"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:80
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:81
 msgid "The HTTPS certificate does not generate"
 msgstr "HTTPS certifikát se negeneruje"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:82
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:83
 msgid "Potential causes include the following:"
 msgstr "Potenciální příčiny zahrnují následující:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:84
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:85
 msgid ""
 "The database doesn't meet the :ref:`eligibility requirements <iot/"
 "https_certificate_iot/iot-eligibility>` for generating an :ref:`HTTPS "
@@ -12371,7 +12401,7 @@ msgstr ""
 "https_certificate_iot/iot-eligibility>` để tạo :ref:`chứng chỉ HTTPS <iot/"
 "connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:87
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:88
 msgid ""
 "The firewall is preventing the HTTPS certificate from generating correctly. "
 "In this case, deactivate the firewall until the certificate is successfully "
@@ -12380,7 +12410,7 @@ msgstr ""
 "Firewall brání správnému vygenerování HTTPS certifikátu. V tomto případě "
 "deaktivujte firewall, dokud nebude certifikát úspěšně vygenerován."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:91
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:92
 msgid ""
 "Some devices, such as routers with a built-in firewall, can prevent the "
 "HTTPS certificate from generating."
@@ -12388,21 +12418,21 @@ msgstr ""
 "Některá zařízení, například routery s vestavěným firewallem, mohou bránit "
 "generování HTTPS certifikátu."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:95
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:96
 msgid "Errors"
 msgstr "Lỗi"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:97
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:98
 msgid ""
 "A specific error code is displayed on the IoT system's homepage if any "
-"issues occur during the generation or reception of the ref:`HTTPS "
+"issues occur during the generation or reception of the :ref:`HTTPS "
 "certificate <iot/connect/https_certificate>`."
 msgstr ""
-"Mã lỗi cụ thể được hiển thị trên trang chủ của hệ thống IoT nếu có bất kỳ sự "
-"cố nào xảy ra trong quá trình tạo hoặc nhận ref:`HTTPS certificate <iot/"
+"Một mã lỗi cụ thể sẽ hiển thị trên trang chủ của hệ thống IoT nếu có bất kỳ "
+"sự cố nào xảy ra trong quá trình tạo hoặc nhận :ref:`chứng chỉ HTTPS <iot/"
 "connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:101
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:102
 msgid ""
 "When you access the IoT system's homepage, it automatically checks for an "
 "HTTPS certificate and attempts to generate one if it is missing. If an error "
@@ -12412,37 +12442,11 @@ msgstr ""
 "HTTPS certifikát a pokusí se ho vygenerovat, pokud chybí. Pokud se zobrazí "
 "chyba, obnovte stránku a zjistěte, zda byl problém vyřešen."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:106
-msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
-msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:107
+msgid "Missing credentials"
+msgstr "Thiếu thông tin xác thực"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:108
-msgid ""
-"The server configuration is missing, i.e., the database is "
-"not :doc:`connected <../connect>` to the IoT system."
-msgstr ""
-"Thiếu cấu hình máy chủ, tức là cơ sở dữ liệu không :doc:`được kết nối <../"
-"connect>` với hệ thống IoT."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:112
-msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:114
-msgid ""
-"An error occurred while attempting to read the existing ref:`HTTPS "
-"certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
-"certificate file is readable."
-msgstr ""
-"Đã xảy ra lỗi khi cố gắng đọc ref:`HTTPS certificate <iot/connect/"
-"https_certificate>` hiện có. Xác minh rằng tệp chứng chỉ HTTPS có thể đọc "
-"được."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:119
-msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:121
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:109
 msgid ""
 "The contract and/or database :abbr:`UUID (Universal Unique Identifier)` is "
 "missing from the IoT."
@@ -12450,7 +12454,7 @@ msgstr ""
 "Hợp đồng và/hoặc :abbr:`UUID (Universal Unique Identifier)` của cơ sở dữ "
 "liệu bị thiếu khỏi IoT."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:111
 msgid ""
 "Verify that both values are correctly configured. To update "
 "them, :ref:`access the IoT box's <iot/iot-box/homepage>` or :ref:`Windows "
@@ -12463,32 +12467,7 @@ msgstr ""
 "nhấp vào nút :icon:`fa-cogs` (:guilabel:`bánh răng`), sau đó nhấp "
 "vào :guilabel:`Credentials`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:128
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:130
-msgid ""
-"An unexpected error occurred while the IoT system tried to reach `<https://"
-"www.odoo.com>`_. This is likely due to network-related issues, such as:"
-msgstr ""
-"Došlo k neočekávané chybě, když se IoT systém pokusil dosáhnout `<https://"
-"www.odoo.com>`_. To je pravděpodobně způsobeno problémy souvisejícími se "
-"sítí, například:"
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:133
-msgid "The IoT system does not have Internet access."
-msgstr "IoT systém nemá přístup k internetu."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
-msgid ""
-"Network restrictions (e.g., firewalls or VPNs) are preventing communication "
-"with https://www.odoo.com."
-msgstr ""
-"Các hạn chế mạng (ví dụ: tường lửa hoặc VPN) đang ngăn chặn kết nối với "
-"https://www.odoo.com."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:138
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:116
 msgid ""
 "To access the full request exception details with information regarding the "
 "error, :ref:`enable the developer mode <developer-mode>`, click the IoT "
@@ -12508,7 +12487,7 @@ msgstr ""
 "homepage>`, nhấp vào nút :icon:`fa-cogs` (:guilabel:`bánh răng`), sau đó "
 "chọn :guilabel:`Mức độ nhật ký` ở cuối trang."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:145
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:123
 msgid ""
 "To address network-related issues, contact your system or network "
 "administrator; these issues are beyond the scope of Odoo support services."
@@ -12517,11 +12496,11 @@ msgstr ""
 "hệ thống hoặc mạng của bạn; những vấn đề này nằm ngoài phạm vi dịch vụ hỗ "
 "trợ của Odoo."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:149
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:127
+msgid "Odoo.com not reachable"
+msgstr "Không thể kết nối với Odoo.com"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:151
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:129
 msgid ""
 "The IoT system successfully reached `<https://www.odoo.com>`_ but received "
 "an unexpected `HTTP response (status codes) <https://developer.mozilla.org/"
@@ -12531,21 +12510,11 @@ msgstr ""
 "được `mã phản hồi HTTP (status codes) <https://developer.mozilla.org/en-US/"
 "docs/Web/HTTP/Status>`_ không mong đợi."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:154
-msgid ""
-"This error code includes the HTTP status. For example, "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a \"Page "
-"Not Found\" response."
-msgstr ""
-"Mã lỗi này bao gồm trạng thái HTTP. Ví dụ: "
-"`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` có nghĩa là máy chủ trả về phản hồi "
-"\"Không tìm thấy trang\"."
-
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:132
 msgid "To solve this issue:"
 msgstr "Để giải quyết vấn đề này:"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:159
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:134
 msgid ""
 "Open `<https://www.odoo.com>`_ in a web browser to check if the website is "
 "temporarily down for maintenance."
@@ -12568,20 +12537,20 @@ msgstr ""
 "Nếu trang web đang hoạt động, hãy mở `phiếu hỗ trợ <https://www.odoo.com/"
 "help>`_ và đảm bảo bao gồm mã trạng thái HTTPS gồm 3 chữ số trong phiếu."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
-msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
-msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:141
+msgid "Still no certificate?"
+msgstr "Vẫn chưa có chứng chỉ?"
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:168
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:143
 msgid ""
-"The IoT system successfully connected to `<https://www.odoo.com>`_, but the "
-"server refused to provide the ref:`HTTPS certificate <iot/connect/"
+"If the IoT system successfully connected to `<https://www.odoo.com>`_, but "
+"the server refused to provide the :ref:`HTTPS certificate <iot/connect/"
 "https_certificate>`."
 msgstr ""
-"Hệ thống IoT đã kết nối thành công với `<https://www.odoo.com>`_, nhưng máy "
-"chủ từ chối cung cấp ref:`HTTPS certificate <iot/connect/https_certificate>`."
+"Nếu hệ thống IoT kết nối thành công với `<https://www.odoo.com>`_, nhưng máy "
+"chủ từ chối cung cấp :ref:`chứng chỉ HTTPS <iot/connect/https_certificate>`."
 
-#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:171
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:146
 msgid ""
 "Check that the IoT system and database meet the :ref:`eligibility "
 "requirements <iot/https_certificate_iot/iot-eligibility>` for an HTTPS "
@@ -12589,6 +12558,76 @@ msgid ""
 msgstr ""
 "Kiểm tra rằng hệ thống IoT và cơ sở dữ liệu đáp ứng :ref:`các yêu cầu đủ "
 "điều kiện <iot/https_certificate_iot/iot-eligibility>` cho chứng chỉ HTTPS."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:150
+msgid "Grant Odoo support team access to an IoT Box"
+msgstr "Cấp quyền truy cập IoT Box cho đội ngũ hỗ trợ Odoo"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:152
+msgid ""
+"If you need to grant remote access to an IoT Box, you can provide a "
+"Tailscale token on the IoT Box's homepage. This allows the Odoo support team "
+"to access the IoT Box for troubleshooting securely."
+msgstr ""
+"Nếu bạn cần cấp quyền truy cập từ xa vào IoT Box, bạn có thể cung cấp mã "
+"thông báo Tailscale trên trang chủ của IoT Box. Điều này cho phép đội ngũ hỗ "
+"trợ Odoo truy cập IoT Box để khắc phục sự cố một cách an toàn."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:157
+msgid ""
+"Only enter a token from a trusted source, such as an official Odoo support "
+"representative. Providing a token grants access to the IoT Box and your "
+"entire local network, so it should be done with caution."
+msgstr ""
+"Chỉ nhập mã thông báo từ nguồn đáng tin cậy, chẳng hạn như đại diện hỗ trợ "
+"chính thức của Odoo. Việc cung cấp mã thông báo sẽ cấp quyền truy cập vào "
+"IoT Box và toàn bộ mạng cục bộ của bạn, vì vậy cần thực hiện thận trọng."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:161
+msgid ""
+"On the :ref:`IoT Box's homepage <iot/iot-box/homepage>`, click the :icon:`fa-"
+"cogs` (:guilabel:`cogs`) button, then click :guilabel:`Debugging Tools`. In "
+"the pop-up window, enter the Tailscale token provided by the Odoo support "
+"team and click :guilabel:`Enable`."
+msgstr ""
+"Trên :ref:`trang chủ của IoT Box <iot/iot-box/homepage>`, nhấp vào nút "
+":icon:`fa-cogs` (:guilabel:`bánh răng`), sau đó nhấp vào :guilabel:`Công cụ "
+"gỡ lỗi`. Trong cửa sổ bật lên, nhập mã thông báo Tailscale do đội ngũ hỗ trợ "
+"Odoo cung cấp và nhấp vào :guilabel:`Bật`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
+msgid ""
+"**Remote Debug** is only available for :doc:`IoT boxes <../iot_box>`, not "
+"the :doc:`Windows virtual IoT <../windows_iot>`."
+msgstr ""
+"**Gỡ lỗi từ xa** chỉ khả dụng cho :doc:`IoT box <../iot_box>`, không dành "
+"cho :doc:`Windows virtual IoT <../windows_iot>`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:170
+msgid "Is the IoT Box down?"
+msgstr "IoT Box có bị ngừng hoạt động không?"
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:172
+msgid ""
+"If the IoT Box is down, you can still enable remote access for the Odoo "
+"support team. Just provide the key in the only field displayed on "
+"the :ref:`homepage <iot/iot-box/homepage>` and click :guilabel:`Enable`."
+msgstr ""
+"Nếu IoT Box bị ngừng hoạt động, bạn vẫn có thể bật quyền truy cập từ xa cho "
+"đội ngũ hỗ trợ Odoo. Chỉ cần cung cấp khóa vào trường duy nhất hiển thị trên "
+":ref:`trang chủ <iot/iot-box/homepage>` và nhấp vào :guilabel:`Bật`."
+
+#: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:180
+msgid ""
+"Enabling remote access on a down IoT Box is only available from version "
+"above v26.01.2026. If your IoT Box doesn't have this option, you will need "
+"to :ref:`flash the IoT Box's card with the latest image <iot/updating_iot/"
+"image-code>`."
+msgstr ""
+"Việc bật quyền truy cập từ xa trên IoT Box bị ngừng hoạt động chỉ khả dụng "
+"từ phiên bản trên v26.01.2026. Nếu IoT Box của bạn không có tùy chọn này, "
+"bạn sẽ cần :ref:`flash thẻ của IoT Box bằng hình ảnh mới nhất <iot/"
+"updating_iot/image-code>`."
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:5
 msgid ""
@@ -13353,8 +13392,8 @@ msgid ""
 "Search the Windows start menu for `firewall` and select "
 "the :guilabel:`Windows Defender Firewall with Advanced Security` app."
 msgstr ""
-"Tìm kiếm `firewall` trong menu khởi động Windows và chọn ứng dụng "
-":guilabel:`Windows Defender Firewall with Advanced Security`."
+"Tìm kiếm `firewall` trong menu khởi động Windows và chọn ứng "
+"dụng :guilabel:`Windows Defender Firewall with Advanced Security`."
 
 #: ../../content/applications/general/iot/windows_iot.rst:102
 msgid "In the left part of the window, select :guilabel:`Inbound Rules`."
@@ -13373,8 +13412,8 @@ msgid ""
 "In the :guilabel:`New Inbound Rule Wizard` that opens, select "
 "the :guilabel:`Port` type of rule and click :guilabel:`Next`."
 msgstr ""
-"Trong :guilabel:`New Inbound Rule Wizard` mở ra, chọn loại quy tắc "
-":guilabel:`Port` và nhấp :guilabel:`Next`."
+"Trong :guilabel:`New Inbound Rule Wizard` mở ra, chọn loại quy "
+"tắc :guilabel:`Port` và nhấp :guilabel:`Next`."
 
 #: ../../content/applications/general/iot/windows_iot.rst:106
 msgid ""
@@ -13382,8 +13421,8 @@ msgid ""
 "and :guilabel:`Specified local ports` are selected, enter the following in "
 "the field: `8069, 80, 443`, and click :guilabel:`Next`."
 msgstr ""
-"Trên trang :guilabel:`Protocols and Ports`, đảm bảo :guilabel:`TCP` và "
-":guilabel:`Specified local ports` được chọn, nhập vào trường: `8069, 80, "
+"Trên trang :guilabel:`Protocols and Ports`, đảm bảo :guilabel:`TCP` "
+"và :guilabel:`Specified local ports` được chọn, nhập vào trường: `8069, 80, "
 "443`, và nhấp :guilabel:`Next`."
 
 #: ../../content/applications/general/iot/windows_iot.rst:111
@@ -13405,8 +13444,8 @@ msgid ""
 "On the :guilabel:`Action` page, select :guilabel:`Allow the connection` and "
 "click :guilabel:`Next`."
 msgstr ""
-"Trên trang :guilabel:`Action`, chọn :guilabel:`Allow the connection` và nhấp "
-":guilabel:`Next`."
+"Trên trang :guilabel:`Action`, chọn :guilabel:`Allow the connection` và "
+"nhấp :guilabel:`Next`."
 
 #: ../../content/applications/general/iot/windows_iot.rst:118
 msgid ""
@@ -13422,8 +13461,8 @@ msgid ""
 "optionally, a brief :guilabel:`Description`, then click :guilabel:`Finish`."
 msgstr ""
 "Trên trang :guilabel:`Name`, cung cấp :guilabel:`Name` (ví dụ: `Odoo`) và "
-"tùy chọn, một :guilabel:`Description` ngắn gọn, sau đó nhấp "
-":guilabel:`Finish`."
+"tùy chọn, một :guilabel:`Description` ngắn gọn, sau đó "
+"nhấp :guilabel:`Finish`."
 
 #: ../../content/applications/general/iot/windows_iot.rst:124
 msgid ""
@@ -14292,11 +14331,11 @@ msgstr ""
 "là một trong những ứng dụng được sử dụng phổ biến nhất. Đây **không phải** "
 "là sự chứng thực cho sản phẩm."
 
-#: ../../content/applications/general/users/2fa.rst:47
+#: ../../content/applications/general/users/2fa.rst:49
 msgid "Two-factor authentication setup"
 msgstr "Thiết lập xác thực hai yếu tố"
 
-#: ../../content/applications/general/users/2fa.rst:49
+#: ../../content/applications/general/users/2fa.rst:51
 msgid ""
 "After selecting an authenticator, log in to Odoo, then click the profile "
 "avatar in the upper-right corner, and select :guilabel:`My Profile` from the "
@@ -14306,7 +14345,7 @@ msgstr ""
 "diện hồ sơ ở góc trên bên phải và chọn :guilabel:`My Profile` từ menu thả "
 "xuống."
 
-#: ../../content/applications/general/users/2fa.rst:52
+#: ../../content/applications/general/users/2fa.rst:54
 msgid ""
 "Click the :guilabel:`Account Security` tab, then slide the :guilabel:`Two-"
 "Factor Authentication` toggle to *active*."
@@ -14318,7 +14357,7 @@ msgstr ""
 msgid "The account secuirty tab in a user profile."
 msgstr "Tab bảo mật tài khoản trong hồ sơ người dùng."
 
-#: ../../content/applications/general/users/2fa.rst:58
+#: ../../content/applications/general/users/2fa.rst:60
 msgid ""
 "This generates a :guilabel:`Security Control` pop-up window that requires "
 "password confirmation to continue. Enter the appropriate password, then "
@@ -14330,16 +14369,16 @@ msgstr ""
 "vào :guilabel:`Confirm Password`. Tiếp theo, cửa sổ bật lên :guilabel:`Two-"
 "Factor Authentication Activation` xuất hiện với |QR|."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid "The 2fa authentication QR code in Odoo."
 msgstr "Mã QR xác thực 2fa trong Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:65
+#: ../../content/applications/general/users/2fa.rst:67
 msgid ""
 "Using the desired authenticator application, scan the |QR| when prompted."
 msgstr "Sử dụng ứng dụng xác thực mong muốn, quét |QR| khi được nhắc."
 
-#: ../../content/applications/general/users/2fa.rst:68
+#: ../../content/applications/general/users/2fa.rst:70
 msgid ""
 "If scanning the screen is not possible (e.g., the setup is being completed "
 "on the *same* device as the authenticator application), click the "
@@ -14355,7 +14394,7 @@ msgstr ""
 msgid "A 2fa secret code on an authentication popup."
 msgstr "Mã bí mật 2fa trên cửa sổ bật lên xác thực."
 
-#: ../../content/applications/general/users/2fa.rst:75
+#: ../../content/applications/general/users/2fa.rst:77
 msgid "Afterwards, the authenticator should display a *verification code*."
 msgstr "Sau đó, ứng dụng xác thực sẽ hiển thị *mã xác minh*."
 
@@ -14363,7 +14402,7 @@ msgstr "Sau đó, ứng dụng xác thực sẽ hiển thị *mã xác minh*."
 msgid "A view of the Google authenticator app with the six digit code for 2fa."
 msgstr "Giao diện ứng dụng Google authenticator với mã sáu chữ số cho 2fa."
 
-#: ../../content/applications/general/users/2fa.rst:80
+#: ../../content/applications/general/users/2fa.rst:82
 msgid ""
 "Enter the code into the :guilabel:`Verification Code` field, then "
 "click :guilabel:`Activate`."
@@ -14379,15 +14418,15 @@ msgstr ""
 "Thông báo thành công xuất hiện trong hồ sơ người dùng khi 2fa được bật thành "
 "công."
 
-#: ../../content/applications/general/users/2fa.rst:86
+#: ../../content/applications/general/users/2fa.rst:88
 msgid "Logging in"
 msgstr "Đăng nhập"
 
-#: ../../content/applications/general/users/2fa.rst:88
+#: ../../content/applications/general/users/2fa.rst:90
 msgid "To confirm |2fa| setup is complete, log out of Odoo."
 msgstr "Để xác nhận việc thiết lập |2fa| đã hoàn tất, đăng xuất khỏi Odoo."
 
-#: ../../content/applications/general/users/2fa.rst:90
+#: ../../content/applications/general/users/2fa.rst:92
 msgid ""
 "On the login page, input the username and password, then "
 "click :guilabel:`Log in`. On the :guilabel:`Two-factor Authentication` page, "
@@ -14403,7 +14442,7 @@ msgstr ""
 msgid "The login page with 2fa enabled."
 msgstr "Trang đăng nhập với 2fa được kích hoạt."
 
-#: ../../content/applications/general/users/2fa.rst:98
+#: ../../content/applications/general/users/2fa.rst:100
 msgid ""
 "If a user loses access to their authenticator, an administrator **must** "
 "deactivate |2fa| on the account before the user can log in."
@@ -14412,11 +14451,11 @@ msgstr ""
 "viên **phải** vô hiệu hóa |2fa| trên tài khoản trước khi người dùng có thể "
 "đăng nhập."
 
-#: ../../content/applications/general/users/2fa.rst:102
+#: ../../content/applications/general/users/2fa.rst:104
 msgid "Enforce two-factor authentication"
 msgstr "Áp dụng xác thực hai yếu tố"
 
-#: ../../content/applications/general/users/2fa.rst:104
+#: ../../content/applications/general/users/2fa.rst:106
 msgid ""
 "To enforce |2fa| for every user in the database, navigate to "
 "the :menuselection:`Settings` app. In the :guilabel:`Permissions` section, "
@@ -14430,7 +14469,7 @@ msgstr ""
 "các nút radio để chọn áp dụng cài đặt này cho :guilabel:`Chỉ nhân viên` "
 "hay :guilabel:`Tất cả người dùng`."
 
-#: ../../content/applications/general/users/2fa.rst:110
+#: ../../content/applications/general/users/2fa.rst:112
 msgid ""
 "Selecting :guilabel:`All users` applies the setting to portal users in "
 "addition to employees."
@@ -14438,7 +14477,7 @@ msgstr ""
 "Chọn :guilabel:`Tất cả người dùng` sẽ áp dụng cài đặt cho người dùng cổng "
 "thông tin ngoài nhân viên."
 
-#: ../../content/applications/general/users/2fa.rst:112
+#: ../../content/applications/general/users/2fa.rst:114
 msgid "Click :guilabel:`Save` to commit any unsaved changes."
 msgstr "Nhấp :guilabel:`Lưu` để lưu các thay đổi chưa được lưu."
 
@@ -14446,7 +14485,7 @@ msgstr "Nhấp :guilabel:`Lưu` để lưu các thay đổi chưa được lưu.
 msgid "The enforce two factor setting in the Settings application."
 msgstr "Cài đặt bắt buộc xác thực hai yếu tố trong ứng dụng Cài đặt."
 
-#: ../../content/applications/general/users/2fa.rst:118
+#: ../../content/applications/general/users/2fa.rst:120
 msgid ""
 "If users are frequently required to log in again and complete two-factor "
 "authentication, it may be due to session or inactivity timeout policies "
@@ -14456,7 +14495,7 @@ msgstr ""
 "yếu tố, điều này có thể do chính sách hết thời gian phiên hoặc không hoạt "
 "động được cấu hình cho một hoặc nhiều nhóm người dùng của họ."
 
-#: ../../content/applications/general/users/2fa.rst:121
+#: ../../content/applications/general/users/2fa.rst:123
 msgid ""
 "Administrators can configure these policies using the *Timeouts* settings "
 "available on user groups when the *auth_timeout* module is installed. "
@@ -14585,9 +14624,10 @@ msgid ""
 "Documents`, :guilabel:`User: All Documents`, or :guilabel:`Administrator`."
 msgstr ""
 "Đối với mỗi ứng dụng, sử dụng menu thả xuống để chọn mức quyền mà người dùng "
-"này nên có. Các tùy chọn khác nhau cho từng phần, nhưng phổ biến nhất là: "
-":guilabel:`Để trống/Không`, :guilabel:`Người dùng: Tài liệu riêng`, "
-":guilabel:`Người dùng: Tất cả tài liệu`, hoặc :guilabel:`Quản trị viên`."
+"này nên có. Các tùy chọn khác nhau cho từng phần, nhưng phổ biến nhất "
+"là: :guilabel:`Để trống/Không`, :guilabel:`Người dùng: Tài liệu "
+"riêng`, :guilabel:`Người dùng: Tất cả tài liệu`, hoặc :guilabel:`Quản trị "
+"viên`."
 
 #: ../../content/applications/general/users/access_rights.rst:51
 msgid ""
@@ -14645,13 +14685,13 @@ msgid ""
 "sections. If no changes are made to these groups, then their permissions "
 "will mirror the selections made in the :guilabel:`Access Rights` tab."
 msgstr ""
-"Sau đó, điều hướng đến ứng dụng :menuselection:`Cài đặt`. Sau đó nhấp "
-":guilabel:`Quản lý Người dùng`, chọn một người dùng và chuyển đến tab "
-":guilabel:`Quyền Truy cập Kỹ thuật`. Từ đây, :guilabel:`Nhóm` có thể được "
-"chỉnh sửa và quyền truy cập cụ thể có thể được quản lý trên các phần khác "
-"nhau. Nếu không có thay đổi nào được thực hiện đối với các nhóm này, thì "
-"quyền của chúng sẽ phản ánh các lựa chọn được thực hiện trong tab "
-":guilabel:`Quyền truy cập`."
+"Sau đó, điều hướng đến ứng dụng :menuselection:`Cài đặt`. Sau đó "
+"nhấp :guilabel:`Quản lý Người dùng`, chọn một người dùng và chuyển đến "
+"tab :guilabel:`Quyền Truy cập Kỹ thuật`. Từ đây, :guilabel:`Nhóm` có thể "
+"được chỉnh sửa và quyền truy cập cụ thể có thể được quản lý trên các phần "
+"khác nhau. Nếu không có thay đổi nào được thực hiện đối với các nhóm này, "
+"thì quyền của chúng sẽ phản ánh các lựa chọn được thực hiện trong "
+"tab :guilabel:`Quyền truy cập`."
 
 #: ../../content/applications/general/users/access_rights.rst:79
 msgid ""
@@ -15262,8 +15302,8 @@ msgid ""
 "finish."
 msgstr ""
 "Nhấp :guilabel:`New` và trong hàng trống xuất hiện, thêm tham số hệ thống "
-"`auth_oauth.authorization_header` vào trường :guilabel:`Key`, và đặt "
-":guilabel:`Value` thành `1`. Sau đó nhấp :guilabel:`Save` để hoàn tất."
+"`auth_oauth.authorization_header` vào trường :guilabel:`Key`, và "
+"đặt :guilabel:`Value` thành `1`. Sau đó nhấp :guilabel:`Save` để hoàn tất."
 
 #: ../../content/applications/general/users/azure.rst:37
 msgid "Microsoft Azure dashboard"
@@ -15449,10 +15489,10 @@ msgid ""
 "Microsoft account to the Odoo user."
 msgstr ""
 "Odoo cần quyền đọc thông tin hồ sơ của người dùng đã đăng nhập từ Microsoft "
-"Graph trong quá trình OAuth. Ít nhất, hãy đảm bảo quyền ủy quyền "
-":guilabel:`User.Read` được cấp trên đăng ký ứng dụng Azure. Nếu không, quá "
-"trình đăng nhập có thể thất bại hoặc không thể liên kết chính xác tài khoản "
-"Microsoft với người dùng Odoo."
+"Graph trong quá trình OAuth. Ít nhất, hãy đảm bảo quyền ủy "
+"quyền :guilabel:`User.Read` được cấp trên đăng ký ứng dụng Azure. Nếu không, "
+"quá trình đăng nhập có thể thất bại hoặc không thể liên kết chính xác tài "
+"khoản Microsoft với người dùng Odoo."
 
 #: ../../content/applications/general/users/azure.rst:120
 msgid ""
@@ -15513,10 +15553,10 @@ msgid ""
 msgstr ""
 "Cuối cùng, bước cuối cùng trong cấu hình OAuth của Microsoft Azure là hoàn "
 "tất thiết lập trong Odoo. Điều hướng đến :menuselection:`Settings --> "
-"Integrations` và bật hộp kiểm cho :guilabel:`OAuth Authentication`. Nhấp "
-":guilabel:`Save` để lưu các thay đổi và làm mới trang. Cuộn xuống phần "
-":menuselection:`Integrations`, và nhấp vào :guilabel:`OAuth Providers`. Sau "
-"đó nhấp :guilabel:`New`."
+"Integrations` và bật hộp kiểm cho :guilabel:`OAuth Authentication`. "
+"Nhấp :guilabel:`Save` để lưu các thay đổi và làm mới trang. Cuộn xuống "
+"phần :menuselection:`Integrations`, và nhấp vào :guilabel:`OAuth Providers`. "
+"Sau đó nhấp :guilabel:`New`."
 
 #: ../../content/applications/general/users/azure.rst:140
 msgid ""
@@ -16019,16 +16059,16 @@ msgid ""
 "Fill out the required details and domain info, then click on :guilabel:`Save "
 "and Continue`."
 msgstr ""
-"Điền các thông tin và thông tin tên miền bắt buộc, sau đó nhấp vào "
-":guilabel:`Save and Continue`."
+"Điền các thông tin và thông tin tên miền bắt buộc, sau đó nhấp "
+"vào :guilabel:`Save and Continue`."
 
 #: ../../content/applications/general/users/google.rst:72
 msgid ""
 "On the :menuselection:`Scopes` page, leave all fields as is, and click "
 "on :guilabel:`Save and Continue`."
 msgstr ""
-"Trên trang :menuselection:`Scopes`, để tất cả các trường như cũ và nhấp vào "
-":guilabel:`Save and Continue`."
+"Trên trang :menuselection:`Scopes`, để tất cả các trường như cũ và nhấp "
+"vào :guilabel:`Save and Continue`."
 
 #: ../../content/applications/general/users/google.rst:74
 msgid ""
@@ -16088,8 +16128,8 @@ msgid ""
 msgstr ""
 "Để thực hiện điều này, trong trường :guilabel:`Authorized redirect URIs`, "
 "nhập tên miền cơ sở dữ liệu ngay sau đó là `/auth_oauth/signin`. Ví dụ: "
-"`https://mydomain.odoo.com/auth_oauth/signin`, sau đó nhấp vào "
-":guilabel:`Create`."
+"`https://mydomain.odoo.com/auth_oauth/signin`, sau đó nhấp "
+"vào :guilabel:`Create`."
 
 #: ../../content/applications/general/users/google.rst:103
 msgid ""
@@ -16098,10 +16138,10 @@ msgid ""
 "the :guilabel:`Client ID` for later, as it will be necessary for the "
 "configuration in Odoo, which will be covered in the following steps."
 msgstr ""
-"Bây giờ *OAuth client* đã được tạo, một màn hình sẽ xuất hiện với "
-":guilabel:`Client ID` và :guilabel:`Client Secret`. Sao chép "
-":guilabel:`Client ID` để sử dụng sau, vì nó sẽ cần thiết cho cấu hình trong "
-"Odoo, điều này sẽ được đề cập trong các bước tiếp theo."
+"Bây giờ *OAuth client* đã được tạo, một màn hình sẽ xuất hiện "
+"với :guilabel:`Client ID` và :guilabel:`Client Secret`. Sao "
+"chép :guilabel:`Client ID` để sử dụng sau, vì nó sẽ cần thiết cho cấu hình "
+"trong Odoo, điều này sẽ được đề cập trong các bước tiếp theo."
 
 #: ../../content/applications/general/users/google.rst:110
 msgid "Google Authentication on Odoo"
@@ -16118,8 +16158,8 @@ msgid ""
 "the :guilabel:`Client ID`."
 msgstr ""
 "Sau khi các bước trước đó hoàn tất, hai khóa được tạo trên Google API "
-"Dashboard: :guilabel:`Client ID` và :guilabel:`Client Secret`. Sao chép "
-":guilabel:`Client ID`."
+"Dashboard: :guilabel:`Client ID` và :guilabel:`Client Secret`. Sao "
+"chép :guilabel:`Client ID`."
 
 #: ../../content/applications/general/users/google.rst:None
 msgid "Google OAuth Client ID generated."
@@ -16134,8 +16174,8 @@ msgid ""
 "Go to :menuselection:`Odoo General Settings --> Integrations` and "
 "activate :guilabel:`OAuth Authentication`."
 msgstr ""
-"Vào :menuselection:`Odoo General Settings --> Integrations` và kích hoạt "
-":guilabel:`OAuth Authentication`."
+"Vào :menuselection:`Odoo General Settings --> Integrations` và kích "
+"hoạt :guilabel:`OAuth Authentication`."
 
 #: ../../content/applications/general/users/google.rst:133
 msgid "Odoo may prompt the user to log-in again after this step."
@@ -17002,6 +17042,86 @@ msgstr ":doc:`Quyền truy cập </applications/general/users/access_rights>`"
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:154
 msgid ":doc:`Portal access documentation <portal_access>`"
 msgstr ":doc:`Tài liệu truy cập cổng thông tin <portal_access>`"
+
+#~ msgid ""
+#~ "A specific error code is displayed on the IoT system's homepage if any "
+#~ "issues occur during the generation or reception of the ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`."
+#~ msgstr ""
+#~ "Mã lỗi cụ thể được hiển thị trên trang chủ của hệ thống IoT nếu có bất kỳ "
+#~ "sự cố nào xảy ra trong quá trình tạo hoặc nhận ref:`HTTPS certificate "
+#~ "<iot/connect/https_certificate>`."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_NO_SERVER`"
+
+#~ msgid ""
+#~ "The server configuration is missing, i.e., the database is "
+#~ "not :doc:`connected <../connect>` to the IoT system."
+#~ msgstr ""
+#~ "Thiếu cấu hình máy chủ, tức là cơ sở dữ liệu không :doc:`được kết nối <../"
+#~ "connect>` với hệ thống IoT."
+
+#~ msgid "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`"
+
+#~ msgid ""
+#~ "An error occurred while attempting to read the existing ref:`HTTPS "
+#~ "certificate <iot/connect/https_certificate>`. Verify that the HTTPS "
+#~ "certificate file is readable."
+#~ msgstr ""
+#~ "Đã xảy ra lỗi khi cố gắng đọc ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>` hiện có. Xác minh rằng tệp chứng chỉ HTTPS có thể đọc "
+#~ "được."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL`"
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`"
+
+#~ msgid ""
+#~ "An unexpected error occurred while the IoT system tried to reach "
+#~ "`<https://www.odoo.com>`_. This is likely due to network-related issues, "
+#~ "such as:"
+#~ msgstr ""
+#~ "Došlo k neočekávané chybě, když se IoT systém pokusil dosáhnout `<https://"
+#~ "www.odoo.com>`_. To je pravděpodobně způsobeno problémy souvisejícími se "
+#~ "sítí, například:"
+
+#~ msgid "The IoT system does not have Internet access."
+#~ msgstr "IoT systém nemá přístup k internetu."
+
+#~ msgid ""
+#~ "Network restrictions (e.g., firewalls or VPNs) are preventing "
+#~ "communication with https://www.odoo.com."
+#~ msgstr ""
+#~ "Các hạn chế mạng (ví dụ: tường lửa hoặc VPN) đang ngăn chặn kết nối với "
+#~ "https://www.odoo.com."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`"
+
+#~ msgid ""
+#~ "This error code includes the HTTP status. For example, "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` means the server returned a "
+#~ "\"Page Not Found\" response."
+#~ msgstr ""
+#~ "Mã lỗi này bao gồm trạng thái HTTP. Ví dụ: "
+#~ "`ERR_IOT_HTTPS_LOAD_REQUEST_STATUS 404` có nghĩa là máy chủ trả về phản "
+#~ "hồi \"Không tìm thấy trang\"."
+
+#~ msgid "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+#~ msgstr "`ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`"
+
+#~ msgid ""
+#~ "The IoT system successfully connected to `<https://www.odoo.com>`_, but "
+#~ "the server refused to provide the ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`."
+#~ msgstr ""
+#~ "Hệ thống IoT đã kết nối thành công với `<https://www.odoo.com>`_, nhưng "
+#~ "máy chủ từ chối cung cấp ref:`HTTPS certificate <iot/connect/"
+#~ "https_certificate>`."
 
 #~ msgid ""
 #~ "This configuration only works with a subdomain on the Odoo Online or "

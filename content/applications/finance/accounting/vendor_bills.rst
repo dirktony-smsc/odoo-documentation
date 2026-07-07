@@ -85,15 +85,14 @@ appropriately completed:
   reference once the payment is registered.
 - :guilabel:`Recipient Bank`: Indicates the account number to which the payment will be made. This
   field is required when paying via batch payment files (such as :ref:`NACHA
-  <l10n_us/ach-electronic-transfers>` and :doc:`SEPA <payments/pay_sepa>`).
+  <l10n_us/ach-electronic-transfers>` and :doc:`SEPA Direct Debit <payments/sepa_payments>`).
 - :guilabel:`Due Date` or :guilabel:`Payment Terms` must be specified for the bill payment.
 - :guilabel:`Journal`: Select which journal should record the bill and in which :doc:`currency
   <get_started/multi_currency>`.
 
 In the :guilabel:`Invoice Lines` tab:
 
-- To access the product catalog, click :doc:`Catalog
-  </applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/product_catalog>`.
+- To access the product catalog, click :doc:`Catalog </applications/essentials/product_catalog>`.
 - Select the products and quantities, then click :guilabel:`Back to Bill` to return to the vendor
   bill; the selected catalog items will appear in the vendor bill lines.
 - Update the :guilabel:`Quantity`, :guilabel:`Price`, and :doc:`Taxes <taxes>` fields if needed.

@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:30+0000\n"
-"PO-Revision-Date: 2026-06-09 23:24+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:31+0000\n"
+"PO-Revision-Date: 2026-06-25 14:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/da/>\n"
 "Language: da\n"
@@ -4878,15 +4878,15 @@ msgstr ""
 ":guilabel:`Brugerdefineret gruppe...`: Gruppér data efter en "
 ":ref:`brugerdefineret gruppe <search/group>`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:181
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
 msgid "Create event track"
 msgstr "Opret arrangementspor"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:183
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
 msgid "New event tracks are created from the :guilabel:`Event Tracks` page."
 msgstr "Nye arrangementsspor oprettes fra siden :guilabel:`Arrangementsspor`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:185
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:187
 msgid ""
 "To create a new event track, click :guilabel:`New` in the upper-left corner "
 "to reveal a blank event track form."
@@ -4898,14 +4898,14 @@ msgstr ""
 msgid "Typical event track form in the Odoo Events application."
 msgstr "Typisk formular til arrangementspor i Odoo Arrangementer-applikationen."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:191
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required**."
 msgstr ""
 "Start med at give dette spor en :guilabel:`Titel`. Dette felt er "
 "**påkrævet**."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:193
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
 msgid ""
 "Optionally, upload an image for the track to be displayed on the track's "
 "webpage."
@@ -4913,23 +4913,23 @@ msgstr ""
 "Valgfrit kan du uploade et billede til sporet, der skal vises på sporets "
 "webside."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:195
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
 msgid "Next, enter details for the track in the following fields:"
 msgstr "Indtast derefter detaljer for sporet i følgende felter:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:197
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
 msgid ":guilabel:`Track Date`: Specify the date of the track."
 msgstr ":guilabel:`Spordato`: Angiv datoen for sporet."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:198
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
 msgid ":guilabel:`Location`: Specify the location of the track."
 msgstr ":guilabel:`Placering`: Angiv placeringen af sporet."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:199
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:201
 msgid ":guilabel:`Duration`: Specify the duration of the track (in minutes)."
 msgstr ":guilabel:`Varighed`: Angiv varigheden af sporet (i minutter)."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:200
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
 msgid ""
 ":guilabel:`Always Wishlisted`: Specify whether to automatically set the "
 "track as favorite for each registered attendee."
@@ -4937,7 +4937,7 @@ msgstr ""
 ":guilabel:`Altid på ønskeliste`: Angiv om sporet automatisk skal angives som "
 "favorit for hver registreret deltager."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:202
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
 msgid ""
 ":guilabel:`Responsible`: Select the database user responsible for managing "
 "the track. By default, this field is assigned to the user who initially "
@@ -4947,7 +4947,7 @@ msgstr ""
 "administrere sporet. Som standard er dette felt tildelt til brugeren, der "
 "oprindeligt oprettede sporet."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:204
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
 msgid ""
 ":guilabel:`Event`: Select the track's associated event. By default, this "
 "field is already populated with the event from the *Event Tracks* page."
@@ -4955,7 +4955,7 @@ msgstr ""
 ":guilabel:`Event`: Vælg sporets tilknyttede event. Som standard er dette "
 "felt allerede udfyldt med eventet fra siden *Event-spor*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:206
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
 msgid ""
 ":guilabel:`Tags`: Select one or multiple tags for the track to add as "
 "filters on the *Talks* webpage."
@@ -4963,7 +4963,7 @@ msgstr ""
 ":guilabel:`Tags`: Vælg et eller flere tags til sporet, der skal tilføjes som "
 "filtre på websiden *Talks*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:208
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:210
 msgid ""
 ":guilabel:`Agenda Color`: Select a color to represent the track on the "
 "*Agenda* webpage."
@@ -4971,7 +4971,7 @@ msgstr ""
 ":guilabel:`Dagensordenfarve`: Vælg en farve til at repræsentere sporet på "
 "websiden *Dagsorden*."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:211
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:213
 msgid ""
 "To access a complete list of locations for event tracks, which can be "
 "modified (and added to) at any time, navigate to :menuselection:`Events app "
@@ -4981,11 +4981,11 @@ msgstr ""
 "som kan ændres (og tilføjes til) når som helst, skal du navigere til "
 ":menuselection:`Arrangementer-app --> Konfiguration --> Sporplaceringer`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:217
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
 msgid "Speaker tab"
 msgstr "Fanen Taler"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:219
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:221
 msgid ""
 "The :guilabel:`Speaker` tab on an event track form contains various fields "
 "to configure information about the track host or speaker."
@@ -4999,11 +4999,11 @@ msgstr ""
 "Fanen Taler på en formular til arrangementspor i Odoo Arrangementer-"
 "applikationen."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:226
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
 msgid "Contact Details section"
 msgstr "Afsnittet Kontaktoplysninger"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:228
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:230
 msgid ""
 "In the :guilabel:`Contact Details` section, click the :guilabel:`Contact` "
 "drop-down field to select an existing contact from the database as the main "
@@ -5013,7 +5013,7 @@ msgstr ""
 ":guilabel:`Kontakt` for at vælge en eksisterende kontakt fra databasen som "
 "hovedkontaktperson for foredraget."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:231
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:233
 msgid ""
 "If this contact is not yet in the database, type in the name of the contact, "
 "and click :guilabel:`Create` to create and edit the contact form later, or "
@@ -5026,7 +5026,7 @@ msgstr ""
 "for at blive ført til den nye kontakts kontaktformular til øjeblikkelig "
 "konfiguration."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:235
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:237
 msgid ""
 "The :guilabel:`Contact Email` and :guilabel:`Contact Phone` fields are "
 "greyed-out and populated with the information found on the chosen contact's "
@@ -5037,11 +5037,11 @@ msgstr ""
 "gråtonede og udfyldt med information fra den valgte kontakts formular. Disse "
 "felter kan ikke ændres, når feltet :guilabel:`Kontakt` er valgt."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:240
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
 msgid "Speaker Bio section"
 msgstr "Afsnittet Talerbiografi"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:242
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:244
 msgid ""
 "In the :guilabel:`Speaker Bio` section, enter any information related to the "
 "specific speaker scheduled to conduct/host the track."
@@ -5050,7 +5050,7 @@ msgstr ""
 "til den specifikke taler, der er planlagt til at gennemføre/være vært for "
 "sporet."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:245
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:247
 msgid ""
 "If the chosen contact in the :guilabel:`Contact Details` section is properly "
 "configured, the :guilabel:`Name`, :guilabel:`Email`, and :guilabel:`Phone` "
@@ -5062,7 +5062,7 @@ msgstr ""
 "og :guilabel:`Telefon` automatisk. Ellers skal du indtaste informationen "
 "manuelt."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:250
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:252
 msgid ""
 "This information appears on the front-end of the event website, on the "
 "specific track webpage, providing more information about the speaker to the "
@@ -5072,7 +5072,7 @@ msgstr ""
 "specifikke spor-webside og giver flere oplysninger om taleren til sporets "
 "deltagere."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:253
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
 msgid ""
 "Optionally, upload an image to appear alongside the speaker biography on the "
 "event website."
@@ -5080,7 +5080,7 @@ msgstr ""
 "Valgfrit kan du uploade et billede, der skal vises sammen med "
 "talerbiografien på event-websiden."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:255
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:257
 msgid ""
 "Then, enter a :guilabel:`Job Position` for the designated speaker, followed "
 "by the :guilabel:`Company Name` associated with the speaker."
@@ -5088,7 +5088,7 @@ msgstr ""
 "Indtast derefter en :guilabel:`Jobtitel` for den udpegede taler efterfulgt "
 "af :guilabel:`Virksomhedsnavn` tilknyttet taleren."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:258
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:260
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter a custom biography with "
 "any speaker-related information."
@@ -5096,13 +5096,13 @@ msgstr ""
 "I feltet :guilabel:`Biografi` skal du indtaste en tilpasset biografi med "
 "eventuelle talerrelaterede oplysninger."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:264
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
 #: ../../content/applications/marketing/surveys/create.rst:258
 #: ../../content/applications/marketing/surveys/questions.rst:198
 msgid "Description tab"
 msgstr "Fanen Beskrivelse"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:266
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Description` tab of an event track form contains a blank text "
 "field to enter any additional information about the track. This information "
@@ -5112,11 +5112,11 @@ msgstr ""
 "tekstfelt til at indtaste eventuelle yderligere oplysninger om sporet. Denne "
 "information vises på den specifikke sporside på event-websiden."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:273
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
 msgid "Interactivity tab"
 msgstr "Fanen Interaktivitet"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:275
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:277
 msgid ""
 "The :guilabel:`Interactivity` tab of the track form provides users the "
 "option to display an interactive button for additional attendee engagement."
@@ -5131,7 +5131,7 @@ msgstr ""
 "Fanen Interaktivitet på en formular til arrangementspor i Odoo Arrangementer-"
 "applikationen."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:282
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:284
 msgid ""
 "When the :guilabel:`Magic Button` checkbox is ticked, Odoo displays a *call "
 "to action* button to attendees on the sidebar of the track webpage while the "
@@ -5141,7 +5141,7 @@ msgstr ""
 "*opfordringsknap* til deltagerne i sidebjælken på sporsiden, mens sporet "
 "finder sted."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:285
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
 msgid ""
 "With that checkbox ticked, three more options appear below to configure the "
 "button:"
@@ -5149,7 +5149,7 @@ msgstr ""
 "Når dette afkrydsningsfelt er markeret, vises tre yderligere muligheder "
 "nedenfor til konfiguration af knappen:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:287
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
 msgid ""
 ":guilabel:`Button Title`: Enter a title to appear on the button for "
 "attendees."
@@ -5157,7 +5157,7 @@ msgstr ""
 ":guilabel:`Knaptitel`: Indtast en titel, der skal vises på knappen for "
 "deltagerne."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:288
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:290
 msgid ""
 ":guilabel:`Button Target URL`: Enter a URL that leads attendees to a "
 "specific page."
@@ -5165,7 +5165,7 @@ msgstr ""
 ":guilabel:`Knapens mål-URL`: Indtast en URL, der fører deltagerne til en "
 "bestemt side."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:289
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:291
 msgid ""
 ":guilabel:`Show Button`: Enter how many :guilabel:`minutes after Track "
 "start` the button should appear."
@@ -5173,17 +5173,17 @@ msgstr ""
 ":guilabel:`Vis knap`: Indtast, hvor mange :guilabel:`minutter efter "
 "sporstart` knappen skal vises."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:293
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:295
 msgid ""
 "The magic button **only** appears if there is more than one published track."
 msgstr ""
 "Den magiske knap vises **kun**, hvis der er mere end ét publiceret spor."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:296
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
 msgid "Publish event track"
 msgstr "Publicer arrangement-spor"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:298
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:300
 msgid ""
 "Once all the desired configurations are complete on an event track form, "
 "publish the track on the event website by clicking the :guilabel:`Published` "
@@ -5193,7 +5193,7 @@ msgstr ""
 "udgives sporet på arrangementets hjemmeside ved at klikke på "
 ":guilabel:`Udgivet` stadiet i øverste højre hjørne."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:302
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:304
 msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
@@ -5202,7 +5202,7 @@ msgstr ""
 "Sporets fase kan også ændres fra siden :guilabel:`Arrangement-spor`, hvor "
 "det ønskede spor-kort kan trækkes og slippes ind i den passende Kanban-fase."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:305
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:307
 msgid ""
 "An event track can also be published by opening the desired event track form "
 "and clicking the :guilabel:`Go to Website` smart button. Then, toggle "
@@ -5223,11 +5223,11 @@ msgstr ""
 "De spor-relaterede arrangement-undermenuindstillinger på en arrangement-"
 "hjemmeside bygget med Odoo Arrangementer."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:315
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
 msgid "Additional track configurations"
 msgstr "Yderligere sporkonfigurationer"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:317
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:319
 msgid ""
 "The :guilabel:`Schedule & Tracks` setting in the **Events** configuration "
 "page provides additional configuration options for users to enable live "
@@ -5237,11 +5237,11 @@ msgstr ""
 "**Arrangementer** giver yderligere konfigurationsmuligheder, som brugere kan "
 "aktivere til livestreaming og gamification af spor."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:323
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
 msgid "Live broadcasting"
 msgstr "Livestreaming"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:325
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:327
 msgid ""
 "If the :guilabel:`Live Broadcast` setting is enabled in the **Events** app "
 "settings, the option to add a corresponding link in the :guilabel:`YouTube "
@@ -5251,11 +5251,11 @@ msgstr ""
 "**Arrangementer**-appens indstillinger, vises muligheden for at tilføje et "
 "tilsvarende link i feltet :guilabel:`YouTube-videolink` i sporformularen."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:331
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
 msgid "Event gamification"
 msgstr "Arrangementsgamification"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:333
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:335
 msgid ""
 "If the :guilabel:`Event Gamification` setting is enabled, an :guilabel:`Add "
 "Quiz` button appears on the top-left of a track form, allowing the user to "
@@ -5266,11 +5266,11 @@ msgstr ""
 "brugeren kan oprette en quiz, som deltagerne kan gennemføre efter sporet "
 "slutter."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:338
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
 msgid "Track quiz form"
 msgstr "Sporquizformular"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:340
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:342
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so opens a form to configure the quiz."
@@ -5284,14 +5284,14 @@ msgid "The Add Quiz page in the Odoo Events application for an event track."
 msgstr ""
 "Tilføj quiz-siden i Odoo Arrangementer-applikationen for et arrangement-spor."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:346
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page."
 msgstr ""
 "Begynd med at indtaste en titel til quizzen i det tomme felt øverst på siden."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:348
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:350
 msgid ""
 "If participants are allowed to take the quiz multiple times, tick the "
 "checkbox beside :guilabel:`Allow multiple tries`."
@@ -5299,7 +5299,7 @@ msgstr ""
 "Hvis deltagerne må tage quizzen flere gange, skal du markere "
 "afkrydsningsfeltet ved siden af :guilabel:`Tillad flere forsøg`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:351
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:353
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are automatically "
 "populated with the corresponding event and track. These fields are non-"
@@ -5309,11 +5309,11 @@ msgstr ""
 "automatisk med det tilsvarende arrangement og spor. Disse felter kan ikke "
 "ændres."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:355
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
 msgid "Add questions and answers"
 msgstr "Tilføj spørgsmål og svar"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:357
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:359
 msgid ""
 "To add questions to the quiz, click :guilabel:`Add a line` beneath "
 "the :guilabel:`Question` column. Doing so reveals a :guilabel:`Create "
@@ -5323,11 +5323,11 @@ msgstr ""
 "linje` under kolonnen :guilabel:`Spørgsmål`. Dette åbner et pop op-vindue "
 ":guilabel:`Opret spørgsmål`."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:361
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
 msgid "**All** track quiz questions are multiple choice."
 msgstr "**Alle** spor-quiz-spørgsmål er multiple choice."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:363
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:365
 msgid ""
 "From the pop-up window, enter the question in the blank field at the top. "
 "Then, click :guilabel:`Add a line` to add an answer option."
@@ -5335,20 +5335,20 @@ msgstr ""
 "Fra pop op-vinduet skal du indtaste spørgsmålet i det tomme felt øverst. "
 "Klik derefter på :guilabel:`Tilføj en linje` for at tilføje en svarmulighed."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:366
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
 msgid "Optionally, fill in the following fields:"
 msgstr "Valgfrit, udfyld følgende felter:"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:368
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
 msgid ""
 ":guilabel:`Correct`: Designate whether the option is the correct response."
 msgstr ":guilabel:`Correct`: Angiv, om svarmuligheden er det korrekte svar."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:369
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:371
 msgid ":guilabel:`Points`: Specify a point value for the answer option."
 msgstr ":guilabel:`Points`: Angiv en pointværdi for svarmuligheden."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:370
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:372
 msgid ""
 ":guilabel:`Extra Comment`: Add any additional comments that should accompany "
 "the answer option."
@@ -5364,7 +5364,7 @@ msgstr ""
 "Pop op-vinduet Opret spørgsmål på en arrangement-specifik spor-quiz i Odoo "
 "Arrangementer-appen."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:375
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:377
 msgid ""
 "Once all desired answer options are completed, click :guilabel:`Save & "
 "Close` to save the question, close the pop-up window, and return to the "
@@ -5378,13 +5378,13 @@ msgstr ""
 "spørgsmål og straks begynde at oprette et nyt spørgsmål i en ny "
 ":guilabel:`Create Questions` pop op-formular."
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:381
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
-#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:382
+#: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:378
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
@@ -5664,76 +5664,145 @@ msgstr "Talks, forslag og dagsorden"
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:5
 msgid ""
-"With Odoo *Events*, users can utilize a fully-integrated event website, "
-"where attendees can quickly access various tracks (talks, presentations, "
-"etc.), view entire agendas, and propose talks for the event."
+"With Odoo **Events**, visitors can use the event website to view tracks, "
+"propose talks, and see a detailed agenda for their events."
 msgstr ""
-"Med Odoo *Arrangementer* kan brugere benytte en fuldt integreret "
-"arrangementshjemmeside, hvor deltagere hurtigt kan få adgang til forskellige "
-"tracks (talks, præsentationer osv.), se hele dagsordener og foreslå talks "
-"til arrangementet."
+"Med Odoo **Arrangementer** kan besøgende bruge arrangementets hjemmeside til "
+"at se spor, foreslå foredrag og se en detaljeret dagsorden for deres "
+"arrangementer."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:10
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:9
+msgid ""
+"In order to access talks, proposals, and agendas, internal users must have "
+"event tracks enabled and set up. See the :doc:`event_tracks` documentation "
+"to learn more about enabling and creating tracks."
+msgstr ""
+"For at få adgang til foredrag, forslag og dagsordener skal interne brugere "
+"have arrangementsspor aktiveret og konfigureret. Se :doc:`event_tracks`-"
+"dokumentationen for at lære mere om aktivering og oprettelse af spor."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:16
 msgid "Event website"
 msgstr "Arrangementshjemmeside"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:12
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:18
 msgid ""
-"To access an event website, navigate to the specific event form in the Odoo "
-"*Events* app, and click the :guilabel:`Go to Website` smart button. Or, "
-"while on the Odoo-built website for the company, click "
-"the :guilabel:`Events` header option, and select the desired event to view "
-"that event's website."
+"When an internal user :doc:`creates an event <../event_setup/"
+"create_events>`, Odoo **Events** generates a separate website for it on the "
+"user's Odoo-built website."
 msgstr ""
-"For at få adgang til en arrangementshjemmeside skal du navigere til den "
-"specifikke arrangementsformular i Odoo *Arrangementer*-appen og klikke på "
-"smartknappen :guilabel:`Gå til hjemmeside`. Eller mens du er på den Odoo-"
-"byggede hjemmeside for virksomheden, skal du klikke på "
-"overskriftsindstillingen :guilabel:`Arrangementer` og vælge det ønskede "
-"arrangement for at se det pågældende arrangements hjemmeside."
+"Når en intern bruger :doc:`opretter et arrangement <../event_setup/"
+"create_events>`, genererer Odoo **Arrangementer** en separat hjemmeside til "
+"det på brugerens Odoo-byggede hjemmeside."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:17
-msgid ""
-"On the event website, there is an event-specific subheader menu with "
-"different options to choose from."
-msgstr ""
-"På arrangementshjemmesiden er der en arrangementsspecifik "
-"underoverskriftsmenu med forskellige muligheder at vælge imellem."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:21
+msgid "Visitors can access that event website in two ways:"
+msgstr "Besøgende kan få adgang til arrangementets hjemmeside på to måder:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:20
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:23
 msgid ""
-"With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, the "
-"following links are automatically added to the subheader menu, located on "
-"the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, "
-"and :guilabel:`Agenda`."
+"Open the **Events** app, navigate to the specific event, and click "
+"the :guilabel:`Go to Website` smart button."
 msgstr ""
-"Med indstillingen *Program & Tracks* aktiveret i Odoo *Arrangementer*-appen "
-"tilføjes følgende links automatisk til underoverskriftsmenuen, der findes på "
-"arrangementshjemmesiden: :guilabel:`Talks`, :guilabel:`Talk-forslag` og "
-":guilabel:`Dagsorden`."
+"Åbn appen **Arrangementer**, naviger til det specifikke arrangement og klik "
+"på smartknappen :guilabel:`Gå til hjemmeside`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:28
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:26
 msgid ""
-"To enable the :guilabel:`Schedule & Tracks` setting, navigate "
-"to :menuselection:`Events app --> Configuration --> Settings`, tick the "
-"checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+"Or, while on the Odoo-built website, click the :guilabel:`Events` header "
+"option, then select the desired event."
 msgstr ""
-"For at aktivere indstillingen :guilabel:`Program & Tracks` skal du navigere "
-"til :menuselection:`Arrangementer-app --> Konfiguration --> Indstillinger`, "
-"sætte flueben ud for :guilabel:`Program & Tracks` og klikke på "
-":guilabel:`Gem`."
+"Eller mens du er på den Odoo-byggede hjemmeside, klik på header-"
+"indstillingen :guilabel:`Arrangementer` og vælg derefter det ønskede "
+"arrangement."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:29
+msgid ""
+"On the event website, there is a sub-header menu with different pages, "
+"including the following:"
+msgstr ""
+"På arrangementets hjemmeside er der en undermenu med forskellige sider, "
+"herunder følgende:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:31
+msgid ""
+":guilabel:`Talks`: :ref:`View a schedule <events/talks-proposals-agenda/view-"
+"talks>` of all tracks scheduled for the event, listed by date."
+msgstr ""
+":guilabel:`Foredrag`: :ref:`Se en oversigt <events/talks-proposals-agenda/"
+"view-talks>` over alle spor planlagt til arrangementet, listet efter dato."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:33
-msgid "Talks page"
-msgstr "Talks-side"
+msgid ""
+":guilabel:`Talk Proposals`: :ref:`Submit a proposal <events/talks-proposals-"
+"agenda/propose-talks>` to participate as a speaker during the event."
+msgstr ""
+":guilabel:`Foredragsforslag`: :ref:`Indsend et forslag <events/talks-"
+"proposals-agenda/propose-talks>` om at deltage som taler under arrangementet."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:35
 msgid ""
-"The :guilabel:`Talks` link takes the attendee to a page filled with all the "
-"planned tracks for the event."
+":guilabel:`Agenda`: :ref:`View a calendar <events/talks-proposals-agenda/"
+"view-agenda>` of all scheduled tracks for the event, showing detailed times "
+"for each date."
 msgstr ""
-"Linket :guilabel:`Talks` fører deltageren til en side med alle planlagte "
-"spor for arrangementet."
+":guilabel:`Dagsorden`: :ref:`Se en kalender <events/talks-proposals-agenda/"
+"view-agenda>` over alle planlagte spor til arrangementet, der viser "
+"detaljerede tider for hver dato."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:39
+msgid ""
+"If the sub-header menu does not appear, it must be manually enabled by the "
+"internal user."
+msgstr ""
+"Hvis undermenuen ikke vises, skal den aktiveres manuelt af den interne "
+"bruger."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:41
+msgid ""
+"To do so, click the :guilabel:`Edit` button at the top. In the editor panel, "
+"click the :guilabel:`Customize` tab at the top, then enable "
+"the :guilabel:`Sub-menu (Specific)` setting. Finally, click :guilabel:`Save` "
+"to apply changes."
+msgstr ""
+"For at gøre dette skal du klikke på knappen :guilabel:`Rediger` øverst. I "
+"redigeringspanelet skal du klikke på fanen :guilabel:`Tilpas` øverst og "
+"derefter aktivere indstillingen :guilabel:`Undermenu (specifik)`. Klik til "
+"sidst på :guilabel:`Gem` for at anvende ændringerne."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:51
+msgid "View talks"
+msgstr "Se foredrag"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:53
+msgid ""
+"The *Talks* page displays a schedule of planned tracks for the event, sorted "
+"by date."
+msgstr ""
+"Siden *Foredrag* viser en oversigt over planlagte spor til arrangementet, "
+"sorteret efter dato."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+msgid ""
+"Visitors can mark a track as a *Favorite* by clicking the :icon:`fa-bell-"
+"o` :guilabel:`(empty bell)` icon to the right of the track title. A track "
+"marked as a *Favorite* appears with the :icon:`fa-bell` :guilabel:`(filled "
+"bell)` icon. Visitors can then :ref:`filter tracks by favorites <events/"
+"talks-proposals-agenda/filter-favorites>`."
+msgstr ""
+"Besøgende kan markere et spor som *Favorit* ved at klikke på ikonet "
+":icon:`fa-bell-o` :guilabel:`(tom klokke)` til højre for sportitlen. Et spor "
+"markeret som *Favorit* vises med ikonet :icon:`fa-bell` :guilabel:`(udfyldt "
+"klokke)`. Besøgende kan derefter :ref:`filtrere spor efter favoritter "
+"<events/talks-proposals-agenda/filter-favorites>`."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:60
+msgid ""
+"Additionally, visitors can also :ref:`filter tracks by their tags <events/"
+"talks-proposals-agenda/filter-tags>` (customized on each track's form)."
+msgstr ""
+"Derudover kan besøgende også :ref:`filtrere spor efter deres tags <events/"
+"talks-proposals-agenda/filter-tags>` (tilpasset på hver spors formular)."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5742,75 +5811,104 @@ msgstr ""
 "Talks-siden på en arrangement-hjemmeside bygget gennem Odoo Arrangementer-"
 "applikationen."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:42
-msgid ""
-"At the top of :guilabel:`Talks` page, there are drop-down filter menus "
-"beside a :guilabel:`Search a talk...` search bar."
-msgstr ""
-"Øverst på :guilabel:`Talks`-siden er der rullemenuer til filtrering ved "
-"siden af en :guilabel:`Search a talk...` søgelinje."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:69
+msgid "Filter by favorites"
+msgstr "Filtrer efter favoritter"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:45
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:71
 msgid ""
-"The first drop-down filter menu (with the starting "
-"title: :guilabel:`Favorites`) is the only drop-down filter menu that appears "
-"by default. When clicked, the resulting menu presents two "
-"options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+"To filter the *Talks* page by any tracks marked as a *Favorite*, click on "
+"the :guilabel:`Favorites` drop-down menu."
 msgstr ""
-"Den første rullemenu til filtrering (med starttitlen: :guilabel:`Favorites`) "
-"er den eneste rullemenu til filtrering, der vises som standard. Når der "
-"klikkes på den, præsenterer menuen to muligheder: :guilabel:`Favorites` og "
-":guilabel:`All Talks`."
+"For at filtrere siden *Foredrag* efter spor markeret som *Favorit* skal du "
+"klikke på rullemenuen :guilabel:`Favoritter`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:49
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:74
+msgid "Visitors can then choose one of two options:"
+msgstr "Besøgende kan derefter vælge en af to muligheder:"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:76
+msgid ":guilabel:`Favorites`: shows **only** tracks marked as *Favorite*."
+msgstr ":guilabel:`Favoritter`: viser **kun** spor markeret som *Favorit*."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+msgid ":guilabel:`All Talks`: shows **all** tracks."
+msgstr ":guilabel:`Alle foredrag`: viser **alle** spor."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
 msgid ""
-"Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
-"favorited by the attendee."
+"If the visitor applies the :guilabel:`Favorites` option without having "
+"marked any tracks as a *Favorite*, all event tracks are displayed."
 msgstr ""
-"Valg af :guilabel:`Favorites` viser *kun* de spor, der er blevet favoriseret "
-"af deltageren."
+"Hvis besøgende anvender muligheden :guilabel:`Favoritter` uden at have "
+"markeret nogen spor som *Favorit*, vises alle arrangementsforedrag."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:52
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:87
+msgid "Filter by tags"
+msgstr "Filtrér efter tags"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:89
 msgid ""
-"If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
-"selected, Odoo presents all the event tracks."
+"If any tracks have tags and tag categories configured in the database "
+"during :ref:`track creation <events/event_tracks/create-track>`, additional "
+"drop-down filter menus will appear at the top of the page next to "
+"the :guilabel:`Favorites` drop-down, allowing users to filter tracks by tag "
+"categories."
 msgstr ""
-"Hvis ingen spor er blevet favoriseret, og :guilabel:`Favorites`-filteret er "
-"valgt, præsenterer Odoo alle arrangementets spor."
+"Hvis nogen spor har tags og tag-kategorier konfigureret i databasen under "
+":ref:`sporoprettelse <events/event_tracks/create-track>`, vil yderligere "
+"rullemenuer med filtre vises øverst på siden ved siden af rullemenuen "
+":guilabel:`Favoritter`, så brugere kan filtrere spor efter tag-kategorier."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:55
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
 msgid ""
-"Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
-"have been favorited or not."
+"To add tags and tag categories to track forms, navigate to the **Events** "
+"app and open the desired event. Click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button and open the desired event track."
 msgstr ""
-"Valg af :guilabel:`All Talks` viser *alle* spor, uanset om de er blevet "
-"favoriseret eller ej."
+"For at tilføje tags og tag-kategorier til sporformularer skal du navigere "
+"til **Arrangementer**-appen og åbne det ønskede arrangement. Klik på den "
+"smarte knap :icon:`fa-microphone` :guilabel:`Spor` og åbn det ønskede "
+"arrangementsspor."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:58
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:98
 msgid ""
-"The other drop-down filter menus that appear on this page are related to any "
-"configured tags (and tag categories) created for event tracks in the backend."
-msgstr ""
-"De andre rullemenuer til filtrering, der vises på denne side, er relateret "
-"til eventuelle konfigurerede tags (og tag-kategorier) oprettet for "
-"arrangementsspor i backend."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:62
-msgid ""
-"To add tags and tag categories to track forms, open a desired event track "
-"form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+"On the track form, type a new tag in the :guilabel:`Tags` field. Then, "
 "click :guilabel:`Create and edit...` from the resulting drop-down menu."
 msgstr ""
-"For at tilføje tags og tag-kategorier til sporformularer skal du åbne en "
-"ønsket arrangementsporformular og begynde at skrive et nyt tag i "
-":guilabel:`Tags`-feltet. Klik derefter på :guilabel:`Create and edit...` fra "
-"den resulterende rullemenu."
+"På sporformularen skal du indtaste et nyt tag i feltet :guilabel:`Tags`. "
+"Klik derefter på :guilabel:`Opret og rediger...` fra den resulterende "
+"rullemenu."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:66
-msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
-msgstr "Dette åbner en :guilabel:`Create Tags` pop-up-formular."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+msgid ""
+"Doing so reveals a :guilabel:`Create Tags` pop-up form with the following "
+"fields:"
+msgstr ""
+"Dette viser en pop op-formular :guilabel:`Opret tags` med følgende felter:"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:103
+msgid ""
+":guilabel:`Tag Name`: The name of the tag. This field is already populated."
+msgstr ":guilabel:`Tagnavn`: Navnet på tagget. Dette felt er allerede udfyldt."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+msgid ""
+":guilabel:`Color Index`: The color of the track associated with this tag, "
+"displayed on the website."
+msgstr ""
+":guilabel:`Farveindeks`: Farven på sporet tilknyttet dette tag, vist på "
+"hjemmesiden."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:106
+msgid ""
+":guilabel:`Category`: The category of the tag. This category appears as the "
+"drop-down filter menu on the *Talks* page."
+msgstr ""
+":guilabel:`Kategori`: Kategorien for tagget. Denne kategori vises som "
+"filtrets rullemenu på *Foredrag*-siden."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:0
 msgid ""
 "The Create Tags pop-up form that coincides with drop-down filter menus on "
 "Talks page."
@@ -5818,79 +5916,27 @@ msgstr ""
 "Create Tags pop-up-formularen, der hører sammen med rullemenuerne til "
 "filtrering på Talks-siden."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:72
-msgid ""
-"From here, users see the recently added tag in the :guilabel:`Tag Name` "
-"field. Beneath that, there is an option to add a specific :guilabel:`Color "
-"Index` to the tag for added organization."
-msgstr ""
-"Herfra ser brugerne det nyligt tilføjede tag i :guilabel:`Tag Name`-feltet. "
-"Nedenfor er der en mulighed for at tilføje et specifikt :guilabel:`Color "
-"Index` til tagget for øget organisering."
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:115
+msgid "Propose talks"
+msgstr "Foreslå foredrag"
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:75
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
 msgid ""
-"Lastly, there is the :guilabel:`Category` field, where users can either "
-"select a pre-existing category for this new tag, or create a new one."
+"The *Talk Proposals* page allows visitors to submit a proposal for a talk "
+"via a custom online form."
 msgstr ""
-"Endelig er der :guilabel:`Category`-feltet, hvor brugerne enten kan vælge en "
-"eksisterende kategori for dette nye tag eller oprette en ny."
+"*Foredragsforslag*-siden giver besøgende mulighed for at indsende et forslag "
+"til et foredrag via en brugerdefineret onlineformular."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:78
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
 msgid ""
-"All options in the :guilabel:`Category` field for tags appear as their own "
-"drop-down filter menu on the :guilabel:`Talks` page, located on the event "
-"website."
+"By default, the *Talk Proposals* page is automatically generated by Odoo. If "
+"needed, internal users can :doc:`edit <../../../websites/website/web_design/"
+"elements>` any part of the page, including the proposal form."
 msgstr ""
-"Alle muligheder i :guilabel:`Category`-feltet for tags vises som deres egen "
-"rullemenu til filtrering på :guilabel:`Talks`-siden på arrangementets "
-"hjemmeside."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:81
-msgid ""
-"Beneath the drop-down filter menus at the top of the :guilabel:`Talks` page, "
-"there is a list of planned tracks for the specific event, organized by day."
-msgstr ""
-"Under rullemenuerne til filtrering øverst på :guilabel:`Talks`-siden er der "
-"en liste over planlagte spor for det specifikke arrangement, organiseret "
-"efter dag."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:84
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:141
-msgid ""
-"If an attendee wishes to favorite a track, they can click the :icon:`fa-bell-"
-"o` :guilabel:`(empty bell)` icon, located to the right of the track title. "
-"Attendees will know a track has been favorited when they notice the icon has "
-"been changed to :icon:`fa-bell` :guilabel:`(filled bell)` icon."
-msgstr ""
-"Hvis en deltager ønsker at favorisere et spor, kan de klikke på :icon:`fa-"
-"bell-o` :guilabel:`(empty bell)` ikonet, placeret til højre for sportitlen. "
-"Deltagerne vil vide, at et spor er blevet favoriseret, når de bemærker, at "
-"ikonet er blevet ændret til :icon:`fa-bell` :guilabel:`(filled bell)` ikonet."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:88
-msgid ""
-"Favoriting a track this way places it on the list of :guilabel:`Favorites`, "
-"which is accessible from the default drop-down filter menu, located at the "
-"top of the :guilabel:`Talks` page."
-msgstr ""
-"At favorisere et spor på denne måde placerer det på listen over "
-":guilabel:`Favorites`, som er tilgængelig fra standard-rullemenuen til "
-"filtrering, placeret øverst på :guilabel:`Talks`-siden."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:92
-msgid "Talk Proposals page"
-msgstr "Talk Proposals-side"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:94
-msgid ""
-"The :guilabel:`Talk Proposals` link takes attendees to a page on the event "
-"website, wherein they can formerly submit a proposal for a talk "
-"(:dfn:`track`) for the event, via a custom online form."
-msgstr ""
-"Linket :guilabel:`Talk Proposals` fører deltagere til en side på "
-"arrangementets hjemmeside, hvor de kan indsende et formelt forslag til et "
-"foredrag (:dfn:`spor`) for arrangementet via en tilpasset onlineformular."
+"Som standard genereres *Foredragsforslag*-siden automatisk af Odoo. Om "
+"nødvendigt kan interne brugere :doc:`redigere <../../../websites/website/"
+"web_design/elements>` enhver del af siden, inklusive forslags formularen."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -5900,101 +5946,84 @@ msgstr ""
 "Talk Proposals-siden på arrangement-hjemmesiden bygget med Odoo "
 "Arrangementer-applikationen."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:101
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:127
 msgid ""
-"In addition to the form, an introduction to the page, along with any other "
-"pertinent information related to the types of talks the event will feature "
-"can be added, if needed."
+"To submit their proposal, visitors fill out the form, then click "
+"the :guilabel:`Submit Proposal` button."
 msgstr ""
-"Ud over formularen kan der tilføjes en introduktion til siden sammen med "
-"andre relevante oplysninger om de typer foredrag, som arrangementet vil "
-"indeholde, hvis det er nødvendigt."
+"For at indsende deres forslag udfylder besøgende formularen og klikker "
+"derefter på knappen :guilabel:`Indsend forslag`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:104
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:130
 msgid ""
-"The talk proposal form can be modified in a number of different ways, via "
-"the web builder tools, accessible by clicking :guilabel:`Edit` while on the "
-"specific page."
+"Doing so creates a new track form in the database. Internal users can access "
+"it by navigating to the **Events** app, clicking the relevant event, and "
+"selecting the :icon:`fa-microphone` :guilabel:`Tracks` smart button. The "
+"newly-proposed talk now appears as a new track in the :guilabel:`Proposal` "
+"stage."
 msgstr ""
-"Forslagsformularen til foredrag kan ændres på flere måder via "
-"webbyggerværktøjerne, som er tilgængelige ved at klikke på "
-":guilabel:`Rediger`, mens du er på den specifikke side."
+"Dette opretter en ny sporformular i databasen. Interne brugere kan få adgang "
+"til den ved at navigere til **Arrangementer**-appen, klikke på det relevante "
+"arrangement og vælge den smarte knap :icon:`fa-microphone` :guilabel:`Spor`. "
+"Det nyforeslåede foredrag vises nu som et nyt spor i fasen "
+":guilabel:`Forslag`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:107
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:135
 msgid ""
-"Then, proceed to edit any of the default fields, or add new forms with "
-"the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
-"section of the web builder tools sidebar)."
-msgstr ""
-"Fortsæt derefter med at redigere standardfelterne eller tilføje nye "
-"formularer med byggeblokken :guilabel:`Formular` (som findes i afsnittet "
-":guilabel:`Blokke` i webbyggerens værktøjssidebar)."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:110
-msgid ""
-"Once all the necessary information is entered into the form, the attendees "
-"just need to click the :guilabel:`Submit Proposal` button."
-msgstr ""
-"Når alle nødvendige oplysninger er indtastet i formularen, skal deltagerne "
-"blot klikke på knappen :guilabel:`Indsend forslag`."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:113
-msgid ""
-"Then, that talk, and all the information entered on the form, can be "
-"accessed on the :guilabel:`Event Tracks` page for that specific event in "
-"the :guilabel:`Proposal` stage, which is accessible via "
-"the :guilabel:`Tracks` smart button on the event form."
-msgstr ""
-"Derefter kan foredraget og alle oplysninger, der er indtastet i formularen, "
-"tilgås på siden :guilabel:`Arrangementsspor` for det specifikke arrangement "
-"i fasen :guilabel:`Forslag`, som er tilgængelig via smartknappen "
-":guilabel:`Spor` på arrangementsformularen."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:117
-msgid ""
-"At that point, an internal user can review the proposed talk, and choose to "
-"accept or deny the proposal."
+"At this point, an internal user can review the proposed talk and accept or "
+"deny the proposal by moving the track to the appropriate stage in the "
+"pipeline."
 msgstr ""
 "På dette tidspunkt kan en intern bruger gennemgå det foreslåede foredrag og "
-"vælge at acceptere eller afvise forslaget."
+"acceptere eller afvise forslaget ved at flytte sporet til den relevante fase "
+"i pipelinen."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:120
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
 msgid ""
-"If accepted, the internal user can then move the track to the next "
-"appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
-"page for the event. Then, they can open that track form, and click "
-"the :guilabel:`Go to Website` smart button to reveal that track's page on "
-"the event website."
+"If accepted, the internal user can publish the track on the event website by "
+"clicking the :guilabel:`Go to Website` smart button and toggling "
+"the :guilabel:`Unpublished` switch at the top to :guilabel:`Published`."
 msgstr ""
-"Hvis det accepteres, kan den interne bruger flytte sporet til den næste "
-"passende fase i Kanban-pipelinen på siden :guilabel:`Arrangementsspor` for "
-"arrangementet. Derefter kan de åbne sporformularen og klikke på smartknappen "
-":guilabel:`Gå til hjemmeside` for at vise sporets side på "
-"arrangementshjemmesiden."
+"Hvis det accepteres, kan den interne bruger udgive sporet på arrangementets "
+"hjemmeside ved at klikke på den smarte knap :guilabel:`Gå til hjemmeside` og "
+"skifte kontakten :guilabel:`Ikke udgivet` øverst til :guilabel:`Udgivet`."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:125
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:142
+msgid "Visitors can then see the track on the *Talks* page."
+msgstr "Besøgende kan derefter se sporet på *Foredrag*-siden."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:147
+msgid "View agenda"
+msgstr "Se dagsorden"
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:149
 msgid ""
-"From there, they can toggle the :guilabel:`Unpublished` switch in the header "
-"to :guilabel:`Published`, which allows all event attendees to view and "
-"access the talk."
+"The *Agenda* page displays an event calendar, showing each talk's specified "
+"location by column and its scheduled time by row."
 msgstr ""
-"Derfra kan de skifte kontakten :guilabel:`Ikke offentliggjort` i headeren "
-"til :guilabel:`Offentliggjort`, hvilket giver alle arrangementets deltagere "
-"mulighed for at se og få adgang til foredraget."
+"*Dagsorden*-siden viser en arrangementskalender, der viser hvert foredrag's "
+"angivne placering efter kolonne og dets planlagte tid efter række."
 
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:129
-msgid "Agenda page"
-msgstr "Dagsordensside"
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:131
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:152
 msgid ""
-"The :guilabel:`Agenda` link takes attendees to a page on the event website, "
-"showcasing an event calendar, depicting when (and where) events are taking "
-"place for that specific event."
+"Visitors can click any track on the calendar to open the track's specific "
+"page on the website."
 msgstr ""
-"Linket :guilabel:`Dagsorden` fører deltagerne til en side på "
-"arrangementshjemmesiden, der viser en arrangementskalender, som viser, "
-"hvornår (og hvor) arrangementer finder sted for det specifikke arrangement."
+"Besøgende kan klikke på ethvert spor i kalenderen for at åbne sporets "
+"specifikke side på hjemmesiden."
+
+#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:155
+msgid ""
+"A talk's location can be found on its track form. To find it, navigate to "
+"**Events** app, click on the relevant event, click the :icon:`fa-"
+"microphone` :guilabel:`Tracks` smart button, and select the desired track. "
+"In the track form, view or modify the :guilabel:`Location` field."
+msgstr ""
+"Placeringen af et foredrag kan findes i dets sporformular. For at finde det, "
+"skal du navigere til **Arrangementer**-appen, klikke på den relevante "
+"begivenhed, klikke på :icon:`fa-microphone` :guilabel:`Spor` smart-knappen "
+"og vælge det ønskede spor. I sporformularen kan du se eller ændre feltet "
+":guilabel:`Placering`."
 
 #: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:None
 msgid ""
@@ -6003,14 +6032,6 @@ msgid ""
 msgstr ""
 "Arrangementshjemmesidens dagsordensside bygget med Odoo Arrangementer-"
 "applikationen."
-
-#: ../../content/applications/marketing/events/attendee_experience/track_manage_talks.rst:138
-msgid ""
-"Clicking any track on the calendar takes the attendee to that specific "
-"track's detail page on the event website."
-msgstr ""
-"At klikke på et spor i kalenderen fører deltageren til det specifikke spors "
-"detaljeside på arrangementshjemmesiden."
 
 #: ../../content/applications/marketing/events/event_reporting.rst:6
 #: ../../content/applications/marketing/marketing_automation.rst:188
@@ -15401,7 +15422,7 @@ msgstr ""
 #: ../../content/applications/marketing/social_marketing.rst:16
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:3
 msgid "Social posts"
-msgstr ""
+msgstr "Opslag på sociale medier"
 
 #: ../../content/applications/marketing/social_marketing.rst:16
 msgid ""
@@ -16042,6 +16063,9 @@ msgid ""
 "on a separate page, however, the :guilabel:`Push Notification` options are "
 "already pre-selected in the :guilabel:`Post on` field."
 msgstr ""
+":guilabel:`Push-meddelelse`: viser en lignende tom skabelon til socialt "
+"opslag på en separat side, dog er :guilabel:`Push-meddelelse`-"
+"indstillingerne allerede forudvalgt i feltet :guilabel:`Slå op på`."
 
 #: ../../content/applications/marketing/social_marketing/social_campaigns.rst:132
 msgid ""
@@ -16051,6 +16075,11 @@ msgid ""
 "(e.g. :guilabel:`Mailings`, :guilabel:`SMS`, :guilabel:`Social Media`, and/"
 "or :guilabel:`Push Notifications`)."
 msgstr ""
+"Uanset hvilken kommunikationsform der oprettes, vender Odoo tilbage til "
+"siden :guilabel:`Kampagneskabelon`, når den er fuldført, og viser det nye "
+"indhold på den tilsvarende fane (f.eks. :guilabel:`Udsendelser`, "
+":guilabel:`SMS`, :guilabel:`Sociale medier` og/eller :guilabel:`Push-"
+"meddelelser`)."
 
 #: ../../content/applications/marketing/social_marketing/social_campaigns.rst:137
 msgid ""
@@ -16058,6 +16087,10 @@ msgid ""
 "specific mediums appear, along with a variety of analytical smart buttons "
 "(e.g. :guilabel:`Revenues`, :guilabel:`Quotations`, :guilabel:`Leads`, etc.)."
 msgstr ""
+"Efterhånden som indhold og kommunikation tilføjes til en kampagne, vises "
+"faner for disse specifikke medier sammen med en række analytiske "
+"smartknapper (f.eks. :guilabel:`Omsætning`, :guilabel:`Tilbud`, "
+":guilabel:`Kundeemner` osv.)."
 
 #: ../../content/applications/marketing/social_marketing/social_campaigns.rst:141
 msgid ""
@@ -16067,22 +16100,31 @@ msgid ""
 "particular element of the campaign, allowing for quicker, more organized "
 "analysis."
 msgstr ""
+"Disse smartknapper, der er placeret øverst på skabelonen, viser forskellige "
+"målepunkter relateret til kampagnen og dens forskellige kommunikation og "
+"indhold. Klik på en smartknap for at åbne en separat side dedikeret til det "
+"pågældende element i kampagnen, hvilket giver mulighed for hurtigere og mere "
+"organiseret analyse."
 
 #: ../../content/applications/marketing/social_marketing/social_campaigns.rst:147
 msgid ""
 "The Odoo *Social Marketing* app is integrated with other Odoo applications, "
 "such as *Sales*, *Invoicing*, *CRM*, and *Website*."
 msgstr ""
+"Odoo-appen *Markedsføring på sociale medier* er integreret med andre Odoo-"
+"applikationer, såsom *Salg*, *Fakturering*, *CRM* og *Hjemmeside*."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:5
 msgid ""
 "The Odoo *Social Marketing* application provides various ways to create "
 "posts for any type of social media outlet."
 msgstr ""
+"Odoo-applikationen *Markedsføring på sociale medier* giver forskellige måder "
+"at oprette opslag til enhver type sociale medier."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:9
 msgid "Posts page"
-msgstr ""
+msgstr "Opslagsside"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:11
 msgid ""
@@ -16090,18 +16132,27 @@ msgid ""
 "Marketing app --> Posts`. Here, on the :guilabel:`Social Posts` page, every "
 "post that has been created and posted with Odoo can be seen and accessed."
 msgstr ""
+"For at se en komplet oversigt over opslag skal du gå til Odoo "
+":menuselection:`Markedsføring på sociale medier --> Opslag`. Her på siden "
+":guilabel:`Opslag på sociale medier` kan alle opslag, der er oprettet og "
+"slået op med Odoo, ses og tilgås."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:15
 msgid ""
 "There are four different view options for the :guilabel:`Social Posts` page "
 "data: *kanban*, *calendar*, *list*, and *pivot*."
 msgstr ""
+"Der er fire forskellige visningsmuligheder for dataene på siden "
+":guilabel:`Opslag på sociale medier`: *kanban*, *kalender*, *liste* og "
+"*pivot*."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:18
 msgid ""
 "The view options are located in the upper right corner of "
 "the :guilabel:`Posts` page, beneath the search bar."
 msgstr ""
+"Visningsmuligheder er placeret i øverste højre hjørne af siden "
+":guilabel:`Opslag`, under søgelinjen."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:25
 msgid ""
@@ -16110,16 +16161,23 @@ msgid ""
 "connected social accounts and posts can be quickly seen, accessed, and "
 "analyzed."
 msgstr ""
+"Som standard viser Odoo opslagene i kanban-visning. Oplysningerne på denne "
+"side kan sorteres yderligere via sidepanelet til venstre, hvor alle "
+"tilsluttede sociale konti og opslag hurtigt kan ses, tilgås og analyseres."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:29
 msgid ""
 "The kanban view is represented by an :guilabel:`inverted bar graph icon` in "
 "the upper-right corner."
 msgstr ""
+"Kanban-visningen er repræsenteret af et :guilabel:`omvendt søjlediagramikon` "
+"i øverste højre hjørne."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:0
 msgid "Kanban view of the posts page in the Odoo Social Marketing application."
 msgstr ""
+"Kanban-visning af opslagssiden i Odoo-applikationen Markedsføring på sociale "
+"medier."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:38
 msgid ""
@@ -16128,6 +16186,11 @@ msgid ""
 "published. This option provides a clear overview of any planned day, week, "
 "or month, and Odoo displays all drafted, scheduled, and published posts."
 msgstr ""
+"Kalendervisningsmuligheden viser en visuel repræsentation af opslag i "
+"kalenderformat over, hvornår opslag blev offentliggjort eller er planlagt "
+"til at blive offentliggjort. Denne mulighed giver et klart overblik over "
+"enhver planlagt dag, uge eller måned, og Odoo viser alle udkast, planlagte "
+"og offentliggjorte opslag."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:43
 msgid ""
@@ -16135,16 +16198,21 @@ msgid ""
 "social media post can be created, and Odoo will post it on that specific "
 "date/time."
 msgstr ""
+"Klik på en dato for at åbne en tom detailformular til opslag på sociale "
+"medier, hvori et opslag på sociale medier kan oprettes, og Odoo slår det op "
+"på den specifikke dato/tidspunkt."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:46
 msgid ""
 "The calendar view is represented by a :guilabel:`calendar icon` in the upper-"
 "right corner."
 msgstr ""
+"Kalendervisningen er repræsenteret af et :guilabel:`kalenderikon` i øverste "
+"højre hjørne."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:0
 msgid "Example of the calendar view in Odoo Social Marketing."
-msgstr ""
+msgstr "Eksempel på kalendervisningen i Odoo Markedsføring på sociale medier."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:54
 msgid ""
@@ -16153,6 +16221,10 @@ msgid ""
 "layout. Each line of the list displays the :guilabel:`Social "
 "Accounts`, :guilabel:`Message`, and :guilabel:`Status` of every post."
 msgstr ""
+"Listevisningsmuligheden ligner kanban-muligheden, men i stedet for "
+"individuelle blokke vises alle opslagsoplysninger i et klart listelayout. "
+"Hver linje i listen viser :guilabel:`Sociale konti`, :guilabel:`Besked` og "
+":guilabel:`Status` for hvert opslag."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:58
 msgid ""
@@ -16160,6 +16232,9 @@ msgid ""
 "by :guilabel:`Status` and lists all connected :guilabel:`Social Accounts`, "
 "as well."
 msgstr ""
+"Der er også et nyttigt sidepanel til venstre, der organiserer alle opslag "
+"efter :guilabel:`Status` og også viser alle tilsluttede :guilabel:`Sociale "
+"konti`."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:61
 msgid ""
@@ -20517,6 +20592,291 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "Příklad, jak vypadá odznak v části eLearning na webové stránce."
+
+#~ msgid ""
+#~ "With Odoo *Events*, users can utilize a fully-integrated event website, "
+#~ "where attendees can quickly access various tracks (talks, presentations, "
+#~ "etc.), view entire agendas, and propose talks for the event."
+#~ msgstr ""
+#~ "Med Odoo *Arrangementer* kan brugere benytte en fuldt integreret "
+#~ "arrangementshjemmeside, hvor deltagere hurtigt kan få adgang til "
+#~ "forskellige tracks (talks, præsentationer osv.), se hele dagsordener og "
+#~ "foreslå talks til arrangementet."
+
+#~ msgid ""
+#~ "To access an event website, navigate to the specific event form in the "
+#~ "Odoo *Events* app, and click the :guilabel:`Go to Website` smart button. "
+#~ "Or, while on the Odoo-built website for the company, click "
+#~ "the :guilabel:`Events` header option, and select the desired event to "
+#~ "view that event's website."
+#~ msgstr ""
+#~ "For at få adgang til en arrangementshjemmeside skal du navigere til den "
+#~ "specifikke arrangementsformular i Odoo *Arrangementer*-appen og klikke på "
+#~ "smartknappen :guilabel:`Gå til hjemmeside`. Eller mens du er på den Odoo-"
+#~ "byggede hjemmeside for virksomheden, skal du klikke på "
+#~ "overskriftsindstillingen :guilabel:`Arrangementer` og vælge det ønskede "
+#~ "arrangement for at se det pågældende arrangements hjemmeside."
+
+#~ msgid ""
+#~ "On the event website, there is an event-specific subheader menu with "
+#~ "different options to choose from."
+#~ msgstr ""
+#~ "På arrangementshjemmesiden er der en arrangementsspecifik "
+#~ "underoverskriftsmenu med forskellige muligheder at vælge imellem."
+
+#~ msgid ""
+#~ "With the *Schedule & Tracks* setting enabled in the Odoo *Events* app, "
+#~ "the following links are automatically added to the subheader menu, "
+#~ "located on the event website: :guilabel:`Talks`, :guilabel:`Talk "
+#~ "Proposals`, and :guilabel:`Agenda`."
+#~ msgstr ""
+#~ "Med indstillingen *Program & Tracks* aktiveret i Odoo *Arrangementer*-"
+#~ "appen tilføjes følgende links automatisk til underoverskriftsmenuen, der "
+#~ "findes på arrangementshjemmesiden: :guilabel:`Talks`, :guilabel:`Talk-"
+#~ "forslag` og :guilabel:`Dagsorden`."
+
+#~ msgid ""
+#~ "To enable the :guilabel:`Schedule & Tracks` setting, navigate "
+#~ "to :menuselection:`Events app --> Configuration --> Settings`, tick the "
+#~ "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
+#~ msgstr ""
+#~ "For at aktivere indstillingen :guilabel:`Program & Tracks` skal du "
+#~ "navigere til :menuselection:`Arrangementer-app --> Konfiguration --> "
+#~ "Indstillinger`, sætte flueben ud for :guilabel:`Program & Tracks` og "
+#~ "klikke på :guilabel:`Gem`."
+
+#~ msgid "Talks page"
+#~ msgstr "Talks-side"
+
+#~ msgid ""
+#~ "The :guilabel:`Talks` link takes the attendee to a page filled with all "
+#~ "the planned tracks for the event."
+#~ msgstr ""
+#~ "Linket :guilabel:`Talks` fører deltageren til en side med alle planlagte "
+#~ "spor for arrangementet."
+
+#~ msgid ""
+#~ "At the top of :guilabel:`Talks` page, there are drop-down filter menus "
+#~ "beside a :guilabel:`Search a talk...` search bar."
+#~ msgstr ""
+#~ "Øverst på :guilabel:`Talks`-siden er der rullemenuer til filtrering ved "
+#~ "siden af en :guilabel:`Search a talk...` søgelinje."
+
+#~ msgid ""
+#~ "The first drop-down filter menu (with the starting "
+#~ "title: :guilabel:`Favorites`) is the only drop-down filter menu that "
+#~ "appears by default. When clicked, the resulting menu presents two "
+#~ "options: :guilabel:`Favorites` and :guilabel:`All Talks`."
+#~ msgstr ""
+#~ "Den første rullemenu til filtrering (med "
+#~ "starttitlen: :guilabel:`Favorites`) er den eneste rullemenu til "
+#~ "filtrering, der vises som standard. Når der klikkes på den, præsenterer "
+#~ "menuen to muligheder: :guilabel:`Favorites` og :guilabel:`All Talks`."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
+#~ "favorited by the attendee."
+#~ msgstr ""
+#~ "Valg af :guilabel:`Favorites` viser *kun* de spor, der er blevet "
+#~ "favoriseret af deltageren."
+
+#~ msgid ""
+#~ "If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
+#~ "selected, Odoo presents all the event tracks."
+#~ msgstr ""
+#~ "Hvis ingen spor er blevet favoriseret, og :guilabel:`Favorites`-filteret "
+#~ "er valgt, præsenterer Odoo alle arrangementets spor."
+
+#~ msgid ""
+#~ "Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if "
+#~ "they have been favorited or not."
+#~ msgstr ""
+#~ "Valg af :guilabel:`All Talks` viser *alle* spor, uanset om de er blevet "
+#~ "favoriseret eller ej."
+
+#~ msgid ""
+#~ "The other drop-down filter menus that appear on this page are related to "
+#~ "any configured tags (and tag categories) created for event tracks in the "
+#~ "backend."
+#~ msgstr ""
+#~ "De andre rullemenuer til filtrering, der vises på denne side, er "
+#~ "relateret til eventuelle konfigurerede tags (og tag-kategorier) oprettet "
+#~ "for arrangementsspor i backend."
+
+#~ msgid ""
+#~ "To add tags and tag categories to track forms, open a desired event track "
+#~ "form, and start typing a new tag in the :guilabel:`Tags` field. Then, "
+#~ "click :guilabel:`Create and edit...` from the resulting drop-down menu."
+#~ msgstr ""
+#~ "For at tilføje tags og tag-kategorier til sporformularer skal du åbne en "
+#~ "ønsket arrangementsporformular og begynde at skrive et nyt tag "
+#~ "i :guilabel:`Tags`-feltet. Klik derefter på :guilabel:`Create and "
+#~ "edit...` fra den resulterende rullemenu."
+
+#~ msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
+#~ msgstr "Dette åbner en :guilabel:`Create Tags` pop-up-formular."
+
+#~ msgid ""
+#~ "From here, users see the recently added tag in the :guilabel:`Tag Name` "
+#~ "field. Beneath that, there is an option to add a "
+#~ "specific :guilabel:`Color Index` to the tag for added organization."
+#~ msgstr ""
+#~ "Herfra ser brugerne det nyligt tilføjede tag i :guilabel:`Tag Name`-"
+#~ "feltet. Nedenfor er der en mulighed for at tilføje et "
+#~ "specifikt :guilabel:`Color Index` til tagget for øget organisering."
+
+#~ msgid ""
+#~ "Lastly, there is the :guilabel:`Category` field, where users can either "
+#~ "select a pre-existing category for this new tag, or create a new one."
+#~ msgstr ""
+#~ "Endelig er der :guilabel:`Category`-feltet, hvor brugerne enten kan vælge "
+#~ "en eksisterende kategori for dette nye tag eller oprette en ny."
+
+#~ msgid ""
+#~ "All options in the :guilabel:`Category` field for tags appear as their "
+#~ "own drop-down filter menu on the :guilabel:`Talks` page, located on the "
+#~ "event website."
+#~ msgstr ""
+#~ "Alle muligheder i :guilabel:`Category`-feltet for tags vises som deres "
+#~ "egen rullemenu til filtrering på :guilabel:`Talks`-siden på "
+#~ "arrangementets hjemmeside."
+
+#~ msgid ""
+#~ "Beneath the drop-down filter menus at the top of the :guilabel:`Talks` "
+#~ "page, there is a list of planned tracks for the specific event, organized "
+#~ "by day."
+#~ msgstr ""
+#~ "Under rullemenuerne til filtrering øverst på :guilabel:`Talks`-siden er "
+#~ "der en liste over planlagte spor for det specifikke arrangement, "
+#~ "organiseret efter dag."
+
+#~ msgid ""
+#~ "If an attendee wishes to favorite a track, they can click the :icon:`fa-"
+#~ "bell-o` :guilabel:`(empty bell)` icon, located to the right of the track "
+#~ "title. Attendees will know a track has been favorited when they notice "
+#~ "the icon has been changed to :icon:`fa-bell` :guilabel:`(filled bell)` "
+#~ "icon."
+#~ msgstr ""
+#~ "Hvis en deltager ønsker at favorisere et spor, kan de klikke på :icon:`fa-"
+#~ "bell-o` :guilabel:`(empty bell)` ikonet, placeret til højre for "
+#~ "sportitlen. Deltagerne vil vide, at et spor er blevet favoriseret, når de "
+#~ "bemærker, at ikonet er blevet ændret til :icon:`fa-"
+#~ "bell` :guilabel:`(filled bell)` ikonet."
+
+#~ msgid ""
+#~ "Favoriting a track this way places it on the list "
+#~ "of :guilabel:`Favorites`, which is accessible from the default drop-down "
+#~ "filter menu, located at the top of the :guilabel:`Talks` page."
+#~ msgstr ""
+#~ "At favorisere et spor på denne måde placerer det på listen "
+#~ "over :guilabel:`Favorites`, som er tilgængelig fra standard-rullemenuen "
+#~ "til filtrering, placeret øverst på :guilabel:`Talks`-siden."
+
+#~ msgid "Talk Proposals page"
+#~ msgstr "Talk Proposals-side"
+
+#~ msgid ""
+#~ "The :guilabel:`Talk Proposals` link takes attendees to a page on the "
+#~ "event website, wherein they can formerly submit a proposal for a talk "
+#~ "(:dfn:`track`) for the event, via a custom online form."
+#~ msgstr ""
+#~ "Linket :guilabel:`Talk Proposals` fører deltagere til en side på "
+#~ "arrangementets hjemmeside, hvor de kan indsende et formelt forslag til et "
+#~ "foredrag (:dfn:`spor`) for arrangementet via en tilpasset onlineformular."
+
+#~ msgid ""
+#~ "In addition to the form, an introduction to the page, along with any "
+#~ "other pertinent information related to the types of talks the event will "
+#~ "feature can be added, if needed."
+#~ msgstr ""
+#~ "Ud over formularen kan der tilføjes en introduktion til siden sammen med "
+#~ "andre relevante oplysninger om de typer foredrag, som arrangementet vil "
+#~ "indeholde, hvis det er nødvendigt."
+
+#~ msgid ""
+#~ "The talk proposal form can be modified in a number of different ways, via "
+#~ "the web builder tools, accessible by clicking :guilabel:`Edit` while on "
+#~ "the specific page."
+#~ msgstr ""
+#~ "Forslagsformularen til foredrag kan ændres på flere måder via "
+#~ "webbyggerværktøjerne, som er tilgængelige ved at klikke "
+#~ "på :guilabel:`Rediger`, mens du er på den specifikke side."
+
+#~ msgid ""
+#~ "Then, proceed to edit any of the default fields, or add new forms with "
+#~ "the :guilabel:`Form` building block (located in the :guilabel:`Blocks` "
+#~ "section of the web builder tools sidebar)."
+#~ msgstr ""
+#~ "Fortsæt derefter med at redigere standardfelterne eller tilføje nye "
+#~ "formularer med byggeblokken :guilabel:`Formular` (som findes i "
+#~ "afsnittet :guilabel:`Blokke` i webbyggerens værktøjssidebar)."
+
+#~ msgid ""
+#~ "Once all the necessary information is entered into the form, the "
+#~ "attendees just need to click the :guilabel:`Submit Proposal` button."
+#~ msgstr ""
+#~ "Når alle nødvendige oplysninger er indtastet i formularen, skal "
+#~ "deltagerne blot klikke på knappen :guilabel:`Indsend forslag`."
+
+#~ msgid ""
+#~ "Then, that talk, and all the information entered on the form, can be "
+#~ "accessed on the :guilabel:`Event Tracks` page for that specific event in "
+#~ "the :guilabel:`Proposal` stage, which is accessible via "
+#~ "the :guilabel:`Tracks` smart button on the event form."
+#~ msgstr ""
+#~ "Derefter kan foredraget og alle oplysninger, der er indtastet i "
+#~ "formularen, tilgås på siden :guilabel:`Arrangementsspor` for det "
+#~ "specifikke arrangement i fasen :guilabel:`Forslag`, som er tilgængelig "
+#~ "via smartknappen :guilabel:`Spor` på arrangementsformularen."
+
+#~ msgid ""
+#~ "At that point, an internal user can review the proposed talk, and choose "
+#~ "to accept or deny the proposal."
+#~ msgstr ""
+#~ "På dette tidspunkt kan en intern bruger gennemgå det foreslåede foredrag "
+#~ "og vælge at acceptere eller afvise forslaget."
+
+#~ msgid ""
+#~ "If accepted, the internal user can then move the track to the next "
+#~ "appropriate stage in the Kanban pipeline on the :guilabel:`Event Tracks` "
+#~ "page for the event. Then, they can open that track form, and click "
+#~ "the :guilabel:`Go to Website` smart button to reveal that track's page on "
+#~ "the event website."
+#~ msgstr ""
+#~ "Hvis det accepteres, kan den interne bruger flytte sporet til den næste "
+#~ "passende fase i Kanban-pipelinen på siden :guilabel:`Arrangementsspor` "
+#~ "for arrangementet. Derefter kan de åbne sporformularen og klikke på "
+#~ "smartknappen :guilabel:`Gå til hjemmeside` for at vise sporets side på "
+#~ "arrangementshjemmesiden."
+
+#~ msgid ""
+#~ "From there, they can toggle the :guilabel:`Unpublished` switch in the "
+#~ "header to :guilabel:`Published`, which allows all event attendees to view "
+#~ "and access the talk."
+#~ msgstr ""
+#~ "Derfra kan de skifte kontakten :guilabel:`Ikke offentliggjort` i headeren "
+#~ "til :guilabel:`Offentliggjort`, hvilket giver alle arrangementets "
+#~ "deltagere mulighed for at se og få adgang til foredraget."
+
+#~ msgid "Agenda page"
+#~ msgstr "Dagsordensside"
+
+#~ msgid ""
+#~ "The :guilabel:`Agenda` link takes attendees to a page on the event "
+#~ "website, showcasing an event calendar, depicting when (and where) events "
+#~ "are taking place for that specific event."
+#~ msgstr ""
+#~ "Linket :guilabel:`Dagsorden` fører deltagerne til en side på "
+#~ "arrangementshjemmesiden, der viser en arrangementskalender, som viser, "
+#~ "hvornår (og hvor) arrangementer finder sted for det specifikke "
+#~ "arrangement."
+
+#~ msgid ""
+#~ "Clicking any track on the calendar takes the attendee to that specific "
+#~ "track's detail page on the event website."
+#~ msgstr ""
+#~ "At klikke på et spor i kalenderen fører deltageren til det specifikke "
+#~ "spors detaljeside på arrangementshjemmesiden."
 
 #~ msgid "Mail"
 #~ msgstr "Mail"
