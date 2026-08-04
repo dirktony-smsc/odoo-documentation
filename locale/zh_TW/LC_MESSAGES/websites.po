@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"POT-Creation-Date: 2026-07-17 17:31+0000\n"
 "PO-Revision-Date: 2026-07-05 00:46+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -486,7 +486,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce.rst:15
 #: ../../content/applications/websites/ecommerce/configuration.rst:7
-#: ../../content/applications/websites/website.rst:28
+#: ../../content/applications/websites/website.rst:34
 #: ../../content/applications/websites/website/configuration.rst:5
 #: ../../content/applications/websites/website/configuration/cookies_bar.rst:21
 #: ../../content/applications/websites/website/configuration/translate.rst:11
@@ -571,7 +571,7 @@ msgstr ""
 "Facebook 或 Instagram），以便在多個管道展示產品。"
 
 #: ../../content/applications/websites/ecommerce.rst:61
-#: ../../content/applications/websites/website.rst:47
+#: ../../content/applications/websites/website.rst:55
 msgid ""
 "Odoo offers a :ref:`free custom domain name <domain-name/register>` to all "
 "Odoo Online databases for one year. Visitors can then access your website "
@@ -587,18 +587,15 @@ msgid ":doc:`Website Documentation <website>`"
 msgstr ":doc:`網站使用說明 <website>`"
 
 #: ../../content/applications/websites/ecommerce.rst:67
-#: ../../content/applications/websites/website.rst:52
-#: ../../content/applications/websites/website/structure.rst:37
-#: ../../content/applications/websites/website/web_design.rst:42
-msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
-msgstr "`Odoo教學：網站\\ <https://www.odoo.com/slides/website-25>`_"
-
-#: ../../content/applications/websites/ecommerce.rst:68
 #: ../../content/applications/websites/ecommerce/configuration.rst:49
 #: ../../content/applications/websites/ecommerce/ecommerce_design.rst:38
-#: ../../content/applications/websites/website.rst:53
-msgid "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
-msgstr "`Odoo教學：電子商務\\ <https://www.odoo.com/slides/ecommerce-26>`_"
+#: ../../content/applications/websites/website.rst:60
+#: ../../content/applications/websites/website/structure.rst:37
+#: ../../content/applications/websites/website/web_design.rst:42
+msgid ""
+"`Odoo Tutorials: Website & eCommerce <https://www.odoo.com/slides/website-"
+"ecommerce-25>`_"
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout.rst:5
 msgid ""
@@ -760,7 +757,7 @@ msgid ""
 msgstr ""
 "預設的\\ :guilabel:`加入購物車`\\ 按鈕不提供這些選項，但可以變更其標籤。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:79
+#: ../../content/applications/websites/ecommerce/checkout.rst:81
 msgid ""
 "In the website editor, it is also possible to show or hide the :icon:`fa-"
 "shopping-cart` (:guilabel:`cart`) icon in the page's header. To do so, click "
@@ -777,11 +774,11 @@ msgstr ""
 "（:guilabel:`購物車`\\ ）按鈕。如果未啟用，則只有在將項目加入購物車時才會顯示"
 "購物車圖示。購物車中的項目數量也會顯示在圖示旁邊。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:89
+#: ../../content/applications/websites/ecommerce/checkout.rst:91
 msgid "Buy now"
 msgstr "立即購買"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:91
+#: ../../content/applications/websites/ecommerce/checkout.rst:93
 msgid ""
 "To let customers choose to go directly to the :ref:`Order summary <ecommerce/"
 "checkout/review_order>` step, add an additional :guilabel:`Buy now` button. "
@@ -799,15 +796,15 @@ msgstr ""
 msgid "Buy now button"
 msgstr "立即購買按鈕"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:102
+#: ../../content/applications/websites/ecommerce/checkout.rst:104
 msgid "Reorder products"
 msgstr "重新訂購產品"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:104
+#: ../../content/applications/websites/ecommerce/checkout.rst:106
 msgid "Customers can reorder items from a previous sales order:"
 msgstr "客戶可以從先前的銷售單重新訂購項目："
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:106
+#: ../../content/applications/websites/ecommerce/checkout.rst:108
 msgid ""
 "from their customer portal, using the :guilabel:`Order Again` button. All "
 "products from the selected order are automatically added to the cart, and "
@@ -821,7 +818,7 @@ msgstr ""
 msgid "Reorder button"
 msgstr "再次訂購按鈕"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:113
+#: ../../content/applications/websites/ecommerce/checkout.rst:115
 msgid ""
 "from the cart, by clicking :guilabel:`Quick reorder` at the :ref:`Order "
 "summary step <ecommerce/checkout/review_order>`. Customers can then adjust "
@@ -836,35 +833,35 @@ msgstr ""
 msgid "Quick reorder button"
 msgstr "快速重新訂購按鈕"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:123
+#: ../../content/applications/websites/ecommerce/checkout.rst:125
 msgid "Checkout steps"
 msgstr "結帳步驟"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:125
+#: ../../content/applications/websites/ecommerce/checkout.rst:127
 msgid "During checkout, customers are taken through the following steps:"
 msgstr "在結帳期間，客戶會經歷以下步驟："
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:127
+#: ../../content/applications/websites/ecommerce/checkout.rst:129
 msgid ":ref:`Order summary <ecommerce/checkout/review_order>`"
 msgstr ":ref:`訂單摘要 <ecommerce/checkout/review_order>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:128
+#: ../../content/applications/websites/ecommerce/checkout.rst:130
 msgid ":ref:`Address <ecommerce/checkout/delivery>`"
 msgstr ":ref:`地址 <ecommerce/checkout/delivery>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:129
+#: ../../content/applications/websites/ecommerce/checkout.rst:131
 msgid ":ref:`Extra Info (if enabled) <ecommerce/checkout/extra_step>`"
 msgstr ":ref:`額外資訊（如果已啟用） <ecommerce/checkout/extra_step>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:130
+#: ../../content/applications/websites/ecommerce/checkout.rst:132
 msgid ":ref:`Payment <ecommerce/checkout/payment>`"
 msgstr ":ref:`付款 <ecommerce/checkout/payment>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:131
+#: ../../content/applications/websites/ecommerce/checkout.rst:133
 msgid ":ref:`Order confirmation <ecommerce/checkout/order_confirmation>`"
 msgstr ":ref:`訂單確認 <ecommerce/checkout/order_confirmation>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:135
+#: ../../content/applications/websites/ecommerce/checkout.rst:137
 msgid ""
 "Each step can be customized using the website editor by "
 "adding :doc:`building blocks <../website/web_design/building_blocks>` or "
@@ -874,11 +871,11 @@ msgstr ""
 "building_blocks>`\\ 或開啟\\ :guilabel:`樣式`\\ 分頁來啟用各種結帳選項，從而"
 "自訂每個步驟。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:140
+#: ../../content/applications/websites/ecommerce/checkout.rst:142
 msgid "Content added through building blocks is **specific** to each step."
 msgstr "透過建置區塊加入的內容**專屬於**每個步驟。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:143
+#: ../../content/applications/websites/ecommerce/checkout.rst:145
 msgid ""
 "Restrict access to the :ref:`shop <ecommerce/customer_accounts/shop-access>` "
 "and :ref:`checkout <ecommerce/customer_accounts/checkout-access>` for "
@@ -889,11 +886,11 @@ msgstr ""
 "及\\ :ref:`結帳 <ecommerce/customer_accounts/checkout-access>`\\ 的存取，例如"
 "在\\ :doc:`B2B <../ecommerce/configuration/b2b_b2c>`\\ 業務設定中。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:150
+#: ../../content/applications/websites/ecommerce/checkout.rst:152
 msgid "Order summary"
 msgstr "訂單總覽"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:152
+#: ../../content/applications/websites/ecommerce/checkout.rst:154
 msgid ""
 "The :guilabel:`Order summary` step allows customers to see the items they "
 "added to their cart, adjust quantities, :guilabel:`Remove` products, "
@@ -909,7 +906,7 @@ msgstr ""
 "戶可以按一下\\ :guilabel:`結帳`\\ :icon:`fa-chevron-right`\\ 按鈕繼續前往"
 "\\ :ref:`地址 <ecommerce/checkout/delivery>`\\ 步驟。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:158
+#: ../../content/applications/websites/ecommerce/checkout.rst:160
 msgid ""
 "Open the website editor to :ref:`enable <ecommerce/checkout/"
 "customize_steps>` checkout options such as:"
@@ -917,7 +914,7 @@ msgstr ""
 "開啟網站編輯器以\\ :ref:`啟用 <ecommerce/checkout/customize_steps>`\\ 結帳選"
 "項，例如："
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:161
+#: ../../content/applications/websites/ecommerce/checkout.rst:163
 msgid ""
 ":guilabel:`Suggested Accessories`: to showcase :ref:`accessory products "
 "<ecommerce/products/cross_upselling>`;"
@@ -925,7 +922,7 @@ msgstr ""
 ":guilabel:`建議配件`：用於展示\\ :ref:`配件產品 <ecommerce/products/"
 "cross_upselling>`；"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:163
+#: ../../content/applications/websites/ecommerce/checkout.rst:165
 msgid ""
 ":guilabel:`Promo Code`: to allow customers to redeem :ref:`gift cards "
 "<ewallet_gift/gift-cards>` and apply :doc:`discount codes <../../sales/sales/"
@@ -937,7 +934,7 @@ msgstr ""
 "loyalty_discount>`\\ 或\\ :ref:`促銷代碼 <ecommerce/prices/promotional-"
 "code>`\\ ；"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:166
+#: ../../content/applications/websites/ecommerce/checkout.rst:168
 msgid ""
 ":guilabel:`Add to Wishlist`: :ref:`Enable wishlists <ecommerce/products/"
 "additional_features/wishlists>` to allow signed-in users to remove a product "
@@ -948,7 +945,7 @@ msgstr ""
 "additional_features/wishlists>`\\ ，允許已登入的使用者使用\\ :guilabel:`稍後"
 "儲存`\\ 選項從購物車中移除產品並將其加入願望清單。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:171
+#: ../../content/applications/websites/ecommerce/checkout.rst:173
 msgid ""
 "If a :doc:`fiscal position <../../finance/accounting/taxes/"
 "fiscal_positions>` is detected automatically, the product tax is determined "
@@ -957,7 +954,7 @@ msgstr ""
 "如果自動偵測到\\ :doc:`財務規則 <../../finance/accounting/taxes/"
 "fiscal_positions>`\\ ，產品稅額將根據客戶的 IP 位址決定。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:173
+#: ../../content/applications/websites/ecommerce/checkout.rst:175
 msgid ""
 "If the installed :doc:`payment provider <../../finance/payment_providers>` "
 "supports :ref:`express checkout <payment_providers/express_checkout>`, a "
@@ -968,15 +965,15 @@ msgstr ""
 "\\ :ref:`快速結帳 <payment_providers/express_checkout>`\\ ，系統會顯示專屬按"
 "鈕，讓客戶可以直接從購物車前往確認頁面，無需填寫聯絡人表單。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:181
+#: ../../content/applications/websites/ecommerce/checkout.rst:183
 msgid "Address"
 msgstr "地址"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:183
+#: ../../content/applications/websites/ecommerce/checkout.rst:185
 msgid "Once they have reviewed their order:"
 msgstr "在審閱訂單後："
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:185
+#: ../../content/applications/websites/ecommerce/checkout.rst:187
 msgid ""
 "Unsigned-in customers are prompted to :guilabel:`Sign in` or enter "
 "their :guilabel:`Name` and :guilabel:`Email` address, along with their "
@@ -985,12 +982,12 @@ msgstr ""
 "未登入的顧客會被提示\\ :guilabel:`登入`\\ 或輸入其\\ :guilabel:`姓名`\\ 與"
 "\\ :guilabel:`電子郵件`\\ 地址，以及配送地址和電話詳細資訊；"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:187
+#: ../../content/applications/websites/ecommerce/checkout.rst:189
 msgid ""
 "Signed-in customers can select the appropriate :guilabel:`Delivery address`."
 msgstr "已登入的客戶可以選擇適當的\\ :guilabel:`配送地址`\\ 。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:189
+#: ../../content/applications/websites/ecommerce/checkout.rst:191
 msgid ""
 "They can then :doc:`choose a delivery method <shipping>`, select or enter "
 "their :guilabel:`Billing Address` (or toggle the :guilabel:`Same as delivery "
@@ -1001,7 +998,7 @@ msgstr ""
 "址`\\ （或者，如果帳單地址與配送地址相同，可切換\\ :guilabel:`與配送地址相同"
 "`\\ 開關），然後按一下\\ :guilabel:`確認`\\ 以進行下一步。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:194
+#: ../../content/applications/websites/ecommerce/checkout.rst:196
 msgid ""
 "For B2B customers, you can also :ref:`enable <ecommerce/checkout/"
 "customize_steps>` optional :ref:`B2B fields <ecommerce/b2b_b2c/b2b-fields>` "
@@ -1010,7 +1007,7 @@ msgstr ""
 "對於 B2B 客戶，您也可以在網站編輯器中\\ :ref:`啟用 <ecommerce/checkout/"
 "customize_steps>`\\ 選用的\\ :ref:`B2B 欄位 <ecommerce/b2b_b2c/b2b-fields>`。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:196
+#: ../../content/applications/websites/ecommerce/checkout.rst:198
 msgid ""
 "You can add a checkbox for users without an account to sign up for a "
 "newsletter. To do so, go to :menuselection:`Website --> Configuration --> "
@@ -1022,7 +1019,7 @@ msgstr ""
 "商務`\\ 區段，啟用\\ :guilabel:`電子報`\\ 功能，並選擇一個\\ :guilabel:`電子"
 "報清單`\\ 。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:200
+#: ../../content/applications/websites/ecommerce/checkout.rst:202
 msgid ""
 "When the :ref:`Pick up in store <ecommerce/shipping/instore-pickup>` "
 "delivery method is selected, the customer can :guilabel:`Choose a pick-up "
@@ -1031,11 +1028,11 @@ msgstr ""
 "當選擇\\ :ref:`店內取貨 <ecommerce/shipping/instore-pickup>`\\ 配送方式時，若"
 "有多個取貨點可用，顧客可以\\ :guilabel:`選擇取貨點`。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:207
+#: ../../content/applications/websites/ecommerce/checkout.rst:209
 msgid "Automatic address validation"
 msgstr "自動地址驗證"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:209
+#: ../../content/applications/websites/ecommerce/checkout.rst:211
 msgid ""
 "Use the :doc:`Google Places API </applications/general/integrations/"
 "address_autocomplete>` to ensure that partner delivery addresses are valid. "
@@ -1045,7 +1042,7 @@ msgstr ""
 "address_autocomplete>`\\ 確保合作夥伴的送貨地址有效。在結帳過程中，使用者輸入"
 "時會自動驗證地址。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:213
+#: ../../content/applications/websites/ecommerce/checkout.rst:215
 msgid ""
 "To enable this feature, the :ref:`Google Places API <address_autocomplete/"
 "places-api-configuration>` needs to be configured first. Then, go "
@@ -1060,11 +1057,11 @@ msgstr ""
 "證`\\ ，然後將\\ :ref:`Google Places API 金鑰 <address_autocomplete/"
 "generate_api_key>`\\ 貼到\\ :guilabel:`API 金鑰`\\ 欄位中。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:222
+#: ../../content/applications/websites/ecommerce/checkout.rst:224
 msgid "Extra info"
 msgstr "額外資訊"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:224
+#: ../../content/applications/websites/ecommerce/checkout.rst:226
 msgid ""
 "You can add an :guilabel:`Extra Info` step in the checkout process to "
 "collect additional customer information through an online form, which is "
@@ -1079,11 +1076,11 @@ msgstr ""
 "customize_steps>`\\ :guilabel:`額外步驟`\\ 選項。表單可以根據需要進行:ref:`自"
 "訂 <website/building_blocks/form>`。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:233
+#: ../../content/applications/websites/ecommerce/checkout.rst:235
 msgid "Payment"
 msgstr "付款"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:235
+#: ../../content/applications/websites/ecommerce/checkout.rst:237
 msgid ""
 "At the :guilabel:`Payment` step, customers can choose a :guilabel:`Payment "
 "method`, enter their payment details, and click :guilabel:`Pay now`."
@@ -1091,7 +1088,7 @@ msgstr ""
 "在\\ :guilabel:`付款`\\ 步驟中，顧客可以選擇\\ :guilabel:`付款方式`、輸入付款"
 "詳細資訊，並按一下\\ :guilabel:`立即付款`。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:239
+#: ../../content/applications/websites/ecommerce/checkout.rst:241
 msgid ""
 "When the :ref:`Cash on Delivery <payment_providers/inperson_payments/"
 "cash_on_delivery>` payment option is enabled, the customer must click "
@@ -1101,7 +1098,7 @@ msgstr ""
 "cash_on_delivery>`\\ 付款選項時，顧客必須按一下\\ :guilabel:`確認`\\ 按鈕並在"
 "收貨時付款。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:243
+#: ../../content/applications/websites/ecommerce/checkout.rst:245
 msgid ""
 "To make payment methods available to customers, configure and enable one or "
 "more :doc:`payment provider(s) </applications/finance/payment_providers>`. "
@@ -1114,7 +1111,7 @@ msgstr ""
 "\\ :menuselection:`網站 --> 配置 --> 付款服務商`\\ ，\\ :guilabel:`啟用`\\ 相"
 "關的付款服務商，並對其進行\\ :ref:`配置 <payment_providers/add_new>`\\ 。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:249
+#: ../../content/applications/websites/ecommerce/checkout.rst:251
 msgid ""
 "The options displayed at checkout depend on the active payment providers, "
 "the enabled :ref:`payment methods <payment_providers/payment_methods>`, "
@@ -1127,7 +1124,7 @@ msgstr ""
 "<payment_providers/currencies_countries>`\\ ，以及（可選）為服務商設定的"
 "\\ :ref:`最高金額 <payment_providers/maximum_amount>`\\ 。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:254
+#: ../../content/applications/websites/ecommerce/checkout.rst:256
 msgid ""
 "To display an :ref:`availability <payment_providers/availability>` report "
 "for payment providers and payment methods and help diagnose potential "
@@ -1139,12 +1136,12 @@ msgstr ""
 "開發者模式 <developer-mode>`，然後按一下\\ :icon:`fa-bug`（:guilabel:`錯誤`）"
 "圖示。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:259
+#: ../../content/applications/websites/ecommerce/checkout.rst:261
 #: ../../content/applications/websites/website/configuration/domain_names.rst:41
 msgid "Terms and conditions"
 msgstr "條款和條件"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:261
+#: ../../content/applications/websites/ecommerce/checkout.rst:263
 msgid ""
 "To require customers to agree to the :doc:`terms and conditions <../../"
 "finance/accounting/customer_invoices/terms_conditions>` before payment, open "
@@ -1155,11 +1152,11 @@ msgstr ""
 "customer_invoices/terms_conditions>`\\ ，請開啟網站編輯器，並在\\ :guilabel:`"
 "樣式`\\ 分頁中切換\\ :guilabel:`接受條款`\\ 開關。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:266
+#: ../../content/applications/websites/ecommerce/checkout.rst:268
 msgid "eWallets and gift cards"
 msgstr "電子錢包與禮品卡"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:268
+#: ../../content/applications/websites/ecommerce/checkout.rst:270
 msgid ""
 "Customers can pay with an eWallet or gift card during checkout. To offer "
 "these options, go to :menuselection:`Website --> Configuration --> Settings` "
@@ -1180,11 +1177,11 @@ msgstr ""
 msgid "Gift card and eWallet options at checkout"
 msgstr "結帳時的禮品卡和電子錢包選項"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:280
+#: ../../content/applications/websites/ecommerce/checkout.rst:282
 msgid "Order confirmation"
 msgstr "訂單確認"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:282
+#: ../../content/applications/websites/ecommerce/checkout.rst:284
 msgid ""
 "The final step of the checkout process is the order confirmation page, which "
 "provides a summary of the customer's purchase details. A sales order is "
@@ -1196,7 +1193,7 @@ msgstr ""
 "後端自動建立銷售單。啟用\\ :ref:`自動發票 <ecommerce/handling/invoices>`\\ 設"
 "定可自動將發票傳送給顧客。"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:288
+#: ../../content/applications/websites/ecommerce/checkout.rst:290
 msgid ":doc:`Order handling <order_handling>`"
 msgstr ":doc:`訂單處理 <order_handling>`"
 
@@ -1253,7 +1250,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/configuration.rst:36
 #: ../../content/applications/websites/ecommerce/configuration/customer_accounts.rst:3
-#: ../../content/applications/websites/website/configuration/multi_website.rst:72
+#: ../../content/applications/websites/website/configuration/multi_website.rst:67
 msgid "Customer accounts"
 msgstr "客戶帳戶"
 
@@ -1561,7 +1558,7 @@ msgstr "若要為產品配置產品變體："
 #: ../../content/applications/websites/ecommerce/order_handling.rst:185
 #: ../../content/applications/websites/ecommerce/shipping.rst:33
 #: ../../content/applications/websites/ecommerce/shipping.rst:92
-#: ../../content/applications/websites/website/configuration/multi_website.rst:85
+#: ../../content/applications/websites/website/configuration/multi_website.rst:80
 #: ../../content/applications/websites/website/configuration/translate.rst:16
 msgid "Go to :menuselection:`Website --> Configuration --> Settings`."
 msgstr "前往\\ :menuselection:`網站 --> 配置 --> 設定`\\ 。"
@@ -4359,7 +4356,7 @@ msgstr "電子商務專用網站頁尾"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/catalog.rst:236
 msgid ""
-"The :ref:`website footer <website/header_footer/footer-design>` can also be "
+"The :ref:`website footer <website/header_footer/design>` can also be "
 "configured to use the e-commerce-specific template. Then, add the "
 "relevant :ref:`links <website/elements/links>`, and adapt the footer's text "
 "and layout as needed in the website editor. The :doc:`available payment "
@@ -4367,11 +4364,6 @@ msgid ""
 "footer. To adapt their display, go to the :guilabel:`Supported Payment "
 "Methods` section in the website editor."
 msgstr ""
-":ref:`網站頁尾 <website/header_footer/footer-design>`\\ 也可以配置為使用電子"
-"商務專用範本。然後加入相關的\\ :ref:`連結 <website/elements/links>`，並在網站"
-"編輯器中依需要調整頁尾的文字和版面。:doc:`可用的付款方式 </applications/"
-"finance/payment_providers>`\\ 也會顯示在此頁尾中。若要調整其顯示方式，請前往"
-"網站編輯器中的\\ :guilabel:`支援的付款方式`\\ 區段。"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/catalog.rst:243
 msgid "It is not possible to create a customized footer per category."
@@ -4558,7 +4550,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/product_page.rst:86
 #: ../../content/applications/websites/website/web_design/elements.rst:44
-#: ../../content/applications/websites/website/web_design/themes.rst:164
+#: ../../content/applications/websites/website/web_design/themes.rst:163
 msgid "Buttons"
 msgstr "按鈕"
 
@@ -5083,6 +5075,8 @@ msgid "Select countries, purpose, and feed label in GMC."
 msgstr "在 GMC 中選取國家/地區、用途和動態饋給標籤。"
 
 #: ../../content/applications/websites/ecommerce/google_merchant_center.rst:95
+#: ../../content/applications/websites/website/structure/header_footer.rst:76
+#: ../../content/applications/websites/website/structure/header_footer.rst:148
 msgid "Click :guilabel:`Continue`."
 msgstr "按一下\\ :guilabel:`繼續`\\ 。"
 
@@ -10838,24 +10832,35 @@ msgstr ""
 "面配置、加入多媒體內容，並與其他 Odoo 應用程式整合以擴展網站功能。"
 
 #: ../../content/applications/websites/website.rst:16
+#: ../../content/applications/websites/website/website_creation.rst:3
+msgid "Website creation"
+msgstr ""
+
+#: ../../content/applications/websites/website.rst:16
+msgid ""
+"Create a new website with the website builder or import an existing one "
+"using the import tool."
+msgstr ""
+
+#: ../../content/applications/websites/website.rst:22
 #: ../../content/applications/websites/website/web_design.rst:7
 msgid "Web design"
 msgstr "網頁設計"
 
-#: ../../content/applications/websites/website.rst:16
+#: ../../content/applications/websites/website.rst:22
 msgid "Design your website using building blocks and website themes."
 msgstr "使用建置區塊和網站主題設計您的網站。"
 
-#: ../../content/applications/websites/website.rst:22
+#: ../../content/applications/websites/website.rst:28
 #: ../../content/applications/websites/website/structure.rst:7
 msgid "Structure"
 msgstr "結構"
 
-#: ../../content/applications/websites/website.rst:22
+#: ../../content/applications/websites/website.rst:28
 msgid "Manage website pages, menus, and search engine optimization."
 msgstr "管理網站頁面、選單和搜尋引擎最佳化。"
 
-#: ../../content/applications/websites/website.rst:28
+#: ../../content/applications/websites/website.rst:34
 msgid ""
 "Configure domain names, address autocompletion, Google Search Console, "
 "cookies bar, translations, multiple websites, form spam protection, content "
@@ -10864,30 +10869,30 @@ msgstr ""
 "配置網域名稱、地址自動完成、Google Search Console、Cookie 列、翻譯、多個網"
 "站、表單垃圾訊息防護、內容傳遞網路（CDN）。"
 
-#: ../../content/applications/websites/website.rst:35
-#: ../../content/applications/websites/website/configuration/multi_website.rst:148
+#: ../../content/applications/websites/website.rst:41
+#: ../../content/applications/websites/website/configuration/multi_website.rst:143
 #: ../../content/applications/websites/website/reporting.rst:5
 msgid "Reporting"
 msgstr "報表"
 
-#: ../../content/applications/websites/website.rst:35
+#: ../../content/applications/websites/website.rst:41
 msgid ""
 "Monitor your website's traffic with website analytics and set up link "
 "trackers."
 msgstr "使用網站分析監控您網站的流量，並設定連結追蹤器。"
 
-#: ../../content/applications/websites/website.rst:40
+#: ../../content/applications/websites/website.rst:47
 #: ../../content/applications/websites/website/mail_groups.rst:3
 msgid "Mail groups"
 msgstr "郵件群組"
 
-#: ../../content/applications/websites/website.rst:40
+#: ../../content/applications/websites/website.rst:47
 msgid ""
 "Configure mail groups to allow website visitors to participate in public "
 "discussions via email."
 msgstr "配置郵件群組，讓網站訪客透過電子郵件參與公開討論。"
 
-#: ../../content/applications/websites/website.rst:54
+#: ../../content/applications/websites/website.rst:61
 msgid ":doc:`../general/integrations/unsplash`"
 msgstr ":doc:`../general/integrations/unsplash`"
 
@@ -12092,7 +12097,9 @@ msgstr ":guilabel:`代理狀態`\\ ：將選項切換為開啟（:guilabel:`已�
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:122
 #: ../../content/applications/websites/website/configuration/translate.rst:52
 #: ../../content/applications/websites/website/configuration/translate.rst:65
-#: ../../content/applications/websites/website/web_design/themes.rst:240
+#: ../../content/applications/websites/website/structure/header_footer.rst:78
+#: ../../content/applications/websites/website/structure/header_footer.rst:150
+#: ../../content/applications/websites/website/web_design/themes.rst:239
 msgid "Click :guilabel:`Save`."
 msgstr "按一下 :guilabel:`儲存`。"
 
@@ -12742,13 +12749,11 @@ msgstr ":doc:`domain_names`"
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst:5
 msgid ""
-"Odoo allows you to create multiple websites from the same database. This can "
-"be useful, for example, if you have multiple brands operating under your "
-"organization, or if you want to create separate websites for different "
-"products/services or audiences."
+"Odoo allows you to :doc:`create <../website_creation>` multiple websites "
+"from the same database. This can be useful, for example, if you have "
+"multiple brands operating under your organization, or if you want to create "
+"separate websites for different products/services or audiences."
 msgstr ""
-"Odoo 讓您可以從同一個資料庫建立多個網站。這在例如您的組織下有多個品牌，或您想"
-"為不同的產品/服務或受眾建立個別網站時很有用。"
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst:10
 msgid "Creating another website"
@@ -12806,35 +12811,13 @@ msgstr ":ref:`向 Odoo 免費註冊網域名稱 <domain-name/register>`。"
 #: ../../content/applications/websites/website/configuration/multi_website.rst:28
 msgid ""
 "Once it is time to :ref:`map your second domain name's address to your "
-"second Odoo website <domain-name/existing/website-map>`, you can create and "
-"map it directly by:"
-msgstr ""
-"當需要將\\ :ref:`第二個網域名稱的位址對應到第二個 Odoo 網站 <domain-name/"
-"existing/website-map>`\\ 時，您可以直接建立並對應它："
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:31
-msgid ""
-"Going to :menuselection:`Website --> Configuration --> Settings` and "
-"clicking :guilabel:`+ New Website`."
-msgstr ""
-"前往\\ :menuselection:`網站 --> 配置 --> 設定`\\ 並按一下\\ :guilabel:`+ 新網"
-"站`\\ 。"
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:33
-msgid ""
-"Choosing a :guilabel:`Website Name` and entering the second website's "
-"address in the :guilabel:`Website Domain` field (e.g., `https://"
+"second Odoo website <domain-name/existing/website-map>`, you can `create "
+"<../../website_creation>` it and map it directly by entering the second "
+"website's address in the :guilabel:`Website Domain` field (e.g., `https://"
 "www.yourseconddomain.com` or `https://subdomain.yourdomain.com`)."
 msgstr ""
-"選擇一個\\ :guilabel:`網站名稱`\\ 並在\\ :guilabel:`網站網域`\\ 欄位中輸入第"
-"二個網站的位址（例如 `https://www.yourseconddomain.com` 或 `https://"
-"subdomain.yourdomain.com`）。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:36
-msgid "Clicking the :guilabel:`Create` button."
-msgstr "按一下\\ :guilabel:`建立`\\ 按鈕。"
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:39
+#: ../../content/applications/websites/website/configuration/multi_website.rst:34
 msgid ""
 "To switch from one website's frontend to another, click the website "
 "selection drop-down in the top right corner and select the website you want "
@@ -12847,11 +12830,11 @@ msgstr ""
 msgid "Selecting a website on the frontend"
 msgstr "在前端選擇網站"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:46
+#: ../../content/applications/websites/website/configuration/multi_website.rst:41
 msgid "Website-specific configuration"
 msgstr "網站特定配置"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:48
+#: ../../content/applications/websites/website/configuration/multi_website.rst:43
 msgid ""
 "Most website settings are website-specific. To access the settings of a "
 "website, go to :menuselection:`Website --> Configuration --> Settings` and "
@@ -12866,7 +12849,7 @@ msgstr ""
 msgid "Selecting a website in the app settings"
 msgstr "在應用程式設定中選擇網站"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:56
+#: ../../content/applications/websites/website/configuration/multi_website.rst:51
 msgid ""
 "Settings shared by all websites are indicated using the :icon:`fa-info-"
 "circle` (:guilabel:`information`) icon."
@@ -12878,18 +12861,18 @@ msgstr ""
 msgid "Shared setting infobox"
 msgstr "共用設定資訊框"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:62
+#: ../../content/applications/websites/website/configuration/multi_website.rst:57
 msgid ""
 "When you create another website, it uses the default settings; settings are "
 "not copied from one website to another."
 msgstr ""
 "當您建立另一個網站時，它會使用預設設定；設定不會從一個網站複製到另一個網站。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:66
+#: ../../content/applications/websites/website/configuration/multi_website.rst:61
 msgid "eCommerce features"
 msgstr "電子商務功能"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:68
+#: ../../content/applications/websites/website/configuration/multi_website.rst:63
 msgid ""
 "eCommerce features such as products, eCommerce categories, pricelists, "
 "discounts, payment providers, etc., can be restricted to :ref:`a specific "
@@ -12898,7 +12881,7 @@ msgstr ""
 "電子商務功能（例如產品、電子商務類別、價格表、折扣、付款服務商等）可以限制為"
 "\\ :ref:`特定網站 <multi-website/website_content>`\\ 。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:74
+#: ../../content/applications/websites/website/configuration/multi_website.rst:69
 msgid ""
 "To :doc:`allow your customers to use the same account <../../ecommerce/"
 "configuration/customer_accounts>` on all of your websites, go "
@@ -12909,11 +12892,11 @@ msgstr ""
 "configuration/customer_accounts>`\\ ，請前往\\ :menuselection:`網站 --> 配置 "
 "--> 設定`\\ 並啟用\\ :guilabel:`共用客戶帳戶`\\ 。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:80
+#: ../../content/applications/websites/website/configuration/multi_website.rst:75
 msgid "Pricing"
 msgstr "定價"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:82
+#: ../../content/applications/websites/website/configuration/multi_website.rst:77
 msgid ""
 "Products can be priced differently based on the website "
 "using :ref:`pricelists <ecommerce/prices/selectable-pricelists>`. To do so:"
@@ -12921,7 +12904,7 @@ msgstr ""
 "產品可以使用\\ :ref:`價格表 <ecommerce/prices/selectable-pricelists>`\\ 根據"
 "網站設定不同的價格。要這樣做："
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:86
+#: ../../content/applications/websites/website/configuration/multi_website.rst:81
 msgid ""
 "Scroll down to the :guilabel:`Shop - Products` section and select "
 "the :guilabel:`Pricelists` option :guilabel:`Multiple prices per product`."
@@ -12929,12 +12912,12 @@ msgstr ""
 "向下捲動至\\ :guilabel:`商店 - 產品`\\ 區段並選取\\ :guilabel:`價格表`\\ 選項"
 "\\ :guilabel:`每個產品的多個價格`\\ 。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:88
+#: ../../content/applications/websites/website/configuration/multi_website.rst:83
 msgid ""
 "Click :guilabel:`Pricelists` to define new pricelists or edit existing ones."
 msgstr "按一下\\ :guilabel:`價格表`\\ 以定義新的價格表或編輯現有價格表。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:89
+#: ../../content/applications/websites/website/configuration/multi_website.rst:84
 msgid ""
 "Select the pricelist or click :guilabel:`New` to create a new one, then "
 "select the :guilabel:`Configuration` tab and set the :guilabel:`Website` "
@@ -12943,11 +12926,11 @@ msgstr ""
 "選取價格表或按一下\\ :guilabel:`新增`\\ 以建立新的價格表，然後選取"
 "\\ :guilabel:`配置`\\ 分頁並設定\\ :guilabel:`網站`\\ 欄位。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:95
+#: ../../content/applications/websites/website/configuration/multi_website.rst:90
 msgid "Content availability across websites"
 msgstr "跨網站的內容可用性"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:98
+#: ../../content/applications/websites/website/configuration/multi_website.rst:93
 msgid ""
 "All installed website-related apps (e.g., eCommerce, eLearning, Forum, etc.) "
 "and their related pages are also available on the new website. You can "
@@ -12956,7 +12939,7 @@ msgstr ""
 "所有已安裝的網站相關應用程式（例如電子商務、網上學習、論壇等）及其相關頁面也"
 "可在新網站上使用。您可以從網站的選單中移除它們。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:101
+#: ../../content/applications/websites/website/configuration/multi_website.rst:96
 msgid ""
 "By default, most records (products, courses, forum posts, etc.) created from "
 "the frontend are displayed on all websites. To restrict the content to a "
@@ -12965,7 +12948,7 @@ msgstr ""
 "預設情況下，大多數從前端建立的記錄（產品、課程、論壇貼文等）會在所有網站上顯"
 "示。要將內容限制為單一網站，請在後端搜尋\\ :guilabel:`網站`\\ 欄位。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:105
+#: ../../content/applications/websites/website/configuration/multi_website.rst:100
 msgid ""
 "For example, for products, go to :menuselection:`eCommerce --> Products`, "
 "select a product, open the :guilabel:`eCommerce` tab, and specify which "
@@ -12978,7 +12961,7 @@ msgstr ""
 msgid "Restricting a product to a single website"
 msgstr "將產品限制為單一網站"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:112
+#: ../../content/applications/websites/website/configuration/multi_website.rst:107
 msgid ""
 "In a :doc:`multi-company environment </applications/general/companies>`, "
 "each website can be linked to a specific company so that only that company's "
@@ -12991,7 +12974,7 @@ msgstr ""
 "特定公司的資料，請前往\\ :guilabel:`網站 --> 配置 --> 設定`\\ 並在"
 "\\ :guilabel:`公司`\\ 欄位中設定所需的公司。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:118
+#: ../../content/applications/websites/website/configuration/multi_website.rst:113
 msgid ""
 "When generating links, for example, a customer portal link to a quotation, "
 "Odoo uses the following logic to select the website domain:"
@@ -12999,11 +12982,11 @@ msgstr ""
 "在產生連結時（例如，報價單的客戶門戶網站連結），Odoo 使用以下邏輯選擇網站網"
 "域："
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:121
+#: ../../content/applications/websites/website/configuration/multi_website.rst:116
 msgid "If a company has a *single* website, that website's domain is used."
 msgstr "如果公司僅有\\ *單一*\\ 網站，則使用該網站的網域。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:122
+#: ../../content/applications/websites/website/configuration/multi_website.rst:117
 msgid ""
 "If a company has *multiple* websites, Odoo uses the domain of the website "
 "that was created first. To change the order of priority, "
@@ -13016,7 +12999,7 @@ msgstr ""
 "> 配置 --> 網站`，並使用\\ :icon:`oi-draggable`（:guilabel:`拖曳手柄`）圖示重"
 "新排序網站。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:126
+#: ../../content/applications/websites/website/configuration/multi_website.rst:121
 msgid ""
 "If a company's website has *no domain*, the :ref:`web base URL <domain-name/"
 "existing/db-map/web-base-url>` is used."
@@ -13024,19 +13007,19 @@ msgstr ""
 "如果公司的網站\\ *沒有網域*，則使用\\ :ref:`網路基本網址 <domain-name/"
 "existing/db-map/web-base-url>`。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:130
+#: ../../content/applications/websites/website/configuration/multi_website.rst:125
 msgid "Website pages"
 msgstr "網站頁面"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:132
+#: ../../content/applications/websites/website/configuration/multi_website.rst:127
 msgid "To modify the website on which a page is published, proceed as follows:"
 msgstr "若要修改頁面發佈的網站，請依照以下步驟操作："
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:134
+#: ../../content/applications/websites/website/configuration/multi_website.rst:129
 msgid "Go to :menuselection:`Website --> Site --> Pages`."
 msgstr "前往\\ :menuselection:`網站 --> 網站 --> 頁面`\\ 。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:135
+#: ../../content/applications/websites/website/configuration/multi_website.rst:130
 msgid ""
 "Open the search panel and select the website on which the page is currently "
 "published."
@@ -13046,11 +13029,11 @@ msgstr "開啟搜尋面板並選取該頁面目前發佈於其上的網站。"
 msgid "Display pages per website"
 msgstr "每個網站顯示頁面"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:140
+#: ../../content/applications/websites/website/configuration/multi_website.rst:135
 msgid "Tick the check box next to the page(s) you want to change."
 msgstr "勾選要變更之頁面旁的核取方塊。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:141
+#: ../../content/applications/websites/website/configuration/multi_website.rst:136
 msgid ""
 "Click the :guilabel:`Website` field and select the website, or empty it to "
 "publish the page on all websites."
@@ -13058,13 +13041,13 @@ msgstr ""
 "按一下\\ :guilabel:`網站`\\ 欄位並選取網站，或清空此欄位以在所有網站發佈該頁"
 "面。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:145
+#: ../../content/applications/websites/website/configuration/multi_website.rst:140
 msgid ""
 "Each website must have its own homepage; you may not use the same homepage "
 "for several websites."
 msgstr "每個網站必須擁有自己的首頁；您不可對多個網站使用相同的首頁。"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:150
+#: ../../content/applications/websites/website/configuration/multi_website.rst:145
 msgid ""
 "Each website has its own :ref:`analytics <analytics/plausible>`. To switch "
 "between websites, use the buttons in the top right corner."
@@ -13076,7 +13059,7 @@ msgstr ""
 msgid "Switching websites in analytics"
 msgstr "在分析中切換網站"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:156
+#: ../../content/applications/websites/website/configuration/multi_website.rst:151
 msgid ""
 "Other reporting data, such as eCommerce dashboard data, online sales "
 "analyses, and visitors, can be grouped by website by opening the search "
@@ -13218,6 +13201,7 @@ msgstr "Cloudflare Turnstile 驗證錯誤訊息"
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:59
 #: ../../content/applications/websites/website/structure/pages.rst:61
+#: ../../content/applications/websites/website/website_creation.rst:49
 msgid "Click :guilabel:`Create`."
 msgstr "按一下 :guilabel:`建立`。"
 
@@ -14614,182 +14598,98 @@ msgstr "提高您網站在搜尋引擎結果中的可見度和排名。"
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:5
 msgid ""
-"The website header is the top section of a web page and usually contains "
-"elements such as the logo, the :ref:`menu <website/header_footer/header-"
-"content>`, the search bar, the sign-in/customer account button, etc. The "
-"footer is displayed at the bottom of a web page and usually contains "
-"information such as contact details, links, legal notices, and other options."
+"The website header is the top section of a web page and typically includes "
+"elements such as the logo, navigation :ref:`menu <website/header_footer/"
+"header-content>`, search bar, and sign-in or :doc:`customer account <../../"
+"ecommerce/configuration/customer_accounts>` button. The footer is displayed "
+"at the bottom of a web page and usually contains contact details, links, "
+"legal notices, and other useful information. Both can be customized as "
+"needed."
 msgstr ""
-"網站頁首是網頁的頂端區段，通常包含標誌、:ref:`選單 <website/header_footer/"
-"header-content>`、搜尋列、登入/客戶帳戶按鈕等元素。頁尾顯示於網頁底部，通常包"
-"含聯絡資訊、連結、法律聲明和其他選項等資訊。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:13
-msgid "Header design"
-msgstr "頁首設計"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:15
-msgid ""
-"To modify the header's design, click on :guilabel:`Edit`, then click on the "
-"header. The following options are available in the :guilabel:`Header` "
-"section of the :guilabel:`Customize` tab in the website editor:"
-msgstr ""
-"若要修改頁首設計，請按一下\\ :guilabel:`編輯`，然後按一下頁首。網站編輯器的"
-"\\ :guilabel:`自訂`\\ 分頁中的\\ :guilabel:`頁首`\\ 區段提供以下選項："
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:19
-msgid "Choose a :guilabel:`Template` from the drop-down menu."
-msgstr "從下拉式選單中選擇\\ :guilabel:`範本`。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:20
-msgid ""
-"Select :guilabel:`Background` settings to change the color palette through "
-"different :ref:`Theme styles <website/themes/theme-"
-"colors>`, :guilabel:`Custom` color options, and :guilabel:`Gradient` ones."
-msgstr ""
-"選取\\ :guilabel:`背景`\\ 設定，以透過不同的\\ :ref:`佈景主題樣式 <website/"
-"themes/theme-colors>`、:guilabel:`自訂`\\ 顏色選項和\\ :guilabel:`漸層`\\ 選"
-"項來變更調色盤。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:23
-msgid ""
-"When adding a :guilabel:`Border` to the header, its size, style, and color "
-"can be defined."
-msgstr "為頁首加入\\ :guilabel:`邊框`\\ 時，可以定義其大小、樣式和顏色。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:24
-msgid "Adapt :guilabel:`Round corners` to fit the design."
-msgstr "調整\\ :guilabel:`圓角`\\ 以符合設計。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:25
-msgid ""
-"Add a :guilabel:`Shadow` and define "
-"its :guilabel:`Color`, :guilabel:`Offset`, :guilabel:`Blur`, "
-"and :guilabel:`Spread`."
-msgstr ""
-"加入\\ :guilabel:`陰影`\\ 並定義其\\ :guilabel:`顏色`、:guilabel:`偏移"
-"`、:guilabel:`模糊`\\ 和\\ :guilabel:`擴散`。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:27
-msgid "Add a :guilabel:`Scroll Effect`. Hover on an effect to preview it."
-msgstr "加入\\ :guilabel:`捲動效果`。將游標懸停在效果上以預覽。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:28
-msgid ""
-"Choose the :guilabel:`Header Position` "
-"between :guilabel:`Regular`, :guilabel:`Hidden`, and :guilabel:`Over The "
-"Content`. When :guilabel:`Over The Content` is selected, you can customize "
-"the :guilabel:`Background` and :guilabel:`Text Color`."
-msgstr ""
-"在\\ :guilabel:`一般`、:guilabel:`隱藏`\\ 和\\ :guilabel:`覆蓋內容`\\ 之間選"
-"擇\\ :guilabel:`頁首位置`。選取\\ :guilabel:`覆蓋內容`\\ 時，您可以自訂"
-"\\ :guilabel:`背景`\\ 和\\ :guilabel:`文字顏色`。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:31
-msgid ""
-"Show or hide :guilabel:`Elements` such as text, the search "
-"bar, :guilabel:`Sign in` button, social media links, :guilabel:`Contact us` "
-"button, and logo."
-msgstr ""
-"顯示或隱藏\\ :guilabel:`元素`，例如文字、搜尋列、:guilabel:`登入`\\ 按鈕、社"
-"群媒體連結、:guilabel:`聯絡我們`\\ 按鈕和標誌。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:34
-#: ../../content/applications/websites/website/structure/header_footer.rst:111
-#: ../../content/applications/websites/website/structure/header_footer.rst:153
-#: ../../content/applications/websites/website/structure/header_footer.rst:193
-msgid "To finalize changes, click on :guilabel:`Save`."
-msgstr "若要完成變更，請按一下\\ :guilabel:`儲存`。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:37
-msgid ""
-"To hide the header, click on :guilabel:`Edit`, click on the header, and go "
-"to the :guilabel:`Theme` tab of the website editor. Scroll down to "
-"the :guilabel:`Advanced` section and toggle the :guilabel:`Show Header` "
-"switch to hide/show the header."
-msgstr ""
-"要隱藏頁首，請按一下\\ :guilabel:`編輯`\\ ，按一下頁首，然後前往網站編輯器的"
-"\\ :guilabel:`主題`\\ 分頁。向下捲動至\\ :guilabel:`進階`\\ 區段，然後切換"
-"\\ :guilabel:`顯示頁首`\\ 開關以隱藏／顯示頁首。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:44
+#: ../../content/applications/websites/website/structure/header_footer.rst:14
 msgid "Header content"
 msgstr "頁首內容"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:46
+#: ../../content/applications/websites/website/structure/header_footer.rst:16
 msgid ""
-"Menus organize the header’s content and help users navigate through web "
-"pages effectively. User-friendly and well-structured menus also play a "
-"crucial role in improving :doc:`search engine rankings <seo>`."
+"The header includes company information, quick-access buttons, "
+"and :ref:`website menus <website/header_footer/menu-editor>` to help users "
+"navigate the website effectively. Well-structured, user-friendly headers and "
+"menus also play an important role in improving :doc:`search engine rankings "
+"<seo>`."
 msgstr ""
-"選單組織頁首的內容，並幫助使用者有效地瀏覽網頁。使用者友善且結構良好的選單也"
-"在改善\\ :doc:`搜尋引擎排名 <seo>`\\ 方面發揮關鍵作用。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:53
+#: ../../content/applications/websites/website/structure/header_footer.rst:24
 msgid "Menu editor"
 msgstr "選單編輯器"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:55
+#: ../../content/applications/websites/website/structure/header_footer.rst:26
 msgid ""
-"The menu editor allows to edit the website's header and add :ref:`menu items "
-"<website/header_footer/menu-items>` and :ref:`mega menus <website/"
+"The menu editor allows you to edit the website header and add :ref:`menu "
+"items <website/header_footer/menu-items>` and :ref:`mega menus <website/"
 "header_footer/mega-menus>`."
 msgstr ""
-"選單編輯器允許編輯網站的頁首並加入\\ :ref:`選單項目 <website/header_footer/"
-"menu-items>`\\ 和\\ :ref:`超級選單 <website/header_footer/mega-menus>`\\ 。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:59
+#: ../../content/applications/websites/website/structure/header_footer.rst:31
 msgid ""
-"To edit the header's content, go to :menuselection:`Website --> Site --> "
-"Menu Editor`. From there, you can:"
+"To open the menu editor, go to :menuselection:`Website --> Site --> Menu "
+"Editor`. From there, you can:"
 msgstr ""
-"要編輯頁首的內容，請前往\\ :menuselection:`網站 --> 網站 --> 選單編輯器`\\ 。"
-"從那裡，您可以："
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:62
+#: ../../content/applications/websites/website/structure/header_footer.rst:34
 msgid ""
-"**rename** a menu item or change its URL using the :guilabel:`Edit Menu "
-"Item` icon;"
+"**Rename** a menu item or change its URL using the :icon:`fa-pencil` "
+"(:guilabel:`Edit Menu Item`) icon."
 msgstr ""
-"使用\\ :guilabel:`編輯選單項目`\\ 圖示**重新命名**選單項目或變更其網址；"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:63
-msgid "**delete** a menu item using the :guilabel:`Delete Menu Item` icon;"
-msgstr "使用\\ :guilabel:`刪除選單項目`\\ 圖示**刪除**選單項目；"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:64
+#: ../../content/applications/websites/website/structure/header_footer.rst:36
 msgid ""
-"**move** a menu item by dragging and dropping it to the desired place in the "
-"menu;"
-msgstr "透過拖放選單項目至選單中所需位置來**移動**選單項目；"
+"**Delete** a menu item using the :icon:`fa-trash` (:guilabel:`Delete Menu "
+"Item`) icon."
+msgstr ""
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:65
+#: ../../content/applications/websites/website/structure/header_footer.rst:37
 msgid ""
-"**create a regular drop-down menu** by dragging and dropping the sub-menu "
+"**Move** a menu item by dragging and dropping it to the desired location in "
+"the menu."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:38
+msgid ""
+"**Create a regular drop-down menu** by dragging and dropping the sub-menu "
 "items to the right, underneath their parent menu."
-msgstr "透過將子選單項目拖放至右側其父選單下方來**建立一般下拉式選單**。"
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:None
 msgid "Menu editor with sub-menus"
 msgstr "帶有子選單的選單編輯器"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:72
+#: ../../content/applications/websites/website/structure/header_footer.rst:46
 msgid ""
-"You can also access the menu editor by clicking :guilabel:`Edit`, selecting "
-"any menu item, and clicking the :guilabel:`Edit Menu` icon."
+"You can also access the menu editor from the website editor. To do so, "
+"either:"
 msgstr ""
-"您也可以透過按一下\\ :guilabel:`編輯`\\ 、選取任何選單項目，然後按一下"
-"\\ :guilabel:`編輯選單`\\ 圖示來存取選單編輯器。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:48
+msgid "Select any menu item and click :guilabel:`Edit Menu`, or"
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:0
-msgid "Access the Menu editor while in Edit mode."
-msgstr "在編輯模式下存取選單編輯器。"
+msgid "Access the menu editor while in Edit mode."
+msgstr ""
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:81
+#: ../../content/applications/websites/website/structure/header_footer.rst:53
+msgid ""
+"Navigate to the :guilabel:`Style` tab, and click :guilabel:`Edit Menu` next "
+"to the :guilabel:`Header` section title."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:59
 msgid "Add menu items"
 msgstr "加入選單項目"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:83
+#: ../../content/applications/websites/website/structure/header_footer.rst:61
 msgid ""
 "By default, pages are added to the menu as drop-down menu items "
 "when :doc:`they are created <../structure/pages>`. To add a new menu item, "
@@ -14798,178 +14698,237 @@ msgstr ""
 "預設情況下，當\\ :doc:`建立頁面 <../structure/pages>`\\ 時，頁面會作為下拉式"
 "選單項目加入選單。要加入新選單項目，請遵循以下步驟："
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:86
-msgid "Go to :menuselection:`Website --> Site --> Menu Editor`."
-msgstr "前往\\ :menuselection:`網站 --> 網站 --> 選單編輯器`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:87
-msgid "In the menu editor, click :guilabel:`Add Menu Item`."
-msgstr "在選單編輯器中，按一下\\ :guilabel:`加入選單項目`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:88
+#: ../../content/applications/websites/website/structure/header_footer.rst:64
 msgid ""
-"In the pop-up window, enter the :guilabel:`Name` to be displayed in the menu."
-msgstr "在彈出視窗中，輸入要在選單中顯示的\\ :guilabel:`名稱`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:89
-msgid ""
-"Type `/` in the :guilabel:`URL or Email` field to search for a page on your "
-"website or `#` to search for an existing custom anchor."
+"In the :ref:`menu editor <website/header_footer/open-menu-editor>`, "
+"click :guilabel:`Add Menu Item`."
 msgstr ""
-"在\\ :guilabel:`網址或電子郵件`\\ 欄位中輸入 `/` 以搜尋您網站上的頁面，或輸"
-"入 `#` 以搜尋現有的自訂錨點。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:91
-msgid "Click :guilabel:`OK`."
-msgstr "按一下\\ :guilabel:`確定`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:92
+#: ../../content/applications/websites/website/structure/header_footer.rst:66
 msgid ""
-"Edit the :ref:`menu structure <website/header_footer/menu-editor>` if "
-"needed, then :guilabel:`Save`."
+"In the pop-up window, enter the :guilabel:`Title` to be displayed in the "
+"menu."
 msgstr ""
-"如有需要，請編輯\\ :ref:`選單結構 <website/header_footer/menu-editor>`\\ ，然"
-"後\\ :guilabel:`儲存`\\ 。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:96
+#: ../../content/applications/websites/website/structure/header_footer.rst:67
+msgid ""
+"In the :guilabel:`URL or Email` field, type `/` to search for an existing "
+"page on the website or `#` to search for an existing custom anchor."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:71
+msgid ""
+"To add a menu item for a page that does not exist yet, enter the new URL or "
+"anchor and click :guilabel:`Create Page` in the :guilabel:`Edit Menu` pop-"
+"up. If you add the menu item without creating the corresponding page, the "
+"link leads to a :ref:`404 error page <website/pages/URL-redirection>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:77
+#: ../../content/applications/websites/website/structure/header_footer.rst:149
+msgid ""
+"Adjust the :ref:`menu structure <website/header_footer/menu-editor>` if "
+"needed."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:83
 msgid "Menu item design"
 msgstr "選單項目設計"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:98
+#: ../../content/applications/websites/website/structure/header_footer.rst:85
 msgid ""
-"To modify the menu items, click on :guilabel:`Edit`, click on a menu item, "
-"then go to the :guilabel:`Navbar` section of the website editor. The "
-"following options are available:"
+"To modify the menu items' design, click :guilabel:`Edit` in the upper-right "
+"corner and select the header. Then, go to the :guilabel:`Style` tab and "
+"navigate to the :guilabel:`Navigation` section. The following options are "
+"available:"
 msgstr ""
-"若要修改選單項目，請\\ :guilabel:`編輯`\\ 、按一下選單項目，然後前往網站編輯"
-"器的\\ :guilabel:`導覽列`\\ 區段。以下選項可用："
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:89
+msgid "Adjust the :guilabel:`Desktop Menu` alignment for desktop devices."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:90
+msgid ""
+"Adjust the :guilabel:`Mobile Menu` alignment and position for mobile devices."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:91
+msgid ""
+"Choose whether :guilabel:`Sub Menus` open :guilabel:`On Hover` "
+"or :guilabel:`On Click`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:92
+msgid ""
+"Select a :guilabel:`Link Style` to highlight the current page in the menu."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:95
+msgid ""
+"The options available in the :guilabel:`Navigation` section may vary "
+"depending on the selected template."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:101
-msgid "Adapt the :guilabel:`Mobile Alignment`."
-msgstr "調整\\ :guilabel:`行動版對齊方式`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:102
-msgid "Choose the :guilabel:`Font` for the menu items."
-msgstr "為選單項目選擇\\ :guilabel:`字型`\\ 。"
+msgid "Hide a dynamic menu item for non-logged-in users"
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:103
 msgid ""
-"Change the font size, color, and alignment in the :guilabel:`Format` field."
-msgstr "在\\ :guilabel:`格式`\\ 欄位中變更字型大小、顏色和對齊方式。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:104
-msgid ""
-"Select a :guilabel:`Links Style` to highlight the current page in the menu."
-msgstr "選取\\ :guilabel:`連結樣式`\\ 以在選單中突顯目前頁面。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:105
-msgid ""
-"Change the :ref:`style of the header buttons <website/themes/button-styles>`."
-msgstr "變更\\ :ref:`頁首按鈕的樣式 <website/themes/button-styles>`\\ 。"
+"To hide the `Shop` menu item for non-logged-in users, :ref:`restrict e-"
+"commerce access to logged-in users <ecommerce/customer_accounts/shop-"
+"access>`."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:106
 msgid ""
-"Choose to display the :guilabel:`Sub Menus` :guilabel:`On Hover` "
-"or :guilabel:`On Click`."
+"To hide other menu items related to :ref:`dynamic <website/pages/page_type>` "
+"pages (i.e., a menu item generated automatically by Odoo, for example, when "
+"installing an app or module, such as `Events`, `Courses`, etc.) to non-"
+"logged-in users, follow these steps:"
 msgstr ""
-"選擇顯示\\ :guilabel:`子選單`\\ 的方式：\\ :guilabel:`滑鼠懸停時`\\ 或"
-"\\ :guilabel:`按一下時`\\ 。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:109
+#: ../../content/applications/websites/website/structure/header_footer.rst:110
+msgid ":ref:`Enable developer mode <developer-mode>`."
+msgstr ":ref:`啟用開發者模式 <developer-mode>`\\ 。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:111
+msgid "Go to :menuselection:`Website --> Configuration --> Menus`."
+msgstr "前往\\ :menuselection:`網站 --> 配置 --> 選單`\\ 。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:112
+msgid "Expand the list of menus for the relevant website if needed."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:113
+msgid "Select the menu item you wish to hide."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:114
 msgid ""
-"The fields available in the :guilabel:`Navbar` section can vary depending on "
-"the chosen template."
-msgstr ":guilabel:`導覽列`\\ 區段中可用的欄位可能會因選擇的範本而異。"
+"In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:115
+msgid ""
+"Search for the group :guilabel:`Name` :guilabel:`Role / Portal`, "
+"and :guilabel:`Select` it."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:116
+msgid "Save."
+msgstr "儲存。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:119
+msgid ""
+"You can further customize the menu items on this menu item form. For example:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:121
+msgid ""
+"Enable the :guilabel:`New Window` checkbox to open the page in a new tab "
+"when clicked."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:122
+msgid "Add a :guilabel:`Related Page` or :guilabel:`Related Model Page`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:123
+msgid ""
+"Assign a :guilabel:`Parent Menu`, and/or :guilabel:`Child Menus` to create a "
+"hierarchy."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:126
+msgid ""
+":ref:`Manage the visibility of static pages <website/pages/page_properties>`"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:131
 msgid "Mega menus"
 msgstr "大型選單"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:118
+#: ../../content/applications/websites/website/structure/header_footer.rst:133
 msgid ""
-"Mega menus are similar to drop-down menus, but instead of a simple list of "
-"sub-menus, they display a panel divided into groups of navigation options. "
-"This makes them suitable for websites with large amounts of content "
-"or :doc:`e-commerce websites <../../ecommerce>`, as they can help include "
-"all of your web pages or :ref:`e-commerce categories <ecommerce/"
-"categories_variants/categories>` in the menu while still making all menu "
-"items visible at once."
+"Mega menus are similar to drop-down menus, but instead of displaying a "
+"simple list of sub-menus, they show a panel divided into groups of "
+"navigation options. They are especially useful for websites with large "
+"amounts of content or :doc:`e-commerce websites <../../ecommerce>`, as they "
+"can help include all of the web pages or :ref:`e-commerce categories "
+"<ecommerce/categories_variants/categories>` in the menu while keeping all "
+"menu items visible at once."
 msgstr ""
-"超級選單類似於下拉選單，但它不是簡單的子選單列表，而是顯示一個分為多個導覽選"
-"項組的面板。這使它們適合內容量大的網站或\\ :doc:`電子商務網站 <../../"
-"ecommerce>`\\ ，因為它們可以幫助在選單中包含所有網頁或\\ :ref:`電子商務類別 "
-"<ecommerce/categories_variants/categories>`\\ ，同時仍使所有選單項目一次全部"
-"可見。"
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:None
 msgid "Mega menu in the navigation bar."
 msgstr "導覽列中的大型選單。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:127
-msgid ""
-"To create a mega menu, go to :menuselection:`Website --> Site --> Menu "
-"Editor` and click :guilabel:`Add Mega Menu Item`. Enter the :guilabel:`Name` "
-"of the mega menu in the pop-up, click :guilabel:`OK`, then :guilabel:`Save`."
+#: ../../content/applications/websites/website/structure/header_footer.rst:143
+msgid "To create a mega menu, follow these steps:"
 msgstr ""
-"若要建立大型選單，請前往\\ :menuselection:`網站 --> 網站 --> 選單編輯器`\\ ，"
-"然後按一下\\ :guilabel:`加入大型選單項目`\\ 。在彈出視窗中輸入大型選單的"
-"\\ :guilabel:`名稱`\\ ，按一下\\ :guilabel:`確定`\\ ，然後\\ :guilabel:`儲存"
-"`\\ 。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:131
+#: ../../content/applications/websites/website/structure/header_footer.rst:145
 msgid ""
-"To adapt the options and content of the mega menu, click on a mega menu item "
-"in the header, then click :guilabel:`Edit`. Mega menus are composed of "
-"building blocks, which means you can customize each component individually. "
-"For example:"
+"In the :ref:`menu editor <website/header_footer/open-menu-editor>`, "
+"click :guilabel:`Add Mega Menu Item`."
 msgstr ""
-"若要調整大型選單的選項和內容，請按一下頁首中的大型選單項目，然後按一下"
-"\\ :guilabel:`編輯`\\ 。大型選單由建構區塊組成，這表示您可以個別自訂每個元"
-"件。例如："
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:135
-msgid "Edit the text directly in the building block."
-msgstr "直接在建構區塊中編輯文字。"
+#: ../../content/applications/websites/website/structure/header_footer.rst:147
+msgid "In the pop-up window, enter the :guilabel:`Title` of the mega menu."
+msgstr ""
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:136
+#: ../../content/applications/websites/website/structure/header_footer.rst:152
 msgid ""
-"Edit a menu item's URL by selecting the menu item and clicking "
-"the :guilabel:`Edit link` button in the small preview pop-up. Type `/` to "
-"search for a page on your website, or `#` to search for an existing custom "
-"anchor."
+"Mega menus are built using default :doc:`building blocks <../web_design/"
+"building_blocks>`, which means each component must be customized "
+"individually. To do so, click :guilabel:`Edit` in the upper-right corner, "
+"then select the mega menu. Then:"
 msgstr ""
-"透過選取選單項目並按一下小型預覽彈出視窗中的\\ :guilabel:`編輯連結`\\ 按鈕，"
-"來編輯選單項目的網址。輸入 `/` 以搜尋網站上的頁面，或輸入 `#` 以搜尋現有的自"
-"訂錨點。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:156
+msgid "Edit the text directly within the building block."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:157
+msgid ""
+"Edit a :ref:`menu item's URL <website/header_footer/menu-items>` by "
+"selecting the mega menu item and clicking the :guilabel:`Edit` button."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:0
 msgid "Edit a mega menu option."
 msgstr "編輯大型選單選項。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:143
+#: ../../content/applications/websites/website/structure/header_footer.rst:163
 msgid ""
 "Move a menu item by dragging and dropping the related block to the desired "
 "position in the mega menu."
 msgstr "透過拖放相關區塊至大型選單中所需位置，來移動選單項目。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:145
-msgid "Delete a menu item by deleting the related block."
-msgstr "透過刪除相關區塊來刪除選單項目。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:147
+#: ../../content/applications/websites/website/structure/header_footer.rst:165
 msgid ""
-"To adapt the general layout of the mega menu, go to "
-"the :guilabel:`Customize` tab of the website editor, then, in "
-"the :guilabel:`Mega Menu` section:"
+"Delete a menu item by clicking the :icon:`fa-trash` (:guilabel:`Remove`) "
+"icon of the related block."
 msgstr ""
-"若要調整大型選單的整體版面配置，請前往網站編輯器的\\ :guilabel:`自訂`\\ 分"
-"頁，然後在\\ :guilabel:`大型選單`\\ 區段中："
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:150
+#: ../../content/applications/websites/website/structure/header_footer.rst:169
+msgid "Mega menu design"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:171
+msgid ""
+"To customize the general layout of the mega menu and its "
+"individual :doc:`building blocks <../web_design/building_blocks>`, open the "
+"website editor, go to the :guilabel:`Style` tab, and navigate to "
+"the :guilabel:`Mega Menu` section. The following options are available:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:175
 msgid "Choose a :guilabel:`Template`."
 msgstr "選擇\\ :guilabel:`範本`\\ 。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:151
+#: ../../content/applications/websites/website/structure/header_footer.rst:176
 msgid ""
 "Pick the :guilabel:`Size`: either :guilabel:`Full-Width` "
 "or :guilabel:`Narrow`."
@@ -14977,83 +14936,157 @@ msgstr ""
 "選擇\\ :guilabel:`大小`\\ ：\\ :guilabel:`全寬度`\\ 或\\ :guilabel:`窄版"
 "`\\ 。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:156
-msgid "Hide a dynamic menu item for non-logged in users"
-msgstr "為未登入使用者隱藏動態選單項目"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:158
+#: ../../content/applications/websites/website/structure/header_footer.rst:177
 msgid ""
-"To hide a dynamic menu item (i.e., a menu item generated automatically by "
-"Odoo, for example, when you install an app or module, such as `Events`, "
-"`Courses`, etc.) for non-logged in users, follow these steps:"
+"Toggle :ref:`eCommerce Categories <ecommerce/categories_variants/"
+"categories>` if applicable."
 msgstr ""
-"若要為未登入使用者隱藏動態選單項目（即由 Odoo 自動產生的選單項目，例如當您安"
-"裝應用程式或模組時，如「活動」、「課程」等），請按照以下步驟操作："
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:162
-msgid ":ref:`Enable developer mode <developer-mode>`."
-msgstr ":ref:`啟用開發者模式 <developer-mode>`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:163
-msgid "Go to :menuselection:`Website --> Configuration --> Menus`."
-msgstr "前往\\ :menuselection:`網站 --> 配置 --> 選單`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:164
-msgid ""
-"Expand the list of menus for the relevant website if needed, then click the "
-"menu item you wish to hide."
-msgstr "如有需要，請展開相關網站的選單清單，然後按一下您想要隱藏的選單項目。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:166
-msgid ""
-"In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line` "
-"under :guilabel:`Group Name`."
+#: ../../content/applications/websites/website/structure/header_footer.rst:182
+msgid "Header and footer design"
 msgstr ""
-"在\\ :guilabel:`可見群組`\\ 區段中，於\\ :guilabel:`群組名稱`\\ 下方按一下"
-"\\ :guilabel:`加入資料行`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:168
-msgid ""
-"Search for the group :guilabel:`User types / Portal`, select it, then "
-"click :guilabel:`Select`."
-msgstr ""
-"搜尋\\ :guilabel:`使用者類型 / 門戶網站`\\ 群組，選擇該群組，然後按一下"
-"\\ :guilabel:`選擇`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:169
-msgid "Save."
-msgstr "儲存。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:172
-msgid ""
-"To hide the `Shop` menu item, :doc:`restrict ecommerce access to logged-in "
-"users <../../ecommerce/configuration/customer_accounts>`."
-msgstr ""
-"要隱藏`商店`選單項目，請\\ :doc:`限制電子商務存取權僅供已登入使用者 <../../"
-"ecommerce/configuration/customer_accounts>`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:178
-msgid "Footer design"
-msgstr "頁尾設計"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:180
-msgid ""
-"To modify the footer, click on :guilabel:`Edit`, click on the footer, and in "
-"the :guilabel:`Footer` section of the :guilabel:`Customize` tab in the "
-"website editor:"
-msgstr ""
-"若要修改頁尾，請按一下\\ :guilabel:`編輯`\\ ，按一下頁尾，然後在網站編輯器的"
-"\\ :guilabel:`自訂`\\ 分頁的\\ :guilabel:`頁尾`\\ 區段中："
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:183
-msgid "Select a :guilabel:`Template`."
-msgstr "選擇一個\\ :guilabel:`範本`\\ 。"
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:184
-msgid "Choose its :guilabel:`Colors`."
-msgstr "選擇其\\ :guilabel:`顏色`\\ 。"
+msgid ""
+"To modify the header or footer design, click :guilabel:`Edit` in the upper-"
+"right corner and select the header or footer. Then, go to "
+"the :guilabel:`Style` tab and navigate to the :guilabel:`Header` "
+"or :guilabel:`Footer` section. The following options are available:"
+msgstr ""
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:185
+#: ../../content/applications/websites/website/structure/header_footer.rst:188
+msgid "Choose a :guilabel:`Template` from the drop-down menu."
+msgstr "從下拉式選單中選擇\\ :guilabel:`範本`。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:189
+msgid ""
+"Select a :guilabel:`Background` color by defining a :ref:`theme <website/"
+"themes/theme-colors>` style, a :guilabel:`Custom` color option, or "
+"a :guilabel:`Gradient`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:191
+msgid "Set the :guilabel:`Content Width`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:192
+msgid ""
+"Add a :guilabel:`Border` to the footer and customize its size, style, and "
+"color."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:193
+msgid "Adapt :guilabel:`Round corners` to fit the design."
+msgstr "調整\\ :guilabel:`圓角`\\ 以符合設計。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:194
+msgid ""
+"Add a :guilabel:`Shadow` and define "
+"its :guilabel:`Color`, :guilabel:`Offset`, :guilabel:`Blur`, "
+"and :guilabel:`Spread`."
+msgstr ""
+"加入\\ :guilabel:`陰影`\\ 並定義其\\ :guilabel:`顏色`、:guilabel:`偏移"
+"`、:guilabel:`模糊`\\ 和\\ :guilabel:`擴散`。"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:199
+msgid "Header-specific design options"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:201
+msgid ""
+"To further customize the website's header, use the following header-specific "
+"design options in the :guilabel:`Header` section:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:204
+msgid ""
+"Add a :guilabel:`Scroll Effect` to determine how the header behaves while "
+"scrolling the page. Hover over an effect to preview it."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:207
+msgid ""
+"Choose the :guilabel:`Header Position` for the selected "
+"page: :guilabel:`Regular`, :guilabel:`Hidden`, or :guilabel:`Over The "
+"Content`. When :guilabel:`Over The Content` is selected, you can also "
+"customize the :guilabel:`Background` and :guilabel:`Text Color`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:212
+msgid ""
+"To hide the header on all pages, go to the :guilabel:`Theme` tab of the "
+"website editor. Scroll down to the :guilabel:`Advanced` section and "
+"toggle :guilabel:`Show Header` off."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:214
+msgid ""
+":guilabel:`Hidden` elements, including the header when applicable, are "
+"available under :ref:`Invisible Elements <website/visibility/invisible-"
+"elements>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:217
+msgid ""
+"Change the :guilabel:`Default` :guilabel:`Accent Color` to either "
+"the :guilabel:`Primary` or :guilabel:`Secondary` :ref:`color <website/themes/"
+"colors>` to visually distinguish drop-down buttons in the header."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:220
+msgid "Define a :ref:`font <website/themes/fonts>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:221
+msgid "Set the :guilabel:`Format` size and add a color if needed."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:223
+msgid ""
+"To control the visibility of specific elements, navigate to "
+"the :guilabel:`Show/Hide Elements` section of the :guilabel:`Style` tab and "
+"click the option related to the element you wish to show or hide. You can "
+"show or hide:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:227
+msgid ""
+":guilabel:`Visuals`, such as the :guilabel:`Company logo`, :guilabel:`Text "
+"Elements` (e.g., a phone number), and :guilabel:`Social Links` for linking "
+"all social media accounts."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:229
+msgid ""
+":guilabel:`Actions`, such as the :guilabel:`Search Bar`, the :ref:`Language "
+"Selector <translate/language-selector>`, the :guilabel:`Sign in` button, and "
+"the :guilabel:`Header Button` (a :guilabel:`Contact us` button by default)."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:232
+msgid ""
+":doc:`eCommerce <../../ecommerce>`-specific elements: the :ref:`Add to cart "
+"<ecommerce/checkout/cart-button-header>` and :ref:`Add to wishlist "
+"<ecommerce/products/additional_features/wishlists>` buttons."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:235
+msgid ""
+"You can enable a :guilabel:`Background` for navigation icons, such as the "
+"wishlist or search bar icon."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:238
+msgid "Footer-specific design options"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:240
+msgid ""
+"To further customize the website's footer, use the following footer-specific "
+"design options in the :guilabel:`Footer` section:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:243
 msgid ""
 "Choose a :guilabel:`Slideout Effect`: :guilabel:`Regular` (i.e., no "
 "effect), :guilabel:`Slide Hover`, or :guilabel:`Shadow`."
@@ -15061,26 +15094,33 @@ msgstr ""
 "選擇一個\\ :guilabel:`滑出效果`\\ ：:guilabel:`一般`\\ （即無效"
 "果）、:guilabel:`滑動懸停`\\ 或\\ :guilabel:`陰影`\\ 。"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:187
-msgid "Toggle the :guilabel:`Copyright` switch to hide or show the copyright."
-msgstr "切換\\ :guilabel:`版權`\\ 開關以隱藏或顯示版權。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:188
-msgid "Choose the :guilabel:`Border` size."
-msgstr "選擇\\ :guilabel:`邊框`\\ 大小。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:189
-msgid "Add a :guilabel:`Shadow`."
-msgstr "加入\\ :guilabel:`陰影`\\ 。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:190
-msgid "Add a :guilabel:`Scroll Top Button` and choose its position."
-msgstr "加入\\ :guilabel:`捲動至頂部按鈕`\\ 並選擇其位置。"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:191
+#: ../../content/applications/websites/website/structure/header_footer.rst:245
 msgid ""
-"Hide or show the footer by toggling the :guilabel:`Page visibility` switch."
-msgstr "透過切換\\ :guilabel:`頁面可見性`\\ 開關來隱藏或顯示頁尾。"
+"Toggle the :guilabel:`Scroll Top Button` option to add a :icon:`fa-caret-"
+"up` :guilabel:`Scroll to Top` button, then choose its position."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:247
+msgid ""
+"Toggle the :guilabel:`Copyright` switch to hide or show the copyright "
+"notice. If enabled, add a color in the :guilabel:`Copyright` section if "
+"needed."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:249
+msgid ""
+"Hide or show the footer for the current page by toggling the :guilabel:`Page "
+"visibility` switch. Hidden elements, including the footer when applicable, "
+"are available under :ref:`Invisible Elements <website/visibility/invisible-"
+"elements>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:254
+msgid ""
+"You can also add :guilabel:`Inner Content` :ref:`blocks <website/"
+"building_blocks/add>` to the header or footer for further customization, "
+"such as :ref:`e-commerce-specific footer options <ecommerce/catalog/footer>`."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/pages.rst:7
 msgid ""
@@ -16688,13 +16728,9 @@ msgstr ""
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:127
 msgid ""
 "**Prepare the Odoo form:** Create a contact form on a page in Odoo Website "
-"and remove the :ref:`header design <website/header_footer/header-design>` "
-"and the :ref:`footer design <website/header_footer/footer-design>`. Make "
+"and remove the :ref:`header and footer <website/header_footer/design>`. Make "
 "sure only the contact form remains on the page."
 msgstr ""
-"**準備 Odoo 表單：**在 Odoo 網站的頁面上建立聯絡人表單，並移除\\ :ref:`頁首設"
-"計 <website/header_footer/header-design>`\\ 和\\ :ref:`頁尾設計 <website/"
-"header_footer/footer-design>`\\ 。確保頁面上只保留聯絡人表單。"
 
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:130
 msgid ""
@@ -17278,7 +17314,7 @@ msgstr ""
 "animations>`\\ 、:guilabel:`形狀`\\ 等。"
 
 #: ../../content/applications/websites/website/web_design/elements.rst:114
-#: ../../content/applications/websites/website/web_design/themes.rst:190
+#: ../../content/applications/websites/website/web_design/themes.rst:189
 msgid "Links"
 msgstr "連結"
 
@@ -17596,7 +17632,7 @@ msgid ""
 "Click the color you want to change, then select a "
 "predefined :guilabel:`Solid` color or click :guilabel:`Custom` to pick a "
 "specific color tone manually (or add its #HEX or RGBA code). Click :icon:`fa-"
-"trash` (:guilabel:`Delete`) to remove the color selection."
+"trash` (:guilabel:`Reset`) to remove the color selection."
 msgstr ""
 
 #: ../../content/applications/websites/website/web_design/themes.rst:61
@@ -17629,7 +17665,8 @@ msgstr ""
 msgid ""
 "Changing a color preset automatically updates the colors of both the default "
 "preset and the building blocks that use it."
-msgstr "變更顏色預設設定會自動更新預設預設設定的顏色以及使用該預設設定的建置區塊。"
+msgstr ""
+"變更顏色預設設定會自動更新預設預設設定的顏色以及使用該預設設定的建置區塊。"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:84
 msgid "Status colors"
@@ -17645,9 +17682,9 @@ msgid ""
 "change their color."
 msgstr ""
 "狀態顏色表示特定操作的狀態（例如\\ :guilabel:`成功`、:guilabel:`警告`等）。它"
-"們用於向使用者和網站訪客提供回饋的彈出式訊息中。若要自訂網站的\\ "
-":guilabel:`狀態顏色`，向下捲動至\\ :ref:`進階 <website/themes/advanced>`區段"
-"，然後按一下圓點以變更其顏色。"
+"們用於向使用者和網站訪客提供回饋的彈出式訊息中。若要自訂網站的\\ :guilabel:`"
+"狀態顏色`，向下捲動至\\ :ref:`進階 <website/themes/advanced>`區段，然後按一下"
+"圓點以變更其顏色。"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:93
 msgid ""
@@ -17692,7 +17729,15 @@ msgstr ""
 "小。按一下\\ :icon:`fa-caret-right`（:guilabel:`切換更多選項`）圖示以展開區段"
 "並定義自訂大小（例如，根據標題等級、按鈕大小等）。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:116
+#: ../../content/applications/websites/website/web_design/themes.rst:114
+msgid ""
+":guilabel:`Font Family`: In the :guilabel:`Paragraph`, :guilabel:`Headings`, "
+"and :guilabel:`Button` sections, select a font from the dropdown menu."
+msgstr ""
+":guilabel:`字型系列`\\ ：在\\ :guilabel:`段落`\\ 、\\ :guilabel:`標題`\\ 和"
+"\\ :guilabel:`按鈕`\\ 區段中，從下拉式選單中選取字型。"
+
+#: ../../content/applications/websites/website/web_design/themes.rst:118
 msgid ""
 "When :guilabel:`System Fonts` is selected, Odoo uses the native fonts "
 "already installed on the visitor's operating system. For example, Android "
@@ -17701,19 +17746,11 @@ msgstr ""
 "選取\\ :guilabel:`系統字型`時，Odoo 會使用訪客作業系統上已安裝的原生字型。例"
 "如，Android 使用 **Roboto** 作為其預設系統字型。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:119
-msgid ""
-":guilabel:`Font Family`: In the :guilabel:`Paragraph`, :guilabel:`Headings`, "
-"and :guilabel:`Button` sections, select a font from the dropdown menu."
-msgstr ""
-":guilabel:`字型系列`\\ ：在\\ :guilabel:`段落`\\ 、\\ :guilabel:`標題`\\ 和"
-"\\ :guilabel:`按鈕`\\ 區段中，從下拉式選單中選取字型。"
-
-#: ../../content/applications/websites/website/web_design/themes.rst:123
+#: ../../content/applications/websites/website/web_design/themes.rst:122
 msgid "Custom fonts"
 msgstr "自訂字型"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:125
+#: ../../content/applications/websites/website/web_design/themes.rst:124
 msgid ""
 "To add a custom font not available by default in Odoo, click "
 "the :guilabel:`Font Family` dropdown and select :guilabel:`Add a Custom "
@@ -17724,7 +17761,7 @@ msgstr ""
 "單，然後在底部選取\\ :guilabel:`加入自訂字型`。在\\ :guilabel:`加入 Google 字"
 "型或上傳自訂字型`彈出式視窗中："
 
-#: ../../content/applications/websites/website/web_design/themes.rst:129
+#: ../../content/applications/websites/website/web_design/themes.rst:128
 msgid ""
 "To add a Google font, open the :guilabel:`Select a Google Font` dropdown and "
 "select the desired font. Toggle off the :guilabel:`Serve font from Google "
@@ -17738,27 +17775,28 @@ msgstr ""
 "閉\\ :guilabel:`從 Google 伺服器提供字型`。這將確保 Google 字型儲存在網站的伺"
 "服器上，而不是 Google 的伺服器上。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:134
+#: ../../content/applications/websites/website/web_design/themes.rst:133
 msgid ""
 "To upload a :guilabel:`Custom Font` from your computer, "
 "click :guilabel:`Choose File`."
-msgstr "若要從您的電腦上傳\\ :guilabel:`自訂字型`，請按一下\\ :guilabel:`選擇檔案`。"
+msgstr ""
+"若要從您的電腦上傳\\ :guilabel:`自訂字型`，請按一下\\ :guilabel:`選擇檔案`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:136
+#: ../../content/applications/websites/website/web_design/themes.rst:135
 msgid "Once done, click :guilabel:`Save and Reload`."
 msgstr "完成後，按一下\\ :guilabel:`儲存並重新載入`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:139
+#: ../../content/applications/websites/website/web_design/themes.rst:138
 msgid ""
 "A :guilabel:`Preview` of the selected font is displayed on the right side of "
 "the window."
 msgstr "視窗右側會顯示所選字型的\\ :guilabel:`預覽`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:142
+#: ../../content/applications/websites/website/web_design/themes.rst:141
 msgid "Styles"
 msgstr "樣式"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:144
+#: ../../content/applications/websites/website/web_design/themes.rst:143
 msgid ""
 "The appearance of website elements can be further customized. For example, "
 "you can customize :ref:`paragraphs and headings <website/themes/paragraphs-"
@@ -17767,15 +17805,15 @@ msgid ""
 "fields>`."
 msgstr ""
 "可以進一步自訂網站元素的外觀。例如，您可以自訂\\ :ref:`段落和標題 <website/"
-"themes/paragraphs-headings>`、:ref:`按鈕 <website/themes/button-styles>"
-"`、:ref:`連結 <website/themes/link-style>`和\\ :ref:`輸入欄位 <website/"
-"themes/input-fields>`。"
+"themes/paragraphs-headings>`、:ref:`按鈕 <website/themes/button-"
+"styles>`、:ref:`連結 <website/themes/link-style>`和\\ :ref:`輸入欄位 "
+"<website/themes/input-fields>`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:152
+#: ../../content/applications/websites/website/web_design/themes.rst:151
 msgid "Paragraphs & headings"
 msgstr "段落與標題"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:154
+#: ../../content/applications/websites/website/web_design/themes.rst:153
 msgid ""
 "The :guilabel:`Paragraph` and :guilabel:`Headings` sections offer additional "
 "styling options for these text elements. You can:"
@@ -17783,25 +17821,25 @@ msgstr ""
 ":guilabel:`段落`和\\ :guilabel:`標題`區段為這些文字元素提供了額外的樣式選項。"
 "您可以："
 
-#: ../../content/applications/websites/website/web_design/themes.rst:157
-#: ../../content/applications/websites/website/web_design/themes.rst:174
-#: ../../content/applications/websites/website/web_design/themes.rst:208
+#: ../../content/applications/websites/website/web_design/themes.rst:156
+#: ../../content/applications/websites/website/web_design/themes.rst:173
+#: ../../content/applications/websites/website/web_design/themes.rst:207
 msgid "Modify the :ref:`font settings <website/themes/fonts>`."
 msgstr "修改\\ :ref:`字型設定 <website/themes/fonts>`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:158
+#: ../../content/applications/websites/website/web_design/themes.rst:157
 msgid ""
 "Adjust the :guilabel:`Line Height` to define the spacing between lines of "
 "text."
 msgstr "調整\\ :guilabel:`行高`以定義文字行之間的間距。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:159
+#: ../../content/applications/websites/website/web_design/themes.rst:158
 msgid ""
 "Adjust :guilabel:`Margins` to define the spacing around paragraphs and "
 "headings."
 msgstr "調整\\ :guilabel:`邊界`以定義段落和標題周圍的間距。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:166
+#: ../../content/applications/websites/website/web_design/themes.rst:165
 msgid ""
 "To customize the style of the website's primary and secondary buttons, "
 "navigate to the :guilabel:`Button` section and edit the relevant options:"
@@ -17809,7 +17847,7 @@ msgstr ""
 "若要自訂網站主要和次要按鈕的樣式，請導覽至\\ :guilabel:`按鈕`區段並編輯相關選"
 "項："
 
-#: ../../content/applications/websites/website/web_design/themes.rst:169
+#: ../../content/applications/websites/website/web_design/themes.rst:168
 msgid ""
 "Open the :icon:`fa-caret-down` dropdown menu next to the :guilabel:`Primary "
 "Style` or :guilabel:`Secondary Style` fields to change the style for each "
@@ -17818,24 +17856,25 @@ msgid ""
 "the :guilabel:`Border Width` option appears below, allowing you to adjust "
 "the width of the button's outline."
 msgstr ""
-"開啟\\ :icon:`fa-caret-down`下拉式選單（位於\\ :guilabel:`主要樣式`或\\ "
-":guilabel:`次要樣式`欄位旁邊），以變更每種按鈕類型的樣式，例如\\ "
-":guilabel:`填滿`、:guilabel:`外框`或\\ :guilabel:`平面`。選取\\ :guilabel:`外"
-"框`時，下方會出現\\ :guilabel:`邊框寬度`選項，允許您調整按鈕外框的寬度。"
+"開啟\\ :icon:`fa-caret-down`下拉式選單（位於\\ :guilabel:`主要樣式`或"
+"\\ :guilabel:`次要樣式`欄位旁邊），以變更每種按鈕類型的樣式，例如"
+"\\ :guilabel:`填滿`、:guilabel:`外框`或\\ :guilabel:`平面`。選取"
+"\\ :guilabel:`外框`時，下方會出現\\ :guilabel:`邊框寬度`選項，允許您調整按鈕"
+"外框的寬度。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:175
+#: ../../content/applications/websites/website/web_design/themes.rst:174
 msgid ""
 "Adjust the :guilabel:`Padding` to change the spacing around the buttons' "
 "labels."
 msgstr "調整\\ :guilabel:`Padding`\\ 以變更按鈕標籤周圍的間距。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:176
+#: ../../content/applications/websites/website/web_design/themes.rst:175
 msgid ""
 "Use the :guilabel:`Round Corners` option to adjust the buttons' border "
 "radius."
 msgstr "使用\\ :guilabel:`Round Corners`\\ 選項調整按鈕的邊框圓角。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:177
+#: ../../content/applications/websites/website/web_design/themes.rst:176
 msgid ""
 "Add an animation when a button is clicked in the :guilabel:`On Click Effect` "
 "dropdown menu."
@@ -17845,44 +17884,44 @@ msgstr "在\\ :guilabel:`點擊效果`\\ 下拉式選單中加入按鈕被按下
 msgid "Primary and secondary buttons"
 msgstr "主要及次要按鈕"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:183
+#: ../../content/applications/websites/website/web_design/themes.rst:182
 msgid ""
 "To define custom :guilabel:`Small` and :guilabel:`Large` sizes for the "
 "buttons' :guilabel:`Padding`, :guilabel:`Font Size`, and :guilabel:`Round "
 "Corners`, click the :icon:`fa-caret-right` (:guilabel:`Toggle more options`) "
 "icon, then use the related fields."
 msgstr ""
-"若要為按鈕的\\ :guilabel:`Small`\\ 和\\ :guilabel:`Large`\\ 尺寸自訂\\ "
-":guilabel:`Padding`、:guilabel:`Font Size`\\ 和\\ :guilabel:`Round Corners`，"
-"請按一下\\ :icon:`fa-caret-right`（:guilabel:`Toggle more options`）圖示，然"
-"後使用相關欄位。"
+"若要為按鈕的\\ :guilabel:`Small`\\ 和\\ :guilabel:`Large`\\ 尺寸自訂"
+"\\ :guilabel:`Padding`、:guilabel:`Font Size`\\ 和\\ :guilabel:`Round "
+"Corners`，請按一下\\ :icon:`fa-caret-right`（:guilabel:`Toggle more "
+"options`）圖示，然後使用相關欄位。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:192
+#: ../../content/applications/websites/website/web_design/themes.rst:191
 msgid ""
 "In the :guilabel:`Link` section, open the :icon:`fa-caret-down` dropdown "
 "menu next to :guilabel:`Link Style` to choose the appearance of links on the "
 "website. You can choose between:"
 msgstr ""
-"在\\ :guilabel:`Link`\\ 區段中，開啟\\ :guilabel:`Link Style`\\ 旁邊的\\ "
-":icon:`fa-caret-down`\\ 下拉式選單，以選擇網站上連結的外觀。您可以選擇："
+"在\\ :guilabel:`Link`\\ 區段中，開啟\\ :guilabel:`Link Style`\\ 旁邊的"
+"\\ :icon:`fa-caret-down`\\ 下拉式選單，以選擇網站上連結的外觀。您可以選擇："
 
-#: ../../content/applications/websites/website/web_design/themes.rst:195
+#: ../../content/applications/websites/website/web_design/themes.rst:194
 msgid ":guilabel:`No Underline`;"
 msgstr ":guilabel:`No Underline`；"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:196
+#: ../../content/applications/websites/website/web_design/themes.rst:195
 msgid ":guilabel:`Underline On Hover`; or"
 msgstr ":guilabel:`Underline On Hover`；或"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:197
+#: ../../content/applications/websites/website/web_design/themes.rst:196
 msgid ":guilabel:`Always Underline`."
 msgstr ":guilabel:`Always Underline`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:202
+#: ../../content/applications/websites/website/web_design/themes.rst:201
 msgid "Input fields"
 msgstr "輸入欄位"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:204
+#: ../../content/applications/websites/website/web_design/themes.rst:203
 msgid ""
 "To customize the style of the website's input fields, navigate to "
 "the :guilabel:`Input Fields` section and edit the relevant options:"
@@ -17890,19 +17929,19 @@ msgstr ""
 "若要自訂網站輸入欄位的樣式，請前往\\ :guilabel:`Input Fields`\\ 區段並編輯相"
 "關選項："
 
-#: ../../content/applications/websites/website/web_design/themes.rst:207
+#: ../../content/applications/websites/website/web_design/themes.rst:206
 msgid "Adjust the :guilabel:`Padding` to change the spacing around the fields."
 msgstr "調整\\ :guilabel:`Padding`\\ 以變更欄位周圍的間距。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:209
+#: ../../content/applications/websites/website/web_design/themes.rst:208
 msgid "Customize the :guilabel:`Border Width` around fields."
 msgstr "自訂欄位周圍的\\ :guilabel:`Border Width`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:210
+#: ../../content/applications/websites/website/web_design/themes.rst:209
 msgid "Define a :guilabel:`Border Radius` to round the fields' corners."
 msgstr "定義\\ :guilabel:`Border Radius`\\ 以圓角化欄位的角落。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:211
+#: ../../content/applications/websites/website/web_design/themes.rst:210
 msgid ""
 "Choose a :guilabel:`Background` :ref:`color <website/themes/colors>` to fill "
 "the fields."
@@ -17910,11 +17949,11 @@ msgstr ""
 "選擇\\ :guilabel:`Background`\\ :ref:`顏色 <website/themes/colors>`\\ 以填滿"
 "欄位。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:216
+#: ../../content/applications/websites/website/web_design/themes.rst:215
 msgid "Advanced settings"
 msgstr "進階設定"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:218
+#: ../../content/applications/websites/website/web_design/themes.rst:217
 msgid ""
 "Additional settings can be configured in the :guilabel:`Advanced` section, "
 "such as :doc:`showing or hiding the header <../structure/header_footer>`, "
@@ -17924,27 +17963,28 @@ msgid ""
 "and :guilabel:`Grays`."
 msgstr ""
 "可在\\ :guilabel:`Advanced`\\ 區段中配置其他設定，例如\\ :doc:`顯示或隱藏頁"
-"首 <../structure/header_footer>`、使用\\ :guilabel:`Code Injection`\\ 進行\\ "
-":ref:`透過 HTML 標籤驗證網站 <website/google_search_console/HTML-tag>`，以及"
-"配置\\ :ref:`狀態顏色 <website/themes/status-colors>`\\ 和\\ "
-":guilabel:`Grays`。"
+"首 <../structure/header_footer>`、使用\\ :guilabel:`Code Injection`\\ 進行"
+"\\ :ref:`透過 HTML 標籤驗證網站 <website/google_search_console/HTML-tag>`，以"
+"及配置\\ :ref:`狀態顏色 <website/themes/status-colors>`\\ 和"
+"\\ :guilabel:`Grays`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:223
+#: ../../content/applications/websites/website/web_design/themes.rst:222
 msgid ""
 "You can also configure Google Maps to display maps and enable geolocation "
 "features on the website, e.g., on the :guilabel:`Contact Us` page and in "
 "specific snippets. To configure this option:"
 msgstr ""
-"您也可以配置 Google Maps 以在網站上顯示地圖並啟用地理定位功能，例如在\\ "
-":guilabel:`Contact Us`\\ 頁面和特定片段中。若要配置此選項："
+"您也可以配置 Google Maps 以在網站上顯示地圖並啟用地理定位功能，例如在"
+"\\ :guilabel:`Contact Us`\\ 頁面和特定片段中。若要配置此選項："
 
-#: ../../content/applications/websites/website/web_design/themes.rst:227
+#: ../../content/applications/websites/website/web_design/themes.rst:226
 msgid ""
 "Go to your `Google account <https://console.cloud.google.com/getting-"
 "started>`_."
-msgstr "前往您的 `Google 帳戶 <https://console.cloud.google.com/getting-started>`_。"
+msgstr ""
+"前往您的 `Google 帳戶 <https://console.cloud.google.com/getting-started>`_。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:228
+#: ../../content/applications/websites/website/web_design/themes.rst:227
 msgid ""
 ":ref:`Enable <address_autocomplete/enable-api>` the :guilabel:`Maps Static "
 "API`, :guilabel:`Maps JavaScript API`, and :guilabel:`Places API`."
@@ -17952,13 +17992,13 @@ msgstr ""
 ":ref:`啟用 <address_autocomplete/enable-api>`\\ :guilabel:`Maps Static "
 "API`、:guilabel:`Maps JavaScript API`\\ 和\\ :guilabel:`Places API`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:232
+#: ../../content/applications/websites/website/web_design/themes.rst:231
 msgid ""
 "Do not enable :guilabel:`Places API (New)`, as it is not yet supported by "
 "Odoo."
 msgstr "請勿啟用\\ :guilabel:`Places API (New)`，因為 Odoo 尚未支援它。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:233
+#: ../../content/applications/websites/website/web_design/themes.rst:232
 msgid ""
 "Using the Google APIs could require `payment to Google <https://"
 "mapsplatform.google.com/pricing/>`_."
@@ -17966,22 +18006,23 @@ msgstr ""
 "使用 Google API 可能需要 `向 Google 付款 <https://mapsplatform.google.com/"
 "pricing/>`_。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:236
+#: ../../content/applications/websites/website/web_design/themes.rst:235
 msgid ""
 ":ref:`Create an API key <address_autocomplete/generate_api_key>` and copy it."
-msgstr ":ref:`建立 API 金鑰 <address_autocomplete/generate_api_key>`\\ 並複製。"
+msgstr ""
+":ref:`建立 API 金鑰 <address_autocomplete/generate_api_key>`\\ 並複製。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:237
+#: ../../content/applications/websites/website/web_design/themes.rst:236
 msgid ""
 "In Odoo's website editor, go to the :guilabel:`Theme` tab, and, in "
 "the :guilabel:`Advanced` section, click :guilabel:`Custom Key` next "
 "to :guilabel:`Google Map`."
 msgstr ""
-"在 Odoo 的網站編輯器中，前往\\ :guilabel:`佈景主題`\\ 分頁，然後在\\ "
-":guilabel:`進階`\\ 區段中，按一下\\ :guilabel:`Google 地圖`\\ 旁邊的\\ "
-":guilabel:`自訂金鑰`。"
+"在 Odoo 的網站編輯器中，前往\\ :guilabel:`佈景主題`\\ 分頁，然後在"
+"\\ :guilabel:`進階`\\ 區段中，按一下\\ :guilabel:`Google 地圖`\\ 旁邊的"
+"\\ :guilabel:`自訂金鑰`。"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:239
+#: ../../content/applications/websites/website/web_design/themes.rst:238
 msgid "Paste the generated API key into the :guilabel:`API Key` field."
 msgstr "將產生的 API 金鑰貼到\\ :guilabel:`API 金鑰`\\ 欄位中。"
 
@@ -18191,6 +18232,653 @@ msgid ""
 "Blocks and elements with custom visibility settings displayed at the bottom "
 "of the editor"
 msgstr "顯示在編輯器底部的具有自訂可見性設定的區塊和元素"
+
+#: ../../content/applications/websites/website/website_creation.rst:5
+msgid ""
+"Odoo Website enables you to create and customize a website for presenting "
+"information, or integrating an :doc:`online shop <../"
+"ecommerce>`, :doc:`eLearning platform <../elearning>`, :doc:`forum <../"
+"forum>`, and/or :doc:`blog <../blog>`. You can either :ref:`create a new "
+"website <website_creation/create>` or :ref:`import an existing one "
+"<website_creation/import>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:13
+msgid "Create a new website"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:17
+msgid ""
+"After installing the **Website** app, Odoo prompts you to use its 4-step "
+"website builder to create the website. You can:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:20
+msgid "Define the purpose of your website."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:21
+msgid ""
+":guilabel:`Choose a Color Palette` or :icon:`fa-cloud-"
+"upload` :guilabel:`Upload` a logo to detect a matching color scheme and "
+"generate a brand style accordingly."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:23
+msgid ""
+":guilabel:`Add Pages and Features`, such as an :doc:`online shop <../"
+"ecommerce>` or :doc:`events </applications/marketing/events>` page."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:25
+msgid ""
+":guilabel:`Choose your favorite Theme`. You can still change "
+"and :doc:`customize <web_design/themes>` it later."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:28
+msgid ""
+"If you prefer to bypass this setup, click the :guilabel:`Skip and start from "
+"scratch` link."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:31
+msgid ""
+"Starting from scratch results in a blank website without a predefined design "
+"or content."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:33
+msgid "To create an additional website, follow these steps:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:35
+#: ../../content/applications/websites/website/website_creation.rst:83
+msgid "Navigate to :menuselection:`Website --> Configuration --> Settings`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:36
+msgid "In the settings banner, click :icon:`fa-plus` :guilabel:`New Website`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:37
+msgid "In the :guilabel:`Add Website` pop-up window:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:39
+msgid "Enter a :guilabel:`Website Name`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:40
+msgid ""
+"Fill in the :doc:`Website Domain <configuration/domain_names>`, if "
+"applicable."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:41
+msgid ""
+"In a :doc:`multi-company environment </applications/general/companies/"
+"multi_company>`, select a :guilabel:`Company`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:43
+msgid ""
+"In a :doc:`multilingual environment <configuration/translate>`, select the "
+"relevant :guilabel:`Languages` and define a :guilabel:`Default Language`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:47
+msgid "Languages already installed in the database are selected automatically."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:50
+msgid ""
+"Use the :ref:`website builder <website_creation/website-builder>` to "
+"complete the setup."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:55
+msgid "Import an existing website"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:58
+msgid ""
+"The website import tool is available only with an `Odoo Enterprise "
+"subscription <https://www.odoo.com/page/editions>`_."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:61
+msgid ""
+"The website import tool is a website scraper that searches for the specified "
+"website and analyzes it. It then uses custom AI models to rebuild it as an "
+"Odoo website. The extraction is performed page by page, preserving the "
+"original website's structure and content. Images, the sitemap, "
+"the :doc:`header, and the footer <structure/header_footer>` are also "
+"imported. Optionally, :doc:`product data <../ecommerce/configuration/"
+"products>` can also be extracted. The tool converts pages into standard "
+"Odoo :doc:`building blocks <web_design/building_blocks>`, making the "
+"imported website fully editable in Odoo."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:70
+msgid ""
+"The imported website is not an exact replica of the original. Manual "
+"adjustments to layout, styling, or content may be needed after import."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:74
+msgid ""
+"By using this tool, you confirm that you own the website and all its "
+"associated content (such as images), and that you take full responsibility "
+"for their use and any potential legal implications."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:77
+msgid ""
+"For the best results, ensure your database is up to date with the latest "
+"version of Odoo."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:78
+msgid ""
+"Do not edit the website during the import process. Importing data overwrites "
+"the content of the website currently being edited, potentially resulting in "
+"the loss of unsaved changes."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:81
+msgid "To import your current website, follow these steps:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:84
+msgid ""
+"In the settings banner, click :icon:`fa-plus` :guilabel:`Import Website`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:85
+msgid ""
+"On the :guilabel:`Import your Pages and Products` page, enter "
+"the :guilabel:`Website URL` (e.g., `https://www.example.com`)."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:87
+msgid ""
+"When running an online shop, ensure the :guilabel:`Import Products` option "
+"is enabled to extract product data."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:89
+msgid "To submit the request, click :guilabel:`Import my website`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:91
+msgid ""
+"Once the import is complete, you will receive an email or a notification "
+"confirming that your Odoo website is ready. You can then further customize "
+"the website using the :doc:`website editor <web_design>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:96
+msgid "Blogs cannot be imported."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:97
+msgid "You can import up to **100** pages by default."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:98
+msgid ""
+"Importing products automatically installs the :doc:`eCommerce app <../"
+"ecommerce>` if it is not already installed."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:100
+msgid ""
+"It is **not** possible to import products using the website import tool "
+"*without* importing the website."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:102
+msgid ""
+"The tool supports importing up to **20** products. For larger product "
+"catalogs, :doc:`use a .csv file </applications/sales/sales/products_prices/"
+"products/import>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:104
+msgid ""
+"Product extraction is supported only for e-commerce websites that expose "
+"product data through the `Shopify <https://www.shopify.com/>`_ public API or "
+"one of the following metadata schemes:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:107
+msgid "JSON-LD"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:108
+msgid "RDFa"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:109
+msgid "Open Graph"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:110
+msgid "Microdata"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:113
+msgid ""
+"Use the `Website Import Tool trial <https://www.odoo.com/fr_FR/page/"
+"startwebsite>`_ to test the website import feature by importing up to 10 "
+"pages from the original website into a trial database."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:116
+msgid ""
+"Ensure the original website is publicly accessible and not protected "
+"by :ref:`Cloudflare <website/spam_protection/cloudflare-turnstile>` or other "
+"anti-bot mechanisms."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:120
+msgid ":doc:`configuration/multi_website`"
+msgstr ""
+
+#~ msgid ""
+#~ "The :ref:`website footer <website/header_footer/footer-design>` can also "
+#~ "be configured to use the e-commerce-specific template. Then, add the "
+#~ "relevant :ref:`links <website/elements/links>`, and adapt the footer's "
+#~ "text and layout as needed in the website editor. The :doc:`available "
+#~ "payment methods </applications/finance/payment_providers>` are also shown "
+#~ "in this footer. To adapt their display, go to the :guilabel:`Supported "
+#~ "Payment Methods` section in the website editor."
+#~ msgstr ""
+#~ ":ref:`網站頁尾 <website/header_footer/footer-design>`\\ 也可以配置為使用電"
+#~ "子商務專用範本。然後加入相關的\\ :ref:`連結 <website/elements/links>`，並"
+#~ "在網站編輯器中依需要調整頁尾的文字和版面。:doc:`可用的付款方式 </"
+#~ "applications/finance/payment_providers>`\\ 也會顯示在此頁尾中。若要調整其"
+#~ "顯示方式，請前往網站編輯器中的\\ :guilabel:`支援的付款方式`\\ 區段。"
+
+#~ msgid ""
+#~ "The website header is the top section of a web page and usually contains "
+#~ "elements such as the logo, the :ref:`menu <website/header_footer/header-"
+#~ "content>`, the search bar, the sign-in/customer account button, etc. The "
+#~ "footer is displayed at the bottom of a web page and usually contains "
+#~ "information such as contact details, links, legal notices, and other "
+#~ "options."
+#~ msgstr ""
+#~ "網站頁首是網頁的頂端區段，通常包含標誌、:ref:`選單 <website/header_footer/"
+#~ "header-content>`、搜尋列、登入/客戶帳戶按鈕等元素。頁尾顯示於網頁底部，通"
+#~ "常包含聯絡資訊、連結、法律聲明和其他選項等資訊。"
+
+#~ msgid "Header design"
+#~ msgstr "頁首設計"
+
+#~ msgid ""
+#~ "To modify the header's design, click on :guilabel:`Edit`, then click on "
+#~ "the header. The following options are available in the :guilabel:`Header` "
+#~ "section of the :guilabel:`Customize` tab in the website editor:"
+#~ msgstr ""
+#~ "若要修改頁首設計，請按一下\\ :guilabel:`編輯`，然後按一下頁首。網站編輯器"
+#~ "的\\ :guilabel:`自訂`\\ 分頁中的\\ :guilabel:`頁首`\\ 區段提供以下選項："
+
+#~ msgid ""
+#~ "Select :guilabel:`Background` settings to change the color palette "
+#~ "through different :ref:`Theme styles <website/themes/theme-"
+#~ "colors>`, :guilabel:`Custom` color options, and :guilabel:`Gradient` ones."
+#~ msgstr ""
+#~ "選取\\ :guilabel:`背景`\\ 設定，以透過不同的\\ :ref:`佈景主題樣式 "
+#~ "<website/themes/theme-colors>`、:guilabel:`自訂`\\ 顏色選項和"
+#~ "\\ :guilabel:`漸層`\\ 選項來變更調色盤。"
+
+#~ msgid ""
+#~ "When adding a :guilabel:`Border` to the header, its size, style, and "
+#~ "color can be defined."
+#~ msgstr "為頁首加入\\ :guilabel:`邊框`\\ 時，可以定義其大小、樣式和顏色。"
+
+#~ msgid "Add a :guilabel:`Scroll Effect`. Hover on an effect to preview it."
+#~ msgstr "加入\\ :guilabel:`捲動效果`。將游標懸停在效果上以預覽。"
+
+#~ msgid ""
+#~ "Choose the :guilabel:`Header Position` "
+#~ "between :guilabel:`Regular`, :guilabel:`Hidden`, and :guilabel:`Over The "
+#~ "Content`. When :guilabel:`Over The Content` is selected, you can "
+#~ "customize the :guilabel:`Background` and :guilabel:`Text Color`."
+#~ msgstr ""
+#~ "在\\ :guilabel:`一般`、:guilabel:`隱藏`\\ 和\\ :guilabel:`覆蓋內容`\\ 之間"
+#~ "選擇\\ :guilabel:`頁首位置`。選取\\ :guilabel:`覆蓋內容`\\ 時，您可以自訂"
+#~ "\\ :guilabel:`背景`\\ 和\\ :guilabel:`文字顏色`。"
+
+#~ msgid ""
+#~ "Show or hide :guilabel:`Elements` such as text, the search "
+#~ "bar, :guilabel:`Sign in` button, social media links, :guilabel:`Contact "
+#~ "us` button, and logo."
+#~ msgstr ""
+#~ "顯示或隱藏\\ :guilabel:`元素`，例如文字、搜尋列、:guilabel:`登入`\\ 按鈕、"
+#~ "社群媒體連結、:guilabel:`聯絡我們`\\ 按鈕和標誌。"
+
+#~ msgid "To finalize changes, click on :guilabel:`Save`."
+#~ msgstr "若要完成變更，請按一下\\ :guilabel:`儲存`。"
+
+#~ msgid ""
+#~ "To hide the header, click on :guilabel:`Edit`, click on the header, and "
+#~ "go to the :guilabel:`Theme` tab of the website editor. Scroll down to "
+#~ "the :guilabel:`Advanced` section and toggle the :guilabel:`Show Header` "
+#~ "switch to hide/show the header."
+#~ msgstr ""
+#~ "要隱藏頁首，請按一下\\ :guilabel:`編輯`\\ ，按一下頁首，然後前往網站編輯器"
+#~ "的\\ :guilabel:`主題`\\ 分頁。向下捲動至\\ :guilabel:`進階`\\ 區段，然後切"
+#~ "換\\ :guilabel:`顯示頁首`\\ 開關以隱藏／顯示頁首。"
+
+#~ msgid ""
+#~ "Menus organize the header’s content and help users navigate through web "
+#~ "pages effectively. User-friendly and well-structured menus also play a "
+#~ "crucial role in improving :doc:`search engine rankings <seo>`."
+#~ msgstr ""
+#~ "選單組織頁首的內容，並幫助使用者有效地瀏覽網頁。使用者友善且結構良好的選單"
+#~ "也在改善\\ :doc:`搜尋引擎排名 <seo>`\\ 方面發揮關鍵作用。"
+
+#~ msgid ""
+#~ "The menu editor allows to edit the website's header and add :ref:`menu "
+#~ "items <website/header_footer/menu-items>` and :ref:`mega menus <website/"
+#~ "header_footer/mega-menus>`."
+#~ msgstr ""
+#~ "選單編輯器允許編輯網站的頁首並加入\\ :ref:`選單項目 <website/"
+#~ "header_footer/menu-items>`\\ 和\\ :ref:`超級選單 <website/header_footer/"
+#~ "mega-menus>`\\ 。"
+
+#~ msgid ""
+#~ "To edit the header's content, go to :menuselection:`Website --> Site --> "
+#~ "Menu Editor`. From there, you can:"
+#~ msgstr ""
+#~ "要編輯頁首的內容，請前往\\ :menuselection:`網站 --> 網站 --> 選單編輯器"
+#~ "`\\ 。從那裡，您可以："
+
+#~ msgid ""
+#~ "**rename** a menu item or change its URL using the :guilabel:`Edit Menu "
+#~ "Item` icon;"
+#~ msgstr ""
+#~ "使用\\ :guilabel:`編輯選單項目`\\ 圖示**重新命名**選單項目或變更其網址；"
+
+#~ msgid "**delete** a menu item using the :guilabel:`Delete Menu Item` icon;"
+#~ msgstr "使用\\ :guilabel:`刪除選單項目`\\ 圖示**刪除**選單項目；"
+
+#~ msgid ""
+#~ "**move** a menu item by dragging and dropping it to the desired place in "
+#~ "the menu;"
+#~ msgstr "透過拖放選單項目至選單中所需位置來**移動**選單項目；"
+
+#~ msgid ""
+#~ "**create a regular drop-down menu** by dragging and dropping the sub-menu "
+#~ "items to the right, underneath their parent menu."
+#~ msgstr "透過將子選單項目拖放至右側其父選單下方來**建立一般下拉式選單**。"
+
+#~ msgid ""
+#~ "You can also access the menu editor by clicking :guilabel:`Edit`, "
+#~ "selecting any menu item, and clicking the :guilabel:`Edit Menu` icon."
+#~ msgstr ""
+#~ "您也可以透過按一下\\ :guilabel:`編輯`\\ 、選取任何選單項目，然後按一下"
+#~ "\\ :guilabel:`編輯選單`\\ 圖示來存取選單編輯器。"
+
+#~ msgid "Access the Menu editor while in Edit mode."
+#~ msgstr "在編輯模式下存取選單編輯器。"
+
+#~ msgid "Go to :menuselection:`Website --> Site --> Menu Editor`."
+#~ msgstr "前往\\ :menuselection:`網站 --> 網站 --> 選單編輯器`\\ 。"
+
+#~ msgid "In the menu editor, click :guilabel:`Add Menu Item`."
+#~ msgstr "在選單編輯器中，按一下\\ :guilabel:`加入選單項目`\\ 。"
+
+#~ msgid ""
+#~ "In the pop-up window, enter the :guilabel:`Name` to be displayed in the "
+#~ "menu."
+#~ msgstr "在彈出視窗中，輸入要在選單中顯示的\\ :guilabel:`名稱`\\ 。"
+
+#~ msgid ""
+#~ "Type `/` in the :guilabel:`URL or Email` field to search for a page on "
+#~ "your website or `#` to search for an existing custom anchor."
+#~ msgstr ""
+#~ "在\\ :guilabel:`網址或電子郵件`\\ 欄位中輸入 `/` 以搜尋您網站上的頁面，或"
+#~ "輸入 `#` 以搜尋現有的自訂錨點。"
+
+#~ msgid "Click :guilabel:`OK`."
+#~ msgstr "按一下\\ :guilabel:`確定`\\ 。"
+
+#~ msgid ""
+#~ "Edit the :ref:`menu structure <website/header_footer/menu-editor>` if "
+#~ "needed, then :guilabel:`Save`."
+#~ msgstr ""
+#~ "如有需要，請編輯\\ :ref:`選單結構 <website/header_footer/menu-"
+#~ "editor>`\\ ，然後\\ :guilabel:`儲存`\\ 。"
+
+#~ msgid ""
+#~ "To modify the menu items, click on :guilabel:`Edit`, click on a menu "
+#~ "item, then go to the :guilabel:`Navbar` section of the website editor. "
+#~ "The following options are available:"
+#~ msgstr ""
+#~ "若要修改選單項目，請\\ :guilabel:`編輯`\\ 、按一下選單項目，然後前往網站編"
+#~ "輯器的\\ :guilabel:`導覽列`\\ 區段。以下選項可用："
+
+#~ msgid "Adapt the :guilabel:`Mobile Alignment`."
+#~ msgstr "調整\\ :guilabel:`行動版對齊方式`\\ 。"
+
+#~ msgid "Choose the :guilabel:`Font` for the menu items."
+#~ msgstr "為選單項目選擇\\ :guilabel:`字型`\\ 。"
+
+#~ msgid ""
+#~ "Change the font size, color, and alignment in the :guilabel:`Format` "
+#~ "field."
+#~ msgstr "在\\ :guilabel:`格式`\\ 欄位中變更字型大小、顏色和對齊方式。"
+
+#~ msgid ""
+#~ "Select a :guilabel:`Links Style` to highlight the current page in the "
+#~ "menu."
+#~ msgstr "選取\\ :guilabel:`連結樣式`\\ 以在選單中突顯目前頁面。"
+
+#~ msgid ""
+#~ "Change the :ref:`style of the header buttons <website/themes/button-"
+#~ "styles>`."
+#~ msgstr "變更\\ :ref:`頁首按鈕的樣式 <website/themes/button-styles>`\\ 。"
+
+#~ msgid ""
+#~ "Choose to display the :guilabel:`Sub Menus` :guilabel:`On Hover` "
+#~ "or :guilabel:`On Click`."
+#~ msgstr ""
+#~ "選擇顯示\\ :guilabel:`子選單`\\ 的方式：\\ :guilabel:`滑鼠懸停時`\\ 或"
+#~ "\\ :guilabel:`按一下時`\\ 。"
+
+#~ msgid ""
+#~ "The fields available in the :guilabel:`Navbar` section can vary depending "
+#~ "on the chosen template."
+#~ msgstr ":guilabel:`導覽列`\\ 區段中可用的欄位可能會因選擇的範本而異。"
+
+#~ msgid ""
+#~ "Mega menus are similar to drop-down menus, but instead of a simple list "
+#~ "of sub-menus, they display a panel divided into groups of navigation "
+#~ "options. This makes them suitable for websites with large amounts of "
+#~ "content or :doc:`e-commerce websites <../../ecommerce>`, as they can help "
+#~ "include all of your web pages or :ref:`e-commerce categories <ecommerce/"
+#~ "categories_variants/categories>` in the menu while still making all menu "
+#~ "items visible at once."
+#~ msgstr ""
+#~ "超級選單類似於下拉選單，但它不是簡單的子選單列表，而是顯示一個分為多個導覽"
+#~ "選項組的面板。這使它們適合內容量大的網站或\\ :doc:`電子商務網站 <../../"
+#~ "ecommerce>`\\ ，因為它們可以幫助在選單中包含所有網頁或\\ :ref:`電子商務類"
+#~ "別 <ecommerce/categories_variants/categories>`\\ ，同時仍使所有選單項目一"
+#~ "次全部可見。"
+
+#~ msgid ""
+#~ "To create a mega menu, go to :menuselection:`Website --> Site --> Menu "
+#~ "Editor` and click :guilabel:`Add Mega Menu Item`. Enter "
+#~ "the :guilabel:`Name` of the mega menu in the pop-up, "
+#~ "click :guilabel:`OK`, then :guilabel:`Save`."
+#~ msgstr ""
+#~ "若要建立大型選單，請前往\\ :menuselection:`網站 --> 網站 --> 選單編輯器"
+#~ "`\\ ，然後按一下\\ :guilabel:`加入大型選單項目`\\ 。在彈出視窗中輸入大型選"
+#~ "單的\\ :guilabel:`名稱`\\ ，按一下\\ :guilabel:`確定`\\ ，然後"
+#~ "\\ :guilabel:`儲存`\\ 。"
+
+#~ msgid ""
+#~ "To adapt the options and content of the mega menu, click on a mega menu "
+#~ "item in the header, then click :guilabel:`Edit`. Mega menus are composed "
+#~ "of building blocks, which means you can customize each component "
+#~ "individually. For example:"
+#~ msgstr ""
+#~ "若要調整大型選單的選項和內容，請按一下頁首中的大型選單項目，然後按一下"
+#~ "\\ :guilabel:`編輯`\\ 。大型選單由建構區塊組成，這表示您可以個別自訂每個元"
+#~ "件。例如："
+
+#~ msgid "Edit the text directly in the building block."
+#~ msgstr "直接在建構區塊中編輯文字。"
+
+#~ msgid ""
+#~ "Edit a menu item's URL by selecting the menu item and clicking "
+#~ "the :guilabel:`Edit link` button in the small preview pop-up. Type `/` to "
+#~ "search for a page on your website, or `#` to search for an existing "
+#~ "custom anchor."
+#~ msgstr ""
+#~ "透過選取選單項目並按一下小型預覽彈出視窗中的\\ :guilabel:`編輯連結`\\ 按"
+#~ "鈕，來編輯選單項目的網址。輸入 `/` 以搜尋網站上的頁面，或輸入 `#` 以搜尋現"
+#~ "有的自訂錨點。"
+
+#~ msgid "Delete a menu item by deleting the related block."
+#~ msgstr "透過刪除相關區塊來刪除選單項目。"
+
+#~ msgid ""
+#~ "To adapt the general layout of the mega menu, go to "
+#~ "the :guilabel:`Customize` tab of the website editor, then, in "
+#~ "the :guilabel:`Mega Menu` section:"
+#~ msgstr ""
+#~ "若要調整大型選單的整體版面配置，請前往網站編輯器的\\ :guilabel:`自訂`\\ 分"
+#~ "頁，然後在\\ :guilabel:`大型選單`\\ 區段中："
+
+#~ msgid "Hide a dynamic menu item for non-logged in users"
+#~ msgstr "為未登入使用者隱藏動態選單項目"
+
+#~ msgid ""
+#~ "To hide a dynamic menu item (i.e., a menu item generated automatically by "
+#~ "Odoo, for example, when you install an app or module, such as `Events`, "
+#~ "`Courses`, etc.) for non-logged in users, follow these steps:"
+#~ msgstr ""
+#~ "若要為未登入使用者隱藏動態選單項目（即由 Odoo 自動產生的選單項目，例如當您"
+#~ "安裝應用程式或模組時，如「活動」、「課程」等），請按照以下步驟操作："
+
+#~ msgid ""
+#~ "Expand the list of menus for the relevant website if needed, then click "
+#~ "the menu item you wish to hide."
+#~ msgstr ""
+#~ "如有需要，請展開相關網站的選單清單，然後按一下您想要隱藏的選單項目。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line` "
+#~ "under :guilabel:`Group Name`."
+#~ msgstr ""
+#~ "在\\ :guilabel:`可見群組`\\ 區段中，於\\ :guilabel:`群組名稱`\\ 下方按一下"
+#~ "\\ :guilabel:`加入資料行`\\ 。"
+
+#~ msgid ""
+#~ "Search for the group :guilabel:`User types / Portal`, select it, then "
+#~ "click :guilabel:`Select`."
+#~ msgstr ""
+#~ "搜尋\\ :guilabel:`使用者類型 / 門戶網站`\\ 群組，選擇該群組，然後按一下"
+#~ "\\ :guilabel:`選擇`\\ 。"
+
+#~ msgid ""
+#~ "To hide the `Shop` menu item, :doc:`restrict ecommerce access to logged-"
+#~ "in users <../../ecommerce/configuration/customer_accounts>`."
+#~ msgstr ""
+#~ "要隱藏`商店`選單項目，請\\ :doc:`限制電子商務存取權僅供已登入使用者 "
+#~ "<../../ecommerce/configuration/customer_accounts>`\\ 。"
+
+#~ msgid "Footer design"
+#~ msgstr "頁尾設計"
+
+#~ msgid ""
+#~ "To modify the footer, click on :guilabel:`Edit`, click on the footer, and "
+#~ "in the :guilabel:`Footer` section of the :guilabel:`Customize` tab in the "
+#~ "website editor:"
+#~ msgstr ""
+#~ "若要修改頁尾，請按一下\\ :guilabel:`編輯`\\ ，按一下頁尾，然後在網站編輯器"
+#~ "的\\ :guilabel:`自訂`\\ 分頁的\\ :guilabel:`頁尾`\\ 區段中："
+
+#~ msgid "Select a :guilabel:`Template`."
+#~ msgstr "選擇一個\\ :guilabel:`範本`\\ 。"
+
+#~ msgid "Choose its :guilabel:`Colors`."
+#~ msgstr "選擇其\\ :guilabel:`顏色`\\ 。"
+
+#~ msgid ""
+#~ "Toggle the :guilabel:`Copyright` switch to hide or show the copyright."
+#~ msgstr "切換\\ :guilabel:`版權`\\ 開關以隱藏或顯示版權。"
+
+#~ msgid "Choose the :guilabel:`Border` size."
+#~ msgstr "選擇\\ :guilabel:`邊框`\\ 大小。"
+
+#~ msgid "Add a :guilabel:`Shadow`."
+#~ msgstr "加入\\ :guilabel:`陰影`\\ 。"
+
+#~ msgid "Add a :guilabel:`Scroll Top Button` and choose its position."
+#~ msgstr "加入\\ :guilabel:`捲動至頂部按鈕`\\ 並選擇其位置。"
+
+#~ msgid ""
+#~ "Hide or show the footer by toggling the :guilabel:`Page visibility` "
+#~ "switch."
+#~ msgstr "透過切換\\ :guilabel:`頁面可見性`\\ 開關來隱藏或顯示頁尾。"
+
+#~ msgid ""
+#~ "**Prepare the Odoo form:** Create a contact form on a page in Odoo "
+#~ "Website and remove the :ref:`header design <website/header_footer/header-"
+#~ "design>` and the :ref:`footer design <website/header_footer/footer-"
+#~ "design>`. Make sure only the contact form remains on the page."
+#~ msgstr ""
+#~ "**準備 Odoo 表單：**在 Odoo 網站的頁面上建立聯絡人表單，並移除\\ :ref:`頁"
+#~ "首設計 <website/header_footer/header-design>`\\ 和\\ :ref:`頁尾設計 "
+#~ "<website/header_footer/footer-design>`\\ 。確保頁面上只保留聯絡人表單。"
+
+#~ msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
+#~ msgstr "`Odoo教學：網站\\ <https://www.odoo.com/slides/website-25>`_"
+
+#~ msgid ""
+#~ "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+#~ msgstr "`Odoo教學：電子商務\\ <https://www.odoo.com/slides/ecommerce-26>`_"
+
+#~ msgid ""
+#~ "Odoo allows you to create multiple websites from the same database. This "
+#~ "can be useful, for example, if you have multiple brands operating under "
+#~ "your organization, or if you want to create separate websites for "
+#~ "different products/services or audiences."
+#~ msgstr ""
+#~ "Odoo 讓您可以從同一個資料庫建立多個網站。這在例如您的組織下有多個品牌，或"
+#~ "您想為不同的產品/服務或受眾建立個別網站時很有用。"
+
+#~ msgid ""
+#~ "Once it is time to :ref:`map your second domain name's address to your "
+#~ "second Odoo website <domain-name/existing/website-map>`, you can create "
+#~ "and map it directly by:"
+#~ msgstr ""
+#~ "當需要將\\ :ref:`第二個網域名稱的位址對應到第二個 Odoo 網站 <domain-name/"
+#~ "existing/website-map>`\\ 時，您可以直接建立並對應它："
+
+#~ msgid ""
+#~ "Going to :menuselection:`Website --> Configuration --> Settings` and "
+#~ "clicking :guilabel:`+ New Website`."
+#~ msgstr ""
+#~ "前往\\ :menuselection:`網站 --> 配置 --> 設定`\\ 並按一下\\ :guilabel:`+ "
+#~ "新網站`\\ 。"
+
+#~ msgid ""
+#~ "Choosing a :guilabel:`Website Name` and entering the second website's "
+#~ "address in the :guilabel:`Website Domain` field (e.g., `https://"
+#~ "www.yourseconddomain.com` or `https://subdomain.yourdomain.com`)."
+#~ msgstr ""
+#~ "選擇一個\\ :guilabel:`網站名稱`\\ 並在\\ :guilabel:`網站網域`\\ 欄位中輸入"
+#~ "第二個網站的位址（例如 `https://www.yourseconddomain.com` 或 `https://"
+#~ "subdomain.yourdomain.com`）。"
+
+#~ msgid "Clicking the :guilabel:`Create` button."
+#~ msgstr "按一下\\ :guilabel:`建立`\\ 按鈕。"
 
 #~ msgid ""
 #~ "`Google's reCAPTCHA v3 guide <https://developers.google.com/recaptcha/"

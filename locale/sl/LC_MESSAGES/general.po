@@ -5,13 +5,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
+# Tadej Vengust <tadej.vengust@implex.si>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 17:31+0000\n"
-"PO-Revision-Date: 2026-07-05 01:22+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-07-31 17:31+0000\n"
+"PO-Revision-Date: 2026-07-23 12:17+0000\n"
+"Last-Translator: Tadej Vengust <tadej.vengust@implex.si>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19-doc/"
 "general/sl/>\n"
 "Language: sl\n"
@@ -606,7 +607,7 @@ msgid ""
 "that entity and will only be visible when the company or branch is selected "
 "using the :ref:`company selector <general/multi-company/company-selector>`."
 msgstr ""
-"Pri ustvarjanju ponudbe, računa ali dobaviteljevega računa je aktivno "
+"Pri ustvarjanju ponudbe, izdanega računa ali prejetega računa je aktivno "
 "podjetje ali podružnica samodejno izbrana in prikazana v "
 "polju :guilabel:`Podjetje`. Če je aktivno podjetje nadrejeno podjetje ali "
 "ena od njegovih podružnic, so zapisi, specifično povezani s to entiteto, "
@@ -1303,7 +1304,7 @@ msgstr "`kpi_pos_total_value`"
 
 #: ../../content/applications/general/companies/digest_emails.rst:253
 msgid "New Employees"
-msgstr "Novo zaposlenih"
+msgstr "Nov kader"
 
 #: ../../content/applications/general/companies/digest_emails.rst:253
 msgid "`kpi_hr_recruitment_new_colleagues_value`"
@@ -2036,7 +2037,7 @@ msgid ""
 "*Custom* plan and the new rate is applied when the next bill is generated."
 msgstr ""
 "**Za mesečne pogodbe**: Naročnina se samodejno preklopi na načrt *Custom* in "
-"nova cena se uporabi ob izdaji naslednjega računa."
+"nova cena se uporabi ob izdaji naslednjega prejetega računa."
 
 #: ../../content/applications/general/companies/multi_company.rst:27
 msgid ""
@@ -2213,7 +2214,7 @@ msgid ""
 "displayed in the :guilabel:`Company` field."
 msgstr ""
 "Zapisi, ki so posebej povezani z določenim podjetjem, so dostopni le znotraj "
-"te entitete. Ponudbe, računi in dobaviteljevi računi, povezani s podjetjem, "
+"te entitete. Ponudbe, izdani računi in prejeti računi, povezani s podjetjem, "
 "so na primer vidni le, ko ste prijavljeni v to podjetje, ustrezno podjetje "
 "pa je samodejno izbrano privzeto in prikazano v polju :guilabel:`Podjetje`."
 
@@ -2260,8 +2261,8 @@ msgstr ""
 "podatkov, da proda ali kupi blago in storitve od drugega podjetja v isti "
 "bazi podatkov. Za transakcije med podjetji so :ref:`zapisi izdelkov deljeni "
 "<general/multi-company/shared-and-unshared-records>` med vpletenimi "
-"podjetji. Odvisno od konfiguracijskih nastavitev lahko bodo ustrezni "
-"dokumenti za naročila in račune samodejno generirani in sinhronizirani."
+"podjetji. Odvisno od konfiguracijskih nastavitev se lahko ustrezni dokumenti "
+"za naročila, izdane in prejete račune samodejno ustvarijo in sinhronizirajo."
 
 #: ../../content/applications/general/companies/multi_company.rst:133
 msgid ""
@@ -2297,8 +2298,8 @@ msgid ""
 ":guilabel:`Create Vendor Bills`: Automatically create a bill/refund when a "
 "company confirms an invoice/credit note for the selected company."
 msgstr ""
-":guilabel:`Ustvari račune dobaviteljev`: Samodejno ustvari račun/dobropis, "
-"ko podjetje potrdi račun/dobropis za izbrano podjetje."
+":guilabel:`Ustvari prejete račune`: Samodejno ustvari prejeti račun/"
+"dobropis, ko podjetje potrdi izdani račun/dobropis za izbrano podjetje."
 
 #: ../../content/applications/general/companies/multi_company.rst:145
 msgid ""
@@ -2369,9 +2370,9 @@ msgid ""
 "for :guilabel:`Customer` `JS Store US` is posted on `JS Store Belgium`, a "
 "vendor bill is automatically created in `JS Store US`."
 msgstr ""
-":guilabel:`Ustvari račune in dobropise`: ko je račun za :guilabel:`Kupca` "
-"`JS Store US` knjižen v `JS Store Belgium`, se v `JS Store US` samodejno "
-"ustvari račun dobavitelja."
+":guilabel:`Ustvari prejete račune in dobropise`: ko je izdani račun "
+"za :guilabel:`Kupca` `JS Store US` knjižen v `JS Store Belgium`, se v `JS "
+"Store US` samodejno ustvari prejeti račun."
 
 #: ../../content/applications/general/companies/multi_company.rst:170
 msgid ""
@@ -2461,7 +2462,7 @@ msgstr ""
 
 #: ../../content/applications/general/developer_mode.rst:5
 msgid "Developer mode (debug mode)"
-msgstr "Razvijalski način (način za razhroščevanje)"
+msgstr "Razvijalski način (razhroščevalni način)"
 
 #: ../../content/applications/general/developer_mode.rst:7
 msgid ""
@@ -2612,8 +2613,8 @@ msgid ""
 "displayed on the right side of the record."
 msgstr ""
 "Komunikacija v Odoo, povezana z zapisi, kot so priložnosti CRM, prodajna "
-"naročila, računi, ... ima razpravljalno nit, imenovano **klepet**, ki je "
-"pogosto prikazana na desni strani zapisa."
+"naročila, izdani računi, ... ima razpravljalno nit, imenovano **klepet**, ki "
+"je pogosto prikazana na desni strani zapisa."
 
 #: ../../content/applications/general/email_communication.rst:10
 msgid ""
@@ -3575,11 +3576,11 @@ msgstr ""
 "potrdite` račun. Račun naj bi bil pripravljen za prejemanje e-pošte v "
 "podatkovno bazo Odoo."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:6
+#: ../../content/applications/general/email_communication/email_domain.rst:3
 msgid "Configure DNS records to send emails in Odoo"
 msgstr "Konfiguracija DNS zapisov za pošiljanje e-pošte v Odoo"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:8
+#: ../../content/applications/general/email_communication/email_domain.rst:5
 msgid ""
 "This documentation presents three complementary authentication protocols "
 "(SPF, DKIM, and DMARC) used to prove the legitimacy of an email sender. Not "
@@ -3591,7 +3592,7 @@ msgstr ""
 "pošte. Neskladnost s temi protokoli bo močno zmanjšala možnosti, da vaša e-"
 "pošta doseže svoj cilj."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:12
+#: ../../content/applications/general/email_communication/email_domain.rst:9
 msgid ""
 "**Odoo Online** and **Odoo.sh** databases using the **default Odoo subdomain "
 "address** (e.g., `\\@company-name.odoo.com`) are pre-configured to **send "
@@ -3602,7 +3603,7 @@ msgstr ""
 "konfigurirane za **pošiljanje overjene e-pošte** v skladu s protokoli SPF, "
 "DKIM in DMARC."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:16
+#: ../../content/applications/general/email_communication/email_domain.rst:13
 msgid ""
 "If choosing to use a **custom domain** instead, **configuring SPF and DKIM "
 "records correctly is essential** to prevent emails from being quarantined as "
@@ -3613,7 +3614,7 @@ msgstr ""
 "poštna sporočila označena kot neželena pošta ali ne bi bila dostavljena "
 "prejemnikom."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:19
+#: ../../content/applications/general/email_communication/email_domain.rst:16
 msgid ""
 "If using :ref:`the default Odoo email server to send emails from a custom "
 "domain <email-outbound-custom-domain-odoo-server>`, the SPF and DKIM records "
@@ -3627,7 +3628,7 @@ msgstr ""
 "odhodni e-poštni strežnik, morate uporabiti zapise SPF in DKIM, specifične "
 "za to e-poštno storitev in lastno domeno."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:25
+#: ../../content/applications/general/email_communication/email_domain.rst:22
 msgid ""
 "Email service providers apply different rules to incoming emails. An email "
 "may be classified as spam even if it passes the SPF and DKIM checks."
@@ -3636,11 +3637,11 @@ msgstr ""
 "pošto. E-poštno sporočilo je lahko označeno kot neželena pošta, tudi če "
 "prestane preverjanje SPF in DKIM."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:31
+#: ../../content/applications/general/email_communication/email_domain.rst:28
 msgid "SPF (Sender Policy Framework)"
 msgstr "SPF (Sender Policy Framework)"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:33
+#: ../../content/applications/general/email_communication/email_domain.rst:30
 msgid ""
 "The Sender Policy Framework (SPF) protocol allows the owner of a domain name "
 "to specify which servers are allowed to send emails from that domain. When a "
@@ -3654,7 +3655,7 @@ msgstr ""
 "seznamu dovoljenih naslovov IP v skladu z :abbr:`SPF (Sender Policy "
 "Framework)` zapisom pošiljatelja."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:38
+#: ../../content/applications/general/email_communication/email_domain.rst:35
 msgid ""
 "In Odoo, the **SPF test is performed on the bounce address** defined under "
 "the :guilabel:`Alias Domain` field found under the "
@@ -3667,7 +3668,7 @@ msgstr ""
 "podatkov. Če kot :guilabel:`Vzdevno domeno` uporabljate lastno domeno, jo "
 "morate konfigurirati tako, da ustreza zahtevam SPF."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:42
+#: ../../content/applications/general/email_communication/email_domain.rst:39
 msgid ""
 "The SPF policy of a domain is set using a TXT record. The way to create or "
 "modify this record depends on the provider hosting the :abbr:`DNS (Domain "
@@ -3677,13 +3678,13 @@ msgstr ""
 "spreminjanja tega zapisa je odvisen od ponudnika, ki gostuje :abbr:`DNS "
 "(Domain Name System)` cono imena domene."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:45
+#: ../../content/applications/general/email_communication/email_domain.rst:42
 msgid ""
 "If the domain name does not yet have an SPF record, create one using the "
 "following input:"
 msgstr "Če domena še nima zapisa SPF, ga ustvarite z naslednjim vnosom:"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:51
+#: ../../content/applications/general/email_communication/email_domain.rst:48
 msgid ""
 "If the domain name **already has an SPF record, the record must be "
 "updated**. Do not create a new one, as a domain must have only one SPF "
@@ -3692,7 +3693,7 @@ msgstr ""
 "Če domena **že ima zapis SPF, morate zapis posodobiti**. Ne ustvarite novega "
 "zapisa, saj mora imeti domena samo en zapis SPF."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:55
+#: ../../content/applications/general/email_communication/email_domain.rst:52
 msgid ""
 "If the TXT record is `v=spf1 include:_spf.google.com ~all`, edit it to add "
 "`include:_spf.odoo.com`: `v=spf1 include:_spf.odoo.com "
@@ -3702,7 +3703,7 @@ msgstr ""
 "`include:_spf.odoo.com`: `v=spf1 include:_spf.odoo.com "
 "include:_spf.google.com ~all`"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:58
+#: ../../content/applications/general/email_communication/email_domain.rst:55
 msgid ""
 "Check the SPF record using a tool like `MXToolbox SPF Record Check <https://"
 "mxtoolbox.com/spf.aspx>`_. The process to create or modify an SPF record "
@@ -3716,11 +3717,11 @@ msgstr ""
 "domene. :ref:`Najpogostejši ponudniki <email-domain-providers-"
 "documentation>` in njihova dokumentacija so navedeni spodaj."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:66
+#: ../../content/applications/general/email_communication/email_domain.rst:63
 msgid "DKIM (DomainKeys Identified Mail)"
 msgstr "DKIM (DomainKeys Identified Mail)"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:68
+#: ../../content/applications/general/email_communication/email_domain.rst:65
 msgid ""
 "The DomainKeys Identified Mail (DKIM) allows a user to authenticate emails "
 "with a digital signature."
@@ -3728,21 +3729,16 @@ msgstr ""
 "DomainKeys Identified Mail (DKIM) uporabniku omogoča overjanje e-pošte z "
 "digitalnim podpisom."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:70
+#: ../../content/applications/general/email_communication/email_domain.rst:67
 msgid ""
-"When sending an email, the Odoo email server includes a unique DKIM "
-"signature in the headers. The recipient's server decrypts this signature "
-"using the DKIM record in the database's domain name. If the signature and "
-"the key contained in the record match, it proves the message is authentic "
-"and has not been altered during transport."
+"When sending an email, the Odoo email server includes a unique :abbr:`DKIM "
+"(DomainKeys Identified Mail)` signature in the headers. The recipient's "
+"server decrypts this signature using the DKIM record in the database's "
+"domain name. If the signature and the key contained in the record match, it "
+"proves the message is authentic and has not been altered during transport."
 msgstr ""
-"Ko pošilja e-poštno sporočilo, strežnik e-pošte Odoo vključi edinstven "
-"podpis DKIM v glave. Strežnik prejemnika dešifrira ta podpis s pomočjo "
-"zapisa DKIM v domenskem imenu zbirke podatkov. Če se podpis in ključ v "
-"zapisu ujemata, to dokazuje, da je sporočilo pristno in ni bilo spremenjeno "
-"med prenosom."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:75
+#: ../../content/applications/general/email_communication/email_domain.rst:72
 msgid ""
 "Enabling DKIM is **required** when sending emails **from a custom domain** "
 "using the Odoo email server."
@@ -3750,137 +3746,20 @@ msgstr ""
 "Omogočanje DKIM je **obvezno** pri pošiljanju e-pošte **iz lastne domene** "
 "prek e-poštnega strežnika Odoo."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:79
-msgid "Add a CNAME record for domain"
-msgstr "Dodajte zapis CNAME za domeno"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:81
+#: ../../content/applications/general/email_communication/email_domain.rst:75
 msgid ""
-"To enable DKIM, add a canonical name (CNAME) record to the domain name "
-"system (DNS) zone of the domain name:"
+"To enable DKIM, add a :abbr:`CNAME (Canonical Name)` record to "
+"the :abbr:`DNS (Domain Name System)` zone of the domain name:"
 msgstr ""
-"Za omogočanje DKIM dodajte kanonično ime (CNAME) zapisa v sistem domenskih "
-"imen (DNS) cono domenskega imena:"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:89
+#: ../../content/applications/general/email_communication/email_domain.rst:83
 msgid ""
-"If the domain name is *company-name.com*, make sure to create a CNAME record "
-"where the CNAME record (key/name) is `odoo._domainkey.company-name.com`, and "
-"the canonical name (value/content) is `odoo._domainkey.odoo.com.`. For "
-"example, note the differences between each key/value in italics\\:"
+"If the domain name is `company-name.com`, make sure to create a subdomain "
+"`odoo._domainkey.company-name.com` whose canonical name is "
+"`odoo._domainkey.odoo.com.`."
 msgstr ""
-"Če je domensko ime *company-name.com*, se prepričajte, da ustvarite zapis "
-"CNAME, kjer je zapis CNAME (ključ/ime) `odoo._domainkey.company-name.com`, "
-"kanonično ime (vrednost/vsebina) pa `odoo._domainkey.odoo.com.`. Na primer, "
-"upoštevajte razlike med posameznim ključem/vrednostjo v ležečem tisku:"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:93
-msgid "Example CNAME record"
-msgstr "Primer zapisa CNAME"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:98
-#: ../../content/applications/general/email_communication/email_domain.rst:119
-#: ../../content/applications/general/email_communication/email_domain.rst:146
-msgid "Key"
-msgstr "Ključ"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:100
-msgid "odoo.\\_domainkey"
-msgstr "odoo.\\_domainkey"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:102
-#: ../../content/applications/general/email_communication/email_domain.rst:123
-#: ../../content/applications/general/email_communication/email_domain.rst:154
-msgid "Value"
-msgstr "Vrednost"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:104
-#: ../../content/applications/general/email_communication/email_domain.rst:125
-#: ../../content/applications/general/email_communication/email_domain.rst:156
-msgid "odoo.\\_domainkey.\\ *odoo.com.* |nbsp|"
-msgstr "odoo.\\_domainkey.\\ *odoo.com.* |nbsp|"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:107
-#: ../../content/applications/general/email_communication/email_domain.rst:128
-#: ../../content/applications/general/email_communication/email_domain.rst:151
-#: ../../content/applications/general/email_communication/email_domain.rst:159
-msgid "OR"
-msgstr "ALI"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:108
-#: ../../content/applications/general/email_communication/email_domain.rst:129
-#: ../../content/applications/general/email_communication/email_domain.rst:160
-msgid "odoo.\\_domainkey.\\ *dbname*\\ .odoo.com."
-msgstr "odoo.\\_domainkey.\\ *dbname*\\ .odoo.com."
-
-#: ../../content/applications/general/email_communication/email_domain.rst:109
-#: ../../content/applications/general/email_communication/email_domain.rst:130
-#: ../../content/applications/general/email_communication/email_domain.rst:161
-msgid "... where *dbname* is the name of the Odoo database."
-msgstr "... kjer je *dbname* ime zbirke podatkov Odoo."
-
-#: ../../content/applications/general/email_communication/email_domain.rst:111
-msgid ""
-"On most DNS platforms, the DNS provider adds the custom domain (e.g., "
-"*company-name.com*) by default. In this case, the key looks different while "
-"the value remains the same:"
-msgstr ""
-"Na večini platform DNS ponudnik DNS privzeto doda domeno po meri (npr. "
-"*company-name.com*). V tem primeru je videti ključ drugače, medtem ko "
-"vrednost ostane enaka:"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:114
-msgid "Example CNAME record with custom domain"
-msgstr "Primer zapisa CNAME z domeno po meri"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:121
-msgid "odoo.\\_domainkey.\\ *company-name.com* |nbsp|"
-msgstr "odoo.\\_domainkey.\\ *company-name.com* |nbsp|"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:122
-#: ../../content/applications/general/email_communication/email_domain.rst:153
-msgid "... where *company-name.com* is the custom domain."
-msgstr "... kjer je *company-name.com* domena po meri."
-
-#: ../../content/applications/general/email_communication/email_domain.rst:133
-msgid ""
-"If the DNS provider does not add the custom domain by default, make sure to "
-"include it."
-msgstr "Če ponudnik DNS domene po meri ne doda samodejno, jo poskrbite dodati."
-
-#: ../../content/applications/general/email_communication/email_domain.rst:136
-msgid "Add a CNAME record for subdomain"
-msgstr "Dodajte zapis CNAME za poddomena"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:138
-msgid ""
-"If there's a \\ *subdomain* (e.g., *marketing* in *marketing*\\ .company-"
-"name.com), add a CNAME record to include it for compliance as well:"
-msgstr ""
-"Če obstaja \\ *poddomena* (npr. *marketing* v *marketing*\\ .company-"
-"name.com), dodajte zapis CNAME, da jo vključite tudi za skladnost:"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:141
-msgid "Example CNAME record with subdomain"
-msgstr "Primer zapisa CNAME s poddomena"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:148
-msgid "odoo.\\_domainkey.\\ *marketing* |nbsp|"
-msgstr "odoo.\\_domainkey.\\ *marketing* |nbsp|"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:149
-msgid "... where *marketing* is the subdomain."
-msgstr "... kjer je *marketing* poddomena."
-
-#: ../../content/applications/general/email_communication/email_domain.rst:152
-msgid "odoo.\\_domainkey.marketing.\\ *company-name.com*\\ |nbsp|"
-msgstr "odoo.\\_domainkey.marketing.\\ *company-name.com*\\ |nbsp|"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:164
-msgid "See DNS provider documentation"
-msgstr "Glejte dokumentacijo ponudnika DNS"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:166
+#: ../../content/applications/general/email_communication/email_domain.rst:86
 msgid ""
 "The way to create or modify a CNAME record depends on the provider hosting "
 "the DNS zone of the domain name. The :ref:`most common providers <email-"
@@ -3890,23 +3769,19 @@ msgstr ""
 "gostuje cono DNS imena domene. :ref:`Najpogostejši ponudniki <email-domain-"
 "providers-documentation>` in njihova dokumentacija so navedeni spodaj."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:170
+#: ../../content/applications/general/email_communication/email_domain.rst:90
 msgid ""
 "Check if the DKIM record is valid using a tool like `MXToolbox DKIM Record "
 "Lookup <https://mxtoolbox.com/dkim.aspx>`_. Enter `example.com:odoo` in the "
-"DKIM lookup tool, specifying that the selector being tested is *odoo* for "
-"the custom domain *example.com*."
+"DKIM lookup tool, specifying that the selector being tested is `odoo` for "
+"the custom domain `example.com`."
 msgstr ""
-"Preverite, ali je zapis DKIM veljaven z orodjem, kot je `MXToolbox DKIM "
-"Record Lookup <https://mxtoolbox.com/dkim.aspx>`_. V orodje za iskanje DKIM "
-"vnesite `example.com:odoo`, pri čemer določite, da je izbirnik, ki se "
-"preizkuša, *odoo* za domeno po meri *example.com*."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:177
+#: ../../content/applications/general/email_communication/email_domain.rst:97
 msgid "DMARC (Domain-based Message Authentication, Reporting and Conformance)"
 msgstr "DMARC (Domain-based Message Authentication, Reporting and Conformance)"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:179
+#: ../../content/applications/general/email_communication/email_domain.rst:99
 msgid ""
 "The :abbr:`DMARC (Domain-based Message Authentication, Reporting, & "
 "Conformance)` record is a protocol that unifies :abbr:`SPF (Sender Policy "
@@ -3920,7 +3795,7 @@ msgstr ""
 "domene povedo ciljnemu strežniku, kaj storiti s prejeto e-pošto, ki ne "
 "prestane preverjanja SPF in/ali DKIM."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:185
+#: ../../content/applications/general/email_communication/email_domain.rst:105
 msgid ""
 "The aim of this documentation is to help **understand the impact DMARC has "
 "on the deliverability of emails**, rather than give precise instructions for "
@@ -3932,23 +3807,23 @@ msgstr ""
 "nastavitev zapisa DMARC se sklicujte na vir, kot je `DMARC.org <https://"
 "dmarc.org/>`_."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:189
+#: ../../content/applications/general/email_communication/email_domain.rst:109
 msgid "There are three DMARC policies:"
 msgstr "Obstajajo trije pravilniki DMARC:"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:191
+#: ../../content/applications/general/email_communication/email_domain.rst:111
 msgid "`p=none`"
 msgstr "`p=none`"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:192
+#: ../../content/applications/general/email_communication/email_domain.rst:112
 msgid "`p=quarantine`"
 msgstr "`p=quarantine`"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:193
+#: ../../content/applications/general/email_communication/email_domain.rst:113
 msgid "`p=reject`"
 msgstr "`p=reject`"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:195
+#: ../../content/applications/general/email_communication/email_domain.rst:115
 msgid ""
 "`p=quarantine` and `p=reject` instruct the server that receives an email to "
 "quarantine that email or ignore it if the SPF or DKIM check fails."
@@ -3956,7 +3831,7 @@ msgstr ""
 "`p=quarantine` in `p=reject` naročita strežniku, ki prejme e-pošto, naj jo "
 "da v karanteno ali prezre, če preverjanje SPF ali DKIM ne uspe."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:199
+#: ../../content/applications/general/email_communication/email_domain.rst:119
 msgid ""
 "**For the DMARC to pass, the DKIM or SPF check needs to pass** and the "
 "domains must be in alignment. If the hosting type is Odoo Online, DKIM "
@@ -3966,7 +3841,7 @@ msgstr ""
 "morajo biti usklajene. Če je vrsta gostovanja Odoo Online, je za uspešen "
 "DMARC potrebna konfiguracija DKIM na pošiljateljski domeni."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:203
+#: ../../content/applications/general/email_communication/email_domain.rst:123
 msgid ""
 "Passing DMARC generally means that the email will be successfully delivered. "
 "However, it's important to note that **other factors like spam filters can "
@@ -3976,7 +3851,7 @@ msgstr ""
 "je pomembno opozoriti, da **drugi dejavniki, kot so filtri neželene pošte, "
 "lahko sporočilo še vedno zavrnejo ali dajo v karanteno**."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:206
+#: ../../content/applications/general/email_communication/email_domain.rst:126
 msgid ""
 "`p=none` is used for the domain owner to receive reports about entities "
 "using their domain. It should not impact the deliverability."
@@ -3984,7 +3859,7 @@ msgstr ""
 "`p=none` se uporablja, da lastnik domene prejema poročila o entitetah, ki "
 "uporabljajo njegovo domeno. To ne bi smelo vplivati na dostavljanje."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:210
+#: ../../content/applications/general/email_communication/email_domain.rst:130
 msgid ""
 ":literal:`_dmarc IN TXT “v=DMARC1; p=none; "
 "rua=mailto:postmaster@example.com”` means that aggregate DMARC reports will "
@@ -3994,11 +3869,11 @@ msgstr ""
 "rua=mailto:postmaster@example.com”` pomeni, da bodo agregirana poročila "
 "DMARC poslana na `postmaster\\@example.com`."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:217
+#: ../../content/applications/general/email_communication/email_domain.rst:137
 msgid "SPF, DKIM and DMARC documentation of common providers"
 msgstr "Dokumentacija SPF, DKIM in DMARC pogostih ponudnikov"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:219
+#: ../../content/applications/general/email_communication/email_domain.rst:139
 msgid ""
 "`OVH DNS <https://docs.ovh.com/us/en/domains/"
 "web_hosting_how_to_edit_my_dns_zone/>`_"
@@ -4006,21 +3881,19 @@ msgstr ""
 "`OVH DNS <https://docs.ovh.com/us/en/domains/"
 "web_hosting_how_to_edit_my_dns_zone/>`_"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:220
+#: ../../content/applications/general/email_communication/email_domain.rst:140
 msgid ""
 "`GoDaddy TXT record <https://www.godaddy.com/help/add-a-txt-record-19232>`_"
 msgstr ""
 "`GoDaddy TXT zapis <https://www.godaddy.com/help/add-a-txt-record-19232>`_"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:221
+#: ../../content/applications/general/email_communication/email_domain.rst:141
 msgid ""
-"`GoDaddy SPF, DKIM, or DMARC records <https://www.godaddy.com/help/set-up-"
-"spf-dkim-or-dmarc-records-for-my-hosting-email-40810>`_"
+"`GoDaddy CNAME record <https://www.godaddy.com/help/add-a-cname-"
+"record-19236>`_"
 msgstr ""
-"`GoDaddy SPF, DKIM ali DMARC zapisi <https://www.godaddy.com/help/set-up-spf-"
-"dkim-or-dmarc-records-for-my-hosting-email-40810>`_"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:223
+#: ../../content/applications/general/email_communication/email_domain.rst:142
 msgid ""
 "`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/"
 "317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
@@ -4028,7 +3901,7 @@ msgstr ""
 "`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/"
 "317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:225
+#: ../../content/applications/general/email_communication/email_domain.rst:143
 msgid ""
 "`CloudFlare DNS <https://support.cloudflare.com/hc/en-us/articles/"
 "360019093151>`_"
@@ -4036,7 +3909,7 @@ msgstr ""
 "`CloudFlare DNS <https://support.cloudflare.com/hc/en-us/articles/"
 "360019093151>`_"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:226
+#: ../../content/applications/general/email_communication/email_domain.rst:144
 msgid ""
 "`Squarespace DNS records <https://support.squarespace.com/hc/en-us/articles/"
 "360002101888-Adding-custom-DNS-records-to-your-Squarespace-managed-domain>`_"
@@ -4044,7 +3917,7 @@ msgstr ""
 "`Squarespace DNS zapisi <https://support.squarespace.com/hc/en-us/articles/"
 "360002101888-Adding-custom-DNS-records-to-your-Squarespace-managed-domain>`_"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:228
+#: ../../content/applications/general/email_communication/email_domain.rst:145
 msgid ""
 "`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
 "portal>`_"
@@ -4052,7 +3925,7 @@ msgstr ""
 "`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
 "portal>`_"
 
-#: ../../content/applications/general/email_communication/email_domain.rst:230
+#: ../../content/applications/general/email_communication/email_domain.rst:147
 msgid ""
 "To fully test the configuration, use the `Mail-Tester <https://www.mail-"
 "tester.com/>`_ tool, which gives a full overview of the content and "
@@ -4064,21 +3937,13 @@ msgstr ""
 "enem poslanem e-sporočilu. Mail-Tester lahko uporabite tudi za konfiguracijo "
 "zapisov za druge, manj znane ponudnike."
 
-#: ../../content/applications/general/email_communication/email_domain.rst:235
+#: ../../content/applications/general/email_communication/email_domain.rst:152
 msgid ""
 "`Using Mail-Tester to set SPF Records for specific carriers <https://"
 "www.mail-tester.com/spf/>`_"
 msgstr ""
 "`Uporaba Mail-Tester za nastavitev SPF zapisov za določene ponudnike "
 "<https://www.mail-tester.com/spf/>`_"
-
-#: ../../content/applications/general/email_communication/email_domain.rst:237
-msgid ""
-"`Magic Sheet - SPF, DKIM and DMARC configuration [PDF] <https://"
-"drive.google.com/drive/folders/1TJIXQpdR0VN8UQx5JP7q7vFuAr3e1Q3r>`_"
-msgstr ""
-"`Čarobni list - konfiguracija SPF, DKIM in DMARC [PDF] <https://"
-"drive.google.com/drive/folders/1TJIXQpdR0VN8UQx5JP7q7vFuAr3e1Q3r>`_"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:3
 msgid "Manage inbound messages"
@@ -4093,7 +3958,7 @@ msgstr ""
 "Dohodno sporočilo je e-pošta, dostavljana v podatkovno bazo Odoo. Kdorkoli "
 "lahko pošlje e-pošto na e-poštni vzdevek, ustvarjen v podatkovni bazi, ali "
 "odgovori na e-pošto, ki je bila prej poslana iz podatkovne baze na podlagi "
-"glave *reply-to*."
+"elementa zaglavja *reply-to*."
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:12
 msgid "Email aliases"
@@ -4108,8 +3973,8 @@ msgid ""
 "Some applications have their specific aliases (sales teams, helpdesk teams, "
 "projects, etc.). These aliases are used to:"
 msgstr ""
-"Nekatere aplikacije imajo svoje specifične pseudonime (prodajne ekipe, ekipe "
-"službe za pomoč, projekti itd.). Ti pseudonimi se uporabljajo za:"
+"Nekatere aplikacije imajo svoje specifične pseudonime (prodajne ekipe, "
+"podporne ekipe, projekti itd.). Ti pseudonimi se uporabljajo za:"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:22
 msgid "Create a record when an email is sent directly to the alias,"
@@ -4138,7 +4003,7 @@ msgstr ""
 "vodstvo, dodeljeno ustrezni prodajni ekipi. Če je e-poštno sporočilo poslano "
 "iz pogovornega okna obstoječe priložnosti, bo *reply-to* nastavljen na "
 "`info@company-name.odoo.com`. Odgovor bo objavljen v pravem pogovornem oknu "
-"glede na glavo *message-id*."
+"glede na element zaglavja *message-id*."
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:39
 msgid "Catchall"
@@ -4154,7 +4019,7 @@ msgstr ""
 "Če aplikacija nima pseudonima, se uporabi generični nadomestni pseudonim: "
 "catchall. E-poštno sporočilo, poslano iz pogovornega okna, ima naslov za "
 "odgovor nastavljen na ta catchall pseudonim. Odgovor, poslan na catchall, se "
-"objavi v pravem pogovornem oknu zahvaljujoč glavi *message-id*."
+"objavi v pravem pogovornem oknu zahvaljujoč elementu zaglavja *message-id*."
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:45
 msgid ""
@@ -5093,7 +4958,7 @@ msgstr ""
 "primeru so vsi privzeti e-poštni naslovi zgrajeni z uporabo domene po meri. "
 "Če je domena po meri `company-name.com`, bo naslov pošiljatelja "
 "`notifications@company-name.com`, naslov za *odgovor* `catchall@company-"
-"name.com` in naslov za *bounce* `bounce@company-name.com`. Domena po meri se "
+"name.com` in naslov za *odboje* `bounce@company-name.com`. Domena po meri se "
 "lahko uporablja pri pošiljanju e-pošte bodisi z Odoo poštnimi strežniki "
 "bodisi z zunanjim."
 
@@ -5219,7 +5084,8 @@ msgid ""
 "(CRM, invoices, sales orders, etc.), one of these three methods must be used:"
 msgstr ""
 "Za prejemanje e-pošte v podatkovni bazi Odoo v ustreznem pogovoru (CRM, "
-"računi, prodajni nalogi itd.) je treba uporabiti eno od teh treh metod:"
+"izdani računi, prodajni nalogi itd.) je treba uporabiti eno od teh treh "
+"metod:"
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:100
 msgid ""
@@ -5373,10 +5239,10 @@ msgid ""
 msgstr ""
 "Transakcijske e-pošte in množične pošiljke je mogoče v Odoo pošiljati prek "
 "ločenih e-poštnih strežnikov. To pomeni, da bodo vsakodnevne e-pošte, "
-"ponudbe ali računi, poslani strankam, obravnavani kot *transakcijske e-"
-"pošte*. *E-pošte množičnih pošiljk*, vključno s pošiljanjem paketov računov "
-"ali ponudb, pa bodo upravljali aplikaciji Marketing Automation ali Email "
-"Marketing."
+"ponudbe ali izdani računi, poslani strankam, obravnavani kot *transakcijske "
+"e-pošte*. *E-pošte množičnih pošiljk*, vključno s pošiljanjem paketov "
+"izdanih računov ali ponudb, pa bodo upravljali aplikaciji Marketing "
+"Automation ali Email Marketing."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:163
 msgid ""
@@ -5512,8 +5378,8 @@ msgid ""
 "If no server is found based on the second criteria, Odoo uses the first "
 "server, and the email will be overridden with the notification address."
 msgstr ""
-"Pokud není na základě druhého kritéria nalezen žádný server, Odoo použije "
-"první server a e-mail bude přepsán notifikační adresou."
+"Če na podlagi drugega merila ni najden noben strežnik, Odoo uporabi prvi "
+"strežnik, e-pošta pa bo prepisana z naslovom za obvestila."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:218
 msgid ""
@@ -5521,29 +5387,29 @@ msgid ""
 "the value is, the higher the priority is). Failing to do so, the first "
 "server is determined by the servers' names, using alphabetical order."
 msgstr ""
-"Pro určení, který server je první, Odoo používá hodnotu priority (čím nižší "
-"hodnota, tím vyšší priorita). Pokud se to nezdaří, je první server určen "
-"podle názvů serverů v abecedním pořadí."
+"Za določitev prvega strežnika Odoo uporabi vrednost prioritete (nižja kot je "
+"vrednost, višja je prioriteta). Če to ni mogoče, se prvi strežnik določi "
+"glede na imena strežnikov po abecednem vrstnem redu."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:222
 msgid ""
 "If there is no mail server, Odoo relies on the :ref:`system parameter <email-"
 "outbound-default-from-filtering>` value."
 msgstr ""
-"Pokud neexistuje žádný poštovní server, Odoo se spoléhá na "
-"hodnotu :ref:`systémového parametru <email-outbound-default-from-filtering>`."
+"Če poštni strežnik ne obstaja, se Odoo opira na vrednost :ref:`sistemskega "
+"parametra <email-outbound-default-from-filtering>`."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:225
 msgid ""
 "It is also possible to use Odoo's mail server for transactional emails in "
 "addition to mass mailings."
 msgstr ""
-"Je také možné používat poštovní server Odoo pro transakční e-maily kromě "
-"hromadných rozesílek."
+"Poštni strežnik Odoo je mogoče uporabljati tudi za transakcijska e-poštna "
+"sporočila poleg množičnega pošiljanja."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:230
 msgid "Using an external email server and Odoo’s default server"
-msgstr "Používání externího e-mailového serveru a výchozího serveru Odoo"
+msgstr "Uporaba zunanjega e-poštnega strežnika in privzetega strežnika Odoo"
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:232
 msgid ""
@@ -5551,16 +5417,17 @@ msgid ""
 "If no outgoing mail server is set, the default Odoo's SMTP server will be "
 "used."
 msgstr ""
-"V Odoo Online a Odoo.sh jsou databáze spuštěny s SMTP serverem Odoo. Pokud "
-"není nastaven žádný odchozí poštovní server, bude použit výchozí SMTP server "
-"Odoo."
+"V Odoo Online in Odoo.sh se zbirke podatkov zaženejo z Odoovim strežnikom "
+"SMTP. Če ni nastavljen noben odhodni poštni strežnik, bo uporabljen privzeti "
+"Odoov strežnik SMTP."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:None
 msgid ""
 "Adding a mail server using the Odoo's mail server with the CLI "
 "authentication."
 msgstr ""
-"Přidání poštovního serveru pomocí poštovního serveru Odoo s CLI autentizací."
+"Dodajanje poštnega strežnika z Odoovim poštnim strežnikom in preverjanjem "
+"istovetnosti CLI."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:239
 msgid ""
@@ -5570,18 +5437,18 @@ msgid ""
 "there is no FROM filtering, the email will go out using the notification "
 "address."
 msgstr ""
-"Pokud je odchozí poštovní server používán současně s výchozím serverem Odoo "
-"(CLI), musí filtr FROM odchozího poštovního serveru obsahovat vlastní doménu "
-"a filtr FROM CLI musí obsahovat subdoménu Odoo. Pokud neexistuje žádná "
-"filtrace FROM, e-mail bude odeslán pomocí notifikační adresy."
+"Če se odhodni poštni strežnik uporablja hkrati z Odoovim privzetim "
+"strežnikom (CLI), mora filter FROM odhodnega poštnega strežnika vsebovati "
+"domeno po meri, filter FROM CLI pa mora vsebovati Odoovo poddomeno. Če "
+"filtriranje FROM ni nastavljeno, bo e-pošta poslana z naslovom za obvestila."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:None
 msgid ""
 "Splitting of Odoo mail server for transactional emails and Mail server for "
 "Mass mailing."
 msgstr ""
-"Rozdělení poštovního serveru Odoo pro transakční e-maily a poštovního "
-"serveru pro hromadné rozesílky."
+"Razdelitev Odoovega poštnega strežnika za transakcijska e-poštna sporočila "
+"in poštnega strežnika za množično pošiljanje."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:248
 msgid ""
@@ -5589,9 +5456,9 @@ msgid ""
 "mail server, using the same limit as if there was no outgoing mail server in "
 "place."
 msgstr ""
-"V Odoo Online je rozhraní příkazového řádku ekvivalentní výchozímu "
-"poštovnímu serveru Odoo a používá stejný limit, jako kdyby nebyl nastaven "
-"žádný odchozí poštovní server."
+"V Odoo Online je vmesnik ukazne vrstice enakovreden privzetemu Odoovemu "
+"poštnemu strežniku in uporablja enako omejitev, kot če ne bi bil nastavljen "
+"noben odhodni poštni strežnik."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:252
 msgid ""
@@ -5599,17 +5466,17 @@ msgid ""
 "limit. On Odoo.sh, you need to check on the monitor page the number of "
 "outgoing emails that were sent."
 msgstr ""
-"V Odoo Online stránka také zobrazuje vaše denní využití e-mailů a váš denní "
-"limit. V Odoo.sh je třeba zkontrolovat na stránce monitoru počet odeslaných "
-"odchozích e-mailů."
+"V Odoo Online stran prikazuje tudi dnevno uporabo e-pošte in dnevno "
+"omejitev. V Odoo.sh morate na strani nadzornika preveriti število poslanih "
+"odhodnih e-poštnih sporočil."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:256
 msgid ""
 "On Odoo.sh, to use the command-line interface, an outgoing mail server can "
 "be configured on the configuration file."
 msgstr ""
-"V Odoo.sh lze pro použití rozhraní příkazového řádku nakonfigurovat odchozí "
-"poštovní server v konfiguračním souboru."
+"V Odoo.sh je mogoče za uporabo vmesnika ukazne vrstice odhodni poštni "
+"strežnik konfigurirati v konfiguracijski datoteki."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:260
 msgid ""
@@ -5618,13 +5485,14 @@ msgid ""
 "failure-messages-limit>` depends on the database type and the applications "
 "used."
 msgstr ""
-"Poštovní server Odoo je určen pro transakční e-maily a malé marketingové "
-"kampaně. :ref:`Denní limit <email-issues-outgoing-delivery-failure-messages-"
-"limit>` závisí na typu databáze a používaných aplikacích."
+"Odoov poštni strežnik je namenjen transakcijskim e-poštnim sporočilom in "
+"manjšim trženjskim kampanjam. :ref:`Dnevna omejitev <email-issues-outgoing-"
+"delivery-failure-messages-limit>` je odvisna od vrste zbirke podatkov in "
+"uporabljenih aplikacij."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:267
 msgid "Using a custom domain with an external email server"
-msgstr "Používání vlastní domény s externím e-mailovým serverem"
+msgstr "Uporaba domene po meri z zunanjim e-poštnim strežnikom"
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:269
 msgid ""
@@ -5635,12 +5503,12 @@ msgid ""
 "records (SPF, DKIM, and DMARC). A list of the :ref:`most common providers is "
 "available <email-domain-providers-documentation>`."
 msgstr ""
-"Podobně jako v :ref:`předchozí kapitole <email-outbound-different-servers-"
-"external-odoo>` může být potřeba správná konfigurace, aby bylo zajištěno, že "
-"externí e-mailový server má povoleno odesílat e-maily pomocí vaší vlastní "
-"domény. Správné nastavení příslušných záznamů (SPF, DKIM a DMARC) najdete v "
-"dokumentaci svého poskytovatele. K dispozici je :ref:`seznam nejběžnějších "
-"poskytovatelů <email-domain-providers-documentation>`."
+"Podobno kot v :ref:`prejšnjem poglavju <email-outbound-different-servers-"
+"external-odoo>` je morda potrebna ustrezna konfiguracija, da lahko zunanji e-"
+"poštni strežnik pošilja e-pošto z vašo domeno po meri. Za pravilno "
+"nastavitev ustreznih zapisov (SPF, DKIM in DMARC) si oglejte dokumentacijo "
+"svojega ponudnika. Na voljo je :ref:`seznam najpogostejših ponudnikov <email-"
+"domain-providers-documentation>`."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:276
 msgid ""
@@ -5651,24 +5519,24 @@ msgid ""
 "of Odoo when using a custom email server. Odoo does not allow the "
 "configuration of Odoo's subdomain."
 msgstr ""
-"Při použití vlastní domény je vyžadována konfigurace DNS. Pokud je použit "
-"externí odchozí poštovní server, konfigurace záznamů popsaných "
-"v :doc:`dokumentaci konfigurace DNS Odoo pro naše poštovní servery "
-"<email_domain>` **nebude mít požadovaný účinek**, protože při použití "
-"vlastního e-mailového serveru je nezávislá na Odoo. Odoo neumožňuje "
-"konfiguraci subdomény Odoo."
+"Pri uporabi lastne domene je potrebna konfiguracija DNS. Če uporabljate "
+"zunanji odhodni poštni strežnik, konfiguracija zapisov, opisana "
+"v :doc:`dokumentaciji Odoove konfiguracije DNS za naše poštne strežnike "
+"<email_domain>`, **ne bo imela želenega učinka**, saj je pri uporabi e-"
+"poštnega strežnika po meri neodvisna od Odooja. Odoo ne omogoča "
+"konfiguracije Odoove poddomene."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:285
 msgid "Port restriction"
-msgstr "Omezení portu"
+msgstr "Omejitev vrat"
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:287
 msgid ""
 "Port 25 is blocked for security reasons on Odoo Online and Odoo.sh. Try "
 "using port 465, 587, or 2525 instead."
 msgstr ""
-"Port 25 je z bezpečnostních důvodů blokován v Odoo Online a Odoo.sh. Zkuste "
-"místo toho použít port 465, 587 nebo 2525."
+"Vrata 25 so zaradi varnostnih razlogov blokirana v Odoo Online in Odoo.sh. "
+"Namesto njih poskusite uporabiti vrata 465, 587 ali 2525."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:293
 msgid "Alias domain"
@@ -5680,9 +5548,9 @@ msgid ""
 "Odoo’s subdomain (e.g., `company-name.odoo.com`), but each company may have "
 "its own custom email domain."
 msgstr ""
-"Doména catchall je specifická pro společnost. Ve výchozím nastavení všechny "
-"společnosti sdílejí subdoménu Odoo (např. `nazev-spolecnosti.odoo.com`), ale "
-"každá společnost může mít svou vlastní e-mailovou doménu."
+"Domena catchall je značilna za posamezno podjetje. Privzeto vsa podjetja "
+"uporabljajo Odoovo poddomeno (npr. `naziv-podjetja.odoo.com`), vendar ima "
+"lahko vsako podjetje svojo domeno e-pošte."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:298
 msgid ""
@@ -5690,9 +5558,9 @@ msgid ""
 "available by going to :menuselection:`Settings --> Technical --> Email: "
 "Alias Domains`."
 msgstr ""
-"Když je aktivován :ref:`developer-mode`, jsou možnosti domény aliasu "
-"dostupné přechodem na :menuselection:`Nastavení --> Technické --> E-mail: "
-"Domény aliasů`."
+"Ko je aktiviran :ref:`developer-mode`, so možnosti domene vzdevkov na voljo "
+"v meniju :menuselection:`Nastavitve --> Tehnično --> E-pošta: Domene "
+"vzdevkov`."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:302
 msgid ""
@@ -5714,9 +5582,9 @@ msgid ""
 msgstr ""
 "Polje :guilabel:`Privzeti alias Za` lahko izpolnite z lokalno-delnim delom e-"
 "poštnega naslova (privzeto `notifications`) ali s celotnim e-poštnim "
-"naslovom. Konfigurirajte ga, da določite glavo `FROM` vaših e-poštnih "
-"sporočil. Če uporabite celoten e-poštni naslov, bodo vsa odhodna e-poštna "
-"sporočila prepisana s tem naslovom."
+"naslovom. Konfigurirajte ga, da določite element zaglavja `FROM` vaših e-"
+"poštnih sporočil. Če uporabite celoten e-poštni naslov, bodo vsa odhodna e-"
+"poštna sporočila prepisana s tem naslovom."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:314
 msgid "Notification system"
@@ -5850,9 +5718,9 @@ msgid ""
 "is already present in the chatter."
 msgstr ""
 "Privzeto je po uspešnem pošiljanju obvestila ali transakcijske e-pošte "
-"(ponudba, račun, neposredno sporočilo stiku) e-poštni objekt izbrisan. "
-"Vsebina e-poštnega sporočila ostane v klepetu povezanega zapisa. To "
-"preprečuje zatrpavanje zbirke podatkov z več kopijami vsebine istega e-"
+"(ponudba, izdani račun, neposredno sporočilo stiku) e-poštni objekt "
+"izbrisan. Vsebina e-poštnega sporočila ostane v klepetu povezanega zapisa. "
+"To preprečuje zatrpavanje zbirke podatkov z več kopijami vsebine istega e-"
 "poštnega sporočila (ko je poslano več prejemnikom), če je vsebina že "
 "prisotna v klepetu."
 
@@ -5878,11 +5746,11 @@ msgid ""
 msgstr ""
 "Dohodna e-poštna sporočila se obdelujejo s preverjanjem, ali je e-poštni "
 "naslov *TO* veljaven e-poštni naslov v zbirki podatkov Odoo ali, v primeru e-"
-"pošte z odgovorom, ali obstaja referenca v glavi e-pošte, ki se ujema s "
-"sporočilom, poslanim iz zbirke podatkov Odoo. Vsa druga e-poštna sporočila "
-"bodo zavrnjena in **ne** bodo začasno shranjena v mapi za neželeno pošto ali "
-"karanteno. Z drugimi besedami, vsaka e-pošta, ki ni povezana z zbirko "
-"podatkov Odoo, je izgubljena."
+"pošte z odgovorom, ali obstaja referenca v elementu zaglavja e-pošte, ki se "
+"ujema s sporočilom, poslanim iz zbirke podatkov Odoo. Vsa druga e-poštna "
+"sporočila bodo zavrnjena in **ne** bodo začasno shranjena v mapi za neželeno "
+"pošto ali karanteno. Z drugimi besedami, vsaka e-pošta, ki ni povezana z "
+"zbirko podatkov Odoo, je izgubljena."
 
 #: ../../content/applications/general/email_communication/faq.rst:37
 msgid "Outgoing emails"
@@ -6324,7 +6192,7 @@ msgid ""
 "unless their delivery fails."
 msgstr ""
 "E-poštna sporočila, ki se štejejo za nujna (od ene osebe do druge, kot so "
-"prodajni nalogi, računi, nabavni nalogi itd.), se pošljejo takoj. Ne "
+"prodajni nalogi, izdani računi, nabavni nalogi itd.), se pošljejo takoj. Ne "
 "prikazujejo se pod :menuselection:`Nastavitve --> Tehnično --> E-pošta: E-"
 "poštna sporočila`, razen če njihova dostava ne uspe."
 
@@ -6332,8 +6200,8 @@ msgstr ""
 msgid ""
 "Example of sending information header when a mailing campaign is queued."
 msgstr ""
-"Primer glave informacij o pošiljanju, ko je kampanja pošiljanja v čakalni "
-"vrsti."
+"Primer glave z informacijami o pošiljanju, ko je kampanja pošiljanja dana v "
+"čakalno vrsto."
 
 #: ../../content/applications/general/email_communication/faq.rst:239
 msgid ""
@@ -6564,9 +6432,9 @@ msgid ""
 "support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-"
 "cd039382-dc6e-4264-ac74-c048563d212c#tab=Web>`_"
 msgstr ""
-"`Podpora Microsoft: Ogled glav internetnih sporočil v Outlooku <https://"
-"support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-"
-"cd039382-dc6e-4264-ac74-c048563d212c#tab=Web>`_"
+"`Podpora Microsoft: Ogled elementov zaglavja internetnih sporočil v Outlooku "
+"<https://support.microsoft.com/en-us/office/view-internet-message-headers-in-"
+"outlook-cd039382-dc6e-4264-ac74-c048563d212c#tab=Web>`_"
 
 #: ../../content/applications/general/email_communication/faq.rst:344
 msgid ""
@@ -6609,8 +6477,9 @@ msgid ""
 msgstr ""
 "Za **poslano e-pošto**: bodisi zagotovite EML/MSG e-pošte bodisi navedite, "
 "kateri zapis v bazi podatkov je prizadet (npr. številka prodajnega naloga, "
-"ime stika, številka računa) in datum/čas, ko je bila e-pošta poslana (npr. e-"
-"pošta poslana 10. januarja 2024 ob 11:45 srednjeevropskega časa)."
+"ime stika, številka izdanega računa) in datum/čas, ko je bila e-pošta "
+"poslana (npr. e-pošta poslana 10. januarja 2024 ob 11:45 srednjeevropskega "
+"časa)."
 
 #: ../../content/applications/general/email_communication/faq.rst:361
 msgid ""
@@ -6794,9 +6663,10 @@ msgid ""
 "However, using a *Google WorkSpace* account allows for **Internal** User "
 "Type to be used."
 msgstr ""
-"Osebni računi Gmail so dovoljeni samo kot vrsta uporabnika **Zunanji**, kar "
-"pomeni, da Google morda zahteva odobritev ali dodajanje obsegov. Uporaba "
-"računa Google WorkSpace pa omogoča uporabo vrste uporabnika **Notranji**."
+"*Osebni* računi Gmail so dovoljeni samo kot vrsta uporabnika **Zunanji**, "
+"kar pomeni, da Google morda zahteva odobritev ali dodajanje *obsegov*. "
+"Uporaba računa *Google WorkSpace* pa omogoča uporabo vrste uporabnika "
+"**Notranji**."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:59
 #: ../../content/applications/general/users/google.rst:68
@@ -6805,9 +6675,9 @@ msgid ""
 "mode, then no approval is necessary from Google. User limits in this testing "
 "mode is set to 100 users."
 msgstr ""
-"Upoštevajte tudi, da dokler je povezava API v načinu **zunanjega** "
-"testiranja, Googlova odobritev ni potrebna. Omejitev uporabnikov v tem "
-"testnem načinu je nastavljena na 100 uporabnikov."
+"Upoštevajte tudi, da dokler je povezava API v načinu *zunanjega* testiranja, "
+"Googlova odobritev ni potrebna. Omejitev uporabnikov v tem testnem načinu je "
+"nastavljena na 100 uporabnikov."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:63
 msgid "Edit app registration"
@@ -6888,7 +6758,7 @@ msgid ""
 "on :guilabel:`Credentials` in the left sidebar menu."
 msgstr ""
 "Sedaj, ko je projekt nastavljen, je treba ustvariti poverilnice, ki "
-"vključujejo ID odjemalca in skrivnost odjemalca. Najprej "
+"vključujejo *ID odjemalca* in *skrivnost odjemalca*. Najprej "
 "kliknite :guilabel:`Poverilnice` v levem stranskem meniju."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:94
@@ -8289,12 +8159,15 @@ msgid ":guilabel:`Allowed methods`: `GET`"
 msgstr ":guilabel:`Allowed methods`: `GET`"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:179
-msgid ":guilabel:`Allowed headers`: `Content-Type`"
-msgstr ":guilabel:`Dovoljene glave`: `Content-Type`"
+msgid ":guilabel:`Allowed headers`: `Content-Type, Content-Disposition`"
+msgstr ""
+":guilabel:`Dovoljeni elementi zaglavja`: `Content-Type, Content-Disposition`"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:180
-msgid ":guilabel:`Exposed headers`: `Content-Type`"
-msgstr ":guilabel:`Izpostavljene glave`: `Content-Type`"
+msgid ":guilabel:`Exposed headers`: `Content-Type, Content-Disposition`"
+msgstr ""
+":guilabel:`Izpostavljeni elementi zaglavja`: `Content-Type, Content-"
+"Disposition`"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:181
 #: ../../content/applications/general/integrations/cloud_storage.rst:189
@@ -8312,11 +8185,12 @@ msgstr ":guilabel:`Dovoljene metode`: `PUT`"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:187
 msgid ":guilabel:`Allowed headers`: `content-type,x-ms-blob-type`"
-msgstr ":guilabel:`Dovoljene glave`: `content-type,x-ms-blob-type`"
+msgstr ":guilabel:`Dovoljeni elementi zaglavja`: `content-type,x-ms-blob-type`"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:188
 msgid ":guilabel:`Exposed headers`: `content-type,x-ms-blob-type`"
-msgstr ":guilabel:`Izpostavljene glave`: `content-type,x-ms-blob-type`"
+msgstr ""
+":guilabel:`Izpostavljeni elementi zaglavja`: `content-type,x-ms-blob-type`"
 
 #: ../../content/applications/general/integrations/cloud_storage.rst:0
 msgid "Creating Microsoft Azure storage account CORS rules"
@@ -9509,7 +9383,7 @@ msgid ""
 msgstr ""
 "Za ustvarjanje priložnosti iz e-pošte kliknite ikono :icon:`fa-"
 "plus` :guilabel:`(plus)` poleg :guilabel:`Priložnosti`. To odpre nov zapis "
-"priložnosti v Odoo v novem zavihku. Zadeva e-pošte se uporabi kot naslov "
+"priložnosti v Odoo v novem zavihku. Zadeva e-pošte se uporabi kot naziv "
 "priložnosti, vsebina e-pošte pa se doda v zavihek :guilabel:`Opombe` "
 "priložnosti."
 
@@ -9527,11 +9401,11 @@ msgid ""
 "the content of the email is added to the :guilabel:`Description` tab."
 msgstr ""
 "Za ustvarjanje opravila iz e-pošte kliknite ikono :icon:`fa-"
-"plus` :guilabel:`(plus)` poleg :guilabel:`Opravila`. Nato vnesite naslov "
+"plus` :guilabel:`(plus)` poleg :guilabel:`Opravila`. Nato vnesite naziv "
 "projekta, v katerem naj bo opravilo ustvarjeno, v ustrezno polje in izberite "
 "ustrezen projekt s prikazanega seznama. To odpre nov zapis opravila v Odoo v "
-"novem zavihku. Zadeva e-pošte se uporabi kot naslov opravila, vsebina e-"
-"pošte pa se doda v zavihek :guilabel:`Opis`."
+"novem zavihku. Zadeva e-pošte se uporabi kot naziv opravila, vsebina e-pošte "
+"pa se doda v zavihek :guilabel:`Opis`."
 
 #: ../../content/applications/general/integrations/mail_plugins/outlook.rst:157
 msgid "Create a ticket"
@@ -9547,7 +9421,7 @@ msgid ""
 msgstr ""
 "Za ustvarjanje zahtevka iz e-pošte kliknite ikono :icon:`fa-"
 "plus` :guilabel:`(plus)` poleg :guilabel:`Zahtevki`. To odpre nov zapis "
-"zahtevka v Odoo v novem zavihku. Zadeva e-pošte se uporabi kot naslov "
+"zahtevka v Odoo v novem zavihku. Zadeva e-pošte se uporabi kot naziv "
 "zahtevka, vsebina e-pošte pa se doda v zavihek :guilabel:`Opis` zahtevka."
 
 #: ../../content/applications/general/integrations/unsplash.rst:3
@@ -9715,7 +9589,7 @@ msgid ""
 "`Odoo Tutorials: Internet of Things (IoT) Tutorials <https://www.odoo.com/"
 "slides/internet-of-things-iot-175>`_"
 msgstr ""
-"`Odoo vadnice: Vadnice za internet stvari (IoT) <https://www.odoo.com/slides/"
+"`Vadnice Odoo: Vadnice za internet stvari (IoT) <https://www.odoo.com/slides/"
 "internet-of-things-iot-175>`_"
 
 #: ../../content/applications/general/iot.rst:40
@@ -10117,9 +9991,9 @@ msgid ""
 "the :guilabel:`Test` button to test the connection between the IoT system "
 "and Odoo and assess the quality of the system's Internet connection."
 msgstr ""
-"Na :ref:`obrazcu sistema IoT <iot/connect/IoT-form>` kliknite gumb "
-":guilabel:`Testiraj`, da preizkusite povezavo med sistemom IoT in Odoo ter "
-"ocenite kakovost internetne povezave sistema."
+"Na :ref:`obrazcu sistema IoT <iot/connect/IoT-form>` kliknite "
+"gumb :guilabel:`Testiraj`, da preizkusite povezavo med sistemom IoT in Odoo "
+"ter ocenite kakovost internetne povezave sistema."
 
 #: ../../content/applications/general/iot/connect.rst:134
 msgid "Disconnecting an IoT system from a database"
@@ -11649,16 +11523,25 @@ msgstr ""
 "konfiguracijske korake za model DYMO LabelWriter 450 DUO Label (en). Po "
 "potrebi prilagodite izbire modela."
 
-#: ../../content/applications/general/iot/devices/printer.rst:374
+#: ../../content/applications/general/iot/devices/printer.rst:370
+msgid ""
+"DYMO Series 5 printers are not compatible with the :doc:`IoT box <../"
+"iot_box>` and require pairing with a :doc:`Windows virtual IoT <../"
+"windows_iot>`."
+msgstr ""
+"Tiskalniki DYMO Series 5 niso združljivi z :doc:`IoT boxom <../iot_box>` in "
+"jih je treba povezati z :doc:`navideznim IoT za Windows <../windows_iot>`."
+
+#: ../../content/applications/general/iot/devices/printer.rst:376
 msgid "DYMO LabelWriter not printing"
 msgstr "DYMO LabelWriter ne tiska"
 
-#: ../../content/applications/general/iot/devices/printer.rst:376
+#: ../../content/applications/general/iot/devices/printer.rst:378
 msgid "If the DYMO LabelWriter fails to print, install a new driver:"
 msgstr "Če DYMO LabelWriter ne uspe natisniti, namestite nov gonilnik:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:378
-#: ../../content/applications/general/iot/devices/printer.rst:414
+#: ../../content/applications/general/iot/devices/printer.rst:380
+#: ../../content/applications/general/iot/devices/printer.rst:416
 msgid ""
 "Access the IoT system's homepage and click :menuselection:`Printer server` "
 "to open the OpenPrinting CUPS console."
@@ -11666,7 +11549,7 @@ msgstr ""
 "Odprite domačo stran sistema IoT in kliknite :menuselection:`Printer "
 "server`, da odprete konzolo OpenPrinting CUPS."
 
-#: ../../content/applications/general/iot/devices/printer.rst:380
+#: ../../content/applications/general/iot/devices/printer.rst:382
 msgid ""
 "Click :menuselection:`Printers` in the top menu, then click the printer in "
 "the list."
@@ -11674,11 +11557,11 @@ msgstr ""
 "Kliknite :menuselection:`Printers` v zgornjem meniju, nato kliknite "
 "tiskalnik na seznamu."
 
-#: ../../content/applications/general/iot/devices/printer.rst:381
+#: ../../content/applications/general/iot/devices/printer.rst:383
 msgid "Select :guilabel:`Maintenance` in the first dropdown menu."
 msgstr "V prvem spustnem meniju izberite :guilabel:`Vzdrževanje`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:382
+#: ../../content/applications/general/iot/devices/printer.rst:384
 msgid "Select :guilabel:`Modify Printer` in the second dropdown menu."
 msgstr "V drugem spustnem meniju izberite :guilabel:`Modify Printer`."
 
@@ -11691,7 +11574,7 @@ msgstr ""
 "Spremenite znamko in model tiskalnika DYMO LabelWriter. Označena spustna "
 "menija Vzdrževanje in Modify."
 
-#: ../../content/applications/general/iot/devices/printer.rst:388
+#: ../../content/applications/general/iot/devices/printer.rst:390
 msgid ""
 "Select the specific network connection/printer on which the modification "
 "should be made and click :guilabel:`Continue`."
@@ -11699,7 +11582,7 @@ msgstr ""
 "Izberite določeno omrežno povezavo/tiskalnik, na katerem naj se izvede "
 "sprememba, in kliknite :guilabel:`Continue`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:390
+#: ../../content/applications/general/iot/devices/printer.rst:392
 msgid ""
 "On the next page, click :guilabel:`Continue`, then select :guilabel:`DYMO` "
 "from the :guilabel:`Make` dropdown list."
@@ -11707,7 +11590,7 @@ msgstr ""
 "Na naslednji strani kliknite :guilabel:`Continue`, nato "
 "izberite :guilabel:`DYMO` s spustnega seznama :guilabel:`Make`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:392
+#: ../../content/applications/general/iot/devices/printer.rst:394
 msgid ""
 "Click on :guilabel:`Continue` and set the :guilabel:`Model` "
 "to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO "
@@ -11717,7 +11600,7 @@ msgstr ""
 "na :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (ali katerikoli drug "
 "model tiskalnika DYMO, ki se uporablja)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:394
+#: ../../content/applications/general/iot/devices/printer.rst:396
 msgid ""
 "Click :guilabel:`Modify Printer` to set the new driver; a confirmation page "
 "appears."
@@ -11725,7 +11608,7 @@ msgstr ""
 "Kliknite :guilabel:`Modify Printer`, da nastavite nov gonilnik; prikaže se "
 "potrditvena stran."
 
-#: ../../content/applications/general/iot/devices/printer.rst:395
+#: ../../content/applications/general/iot/devices/printer.rst:397
 msgid ""
 "Click :menuselection:`Printers` in the top menu; all printers installed on "
 "the OpenPrinting CUPS server appear, including the newly "
@@ -11737,7 +11620,7 @@ msgstr ""
 "posodobljenim :guilabel:`DYMO LabelWriter 450 DUO Label` (ali katerimkoli "
 "drugim modelom tiskalnika DYMO, ki se uporablja)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:398
+#: ../../content/applications/general/iot/devices/printer.rst:400
 msgid ""
 "Click the newly updated printer, then click the :guilabel:`Maintenance` "
 "dropdown menu and select :guilabel:`Print Test Page` to print a test label. "
@@ -11749,15 +11632,15 @@ msgstr ""
 "natisnete testno nalepko. Testna nalepka se natisne po nekaj sekundah, če je "
 "bila posodobitev gonilnika uspešna."
 
-#: ../../content/applications/general/iot/devices/printer.rst:402
+#: ../../content/applications/general/iot/devices/printer.rst:404
 msgid "To reduce this delay, add a new printer using the steps below."
 msgstr "Za zmanjšanje te zamude dodajte nov tiskalnik po spodnjih korakih."
 
-#: ../../content/applications/general/iot/devices/printer.rst:405
+#: ../../content/applications/general/iot/devices/printer.rst:407
 msgid "DYMO LabelWriter print delay"
 msgstr "Zamuda tiskanja DYMO LabelWriter"
 
-#: ../../content/applications/general/iot/devices/printer.rst:408
+#: ../../content/applications/general/iot/devices/printer.rst:410
 msgid ""
 "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not "
 "recognized (i.e., it has a :guilabel:`RAW` driver type), then :ref:`update "
@@ -11767,13 +11650,13 @@ msgstr ""
 "ima gonilnik tipa :guilabel:`RAW`), potem :ref:`posodobite gonilnike na "
 "napravi <printer/dymo/update_drivers>`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:412
+#: ../../content/applications/general/iot/devices/printer.rst:414
 msgid ""
 "To resolve the delay issue after modifying the driver, reinstall the printer:"
 msgstr ""
 "Za rešitev težave z zamudo po spremembi gonilnika znova namestite tiskalnik:"
 
-#: ../../content/applications/general/iot/devices/printer.rst:416
+#: ../../content/applications/general/iot/devices/printer.rst:418
 msgid ""
 "Click :menuselection:`Administration` in the top menu, then "
 "click :guilabel:`Add a Printer`."
@@ -11781,7 +11664,7 @@ msgstr ""
 "V zgornjem meniju kliknite :menuselection:`Administration`, nato "
 "kliknite :guilabel:`Add a Printer`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:417
+#: ../../content/applications/general/iot/devices/printer.rst:419
 msgid ""
 "On the next page, in the :guilabel:`Local Printers` section, "
 "select :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO "
@@ -11802,7 +11685,7 @@ msgstr ""
 "Zaslon za dodajanje tiskalnika v OpenPrinting CUPS s poudarjenim DYMO "
 "LabelWriter 450 DUO Label."
 
-#: ../../content/applications/general/iot/devices/printer.rst:425
+#: ../../content/applications/general/iot/devices/printer.rst:427
 msgid ""
 "On the following screen, update the :guilabel:`Name` to something easily "
 "identifiable, as the original printer will remain in the list. Then, "
@@ -11820,7 +11703,7 @@ msgstr ""
 "Stran za preimenovanje tiskalnika v postopku 'Add a Printer' s poudarjenim "
 "poljem za ime."
 
-#: ../../content/applications/general/iot/devices/printer.rst:431
+#: ../../content/applications/general/iot/devices/printer.rst:433
 msgid ""
 "Set the :guilabel:`Model` field to :guilabel:`DYMO LabelWriter 450 DUO Label "
 "(en)` (or whichever DYMO printer model is being used), then "
@@ -11839,7 +11722,7 @@ msgstr ""
 "Zaslon za izbiro modela v konzoli OpenPrinting CUPS s poudarjenim modelom in "
 "gumbom za dodajanje tiskalnika."
 
-#: ../../content/applications/general/iot/devices/printer.rst:439
+#: ../../content/applications/general/iot/devices/printer.rst:441
 msgid ""
 "Click :menuselection:`Printers` in the top menu and click the newly "
 "installed printer :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever "
@@ -11853,7 +11736,7 @@ msgstr ""
 msgid "Printer page with newly installed printer highlighted."
 msgstr "Stran s tiskalniki s poudarjenim na novo nameščenim tiskalnikom."
 
-#: ../../content/applications/general/iot/devices/printer.rst:446
+#: ../../content/applications/general/iot/devices/printer.rst:448
 msgid ""
 "Click the :guilabel:`Maintenance` dropdown list and select :guilabel:`Print "
 "Test Page` to print a test label. The test label should print out "
@@ -11863,11 +11746,11 @@ msgstr ""
 "Test Page` za tiskanje preskusne nalepke. Preskusna nalepka bi se morala "
 "natisniti takoj ali po eni ali dveh sekundah."
 
-#: ../../content/applications/general/iot/devices/printer.rst:450
+#: ../../content/applications/general/iot/devices/printer.rst:452
 msgid "The Zebra printer does not print anything"
 msgstr "Tiskalnik Zebra ne natisne ničesar"
 
-#: ../../content/applications/general/iot/devices/printer.rst:452
+#: ../../content/applications/general/iot/devices/printer.rst:454
 msgid ""
 "Zebra printers are quite sensitive to the format of the printed Zebra "
 "Programming Language (ZPL) code. If nothing comes out of the printer or "
@@ -11883,24 +11766,25 @@ msgstr ""
 "na :menuselection:`Settings --> Technical --> User Interface --> Views` in "
 "poiščite ustrezno predlogo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:459
+#: ../../content/applications/general/iot/devices/printer.rst:461
 msgid ""
 "`Zebra's instructions on printing ZPL files <https://"
 "supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
 "Printer>`_"
 msgstr ""
-"<https://supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-"
-"Generic-Text-Printer>Zebrova navodila za tiskanje datotek ZPL`_"
+"`Zebrova navodila za tiskanje datotek ZPL <https://"
+"supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-"
+"Printer>`_"
 
-#: ../../content/applications/general/iot/devices/printer.rst:463
+#: ../../content/applications/general/iot/devices/printer.rst:465
 msgid "Barcode scanner issues"
 msgstr "Težave s čitalcem črtne kode"
 
-#: ../../content/applications/general/iot/devices/printer.rst:466
+#: ../../content/applications/general/iot/devices/printer.rst:468
 msgid "The characters read by the barcode scanner do not match the barcode"
 msgstr "Znaki, ki jih prebere čitalec črtne kode, se ne ujemajo s črtno kodo"
 
-#: ../../content/applications/general/iot/devices/printer.rst:468
+#: ../../content/applications/general/iot/devices/printer.rst:470
 msgid ""
 "By default, most barcode scanners are configured in the US QWERTY format. If "
 "the barcode scanner uses a different layout, go to :menuselection:`IoT --> "
@@ -11912,8 +11796,8 @@ msgstr ""
 "na :menuselection:`IoT --> Devices` in kliknite kartico naprave za branje "
 "črtne kode. Nato v polju :guilabel:`Keyboard Layout` izberite pravilni jezik."
 
-#: ../../content/applications/general/iot/devices/printer.rst:473
-#: ../../content/applications/general/iot/devices/printer.rst:503
+#: ../../content/applications/general/iot/devices/printer.rst:475
+#: ../../content/applications/general/iot/devices/printer.rst:505
 msgid ""
 "The :guilabel:`Keyboard Layout` is language-specific, with available options "
 "varying based on the device and the language of the database "
@@ -11923,11 +11807,11 @@ msgstr ""
 "razpoložljive možnosti razlikujejo glede na napravo in jezik baze podatkov "
 "(npr. :guilabel:`angleščina (VB)`, :guilabel:`angleščina (ZDA)` itd.)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:478
+#: ../../content/applications/general/iot/devices/printer.rst:480
 msgid "Nothing happens when a barcode is scanned"
 msgstr "Ob skeniranju črtne kode se ne zgodi nič"
 
-#: ../../content/applications/general/iot/devices/printer.rst:480
+#: ../../content/applications/general/iot/devices/printer.rst:482
 msgid ""
 "Make sure the correct device is selected in the :doc:`Point of Sale settings "
 "</applications/sales/point_of_sale/hardware_network/pos_iot>` (when "
@@ -11939,11 +11823,11 @@ msgstr ""
 "(kjer je to primerno) in da je črtna koda konfigurirana tako, da na koncu "
 "vsake črtne kode pošlje znak `ENTER` (koda tipke 28)."
 
-#: ../../content/applications/general/iot/devices/printer.rst:485
+#: ../../content/applications/general/iot/devices/printer.rst:487
 msgid "The barcode scanner is detected as a keyboard"
 msgstr "Skener črtne kode je zaznan kot tipkovnica"
 
-#: ../../content/applications/general/iot/devices/printer.rst:488
+#: ../../content/applications/general/iot/devices/printer.rst:490
 msgid ""
 "Some barcode scanners are identified as USB keyboards rather than barcode "
 "scanners and are not recognized by IoT systems."
@@ -11951,7 +11835,7 @@ msgstr ""
 "Nekateri skenirji črtnih kod so identificirani kot USB tipkovnice namesto "
 "kot skenirji črtnih kod in jih sistemi IoT ne prepoznajo."
 
-#: ../../content/applications/general/iot/devices/printer.rst:491
+#: ../../content/applications/general/iot/devices/printer.rst:493
 msgid ""
 "To change the device type manually, go to :menuselection:`IoT --> Devices` "
 "and click the barcode device's card. Then, enable :guilabel:`Is scanner`."
@@ -11960,11 +11844,11 @@ msgstr ""
 "Naprave` in kliknite kartico naprave za črtno kodo. Nato "
 "omogočite :guilabel:`Je skener`."
 
-#: ../../content/applications/general/iot/devices/printer.rst:495
+#: ../../content/applications/general/iot/devices/printer.rst:497
 msgid "The barcode scanner processes barcode characters individually"
 msgstr "Skener črtne kode obdeluje znake črtne kode posamezno"
 
-#: ../../content/applications/general/iot/devices/printer.rst:497
+#: ../../content/applications/general/iot/devices/printer.rst:499
 msgid ""
 "When accessing the mobile version of Odoo from a mobile device or tablet "
 "paired with a barcode scanner via the IoT system, the scanner might "
@@ -12695,18 +12579,19 @@ msgid ""
 "the pop-up window, enter the Tailscale token provided by the Odoo support "
 "team and click :guilabel:`Enable`."
 msgstr ""
-"Na :ref:`domači strani IoT Boxa <iot/iot-box/homepage>` kliknite gumb "
-":icon:`fa-cogs` (:guilabel:`zobniki`) in nato kliknite :guilabel:`Orodja za "
-"odpravljanje napak`. V pojavnem oknu vnesite žeton Tailscale, ki ga je "
-"zagotovila podporna ekipa Odoo, in kliknite :guilabel:`Omogoči`."
+"Na :ref:`domači strani IoT Boxa <iot/iot-box/homepage>` kliknite "
+"gumb :icon:`fa-cogs` (:guilabel:`zobniki`) in nato "
+"kliknite :guilabel:`Orodja za odpravljanje napak`. V pojavnem oknu vnesite "
+"žeton Tailscale, ki ga je zagotovila podporna ekipa Odoo, in "
+"kliknite :guilabel:`Omogoči`."
 
 #: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:166
 msgid ""
 "**Remote Debug** is only available for :doc:`IoT boxes <../iot_box>`, not "
 "the :doc:`Windows virtual IoT <../windows_iot>`."
 msgstr ""
-"**Oddaljeno razhroščevanje** je na voljo samo za :doc:`IoT boxe <../iot_box>"
-"`, ne za :doc:`Windows virtualni IoT <../windows_iot>`."
+"**Oddaljeno razhroščevanje** je na voljo samo za :doc:`IoT boxe <../"
+"iot_box>`, ne za :doc:`Windows virtualni IoT <../windows_iot>`."
 
 #: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:170
 msgid "Is the IoT Box down?"
@@ -12719,8 +12604,9 @@ msgid ""
 "the :ref:`homepage <iot/iot-box/homepage>` and click :guilabel:`Enable`."
 msgstr ""
 "Če je IoT Box nedosegljiv, lahko še vedno omogočite oddaljen dostop za "
-"podporno ekipo Odoo. Preprosto vnesite ključ v edino polje, prikazano na "
-":ref:`domači strani <iot/iot-box/homepage>`, in kliknite :guilabel:`Omogoči`."
+"podporno ekipo Odoo. Preprosto vnesite ključ v edino polje, prikazano "
+"na :ref:`domači strani <iot/iot-box/homepage>`, in "
+"kliknite :guilabel:`Omogoči`."
 
 #: ../../content/applications/general/iot/iot_advanced/troubleshooting.rst:180
 msgid ""
@@ -12730,9 +12616,9 @@ msgid ""
 "image-code>`."
 msgstr ""
 "Omogočanje oddaljenega dostopa na nedosegljivem IoT Boxu je na voljo samo v "
-"različicah nad v26.01.2026. Če vaš IoT Box nima te možnosti, boste morali "
-":ref:`zapisati kartico IoT Boxa z najnovejšo sliko <iot/updating_iot/image-"
-"code>`."
+"različicah nad v26.01.2026. Če vaš IoT Box nima te možnosti, boste "
+"morali :ref:`zapisati kartico IoT Boxa z najnovejšo sliko <iot/updating_iot/"
+"image-code>`."
 
 #: ../../content/applications/general/iot/iot_advanced/updating_iot.rst:5
 msgid ""
@@ -13190,7 +13076,7 @@ msgid ""
 "www.odoo.com/app/iot-hardware>`_ with a USB cable: the IP address is "
 "automatically printed."
 msgstr ""
-"povežete IoT box s `podprtim tiskalником za račune ali nalepke <https://"
+"povežete IoT box s `podprtim tiskalnikom za račune ali nalepke <https://"
 "www.odoo.com/app/iot-hardware>`_ z USB kablom: IP naslov se samodejno "
 "natisne."
 
@@ -14023,25 +13909,10 @@ msgstr ""
 "oknu :guilabel:`Potrditev`, ki se prikaže."
 
 #: ../../content/applications/general/users.rst:125
-msgid ""
-"**Never** deactivate the main/administrator user (admin). Making changes to "
-"admin users can have a detrimental impact on the database. This includes "
-"*impotent admin*, which means that no user in the database can make changes "
-"to the access rights. For this reason, Odoo recommends contacting an Odoo "
-"Business Analyst, or our Support Team, before making changes."
-msgstr ""
-"**Nikoli** ne deaktivirajte glavnega/administratorskega uporabnika (admin). "
-"Spremembe na administratorskih uporabnikih lahko škodljivo vplivajo na bazo "
-"podatkov. To vključuje *nezmožnega administratorja*, kar pomeni, da noben "
-"uporabnik v bazi podatkov ne more spreminjati pravic dostopa. Iz tega "
-"razloga Odoo priporoča, da se pred spremembami obrnete na poslovnega "
-"analitika Odoo ali našo podporo."
-
-#: ../../content/applications/general/users.rst:131
 msgid "Error: too many users"
 msgstr "Napaka: preveč uporabnikov"
 
-#: ../../content/applications/general/users.rst:133
+#: ../../content/applications/general/users.rst:127
 msgid ""
 "If there are more users in an Odoo database than provisioned in the Odoo "
 "Enterprise subscription, the following message is displayed."
@@ -14053,7 +13924,7 @@ msgstr ""
 msgid "Too many users on a database error message."
 msgstr "Sporočilo o napaki zaradi preveč uporabnikov v bazi podatkov."
 
-#: ../../content/applications/general/users.rst:139
+#: ../../content/applications/general/users.rst:133
 msgid ""
 "When the message appears, the database administrator has 30 days to act "
 "before the database expires. The countdown is updated every day."
@@ -14061,11 +13932,11 @@ msgstr ""
 "Ko se sporočilo prikaže, ima administrator baze podatkov 30 dni za "
 "ukrepanje, preden baza podatkov poteče. Odštevanje se posodablja vsak dan."
 
-#: ../../content/applications/general/users.rst:142
+#: ../../content/applications/general/users.rst:136
 msgid "To resolve the issue, either:"
 msgstr "Za rešitev težave bodisi:"
 
-#: ../../content/applications/general/users.rst:144
+#: ../../content/applications/general/users.rst:138
 msgid ""
 "Add more users to the subscription by clicking the :guilabel:`Upgrade your "
 "subscription` link displayed in the message to validate the upsell "
@@ -14075,14 +13946,14 @@ msgstr ""
 "svojo naročnino`, prikazano v sporočilu, da potrdite ponudbo za nadgradnjo "
 "in plačate dodatne uporabnike."
 
-#: ../../content/applications/general/users.rst:146
+#: ../../content/applications/general/users.rst:140
 msgid ""
 ":ref:`Deactivate users <users/deactivate>`, and reject the upsell quotation."
 msgstr ""
 ":ref:`Deaktivirajte uporabnike <users/deactivate>` in zavrnite ponudbo za "
 "nadgradnjo."
 
-#: ../../content/applications/general/users.rst:149
+#: ../../content/applications/general/users.rst:143
 msgid ""
 "If the company is on a monthly subscription plan, the database automatically "
 "updates to reflect the added users. If the company is on a yearly or multi-"
@@ -14098,7 +13969,7 @@ msgstr ""
 "Uporabniki lahko tudi `pošljejo zahtevek za podporo <https://www.odoo.com/"
 "help>`_, da rešijo težavo."
 
-#: ../../content/applications/general/users.rst:155
+#: ../../content/applications/general/users.rst:149
 msgid ""
 "Once the database has the correct number of users, the expiration message "
 "disappears automatically after a few days, when the next verification occurs."
@@ -14106,11 +13977,11 @@ msgstr ""
 "Ko ima baza podatkov pravilno število uporabnikov, sporočilo o poteku "
 "samodejno izgine po nekaj dneh, ko pride do naslednjega preverjanja."
 
-#: ../../content/applications/general/users.rst:161
+#: ../../content/applications/general/users.rst:155
 msgid "Password management"
 msgstr "Upravljanje gesel"
 
-#: ../../content/applications/general/users.rst:163
+#: ../../content/applications/general/users.rst:157
 msgid ""
 "Password management is an important part of granting users autonomous access "
 "to the database at all times. Odoo offers a few different methods to reset a "
@@ -14120,7 +13991,7 @@ msgstr ""
 "dostopa do baze podatkov ves čas. Odoo ponuja nekaj različnih metod za "
 "ponastavitev uporabniškega gesla."
 
-#: ../../content/applications/general/users.rst:167
+#: ../../content/applications/general/users.rst:161
 msgid ""
 "To enforce a minimum password length requirement, :ref:`install <general/"
 "install>` the :guilabel:`Password Policy` (`auth_password_policy`) module. "
@@ -14135,11 +14006,11 @@ msgstr ""
 "razdelek :guilabel:`Dovoljenja` in vnesite želeno dolžino gesla v "
 "polje :guilabel:`Minimalna dolžina gesla`. Privzeta vrednost je `8`."
 
-#: ../../content/applications/general/users.rst:175
+#: ../../content/applications/general/users.rst:169
 msgid "Reset password"
 msgstr "Ponastavi geslo"
 
-#: ../../content/applications/general/users.rst:177
+#: ../../content/applications/general/users.rst:171
 msgid ""
 "Sometimes, users might wish to reset their personal password for added "
 "security, so they are the only ones with access to the password. Odoo offers "
@@ -14151,11 +14022,11 @@ msgstr ""
 "možnosti ponastavitve: eno, ki jo sproži uporabnik za ponastavitev gesla, in "
 "drugo, kjer administrator sproži ponastavitev."
 
-#: ../../content/applications/general/users.rst:184
+#: ../../content/applications/general/users.rst:178
 msgid "Enable password reset from login page"
 msgstr "Omogoči ponastavitev gesla s prijavne strani"
 
-#: ../../content/applications/general/users.rst:186
+#: ../../content/applications/general/users.rst:180
 msgid ""
 "It is possible to enable/disable password resets directly from the login "
 "page. This action is completed by the individual user, and this setting is "
@@ -14165,7 +14036,7 @@ msgstr ""
 "strani. To dejanje izvede posamezen uporabnik, ta nastavitev pa je privzeto "
 "omogočena."
 
-#: ../../content/applications/general/users.rst:189
+#: ../../content/applications/general/users.rst:183
 msgid ""
 "To change this setting, go to :menuselection:`Settings app --> Permissions` "
 "section, activate :guilabel:`Password Reset`, and then "
@@ -14179,7 +14050,7 @@ msgstr ""
 msgid "Enabling Password Reset in Odoo Settings."
 msgstr "Omogočanje ponastavitve gesla v nastavitvah Odoo."
 
-#: ../../content/applications/general/users.rst:195
+#: ../../content/applications/general/users.rst:189
 msgid ""
 "On the login page, click :guilabel:`Reset Password` to initiate the password "
 "reset process, and have a reset-token sent to the email on file."
@@ -14188,11 +14059,11 @@ msgstr ""
 "ponastavitve gesla in prejmete žeton za ponastavitev na e-poštni naslov v "
 "evidenci."
 
-#: ../../content/applications/general/users.rst:201
+#: ../../content/applications/general/users.rst:195
 msgid "Send reset instructions"
 msgstr "Pošlji navodila za ponastavitev"
 
-#: ../../content/applications/general/users.rst:203
+#: ../../content/applications/general/users.rst:197
 msgid ""
 "Go to :menuselection:`Settings app --> Users & Companies --> Users`, select "
 "the user from the list, and click on :guilabel:`Send Password Reset "
@@ -14204,7 +14075,7 @@ msgstr ""
 "navodila za ponastavitev gesla` na obrazcu uporabnika. Uporabniku se "
 "samodejno pošlje e-poštno sporočilo z navodili za ponastavitev gesla."
 
-#: ../../content/applications/general/users.rst:208
+#: ../../content/applications/general/users.rst:202
 msgid ""
 "The :guilabel:`Send Password Reset Instructions` button **only** appears if "
 "the Odoo invitation email has already been confirmed by the user. Otherwise, "
@@ -14214,7 +14085,7 @@ msgstr ""
 "če je uporabnik že potrdil e-poštno vabilo Odoo. V nasprotnem primeru se "
 "prikaže gumb :guilabel:`Ponovno pošlji e-poštno vabilo`."
 
-#: ../../content/applications/general/users.rst:212
+#: ../../content/applications/general/users.rst:206
 msgid ""
 "This email contains all the instructions needed to reset the password, along "
 "with a link redirecting the user to an Odoo login page."
@@ -14227,11 +14098,11 @@ msgid "Example of an email with a password reset link for an Odoo account."
 msgstr ""
 "Primer e-poštnega sporočila s povezavo za ponastavitev gesla za račun Odoo."
 
-#: ../../content/applications/general/users.rst:221
+#: ../../content/applications/general/users.rst:215
 msgid "Change user password"
 msgstr "Sprememba uporabniškega gesla"
 
-#: ../../content/applications/general/users.rst:223
+#: ../../content/applications/general/users.rst:217
 msgid ""
 "Go to :menuselection:`Settings app --> Users & Companies --> Users`, and "
 "select a user to access its form. Click on the :icon:`fa-"
@@ -14251,7 +14122,7 @@ msgstr ""
 msgid "Change a user's password on Odoo."
 msgstr "Sprememba uporabniškega gesla v Odoo."
 
-#: ../../content/applications/general/users.rst:233
+#: ../../content/applications/general/users.rst:227
 msgid ""
 "This operation only modifies the password of the users locally, and does "
 "**not** affect their Odoo account."
@@ -14259,7 +14130,7 @@ msgstr ""
 "Ta operacija spremeni geslo uporabnikov samo lokalno in **ne** vpliva na "
 "njihov račun Odoo."
 
-#: ../../content/applications/general/users.rst:236
+#: ../../content/applications/general/users.rst:230
 msgid ""
 "If the Odoo password needs to be changed, use the :ref:`send the password "
 "reset <users/reset-password-email>`. Odoo.com passwords grant access to the "
@@ -14269,7 +14140,7 @@ msgstr ""
 "reset-password-email>`. Gesla Odoo.com omogočajo dostop do strani *Moje "
 "zbirke podatkov* in drugih portalnih funkcij."
 
-#: ../../content/applications/general/users.rst:240
+#: ../../content/applications/general/users.rst:234
 msgid ""
 "After clicking :guilabel:`Change Password`, the page is redirected to an "
 "Odoo login page where the database can be re-accessed using the new password."
@@ -14277,11 +14148,11 @@ msgstr ""
 "Po kliku na :guilabel:`Spremeni geslo` se stran preusmeri na prijavno stran "
 "Odoo, kjer je mogoče ponovno dostopati do zbirke podatkov z novim geslom."
 
-#: ../../content/applications/general/users.rst:246
+#: ../../content/applications/general/users.rst:240
 msgid "Multi Companies"
 msgstr "Več družb"
 
-#: ../../content/applications/general/users.rst:248
+#: ../../content/applications/general/users.rst:242
 msgid ""
 "The :guilabel:`Multi Companies` field on a user form allows an administrator "
 "to provide access to multiple companies for users. To configure a multi-"
@@ -14297,7 +14168,7 @@ msgstr ""
 "uporabnikov`. Nato izberite uporabnika, da odprete njegov obrazec, in ga "
 "konfigurirajte z dostopom do več podjetij."
 
-#: ../../content/applications/general/users.rst:253
+#: ../../content/applications/general/users.rst:247
 msgid ""
 "Under :guilabel:`Multi Companies` in the :guilabel:`Access Rights` tab, set "
 "the fields labeled :guilabel:`Allowed Companies` and :guilabel:`Default "
@@ -14307,7 +14178,7 @@ msgstr ""
 "nastavite polji z oznakama :guilabel:`Dovoljena podjetja` "
 "in :guilabel:`Privzeto podjetje`."
 
-#: ../../content/applications/general/users.rst:256
+#: ../../content/applications/general/users.rst:250
 msgid ""
 "The :guilabel:`Allowed Companies` field can contain multiple companies. "
 "These are the companies the user can access and edit, according to the set "
@@ -14321,7 +14192,7 @@ msgstr ""
 "ki se uporabniku privzeto prikaže ob vsaki prijavi. To polje lahko vsebuje "
 "samo **eno** podjetje."
 
-#: ../../content/applications/general/users.rst:262
+#: ../../content/applications/general/users.rst:256
 msgid ""
 "If multi-company access is not configured correctly, it could lead to "
 "inconsistent multi-company behaviors. Because of this, only experienced Odoo "
@@ -14339,7 +14210,7 @@ msgstr ""
 msgid "View of a user's form emphasizing the multi companies field in Odoo."
 msgstr "Pogled na obrazec uporabnika s poudarkom na polju več podjetij v Odoo."
 
-#: ../../content/applications/general/users.rst:271
+#: ../../content/applications/general/users.rst:265
 msgid ":doc:`companies`"
 msgstr ":doc:`companies`"
 
@@ -14700,11 +14571,51 @@ msgstr ""
 "Ko je postopek končan, kliknite :guilabel:`Shrani`, da shranite spremembe in "
 "uvedete uporabnika kot administratorja."
 
+#: ../../content/applications/general/users/access_rights.rst:32
+msgid "Manage roles"
+msgstr ""
+
 #: ../../content/applications/general/users/access_rights.rst:34
+msgid ""
+":ref:`Individual users <users/add-individual>` are assigned a *Role* when "
+"they are added to the database. Roles determine the level of access a user "
+"has, while the specific access rights associated with each role are defined "
+"by :ref:`groups <access-rights/groups>`."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:38
+msgid "The four available roles are:"
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:40
+msgid ""
+"*Administrator*: An internal user with access to technical features, product "
+"creation, export, and other advanced permissions."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:42
+msgid ""
+"*User*: An internal user that typically has access to the back end and can "
+"create and edit records but has less overall access than an administrator."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:44
+msgid ""
+"*Portal*: A customer or supplier who accesses their own data through the "
+"portal."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:45
+msgid ""
+"*Public*: A website visitor or other external user. They generally have the "
+"least access."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:50
 msgid "Manage user permissions"
 msgstr "Upravljanje uporabniških dovoljenj"
 
-#: ../../content/applications/general/users/access_rights.rst:36
+#: ../../content/applications/general/users/access_rights.rst:52
 msgid ""
 "The access rights for :ref:`individual users <users/add-individual>` are set "
 "when the user is added to the database, but they can be adjusted at any "
@@ -14714,7 +14625,7 @@ msgstr ""
 "nastavijo, ko je uporabnik dodan v bazo podatkov, vendar jih je mogoče kadar "
 "koli prilagoditi v uporabniškem profilu."
 
-#: ../../content/applications/general/users/access_rights.rst:39
+#: ../../content/applications/general/users/access_rights.rst:55
 msgid ""
 "To make changes to a user's rights, click the desired user to edit their "
 "profile."
@@ -14729,7 +14640,7 @@ msgstr ""
 "Meni Uporabniki v razdelku Uporabniki in podjetja v aplikaciji Nastavitve "
 "Odoo."
 
-#: ../../content/applications/general/users/access_rights.rst:44
+#: ../../content/applications/general/users/access_rights.rst:60
 msgid ""
 "On the user's profile page, in the :guilabel:`Access Rights` tab, scroll "
 "down to view the current permissions."
@@ -14737,7 +14648,14 @@ msgstr ""
 "Na profilni strani uporabnika v zavihku :guilabel:`Pravice dostopa` se "
 "pomaknite navzdol, da si ogledate trenutna dovoljenja."
 
-#: ../../content/applications/general/users/access_rights.rst:47
+#: ../../content/applications/general/users/access_rights.rst:63
+msgid ""
+"The permissions available on the *Access Rights* tab are determined by the "
+"groups associated with the user's role. Roles provide a predefined set of "
+"permissions, while groups define the specific access rights granted to users."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:67
 msgid ""
 "For each app, use the drop-down menu to select what level of permission this "
 "user should have. The options vary for each section, yet the most common "
@@ -14750,7 +14668,7 @@ msgstr ""
 "dokumenti`, :guilabel:`Uporabnik: vsi dokumenti` "
 "ali :guilabel:`Administrator`."
 
-#: ../../content/applications/general/users/access_rights.rst:51
+#: ../../content/applications/general/users/access_rights.rst:71
 msgid ""
 "The :guilabel:`Administration` field in the :guilabel:`Access Rights` tab "
 "has the following options: :guilabel:`Settings` or :guilabel:`Access Rights`."
@@ -14763,11 +14681,11 @@ msgid "The Sales apps drop-down menu to set the user's level of permissions."
 msgstr ""
 "Spustni meni aplikacij Prodaja za nastavitev uporabnikove ravni dovoljenj."
 
-#: ../../content/applications/general/users/access_rights.rst:60
+#: ../../content/applications/general/users/access_rights.rst:80
 msgid "Manage specific permissions"
 msgstr "Upravljanje določenih dovoljenj"
 
-#: ../../content/applications/general/users/access_rights.rst:62
+#: ../../content/applications/general/users/access_rights.rst:82
 msgid ""
 "While access rights are typically assigned in bundles under specific roles, "
 "they can also be set as explicit permissions."
@@ -14775,7 +14693,7 @@ msgstr ""
 "Čeprav se pravice dostopa običajno dodelijo v sklopih pod določenimi "
 "vlogami, jih je mogoče nastaviti tudi kot eksplicitna dovoljenja."
 
-#: ../../content/applications/general/users/access_rights.rst:66
+#: ../../content/applications/general/users/access_rights.rst:86
 msgid ""
 "When a user is assigned the :guilabel:`Administrator` permission for "
 "**Timesheets**, it gives them full access to that app. That user, while "
@@ -14789,7 +14707,7 @@ msgstr ""
 "lastnih* časovnic — na primer v primeru plačnega administratorja, ki mu ni "
 "treba slediti času."
 
-#: ../../content/applications/general/users/access_rights.rst:71
+#: ../../content/applications/general/users/access_rights.rst:91
 msgid ""
 "To manage specific permissions, :ref:`developer mode <developer-mode>` must "
 "be enabled."
@@ -14797,7 +14715,7 @@ msgstr ""
 "Za upravljanje določenih dovoljenj je treba omogočiti :ref:`razvijalski "
 "način <developer-mode>`."
 
-#: ../../content/applications/general/users/access_rights.rst:73
+#: ../../content/applications/general/users/access_rights.rst:93
 msgid ""
 "After that, navigate to the :menuselection:`Settings` app. Then "
 "click :guilabel:`Manage Users`, select a user, and go to "
@@ -14813,7 +14731,7 @@ msgstr ""
 "različnih razdelkih. Če teh skupin ne spremenite, bodo njihova dovoljenja "
 "odražala izbire, narejene v zavihku :guilabel:`Pravice dostopa`."
 
-#: ../../content/applications/general/users/access_rights.rst:79
+#: ../../content/applications/general/users/access_rights.rst:99
 msgid ""
 ":guilabel:`Selected groups`: a list of detailed access rights, set by "
 "choices made in the :guilabel:`Access Rights` tab."
@@ -14821,7 +14739,7 @@ msgstr ""
 ":guilabel:`Izbrane skupine`: seznam podrobnih pravic dostopa, nastavljenih z "
 "izbirami v zavihku :guilabel:`Pravice dostopa`."
 
-#: ../../content/applications/general/users/access_rights.rst:81
+#: ../../content/applications/general/users/access_rights.rst:101
 msgid ""
 ":guilabel:`Groups added automatically`: *implied* permissions that are "
 "*inherited* with the explicit permissions already granted to the user. The "
@@ -14839,7 +14757,7 @@ msgstr ""
 msgid "The technical access rights tab opened up for a user profile."
 msgstr "Odprt zavihek tehničnih dostopnih pravic za uporabniški profil."
 
-#: ../../content/applications/general/users/access_rights.rst:90
+#: ../../content/applications/general/users/access_rights.rst:110
 msgid ""
 "When the *Sales Administrator* permission set is assigned to a user, the "
 "*Canned Responses Administrator* permissions are inherited automatically. "
@@ -14852,7 +14770,7 @@ msgstr ""
 "odražene v vrednostih, navedenih v tabelah :guilabel:`Izbrane skupine` "
 "oziroma :guilabel:`Samodejno dodane skupine`."
 
-#: ../../content/applications/general/users/access_rights.rst:95
+#: ../../content/applications/general/users/access_rights.rst:115
 msgid ""
 "To add a permission to this user profile, click :guilabel:`Add a line` in "
 "the :guilabel:`Selected groups` table, and then add permissions to this user "
@@ -14865,7 +14783,7 @@ msgstr ""
 "ikono :icon:`fa-times` :guilabel:`(prekliči)` na koncu vrstice tega "
 "dovoljenja."
 
-#: ../../content/applications/general/users/access_rights.rst:100
+#: ../../content/applications/general/users/access_rights.rst:120
 msgid ""
 "Removing permissions from the :guilabel:`Selected Groups` list can impact "
 "what permissions are listed in the :guilabel:`Groups added automatically` "
@@ -14877,7 +14795,7 @@ msgstr ""
 "skupine`, saj izbrane skupine dovoljenj določajo, katere skupine dovoljenj "
 "so samodejno dodane."
 
-#: ../../content/applications/general/users/access_rights.rst:104
+#: ../../content/applications/general/users/access_rights.rst:124
 msgid ""
 "Clicking on the permission itself will open a group management form. Learn "
 "more about :ref:`managing groups <access-rights/groups>`."
@@ -14885,7 +14803,7 @@ msgstr ""
 "Klik na samo dovoljenje bo odprl obrazec za upravljanje skupin. Več "
 "o :ref:`upravljanju skupin <access-rights/groups>`."
 
-#: ../../content/applications/general/users/access_rights.rst:107
+#: ../../content/applications/general/users/access_rights.rst:127
 msgid ""
 "Any permission in the :guilabel:`Groups added automatically` section is "
 "implied or required by the permission shown in the :guilabel:`Selected "
@@ -14899,7 +14817,7 @@ msgstr ""
 "mogoče tem dovoljenjem dodeliti več uporabnikov tako, da kliknete na samo "
 "dovoljenje in nato dodate uporabnika v skupino tega dovoljenja."
 
-#: ../../content/applications/general/users/access_rights.rst:113
+#: ../../content/applications/general/users/access_rights.rst:133
 msgid ""
 "Any permission in green is already provided by another permission (for "
 "example, setting the :guilabel:`Website` app's permission "
@@ -14911,13 +14829,13 @@ msgstr ""
 "na :guilabel:`Urednik in oblikovalec`, bo ta uporabnik dobil tudi "
 "dovoljenje :guilabel:`Omejeni urednik`)."
 
-#: ../../content/applications/general/users/access_rights.rst:116
+#: ../../content/applications/general/users/access_rights.rst:136
 msgid ""
 "Any permissions in red are conflicting and cannot be active at the same time."
 msgstr ""
 "Vsa dovoljenja v rdeči barvi so v konfliktu in ne morejo biti hkrati aktivna."
 
-#: ../../content/applications/general/users/access_rights.rst:117
+#: ../../content/applications/general/users/access_rights.rst:137
 msgid ""
 "Any permissions in *italics* are implied by a :guilabel:`Selected group` "
 "(these are usually found in the :guilabel:`Groups added automatically`)."
@@ -14925,11 +14843,11 @@ msgstr ""
 "Vsa dovoljenja v *ležečem tisku* so implicirana z :guilabel:`Izbrano "
 "skupino` (ta se običajno najdejo v :guilabel:`Samodejno dodanih skupinah`)."
 
-#: ../../content/applications/general/users/access_rights.rst:123
+#: ../../content/applications/general/users/access_rights.rst:143
 msgid "Create and modify groups"
 msgstr "Ustvarjanje in spreminjanje skupin"
 
-#: ../../content/applications/general/users/access_rights.rst:125
+#: ../../content/applications/general/users/access_rights.rst:145
 msgid ""
 "*Groups* are app-specific sets of permissions that are used to manage common "
 "access rights for a large amount of users. Administrators can modify the "
@@ -14941,7 +14859,7 @@ msgstr ""
 "Administratorji lahko spremenijo obstoječe skupine v Odoo ali ustvarijo nove "
 "za določanje pravil za modele znotraj aplikacije."
 
-#: ../../content/applications/general/users/access_rights.rst:129
+#: ../../content/applications/general/users/access_rights.rst:149
 msgid ""
 "To access groups, first activate Odoo's :ref:`developer mode <developer-"
 "mode>`, then go to :menuselection:`Settings app --> Users & Companies --> "
@@ -14958,7 +14876,7 @@ msgstr ""
 "Meni Skupine v razdelku Uporabniki in podjetja v aplikaciji Nastavitve v "
 "Odoo."
 
-#: ../../content/applications/general/users/access_rights.rst:135
+#: ../../content/applications/general/users/access_rights.rst:155
 msgid ""
 "To create a new group from the :guilabel:`Groups` page, "
 "click :guilabel:`Create`. Then, from the blank group form, select "
@@ -14969,7 +14887,7 @@ msgstr ""
 "izberite :guilabel:`Aplikacijo` in izpolnite obrazec skupine (podrobno "
 "spodaj)."
 
-#: ../../content/applications/general/users/access_rights.rst:138
+#: ../../content/applications/general/users/access_rights.rst:158
 msgid ""
 "To modify an existing group, click an existing group from the list displayed "
 "on the :guilabel:`Groups` page, and edit the contents of the form."
@@ -14977,17 +14895,14 @@ msgstr ""
 "Za spreminjanje obstoječe skupine kliknite obstoječo skupino s seznama, "
 "prikazanega na strani :guilabel:`Skupine`, in uredite vsebino obrazca."
 
-#: ../../content/applications/general/users/access_rights.rst:141
+#: ../../content/applications/general/users/access_rights.rst:161
 msgid ""
-"Enter a :guilabel:`Name` for the group and tick the checkbox next "
+"Enter a :guilabel:`Name` for the group and select the checkbox next "
 "to :guilabel:`Share Group`, if this group was created to set access rights "
 "for sharing data with some users."
 msgstr ""
-"Vnesite :guilabel:`Ime` za skupino in označite potrditveno polje "
-"poleg :guilabel:`Skupina za skupno rabo`, če je bila ta skupina ustvarjena "
-"za nastavitev dostopnih pravic za deljenje podatkov z nekaterimi uporabniki."
 
-#: ../../content/applications/general/users/access_rights.rst:145
+#: ../../content/applications/general/users/access_rights.rst:165
 msgid ""
 "Always test the settings being changed to ensure they are being applied to "
 "the correct users."
@@ -14995,7 +14910,7 @@ msgstr ""
 "Vedno preizkusite nastavitve, ki jih spreminjate, da zagotovite, da se "
 "uporabljajo za pravilne uporabnike."
 
-#: ../../content/applications/general/users/access_rights.rst:147
+#: ../../content/applications/general/users/access_rights.rst:167
 msgid ""
 "The group form contains multiple tabs for managing all elements of the "
 "group. In each tab, click :guilabel:`Add a line` to add a new row for users "
@@ -15011,7 +14926,7 @@ msgstr ""
 msgid "Tabs in the Groups form to modify the settings of the group."
 msgstr "Zavihki v obrazcu Skupine za spreminjanje nastavitev skupine."
 
-#: ../../content/applications/general/users/access_rights.rst:154
+#: ../../content/applications/general/users/access_rights.rst:174
 msgid ""
 ":guilabel:`Users` tab: lists the current users in the group. Users listed in "
 "black have administrative rights. Users without administrative access appear "
@@ -15022,7 +14937,7 @@ msgstr ""
 "Uporabniki brez administratorskega dostopa so prikazani v modri barvi. "
 "Kliknite :guilabel:`Dodaj vrstico`, da dodate uporabnike v to skupino."
 
-#: ../../content/applications/general/users/access_rights.rst:157
+#: ../../content/applications/general/users/access_rights.rst:177
 msgid ""
 ":guilabel:`Inherited` tab: Inherited means that users added to this group "
 "are automatically added to the groups listed on this tab. "
@@ -15032,7 +14947,7 @@ msgstr ""
 "tej skupini, samodejno dodani skupinam, navedenim v tem zavihku. "
 "Kliknite :guilabel:`Dodaj vrstico`, da dodate podedovane skupine."
 
-#: ../../content/applications/general/users/access_rights.rst:161
+#: ../../content/applications/general/users/access_rights.rst:181
 msgid ""
 "For example, if the group *Sales/Administrator* lists the group *Website/"
 "Restricted Editor* in its :guilabel:`Inherited` tab, then any users added to "
@@ -15044,7 +14959,7 @@ msgstr ""
 "urednik*, potem vsi uporabniki, dodani skupini *Prodaja/Administrator*, "
 "samodejno prejmejo dostop tudi do skupine *Spletna stran/Omejeni urednik*."
 
-#: ../../content/applications/general/users/access_rights.rst:165
+#: ../../content/applications/general/users/access_rights.rst:185
 msgid ""
 ":guilabel:`Menus` tab: defines which models the group can have access to. "
 "Click :guilabel:`Add a line` to add a specific menu."
@@ -15052,7 +14967,7 @@ msgstr ""
 "Zavihek :guilabel:`Meniji`: določa, do katerih modelov lahko ima skupina "
 "dostop. Kliknite :guilabel:`Dodaj vrstico`, da dodate določen meni."
 
-#: ../../content/applications/general/users/access_rights.rst:167
+#: ../../content/applications/general/users/access_rights.rst:187
 msgid ""
 ":guilabel:`Views` tab: lists which views in Odoo the group has access to. "
 "Click :guilabel:`Add a line` to add a view to the group."
@@ -15060,7 +14975,7 @@ msgstr ""
 "Zavihek :guilabel:`Pogledi`: navaja, do katerih pogledov v Odoo ima skupina "
 "dostop. Kliknite :guilabel:`Dodaj vrstico`, da skupini dodate pogled."
 
-#: ../../content/applications/general/users/access_rights.rst:169
+#: ../../content/applications/general/users/access_rights.rst:189
 msgid ""
 ":guilabel:`Access Rights` tab: lists the first level of rights (models) that "
 "this group has. The :guilabel:`Name` column represents the name for the "
@@ -15070,7 +14985,7 @@ msgstr ""
 "ki jih ima ta skupina. Stolpec :guilabel:`Ime` predstavlja ime dostopa "
 "trenutne skupine do modela, izbranega v stolpcu :guilabel:`Model`."
 
-#: ../../content/applications/general/users/access_rights.rst:173
+#: ../../content/applications/general/users/access_rights.rst:193
 msgid ""
 "To link a new access right to a group, click :guilabel:`Add a line`. Select "
 "the appropriate model from the :guilabel:`Model` drop-down, then enter a "
@@ -15082,27 +14997,27 @@ msgstr ""
 "nato vnesite ime pravice dostopa v stolpec :guilabel:`Ime`. Za vsak model po "
 "potrebi omogočite naslednje možnosti:"
 
-#: ../../content/applications/general/users/access_rights.rst:177
+#: ../../content/applications/general/users/access_rights.rst:197
 msgid ":guilabel:`Read`: Users can see the object's existing values."
 msgstr ""
 ":guilabel:`Branje`: Uporabniki lahko vidijo obstoječe vrednosti objekta."
 
-#: ../../content/applications/general/users/access_rights.rst:178
+#: ../../content/applications/general/users/access_rights.rst:198
 msgid ":guilabel:`Write`: Users can edit the object's existing values."
 msgstr ""
 ":guilabel:`Pisanje`: Uporabniki lahko urejajo obstoječe vrednosti objekta."
 
-#: ../../content/applications/general/users/access_rights.rst:179
+#: ../../content/applications/general/users/access_rights.rst:199
 msgid ":guilabel:`Create`: Users can create new values for the object."
 msgstr ""
 ":guilabel:`Ustvarjanje`: Uporabniki lahko ustvarjajo nove vrednosti za "
 "objekt."
 
-#: ../../content/applications/general/users/access_rights.rst:180
+#: ../../content/applications/general/users/access_rights.rst:200
 msgid ":guilabel:`Delete`: Users can delete values for the object."
 msgstr ":guilabel:`Brisanje`: Uporabniki lahko brišejo vrednosti objekta."
 
-#: ../../content/applications/general/users/access_rights.rst:183
+#: ../../content/applications/general/users/access_rights.rst:203
 msgid ""
 "While there are no conventions for naming access rights, it is advisable to "
 "choose a name that identifies its purpose."
@@ -15110,7 +15025,7 @@ msgstr ""
 "Čeprav ne obstajajo konvencije za poimenovanje pravic dostopa, je "
 "priporočljivo izbrati ime, ki identificira njegov namen."
 
-#: ../../content/applications/general/users/access_rights.rst:186
+#: ../../content/applications/general/users/access_rights.rst:206
 msgid ""
 "For example, the access that purchase managers have to "
 "the :guilabel:`Contact` model could be named `res.partner.purchase.manager`. "
@@ -15126,7 +15041,7 @@ msgstr ""
 msgid "Name of access rights to a model."
 msgstr "Ime pravic dostopa do modela."
 
-#: ../../content/applications/general/users/access_rights.rst:193
+#: ../../content/applications/general/users/access_rights.rst:213
 msgid ""
 "To find the model's technical name from the current view, first enter a "
 "placeholder text in the :guilabel:`Name` field, then click "
@@ -15138,7 +15053,7 @@ msgstr ""
 "ime :guilabel:`Model`, nato ikono :icon:`fa-arrow-"
 "right` :guilabel:`(Notranja povezava)`."
 
-#: ../../content/applications/general/users/access_rights.rst:197
+#: ../../content/applications/general/users/access_rights.rst:217
 msgid ""
 ":guilabel:`Record Rules`: lists the second layer of editing and visibility "
 "rights. :guilabel:`Record Rules` overwrite, or refine, the group's access "
@@ -15151,23 +15066,23 @@ msgstr ""
 "zapisa tej skupini. Za vsako pravilo izberite vrednosti za naslednje "
 "možnosti:"
 
-#: ../../content/applications/general/users/access_rights.rst:201
+#: ../../content/applications/general/users/access_rights.rst:221
 msgid ":guilabel:`Apply for Read`."
 msgstr ":guilabel:`Uporabi za branje`."
 
-#: ../../content/applications/general/users/access_rights.rst:202
+#: ../../content/applications/general/users/access_rights.rst:222
 msgid ":guilabel:`Apply for Write`."
 msgstr ":guilabel:`Uporabi za pisanje`."
 
-#: ../../content/applications/general/users/access_rights.rst:203
+#: ../../content/applications/general/users/access_rights.rst:223
 msgid ":guilabel:`Apply for Create`."
 msgstr ":guilabel:`Uporabi za ustvarjanje`."
 
-#: ../../content/applications/general/users/access_rights.rst:204
+#: ../../content/applications/general/users/access_rights.rst:224
 msgid ":guilabel:`Apply for Delete`."
 msgstr ":guilabel:`Uporabi za brisanje`."
 
-#: ../../content/applications/general/users/access_rights.rst:207
+#: ../../content/applications/general/users/access_rights.rst:227
 msgid ""
 "Record rules are written using a *domain*, or conditions that filter data. A "
 "domain expression is a list of such conditions. For example:"
@@ -15175,7 +15090,7 @@ msgstr ""
 "Pravila zapisov so napisana z uporabo *domene* ali pogojev, ki filtrirajo "
 "podatke. Izraz domene je seznam takih pogojev. Na primer:"
 
-#: ../../content/applications/general/users/access_rights.rst:210
+#: ../../content/applications/general/users/access_rights.rst:230
 msgid ""
 "`[('mrp_production_ids', 'in', "
 "user.partner_id.commercial_partner_id.production_ids.ids)]`"
@@ -15183,12 +15098,12 @@ msgstr ""
 "`[('mrp_production_ids', 'in', "
 "user.partner_id.commercial_partner_id.production_ids.ids)]`"
 
-#: ../../content/applications/general/users/access_rights.rst:212
+#: ../../content/applications/general/users/access_rights.rst:232
 msgid ""
 "This record rule is to enable MRP consumption warnings for subcontractors."
 msgstr "To pravilo zapisa omogoča opozorila o porabi MRP za podizvajence."
 
-#: ../../content/applications/general/users/access_rights.rst:214
+#: ../../content/applications/general/users/access_rights.rst:234
 msgid ""
 "Odoo has a library of preconfigured record rules for ease of use. Users "
 "without knowledge of domains (and domain expressions) should consult an Odoo "
@@ -15199,11 +15114,11 @@ msgstr ""
 "izvajanjem sprememb posvetovati z Odoo poslovnim analitikom ali ekipo za "
 "podporo Odoo."
 
-#: ../../content/applications/general/users/access_rights.rst:221
+#: ../../content/applications/general/users/access_rights.rst:241
 msgid "Session and inactivity timeouts"
 msgstr "Časovne omejitve seje in nedejavnosti"
 
-#: ../../content/applications/general/users/access_rights.rst:223
+#: ../../content/applications/general/users/access_rights.rst:243
 msgid ""
 "When the `auth_timeout` module is installed, administrators can configure "
 "automatic logout rules for users assigned to a specific user group. This "
@@ -15215,7 +15130,7 @@ msgstr ""
 "modul je lahko samodejno nameščen z nekaterimi lokalizacijami (na primer "
 "avstralsko lokalizacijo plačnega seznama)."
 
-#: ../../content/applications/general/users/access_rights.rst:227
+#: ../../content/applications/general/users/access_rights.rst:247
 msgid ""
 "Once installed, a *Timeouts* tab appears on user group forms. This tab "
 "allows administrators to define how long users can remain logged in under "
@@ -15225,15 +15140,15 @@ msgstr ""
 "omejitve*. Ta zavihek skrbnikom omogoča določitev, kako dolgo lahko "
 "uporabniki ostanejo prijavljeni v različnih pogojih."
 
-#: ../../content/applications/general/users/access_rights.rst:230
+#: ../../content/applications/general/users/access_rights.rst:250
 msgid "Two types of timeouts can be configured:"
 msgstr "Mogoče je konfigurirati dve vrsti časovnih omejitev:"
 
-#: ../../content/applications/general/users/access_rights.rst:233
+#: ../../content/applications/general/users/access_rights.rst:253
 msgid "Inactivity timeout"
 msgstr "Časovna omejitev neaktivnosti"
 
-#: ../../content/applications/general/users/access_rights.rst:235
+#: ../../content/applications/general/users/access_rights.rst:255
 msgid ""
 "*Inactivity timeout* controls whether users are automatically logged out "
 "after a period of inactivity."
@@ -15241,22 +15156,16 @@ msgstr ""
 "Možnost *časovna omejitev neaktivnosti* nadzoruje, ali so uporabniki "
 "samodejno odjavljeni po določenem obdobju neaktivnosti."
 
-#: ../../content/applications/general/users/access_rights.rst:238
+#: ../../content/applications/general/users/access_rights.rst:258
 msgid ""
-"To enable inactivity timeout, click the :guilabel:`Timeouts` tab and tick "
+"To enable inactivity timeout, click the *Timeouts* tab and select "
 "the :guilabel:`Inactivity` checkbox. Next, choose either :guilabel:`Screen "
 "lock` or :guilabel:`Screen lock with two-factor authentication` from the "
 "drop-down menu. This determines whether the user must to complete 2FA "
 "verification when logging back in."
 msgstr ""
-"Za omogočanje časovne omejitve neaktivnosti kliknite "
-"zavihek :guilabel:`Timeouts` in označite potrditveno "
-"polje :guilabel:`Inactivity`. Nato izberite bodisi :guilabel:`Screen lock` "
-"bodisi :guilabel:`Screen lock with two-factor authentication` iz spustnega "
-"menija. To določa, ali mora uporabnik ob ponovni prijavi opraviti "
-"preverjanje 2FA."
 
-#: ../../content/applications/general/users/access_rights.rst:243
+#: ../../content/applications/general/users/access_rights.rst:263
 msgid ""
 "Then, enter the desired amount of time before enforcing screen lock, and "
 "select a unit of measure from the drop-down menu. Inactivity can be measured "
@@ -15266,11 +15175,11 @@ msgstr ""
 "izberite mersko enoto iz spustnega menija. Neaktivnost je mogoče meriti v "
 "minutah, urah ali dnevih."
 
-#: ../../content/applications/general/users/access_rights.rst:247
+#: ../../content/applications/general/users/access_rights.rst:267
 msgid "Session timeout"
 msgstr "Časovna omejitev seje"
 
-#: ../../content/applications/general/users/access_rights.rst:249
+#: ../../content/applications/general/users/access_rights.rst:269
 msgid ""
 "*Session timeout* controls whether users are logged out after a fixed "
 "session duration, regardless of activity."
@@ -15278,21 +15187,16 @@ msgstr ""
 "Možnost *časovna omejitev seje* nadzoruje, ali so uporabniki odjavljeni po "
 "določenem trajanju seje, ne glede na aktivnost."
 
-#: ../../content/applications/general/users/access_rights.rst:252
+#: ../../content/applications/general/users/access_rights.rst:272
 msgid ""
-"To enable session timeout, click on the :guilabel:`Timeouts` tab, and tick "
+"To enable session timeout, click on the *Timeouts* tab, and select "
 "the :guilabel:`Session` checkbox. Next, choose either :guilabel:`Logout` "
 "or :guilabel:`Logout with two-factor authentication` from the drop-down "
-"menu. This determines whether the user must to complete 2FA verification "
-"when logging back in."
+"menu. This determines whether the user must complete 2FA verification when "
+"logging back in."
 msgstr ""
-"Za omogočanje časovne omejitve seje kliknite zavihek :guilabel:`Timeouts` in "
-"označite potrditveno polje :guilabel:`Session`. Nato izberite "
-"bodisi :guilabel:`Logout` bodisi :guilabel:`Logout with two-factor "
-"authentication` iz spustnega menija. To določa, ali mora uporabnik ob "
-"ponovni prijavi opraviti preverjanje 2FA."
 
-#: ../../content/applications/general/users/access_rights.rst:257
+#: ../../content/applications/general/users/access_rights.rst:277
 msgid ""
 "Then, enter the desired amount of time before the user is logged out, and "
 "select a unit of measure from the drop-down menu. Session timeouts can be "
@@ -15302,11 +15206,11 @@ msgstr ""
 "enoto iz spustnega menija. Časovne omejitve seje je mogoče meriti v minutah, "
 "urah ali dnevih."
 
-#: ../../content/applications/general/users/access_rights.rst:263
+#: ../../content/applications/general/users/access_rights.rst:283
 msgid "Superuser mode"
 msgstr "Način nadzornega uporabnika"
 
-#: ../../content/applications/general/users/access_rights.rst:265
+#: ../../content/applications/general/users/access_rights.rst:285
 msgid ""
 "*Superuser mode* allows the user to bypass record rules and access rights. "
 "To activate *Superuser mode*, first, activate :ref:`developer mode "
@@ -15319,13 +15223,13 @@ msgstr ""
 "menija *razhroščevanje*, ki ga predstavlja ikona :icon:`fa-"
 "bug` :guilabel:`(razhroščevanje)`, ki se nahaja v zgornjem pasicu."
 
-#: ../../content/applications/general/users/access_rights.rst:269
+#: ../../content/applications/general/users/access_rights.rst:289
 msgid ""
 "Finally, towards the bottom of the menu, click :guilabel:`Become Superuser`."
 msgstr ""
 "Na koncu, proti dnu menija, kliknite :guilabel:`Postani nadprivilegiran`."
 
-#: ../../content/applications/general/users/access_rights.rst:272
+#: ../../content/applications/general/users/access_rights.rst:292
 msgid ""
 "Only users with *Settings* access for the *Administration* section of the "
 "*Access Rights* (in their user profile) are allowed to log in to *Superuser "
@@ -15335,7 +15239,7 @@ msgstr ""
 "*Pravicah dostopa* (v svojem uporabniškem profilu) se lahko prijavijo v "
 "*nadprivilegirani način*."
 
-#: ../../content/applications/general/users/access_rights.rst:276
+#: ../../content/applications/general/users/access_rights.rst:296
 msgid ""
 "*Superuser mode* allows for circumvention of record rules and access rights, "
 "and therefore, should be exercised with extreme caution."
@@ -15343,7 +15247,7 @@ msgstr ""
 "*Nadprivilegirani način* omogoča izogibanje pravilom zapisov in pravicam "
 "dostopa, zato ga je treba izvajati z izjemno previdnostjo."
 
-#: ../../content/applications/general/users/access_rights.rst:279
+#: ../../content/applications/general/users/access_rights.rst:299
 msgid ""
 "Upon exiting *Superuser mode*, users may be locked out of the database, due "
 "to changes that were made. This can cause *impotent admin*, or an "
@@ -15354,7 +15258,7 @@ msgstr ""
 "*onemogočenega skrbnika* ali skrbnika brez možnosti spreminjanja pravic "
 "dostopa/nastavitev."
 
-#: ../../content/applications/general/users/access_rights.rst:283
+#: ../../content/applications/general/users/access_rights.rst:303
 msgid ""
 "In this case contact Odoo Support here: `new help ticket <https://"
 "www.odoo.com/help>`_. The support team is able to restore access using a "
@@ -15364,7 +15268,7 @@ msgstr ""
 "<https://www.odoo.com/help>`_. Ekipa za podporo lahko obnovi dostop z "
 "uporabo prijave za podporo."
 
-#: ../../content/applications/general/users/access_rights.rst:286
+#: ../../content/applications/general/users/access_rights.rst:306
 msgid ""
 "To leave *Superuser mode*, log out of the account, by navigating to the "
 "upper-right corner, and clicking on the :guilabel:`OdooBot` username. Then, "
@@ -15374,7 +15278,7 @@ msgstr ""
 "se pomaknete v zgornji desni kot in kliknete na uporabniško "
 "ime :guilabel:`OdooBot`. Nato izberite možnost :guilabel:`Odjava`."
 
-#: ../../content/applications/general/users/access_rights.rst:290
+#: ../../content/applications/general/users/access_rights.rst:310
 msgid ""
 "An alternative way to activate *Superuser mode* is to log in as a superuser. "
 "To do that, navigate to the login screen, and enter the "
@@ -15384,7 +15288,7 @@ msgstr ""
 "superuporabnik. Za to se pomaknite na prijavni zaslon in vnesite "
 "ustrezen :guilabel:`Email` ter :guilabel:`Password`."
 
-#: ../../content/applications/general/users/access_rights.rst:293
+#: ../../content/applications/general/users/access_rights.rst:313
 msgid ""
 "Instead of clicking :guilabel:`Login`, click :guilabel:`Log in as superuser`."
 msgstr ""
@@ -15897,7 +15801,7 @@ msgid ""
 "similar title."
 msgstr ""
 "V polje :guilabel:`Dodaj ime aplikacije` vnesite `Odoo Login OAuth` ali "
-"podoben naslov."
+"podoben naziv."
 
 #: ../../content/applications/general/users/facebook.rst:26
 msgid ""
@@ -15981,9 +15885,9 @@ msgid ""
 "This page contains additional settings that are required before the app can "
 "be submitted for approval."
 msgstr ""
-"Na levi strani strani kliknite :menuselection:`App settings --> Basic`. Ta "
-"stran vsebuje dodatne nastavitve, ki so potrebne, preden je mogoče "
-"aplikacijo poslati v odobritev."
+"Na levi strani spletne strani kliknite :menuselection:`App settings --> "
+"Basic`. Ta stran vsebuje dodatne nastavitve, ki so potrebne, preden je "
+"mogoče aplikacijo poslati v odobritev."
 
 #: ../../content/applications/general/users/facebook.rst:65
 msgid ""
@@ -16067,9 +15971,9 @@ msgid ""
 "status of the connected Facebook account, additional verification and "
 "testing steps may be required, and are listed on this page."
 msgstr ""
-"Na levi strani strani kliknite :guilabel:`Publish`. Odvisno od statusa "
-"povezanega Facebook računa so lahko potrebni dodatni koraki preverjanja in "
-"testiranja, ki so navedeni na tej strani."
+"Na levi strani spletne strani kliknite :guilabel:`Publish`. Odvisno od "
+"statusa povezanega Facebook računa so lahko potrebni dodatni koraki "
+"preverjanja in testiranja, ki so navedeni na tej strani."
 
 #: ../../content/applications/general/users/facebook.rst:103
 msgid "After reviewing the information, click :guilabel:`Publish`."
@@ -16689,8 +16593,8 @@ msgid ""
 "Follow, download, or pay invoices, including partial payments and down "
 "payments"
 msgstr ""
-"Sledite, prenesite ali plačajte račune, vključno z delnimi plačili in "
-"akontacijami"
+"Spremljajte, prenesite ali plačajte izdane račune, vključno z delnimi "
+"plačili in akontacijami"
 
 #: ../../content/applications/general/users/user_portals.rst:16
 msgid "Manage payment methods"
@@ -16934,7 +16838,7 @@ msgstr "Poštni naslov"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:33
 msgid "Invoice delivery preference"
-msgstr "Prednostna dostava računov"
+msgstr "Prednostna dostava izdanih računov"
 
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:35
 msgid ""
@@ -17213,6 +17117,198 @@ msgstr ":doc:`Pravice dostopa </applications/general/users/access_rights>`"
 #: ../../content/applications/general/users/user_portals/updating_portal_info.rst:154
 msgid ":doc:`Portal access documentation <portal_access>`"
 msgstr ":doc:`Dokumentacija o dostopu do portala <portal_access>`"
+
+#~ msgid ""
+#~ "When sending an email, the Odoo email server includes a unique DKIM "
+#~ "signature in the headers. The recipient's server decrypts this signature "
+#~ "using the DKIM record in the database's domain name. If the signature and "
+#~ "the key contained in the record match, it proves the message is authentic "
+#~ "and has not been altered during transport."
+#~ msgstr ""
+#~ "Ko pošilja e-poštno sporočilo, strežnik e-pošte Odoo vključi edinstven "
+#~ "podpis DKIM v elementih zaglavja. Strežnik prejemnika dešifrira ta podpis "
+#~ "s pomočjo zapisa DKIM v domenskem imenu zbirke podatkov. Če se podpis in "
+#~ "ključ v zapisu ujemata, to dokazuje, da je sporočilo pristno in ni bilo "
+#~ "spremenjeno med prenosom."
+
+#~ msgid "Add a CNAME record for domain"
+#~ msgstr "Dodajte zapis CNAME za domeno"
+
+#~ msgid ""
+#~ "To enable DKIM, add a canonical name (CNAME) record to the domain name "
+#~ "system (DNS) zone of the domain name:"
+#~ msgstr ""
+#~ "Za omogočanje DKIM dodajte kanonično ime (CNAME) zapisa v sistem "
+#~ "domenskih imen (DNS) cono domenskega imena:"
+
+#~ msgid ""
+#~ "If the domain name is *company-name.com*, make sure to create a CNAME "
+#~ "record where the CNAME record (key/name) is `odoo._domainkey.company-"
+#~ "name.com`, and the canonical name (value/content) is "
+#~ "`odoo._domainkey.odoo.com.`. For example, note the differences between "
+#~ "each key/value in italics\\:"
+#~ msgstr ""
+#~ "Če je domensko ime *company-name.com*, se prepričajte, da ustvarite zapis "
+#~ "CNAME, kjer je zapis CNAME (ključ/ime) `odoo._domainkey.company-"
+#~ "name.com`, kanonično ime (vrednost/vsebina) pa "
+#~ "`odoo._domainkey.odoo.com.`. Na primer, upoštevajte razlike med "
+#~ "posameznim ključem/vrednostjo v ležečem tisku:"
+
+#~ msgid "Example CNAME record"
+#~ msgstr "Primer zapisa CNAME"
+
+#~ msgid "Key"
+#~ msgstr "Ključ"
+
+#~ msgid "odoo.\\_domainkey"
+#~ msgstr "odoo.\\_domainkey"
+
+#~ msgid "Value"
+#~ msgstr "Vrednost"
+
+#~ msgid "odoo.\\_domainkey.\\ *odoo.com.* |nbsp|"
+#~ msgstr "odoo.\\_domainkey.\\ *odoo.com.* |nbsp|"
+
+#~ msgid "OR"
+#~ msgstr "ALI"
+
+#~ msgid "odoo.\\_domainkey.\\ *dbname*\\ .odoo.com."
+#~ msgstr "odoo.\\_domainkey.\\ *dbname*\\ .odoo.com."
+
+#~ msgid "... where *dbname* is the name of the Odoo database."
+#~ msgstr "... kjer je *dbname* ime zbirke podatkov Odoo."
+
+#~ msgid ""
+#~ "On most DNS platforms, the DNS provider adds the custom domain (e.g., "
+#~ "*company-name.com*) by default. In this case, the key looks different "
+#~ "while the value remains the same:"
+#~ msgstr ""
+#~ "Na večini platform DNS ponudnik DNS privzeto doda domeno po meri (npr. "
+#~ "*company-name.com*). V tem primeru je videti ključ drugače, medtem ko "
+#~ "vrednost ostane enaka:"
+
+#~ msgid "Example CNAME record with custom domain"
+#~ msgstr "Primer zapisa CNAME z domeno po meri"
+
+#~ msgid "odoo.\\_domainkey.\\ *company-name.com* |nbsp|"
+#~ msgstr "odoo.\\_domainkey.\\ *company-name.com* |nbsp|"
+
+#~ msgid "... where *company-name.com* is the custom domain."
+#~ msgstr "... kjer je *company-name.com* domena po meri."
+
+#~ msgid ""
+#~ "If the DNS provider does not add the custom domain by default, make sure "
+#~ "to include it."
+#~ msgstr ""
+#~ "Če ponudnik DNS domene po meri ne doda samodejno, jo poskrbite dodati."
+
+#~ msgid "Add a CNAME record for subdomain"
+#~ msgstr "Dodajte zapis CNAME za poddomena"
+
+#~ msgid ""
+#~ "If there's a \\ *subdomain* (e.g., *marketing* in *marketing*\\ .company-"
+#~ "name.com), add a CNAME record to include it for compliance as well:"
+#~ msgstr ""
+#~ "Če obstaja \\ *poddomena* (npr. *marketing* v *marketing*\\ .company-"
+#~ "name.com), dodajte zapis CNAME, da jo vključite tudi za skladnost:"
+
+#~ msgid "Example CNAME record with subdomain"
+#~ msgstr "Primer zapisa CNAME s poddomena"
+
+#~ msgid "odoo.\\_domainkey.\\ *marketing* |nbsp|"
+#~ msgstr "odoo.\\_domainkey.\\ *marketing* |nbsp|"
+
+#~ msgid "... where *marketing* is the subdomain."
+#~ msgstr "... kjer je *marketing* poddomena."
+
+#~ msgid "odoo.\\_domainkey.marketing.\\ *company-name.com*\\ |nbsp|"
+#~ msgstr "odoo.\\_domainkey.marketing.\\ *company-name.com*\\ |nbsp|"
+
+#~ msgid "See DNS provider documentation"
+#~ msgstr "Glejte dokumentacijo ponudnika DNS"
+
+#~ msgid ""
+#~ "Check if the DKIM record is valid using a tool like `MXToolbox DKIM "
+#~ "Record Lookup <https://mxtoolbox.com/dkim.aspx>`_. Enter "
+#~ "`example.com:odoo` in the DKIM lookup tool, specifying that the selector "
+#~ "being tested is *odoo* for the custom domain *example.com*."
+#~ msgstr ""
+#~ "Preverite, ali je zapis DKIM veljaven z orodjem, kot je `MXToolbox DKIM "
+#~ "Record Lookup <https://mxtoolbox.com/dkim.aspx>`_. V orodje za iskanje "
+#~ "DKIM vnesite `example.com:odoo`, pri čemer določite, da je izbirnik, ki "
+#~ "se preizkuša, *odoo* za domeno po meri *example.com*."
+
+#~ msgid ""
+#~ "`GoDaddy SPF, DKIM, or DMARC records <https://www.godaddy.com/help/set-up-"
+#~ "spf-dkim-or-dmarc-records-for-my-hosting-email-40810>`_"
+#~ msgstr ""
+#~ "`GoDaddy SPF, DKIM ali DMARC zapisi <https://www.godaddy.com/help/set-up-"
+#~ "spf-dkim-or-dmarc-records-for-my-hosting-email-40810>`_"
+
+#~ msgid ""
+#~ "`Magic Sheet - SPF, DKIM and DMARC configuration [PDF] <https://"
+#~ "drive.google.com/drive/folders/1TJIXQpdR0VN8UQx5JP7q7vFuAr3e1Q3r>`_"
+#~ msgstr ""
+#~ "`Čarobni list - konfiguracija SPF, DKIM in DMARC [PDF] <https://"
+#~ "drive.google.com/drive/folders/1TJIXQpdR0VN8UQx5JP7q7vFuAr3e1Q3r>`_"
+
+#~ msgid ""
+#~ "Enter a :guilabel:`Name` for the group and tick the checkbox next "
+#~ "to :guilabel:`Share Group`, if this group was created to set access "
+#~ "rights for sharing data with some users."
+#~ msgstr ""
+#~ "Vnesite :guilabel:`Ime` za skupino in označite potrditveno polje "
+#~ "poleg :guilabel:`Skupina za skupno rabo`, če je bila ta skupina "
+#~ "ustvarjena za nastavitev dostopnih pravic za deljenje podatkov z "
+#~ "nekaterimi uporabniki."
+
+#~ msgid ""
+#~ "To enable inactivity timeout, click the :guilabel:`Timeouts` tab and tick "
+#~ "the :guilabel:`Inactivity` checkbox. Next, choose "
+#~ "either :guilabel:`Screen lock` or :guilabel:`Screen lock with two-factor "
+#~ "authentication` from the drop-down menu. This determines whether the user "
+#~ "must to complete 2FA verification when logging back in."
+#~ msgstr ""
+#~ "Za omogočanje časovne omejitve neaktivnosti kliknite "
+#~ "zavihek :guilabel:`Timeouts` in označite potrditveno "
+#~ "polje :guilabel:`Inactivity`. Nato izberite bodisi :guilabel:`Screen "
+#~ "lock` bodisi :guilabel:`Screen lock with two-factor authentication` iz "
+#~ "spustnega menija. To določa, ali mora uporabnik ob ponovni prijavi "
+#~ "opraviti preverjanje 2FA."
+
+#~ msgid ""
+#~ "To enable session timeout, click on the :guilabel:`Timeouts` tab, and "
+#~ "tick the :guilabel:`Session` checkbox. Next, choose "
+#~ "either :guilabel:`Logout` or :guilabel:`Logout with two-factor "
+#~ "authentication` from the drop-down menu. This determines whether the user "
+#~ "must to complete 2FA verification when logging back in."
+#~ msgstr ""
+#~ "Za omogočanje časovne omejitve seje kliknite zavihek :guilabel:`Timeouts` "
+#~ "in označite potrditveno polje :guilabel:`Session`. Nato izberite "
+#~ "bodisi :guilabel:`Logout` bodisi :guilabel:`Logout with two-factor "
+#~ "authentication` iz spustnega menija. To določa, ali mora uporabnik ob "
+#~ "ponovni prijavi opraviti preverjanje 2FA."
+
+#~ msgid ""
+#~ "**Never** deactivate the main/administrator user (admin). Making changes "
+#~ "to admin users can have a detrimental impact on the database. This "
+#~ "includes *impotent admin*, which means that no user in the database can "
+#~ "make changes to the access rights. For this reason, Odoo recommends "
+#~ "contacting an Odoo Business Analyst, or our Support Team, before making "
+#~ "changes."
+#~ msgstr ""
+#~ "**Nikoli** ne deaktivirajte glavnega/administratorskega uporabnika "
+#~ "(admin). Spremembe na administratorskih uporabnikih lahko škodljivo "
+#~ "vplivajo na bazo podatkov. To vključuje *nezmožnega administratorja*, kar "
+#~ "pomeni, da noben uporabnik v bazi podatkov ne more spreminjati pravic "
+#~ "dostopa. Iz tega razloga Odoo priporoča, da se pred spremembami obrnete "
+#~ "na poslovnega analitika Odoo ali našo podporo."
+
+#~ msgid ":guilabel:`Allowed headers`: `Content-Type`"
+#~ msgstr ":guilabel:`Dovoljene glave`: `Content-Type`"
+
+#~ msgid ":guilabel:`Exposed headers`: `Content-Type`"
+#~ msgstr ":guilabel:`Izpostavljene glave`: `Content-Type`"
 
 #~ msgid ""
 #~ "A specific error code is displayed on the IoT system's homepage if any "

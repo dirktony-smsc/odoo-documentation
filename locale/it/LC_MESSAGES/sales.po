@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"POT-Creation-Date: 2026-07-24 17:32+0000\n"
 "PO-Revision-Date: 2026-07-05 00:10+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -74,7 +74,7 @@ msgstr ""
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:27
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:59
 #: ../../content/applications/sales/crm/track_leads/resellers.rst:10
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:17
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:13
 #: ../../content/applications/sales/point_of_sale/extra/preparation.rst:21
 #: ../../content/applications/sales/point_of_sale/extra/presets.rst:24
 #: ../../content/applications/sales/point_of_sale/extra/pricing.rst:110
@@ -89,7 +89,6 @@ msgstr ""
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines.rst:13
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/glory.rst:21
 #: ../../content/applications/sales/point_of_sale/payment_methods/customer_credit.rst:13
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:9
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals.rst:13
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:15
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/razorpay.rst:12
@@ -106,7 +105,7 @@ msgstr ""
 #: ../../content/applications/sales/sales/gelato.rst:15
 #: ../../content/applications/sales/sales/invoicing/proforma.rst:14
 #: ../../content/applications/sales/sales/products_prices/prices/pricing.rst:16
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:36
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:35
 #: ../../content/applications/sales/sales/sales_quotations/margin.rst:12
 #: ../../content/applications/sales/sales/sales_quotations/pdf_quote_builder.rst:53
 #: ../../content/applications/sales/sales/sales_quotations/quote_template.rst:11
@@ -5677,11 +5676,11 @@ msgid ""
 msgstr ""
 "Quando si utilizza l'assegnazione basata su regole, Odoo limita "
 "automaticamente il numero massimo di lead che un singolo membro del team può "
-"ricevere in un giorno. Questo limite è determinato dal numero nel campo "
-":guilabel:`Capacità` ed è uguale a quel numero diviso per 30 (per il numero "
-"di giorni nel periodo). **Questo può comportare che alcuni lead rimangano "
-"non assegnati se la capacità giornaliera di tutti i membri del team di "
-"vendita è stata raggiunta.**"
+"ricevere in un giorno. Questo limite è determinato dal numero nel "
+"campo :guilabel:`Capacità` ed è uguale a quel numero diviso per 30 (per il "
+"numero di giorni nel periodo). **Questo può comportare che alcuni lead "
+"rimangano non assegnati se la capacità giornaliera di tutti i membri del "
+"team di vendita è stata raggiunta.**"
 
 #: ../../content/applications/sales/crm/pipeline/manage_sales_teams.rst:66
 msgid ""
@@ -9108,232 +9107,217 @@ msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:5
 msgid ""
-"Odoo Point of Sale (POS) offers a **Log in with Employees** feature, "
-"allowing multiple users to :ref:`log into the POS register <pos/"
-"employee_login/use>`. Activating this feature enables the following actions:"
+"Odoo Point of Sale allows you to :ref:`configure different access levels "
+"<pos/employee_login/configuration>` for employees and define which ones are "
+"authorized to log in to the :ref:`POS register <pos/use/open-register>` and "
+"switch between employees :ref:`using a PIN code or an employee badge <pos/"
+"employee-login/user-login>`."
 msgstr ""
-"Odoo Punto vendita offre una funzionalità **Accedi con dipendenti** che "
-"consente a più utenti di :ref:`accedere al registro del punto vendita <pos/"
-"employee_login/use>`. L'attivazione di questa funzionalità abilita le "
-"seguenti azioni:"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:9
-msgid ""
-"Select specific users who can :ref:`log into the POS <pos/employee_login/"
-"use>`."
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:15
+msgid "To configure access levels for a point of sale, follow these steps:"
 msgstr ""
-"selezionare utenti specifici che possono :ref:`accedere al POS <pos/"
-"employee_login/use>`"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:10
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:17
 msgid ""
-":ref:`Assign minimal, basic or advanced permissions <pos/employee_login/"
-"configuration>` to these users."
+"Go to :menuselection:`Point of Sale --> Configuration --> Settings` and "
+"select the relevant :guilabel:`Point of Sale`."
 msgstr ""
-":ref:`Assegnare autorizzazioni minime, di base o avanzate <pos/"
-"employee_login/configuration>` a questi utenti."
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:12
-msgid ""
-":ref:`Track the employees involved in each order for enhanced analytics <pos/"
-"analytics>`."
-msgstr ""
-":ref:`monitorare i dipendenti coinvolti in ogni ordine per analisi migliori "
-"<pos/analytics>`."
 
 #: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:19
-msgid ""
-"Access the multi-employee setting from the :guilabel:`PoS Interface` section "
-"of the :ref:`POS settings <pos/use/settings>`. Then,"
+msgid "Scroll down to the :guilabel:`PoS Interface` section."
 msgstr ""
-"Accedere all'impostazione multi-dipendente dalla "
-"sezione :guilabel:`Interfaccia Punto vendita` delle :ref:`impostazioni del "
-"punto vendita <pos/use/settings>`. Quindi,"
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:20
+msgid "Enable :guilabel:`Log in with Employees`."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:21
+#: ../../content/applications/sales/point_of_sale/extra/presets.rst:43
+#: ../../content/applications/sales/point_of_sale/hardware_network/epos_ssc.rst:115
+#: ../../content/applications/sales/point_of_sale/hardware_network/epos_ssc.rst:147
+#: ../../content/applications/sales/point_of_sale/hardware_network/pos_lna.rst:36
+#: ../../content/applications/sales/point_of_sale/hardware_network/receipt_printers.rst:41
+#: ../../content/applications/sales/point_of_sale/hardware_network/scale.rst:28
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals.rst:20
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/pine_labs.rst:54
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/viva_com.rst:80
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:75
+#: ../../content/applications/sales/point_of_sale/restaurant.rst:158
+#: ../../content/applications/sales/point_of_sale/restaurant.rst:328
+msgid "Click :guilabel:`Save`."
+msgstr "fai clic su :guilabel:`Salva`."
 
 #: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:22
-msgid "Activate the :guilabel:`Log in with Employees` feature."
-msgstr "attiva la funzione :guilabel:`Accedi con Dipendenti`"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:23
 msgid ""
-"Add the employees with **basic POS functionality** access in "
-"the :guilabel:`Basic rights` field."
+"Return to the :guilabel:`Log in with Employees` setting and complete the "
+"following fields:"
 msgstr ""
-"aggiungi i dipendenti con accesso di tipo **funzionalità POS di base** nel "
-"campo :guilabel:`Diritti di base`"
 
 #: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:24
 msgid ""
-"Add the employees with **extended POS functionalities** in "
-"the :guilabel:`Advanced rights` field."
+":guilabel:`Advanced rights`: Add the employees with **extended POS "
+"functionality** access."
 msgstr ""
-"aggiungi i dipendenti con **funzionalità POS avanzate** nel "
-"campo :guilabel:`Diritti avanzati`."
 
 #: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:25
 msgid ""
-"Add the employees with **minimal POS functionality** access in "
-"the :guilabel:`Minimal rights` field."
+":guilabel:`Basic rights`: Add the employees with **basic POS functionality** "
+"access."
 msgstr ""
-"Aggiungere i dipendenti con accesso a **funzionalità minime del punto "
-"vendita** nel campo :guilabel:`Diritti minimi`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:None
-msgid "setting to enable multiple cashiers in POS"
-msgstr "impostazione per abilitare più cassieri nel punto vendita"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:32
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:26
 msgid ""
-"Leaving the :guilabel:`Minimal rights` and :guilabel:`Basic rights` field "
+":guilabel:`Minimal rights`: Add the employees with **minimal POS "
+"functionality** access."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:29
+msgid ""
+"Leaving the :guilabel:`Minimal rights` and :guilabel:`Basic rights` fields "
 "empty allows all employees to log in."
 msgstr ""
-"Lasciare vuoti i campi :guilabel:`Diritti minimi` e :guilabel:`Diritti di "
-"base` consente a tutti i dipendenti di effettuare l'accesso."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:34
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:31
 msgid ""
 "Leaving the :guilabel:`Advanced rights` field empty grants extended rights "
-"to Odoo users only."
+"to Odoo *users* only."
 msgstr ""
-"Lasciando vuoto il campo :guilabel:`Diritti avanzati` concedi diritti estesi "
-"solo agli utenti di Odoo."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:37
-msgid ""
-"Click the :icon:`fa-ellipsis-v` (:guilabel:`vertical ellipsis`) button on "
-"the top right corner of a POS card and :guilabel:`Edit` to access the "
-"setting from the main POS dashboard."
-msgstr ""
-"Fai clic sul pulsante :icon:`fa-ellipsis-v` (:guilabel:`ellissi verticale`) "
-"nell'angolo in alto a destra di una scheda POS e poi su :guilabel:`Modifica` "
-"per accedere all'impostazione dalla dashboard principale del punto vendita."
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:41
-msgid ":doc:`/applications/general/users/access_rights`"
-msgstr ":doc:`/applications/general/users/access_rights`"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:44
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:35
 msgid "Minimal rights"
 msgstr "Diritti minimi"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:46
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:37
 msgid ""
-"Employees with minimal rights can perform the following actions within the "
-"POS:"
+"Employees with minimal rights can perform the following POS-related actions:"
 msgstr ""
-"I dipendenti con diritti minimi possono eseguire le seguenti azioni nel "
-"punto vendita:"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:48
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:67
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:39
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:63
 msgid "**Register management:**"
 msgstr "**Gestione del registro:**"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:50
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:41
 msgid "Lock and unlock an open POS register."
 msgstr "Bloccare e sbloccare un registro del punto vendita aperto."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:51
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:42
 msgid "Reload data."
 msgstr "Ricaricare i dati."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:53
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:72
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:43
+msgid "Generate, download and print :ref:`POS reports <pos/analytics>`."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:44
+msgid "Enable :doc:`../hardware_network/pos_lna`."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:45
+msgid ""
+"Access the :ref:`orders overview <pos/use/orders>` to search and filter "
+"orders."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:46
+msgid ""
+"Print or reprint :doc:`invoices <../use/pos_invoices>` and :doc:`receipts "
+"<../use/receipts>` in the orders overview."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:49
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:68
 msgid "**Sales transactions:**"
 msgstr "**Transazioni di vendita:**"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:55
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:51
 msgid ":ref:`Process standard sales transactions <pos/use/sell>`."
 msgstr ":ref:`Elaborare transazioni di vendita standard <pos/use/sell>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:56
-msgid ":ref:`Set customers <pos/use/customers>`."
-msgstr ":ref:`Impostare i clienti <pos/use/customers>`."
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:52
+msgid ":ref:`Assign customers <pos/use/customers>`."
+msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:57
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:53
 msgid ":ref:`Add notes to orders <pos/use/notes>`."
 msgstr ":ref:`Aggiungere note agli ordini <pos/use/notes>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:59
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:80
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:55
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:75
 msgid "**Pricing and discounts:**"
 msgstr "**Prezzi e sconti:**"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:61
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:57
 msgid ":ref:`Enter promotional codes <pos/pricing/loyalty/codes>`."
 msgstr ":ref:`Inserire codici promozionali <pos/pricing/loyalty/codes>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:63
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:59
 msgid "Basic rights"
 msgstr "Diritti base"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:65
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:61
 msgid ""
 "In addition to the minimal rights, employees with basic rights can also:"
 msgstr ""
 "Oltre ai diritti minimi, i dipendenti con diritti di base possono anche:"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:69
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:65
 msgid ":ref:`Open the POS register <pos/use/open-register>`."
 msgstr ":ref:`Aprire il registro del punto vendita <pos/use/open-register>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:70
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:66
 msgid ":ref:`Perform cash-in and cash-out operations <pos/use/cash-register>`."
 msgstr ""
 ":ref:`Eseguire operazioni di versamento e prelievo contanti <pos/use/cash-"
 "register>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:74
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:70
 msgid ":ref:`Create customers <pos/use/customers>`."
 msgstr ":ref:`Creare clienti <pos/use/customers>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:75
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:71
 msgid ":ref:`Process refunds <pos/use/refund>`."
 msgstr ":ref:`Elaborare rimborsi <pos/use/refund>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:76
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:72
 msgid ":ref:`Settle sales orders <pos/shop/so>` from the POS interface."
 msgstr ""
 ":ref:`Saldare ordini di vendita <pos/shop/so>` dall'interfaccia del Punto "
 "vendita."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:77
-msgid ":ref:`Access past and current order history <pos/use/orders>`."
-msgstr ""
-":ref:`Accedere allo storico degli ordini passati e attuali <pos/use/orders>`."
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:78
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:73
 msgid "Cancel orders."
 msgstr "Annullare gli ordini."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:82
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:77
 msgid "Manually select another :ref:`pricelist <pos/pricing/pricelists>`."
 msgstr ""
 "Selezionare manualmente un altro :ref:`listino prezzi <pos/pricing/"
 "pricelists>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:83
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:78
 msgid ":ref:`Manually apply discounts <pos/pricing/discounts>`."
 msgstr ":ref:`Applicare manualmente sconti <pos/pricing/discounts>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:84
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:79
 msgid "Manually :ref:`change a product's price <pos/use/sell>`."
 msgstr ":ref:`Modificare manualmente il prezzo di un prodotto <pos/use/sell>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:85
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:80
 msgid ":ref:`Give loyalty program's rewards <pos/pricing/loyalty>`."
 msgstr ":ref:`Assegnare premi del programma fedeltà <pos/pricing/loyalty>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:86
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:81
 msgid "Switch between :ref:`fiscal positions <pos/pricing/taxes>`."
 msgstr ""
 "Passare da una :ref:`posizione di bilancio <pos/pricing/taxes>` all'altra."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:88
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:83
 msgid "Advanced rights"
 msgstr "Diritti avanzati"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:90
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:85
 msgid ""
 "In addition to the minimal and basic rights, employees with advanced rights "
 "can also:"
@@ -9341,21 +9325,21 @@ msgstr ""
 "Oltre ai diritti minimi e di base, i dipendenti con diritti avanzati possono "
 "anche:"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:92
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:87
 msgid ":doc:`Create products <../products>`."
 msgstr ":doc:`Creare prodotti <../products>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:93
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:88
 msgid "Access the Odoo backend interface."
 msgstr "accedere all'interfaccia del backend di Odoo"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:94
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:89
 msgid ":ref:`Close the current POS register <pos/use/register-close>`."
 msgstr ""
 ":ref:`Chiudere il registro del punto vendita corrente <pos/use/register-"
 "close>`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:97
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:92
 msgid ""
 "An employee with advanced POS rights who is not a database user cannot "
 "access the backend or create products."
@@ -9363,107 +9347,47 @@ msgstr ""
 "Un dipendente con diritti avanzati sul Punto vendita che non è un utente del "
 "database non può accedere al backend o creare prodotti."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:103
-#: ../../content/applications/sales/point_of_sale/extra/self_order.rst:191
-msgid "Usage guidelines"
-msgstr "Linee guida per l'uso"
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:96
+msgid ":doc:`/applications/general/users/access_rights`"
+msgstr ":doc:`/applications/general/users/access_rights`"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:106
-msgid "Logging in"
-msgstr "Accedere"
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:101
+msgid "Badge configuration"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:103
+msgid ""
+"Employees can :ref:`log in using a badge <pos/employee-login/user-login>`. "
+"To configure badge-based login, assign a unique badge ID to the employee's "
+"profile in the :guilabel:`Employees` app:"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:107
+msgid "Open the :guilabel:`Employees` app and select the relevant employee."
+msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:108
-msgid ""
-"Once the **Log in with Employees** feature is enabled, employees must log in "
-"to :ref:`open the POS register <pos/use/open-register>` and access the POS "
-"interface. They can :ref:`scan their employee badge <pos/employee_login/"
-"badge>`, click the :icon:`fa-users` icon (:guilabel:`users`) to select their "
-"name from the list of authorized users, or by entering :ref:`their PIN code "
-"<pos/employee_login/pin>` in the :guilabel:`Enter your PIN` field."
-msgstr ""
-"Una volta abilitata la funzionalità **Accedi con dipendenti**, i dipendenti "
-"devono effettuare l'accesso per :ref:`aprire il registro del punto vendita "
-"<pos/use/open-register>` e accedere all'interfaccia del punto vendita. "
-"Possono :ref:`scansionare il loro badge dipendente <pos/employee_login/"
-"badge>`, fare clic sull'icona :icon:`fa-users` (:guilabel:`utenti`) per "
-"selezionare il loro nome dall'elenco degli utenti autorizzati, oppure "
-"inserendo :ref:`il loro codice PIN <pos/employee_login/pin>` nel "
-"campo :guilabel:`Inserisci il tuo PIN`."
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:None
-msgid ""
-"Login window to open the register when the multiple cashiers feature is "
-"active"
-msgstr ""
-"Finestra di accesso per aprire il registro quando la funzionalità cassieri "
-"multipli è attiva"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:117
-msgid ""
-"To switch between users from the :ref:`POS interface <pos/use/open-"
-"register>`, click on the currently logged-in employee's name at the top "
-"right of the POS screen and select the user to switch to."
-msgstr ""
-"Per passare da un utente all'altro dall':ref:`interfaccia del punto vendita "
-"<pos/use/open-register>`, fare clic sul nome del dipendente attualmente "
-"connesso in alto a destra dello schermo del punto vendita e selezionare "
-"l'utente a cui passare."
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:122
-msgid ""
-"In the absence of a scanner, click the :icon:`fa-barcode` icon "
-"(:guilabel:`barcode`) to scan barcodes using the webcam."
-msgstr ""
-"In assenza di un lettore, fai clic sull'icona :icon:`fa-barcode` "
-"(:guilabel:`codice a barre`) per scansionare i codici a barre utilizzando la "
-"webcam."
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:128
-msgid "Logging in with badges"
-msgstr "Accedere con badge"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:130
-msgid ""
-"Employees can log in using their badge. To configure badge-based login, "
-"assign a unique badge ID to the employee's profile in the **Employees** "
-"module:"
-msgstr ""
-"I dipendenti possono accedere utilizzando il proprio badge. Per configurare "
-"l'accesso basato su badge, assegna un ID univoco al profilo del dipendente "
-"nel modulo **Dipendenti**:"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:133
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:154
-msgid "Navigate to the **Employees** module."
-msgstr "accedi al modulo **Dipendenti**"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:134
-msgid "Open the form view of the specific employee."
-msgstr "apri la vista modulo del dipendente specifico"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:135
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:156
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:125
 msgid "Go to the :guilabel:`Settings` tab."
 msgstr "accedi alla scheda :guilabel:`Impostazioni`"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:136
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:109
 msgid ""
 "The :guilabel:`Attendance/Point of Sale/Manufacturing` category offers two "
 "options:"
 msgstr ""
 "la categoria :guilabel:`Presenze/Punto vendita/Produzione` offre due opzioni:"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:138
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:111
 msgid "Manually enter any badge ID in the :guilabel:`Badge ID` field."
 msgstr ""
 "inserire manualmente un ID badge qualsiasi nel campo :guilabel:`ID badge`"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:139
-msgid "Click :guilabel:`Generate` to create a unique badge ID automatically."
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:112
+msgid "Click :guilabel:`Generate` to automatically generate a unique badge ID."
 msgstr ""
-"fai clic su :guilabel:`Genera` per creare automaticamente un ID badge unico"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:140
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:114
 msgid ""
 "Click :guilabel:`Print Badge` to generate a barcode representation of the "
 "assigned badge ID."
@@ -9471,47 +9395,66 @@ msgstr ""
 "fai clic su :guilabel:`Stampa badge` per generare una rappresentazione del "
 "codice a barre dell'ID badge assegnato"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:142
-msgid ""
-"To switch between users from the :ref:`POS interface <pos/use/open-"
-"register>`, using a badge, you must first lock the register. To do so, click "
-"the :icon:`fa-lg fa-lock` icon (:guilabel:`lock`) to return to the login "
-"screen. Then, the new employee can scan their badge to log in."
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:119
+msgid "PIN code setup"
 msgstr ""
-"Per passare da un utente all'altro dall':ref:`interfaccia del punto vendita "
-"<pos/use/open-register>` utilizzando un badge, è necessario prima bloccare "
-"il registro. Per farlo, fare clic sull'icona :icon:`fa-lg fa-lock` "
-"(:guilabel:`blocca`) per tornare alla schermata di accesso. Quindi, il nuovo "
-"dipendente può scansionare il proprio badge per effettuare l'accesso."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:149
-msgid "Adding a PIN Code"
-msgstr "Aggiungere un codice PIN"
-
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:151
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:121
 msgid ""
-"For enhanced security, employees may be forced to enter a PIN code each time "
-"they log into the POS register. To set up a PIN code for an employee:"
+"For enhanced security, employees can be required to enter a PIN code each "
+"time they log in to the POS register. To set up a PIN code for an employee:"
 msgstr ""
-"Per una maggiore sicurezza, i dipendenti possono essere obbligati a inserire "
-"un codice PIN ogni volta che accedono al registro del punto vendita. Per "
-"impostare un codice PIN per un dipendente:"
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:155
-msgid "Open the form view of the relevant employee."
-msgstr "apri la vista modulo del dipendente"
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:124
+msgid "Open the **Employees** app and select the relevant employee."
+msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:157
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:126
 msgid ""
-"Enter a desired numerical code in the :guilabel:`PIN Code` field of "
+"Enter a numerical code in the :guilabel:`PIN Code` field of "
 "the :guilabel:`Attendance/Point of Sale/Manufacturing` category."
 msgstr ""
-"inserisci il codice numerico desiderato nel campo :guilabel:`Codice PIN` "
-"della categoria :guilabel:`Presenze/Punto vendita/Produzione`."
 
-#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:161
-msgid "The PIN code must consist of a sequence of digits only."
-msgstr "Il codice PIN deve essere composto esclusivamente da cifre."
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:132
+msgid "Employee login"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:134
+msgid ""
+"Once the :guilabel:`Log in with Employees` setting is enabled, employees "
+"must log in to :ref:`access the POS register <pos/use/open-register>`. They "
+"can :ref:`scan their employee badge <pos/employee-login/user-login>`, click "
+"the :icon:`fa-users` icon (:guilabel:`users`) to select their name from the "
+"list of authorized employees, or enter :ref:`their PIN code <pos/"
+"employee_login/pin>` in the :guilabel:`Enter your PIN` field."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:None
+msgid ""
+"Login window to access the register when the multiple cashiers feature is "
+"active"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:143
+msgid ""
+"To switch between employees from the :ref:`POS register <pos/use/open-"
+"register>`, click the currently logged-in employee's name at the top right "
+"of the POS interface and select the employee to switch to. Alternatively, "
+"click the :icon:`fa-unlock` (:guilabel:`Lock`) icon in the upper-right "
+"corner to lock the register, allowing the next employee to log in."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:149
+msgid ""
+"If a PIN code is associated with an employee, they will be asked to enter it "
+"even after scanning the badge or selecting their name."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/extra/employee_login.rst:153
+msgid ""
+"In the absence of a scanner, click the :icon:`fa-barcode` icon "
+"(:guilabel:`barcode`) to scan barcodes using your device's webcam."
+msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/extra/preparation.rst:5
 msgid ""
@@ -10139,21 +10082,6 @@ msgstr ""
 #: ../../content/applications/sales/point_of_sale/extra/presets.rst:42
 msgid "Define a default preset in the :guilabel:`Default` field."
 msgstr "Definire un preset predefinito nel campo :guilabel:`Predefinito`."
-
-#: ../../content/applications/sales/point_of_sale/extra/presets.rst:43
-#: ../../content/applications/sales/point_of_sale/hardware_network/epos_ssc.rst:115
-#: ../../content/applications/sales/point_of_sale/hardware_network/epos_ssc.rst:147
-#: ../../content/applications/sales/point_of_sale/hardware_network/pos_lna.rst:36
-#: ../../content/applications/sales/point_of_sale/hardware_network/receipt_printers.rst:41
-#: ../../content/applications/sales/point_of_sale/hardware_network/scale.rst:28
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals.rst:20
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/pine_labs.rst:54
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/viva_com.rst:80
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:75
-#: ../../content/applications/sales/point_of_sale/restaurant.rst:158
-#: ../../content/applications/sales/point_of_sale/restaurant.rst:328
-msgid "Click :guilabel:`Save`."
-msgstr "fai clic su :guilabel:`Salva`."
 
 #: ../../content/applications/sales/point_of_sale/extra/presets.rst:44
 msgid ""
@@ -11622,6 +11550,10 @@ msgstr ""
 "campo :guilabel:`Ordine fai da te` per assicurarti che tutte "
 "le :ref:`impostazioni aggiuntive <pos/self_order/add-settings>` vengano "
 "applicate correttamente."
+
+#: ../../content/applications/sales/point_of_sale/extra/self_order.rst:191
+msgid "Usage guidelines"
+msgstr "Linee guida per l'uso"
 
 #: ../../content/applications/sales/point_of_sale/extra/self_order.rst:197
 msgid "On the POS user's end, access the self-ordering interface by"
@@ -13441,6 +13373,7 @@ msgstr ""
 "tramite il router."
 
 #: ../../content/applications/sales/point_of_sale/hardware_network/pos_lna.rst:24
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:11
 msgid "Activation"
 msgstr "Attivazione"
 
@@ -14711,6 +14644,7 @@ msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashdro.rst:58
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:101
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:37
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/dpo.rst:48
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/tyro.rst:39
 msgid ""
@@ -14789,8 +14723,8 @@ msgstr ""
 "Le :doc:`macchine contanti <../cash_machines>` `Cashmatic <https://"
 "cashmatic.eu/>`_ automatizzano le transazioni in contanti accettando "
 "contanti ed erogando il resto. Quando integrate con il Punto vendita Odoo, i "
-"pagamenti vengono elaborati direttamente attraverso la macchina dal "
-":ref:`registratore POS <pos/use/open-register>`."
+"pagamenti vengono elaborati direttamente attraverso la macchina "
+"dal :ref:`registratore POS <pos/use/open-register>`."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:11
 msgid ""
@@ -14812,10 +14746,10 @@ msgstr ""
 "Operazioni come il rifornimento e lo svuotamento della macchina devono "
 "essere eseguite direttamente attraverso l'interfaccia della macchina "
 "contanti o tramite l'app MyCashmatic (disponibile su `Android <https://"
-"play.google.com/store/apps/"
-"details?id=com.cashmatic.app&pcampaignid=web_share>`_ o `iOS <https://"
-"apps.apple.com/us/app/mycashmatic/id1661294811>`_) o il `sito web <https://"
-"cashmatic.be/my-cashmatic/login>`_."
+"play.google.com/store/apps/details?"
+"id=com.cashmatic.app&pcampaignid=web_share>`_ o `iOS <https://apps.apple.com/"
+"us/app/mycashmatic/id1661294811>`_) o il `sito web <https://cashmatic.be/my-"
+"cashmatic/login>`_."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:24
 msgid ""
@@ -14859,8 +14793,8 @@ msgstr ""
 "La configurazione della macchina Cashmatic come :ref:`metodo di pagamento in "
 "Odoo <pos/cashmatic/odoo_configuration>` richiede l'individuazione "
 "dell':ref:`indirizzo IP <pos/cashmatic/ip-address>` della macchina e la "
-"preparazione per la connessione tramite :ref:`HTTPS <pos/cashmatic/https>` o "
-":ref:`HTTP <pos/cashmatic/http>`."
+"preparazione per la connessione tramite :ref:`HTTPS <pos/cashmatic/https>` "
+"o :ref:`HTTP <pos/cashmatic/http>`."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:39
 msgid ""
@@ -14934,8 +14868,8 @@ msgstr ""
 msgid ""
 "In the interface's side menu, go to :menuselection:`Settings --> Device`."
 msgstr ""
-"Nel menu laterale dell'interfaccia, andare su "
-":menuselection:`Impostazioni --> Dispositivo`."
+"Nel menu laterale dell'interfaccia, andare su :menuselection:`Impostazioni --"
+"> Dispositivo`."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:69
 msgid "Scroll down to the :guilabel:`Use Cashmatic CA` option and enable it."
@@ -14948,9 +14882,9 @@ msgid ""
 "Click :guilabel:`Save` and refresh the page. A :guilabel:`Download HTTPS "
 "Certificate` link appears at the bottom left of the side menu."
 msgstr ""
-"Fare clic su :guilabel:`Salva` e aggiornare la pagina. Un link "
-":guilabel:`Scarica certificato HTTPS` appare in basso a sinistra del menu "
-"laterale."
+"Fare clic su :guilabel:`Salva` e aggiornare la pagina. Un "
+"link :guilabel:`Scarica certificato HTTPS` appare in basso a sinistra del "
+"menu laterale."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:72
 msgid "Click the :guilabel:`Download HTTPS Certificate` link."
@@ -14982,9 +14916,9 @@ msgid ""
 "On the Cashmatic machine, log in, go to :menuselection:`Settings --> Trusted "
 "mode`, then click :guilabel:`Yes`."
 msgstr ""
-"Sulla macchina Cashmatic, effettuare l'accesso, andare su "
-":menuselection:`Impostazioni --> Modalità fidata`, quindi fare clic su "
-":guilabel:`Sì`."
+"Sulla macchina Cashmatic, effettuare l'accesso, andare "
+"su :menuselection:`Impostazioni --> Modalità fidata`, quindi fare clic "
+"su :guilabel:`Sì`."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:86
 msgid ""
@@ -14992,9 +14926,9 @@ msgid ""
 "to :menuselection:`Settings --> System`, then enable :guilabel:`Unsecured "
 "APIs`."
 msgstr ""
-"Nell'app MyCashmatic o sul sito web, accedere al proprio account, andare su "
-":menuselection:`Impostazioni --> Sistema`, quindi abilitare :guilabel:`API "
-"non sicure`."
+"Nell'app MyCashmatic o sul sito web, accedere al proprio account, andare "
+"su :menuselection:`Impostazioni --> Sistema`, quindi "
+"abilitare :guilabel:`API non sicure`."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:90
 msgid ""
@@ -15031,8 +14965,8 @@ msgid ""
 "the :guilabel:`Cashmatic IP` field."
 msgstr ""
 "Nella scheda :guilabel:`Impostazioni Cashmatic`, inserire l':ref:`indirizzo "
-"IP <pos/cashmatic/ip-address>` della macchina Cashmatic nel campo "
-":guilabel:`IP Cashmatic`."
+"IP <pos/cashmatic/ip-address>` della macchina Cashmatic nel "
+"campo :guilabel:`IP Cashmatic`."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.rst:108
 msgid ""
@@ -15714,343 +15648,113 @@ msgstr ""
 "che i clienti possono scansionare con l'app di mobile banking per avviare un "
 "bonifico bancario o pagare istantaneamente."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:12
-msgid "Activate and set up QR code payments"
-msgstr "Attivare e configurare i pagamenti tramite codice QR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:14
-msgid "Go to :menuselection:`Accounting --> Configuration --> Settings`, and"
-msgstr ""
-"Andare su :menuselection:`Contabilità --> Configurazione --> Impostazioni` e"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:16
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:13
 msgid ""
-"Activate or upgrade your country's fiscal localization package under "
-"the :guilabel:`Fiscal Localization` section to access all country-specific "
-"accounting features."
+"To allow payments by scanning a QR code, go to :menuselection:`Invoicing --> "
+"Configuration --> Settings`, scroll down to the :guilabel:`Customer "
+"Payments` section, and enable the :guilabel:`QR Codes` setting."
 msgstr ""
-"Attivare o aggiornare il pacchetto di localizzazione fiscale del proprio "
-"paese nella sezione :guilabel:`Localizzazione fiscale` per accedere a tutte "
-"le funzionalità contabili specifiche del paese."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:18
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:17
 msgid ""
-"Activate :guilabel:`QR codes` under the :guilabel:`Customer Payments` "
-"section."
+"QR code types vary by country. Refer to the corresponding documentation for "
+"the configuration required for each type:"
 msgstr ""
-"Attivare :guilabel:`Codici QR` nella sezione :guilabel:`Pagamenti clienti`."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:20
-msgid ""
-"Then, as the QR code type differs depending on your country, follow the "
-"corresponding documentation page from the following table to set them up."
+msgid ":doc:`Pix (Brazil) <../../../finance/fiscal_localizations/brazil>`"
 msgstr ""
-"Poi, poiché il tipo di codice QR varia a seconda del paese, seguire la "
-"pagina di documentazione corrispondente dalla seguente tabella per "
-"configurarli."
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:21
+msgid ":ref:`FPS (Hong Kong) <localization/hong-kong/fps>`"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:22
+msgid ":ref:`QRIS (Indonesia) <localizations/indonesia/qris>`"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:23
+msgid ":ref:`PayNow (Singapore) <localization/singapore/paynow>`"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:24
+msgid ""
+":doc:`QR-bill (Switzerland) <../../../finance/fiscal_localizations/"
+"switzerland>`"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:25
+msgid ":ref:`PromptPay (Thailand) <localization/thailand/promptpay>`"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:26
+msgid ":ref:`VietQR (Vietnam) <localizations/vietnam/qrcode>`"
+msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:27
-msgid "QR code types"
-msgstr "Tipi di codice QR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:28
-msgid "Module name"
-msgstr "Nome del modulo"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:29
-msgid "Technical name"
-msgstr "Nome tecnico"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:30
-msgid "Description"
-msgstr "Descrizione"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:31
-msgid "Pix"
-msgstr "Pix"
+msgid ":ref:`EPC (SEPA) <accounting/customer-invoices/epc>`"
+msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:32
-msgid ""
-":doc:`Brazilian - Accounting<../../../finance/fiscal_localizations/brazil>`"
+msgid "QR code payment method"
 msgstr ""
-":doc:`Brasile - Contabilità<../../../finance/fiscal_localizations/brazil>`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:33
-msgid "`l10n_br`"
-msgstr "`l10n_br`"
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:34
 msgid ""
-"The base module to manage the accounting chart and localization for Brazil."
+"To create a QR code :doc:`payment method <../payment_methods>` that allows "
+"customers to scan the code and pay, follow these steps:"
 msgstr ""
-"Il modulo di base per gestire il piano contabile e la localizzazione per il "
-"Brasile."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:35
-msgid "FPS"
-msgstr "FPS"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:36
-msgid ""
-":doc:`Hong Kong - Accounting<../../../finance/fiscal_localizations/"
-"hong_kong>`"
-msgstr ""
-":doc:`Hong Kong - Contabilità<../../../finance/fiscal_localizations/"
-"hong_kong>`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:37
-msgid "`l10n_hk`"
-msgstr "`l10n_hk`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:38
-msgid ""
-"The base module to manage the accounting chart and localization for Hong "
-"Kong."
-msgstr ""
-"Il modulo di base per gestire il piano contabile e la localizzazione per "
-"Hong Kong."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:39
-msgid "QRIS"
-msgstr "QRIS"
+msgid "Enter a name and set the :guilabel:`Journal` field to :guilabel:`Bank`."
+msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:40
-msgid ""
-":doc:`Indonesian - Accounting<../../../finance/fiscal_localizations/"
-"indonesia>`"
+msgid "Set the :guilabel:`Point of Sale` field to the relevant point of sale."
 msgstr ""
-":doc:`Indonesia - Contabilità<../../../finance/fiscal_localizations/"
-"indonesia>`"
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:41
-msgid "`l10n_id`"
-msgstr "`l10n_id`"
+msgid ""
+"Set the :guilabel:`Integration` field to :guilabel:`Bank App (QR Code)`."
+msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:42
-msgid ""
-"The base module to manage the accounting chart and localization for "
-"Indonesia."
-msgstr ""
-"Il modulo di base per gestire il piano contabile e la localizzazione per "
-"l'Indonesia."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:43
-msgid "PayNow"
-msgstr "PayNow"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:44
-msgid ""
-":doc:`Singapore - Accounting<../../../finance/fiscal_localizations/"
-"singapore>`"
-msgstr ""
-":doc:`Singapore - Contabilità<../../../finance/fiscal_localizations/"
-"singapore>`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:45
-msgid "`l10n_sg`"
-msgstr "`l10n_sg`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:46
-msgid ""
-"The base module to manage the accounting chart and localization for "
-"Singapore."
-msgstr ""
-"Il modulo di base per gestire il piano contabile e la localizzazione per "
-"Singapore."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:47
-msgid "QR-bill"
-msgstr "Fattura QR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:48
-msgid ""
-":doc:`Switzerland - Accounting<../../../finance/fiscal_localizations/"
-"switzerland>`"
-msgstr ""
-":doc:`Svizzera - Contabilità<../../../finance/fiscal_localizations/"
-"switzerland>`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:49
-msgid "`l10n_ch`"
-msgstr "`l10n_ch`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:50
-msgid ""
-"The base module to manage the accounting chart and localization for "
-"Switzerland."
-msgstr ""
-"Il modulo di base per gestire il piano contabile e la localizzazione per la "
-"Svizzera."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:51
-msgid "PromptPay"
-msgstr "PromptPay"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:52
-msgid ""
-":doc:`Thailand - Accounting<../../../finance/fiscal_localizations/thailand>`"
-msgstr ""
-":doc:`Thailandia - Contabilità<../../../finance/fiscal_localizations/"
-"thailand>`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:53
-msgid "`l10n_th`"
-msgstr "`l10n_th`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:54
-msgid ""
-"The base module to manage the accounting chart and localization for Thailand."
-msgstr ""
-"Il modulo base per gestire il piano contabile e la localizzazione per la "
-"Thailandia."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:55
-msgid "VietQR"
-msgstr "VietQR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:56
-msgid ""
-":doc:`Vietnam - Accounting<../../../finance/fiscal_localizations/vietnam>`"
-msgstr ""
-":doc:`Vietnam - Contabilità<../../../finance/fiscal_localizations/vietnam>`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:57
-msgid "`l10n_vn`"
-msgstr "`l10n_vn`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:58
-msgid ""
-"The base module to manage the accounting chart and localization for Vietnam."
-msgstr ""
-"Il modulo base per gestire il piano contabile e la localizzazione per il "
-"Vietnam."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:59
-msgid "EPC"
-msgstr "EPC"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:60
-msgid ""
-":doc:`Account SEPA QR Code<../../../finance/accounting/customer_invoices/"
-"epc_qr_code>`"
-msgstr ""
-":doc:`Codice QR SEPA contabile<../../../finance/accounting/customer_invoices/"
-"epc_qr_code>`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:61
-msgid "`account_qr_code_sepa`"
-msgstr "`account_qr_code_sepa`"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:62
-msgid "This module adds support for SEPA Credit Transfer QR-code generation."
-msgstr ""
-"Questo modulo aggiunge il supporto per la generazione di codici QR per "
-"bonifici SEPA."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:65
-msgid "Create the payment method"
-msgstr "Creare il metodo di pagamento"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:67
-msgid "Open the Point of Sale application."
-msgstr "Aprire l'applicazione Punto vendita."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:68
-msgid ""
-"Go to :menuselection:`Configuration --> Payment Methods` and create a "
-"payment method."
-msgstr ""
-"Andare su :menuselection:`Configurazione --> Metodi di pagamento` e creare "
-"un metodo di pagamento."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:69
-msgid "Set a bank-type journal."
-msgstr "Impostare un sezionale di tipo banca."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:70
-msgid ""
-"Select :guilabel:`Bank App (QR Code)` under the :guilabel:`Integration` "
-"section."
-msgstr ""
-"Selezionare :guilabel:`App bancaria (codice QR)` nella "
-"sezione :guilabel:`Integrazione`."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:71
 msgid "Select the :guilabel:`QR Code Format` from the dropdown menu."
 msgstr "Selezionare il :guilabel:`formato del codice QR` dal menu a discesa."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:73
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:44
 msgid ""
-"Select :guilabel:`SEPA Credit Transfer QR` if you are part of the Single "
-"Euro Payments Area (SEPA)."
+"Select :guilabel:`SEPA Credit Transfer QR` if your company is part of the "
+"Single Euro Payments Area (SEPA)."
 msgstr ""
-"Selezionare :guilabel:`Bonifico SEPA QR` se si fa parte dell'Area unica dei "
-"pagamenti in euro (SEPA)."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:75
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:46
 msgid ""
 "Select :guilabel:`EMV Merchant-Presented QR-code` for other QR code types."
 msgstr ""
 "Selezionare :guilabel:`Codice QR EMV presentato dal commerciante` per altri "
 "tipi di codice QR."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:None
-msgid "QR code payment method configuration"
-msgstr "Configurazione del metodo di pagamento con codice QR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:82
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:49
 msgid ""
-"At least one bank account must be defined in the journal to allow QR code "
-"payments to be registered with bank apps."
+"The :ref:`journal <accounting/journals/bank>` selected in the payment method "
+"must be linked to a specific bank account to allow QR code payments to be "
+"registered with bank apps."
 msgstr ""
-"Almeno un conto bancario deve essere definito nel registro per consentire la "
-"registrazione dei pagamenti con codice QR tramite app bancarie."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:85
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:55
+msgid "QR code payments registration"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:57
 msgid ""
-"Once the payment method is created, go to the :ref:`POS' settings <pos/use/"
-"settings>` and add the payment method to your POS under "
-"the :guilabel:`Payment` section."
+"To accept a QR code payment, select the relevant :ref:`payment method <pos/"
+"qrcode/payment-method>` on the :ref:`payment screen <pos/use/sell>`, then "
+"click :guilabel:`Validate`. A QR code is generated and displayed on the "
+"payment screen for customers to scan with their mobile banking app and "
+"complete the payment. The payment is validated in Odoo once processed in the "
+"mobile banking app."
 msgstr ""
-"Una volta creato il metodo di pagamento, andare alle :ref:`impostazioni del "
-"Punto vendita <pos/use/settings>` e aggiungere il metodo di pagamento al "
-"proprio Punto vendita nella sezione :guilabel:`Pagamento`."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:None
-msgid "Enable QR code payment method"
-msgstr "Attivare il metodo di pagamento con codice QR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:93
-msgid "Register payments using QR codes"
-msgstr "Registrare pagamenti utilizzando codici QR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:95
-msgid ""
-"When processing a payment, select the payment method for QR code payments. A "
-"QR code is generated and displayed on the screen for the customer to scan "
-"and pay with their mobile banking app."
-msgstr ""
-"Durante l'elaborazione di un pagamento, selezionare il metodo di pagamento "
-"per i pagamenti con codice QR. Un codice QR viene generato e visualizzato "
-"sullo schermo affinché il cliente possa scansionarlo e pagare con la sua app "
-"di mobile banking."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:None
-msgid "QR code payment example"
-msgstr "Esempio di pagamento con codice QR"
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:102
-msgid "Hit :guilabel:`Confirm Payment` to validate the transaction."
-msgstr ""
-"Fare clic su :guilabel:`Conferma pagamento` per convalidare la transazione."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/qr_code_payment.rst:105
-msgid ""
-"Odoo does **not** check the bank payment. It is recommended that users "
-"verify payments for validity before confirming them on the POS register."
-msgstr ""
-"Odoo **non** verifica il pagamento bancario. Si consiglia di verificare la "
-"validità dei pagamenti prima di confermarli sul registratore di cassa."
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals.rst:7
 msgid ""
@@ -18017,6 +17721,7 @@ msgstr ""
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:17
 #: ../../content/applications/sales/point_of_sale/restaurant/urban_piper.rst:126
 #: ../../content/applications/sales/sales/lazada_connector/setup.rst:10
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:10
 msgid "Prerequisites"
 msgstr "Prerequisiti"
 
@@ -18968,14 +18673,14 @@ msgid ""
 "by :ref:`units <pos/products/units>` and :ref:`manage stock <pos/products/"
 "sn>`."
 msgstr ""
-"Odoo Punto vendita consente di :ref:`creare prodotti <pos/products/creation>"
-"` e :ref:`gestire le informazioni sui prodotti <pos/products/information-"
-"display>` dal backend o nel registratore POS. I prodotti possono essere "
-":ref:`configurati <pos/products/configuration>` in vari modi, inclusa la "
-"creazione di :ref:`varianti <pos/products/variants>`, :ref:`combinazioni di "
-"prodotti <pos/products/combos>` e :ref:`categorie di prodotti specifiche per "
-"il POS <pos/products/categories>`, e l'aggiunta di :ref:`tag <pos/products/"
-"tags>` e :ref:`immagini <pos/products/images>`. È inoltre possibile "
+"Odoo Punto vendita consente di :ref:`creare prodotti <pos/products/"
+"creation>` e :ref:`gestire le informazioni sui prodotti <pos/products/"
+"information-display>` dal backend o nel registratore POS. I prodotti possono "
+"essere :ref:`configurati <pos/products/configuration>` in vari modi, inclusa "
+"la creazione di :ref:`varianti <pos/products/variants>`, :ref:`combinazioni "
+"di prodotti <pos/products/combos>` e :ref:`categorie di prodotti specifiche "
+"per il POS <pos/products/categories>`, e l'aggiunta di :ref:`tag <pos/"
+"products/tags>` e :ref:`immagini <pos/products/images>`. È inoltre possibile "
 "raggruppare i prodotti per :ref:`unità <pos/products/units>` e :ref:`gestire "
 "lo stock <pos/products/sn>`."
 
@@ -19005,8 +18710,8 @@ msgstr ""
 "come la definizione del :doc:`tipo di prodotto </applications/"
 "inventory_and_mrp/inventory/product_management/configure/type>`, "
 "l'impostazione di una :ref:`strategia di tracciamento <pos/products/sn>` o "
-"l'aggiunta di un'immagine del prodotto, secondo necessità. Configurare i "
-":ref:`dettagli del prodotto <pos/products/configuration>` avanzati e "
+"l'aggiunta di un'immagine del prodotto, secondo necessità. Configurare "
+"i :ref:`dettagli del prodotto <pos/products/configuration>` avanzati e "
 "specifici per il POS secondo necessità."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:28
@@ -19021,13 +18726,13 @@ msgid ""
 "information-display>`."
 msgstr ""
 "È anche possibile creare un prodotto dall'interfaccia POS. Per farlo, aprire "
-"il :ref:`registratore POS <pos/use/open-register>`, cliccare sull'icona "
-":icon:`fa-bars` (:guilabel:`menu hamburger`), quindi selezionare "
-":guilabel:`Crea prodotto`. Inserire i dettagli del prodotto nel popover e "
-"cliccare su :guilabel:`Salva`. Il prodotto è immediatamente disponibile nel "
-"registratore POS. I prodotti esistenti possono anche essere aggiornati "
-"direttamente dal registratore POS attraverso il :ref:`popover delle "
-"informazioni sul prodotto <pos/products/information-display>`."
+"il :ref:`registratore POS <pos/use/open-register>`, cliccare "
+"sull'icona :icon:`fa-bars` (:guilabel:`menu hamburger`), quindi "
+"selezionare :guilabel:`Crea prodotto`. Inserire i dettagli del prodotto nel "
+"popover e cliccare su :guilabel:`Salva`. Il prodotto è immediatamente "
+"disponibile nel registratore POS. I prodotti esistenti possono anche essere "
+"aggiornati direttamente dal registratore POS attraverso il :ref:`popover "
+"delle informazioni sul prodotto <pos/products/information-display>`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:36
 msgid ""
@@ -19108,9 +18813,9 @@ msgid ""
 msgstr ""
 "È inoltre possibile accedere e modificare le informazioni sul prodotto di un "
 "prodotto che è già stato :ref:`aggiunto al carrello <pos/use/sell>` "
-"selezionando il prodotto, cliccando sull'icona :icon:`fa-ellipsis-v` "
-":guilabel:`(ellissi verticale)`, quindi sul pulsante :icon:`fa-info` "
-":guilabel:`Info`."
+"selezionando il prodotto, cliccando sull'icona :icon:`fa-ellipsis-"
+"v` :guilabel:`(ellissi verticale)`, quindi sul pulsante :icon:`fa-"
+"info` :guilabel:`Info`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:None
 msgid "Example of product information window."
@@ -19125,8 +18830,8 @@ msgid ""
 msgstr ""
 "Per visualizzare margini e costi nella finestra delle informazioni sul "
 "prodotto, andare nelle :ref:`impostazioni POS <pos/use/settings>`, navigare "
-"nella sezione :guilabel:`Prodotti e categorie PoS` e abilitare "
-":guilabel:`Mostra margini e costi`."
+"nella sezione :guilabel:`Prodotti e categorie PoS` e "
+"abilitare :guilabel:`Mostra margini e costi`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:82
 msgid ""
@@ -19158,8 +18863,8 @@ msgid ""
 "Define a :guilabel:`Color` to highlight the product in the :ref:`POS "
 "register <pos/use/open-register>`."
 msgstr ""
-"Definire un :guilabel:`Colore` per evidenziare il prodotto nel "
-":ref:`registratore POS <pos/use/open-register>`."
+"Definire un :guilabel:`Colore` per evidenziare il prodotto "
+"nel :ref:`registratore POS <pos/use/open-register>`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:90
 msgid ""
@@ -19169,8 +18874,8 @@ msgid ""
 msgstr ""
 "Abilita :guilabel:`Disponibile in ordine autonomo` se il prodotto può essere "
 "ordinato in :doc:`modalità ordine autonomo <extra/self_order>`. Questa "
-"opzione appare solo una volta che la modalità di ordine autonomo è "
-":ref:`abilitata <pos/self-order/activation>`."
+"opzione appare solo una volta che la modalità di ordine autonomo "
+"è :ref:`abilitata <pos/self-order/activation>`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:93
 msgid ""
@@ -19223,7 +18928,7 @@ msgstr ""
 #: ../../content/applications/sales/sales/gelato.rst:136
 #: ../../content/applications/sales/sales/products_prices/products/import.rst:164
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:3
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:219
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:218
 msgid "Product variants"
 msgstr "Varianti prodotto"
 
@@ -19233,10 +18938,10 @@ msgid ""
 "to :menuselection:`Inventory --> Configuration --> Settings`, scroll down to "
 "the :guilabel:`Products`, enable :guilabel:`Variants`, and :guilabel:`Save`."
 msgstr ""
-"Per consentire l'uso di diverse varianti prodotto, vai su "
-":menuselection:`Magazzino --> Configurazione --> Impostazioni`, scorri verso "
-"il basso fino a :guilabel:`Prodotti`, abilita :guilabel:`Varianti`, e "
-":guilabel:`Salva`."
+"Per consentire l'uso di diverse varianti prodotto, vai "
+"su :menuselection:`Magazzino --> Configurazione --> Impostazioni`, scorri "
+"verso il basso fino a :guilabel:`Prodotti`, abilita :guilabel:`Varianti`, "
+"e :guilabel:`Salva`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:116
 msgid ""
@@ -19260,9 +18965,9 @@ msgstr ""
 "Prodotti`, seleziona un prodotto e configura gli :ref:`attributi <products/"
 "variants/attributes>` e i loro :ref:`valori <products/variants/attributes-"
 "values>` per creare :ref:`varianti <products/variants/variants>` nella "
-"scheda :guilabel:`Attributi e varianti`. Nel modulo del valore, abilita "
-":guilabel:`Disponibile per consegna cibo` per i valori disponibili tramite "
-"piattaforme di consegna, se applicabile."
+"scheda :guilabel:`Attributi e varianti`. Nel modulo del valore, "
+"abilita :guilabel:`Disponibile per consegna cibo` per i valori disponibili "
+"tramite piattaforme di consegna, se applicabile."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:125
 msgid ""
@@ -19271,9 +18976,8 @@ msgid ""
 "Products --> Product Variants` to view all variants."
 msgstr ""
 "Vai su :menuselection:`Punto vendita --> Configurazione --> Attributi` per "
-"gestire tutti gli attributi configurati, o su :menuselection:`Punto "
-"vendita --> Prodotti --> Varianti prodotto` per visualizzare tutte le "
-"varianti."
+"gestire tutti gli attributi configurati, o su :menuselection:`Punto vendita "
+"--> Prodotti --> Varianti prodotto` per visualizzare tutte le varianti."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:131
 msgid ""
@@ -19301,11 +19005,11 @@ msgid ""
 "Sale --> Configuration --> Product Tags`. On the :guilabel:`Product Tags` "
 "page, click :guilabel:`New` or select an existing tag."
 msgstr ""
-"Le etichette prodotto aiutano a evidenziare caratteristiche specifiche in "
-":doc:`modalità ordine autonomo <extra/self_order>`. Per creare etichette "
+"Le etichette prodotto aiutano a evidenziare caratteristiche specifiche "
+"in :doc:`modalità ordine autonomo <extra/self_order>`. Per creare etichette "
 "prodotto, vai su :menuselection:`Punto vendita --> Configurazione --> "
-"Etichette prodotto`. Nella pagina :guilabel:`Etichette prodotto`, clicca su "
-":guilabel:`Nuovo` o seleziona un'etichetta esistente."
+"Etichette prodotto`. Nella pagina :guilabel:`Etichette prodotto`, clicca "
+"su :guilabel:`Nuovo` o seleziona un'etichetta esistente."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:149
 msgid "On the product tag form:"
@@ -19390,8 +19094,8 @@ msgid ""
 msgstr ""
 "I prodotti possono essere raggruppati per :doc:`unità di misura </"
 "applications/inventory_and_mrp/inventory/product_management/configure/uom>` "
-"nel :ref:`registratore Punto vendita <pos/use/open-register>` e sul "
-":doc:`display cliente <hardware_network/customer_display>`."
+"nel :ref:`registratore Punto vendita <pos/use/open-register>` e "
+"sul :doc:`display cliente <hardware_network/customer_display>`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:188
 msgid "To do so, follow these steps:"
@@ -19498,8 +19202,8 @@ msgid ""
 ":icon:`fa-check` when clicking the :icon:`fa-info-circle` :ref:`Info button "
 "<pos/products/tag-application>`"
 msgstr ""
-":icon:`fa-check` quando si clicca sul pulsante :icon:`fa-info-circle` "
-":ref:`Info <pos/products/tag-application>`"
+":icon:`fa-check` quando si clicca sul pulsante :icon:`fa-info-"
+"circle` :ref:`Info <pos/products/tag-application>`"
 
 #: ../../content/applications/sales/point_of_sale/products.rst:236
 msgid "Product variant image"
@@ -19519,11 +19223,12 @@ msgid ""
 "images`."
 msgstr ""
 "Una volta aggiunte le immagini ai prodotti o alle categorie, configura la "
-"loro visibilità *nel registratore del punto vendita*. Per farlo, vai alle "
-":ref:`impostazioni del punto vendita <pos/use/settings>`, scorri fino alla "
-"sezione :guilabel:`Interfaccia punto vendita` e, sotto :guilabel:`Nascondi "
-"immagini nel punto vendita`, abilita/disabilita :guilabel:`Mostra immagini "
-"prodotto` e/o :guilabel:`Mostra immagini categoria`."
+"loro visibilità *nel registratore del punto vendita*. Per farlo, vai "
+"alle :ref:`impostazioni del punto vendita <pos/use/settings>`, scorri fino "
+"alla sezione :guilabel:`Interfaccia punto vendita` e, "
+"sotto :guilabel:`Nascondi immagini nel punto vendita`, abilita/"
+"disabilita :guilabel:`Mostra immagini prodotto` e/o :guilabel:`Mostra "
+"immagini categoria`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:253
 msgid "POS product categories"
@@ -19651,10 +19356,10 @@ msgid ""
 "overview shows all products in both categories, grouped by category on "
 "separate rows."
 msgstr ""
-"In questo registratore del punto vendita sono configurate due categorie, "
-":guilabel:`Cibo` e :guilabel:`Bevande`, ma nessuna delle due è attualmente "
-"selezionata. La panoramica mostra tutti i prodotti di entrambe le categorie, "
-"raggruppati per categoria su righe separate."
+"In questo registratore del punto vendita sono configurate due "
+"categorie, :guilabel:`Cibo` e :guilabel:`Bevande`, ma nessuna delle due è "
+"attualmente selezionata. La panoramica mostra tutti i prodotti di entrambe "
+"le categorie, raggruppati per categoria su righe separate."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:0
 msgid "Group products by categories."
@@ -19673,8 +19378,8 @@ msgid ""
 "select one or more items from each combo choice."
 msgstr ""
 "Un combo prodotto è un insieme di più prodotti venduti insieme come singola "
-"unità. Ogni combo prodotto è costituito da più categorie, note come "
-":ref:`scelte combo <pos/products/combo-choices>`, e ogni scelta combo "
+"unità. Ogni combo prodotto è costituito da più categorie, note "
+"come :ref:`scelte combo <pos/products/combo-choices>`, e ogni scelta combo "
 "contiene diversi articoli. Quando acquistano un combo prodotto, i clienti "
 "possono selezionare uno o più articoli da ogni scelta combo."
 
@@ -19887,10 +19592,10 @@ msgstr ""
 "aggiuntiva selezionata da un cliente, viene aggiunto un :guilabel:`Prezzo "
 "combo` di **35** €. La poltrona ha un :guilabel:`Prezzo extra` di **100** € "
 "perché è in pelle. Selezionando sia la sedia da conferenza che la poltrona, "
-"il prezzo della :guilabel:`Combo Ufficio` aumenta a **435** €, ovvero "
-":guilabel:`Prezzo di vendita` + **35** € (:guilabel:`Prezzo combo`) per "
-"l'aggiunta di una seconda sedia + **100** € (:guilabel:`Prezzo extra`) per "
-"la poltrona in pelle."
+"il prezzo della :guilabel:`Combo Ufficio` aumenta a **435** €, "
+"ovvero :guilabel:`Prezzo di vendita` + **35** € (:guilabel:`Prezzo combo`) "
+"per l'aggiunta di una seconda sedia + **100** € (:guilabel:`Prezzo extra`) "
+"per la poltrona in pelle."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:393
 msgid "Stock management"
@@ -19908,8 +19613,8 @@ msgstr ""
 "prodotto <inventory/product_management/goods-or-services>` deve essere "
 "impostato su :guilabel:`Merce` o :guilabel:`Combo`, e l':ref:`opzione di "
 "tracciamento inventario <inventory/product_management/tracking-inventory>` "
-"deve essere abilitata. I prodotti possono essere tracciati per quantità, "
-":ref:`per lotto o per numero di serie <pos/products/sn>`."
+"deve essere abilitata. I prodotti possono essere tracciati per "
+"quantità, :ref:`per lotto o per numero di serie <pos/products/sn>`."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:402
 msgid ""
@@ -20000,8 +19705,8 @@ msgid ""
 msgstr ""
 "Quando si :ref:`carica un preventivo o un ordine di vendita <pos/shop/so>` "
 "contenente prodotti tracciati, un popover chiede se i numeri collegati al "
-"preventivo o all'ordine di vendita debbano essere importati. Fare clic su "
-":guilabel:`Ok` per procedere."
+"preventivo o all'ordine di vendita debbano essere importati. Fare clic "
+"su :guilabel:`Ok` per procedere."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:446
 msgid ""
@@ -20048,8 +19753,9 @@ msgid ""
 "the :guilabel:`Cozy sweater` because no serial number has been assigned."
 msgstr ""
 "L'icona appare in verde per la :guilabel:`Casual T-shirt` poiché il numero "
-"di serie `123456` è stato assegnato. D'altra parte, l'icona è rossa per il "
-":guilabel:`Cozy sweater` perché non è stato assegnato alcun numero di serie."
+"di serie `123456` è stato assegnato. D'altra parte, l'icona è rossa per "
+"il :guilabel:`Cozy sweater` perché non è stato assegnato alcun numero di "
+"serie."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:0
 msgid "Serial number assignment in POS register."
@@ -22295,11 +22001,11 @@ msgid ""
 "basket`) icon."
 msgstr ""
 "Dal registratore Punto vendita, fare clic sull'icona :icon:`oi-ellipsis-v` "
-"(:guilabel:`puntini di sospensione verticali`) e :icon:`fa-link` "
-":guilabel:`Preventivo/Ordine` per aprire l'elenco dei preventivi e degli "
-"ordini di vendita creati dall'applicazione Vendite. Una volta caricato, il "
-"numero di riferimento dell'ordine di vendita viene visualizzato sotto i "
-"prodotti ordinati, accanto all'icona :icon:`fa-shopping-basket` "
+"(:guilabel:`puntini di sospensione verticali`) e :icon:`fa-"
+"link` :guilabel:`Preventivo/Ordine` per aprire l'elenco dei preventivi e "
+"degli ordini di vendita creati dall'applicazione Vendite. Una volta "
+"caricato, il numero di riferimento dell'ordine di vendita viene visualizzato "
+"sotto i prodotti ordinati, accanto all'icona :icon:`fa-shopping-basket` "
 "(:guilabel:`carrello della spesa`)."
 
 #: ../../content/applications/sales/point_of_sale/shop.rst:24
@@ -22537,16 +22243,11 @@ msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/shop.rst:112
 msgid ""
-"Employees can :ref:`log into the POS by scanning a badge <pos/employee_login/"
-"badge>`. To configure this feature, open the **Employees** app, select an "
-"employee, then, in the :guilabel:`HR Settings` tab, fill in "
+"Employees can :ref:`log into the POS by scanning a badge <pos/employee-login/"
+"user-login>`. To configure this feature, open the **Employees** app, select "
+"an employee, then, in the :guilabel:`HR Settings` tab, fill in "
 "the :guilabel:`PIN Code` or :guilabel:`Badge ID`."
 msgstr ""
-"I dipendenti possono :ref:`accedere al Punto vendita scansionando un badge "
-"<pos/employee_login/badge>`. Per configurare questa funzionalità, aprire "
-"l'app **Dipendenti**, selezionare un dipendente, quindi, nella "
-"scheda :guilabel:`Impostazioni risorse umane`, compilare il "
-"campo :guilabel:`Codice PIN` o :guilabel:`ID badge`."
 
 #: ../../content/applications/sales/point_of_sale/shop.rst:119
 msgid "Discount tags"
@@ -22866,11 +22567,8 @@ msgstr ""
 msgid ""
 "It is possible to switch between :doc:`multiple users <extra/"
 "employee_login>` from an open POS register, provided :ref:`multi-employee "
-"management is enabled <pos/employee_login/use>`."
+"management is enabled <pos/employee-login/user-login>`."
 msgstr ""
-"È possibile passare da un :doc:`utente all'altro <extra/employee_login>` da "
-"un registro del punto vendita aperto, a condizione che :ref:`la gestione "
-"multi-dipendente sia abilitata <pos/employee_login/use>`."
 
 #: ../../content/applications/sales/point_of_sale/use.rst:88
 msgid "From the POS interface header:"
@@ -22924,11 +22622,8 @@ msgstr ""
 #: ../../content/applications/sales/point_of_sale/use.rst:99
 msgid ""
 "Click the user's avatar to switch between employees, provided :ref:`multi-"
-"employee management is enabled <pos/employee_login/use>`."
+"employee management is enabled <pos/employee-login/user-login>`."
 msgstr ""
-"Fare clic sull'avatar dell'utente per passare da un dipendente all'altro, a "
-"condizione che :ref:`la gestione multi-dipendente sia abilitata <pos/"
-"employee_login/use>`."
 
 #: ../../content/applications/sales/point_of_sale/use.rst:101
 msgid ""
@@ -27014,7 +26709,8 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:10
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:11
-#: ../../content/applications/sales/sales/shopee_connector.rst:12
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:10
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:10
 msgid "Supported features"
 msgstr "Funzionalità supportate"
 
@@ -27064,7 +26760,7 @@ msgstr ""
 "(FBM)."
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:28
-#: ../../content/applications/sales/sales/shopee_connector.rst:24
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:22
 msgid "Support multiple seller accounts."
 msgstr "Supportare account di più venditori."
 
@@ -27235,7 +26931,8 @@ msgid "Amazon.ca"
 msgstr "Amazon.ca"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:90
-#: ../../content/applications/sales/sales/shopee_connector.rst:62
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:60
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:44
 msgid "Mexico"
 msgstr "Messico"
 
@@ -27244,6 +26941,7 @@ msgid "Amazon.com.mx"
 msgstr "Amazon.com.mx"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:92
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:46
 msgid "US"
 msgstr "USA"
 
@@ -27256,6 +26954,7 @@ msgid "**Europe region**"
 msgstr "**Europa**"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:98
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:70
 msgid "Germany"
 msgstr "Germania"
 
@@ -27264,6 +26963,7 @@ msgid "Amazon.de"
 msgstr "Amazon.de"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:100
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:72
 msgid "Spain"
 msgstr "Spagna"
 
@@ -27272,6 +26972,7 @@ msgid "Amazon.es"
 msgstr "Amazon.es"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:102
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:74
 msgid "France"
 msgstr "Francia"
 
@@ -27280,6 +26981,7 @@ msgid "Amazon.fr"
 msgstr "Amazon.fr"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:104
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:76
 msgid "UK"
 msgstr "Regno Unito"
 
@@ -27288,6 +26990,7 @@ msgid "Amazon.co.uk"
 msgstr "Amazon.co.uk"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:106
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:78
 msgid "Italy"
 msgstr "Italia"
 
@@ -27307,7 +27010,10 @@ msgstr "Amazon.nl"
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:190
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:70
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:158
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:64
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:199
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:84
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:135
 msgid ":doc:`setup`"
 msgstr ":doc:`setup`"
 
@@ -27315,7 +27021,10 @@ msgstr ":doc:`setup`"
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:155
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:71
 #: ../../content/applications/sales/sales/lazada_connector/setup.rst:161
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:65
 #: ../../content/applications/sales/sales/shopee_connector/setup.rst:232
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:85
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:125
 msgid ":doc:`manage`"
 msgstr ":doc:`manage`"
 
@@ -27326,6 +27035,7 @@ msgstr "Gestione ordini con Amazon"
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:6
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:41
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:48
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:47
 msgid "Order synchronization"
 msgstr "Sincronizzazione ordini"
 
@@ -27378,6 +27088,7 @@ msgstr ""
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:24
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:59
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:66
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:68
 msgid "Force synchronization"
 msgstr "Forzare la sincronizzazione"
 
@@ -27430,6 +27141,7 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:44
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:73
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:76
 msgid "Manage deliveries in FBM"
 msgstr "Gestire le consegne in FBM"
 
@@ -27656,6 +27368,7 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:130
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:118
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:116
 msgid "Invoice and register payments"
 msgstr "Fatturare e registrare pagamenti"
 
@@ -27819,6 +27532,8 @@ msgstr ""
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:154
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:157
 #: ../../content/applications/sales/sales/lazada_connector/setup.rst:160
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:134
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:124
 msgid ":doc:`features`"
 msgstr ":doc:`features`"
 
@@ -29225,8 +28940,8 @@ msgid ""
 ":ref:`Example 2: 100% down payment <sales/invoicing/100-percent-down-"
 "payments>`"
 msgstr ""
-":ref:`Esempio 2: acconto del 100% <sales/invoicing/100-percent-down-payments>"
-"`"
+":ref:`Esempio 2: acconto del 100% <sales/invoicing/100-percent-down-"
+"payments>`"
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:84
 msgid "Example 1: 50% down payment"
@@ -29279,9 +28994,9 @@ msgid ""
 "select :guilabel:`Down payment (percentage)`, and type `50` in "
 "the :guilabel:`Down Payment` field."
 msgstr ""
-"Nella finestra pop-up :guilabel:`Crea fattura/e` che appare, selezionare "
-":guilabel:`Acconto (percentuale)` e digitare `50` nel campo "
-":guilabel:`Acconto`."
+"Nella finestra pop-up :guilabel:`Crea fattura/e` che appare, "
+"selezionare :guilabel:`Acconto (percentuale)` e digitare `50` nel "
+"campo :guilabel:`Acconto`."
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:105
 msgid ""
@@ -29377,8 +29092,8 @@ msgid ""
 "invoice(s)` pop-up window, there is a new field: :guilabel:`Already "
 "invoiced` and :guilabel:`Amount to invoice`."
 msgstr ""
-"Fare clic sul pulsante :guilabel:`Crea fattura`. Nella finestra pop-up "
-":guilabel:`Crea fattura/e` è presente un nuovo campo: :guilabel:`Già "
+"Fare clic sul pulsante :guilabel:`Crea fattura`. Nella finestra pop-"
+"up :guilabel:`Crea fattura/e` è presente un nuovo campo: :guilabel:`Già "
 "fatturato` e :guilabel:`Importo da fatturare`."
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:None
@@ -29519,14 +29234,14 @@ msgid ""
 "select :guilabel:`Down payment (percentage)`, and type `100` in "
 "the :guilabel:`Down Payment` field."
 msgstr ""
-"Per configurare un acconto del 100%, andare su :menuselection:`App "
-"Vendite --> Nuovo` e :ref:`creare un preventivo <sales/create-quotation>` "
-"per il prodotto. Facendo clic sul pulsante :guilabel:`Conferma`, il "
-"preventivo si trasforma in un ordine di vendita. A quel punto, è ora "
-"possibile creare una fattura facendo clic su :guilabel:`Crea fattura` "
-"nell'angolo in alto a sinistra. Nella finestra pop-up :guilabel:`Crea "
-"fattura/e` che appare, selezionare :guilabel:`Acconto (percentuale)` e "
-"digitare `100` nel campo :guilabel:`Acconto`."
+"Per configurare un acconto del 100%, andare su :menuselection:`App Vendite --"
+"> Nuovo` e :ref:`creare un preventivo <sales/create-quotation>` per il "
+"prodotto. Facendo clic sul pulsante :guilabel:`Conferma`, il preventivo si "
+"trasforma in un ordine di vendita. A quel punto, è ora possibile creare una "
+"fattura facendo clic su :guilabel:`Crea fattura` nell'angolo in alto a "
+"sinistra. Nella finestra pop-up :guilabel:`Crea fattura/e` che appare, "
+"selezionare :guilabel:`Acconto (percentuale)` e digitare `100` nel "
+"campo :guilabel:`Acconto`."
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:None
 msgid ""
@@ -29547,11 +29262,12 @@ msgid ""
 msgstr ""
 "Successivamente, fare clic su :guilabel:`Crea bozza` per creare una bozza di "
 "fattura. Questo porterà anche in visualizzazione la bozza di fattura, che "
-"include l':guilabel:`Acconto` nella sezione :guilabel:`Acconti` della scheda "
-":guilabel:`Righe fattura`. La fattura può ora essere confermata e registrata "
-"facendo clic su :guilabel:`Conferma`. Confermare la fattura cambia lo stato "
-"da :guilabel:`Bozza` a :guilabel:`Registrata`. Vengono inoltre visualizzati "
-"una nuova serie di pulsanti nella parte superiore della pagina."
+"include l':guilabel:`Acconto` nella sezione :guilabel:`Acconti` della "
+"scheda :guilabel:`Righe fattura`. La fattura può ora essere confermata e "
+"registrata facendo clic su :guilabel:`Conferma`. Confermare la fattura "
+"cambia lo stato da :guilabel:`Bozza` a :guilabel:`Registrata`. Vengono "
+"inoltre visualizzati una nuova serie di pulsanti nella parte superiore della "
+"pagina."
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:211
 msgid ""
@@ -31383,17 +31099,19 @@ msgstr ""
 "o :guilabel:`PROCESSED`, inclusi:"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:18
-#: ../../content/applications/sales/sales/shopee_connector.rst:18
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:16
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:17
 msgid "Product name"
 msgstr "Nome prodotto"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:19
-#: ../../content/applications/sales/sales/shopee_connector.rst:19
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:17
 msgid "SKU reference"
 msgstr "Riferimento SKU"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:20
-#: ../../content/applications/sales/sales/shopee_connector.rst:20
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:18
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:19
 msgid "Quantity"
 msgstr "Quantità"
 
@@ -31476,7 +31194,8 @@ msgid "**Southeast Asia region**"
 msgstr "**Regione del Sud-est asiatico**"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:56
-#: ../../content/applications/sales/sales/shopee_connector.rst:38
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:36
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:52
 msgid "Indonesia"
 msgstr "Indonesia"
 
@@ -31485,7 +31204,8 @@ msgid "Lazada.co.id"
 msgstr "Lazada.co.id"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:58
-#: ../../content/applications/sales/sales/shopee_connector.rst:48
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:46
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:56
 msgid "Malaysia"
 msgstr "Malesia"
 
@@ -31494,7 +31214,8 @@ msgid "Lazada.com.my"
 msgstr "Lazada.com.my"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:60
-#: ../../content/applications/sales/sales/shopee_connector.rst:46
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:44
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:58
 msgid "Philippines"
 msgstr "Filippine"
 
@@ -31503,7 +31224,8 @@ msgid "Lazada.com.ph"
 msgstr "Lazada.com.ph"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:62
-#: ../../content/applications/sales/sales/shopee_connector.rst:50
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:48
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:60
 msgid "Singapore"
 msgstr "Singapore"
 
@@ -31512,7 +31234,8 @@ msgid "Lazada.sg"
 msgstr "Lazada.sg"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:64
-#: ../../content/applications/sales/sales/shopee_connector.rst:44
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:42
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:62
 msgid "Thailand"
 msgstr "Thailandia"
 
@@ -31521,7 +31244,8 @@ msgid "Lazada.co.th"
 msgstr "Lazada.co.th"
 
 #: ../../content/applications/sales/sales/lazada_connector/features.rst:66
-#: ../../content/applications/sales/sales/shopee_connector.rst:42
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:40
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:64
 msgid "Vietnam"
 msgstr "Vietnam"
 
@@ -31548,11 +31272,13 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:10
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:6
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:11
 msgid "Product catalog mapping"
 msgstr "Mappatura catalogo prodotti"
 
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:13
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:9
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:18
 msgid "New Odoo customers with no existing products"
 msgstr "Nuovi clienti Odoo senza prodotti esistenti"
 
@@ -31587,6 +31313,7 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:28
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:26
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:32
 msgid "Existing Odoo customers with products already in Odoo"
 msgstr "Clienti esistenti di Odoo con prodotti in Odoo"
 
@@ -31650,6 +31377,7 @@ msgstr ""
 "nel database."
 
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:54
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:63
 msgid ""
 "Only orders requiring shipment are synchronized. Orders with "
 "statuses :guilabel:`SHIPPED`, :guilabel:`CANCEL`, :guilabel:`UNPAID`, "
@@ -31804,6 +31532,7 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/lazada_connector/manage.rst:108
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:130
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:106
 msgid "Order fulfillment process"
 msgstr "Processo di elaborazione degli ordini"
 
@@ -35522,16 +35251,10 @@ msgstr ""
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:8
 msgid ""
 "Product variants can be managed via their individual product template, or by "
-"navigating to either the :guilabel:`Product Variants` "
-"or :guilabel:`Attributes` page. All of these options are located within the "
-"Odoo *Sales* application."
+"navigating to :menuselection:`Sales app --> Products --> Product Variants`."
 msgstr ""
-"Le varianti di prodotto possono essere gestite tramite il loro singolo "
-"modello di prodotto, oppure navigando nella pagina :guilabel:`Varianti di "
-"prodotto` o :guilabel:`Attributi`. Tutte queste opzioni si trovano "
-"nell'applicazione *Vendite* di Odoo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:13
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:12
 msgid ""
 "An apparel company has the following variant breakdown for one of its best-"
 "selling t-shirts:"
@@ -35539,19 +35262,19 @@ msgstr ""
 "Un'azienda di abbigliamento ha la seguente suddivisione delle varianti per "
 "una delle sue magliette più vendute:"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:15
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:14
 msgid "Unisex Classic Tee"
 msgstr "Maglietta classica unisex"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:17
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:16
 msgid "Color: Blue, Red, White, Black"
 msgstr "Colore: blu, rosso, bianco, nero"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:18
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:17
 msgid "Size: S, M, L, XL, XXL"
 msgstr "Taglia: S, M, L, XL, XXL"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:20
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:19
 msgid ""
 "Here, the **T-shirt** is the product template, and **T-shirt: Blue, S** is a "
 "specific product variant."
@@ -35559,7 +35282,7 @@ msgstr ""
 "In questo caso, la **Maglietta** è il modello prodotto e **T-shirt: blu, S** "
 "è una variante prodotto specifica."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:23
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:22
 msgid ""
 "**Color** and **Size** are *attributes*, and the corresponding options (like "
 "**Blue** and **S**) are *values*."
@@ -35567,7 +35290,7 @@ msgstr ""
 "**Colore** e **Dimesione** sono *attributi* e le opzioni corrispondenti "
 "(come **Blu** e **S**) sono *valori*."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:26
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:25
 msgid ""
 "In this instance, there is a total of twenty different product variants: "
 "four **Color** options multiplied by five **Size** options. Each variant has "
@@ -35578,7 +35301,7 @@ msgstr ""
 "Ogni variante ha il proprio conteggio di magazzino, i propri totali di "
 "vendita e altri record simili in Odoo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:31
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:30
 msgid ""
 ":ref:`Product variants in the eCommerce <ecommerce/categories_variants/"
 "product-variants>`"
@@ -35586,7 +35309,7 @@ msgstr ""
 ":ref:`Varianti di prodotto nell'e-commerce <ecommerce/categories_variants/"
 "product-variants>`"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:38
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:37
 msgid ""
 "To use product variants, go to :menuselection:`Sales --> Configuration --> "
 "Settings`, then enable the :guilabel:`Variants` feature in "
@@ -35599,11 +35322,11 @@ msgstr ""
 "fare clic su :guilabel:`Salva` nella parte superiore della "
 "pagina :guilabel:`Impostazioni`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:45
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:44
 msgid "Attributes"
 msgstr "Caratteristiche"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:47
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:46
 msgid ""
 "Before product variants can be set up, attributes **must** be created. To "
 "create, manage, and modify attributes, navigate to :menuselection:`Sales app "
@@ -35613,7 +35336,7 @@ msgstr ""
 "creare degli attributi. Per creare, gestire e modificare gli attributi, apri "
 "l'app :menuselection:`Vendite --> Configurazione --> Attributi`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:51
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:50
 msgid ""
 "The order of attributes on the :guilabel:`Attributes` page dictates how they "
 "appear on the *Product Configurator*, *Point of Sale* dashboard, and "
@@ -35623,7 +35346,7 @@ msgstr ""
 "modo in cui essi appaiono nelle pagine *Configuratore prodotto*, *Punto "
 "vendita* ed *E-commerce*."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:54
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:53
 msgid ""
 "To create a new attribute from the :guilabel:`Attributes` page, "
 "click :guilabel:`New`. Doing so reveals a blank attributes form that can be "
@@ -35637,13 +35360,13 @@ msgstr ""
 msgid "A blank attribute creation form in the Odoo Sales application."
 msgstr "Un modulo vuoto di creazione attributi nell'applicazione Odoo Vendite."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:60
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:59
 msgid "First, create an :guilabel:`Attribute Name`, such as `Color` or `Size`."
 msgstr ""
 "Per prima cosa, crea un :guilabel:`Nome attributo`, come `Colore` o "
 "`Dimensione`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:62
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:61
 msgid ""
 "Next, select one of the options from the :guilabel:`Display Type` field. "
 "The :guilabel:`Display Type` determines how this product is shown on the "
@@ -35654,16 +35377,16 @@ msgstr ""
 "prodotto viene mostrato nel negozio online, nella dashboard *Punto vendita* "
 "e nel *Configuratore prodotto*."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:66
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:65
 msgid "The following :guilabel:`Display Type` options are available:"
 msgstr ""
 "Sono disponibili le seguenti opzioni di :guilabel:`Tipo di visualizzazione`:"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:70
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:69
 msgid "Pills"
 msgstr "Pillole"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:72
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:71
 msgid "Options appear as selectable buttons."
 msgstr "Le opzioni vengono visualizzate come pulsanti selezionabili."
 
@@ -35671,11 +35394,11 @@ msgstr "Le opzioni vengono visualizzate come pulsanti selezionabili."
 msgid "Pills display type"
 msgstr "Tipo di visualizzazione a pillole"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:77
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:76
 msgid "Color"
 msgstr "Colore"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:79
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:78
 msgid ""
 "Options appear as small, colored circles; the colors can be defined using "
 "any HTML color code."
@@ -35687,11 +35410,11 @@ msgstr ""
 msgid "Color display type"
 msgstr "Tipo di visualizzazione colore"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:84
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:83
 msgid "Radio"
 msgstr "Radio"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:86
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:85
 msgid "Options appear as radio buttons."
 msgstr "Le opzioni vengono visualizzate come pulsanti di opzione."
 
@@ -35699,11 +35422,11 @@ msgstr "Le opzioni vengono visualizzate come pulsanti di opzione."
 msgid "Radio display type"
 msgstr "Tipo di visualizzazione radio"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:91
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:90
 msgid "Select"
 msgstr "Seleziona"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:93
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:92
 msgid "Options appear in a drop-down menu."
 msgstr "Le opzioni vengono visualizzate in un menu a discesa."
 
@@ -35711,11 +35434,11 @@ msgstr "Le opzioni vengono visualizzate in un menu a discesa."
 msgid "Select display type"
 msgstr "Tipo di visualizzazione seleziona"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:98
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:97
 msgid "Image"
 msgstr "Immagine"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:100
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:99
 msgid "Options appear as images."
 msgstr "Le opzioni vengono visualizzate come immagini."
 
@@ -35723,11 +35446,11 @@ msgstr "Le opzioni vengono visualizzate come immagini."
 msgid "Image display type"
 msgstr "Tipo di visualizzazione immagine"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:105
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:104
 msgid "Multi-checkbox"
 msgstr "Casella di controllo multipla"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:107
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:106
 msgid ""
 "Options appear as selectable checkboxes. This allows customers to choose "
 "multiple options, e.g., to add extras to food orders or highly customizable "
@@ -35741,7 +35464,7 @@ msgstr ""
 msgid "Multi-checkbox display type"
 msgstr "Tipo di visualizzazione casella di controllo multipla"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:113
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:112
 msgid ""
 "The :guilabel:`Variant Creation` field determines if/when a new variant is "
 "automatically created once an attribute is added to a product."
@@ -35750,7 +35473,7 @@ msgstr ""
 "automaticamente una nuova variante una volta aggiunto un attributo a un "
 "prodotto."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:117
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:116
 msgid ""
 "If the attribute's :guilabel:`Display Type` is :guilabel:`Multi-checkbox`, "
 "you **must** set the :guilabel:`Variant Creation` field to :guilabel:`Never`."
@@ -35759,7 +35482,7 @@ msgstr ""
 "è :guilabel:`Caselle di controllo multiple`, **è necessario** impostare il "
 "campo :guilabel:`Creazione variante` su :guilabel:`Mai`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:120
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:119
 msgid ""
 ":guilabel:`Instantly`: Creates all possible variants as soon as attributes "
 "and values are added to a product template."
@@ -35767,7 +35490,7 @@ msgstr ""
 ":guilabel:`Immediatamente`: Crea tutte le varianti possibili non appena "
 "attributi e valori vengono aggiunti a un modello di prodotto."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:122
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:121
 msgid ""
 ":guilabel:`Dynamically`: Creates variants **only** when corresponding "
 "attributes and values are added to a sales order."
@@ -35775,7 +35498,7 @@ msgstr ""
 ":guilabel:`Dinamicamente`: Crea varianti **solo** quando attributi e valori "
 "corrispondenti vengono aggiunti a un ordine di vendita."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:124
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:123
 msgid ""
 ":guilabel:`Never`: Prevents the automatic creation of purchaseable variants "
 "with this tag. Instead, this tag is treated as being informational. If more "
@@ -35789,7 +35512,7 @@ msgstr ""
 "etichetta, tutti i valori vengono caricati quando il prodotto viene "
 "visualizzato, poiché la creazione di varianti discrete è impedita."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:130
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:129
 msgid ""
 "Once added to a product, an attribute's :guilabel:`Variants Creation` mode "
 "cannot be edited."
@@ -35797,7 +35520,7 @@ msgstr ""
 "Una volta aggiunto a un prodotto, la modalità :guilabel:`Creazione varianti` "
 "di un attributo non può essere modificata."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:132
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:131
 msgid ""
 "The :guilabel:`eCommerce Filter Visibility` field determines whether or not "
 "these attribute options are visible to the customer on the front-end, as "
@@ -35807,7 +35530,7 @@ msgstr ""
 "relative all'attributo siano visibili o meno al cliente nel frontend, in "
 "quanto comprano nel negozio online."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:135
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:134
 msgid ""
 ":guilabel:`Visible`: the attribute values are visible to customers on the "
 "front-end."
@@ -35815,7 +35538,7 @@ msgstr ""
 ":guilabel:`Visibile`: i valori dell'attributo sono visibili ai clienti nel "
 "frontend."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:136
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:135
 msgid ""
 ":guilabel:`Hidden`: the attribute values are hidden from customers on the "
 "front-end."
@@ -35823,7 +35546,7 @@ msgstr ""
 ":guilabel:`Nascosta`: i valori degli attributi sono nascosti ai clienti sul "
 "frontend."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:138
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:137
 msgid ""
 "Lastly, in the optional :guilabel:`eCommerce Category` field, select a "
 "category from a drop-down menu to group similar attributes under the same "
@@ -35833,7 +35556,7 @@ msgstr ""
 "una categoria dal menu a discesa per raggruppare attributi simili nella "
 "stessa sezione per specifiche e organizzazione."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:142
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:141
 msgid ""
 "To view the details related to the attribute category selected, click the "
 "internal link :icon:`fa-arrow-right` :guilabel:`(right arrow)` icon to the "
@@ -35854,7 +35577,7 @@ msgstr ""
 "Una pagina di dettaglio della categoria di attributo standard accessibile "
 "tramite l'icona a forma di freccia del link interno."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:150
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:149
 msgid ""
 "Here, the :guilabel:`Category Name` and :guilabel:`Sequence` are displayed "
 "at the top. Followed by :guilabel:`Related Attributes` associated with the "
@@ -35866,7 +35589,7 @@ msgstr ""
 "Questi attributi possono essere trascinati e rilasciati in un ordine di "
 "priorità desiderato."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:154
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:153
 msgid ""
 "Attributes can be directly added to the category, as well, by "
 "clicking :guilabel:`Add a line`."
@@ -35874,7 +35597,7 @@ msgstr ""
 "Gli attributi possono essere aggiunti direttamente alla categoria facendo "
 "clic su :guilabel:`Aggiungi riga`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:157
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:156
 msgid ""
 "To create an attribute category directly from this field, start typing the "
 "name of the new category, then select either :guilabel:`Create` "
@@ -35884,7 +35607,7 @@ msgstr ""
 "digitare il nome della nuova categoria, quindi seleziona :guilabel:`Crea` "
 "o :guilabel:`Crea e modifica...` dal menu a discesa che appare."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:161
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:160
 msgid ""
 "Clicking :guilabel:`Create` creates the category, which can be modified "
 "later. Clicking :guilabel:`Create and edit...` creates the category and "
@@ -35897,11 +35620,11 @@ msgstr ""
 "in cui la nuova categoria di attributi può essere configurata e "
 "personalizzata."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:168
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:167
 msgid "Attribute values"
 msgstr "Valori attributo"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:170
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:169
 msgid ""
 "Attribute values should be added to the :guilabel:`Attribute Values` tab. "
 "Values can be added to an attribute at any time, if needed."
@@ -35910,7 +35633,7 @@ msgstr ""
 "scheda :guilabel:`Valore attributo`. I valori possono essere aggiunti a un "
 "attributo in qualsiasi momento, se necessario."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:173
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:172
 msgid ""
 "To add a value, click :guilabel:`Add a line` in the :guilabel:`Attribute "
 "Values` tab."
@@ -35918,7 +35641,7 @@ msgstr ""
 "Per aggiungere un valore, fai clic su :guilabel:`Aggiungi riga` nella "
 "scheda :guilabel:`Valori attributo`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:175
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:174
 msgid ""
 "Then, enter the name of the value in the :guilabel:`Value` column. Next, "
 "check the box in the :guilabel:`Is custom value` column if the value is "
@@ -35930,11 +35653,11 @@ msgstr ""
 "personalizzato` se il valore è personalizzato (cioè, il cliente può fornire "
 "specifiche uniche che sono specifiche per questo particolare valore)."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:180
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:179
 msgid "Colors"
 msgstr "Colori"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:182
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:181
 msgid ""
 "Next to :guilabel:`Display Type`, select the :guilabel:`Color` option. Go to "
 "the :guilabel:`Attribute Values` tab to modify the value settings."
@@ -35947,7 +35670,7 @@ msgstr ""
 msgid "Add an image of the pattern to an attribute."
 msgstr "Aggiungere un'immagine del motivo a un attributo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:188
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:187
 msgid ""
 "To choose a color, click the blank circle in the :guilabel:`Color` column, "
 "which reveals an HTML color selector pop-up window."
@@ -35964,7 +35687,7 @@ msgstr ""
 "Selezione di un colore dalla finestra pop-up dei colori HTML che appare nel "
 "modulo dell'attributo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:194
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:193
 msgid ""
 "In this pop-up window, select a specific color by dragging the color slider "
 "to a particular hue and clicking on the color portion directly on the color "
@@ -35974,7 +35697,7 @@ msgstr ""
 "cursore del colore su una particolare tonalità e cliccando sulla porzione di "
 "colore direttamente sulla finestra del gradiente di colore."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:197
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:196
 msgid ""
 "Or, choose a specific color by clicking the *dropper* icon and selecting a "
 "desired color that's currently clickable on the screen."
@@ -35982,7 +35705,7 @@ msgstr ""
 "Oppure, scegliere un colore specifico cliccando sull'icona del *contagocce* "
 "e selezionando un colore desiderato attualmente cliccabile sullo schermo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:200
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:199
 msgid ""
 "If you sell products with specific patterns, you can also add an image to "
 "display the pattern of the product. To do so, click the :icon:`fa-"
@@ -36001,7 +35724,7 @@ msgstr ""
 msgid "Pattern as color option."
 msgstr "Motivo come opzione colore."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:209
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:208
 msgid ""
 "Attributes can also be created directly from the product template by adding "
 "a new line and typing the name into the :guilabel:`Variants` tab."
@@ -36010,7 +35733,7 @@ msgstr ""
 "prodotto, aggiungendo una nuova riga e digitando il nome nella "
 "scheda :guilabel:`Varianti`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:212
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:211
 msgid ""
 "Once an attribute is added to a product, that product is listed and "
 "accessible via the attribute's :guilabel:`Related Products` smart button. "
@@ -36022,7 +35745,7 @@ msgstr ""
 "Correlati` dell'attributo. Quel pulsante elenca ogni prodotto nel database "
 "che attualmente utilizza quell'attributo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:221
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:220
 msgid ""
 "Once an attribute is created, use the attribute (and its values) to create a "
 "product variant. To do that, go to :menuselection:`Sales app --> Products --"
@@ -36036,7 +35759,7 @@ msgstr ""
 "modulo del prodotto desiderato. In alternativa, fai clic su :guilabel:`Crea` "
 "per creare un nuovo prodotto, al quale aggiungere una variante di prodotto."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:226
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:225
 msgid ""
 "On the product form, click the :guilabel:`Attributes \\& Variants` tab to "
 "view, manage, and modify attributes and values for the product."
@@ -36050,7 +35773,7 @@ msgid "The attributes and values tab on a typical product form in Odoo Sales."
 msgstr ""
 "La scheda attributi e valori in un tipico modulo prodotto in Odoo Vendite."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:232
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:231
 msgid ""
 "To add an attribute to a product and subsequent attribute values, "
 "click :guilabel:`Add a line` in the :guilabel:`Attributes \\& Variants` tab. "
@@ -36061,7 +35784,7 @@ msgstr ""
 "scheda :guilabel:`Attributi e Varianti`. Quindi, scegliere l'attributo "
 "desiderato dal menu a tendina che appare."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:237
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:236
 msgid ""
 "Attributes can be created directly from the :guilabel:`Attributes \\& "
 "Variants` tab of a product form. To do that, start typing the name of the "
@@ -36074,7 +35797,7 @@ msgstr ""
 "seleziona :guilabel:`Crea` o :guilabel:`Crea e modifica...` dal mini menu a "
 "discesa che appare."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:242
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:241
 msgid ""
 "Clicking :guilabel:`Create` creates the attribute, which can be customized "
 "later. Clicking :guilabel:`Create and edit...` creates the attribute, and "
@@ -36087,7 +35810,7 @@ msgstr ""
 "up :guilabel:`Crea attributo`. Nel modulo pop-up si può procedere a "
 "modificare l'attributo in vari modi."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:246
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:245
 msgid ""
 "Once an attribute is selected in the :guilabel:`Attribute` column, proceed "
 "to select the specific attribute values to apply to the product, via the "
@@ -36097,11 +35820,11 @@ msgstr ""
 "seleziona i valori specifici dell'attributo da applicare al prodotto, "
 "tramite il menu a discesa disponibile nella colonna :guilabel:`Valori`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:251
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:250
 msgid "There is no limit to how many values can be added."
 msgstr "Non c'è limite al numero di valori che possono essere aggiunti."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:254
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:253
 msgid ""
 "Similar product variant creation processes are accessible through the "
 "Purchase, Inventory, and eCommerce applications."
@@ -36109,11 +35832,11 @@ msgstr ""
 "Processi simili di creazione di varianti di prodotto sono accessibili "
 "attraverso le applicazioni Acquisti, Magazzino ed E-commerce."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:260
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:259
 msgid "Configure variants"
 msgstr "Configurare varianti"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:262
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:261
 msgid ""
 "To the far-right of the attribute line is a :guilabel:`Configure` button. "
 "When clicked, Odoo reveals a separate page showcasing those "
@@ -36132,7 +35855,7 @@ msgstr ""
 "La pagina Valori varianti prodotto accessibile tramite il pulsante Configura "
 "in un modulo prodotto."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:268
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:267
 msgid ""
 "Here, the specific :guilabel:`Value` name, :guilabel:`HTML Color Index` (if "
 "applicable), and :guilabel:`Value Price Extra` are viewable."
@@ -36141,7 +35864,7 @@ msgstr ""
 "l' :guilabel:`Indice colore HTML` (se applicabile) e il :guilabel:`Valore "
 "prezzo extra`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:272
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:271
 msgid ""
 "The :guilabel:`Value Price Extra` represents the increase in the sales price "
 "if the attribute is selected."
@@ -36149,7 +35872,7 @@ msgstr ""
 "Il :guilabel:`Valore prezzo extra` rappresenta l'aumento del prezzo di "
 "vendita se viene selezionato l'attributo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:275
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:274
 msgid ""
 "When a value is clicked on the :guilabel:`Product Variant Values` page, Odoo "
 "reveals a separate page, detailing that value's related details."
@@ -36166,7 +35889,7 @@ msgstr ""
 "Una pagina Valori varianti prodotto accessibile tramite la pagina generale "
 "Valori varianti prodotto."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:281
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:280
 msgid ""
 "On the specific product variant detail page, the :guilabel:`Value` "
 "and :guilabel:`Value Price Extra` fields can be found, along with "
@@ -36176,7 +35899,7 @@ msgstr ""
 "campi :guilabel:`Valore` e :guilabel:`Valore prezzo extra`, oltre al "
 "campo :guilabel:`Escludi per`."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:284
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:283
 msgid ""
 "In the :guilabel:`Exclude for` field, different :guilabel:`Product "
 "Templates` and specific :guilabel:`Attribute Values` can be added. When "
@@ -36188,11 +35911,11 @@ msgstr ""
 "attributo`. Una volta aggiunto, questo specifico valore di attributo sarà "
 "escluso da quei prodotti specifici."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:291
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:290
 msgid "Variants smart button"
 msgstr "Pulsante smart varianti"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:293
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:292
 msgid ""
 "When a product has attributes and variants configured in "
 "its :guilabel:`Attributes \\& Variants` tab, a :guilabel:`Variants` smart "
@@ -36212,7 +35935,7 @@ msgstr ""
 "Il pulsante intelligente varianti nella parte superiore del modulo prodotto "
 "in Odoo Vendite."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:300
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:299
 msgid ""
 "When the :guilabel:`Variants` smart button is clicked, Odoo reveals a "
 "separate page showcasing all the specific product variant combinations "
@@ -36229,11 +35952,11 @@ msgstr ""
 "La pagina varianti accessibile tramite il pulsante intelligente varianti nel "
 "modulo prodotto in Odoo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:307
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:306
 msgid "Impact of variants"
 msgstr "Impatto delle varianti"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:309
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:308
 msgid ""
 "In addition to offering more detailed product options to customers, product "
 "variants have their own impacts that can be taken advantage of throughout "
@@ -36243,7 +35966,7 @@ msgstr ""
 "prodotto hanno un impatto proprio che può essere sfruttato in tutto il "
 "database di Odoo."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:312
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:311
 msgid ""
 ":guilabel:`Barcode`: barcodes are associated with each variant, instead of "
 "the product template. Each individual variant can have its own unique "
@@ -36253,7 +35976,7 @@ msgstr ""
 "variante, anziché al modello di prodotto. Ogni singola variante può avere un "
 "proprio codice a barre/SKU."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:314
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:313
 msgid ""
 ":guilabel:`Price`: every product variant has its own public price, which is "
 "the sum of the product template price *and* any extra charges for particular "
@@ -36263,7 +35986,7 @@ msgstr ""
 "che è la somma del prezzo del modello di prodotto *e* di eventuali costi "
 "aggiuntivi per particolari attributi."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:318
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:317
 msgid ""
 "A red shirt's sales price is $23 -- because the shirt's template price is "
 "$20, plus an additional $3 for the red color variant. Pricelist rules can be "
@@ -36274,7 +35997,7 @@ msgstr ""
 "colore rosso. Le regole del listino prezzi possono essere configurate per "
 "applicarsi al modello di prodotto o alla variante."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:322
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:321
 msgid ""
 ":guilabel:`Inventory`: Inventory is counted for each individual product "
 "variant. On the product template form, the inventory reflects the sum of all "
@@ -36285,7 +36008,7 @@ msgstr ""
 "riflette la somma di tutte le varianti, ma il magazzino effettivo viene "
 "calcolato per singole varianti."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:327
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:326
 msgid ""
 ":guilabel:`Manufacturing`: a single BoM can be used for multiple variants of "
 "the same product."
@@ -36293,7 +36016,7 @@ msgstr ""
 ":guilabel:`Produzione`: una singola distinta base può essere utilizzata per "
 "più varianti dello stesso prodotto."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:326
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:325
 msgid ""
 "Refer to :doc:`../../../../inventory_and_mrp/manufacturing/"
 "advanced_configuration/product_variants` documentation for more information."
@@ -36302,14 +36025,14 @@ msgstr ""
 "manufacturing/advanced_configuration/product_variants` per ulteriori "
 "informazioni."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:329
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:328
 msgid ""
 ":guilabel:`Picture`: each product variant can have its own specific picture."
 msgstr ""
 ":guilabel:`Immagine`: ogni variante prodotto può avere la propria immagine "
 "specifica."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:332
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:331
 msgid ""
 "Changes to the product template automatically apply to every variant of that "
 "product."
@@ -36317,11 +36040,11 @@ msgstr ""
 "Le modifiche apportate al modello di prodotto vengono applicate "
 "automaticamente a ogni variante del prodotto stesso."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:335
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:334
 msgid "Adding and deleting attributes from product variants"
 msgstr "Aggiunta e rimozione di attributi dalle varianti di prodotto"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:337
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:336
 msgid ""
 "When attributes are added or deleted from products, variants that have "
 "already been created are affected. Depending on whether or not these "
@@ -36333,7 +36056,7 @@ msgstr ""
 "siano state utilizzate o meno negli ordini, vengono archiviate o eliminate e "
 "ricreate."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:341
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:340
 msgid ""
 "Variants that have not been used in an order are deleted and recreated with "
 "the new attributes. This may result in the deletion of additional "
@@ -36344,7 +36067,7 @@ msgstr ""
 "personalizzazioni aggiuntive, a seconda di come le varianti sono state "
 "configurate."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:344
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:343
 msgid ""
 "Variants that have been previously used in one or more orders are archived "
 "and removed from the product catalog instead of being deleted."
@@ -36352,7 +36075,7 @@ msgstr ""
 "Le varianti che sono state precedentemente utilizzate in uno o più ordini "
 "vengono archiviate e rimosse dal catalogo prodotti anziché essere eliminate."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:348
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:347
 msgid ""
 "A business offers leather motorcycle jackets with the following attributes "
 "and values for a total of 27 product variants:"
@@ -36360,19 +36083,19 @@ msgstr ""
 "Un'azienda offre giacche da motociclista in pelle con i seguenti attributi e "
 "valori per un totale di 27 varianti di prodotto:"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:351
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:350
 msgid "Size: Small, Medium, Large"
 msgstr "Taglia: Piccola, Media, Grande"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:352
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:351
 msgid "Color: Black, Brown, Natural"
 msgstr "Colore: Nero, Marrone, Naturale"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:353
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:352
 msgid "Material: Leather, Vegan Leather, Premium Leather"
 msgstr "Materiale: Pelle, Pelle vegana, Pelle premium"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:355
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:354
 msgid ""
 "Due to rising costs, the business makes the decision to stop offering "
 "different leathers and removes the \"Material\" attribute from the product "
@@ -36382,19 +36105,19 @@ msgstr ""
 "diversi tipi di pelle e rimuove l'attributo \"Materiale\" dal modulo "
 "prodotto. Ciò ha i seguenti effetti:"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:358
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:357
 msgid "Any leather jacket variants that have been sold will be archived"
 msgstr ""
 "Tutte le varianti di giacche in pelle che sono state vendute verranno "
 "archiviate"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:359
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:358
 msgid "Any leather jacket variants that have not been sold will be deleted"
 msgstr ""
 "Tutte le varianti di giacche in pelle che non sono state vendute verranno "
 "eliminate"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:360
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:359
 msgid ""
 "A new set of variants using just Size and Color attributes will be created, "
 "for a total of 9 product variants"
@@ -36402,7 +36125,7 @@ msgstr ""
 "Verrà creato un nuovo set di varianti utilizzando solo gli attributi Taglia "
 "e Colore, per un totale di 9 varianti prodotto"
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:363
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:362
 msgid ""
 "The business owner can find archived product variants by navigating "
 "to :menuselection:`Sales app --> Products --> Product Variants`, clicking "
@@ -36416,7 +36139,7 @@ msgstr ""
 "sul filtro :guilabel:`Archiviati`. Tutte le varianti eliminate e le loro "
 "personalizzazioni andranno perse."
 
-#: ../../content/applications/sales/sales/products_prices/products/variants.rst:369
+#: ../../content/applications/sales/sales/products_prices/products/variants.rst:368
 msgid ":doc:`import`"
 msgstr ":doc:`import`"
 
@@ -41467,7 +41190,11 @@ msgstr ""
 msgid "Shopee Connector"
 msgstr "Connettore Shopee"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:7
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:3
+msgid "Shopee Connector features"
+msgstr ""
+
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:5
 msgid ""
 "The **Shopee Connector** synchronizes orders between Shopee and Odoo, which "
 "considerably reduces the amount of time spent manually entering Shopee "
@@ -41479,11 +41206,11 @@ msgstr ""
 "(dall'account Shopee Seller) in Odoo. Consente inoltre agli utenti di tenere "
 "traccia accuratamente delle vendite Shopee in Odoo."
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:14
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:12
 msgid "The **Shopee Connector** is able to:"
 msgstr "Il **Connettore Shopee** è in grado di:"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:16
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:14
 msgid ""
 "Synchronize (Shopee to Odoo) all confirmed orders, and their order items, "
 "which include:"
@@ -41491,19 +41218,17 @@ msgstr ""
 "Sincronizzare (da Shopee a Odoo) tutti gli ordini confermati e i relativi "
 "articoli, che includono:"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:22
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:20
 msgid ""
-"Synchronize (Odoo to Shopee) all available quantities of your products "
+"Synchronize (Odoo to Shopee) all available quantities of products "
 "(:abbr:`FBM (Fulfilled by Merchant)`)."
 msgstr ""
-"Sincronizza (da Odoo a Shopee) tutte le quantità disponibili dei tuoi "
-"prodotti (:abbr:`FBM (Fulfilled by Merchant)`)."
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:25
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:23
 msgid "Support multiple Shopee marketplaces (shops) per seller account."
 msgstr "Supporta più marketplace Shopee (negozi) per account venditore."
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:28
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:26
 msgid ""
 "The **Shopee Connector** is designed to synchronize sales orders data. Other "
 "actions, such as downloading weekly/monthly income/fees reports, handling "
@@ -41515,85 +41240,78 @@ msgstr ""
 "settimanali/mensili, gestire dispute o emettere rimborsi, **devono** essere "
 "gestite dal *Shopee Seller Central*, come di consueto."
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:33
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:31
 msgid "Shopee supported marketplaces"
 msgstr "Marketplace Shopee supportati"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:36
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:34
 msgid "**APAC region**"
 msgstr "**Regione APAC**"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:38
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:36
 msgid "Shopee.co.id"
 msgstr "Shopee.co.id"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:40
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:38
 msgid "Taiwan"
 msgstr "Taiwan"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:40
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:38
 msgid "Shopee.tw"
 msgstr "Shopee.tw"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:42
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:40
 msgid "Shopee.vn"
 msgstr "Shopee.vn"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:44
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:42
 msgid "Shopee.co.th"
 msgstr "Shopee.co.th"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:46
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:44
 msgid "Shopee.ph"
 msgstr "Shopee.ph"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:48
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:46
 msgid "Shopee.com.my"
 msgstr "Shopee.com.my"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:50
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:48
 msgid "Shopee.sg"
 msgstr "Shopee.sg"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:54
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:52
 msgid "**South America region**"
 msgstr "**Regione Sud America**"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:56
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:54
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:42
 msgid "Brazil"
 msgstr "Brasile"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:56
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:54
 msgid "Shopee.com.br"
 msgstr "Shopee.com.br"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:58
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:56
 msgid "Chile"
 msgstr "Cile"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:58
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:56
 msgid "Shopee.cl"
 msgstr "Shopee.cl"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:60
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:58
 msgid "Colombia"
 msgstr "Colombia"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:60
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:58
 msgid "Shopee.com.co"
 msgstr "Shopee.com.co"
 
-#: ../../content/applications/sales/sales/shopee_connector.rst:62
+#: ../../content/applications/sales/sales/shopee_connector/features.rst:60
 msgid "Shopee.com.mx"
 msgstr "Shopee.com.mx"
-
-#: ../../content/applications/sales/sales/shopee_connector.rst:66
-msgid ":doc:`shopee_connector/setup`"
-msgstr ":doc:`shopee_connector/setup`"
-
-#: ../../content/applications/sales/sales/shopee_connector.rst:67
-msgid ":doc:`shopee_connector/manage`"
-msgstr ":doc:`shopee_connector/manage`"
 
 #: ../../content/applications/sales/sales/shopee_connector/manage.rst:3
 msgid "Shopee order management"
@@ -42688,6 +42406,588 @@ msgstr ""
 "Per gli aggiornamenti della connessione, recupera manualmente gli ordini "
 "prima di ristabilire la connessione."
 
+#: ../../content/applications/sales/sales/tiktok_connector.rst:5
+msgid "TikTok Connector"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:3
+msgid "TikTok Shop connector features"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:5
+msgid ""
+"The **TikTok Shop Connector** streamlines your social commerce operations by "
+"synchronizing orders, products, and inventory between TikTok Shop and Odoo. "
+"It reduces manual data entry between systems and enhances order management, "
+"enabling efficient tracking of TikTok Shop sales within Odoo."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:12
+msgid "The **TikTok Shop Connector** is able to:"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:14
+msgid ""
+"Synchronize (TikTok Shop to Odoo) all confirmed orders (:abbr:`FBS "
+"(Fulfilled By Seller)`) with status :guilabel:`AWAITING_SHIPMENT` "
+"or :guilabel:`AWAITING_COLLECTION`, including:"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:18
+msgid "Item ID reference"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:21
+msgid ""
+"Synchronize (Odoo to TikTok Shop) all available product quantities "
+"(:abbr:`FBS (Fulfilled By Seller)`)."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:24
+msgid ""
+"Synchronize the TikTok Shop product catalog into Odoo or map existing Odoo "
+"products to TikTok Shop Item IDs."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:27
+msgid ""
+"Arrange package pickups with supported logistics providers directly in Odoo."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:29
+msgid ""
+"Support multiple seller accounts, with one TikTok Shop marketplace (shop) "
+"per account."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:32
+msgid ""
+"The **TikTok Shop Connector** is designed to synchronize sales orders and "
+"inventory. Other actions, such as downloading monthly fee reports, handling "
+"disputes, or issuing refunds **must** be managed from the *TikTok Shop "
+"Partner Center*, as usual."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:37
+msgid "TikTok Shop supported marketplaces"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:40
+msgid "**The Americas**"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:42
+msgid "seller-br.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:44
+msgid "seller-mx.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:46
+msgid "seller-us.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:50
+msgid "**Asia**"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:52
+msgid "seller-id.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:54
+msgid "Japan"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:54
+msgid "seller-jp.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:56
+msgid "seller-my.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:58
+msgid "seller-ph.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:60
+msgid "seller-sg.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:62
+msgid "seller-th.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:64
+msgid "seller-vn.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:68
+msgid "**Europe**"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:70
+msgid "seller-de-accounts.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:72
+msgid "seller-es-accounts.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:74
+msgid "seller-fr.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:76
+msgid "seller-uk-accounts.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:78
+msgid "seller-it-accounts.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:80
+msgid "Ireland"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/features.rst:80
+msgid "seller-ie-accounts.tiktok.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:3
+msgid "TikTok Shop order management"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:5
+msgid ""
+"This guide explains how to manage TikTok Shop orders, inventory, deliveries, "
+"and sales reporting within Odoo using the **TikTok Shop Connector**. It "
+"covers product catalog mapping, order synchronization, delivery processes, "
+"platform fee handling, and sales analysis to streamline social commerce "
+"operations across supported regions."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:13
+msgid ""
+"To ensure accurate synchronization, it is crucial to properly map the SKUs "
+"between the platforms. The TikTok Shop :guilabel:`Seller SKU` must "
+"correspond exactly to the :guilabel:`Internal Reference` of the product or "
+"its variant."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:20
+msgid ""
+"If you are starting a new Odoo database and your products exist only on "
+"TikTok Shop, you can import your TikTok Shop product catalog into Odoo. In "
+"*TikTok Shop Partner Center*, use the :menuselection:`Bulk action --> Bulk "
+"edit products` feature to export your product catalog, including TikTok Shop "
+"Item IDs."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:27
+msgid ""
+"Then import the exported catalog into Odoo via :menuselection:`Inventory --> "
+"Products --> Import`. Map the TikTok Shop Item ID to the :guilabel:`Product "
+"external ID` field in Odoo to link your TikTok Shop and Odoo products."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:34
+msgid ""
+"If you have an existing product catalog in Odoo, map your TikTok Shop "
+"listings to these products. Use the :guilabel:`Sync Catalog` button in Odoo "
+"to automatically match active products."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:39
+msgid ""
+"Alternatively, the :guilabel:`Upload in bulk` button in the seller center "
+"can be used if products from Odoo need to be synchronized to TikTok."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:43
+msgid ""
+"Product catalog synchronization is an automated process. Ensure accurate SKU "
+"mapping to avoid duplication errors."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:49
+msgid ""
+"Orders are automatically fetched from TikTok Shop and synchronized in Odoo "
+"at regular intervals."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:51
+msgid ""
+"Synchronization Scope: Only orders with status :guilabel:`AWAITING_SHIPMENT` "
+"or :guilabel:`AWAITING_COLLECTION` are fetched, as these require shipping "
+"action."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:53
+msgid ""
+"Processing Intervals: Sync orders and Webhooks of order status changes are "
+"processed every 5 minutes. Shipping labels are processed every 15 minutes. "
+"Inventory is processed every 30 minutes."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:55
+msgid ""
+"Status Updates: When an order is canceled on TikTok Shop, its status updates "
+"in Odoo. However, canceling an order in Odoo does not reflect on TikTok Shop."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:57
+msgid ""
+"Customer Creation: For each synchronized order, Odoo uses the buying "
+"identifier to search for existing contacts. If none exist, Odoo creates a "
+"sales order and a contact."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:59
+msgid ""
+"Default Products: If a product or delivery carrier isn't found, Odoo uses a "
+"default product or carrier found by :guilabel:`Internal Reference` or name, "
+"respectively."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:70
+msgid ""
+"To synchronize an order whose status hasn't changed since the last "
+"synchronization, navigate to :menuselection:`Sales --> Configuration --> "
+"Shops` and click the target TikTok Shop. Modify the :guilabel:`Last Order "
+"Synchronization` date to a date prior to the order's last status change. "
+"Finally, click the :guilabel:`Sync Orders` button to trigger immediate "
+"synchronization."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:78
+msgid ""
+"For :abbr:`FBM (Fulfilled By Merchant)` orders, the **TikTok Shop "
+"Connector** creates a picking in the :menuselection:`Inventory` app, a sales "
+"order, and a customer record, upon synchronization."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:81
+msgid ""
+"Arrange Shipment: Confirm the picking in Odoo, then navigate to *TikTok Shop "
+"Partner Center* and arrange shipment to generate the shipping label and "
+"tracking number."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:83
+msgid ""
+"Fetch Shipping Label: Odoo retrieves the shipping label and tracking number "
+"automatically on orders with TikTok status of 'Awaiting Collection', "
+"attaching them to the corresponding delivery order. If PDF generation fails, "
+"a link to the label is provided."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:86
+msgid ""
+"Validate Stock Out: Validate the stock movement in Odoo to update inventory "
+"levels and confirm the order has left the warehouse."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:90
+msgid "TikTok Shop delivery statuses"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:92
+msgid ""
+":guilabel:`Awaiting Shipment`: The order is ready for shipment arrangement."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:93
+msgid ""
+":guilabel:`Awaiting Collection`: The seller has arranged shipment and "
+"received a tracking number from the logistics provider."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:95
+msgid ""
+":guilabel:`Shipped`: The parcel has been dropped off or picked up by the "
+"logistics provider."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:96
+msgid ":guilabel:`Cancelled`: The order has been canceled."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:97
+msgid ""
+":guilabel:`Pickup Failed`: The logistics provider failed to pick up the "
+"parcel and the seller must rearrange shipment."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:101
+msgid ""
+"TikTok Shop requires a tracking reference for each delivery. If the carrier "
+"doesn't provide one automatically, set it manually in *TikTok Shop Partner "
+"Center*. Check supported logistics providers for the region."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:108
+msgid ""
+"TikTok Shop orders are automatically created in Odoo as sales orders in the "
+"**Sales app**. Shipment can be arranged in *TikTok Shop Partner Center*, "
+"including choosing a logistics provider and generating a shipping label. "
+"Odoo imports any shipping labels and tracking numbers and associates them "
+"with the sales order. Stock movements are confirmed in Odoo to reduce "
+"inventory levels. Enabling synchronizing inventory in shop settings pushes "
+"stock levels to TikTok shop in order to prevent overselling."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:118
+msgid ""
+"Due to TikTok Shop's policy of not sharing customer email addresses, "
+"invoices cannot be sent directly from Odoo. Instead, invoices can be "
+"generated in Odoo and manually uploaded to *TikTok Shop Partner "
+"Center*. :ref:`Register a bank journal <accounting-setup-bank>` (e.g., "
+"\"TikTok Payments\") with a suspense account. Since TikTok shop processes "
+"batch payments, all invoices linked to a payment in Odoo can be processed "
+"by :ref:`creating a batch payment <accounting/batch/creation>`."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:126
+msgid "Analyzing TikTok Shop sales with Odoo's reporting"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/manage.rst:128
+msgid ""
+"Odoo's dashboard consolidates sales data from all channels. To analyze "
+"TikTok Shop sales specifically, set up sales teams. Go "
+"to :menuselection:`Sales --> Configuration --> Shops` and assign a dedicated "
+"sales team to each TikTok Shop for isolated reporting. Use the dashboard "
+"filters to view sales data for the assigned TikTok sales team."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:3
+msgid "TikTok Shop connector configuration"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:5
+msgid ""
+"This guide explains how to set up the **TikTok Shop Connector** in Odoo to "
+"integrate TikTok Shop Seller accounts and manage multiple marketplaces "
+"efficiently. Follow these steps to configure the account, synchronize the "
+"product catalog, and prepare the shop for go-live."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:12
+msgid "Configuring a *TikTok Shop Connector* requires:"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:14
+msgid "A TikTok Shop Seller account."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:15
+msgid ""
+"A valid email address and password for the *TikTok Shop Partner Center*."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:16
+msgid "A brief description of the integration purpose."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:17
+msgid "An Odoo database URL and tester account credentials."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:20
+msgid ""
+"The *TikTok Shop Partner Center* account used for API access is separate "
+"from a TikTok Shop Seller account."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:24
+msgid "Create a TikTok Shop Partner Center account"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:26
+msgid ""
+"Navigate to :guilabel:`TikTok Shop Partner Center`, and go to the TikTok "
+"Shop platform. Log in with the TikTok account or create a new one if needed."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "Registration page for TikTok Shop Partner Center."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:32
+msgid ""
+"Once logged in, select :guilabel:`Add category and market` and fill in all "
+"the information. Choose :guilabel:`App developers (ISV)` as "
+"the :guilabel:`Business category`. Fill the registration region and target "
+"market, then click :guilabel:`Next`."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "Business category setup on TikTok Shop Partner Center."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:39
+msgid ""
+"Fill the :guilabel:`Partner Name` and contact email, then "
+"click :guilabel:`Get app key now`. Submit the application and wait for "
+"approval."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:43
+msgid "Create an app on TikTok Shop Partner Center"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:45
+msgid ""
+"To obtain the :guilabel:`Service ID`, :guilabel:`App Key`, "
+"and :guilabel:`App Secret` for Odoo integration, log in to the *TikTok Shop "
+"Partner Center*, navigate to :menuselection:`App & Service` on the sidebar. "
+"Click :guilabel:`Manage` next to the app name. Choose :guilabel:`Custom` as "
+"the :guilabel:`App & service type`. Select :guilabel:`eCommerce Management / "
+"Connectors` as the :guilabel:`Service category`. Enter the name of the app "
+"and market. Ensure :guilabel:`Enable API` is ON. Enter the redirect URL as "
+"`https://<your database url>.odoo.co m/tiktok/return_from_authorization`."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "App and service type configuration settings in TikTok Shop."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:56
+msgid "Go to :guilabel:`Manage API` in the created app."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "Manage API button under the basic information section."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:61
+msgid "Make sure to enable these services:"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:63
+msgid ":guilabel:`Finance Information`,"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:64
+msgid ":guilabel:`Fulfillment Basic`,"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:65
+msgid ":guilabel:`Logistics Basic`,"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:66
+msgid ":guilabel:`Order Information`,"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:67
+msgid ":guilabel:`Product Basic`,"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:68
+msgid ":guilabel:`Product Modify`,"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:69
+msgid ":guilabel:`Shop Authorized Information`,"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:70
+msgid "and :guilabel:`Global Shop Information`."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "List of required API scope toggles to enable."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:75
+msgid ""
+"For newly created accounts, it may be necessary to submit the app for review "
+"before enabling API usage. Click :guilabel:`Publish App` to generate a new "
+"API key. Take the :guilabel:`Service ID`, :guilabel:`App key`, "
+"and :guilabel:`App secret` of the app."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "Locating the App key and App secret in the credentials menu."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:83
+msgid "Connect TikTok Shop seller account to Odoo"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:85
+msgid ""
+"Go to Odoo's Apps module, search for the :guilabel:`TikTok Shop Connector` "
+"module, and click :guilabel:`Activate` to install it."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "The TikTok Shop Connector module in Odoo Apps."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:91
+msgid ""
+"Once installed, activate the feature by going to :menuselection:`Sales --> "
+"Configuration --> Shops`. Click :guilabel:`Connect New Shop`."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "Navigating to the Shops configuration menu in Odoo Sales."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:97
+msgid ""
+"Fill in the :guilabel:`App Key`, :guilabel:`App Secret` "
+"and :guilabel:`Service ID`."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "Entering the TikTok app credentials into Odoo."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:102
+msgid ""
+"The system redirects to an authentication page to connect the newly created "
+"app to the TikTok Shop seller account. Ensure the login credentials match "
+"the specific TikTok Shop account intended for connection and complete the "
+"authentication process."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:None
+msgid "The TikTok Shop seller authentication and login screen."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:109
+msgid ""
+"Upon completion, the system redirects back to Odoo. Click the :guilabel:`Re-"
+"authorize Shop` button to refresh the authorization and get a new Refresh "
+"Token."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:113
+msgid "Configure shop before go-live"
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:115
+msgid ""
+"Navigate to :menuselection:`Sales --> Configuration --> Shops`. Select the "
+"TikTok account and configure the :guilabel:`FBS Warehouse` field to limit "
+"stock fetching to specific warehouses. Enable synchronizing inventory in "
+"shop settings to push stock levels to TikTok Shop."
+msgstr ""
+
+#: ../../content/applications/sales/sales/tiktok_connector/setup.rst:119
+msgid ""
+"Use the :guilabel:`Sync Catalog` button in Odoo to automatically fetch "
+"active TikTok Shop products. Shipping labels, orders, inventory and product "
+"catalogs can be manually synced using their respective buttons on the shop "
+"configuration page."
+msgstr ""
+
 #: ../../content/applications/sales/subscriptions.rst:6
 msgid "Subscriptions"
 msgstr "Abbonamenti"
@@ -43429,8 +43729,8 @@ msgstr ""
 "informazioni`, sotto la sezione :guilabel:`Vendite`."
 
 #: ../../content/applications/sales/subscriptions.rst:295
-msgid ":doc:`/applications/finance/accounting/payments/online`"
-msgstr ":doc:`/applications/finance/accounting/payments/online`"
+msgid ":ref:`Online Payments <accounting/payments/online>`"
+msgstr ""
 
 #: ../../content/applications/sales/subscriptions.rst:296
 msgid ""
@@ -45051,6 +45351,557 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/upselling.rst:80
 msgid ":doc:`../sales/products_prices/prices/discounts`"
 msgstr ":doc:`../sales/products_prices/prices/discounts`"
+
+#~ msgid ""
+#~ "Product variants can be managed via their individual product template, or "
+#~ "by navigating to either the :guilabel:`Product Variants` "
+#~ "or :guilabel:`Attributes` page. All of these options are located within "
+#~ "the Odoo *Sales* application."
+#~ msgstr ""
+#~ "Le varianti di prodotto possono essere gestite tramite il loro singolo "
+#~ "modello di prodotto, oppure navigando nella pagina :guilabel:`Varianti di "
+#~ "prodotto` o :guilabel:`Attributi`. Tutte queste opzioni si trovano "
+#~ "nell'applicazione *Vendite* di Odoo."
+
+#~ msgid ""
+#~ "Odoo Point of Sale (POS) offers a **Log in with Employees** feature, "
+#~ "allowing multiple users to :ref:`log into the POS register <pos/"
+#~ "employee_login/use>`. Activating this feature enables the following "
+#~ "actions:"
+#~ msgstr ""
+#~ "Odoo Punto vendita offre una funzionalità **Accedi con dipendenti** che "
+#~ "consente a più utenti di :ref:`accedere al registro del punto vendita "
+#~ "<pos/employee_login/use>`. L'attivazione di questa funzionalità abilita "
+#~ "le seguenti azioni:"
+
+#~ msgid ""
+#~ "Select specific users who can :ref:`log into the POS <pos/employee_login/"
+#~ "use>`."
+#~ msgstr ""
+#~ "selezionare utenti specifici che possono :ref:`accedere al POS <pos/"
+#~ "employee_login/use>`"
+
+#~ msgid ""
+#~ ":ref:`Assign minimal, basic or advanced permissions <pos/employee_login/"
+#~ "configuration>` to these users."
+#~ msgstr ""
+#~ ":ref:`Assegnare autorizzazioni minime, di base o avanzate <pos/"
+#~ "employee_login/configuration>` a questi utenti."
+
+#~ msgid ""
+#~ ":ref:`Track the employees involved in each order for enhanced analytics "
+#~ "<pos/analytics>`."
+#~ msgstr ""
+#~ ":ref:`monitorare i dipendenti coinvolti in ogni ordine per analisi "
+#~ "migliori <pos/analytics>`."
+
+#~ msgid ""
+#~ "Access the multi-employee setting from the :guilabel:`PoS Interface` "
+#~ "section of the :ref:`POS settings <pos/use/settings>`. Then,"
+#~ msgstr ""
+#~ "Accedere all'impostazione multi-dipendente dalla "
+#~ "sezione :guilabel:`Interfaccia Punto vendita` delle :ref:`impostazioni "
+#~ "del punto vendita <pos/use/settings>`. Quindi,"
+
+#~ msgid "Activate the :guilabel:`Log in with Employees` feature."
+#~ msgstr "attiva la funzione :guilabel:`Accedi con Dipendenti`"
+
+#~ msgid ""
+#~ "Add the employees with **basic POS functionality** access in "
+#~ "the :guilabel:`Basic rights` field."
+#~ msgstr ""
+#~ "aggiungi i dipendenti con accesso di tipo **funzionalità POS di base** "
+#~ "nel campo :guilabel:`Diritti di base`"
+
+#~ msgid ""
+#~ "Add the employees with **extended POS functionalities** in "
+#~ "the :guilabel:`Advanced rights` field."
+#~ msgstr ""
+#~ "aggiungi i dipendenti con **funzionalità POS avanzate** nel "
+#~ "campo :guilabel:`Diritti avanzati`."
+
+#~ msgid ""
+#~ "Add the employees with **minimal POS functionality** access in "
+#~ "the :guilabel:`Minimal rights` field."
+#~ msgstr ""
+#~ "Aggiungere i dipendenti con accesso a **funzionalità minime del punto "
+#~ "vendita** nel campo :guilabel:`Diritti minimi`."
+
+#~ msgid "setting to enable multiple cashiers in POS"
+#~ msgstr "impostazione per abilitare più cassieri nel punto vendita"
+
+#~ msgid ""
+#~ "Leaving the :guilabel:`Minimal rights` and :guilabel:`Basic rights` field "
+#~ "empty allows all employees to log in."
+#~ msgstr ""
+#~ "Lasciare vuoti i campi :guilabel:`Diritti minimi` e :guilabel:`Diritti di "
+#~ "base` consente a tutti i dipendenti di effettuare l'accesso."
+
+#~ msgid ""
+#~ "Leaving the :guilabel:`Advanced rights` field empty grants extended "
+#~ "rights to Odoo users only."
+#~ msgstr ""
+#~ "Lasciando vuoto il campo :guilabel:`Diritti avanzati` concedi diritti "
+#~ "estesi solo agli utenti di Odoo."
+
+#~ msgid ""
+#~ "Click the :icon:`fa-ellipsis-v` (:guilabel:`vertical ellipsis`) button on "
+#~ "the top right corner of a POS card and :guilabel:`Edit` to access the "
+#~ "setting from the main POS dashboard."
+#~ msgstr ""
+#~ "Fai clic sul pulsante :icon:`fa-ellipsis-v` (:guilabel:`ellissi "
+#~ "verticale`) nell'angolo in alto a destra di una scheda POS e poi "
+#~ "su :guilabel:`Modifica` per accedere all'impostazione dalla dashboard "
+#~ "principale del punto vendita."
+
+#~ msgid ""
+#~ "Employees with minimal rights can perform the following actions within "
+#~ "the POS:"
+#~ msgstr ""
+#~ "I dipendenti con diritti minimi possono eseguire le seguenti azioni nel "
+#~ "punto vendita:"
+
+#~ msgid ":ref:`Set customers <pos/use/customers>`."
+#~ msgstr ":ref:`Impostare i clienti <pos/use/customers>`."
+
+#~ msgid ":ref:`Access past and current order history <pos/use/orders>`."
+#~ msgstr ""
+#~ ":ref:`Accedere allo storico degli ordini passati e attuali <pos/use/"
+#~ "orders>`."
+
+#~ msgid "Logging in"
+#~ msgstr "Accedere"
+
+#~ msgid ""
+#~ "Once the **Log in with Employees** feature is enabled, employees must log "
+#~ "in to :ref:`open the POS register <pos/use/open-register>` and access the "
+#~ "POS interface. They can :ref:`scan their employee badge <pos/"
+#~ "employee_login/badge>`, click the :icon:`fa-users` icon "
+#~ "(:guilabel:`users`) to select their name from the list of authorized "
+#~ "users, or by entering :ref:`their PIN code <pos/employee_login/pin>` in "
+#~ "the :guilabel:`Enter your PIN` field."
+#~ msgstr ""
+#~ "Una volta abilitata la funzionalità **Accedi con dipendenti**, i "
+#~ "dipendenti devono effettuare l'accesso per :ref:`aprire il registro del "
+#~ "punto vendita <pos/use/open-register>` e accedere all'interfaccia del "
+#~ "punto vendita. Possono :ref:`scansionare il loro badge dipendente <pos/"
+#~ "employee_login/badge>`, fare clic sull'icona :icon:`fa-users` "
+#~ "(:guilabel:`utenti`) per selezionare il loro nome dall'elenco degli "
+#~ "utenti autorizzati, oppure inserendo :ref:`il loro codice PIN <pos/"
+#~ "employee_login/pin>` nel campo :guilabel:`Inserisci il tuo PIN`."
+
+#~ msgid ""
+#~ "Login window to open the register when the multiple cashiers feature is "
+#~ "active"
+#~ msgstr ""
+#~ "Finestra di accesso per aprire il registro quando la funzionalità "
+#~ "cassieri multipli è attiva"
+
+#~ msgid ""
+#~ "To switch between users from the :ref:`POS interface <pos/use/open-"
+#~ "register>`, click on the currently logged-in employee's name at the top "
+#~ "right of the POS screen and select the user to switch to."
+#~ msgstr ""
+#~ "Per passare da un utente all'altro dall':ref:`interfaccia del punto "
+#~ "vendita <pos/use/open-register>`, fare clic sul nome del dipendente "
+#~ "attualmente connesso in alto a destra dello schermo del punto vendita e "
+#~ "selezionare l'utente a cui passare."
+
+#~ msgid ""
+#~ "In the absence of a scanner, click the :icon:`fa-barcode` icon "
+#~ "(:guilabel:`barcode`) to scan barcodes using the webcam."
+#~ msgstr ""
+#~ "In assenza di un lettore, fai clic sull'icona :icon:`fa-barcode` "
+#~ "(:guilabel:`codice a barre`) per scansionare i codici a barre utilizzando "
+#~ "la webcam."
+
+#~ msgid "Logging in with badges"
+#~ msgstr "Accedere con badge"
+
+#~ msgid ""
+#~ "Employees can log in using their badge. To configure badge-based login, "
+#~ "assign a unique badge ID to the employee's profile in the **Employees** "
+#~ "module:"
+#~ msgstr ""
+#~ "I dipendenti possono accedere utilizzando il proprio badge. Per "
+#~ "configurare l'accesso basato su badge, assegna un ID univoco al profilo "
+#~ "del dipendente nel modulo **Dipendenti**:"
+
+#~ msgid "Navigate to the **Employees** module."
+#~ msgstr "accedi al modulo **Dipendenti**"
+
+#~ msgid "Open the form view of the specific employee."
+#~ msgstr "apri la vista modulo del dipendente specifico"
+
+#~ msgid ""
+#~ "Click :guilabel:`Generate` to create a unique badge ID automatically."
+#~ msgstr ""
+#~ "fai clic su :guilabel:`Genera` per creare automaticamente un ID badge "
+#~ "unico"
+
+#~ msgid ""
+#~ "To switch between users from the :ref:`POS interface <pos/use/open-"
+#~ "register>`, using a badge, you must first lock the register. To do so, "
+#~ "click the :icon:`fa-lg fa-lock` icon (:guilabel:`lock`) to return to the "
+#~ "login screen. Then, the new employee can scan their badge to log in."
+#~ msgstr ""
+#~ "Per passare da un utente all'altro dall':ref:`interfaccia del punto "
+#~ "vendita <pos/use/open-register>` utilizzando un badge, è necessario prima "
+#~ "bloccare il registro. Per farlo, fare clic sull'icona :icon:`fa-lg fa-"
+#~ "lock` (:guilabel:`blocca`) per tornare alla schermata di accesso. Quindi, "
+#~ "il nuovo dipendente può scansionare il proprio badge per effettuare "
+#~ "l'accesso."
+
+#~ msgid "Adding a PIN Code"
+#~ msgstr "Aggiungere un codice PIN"
+
+#~ msgid ""
+#~ "For enhanced security, employees may be forced to enter a PIN code each "
+#~ "time they log into the POS register. To set up a PIN code for an employee:"
+#~ msgstr ""
+#~ "Per una maggiore sicurezza, i dipendenti possono essere obbligati a "
+#~ "inserire un codice PIN ogni volta che accedono al registro del punto "
+#~ "vendita. Per impostare un codice PIN per un dipendente:"
+
+#~ msgid "Open the form view of the relevant employee."
+#~ msgstr "apri la vista modulo del dipendente"
+
+#~ msgid ""
+#~ "Enter a desired numerical code in the :guilabel:`PIN Code` field of "
+#~ "the :guilabel:`Attendance/Point of Sale/Manufacturing` category."
+#~ msgstr ""
+#~ "inserisci il codice numerico desiderato nel campo :guilabel:`Codice PIN` "
+#~ "della categoria :guilabel:`Presenze/Punto vendita/Produzione`."
+
+#~ msgid "The PIN code must consist of a sequence of digits only."
+#~ msgstr "Il codice PIN deve essere composto esclusivamente da cifre."
+
+#~ msgid ""
+#~ "Employees can :ref:`log into the POS by scanning a badge <pos/"
+#~ "employee_login/badge>`. To configure this feature, open the **Employees** "
+#~ "app, select an employee, then, in the :guilabel:`HR Settings` tab, fill "
+#~ "in the :guilabel:`PIN Code` or :guilabel:`Badge ID`."
+#~ msgstr ""
+#~ "I dipendenti possono :ref:`accedere al Punto vendita scansionando un "
+#~ "badge <pos/employee_login/badge>`. Per configurare questa funzionalità, "
+#~ "aprire l'app **Dipendenti**, selezionare un dipendente, quindi, nella "
+#~ "scheda :guilabel:`Impostazioni risorse umane`, compilare il "
+#~ "campo :guilabel:`Codice PIN` o :guilabel:`ID badge`."
+
+#~ msgid ""
+#~ "It is possible to switch between :doc:`multiple users <extra/"
+#~ "employee_login>` from an open POS register, provided :ref:`multi-employee "
+#~ "management is enabled <pos/employee_login/use>`."
+#~ msgstr ""
+#~ "È possibile passare da un :doc:`utente all'altro <extra/employee_login>` "
+#~ "da un registro del punto vendita aperto, a condizione che :ref:`la "
+#~ "gestione multi-dipendente sia abilitata <pos/employee_login/use>`."
+
+#~ msgid ""
+#~ "Click the user's avatar to switch between employees, provided :ref:`multi-"
+#~ "employee management is enabled <pos/employee_login/use>`."
+#~ msgstr ""
+#~ "Fare clic sull'avatar dell'utente per passare da un dipendente all'altro, "
+#~ "a condizione che :ref:`la gestione multi-dipendente sia abilitata <pos/"
+#~ "employee_login/use>`."
+
+#~ msgid ""
+#~ "Synchronize (Odoo to Shopee) all available quantities of your products "
+#~ "(:abbr:`FBM (Fulfilled by Merchant)`)."
+#~ msgstr ""
+#~ "Sincronizza (da Odoo a Shopee) tutte le quantità disponibili dei tuoi "
+#~ "prodotti (:abbr:`FBM (Fulfilled by Merchant)`)."
+
+#~ msgid ":doc:`shopee_connector/setup`"
+#~ msgstr ":doc:`shopee_connector/setup`"
+
+#~ msgid ":doc:`shopee_connector/manage`"
+#~ msgstr ":doc:`shopee_connector/manage`"
+
+#~ msgid "Activate and set up QR code payments"
+#~ msgstr "Attivare e configurare i pagamenti tramite codice QR"
+
+#~ msgid ""
+#~ "Go to :menuselection:`Accounting --> Configuration --> Settings`, and"
+#~ msgstr ""
+#~ "Andare su :menuselection:`Contabilità --> Configurazione --> "
+#~ "Impostazioni` e"
+
+#~ msgid ""
+#~ "Activate or upgrade your country's fiscal localization package under "
+#~ "the :guilabel:`Fiscal Localization` section to access all country-"
+#~ "specific accounting features."
+#~ msgstr ""
+#~ "Attivare o aggiornare il pacchetto di localizzazione fiscale del proprio "
+#~ "paese nella sezione :guilabel:`Localizzazione fiscale` per accedere a "
+#~ "tutte le funzionalità contabili specifiche del paese."
+
+#~ msgid ""
+#~ "Activate :guilabel:`QR codes` under the :guilabel:`Customer Payments` "
+#~ "section."
+#~ msgstr ""
+#~ "Attivare :guilabel:`Codici QR` nella sezione :guilabel:`Pagamenti "
+#~ "clienti`."
+
+#~ msgid ""
+#~ "Then, as the QR code type differs depending on your country, follow the "
+#~ "corresponding documentation page from the following table to set them up."
+#~ msgstr ""
+#~ "Poi, poiché il tipo di codice QR varia a seconda del paese, seguire la "
+#~ "pagina di documentazione corrispondente dalla seguente tabella per "
+#~ "configurarli."
+
+#~ msgid "QR code types"
+#~ msgstr "Tipi di codice QR"
+
+#~ msgid "Module name"
+#~ msgstr "Nome del modulo"
+
+#~ msgid "Technical name"
+#~ msgstr "Nome tecnico"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "Pix"
+#~ msgstr "Pix"
+
+#~ msgid ""
+#~ ":doc:`Brazilian - Accounting<../../../finance/fiscal_localizations/"
+#~ "brazil>`"
+#~ msgstr ""
+#~ ":doc:`Brasile - Contabilità<../../../finance/fiscal_localizations/brazil>`"
+
+#~ msgid "`l10n_br`"
+#~ msgstr "`l10n_br`"
+
+#~ msgid ""
+#~ "The base module to manage the accounting chart and localization for "
+#~ "Brazil."
+#~ msgstr ""
+#~ "Il modulo di base per gestire il piano contabile e la localizzazione per "
+#~ "il Brasile."
+
+#~ msgid "FPS"
+#~ msgstr "FPS"
+
+#~ msgid ""
+#~ ":doc:`Hong Kong - Accounting<../../../finance/fiscal_localizations/"
+#~ "hong_kong>`"
+#~ msgstr ""
+#~ ":doc:`Hong Kong - Contabilità<../../../finance/fiscal_localizations/"
+#~ "hong_kong>`"
+
+#~ msgid "`l10n_hk`"
+#~ msgstr "`l10n_hk`"
+
+#~ msgid ""
+#~ "The base module to manage the accounting chart and localization for Hong "
+#~ "Kong."
+#~ msgstr ""
+#~ "Il modulo di base per gestire il piano contabile e la localizzazione per "
+#~ "Hong Kong."
+
+#~ msgid "QRIS"
+#~ msgstr "QRIS"
+
+#~ msgid ""
+#~ ":doc:`Indonesian - Accounting<../../../finance/fiscal_localizations/"
+#~ "indonesia>`"
+#~ msgstr ""
+#~ ":doc:`Indonesia - Contabilità<../../../finance/fiscal_localizations/"
+#~ "indonesia>`"
+
+#~ msgid "`l10n_id`"
+#~ msgstr "`l10n_id`"
+
+#~ msgid ""
+#~ "The base module to manage the accounting chart and localization for "
+#~ "Indonesia."
+#~ msgstr ""
+#~ "Il modulo di base per gestire il piano contabile e la localizzazione per "
+#~ "l'Indonesia."
+
+#~ msgid "PayNow"
+#~ msgstr "PayNow"
+
+#~ msgid ""
+#~ ":doc:`Singapore - Accounting<../../../finance/fiscal_localizations/"
+#~ "singapore>`"
+#~ msgstr ""
+#~ ":doc:`Singapore - Contabilità<../../../finance/fiscal_localizations/"
+#~ "singapore>`"
+
+#~ msgid "`l10n_sg`"
+#~ msgstr "`l10n_sg`"
+
+#~ msgid ""
+#~ "The base module to manage the accounting chart and localization for "
+#~ "Singapore."
+#~ msgstr ""
+#~ "Il modulo di base per gestire il piano contabile e la localizzazione per "
+#~ "Singapore."
+
+#~ msgid "QR-bill"
+#~ msgstr "Fattura QR"
+
+#~ msgid ""
+#~ ":doc:`Switzerland - Accounting<../../../finance/fiscal_localizations/"
+#~ "switzerland>`"
+#~ msgstr ""
+#~ ":doc:`Svizzera - Contabilità<../../../finance/fiscal_localizations/"
+#~ "switzerland>`"
+
+#~ msgid "`l10n_ch`"
+#~ msgstr "`l10n_ch`"
+
+#~ msgid ""
+#~ "The base module to manage the accounting chart and localization for "
+#~ "Switzerland."
+#~ msgstr ""
+#~ "Il modulo di base per gestire il piano contabile e la localizzazione per "
+#~ "la Svizzera."
+
+#~ msgid "PromptPay"
+#~ msgstr "PromptPay"
+
+#~ msgid ""
+#~ ":doc:`Thailand - Accounting<../../../finance/fiscal_localizations/"
+#~ "thailand>`"
+#~ msgstr ""
+#~ ":doc:`Thailandia - Contabilità<../../../finance/fiscal_localizations/"
+#~ "thailand>`"
+
+#~ msgid "`l10n_th`"
+#~ msgstr "`l10n_th`"
+
+#~ msgid ""
+#~ "The base module to manage the accounting chart and localization for "
+#~ "Thailand."
+#~ msgstr ""
+#~ "Il modulo base per gestire il piano contabile e la localizzazione per la "
+#~ "Thailandia."
+
+#~ msgid "VietQR"
+#~ msgstr "VietQR"
+
+#~ msgid ""
+#~ ":doc:`Vietnam - Accounting<../../../finance/fiscal_localizations/vietnam>`"
+#~ msgstr ""
+#~ ":doc:`Vietnam - Contabilità<../../../finance/fiscal_localizations/"
+#~ "vietnam>`"
+
+#~ msgid "`l10n_vn`"
+#~ msgstr "`l10n_vn`"
+
+#~ msgid ""
+#~ "The base module to manage the accounting chart and localization for "
+#~ "Vietnam."
+#~ msgstr ""
+#~ "Il modulo base per gestire il piano contabile e la localizzazione per il "
+#~ "Vietnam."
+
+#~ msgid "EPC"
+#~ msgstr "EPC"
+
+#~ msgid ""
+#~ ":doc:`Account SEPA QR Code<../../../finance/accounting/customer_invoices/"
+#~ "epc_qr_code>`"
+#~ msgstr ""
+#~ ":doc:`Codice QR SEPA contabile<../../../finance/accounting/"
+#~ "customer_invoices/epc_qr_code>`"
+
+#~ msgid "`account_qr_code_sepa`"
+#~ msgstr "`account_qr_code_sepa`"
+
+#~ msgid ""
+#~ "This module adds support for SEPA Credit Transfer QR-code generation."
+#~ msgstr ""
+#~ "Questo modulo aggiunge il supporto per la generazione di codici QR per "
+#~ "bonifici SEPA."
+
+#~ msgid "Create the payment method"
+#~ msgstr "Creare il metodo di pagamento"
+
+#~ msgid "Open the Point of Sale application."
+#~ msgstr "Aprire l'applicazione Punto vendita."
+
+#~ msgid ""
+#~ "Go to :menuselection:`Configuration --> Payment Methods` and create a "
+#~ "payment method."
+#~ msgstr ""
+#~ "Andare su :menuselection:`Configurazione --> Metodi di pagamento` e "
+#~ "creare un metodo di pagamento."
+
+#~ msgid "Set a bank-type journal."
+#~ msgstr "Impostare un sezionale di tipo banca."
+
+#~ msgid ""
+#~ "Select :guilabel:`Bank App (QR Code)` under the :guilabel:`Integration` "
+#~ "section."
+#~ msgstr ""
+#~ "Selezionare :guilabel:`App bancaria (codice QR)` nella "
+#~ "sezione :guilabel:`Integrazione`."
+
+#~ msgid ""
+#~ "Select :guilabel:`SEPA Credit Transfer QR` if you are part of the Single "
+#~ "Euro Payments Area (SEPA)."
+#~ msgstr ""
+#~ "Selezionare :guilabel:`Bonifico SEPA QR` se si fa parte dell'Area unica "
+#~ "dei pagamenti in euro (SEPA)."
+
+#~ msgid "QR code payment method configuration"
+#~ msgstr "Configurazione del metodo di pagamento con codice QR"
+
+#~ msgid ""
+#~ "At least one bank account must be defined in the journal to allow QR code "
+#~ "payments to be registered with bank apps."
+#~ msgstr ""
+#~ "Almeno un conto bancario deve essere definito nel registro per consentire "
+#~ "la registrazione dei pagamenti con codice QR tramite app bancarie."
+
+#~ msgid ""
+#~ "Once the payment method is created, go to the :ref:`POS' settings <pos/"
+#~ "use/settings>` and add the payment method to your POS under "
+#~ "the :guilabel:`Payment` section."
+#~ msgstr ""
+#~ "Una volta creato il metodo di pagamento, andare alle :ref:`impostazioni "
+#~ "del Punto vendita <pos/use/settings>` e aggiungere il metodo di pagamento "
+#~ "al proprio Punto vendita nella sezione :guilabel:`Pagamento`."
+
+#~ msgid "Enable QR code payment method"
+#~ msgstr "Attivare il metodo di pagamento con codice QR"
+
+#~ msgid "Register payments using QR codes"
+#~ msgstr "Registrare pagamenti utilizzando codici QR"
+
+#~ msgid ""
+#~ "When processing a payment, select the payment method for QR code "
+#~ "payments. A QR code is generated and displayed on the screen for the "
+#~ "customer to scan and pay with their mobile banking app."
+#~ msgstr ""
+#~ "Durante l'elaborazione di un pagamento, selezionare il metodo di "
+#~ "pagamento per i pagamenti con codice QR. Un codice QR viene generato e "
+#~ "visualizzato sullo schermo affinché il cliente possa scansionarlo e "
+#~ "pagare con la sua app di mobile banking."
+
+#~ msgid "QR code payment example"
+#~ msgstr "Esempio di pagamento con codice QR"
+
+#~ msgid "Hit :guilabel:`Confirm Payment` to validate the transaction."
+#~ msgstr ""
+#~ "Fare clic su :guilabel:`Conferma pagamento` per convalidare la "
+#~ "transazione."
+
+#~ msgid ""
+#~ "Odoo does **not** check the bank payment. It is recommended that users "
+#~ "verify payments for validity before confirming them on the POS register."
+#~ msgstr ""
+#~ "Odoo **non** verifica il pagamento bancario. Si consiglia di verificare "
+#~ "la validità dei pagamenti prima di confermarli sul registratore di cassa."
+
+#~ msgid ":doc:`/applications/finance/accounting/payments/online`"
+#~ msgstr ":doc:`/applications/finance/accounting/payments/online`"
 
 #~ msgid ""
 #~ "If *Leads* have been enabled in the **CRM** app's Configuration settings, "

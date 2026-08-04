@@ -5,13 +5,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
+# Tadej Vengust <tadej.vengust@implex.si>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 17:31+0000\n"
-"PO-Revision-Date: 2026-07-05 01:19+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-07-17 17:31+0000\n"
+"PO-Revision-Date: 2026-07-24 16:10+0000\n"
+"Last-Translator: Tadej Vengust <tadej.vengust@implex.si>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19-doc/"
 "websites/sl/>\n"
 "Language: sl\n"
@@ -531,7 +532,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce.rst:15
 #: ../../content/applications/websites/ecommerce/configuration.rst:7
-#: ../../content/applications/websites/website.rst:28
+#: ../../content/applications/websites/website.rst:34
 #: ../../content/applications/websites/website/configuration.rst:5
 #: ../../content/applications/websites/website/configuration/cookies_bar.rst:21
 #: ../../content/applications/websites/website/configuration/translate.rst:11
@@ -623,7 +624,7 @@ msgstr ""
 "so TikTok, Facebook ali Instagram, da prikažete izdelke na več kanalih."
 
 #: ../../content/applications/websites/ecommerce.rst:61
-#: ../../content/applications/websites/website.rst:47
+#: ../../content/applications/websites/website.rst:55
 msgid ""
 "Odoo offers a :ref:`free custom domain name <domain-name/register>` to all "
 "Odoo Online databases for one year. Visitors can then access your website "
@@ -640,18 +641,17 @@ msgid ":doc:`Website Documentation <website>`"
 msgstr ":doc:`Dokumentacija za spletno stran <website>`"
 
 #: ../../content/applications/websites/ecommerce.rst:67
-#: ../../content/applications/websites/website.rst:52
-#: ../../content/applications/websites/website/structure.rst:37
-#: ../../content/applications/websites/website/web_design.rst:42
-msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
-msgstr "`Odoo vodiči: Spletna stran <https://www.odoo.com/slides/website-25>`_"
-
-#: ../../content/applications/websites/ecommerce.rst:68
 #: ../../content/applications/websites/ecommerce/configuration.rst:49
 #: ../../content/applications/websites/ecommerce/ecommerce_design.rst:38
-#: ../../content/applications/websites/website.rst:53
-msgid "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
-msgstr "`Odoo vodiči: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+#: ../../content/applications/websites/website.rst:60
+#: ../../content/applications/websites/website/structure.rst:37
+#: ../../content/applications/websites/website/web_design.rst:42
+msgid ""
+"`Odoo Tutorials: Website & eCommerce <https://www.odoo.com/slides/website-"
+"ecommerce-25>`_"
+msgstr ""
+"`Odoo Tutorials: Website & eCommerce <https://www.odoo.com/slides/website-"
+"ecommerce-25>`_"
 
 #: ../../content/applications/websites/ecommerce/checkout.rst:5
 msgid ""
@@ -827,7 +827,7 @@ msgstr ""
 "Privzeti gumb :guilabel:`Dodaj v košarico` ne ponuja teh možnosti, vendar je "
 "mogoče spremeniti njegovo oznako."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:79
+#: ../../content/applications/websites/ecommerce/checkout.rst:81
 msgid ""
 "In the website editor, it is also possible to show or hide the :icon:`fa-"
 "shopping-cart` (:guilabel:`cart`) icon in the page's header. To do so, click "
@@ -845,11 +845,11 @@ msgstr ""
 "prazno`. Če ni omogočeno, se ikona košarice prikaže le, ko je element dodan "
 "v košarico. Poleg ikone je prikazano tudi število elementov v košarici."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:89
+#: ../../content/applications/websites/ecommerce/checkout.rst:91
 msgid "Buy now"
 msgstr "Kupi sedaj"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:91
+#: ../../content/applications/websites/ecommerce/checkout.rst:93
 msgid ""
 "To let customers choose to go directly to the :ref:`Order summary <ecommerce/"
 "checkout/review_order>` step, add an additional :guilabel:`Buy now` button. "
@@ -868,16 +868,16 @@ msgstr ""
 msgid "Buy now button"
 msgstr "Gumb kupi zdaj"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:102
+#: ../../content/applications/websites/ecommerce/checkout.rst:104
 msgid "Reorder products"
 msgstr "Ponovno naročilo izdelkov"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:104
+#: ../../content/applications/websites/ecommerce/checkout.rst:106
 msgid "Customers can reorder items from a previous sales order:"
 msgstr ""
 "Stranke lahko ponovno naročijo izdelke iz prejšnjega prodajnega naloga:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:106
+#: ../../content/applications/websites/ecommerce/checkout.rst:108
 msgid ""
 "from their customer portal, using the :guilabel:`Order Again` button. All "
 "products from the selected order are automatically added to the cart, and "
@@ -892,7 +892,7 @@ msgstr ""
 msgid "Reorder button"
 msgstr "Gumb za ponovno naročanje"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:113
+#: ../../content/applications/websites/ecommerce/checkout.rst:115
 msgid ""
 "from the cart, by clicking :guilabel:`Quick reorder` at the :ref:`Order "
 "summary step <ecommerce/checkout/review_order>`. Customers can then adjust "
@@ -908,36 +908,36 @@ msgstr ""
 msgid "Quick reorder button"
 msgstr "Gumb za hitro ponovno naročanje"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:123
+#: ../../content/applications/websites/ecommerce/checkout.rst:125
 msgid "Checkout steps"
 msgstr "Koraki zaključka nakupa"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:125
+#: ../../content/applications/websites/ecommerce/checkout.rst:127
 msgid "During checkout, customers are taken through the following steps:"
 msgstr "Med postopkom nakupa so stranke vodene skozi naslednje korake:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:127
+#: ../../content/applications/websites/ecommerce/checkout.rst:129
 msgid ":ref:`Order summary <ecommerce/checkout/review_order>`"
 msgstr ":ref:`Pregled naročila <ecommerce/checkout/review_order>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:128
+#: ../../content/applications/websites/ecommerce/checkout.rst:130
 msgid ":ref:`Address <ecommerce/checkout/delivery>`"
 msgstr ":ref:`Naslov <ecommerce/checkout/delivery>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:129
+#: ../../content/applications/websites/ecommerce/checkout.rst:131
 msgid ":ref:`Extra Info (if enabled) <ecommerce/checkout/extra_step>`"
 msgstr ""
 ":ref:`Dodatne informacije (če je omogočeno) <ecommerce/checkout/extra_step>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:130
+#: ../../content/applications/websites/ecommerce/checkout.rst:132
 msgid ":ref:`Payment <ecommerce/checkout/payment>`"
 msgstr ":ref:`Plačilo <ecommerce/checkout/payment>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:131
+#: ../../content/applications/websites/ecommerce/checkout.rst:133
 msgid ":ref:`Order confirmation <ecommerce/checkout/order_confirmation>`"
 msgstr ":ref:`Potrditev naročila <ecommerce/checkout/order_confirmation>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:135
+#: ../../content/applications/websites/ecommerce/checkout.rst:137
 msgid ""
 "Each step can be customized using the website editor by "
 "adding :doc:`building blocks <../website/web_design/building_blocks>` or "
@@ -947,11 +947,11 @@ msgstr ""
 "dodajanjem :doc:`gradnikov <../website/web_design/building_blocks>` ali "
 "odpiranjem zavihka :guilabel:`Slog`, da omogočite različne možnosti nakupa."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:140
+#: ../../content/applications/websites/ecommerce/checkout.rst:142
 msgid "Content added through building blocks is **specific** to each step."
 msgstr "Vsebina, dodana prek gradnikov, je **specifična** za vsak korak."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:143
+#: ../../content/applications/websites/ecommerce/checkout.rst:145
 msgid ""
 "Restrict access to the :ref:`shop <ecommerce/customer_accounts/shop-access>` "
 "and :ref:`checkout <ecommerce/customer_accounts/checkout-access>` for "
@@ -963,11 +963,11 @@ msgstr ""
 "določene stranke, npr. v :doc:`B2B <../ecommerce/configuration/b2b_b2c>` "
 "poslovni nastavitvi."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:150
+#: ../../content/applications/websites/ecommerce/checkout.rst:152
 msgid "Order summary"
 msgstr "Pregled naročila"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:152
+#: ../../content/applications/websites/ecommerce/checkout.rst:154
 msgid ""
 "The :guilabel:`Order summary` step allows customers to see the items they "
 "added to their cart, adjust quantities, :guilabel:`Remove` products, "
@@ -985,7 +985,7 @@ msgstr ""
 "gumb :guilabel:`Blagajna` :icon:`fa-chevron-right`, da nadaljujejo na "
 "korak :ref:`Naslov <ecommerce/checkout/delivery>`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:158
+#: ../../content/applications/websites/ecommerce/checkout.rst:160
 msgid ""
 "Open the website editor to :ref:`enable <ecommerce/checkout/"
 "customize_steps>` checkout options such as:"
@@ -993,7 +993,7 @@ msgstr ""
 "Odprite urejevalnik spletnega mesta, da :ref:`omogočite <ecommerce/checkout/"
 "customize_steps>` možnosti zaključka nakupa, kot so:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:161
+#: ../../content/applications/websites/ecommerce/checkout.rst:163
 msgid ""
 ":guilabel:`Suggested Accessories`: to showcase :ref:`accessory products "
 "<ecommerce/products/cross_upselling>`;"
@@ -1001,7 +1001,7 @@ msgstr ""
 ":guilabel:`Predlagana dodatna oprema`: za prikaz :ref:`dodatnih izdelkov "
 "<ecommerce/products/cross_upselling>`;"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:163
+#: ../../content/applications/websites/ecommerce/checkout.rst:165
 msgid ""
 ":guilabel:`Promo Code`: to allow customers to redeem :ref:`gift cards "
 "<ewallet_gift/gift-cards>` and apply :doc:`discount codes <../../sales/sales/"
@@ -1013,7 +1013,7 @@ msgstr ""
 "sales/sales/products_prices/loyalty_discount>` ali :ref:`promocijskih kod "
 "<ecommerce/prices/promotional-code>`;"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:166
+#: ../../content/applications/websites/ecommerce/checkout.rst:168
 msgid ""
 ":guilabel:`Add to Wishlist`: :ref:`Enable wishlists <ecommerce/products/"
 "additional_features/wishlists>` to allow signed-in users to remove a product "
@@ -1025,7 +1025,7 @@ msgstr ""
 "odstranitev izdelka iz košarice in dodajanje na njihov seznam želja z "
 "možnostjo :guilabel:`Shrani za pozneje`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:171
+#: ../../content/applications/websites/ecommerce/checkout.rst:173
 msgid ""
 "If a :doc:`fiscal position <../../finance/accounting/taxes/"
 "fiscal_positions>` is detected automatically, the product tax is determined "
@@ -1035,7 +1035,7 @@ msgstr ""
 "fiscal_positions>` zaznan samodejno, se davek na izdelek določi na podlagi "
 "IP-naslova stranke."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:173
+#: ../../content/applications/websites/ecommerce/checkout.rst:175
 msgid ""
 "If the installed :doc:`payment provider <../../finance/payment_providers>` "
 "supports :ref:`express checkout <payment_providers/express_checkout>`, a "
@@ -1047,15 +1047,15 @@ msgstr ""
 "prikaže namenski gumb, ki strankam omogoča, da gredo naravnost iz košarice "
 "na stran s potrditvijo, ne da bi izpolnile obrazec s kontaktnimi podatki."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:181
+#: ../../content/applications/websites/ecommerce/checkout.rst:183
 msgid "Address"
 msgstr "Naslov"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:183
+#: ../../content/applications/websites/ecommerce/checkout.rst:185
 msgid "Once they have reviewed their order:"
 msgstr "Ko pregledajo svoje naročilo:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:185
+#: ../../content/applications/websites/ecommerce/checkout.rst:187
 msgid ""
 "Unsigned-in customers are prompted to :guilabel:`Sign in` or enter "
 "their :guilabel:`Name` and :guilabel:`Email` address, along with their "
@@ -1065,13 +1065,13 @@ msgstr ""
 "svoje :guilabel:`Ime` in :guilabel:`E-poštni naslov` skupaj s svojim "
 "dostavnim naslovom in telefonskimi podatki;"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:187
+#: ../../content/applications/websites/ecommerce/checkout.rst:189
 msgid ""
 "Signed-in customers can select the appropriate :guilabel:`Delivery address`."
 msgstr ""
 "Prijavljene stranke lahko izberejo ustrezen :guilabel:`Naslov za dostavo`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:189
+#: ../../content/applications/websites/ecommerce/checkout.rst:191
 msgid ""
 "They can then :doc:`choose a delivery method <shipping>`, select or enter "
 "their :guilabel:`Billing Address` (or toggle the :guilabel:`Same as delivery "
@@ -1083,7 +1083,7 @@ msgstr ""
 "naslov za dostavo`, če sta naslova za račun in dostavo enaka) ter "
 "kliknejo :guilabel:`Potrdi`, da nadaljujejo na naslednji korak."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:194
+#: ../../content/applications/websites/ecommerce/checkout.rst:196
 msgid ""
 "For B2B customers, you can also :ref:`enable <ecommerce/checkout/"
 "customize_steps>` optional :ref:`B2B fields <ecommerce/b2b_b2c/b2b-fields>` "
@@ -1093,7 +1093,7 @@ msgstr ""
 "customize_steps>` izbirna :ref:`B2B polja <ecommerce/b2b_b2c/b2b-fields>` v "
 "urejevalniku spletnega mesta."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:196
+#: ../../content/applications/websites/ecommerce/checkout.rst:198
 msgid ""
 "You can add a checkbox for users without an account to sign up for a "
 "newsletter. To do so, go to :menuselection:`Website --> Configuration --> "
@@ -1106,7 +1106,7 @@ msgstr ""
 "razdelka :guilabel:`eCommerce`, omogočite funkcijo :guilabel:`Novice` in "
 "izberete :guilabel:`Seznam za novice`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:200
+#: ../../content/applications/websites/ecommerce/checkout.rst:202
 msgid ""
 "When the :ref:`Pick up in store <ecommerce/shipping/instore-pickup>` "
 "delivery method is selected, the customer can :guilabel:`Choose a pick-up "
@@ -1116,11 +1116,11 @@ msgstr ""
 "pickup>`, lahko stranka :guilabel:`izbere prevzemno točko`, pod pogojem, da "
 "je na voljo več prevzemnih točk."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:207
+#: ../../content/applications/websites/ecommerce/checkout.rst:209
 msgid "Automatic address validation"
 msgstr "Samodejno preverjanje naslova"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:209
+#: ../../content/applications/websites/ecommerce/checkout.rst:211
 msgid ""
 "Use the :doc:`Google Places API </applications/general/integrations/"
 "address_autocomplete>` to ensure that partner delivery addresses are valid. "
@@ -1130,7 +1130,7 @@ msgstr ""
 "address_autocomplete>`, da zagotovite veljavnost naslovov za dostavo "
 "partnerjev. Naslovi se samodejno preverijo, ko uporabnik tipka med plačilom."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:213
+#: ../../content/applications/websites/ecommerce/checkout.rst:215
 msgid ""
 "To enable this feature, the :ref:`Google Places API <address_autocomplete/"
 "places-api-configuration>` needs to be configured first. Then, go "
@@ -1146,11 +1146,11 @@ msgstr ""
 "Google`, nato prilepite :ref:`ključ API-ja Google Places "
 "<address_autocomplete/generate_api_key>` v polje :guilabel:`Ključ API`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:222
+#: ../../content/applications/websites/ecommerce/checkout.rst:224
 msgid "Extra info"
 msgstr "Dodatne informacije"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:224
+#: ../../content/applications/websites/ecommerce/checkout.rst:226
 msgid ""
 "You can add an :guilabel:`Extra Info` step in the checkout process to "
 "collect additional customer information through an online form, which is "
@@ -1167,11 +1167,11 @@ msgstr ""
 "Obrazec je mogoče :ref:`prilagoditi <website/building_blocks/form>` po "
 "potrebi."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:233
+#: ../../content/applications/websites/ecommerce/checkout.rst:235
 msgid "Payment"
 msgstr "Plačilo"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:235
+#: ../../content/applications/websites/ecommerce/checkout.rst:237
 msgid ""
 "At the :guilabel:`Payment` step, customers can choose a :guilabel:`Payment "
 "method`, enter their payment details, and click :guilabel:`Pay now`."
@@ -1180,7 +1180,7 @@ msgstr ""
 "plačila`, vnesejo svoje podatke o plačilu in kliknejo :guilabel:`Plačaj "
 "zdaj`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:239
+#: ../../content/applications/websites/ecommerce/checkout.rst:241
 msgid ""
 "When the :ref:`Cash on Delivery <payment_providers/inperson_payments/"
 "cash_on_delivery>` payment option is enabled, the customer must click "
@@ -1190,7 +1190,7 @@ msgstr ""
 "inperson_payments/cash_on_delivery>`, mora stranka klikniti "
 "gumb :guilabel:`Potrdi` in plačati ob dostavi."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:243
+#: ../../content/applications/websites/ecommerce/checkout.rst:245
 msgid ""
 "To make payment methods available to customers, configure and enable one or "
 "more :doc:`payment provider(s) </applications/finance/payment_providers>`. "
@@ -1205,7 +1205,7 @@ msgstr ""
 "ustreznega ponudnika plačil in ga :ref:`konfigurirajte <payment_providers/"
 "add_new>`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:249
+#: ../../content/applications/websites/ecommerce/checkout.rst:251
 msgid ""
 "The options displayed at checkout depend on the active payment providers, "
 "the enabled :ref:`payment methods <payment_providers/payment_methods>`, "
@@ -1219,7 +1219,7 @@ msgstr ""
 "currencies_countries>` ter po možnosti :ref:`največjega zneska "
 "<payment_providers/maximum_amount>`, določenega za ponudnika."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:254
+#: ../../content/applications/websites/ecommerce/checkout.rst:256
 msgid ""
 "To display an :ref:`availability <payment_providers/availability>` report "
 "for payment providers and payment methods and help diagnose potential "
@@ -1232,12 +1232,12 @@ msgstr ""
 "omogočite :ref:`razvijalski način <developer-mode>` in kliknite "
 "ikono :icon:`fa-bug` (:guilabel:`hrošč`)."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:259
+#: ../../content/applications/websites/ecommerce/checkout.rst:261
 #: ../../content/applications/websites/website/configuration/domain_names.rst:41
 msgid "Terms and conditions"
 msgstr "Pravila in pogoji"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:261
+#: ../../content/applications/websites/ecommerce/checkout.rst:263
 msgid ""
 "To require customers to agree to the :doc:`terms and conditions <../../"
 "finance/accounting/customer_invoices/terms_conditions>` before payment, open "
@@ -1249,11 +1249,11 @@ msgstr ""
 "odprite urejevalnik spletnega mesta in preklopite stikalo :guilabel:`Sprejmi "
 "pogoje` v zavihku :guilabel:`Slog`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:266
+#: ../../content/applications/websites/ecommerce/checkout.rst:268
 msgid "eWallets and gift cards"
 msgstr "Elektronske denarnice in darilne kartice"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:268
+#: ../../content/applications/websites/ecommerce/checkout.rst:270
 msgid ""
 "Customers can pay with an eWallet or gift card during checkout. To offer "
 "these options, go to :menuselection:`Website --> Configuration --> Settings` "
@@ -1275,11 +1275,11 @@ msgstr ""
 msgid "Gift card and eWallet options at checkout"
 msgstr "Možnosti darilne kartice in e-denarnice ob nakupu"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:280
+#: ../../content/applications/websites/ecommerce/checkout.rst:282
 msgid "Order confirmation"
 msgstr "Potrditev naročila"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:282
+#: ../../content/applications/websites/ecommerce/checkout.rst:284
 msgid ""
 "The final step of the checkout process is the order confirmation page, which "
 "provides a summary of the customer's purchase details. A sales order is "
@@ -1292,7 +1292,7 @@ msgstr ""
 "zalednem sistemu. Omogočite nastavitev :ref:`Samodejni račun <ecommerce/"
 "handling/invoices>`, da stranki samodejno pošljete račun."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:288
+#: ../../content/applications/websites/ecommerce/checkout.rst:290
 msgid ":doc:`Order handling <order_handling>`"
 msgstr ":doc:`Obdelava naročil <order_handling>`"
 
@@ -1353,7 +1353,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/configuration.rst:36
 #: ../../content/applications/websites/ecommerce/configuration/customer_accounts.rst:3
-#: ../../content/applications/websites/website/configuration/multi_website.rst:72
+#: ../../content/applications/websites/website/configuration/multi_website.rst:67
 msgid "Customer accounts"
 msgstr "Računi strank"
 
@@ -1690,7 +1690,7 @@ msgstr "Za konfiguracijo različic izdelka za izdelek:"
 #: ../../content/applications/websites/ecommerce/order_handling.rst:185
 #: ../../content/applications/websites/ecommerce/shipping.rst:33
 #: ../../content/applications/websites/ecommerce/shipping.rst:92
-#: ../../content/applications/websites/website/configuration/multi_website.rst:85
+#: ../../content/applications/websites/website/configuration/multi_website.rst:80
 #: ../../content/applications/websites/website/configuration/translate.rst:16
 msgid "Go to :menuselection:`Website --> Configuration --> Settings`."
 msgstr ""
@@ -4715,7 +4715,7 @@ msgstr "Noga spletne strani, specifična za e-trgovino"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/catalog.rst:236
 msgid ""
-"The :ref:`website footer <website/header_footer/footer-design>` can also be "
+"The :ref:`website footer <website/header_footer/design>` can also be "
 "configured to use the e-commerce-specific template. Then, add the "
 "relevant :ref:`links <website/elements/links>`, and adapt the footer's text "
 "and layout as needed in the website editor. The :doc:`available payment "
@@ -4723,13 +4723,13 @@ msgid ""
 "footer. To adapt their display, go to the :guilabel:`Supported Payment "
 "Methods` section in the website editor."
 msgstr ""
-":ref:`Noga spletne strani <website/header_footer/footer-design>` je lahko "
-"prav tako konfigurirana za uporabo predloge, specifične za e-trgovino. Nato "
+":ref:`Noga spletne strani <website/header_footer/design>` je mogoče "
+"konfigurirati tudi za uporabo predloge, specifične za e-trgovino. Nato "
 "dodajte ustrezne :ref:`povezave <website/elements/links>` in prilagodite "
-"besedilo in postavitev noge po potrebi v urejevalniku spletne strani. V tej "
-"nogi so prikazani tudi :doc:`razpoložljivi načini plačila </applications/"
-"finance/payment_providers>`. Za prilagoditev njihovega prikaza pojdite na "
-"razdelek :guilabel:`Podprti načini plačila` v urejevalniku spletne strani."
+"besedilo in postavitev noge po potrebi v urejevalniku spletnega mesta. V tej "
+"nogi so prikazane tudi :doc:`razpoložljive metode plačila </applications/"
+"finance/payment_providers>`. Za prilagoditev njihovega prikaza pojdite v "
+"razdelek :guilabel:`Podprte metode plačila` v urejevalniku spletnega mesta."
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/catalog.rst:243
 msgid "It is not possible to create a customized footer per category."
@@ -4937,7 +4937,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/product_page.rst:86
 #: ../../content/applications/websites/website/web_design/elements.rst:44
-#: ../../content/applications/websites/website/web_design/themes.rst:164
+#: ../../content/applications/websites/website/web_design/themes.rst:163
 msgid "Buttons"
 msgstr "Gumbi"
 
@@ -5499,6 +5499,8 @@ msgid "Select countries, purpose, and feed label in GMC."
 msgstr "Izberite države, namen in oznako vira v GMC."
 
 #: ../../content/applications/websites/ecommerce/google_merchant_center.rst:95
+#: ../../content/applications/websites/website/structure/header_footer.rst:76
+#: ../../content/applications/websites/website/structure/header_footer.rst:148
 msgid "Click :guilabel:`Continue`."
 msgstr "Kliknite :guilabel:`Nadaljuj`."
 
@@ -5836,10 +5838,10 @@ msgstr ""
 "shipping_receiving/daily_operations>`. Ti tokovi lahko vključujejo ročno "
 "prejemanje, :doc:`nabiranje </applications/inventory_and_mrp/inventory/"
 "shipping_receiving/picking_methods>` in :doc:`pakiranje </applications/"
-"inventory_and_mrp/inventory/shipping_receiving/setup_configuration/"
-"multipack>` izdelkov, tiskanje :doc:`nalepk za pošiljanje </applications/"
+"inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack>"
+"` izdelkov, tiskanje :doc:`nalepk za pošiljanje </applications/"
 "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels>` "
-"in :doc:`pošiljanje  <shipping>` naročil strankam ali obravnavo teh procesov "
+"in :doc:`pošiljanje <shipping>` naročil strankam ali obravnavo teh procesov "
 "prek :doc:`direktne dostave </applications/inventory_and_mrp/inventory/"
 "shipping_receiving/daily_operations/dropshipping>` ali :doc:`konsignacijskih "
 "tokov </applications/inventory_and_mrp/inventory/shipping_receiving/"
@@ -9385,7 +9387,7 @@ msgid ""
 "only saves time for all parties involved, it can also help qualify "
 "conversations before they reach live operators."
 msgstr ""
-"Ta korak posreduje pogovor aktivnemu operaterju klepеta v živo, da lahko "
+"Ta korak posreduje pogovor aktivnemu operaterju klepeta v živo, da lahko "
 "nadaljuje s pomočjo obiskovalcu. Ker se prepis pogovora posreduje "
 "operaterju, lahko nadaljuje tam, kjer je klepetaln robot končal. To ne "
 "prišrani samo časa vsem udeleženim stranem, temveč lahko pomaga tudi pri "
@@ -11737,24 +11739,37 @@ msgstr ""
 "aplikacijami Odoo za razširitev funkcionalnosti vaše spletne strani."
 
 #: ../../content/applications/websites/website.rst:16
+#: ../../content/applications/websites/website/website_creation.rst:3
+msgid "Website creation"
+msgstr "Ustvarjanje spletne strani"
+
+#: ../../content/applications/websites/website.rst:16
+msgid ""
+"Create a new website with the website builder or import an existing one "
+"using the import tool."
+msgstr ""
+"Ustvarite novo spletno stran z gradnikom spletnega mesta ali uvozite "
+"obstoječo z orodjem za uvoz."
+
+#: ../../content/applications/websites/website.rst:22
 #: ../../content/applications/websites/website/web_design.rst:7
 msgid "Web design"
 msgstr "Spletno oblikovanje"
 
-#: ../../content/applications/websites/website.rst:16
+#: ../../content/applications/websites/website.rst:22
 msgid "Design your website using building blocks and website themes."
 msgstr "Oblikujte svojo spletno stran z gradniki in temami za spletne strani."
 
-#: ../../content/applications/websites/website.rst:22
+#: ../../content/applications/websites/website.rst:28
 #: ../../content/applications/websites/website/structure.rst:7
 msgid "Structure"
 msgstr "Structure"
 
-#: ../../content/applications/websites/website.rst:22
+#: ../../content/applications/websites/website.rst:28
 msgid "Manage website pages, menus, and search engine optimization."
 msgstr "Upravljajte spletne strani, menije in optimizacijo za iskalnike."
 
-#: ../../content/applications/websites/website.rst:28
+#: ../../content/applications/websites/website.rst:34
 msgid ""
 "Configure domain names, address autocompletion, Google Search Console, "
 "cookies bar, translations, multiple websites, form spam protection, content "
@@ -11764,13 +11779,13 @@ msgstr ""
 "Console, vrstico za piškotke, prevode, več spletnih mest, zaščito pred "
 "neželeno pošto obrazcev, omrežje za dostavo vsebine (CDN)."
 
-#: ../../content/applications/websites/website.rst:35
-#: ../../content/applications/websites/website/configuration/multi_website.rst:148
+#: ../../content/applications/websites/website.rst:41
+#: ../../content/applications/websites/website/configuration/multi_website.rst:143
 #: ../../content/applications/websites/website/reporting.rst:5
 msgid "Reporting"
 msgstr "Poročanje"
 
-#: ../../content/applications/websites/website.rst:35
+#: ../../content/applications/websites/website.rst:41
 msgid ""
 "Monitor your website's traffic with website analytics and set up link "
 "trackers."
@@ -11778,12 +11793,12 @@ msgstr ""
 "Spremljajte promet na svoji spletni strani z analitiko spletnega mesta in "
 "nastavite sledilce povezav."
 
-#: ../../content/applications/websites/website.rst:40
+#: ../../content/applications/websites/website.rst:47
 #: ../../content/applications/websites/website/mail_groups.rst:3
 msgid "Mail groups"
 msgstr "Poštne skupine"
 
-#: ../../content/applications/websites/website.rst:40
+#: ../../content/applications/websites/website.rst:47
 msgid ""
 "Configure mail groups to allow website visitors to participate in public "
 "discussions via email."
@@ -11791,7 +11806,7 @@ msgstr ""
 "Konfigurirajte poštne skupine, da bodo obiskovalci spletnega mesta lahko "
 "sodelovali v javnih razpravah prek e-pošte."
 
-#: ../../content/applications/websites/website.rst:54
+#: ../../content/applications/websites/website.rst:61
 msgid ":doc:`../general/integrations/unsplash`"
 msgstr ":doc:`../general/integrations/unsplash`"
 
@@ -11858,7 +11873,7 @@ msgid ""
 msgstr ""
 "Uporabite ``https://vasabazapodatkov.odoo.com`` in zamenjajte predpono "
 "poddomene *vasabazapodatkov* z dejanskim imenom baze podatkov. Namesto "
-"poddомene Odoo, ki je bila dodeljena bazi podatkov, lahko uporabite tudi "
+"poddomene Odoo, ki je bila dodeljena bazi podatkov, lahko uporabite tudi "
 "prilagojen :abbr:`URL (enotni določevalnik virov)`."
 
 #: ../../content/applications/websites/website/configuration/cdn.rst:None
@@ -13088,7 +13103,9 @@ msgstr ":guilabel:`Stanje proxy`: vklopite možnost (:guilabel:`Posredovano`)."
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:122
 #: ../../content/applications/websites/website/configuration/translate.rst:52
 #: ../../content/applications/websites/website/configuration/translate.rst:65
-#: ../../content/applications/websites/website/web_design/themes.rst:240
+#: ../../content/applications/websites/website/structure/header_footer.rst:78
+#: ../../content/applications/websites/website/structure/header_footer.rst:150
+#: ../../content/applications/websites/website/web_design/themes.rst:239
 msgid "Click :guilabel:`Save`."
 msgstr "Kliknite :guilabel:`Shrani`."
 
@@ -13795,15 +13812,15 @@ msgstr ":doc:`domain_names`"
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst:5
 msgid ""
-"Odoo allows you to create multiple websites from the same database. This can "
-"be useful, for example, if you have multiple brands operating under your "
-"organization, or if you want to create separate websites for different "
-"products/services or audiences."
+"Odoo allows you to :doc:`create <../website_creation>` multiple websites "
+"from the same database. This can be useful, for example, if you have "
+"multiple brands operating under your organization, or if you want to create "
+"separate websites for different products/services or audiences."
 msgstr ""
-"Odoo vam omogoča ustvarjanje več spletnih strani iz iste baze podatkov. To "
-"je lahko uporabno, na primer, če imate več blagovnih znamk, ki delujejo v "
-"okviru vaše organizacije, ali če želite ustvariti ločene spletne strani za "
-"različne izdelke/storitve ali občinstva."
+"Omogoča vam :doc:`ustvarjanje <../website_creation>` več spletnih strani iz "
+"iste podatkovne zbirke. To je lahko koristno, na primer, če imate več "
+"blagovnih znamk v okviru svoje organizacije ali če želite ustvariti ločene "
+"spletne strani za različne izdelke/storitve ali ciljne skupine."
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst:10
 msgid "Creating another website"
@@ -13866,36 +13883,19 @@ msgstr ""
 #: ../../content/applications/websites/website/configuration/multi_website.rst:28
 msgid ""
 "Once it is time to :ref:`map your second domain name's address to your "
-"second Odoo website <domain-name/existing/website-map>`, you can create and "
-"map it directly by:"
-msgstr ""
-"Ko je čas, da :ref:`preslikate naslov vaše druge domene na vašo drugo "
-"spletno stran Odoo <domain-name/existing/website-map>`, jo lahko ustvarite "
-"in preslikate neposredno tako, da:"
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:31
-msgid ""
-"Going to :menuselection:`Website --> Configuration --> Settings` and "
-"clicking :guilabel:`+ New Website`."
-msgstr ""
-"Pojdete na :menuselection:`Spletna stran --> Konfiguracija --> Nastavitve` "
-"in kliknete :guilabel:`+ Nova spletna stran`."
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:33
-msgid ""
-"Choosing a :guilabel:`Website Name` and entering the second website's "
-"address in the :guilabel:`Website Domain` field (e.g., `https://"
+"second Odoo website <domain-name/existing/website-map>`, you can `create "
+"<../../website_creation>` it and map it directly by entering the second "
+"website's address in the :guilabel:`Website Domain` field (e.g., `https://"
 "www.yourseconddomain.com` or `https://subdomain.yourdomain.com`)."
 msgstr ""
-"Izberete :guilabel:`Ime spletne strani` in vnesete naslov druge spletne "
-"strani v polje :guilabel:`Domena spletne strani` (npr. `https://"
-"www.vasadrugadomena.com` ali `https://poddomena.vasadomena.com`)."
+"Ko pride čas za :ref:`povezavo naslova vašega drugega domenskega imena z "
+"vašo drugo spletno stranjo Odoo <domain-name/existing/website-map>`, ga "
+"lahko `ustvarite <../../website_creation>` in neposredno povežete tako, da "
+"vnesete naslov druge spletne strani v polje :guilabel:`Domensko ime spletne "
+"strani` (npr. `https://www.yourseconddomain.com` ali `https://"
+"subdomain.yourdomain.com`)."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:36
-msgid "Clicking the :guilabel:`Create` button."
-msgstr "Kliknete gumb :guilabel:`Ustvari`."
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:39
+#: ../../content/applications/websites/website/configuration/multi_website.rst:34
 msgid ""
 "To switch from one website's frontend to another, click the website "
 "selection drop-down in the top right corner and select the website you want "
@@ -13909,11 +13909,11 @@ msgstr ""
 msgid "Selecting a website on the frontend"
 msgstr "Izbira spletnega mesta na vmesniku"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:46
+#: ../../content/applications/websites/website/configuration/multi_website.rst:41
 msgid "Website-specific configuration"
 msgstr "Konfiguracija za določeno spletno mesto"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:48
+#: ../../content/applications/websites/website/configuration/multi_website.rst:43
 msgid ""
 "Most website settings are website-specific. To access the settings of a "
 "website, go to :menuselection:`Website --> Configuration --> Settings` and "
@@ -13930,7 +13930,7 @@ msgstr ""
 msgid "Selecting a website in the app settings"
 msgstr "Izbira spletnega mesta v nastavitvah aplikacije"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:56
+#: ../../content/applications/websites/website/configuration/multi_website.rst:51
 msgid ""
 "Settings shared by all websites are indicated using the :icon:`fa-info-"
 "circle` (:guilabel:`information`) icon."
@@ -13942,7 +13942,7 @@ msgstr ""
 msgid "Shared setting infobox"
 msgstr "Informacijsko polje skupnih nastavitev"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:62
+#: ../../content/applications/websites/website/configuration/multi_website.rst:57
 msgid ""
 "When you create another website, it uses the default settings; settings are "
 "not copied from one website to another."
@@ -13950,11 +13950,11 @@ msgstr ""
 "Ko ustvarite novo spletno mesto, se uporabijo privzete nastavitve; "
 "nastavitve se ne kopirajo iz enega spletnega mesta na drugo."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:66
+#: ../../content/applications/websites/website/configuration/multi_website.rst:61
 msgid "eCommerce features"
 msgstr "Funkcije e-trgovine"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:68
+#: ../../content/applications/websites/website/configuration/multi_website.rst:63
 msgid ""
 "eCommerce features such as products, eCommerce categories, pricelists, "
 "discounts, payment providers, etc., can be restricted to :ref:`a specific "
@@ -13964,7 +13964,7 @@ msgstr ""
 "ponudniki plačil itd., so lahko omejene na :ref:`določeno spletno mesto "
 "<multi-website/website_content>`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:74
+#: ../../content/applications/websites/website/configuration/multi_website.rst:69
 msgid ""
 "To :doc:`allow your customers to use the same account <../../ecommerce/"
 "configuration/customer_accounts>` on all of your websites, go "
@@ -13976,11 +13976,11 @@ msgstr ""
 "pojdite na :menuselection:`Spletno mesto --> Konfiguracija --> Nastavitve` "
 "in omogočite :guilabel:`Skupni računi strank`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:80
+#: ../../content/applications/websites/website/configuration/multi_website.rst:75
 msgid "Pricing"
 msgstr "Določanje cen"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:82
+#: ../../content/applications/websites/website/configuration/multi_website.rst:77
 msgid ""
 "Products can be priced differently based on the website "
 "using :ref:`pricelists <ecommerce/prices/selectable-pricelists>`. To do so:"
@@ -13989,7 +13989,7 @@ msgstr ""
 "uporabo :ref:`cenikov <ecommerce/prices/selectable-pricelists>`. To storite "
 "tako:"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:86
+#: ../../content/applications/websites/website/configuration/multi_website.rst:81
 msgid ""
 "Scroll down to the :guilabel:`Shop - Products` section and select "
 "the :guilabel:`Pricelists` option :guilabel:`Multiple prices per product`."
@@ -13997,13 +13997,13 @@ msgstr ""
 "Pomaknite se navzdol do razdelka :guilabel:`Trgovina - Izdelki` in izberite "
 "možnost :guilabel:`Ceniki` :guilabel:`Več cen na izdelek`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:88
+#: ../../content/applications/websites/website/configuration/multi_website.rst:83
 msgid ""
 "Click :guilabel:`Pricelists` to define new pricelists or edit existing ones."
 msgstr ""
 "Kliknite :guilabel:`Ceniki`, da določite nove cenike ali uredite obstoječe."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:89
+#: ../../content/applications/websites/website/configuration/multi_website.rst:84
 msgid ""
 "Select the pricelist or click :guilabel:`New` to create a new one, then "
 "select the :guilabel:`Configuration` tab and set the :guilabel:`Website` "
@@ -14013,11 +14013,11 @@ msgstr ""
 "izberite zavihek :guilabel:`Konfiguracija` in nastavite "
 "polje :guilabel:`Spletno mesto`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:95
+#: ../../content/applications/websites/website/configuration/multi_website.rst:90
 msgid "Content availability across websites"
 msgstr "Razpoložljivost vsebine na spletnih mestih"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:98
+#: ../../content/applications/websites/website/configuration/multi_website.rst:93
 msgid ""
 "All installed website-related apps (e.g., eCommerce, eLearning, Forum, etc.) "
 "and their related pages are also available on the new website. You can "
@@ -14027,7 +14027,7 @@ msgstr ""
 "eUčenje, Forum itd.) in njihove povezane strani, so na voljo tudi na novem "
 "spletnem mestu. Odstranite jih lahko iz menija spletnega mesta."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:101
+#: ../../content/applications/websites/website/configuration/multi_website.rst:96
 msgid ""
 "By default, most records (products, courses, forum posts, etc.) created from "
 "the frontend are displayed on all websites. To restrict the content to a "
@@ -14038,7 +14038,7 @@ msgstr ""
 "omejiti vsebino na eno samo spletno mesto, poiščite polje :guilabel:`Spletno "
 "mesto` v zalednem sistemu."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:105
+#: ../../content/applications/websites/website/configuration/multi_website.rst:100
 msgid ""
 "For example, for products, go to :menuselection:`eCommerce --> Products`, "
 "select a product, open the :guilabel:`eCommerce` tab, and specify which "
@@ -14052,7 +14052,7 @@ msgstr ""
 msgid "Restricting a product to a single website"
 msgstr "Omejevanje izdelka na eno samo spletno mesto"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:112
+#: ../../content/applications/websites/website/configuration/multi_website.rst:107
 msgid ""
 "In a :doc:`multi-company environment </applications/general/companies>`, "
 "each website can be linked to a specific company so that only that company's "
@@ -14067,7 +14067,7 @@ msgstr ""
 "mesto --> Konfiguracija --> Nastavitve` in nastavite želeno podjetje v "
 "polju :guilabel:`Podjetje`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:118
+#: ../../content/applications/websites/website/configuration/multi_website.rst:113
 msgid ""
 "When generating links, for example, a customer portal link to a quotation, "
 "Odoo uses the following logic to select the website domain:"
@@ -14075,13 +14075,13 @@ msgstr ""
 "Pri ustvarjanju povezav, na primer povezave portala za stranke do ponudbe, "
 "Odoo uporablja naslednjo logiko za izbiro domene spletnega mesta:"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:121
+#: ../../content/applications/websites/website/configuration/multi_website.rst:116
 msgid "If a company has a *single* website, that website's domain is used."
 msgstr ""
 "Če ima podjetje *eno samo* spletno mesto, se uporabi domena tega spletnega "
 "mesta."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:122
+#: ../../content/applications/websites/website/configuration/multi_website.rst:117
 msgid ""
 "If a company has *multiple* websites, Odoo uses the domain of the website "
 "that was created first. To change the order of priority, "
@@ -14096,7 +14096,7 @@ msgstr ""
 "uporabite ikono :icon:`oi-draggable` (:guilabel:`ročaj za vlečenje`) za "
 "prerazporeditev spletnih mest."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:126
+#: ../../content/applications/websites/website/configuration/multi_website.rst:121
 msgid ""
 "If a company's website has *no domain*, the :ref:`web base URL <domain-name/"
 "existing/db-map/web-base-url>` is used."
@@ -14104,21 +14104,21 @@ msgstr ""
 "Če spletno mesto podjetja *nima domene*, se uporabi :ref:`osnovni spletni "
 "URL <domain-name/existing/db-map/web-base-url>`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:130
+#: ../../content/applications/websites/website/configuration/multi_website.rst:125
 msgid "Website pages"
 msgstr "Strani spletnega mesta"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:132
+#: ../../content/applications/websites/website/configuration/multi_website.rst:127
 msgid "To modify the website on which a page is published, proceed as follows:"
 msgstr ""
 "Za spremembo spletnega mesta, na katerem je stran objavljena, sledite "
 "naslednjim korakom:"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:134
+#: ../../content/applications/websites/website/configuration/multi_website.rst:129
 msgid "Go to :menuselection:`Website --> Site --> Pages`."
 msgstr "Pojdite na :menuselection:`Spletno mesto --> Stran --> Strani`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:135
+#: ../../content/applications/websites/website/configuration/multi_website.rst:130
 msgid ""
 "Open the search panel and select the website on which the page is currently "
 "published."
@@ -14130,11 +14130,11 @@ msgstr ""
 msgid "Display pages per website"
 msgstr "Prikaz strani po spletnem mestu"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:140
+#: ../../content/applications/websites/website/configuration/multi_website.rst:135
 msgid "Tick the check box next to the page(s) you want to change."
 msgstr "Označite potrditveno polje poleg strani, ki jih želite spremeniti."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:141
+#: ../../content/applications/websites/website/configuration/multi_website.rst:136
 msgid ""
 "Click the :guilabel:`Website` field and select the website, or empty it to "
 "publish the page on all websites."
@@ -14142,7 +14142,7 @@ msgstr ""
 "Kliknite polje :guilabel:`Spletno mesto` in izberite spletno mesto ali ga "
 "izpraznite, da objavite stran na vseh spletnih mestih."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:145
+#: ../../content/applications/websites/website/configuration/multi_website.rst:140
 msgid ""
 "Each website must have its own homepage; you may not use the same homepage "
 "for several websites."
@@ -14150,7 +14150,7 @@ msgstr ""
 "Vsako spletno mesto mora imeti svojo domačo stran; iste domače strani ne "
 "smete uporabljati za več spletnih mest."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:150
+#: ../../content/applications/websites/website/configuration/multi_website.rst:145
 msgid ""
 "Each website has its own :ref:`analytics <analytics/plausible>`. To switch "
 "between websites, use the buttons in the top right corner."
@@ -14162,7 +14162,7 @@ msgstr ""
 msgid "Switching websites in analytics"
 msgstr "Preklop med spletnimi mesti v analitikah"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:156
+#: ../../content/applications/websites/website/configuration/multi_website.rst:151
 msgid ""
 "Other reporting data, such as eCommerce dashboard data, online sales "
 "analyses, and visitors, can be grouped by website by opening the search "
@@ -14222,6 +14222,8 @@ msgid ""
 "`Google's reCAPTCHA overview <https://docs.cloud.google.com/recaptcha/docs/"
 "overview>`_"
 msgstr ""
+"`Pregled reCAPTCHA podjetja Google <https://docs.cloud.google.com/recaptcha/"
+"docs/overview>`_"
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:26
 msgid "Cloudflare Turnstile configuration"
@@ -14311,6 +14313,7 @@ msgstr "Sporočilo o napaki preverjanja Cloudflare Turnstile"
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:59
 #: ../../content/applications/websites/website/structure/pages.rst:61
+#: ../../content/applications/websites/website/website_creation.rst:49
 msgid "Click :guilabel:`Create`."
 msgstr "Kliknite :guilabel:`Ustvari`."
 
@@ -14829,20 +14832,24 @@ msgid ""
 "To activate the feature, :ref:`install <general/install>` "
 "the :guilabel:`Website Mail Group` (`website_mail_group`) module."
 msgstr ""
+"Za aktiviranje funkcije :ref:`namestite <general/install>` modul "
+":guilabel:`Poštna skupina spletne strani` (`website_mail_group`)."
 
 #: ../../content/applications/websites/website/mail_groups.rst:13
 msgid ""
 "The **mail groups** feature is not to be confused with the :doc:`../../"
 "marketing/email_marketing/mailing_lists` in the Email Marketing app."
 msgstr ""
+"Funkcija **poštnih skupin** ni zamenljiva s :doc:`../../marketing/"
+"email_marketing/mailing_lists` v aplikaciji E-poštni marketing."
 
 #: ../../content/applications/websites/website/mail_groups.rst:19
 msgid "Configuring mail groups"
-msgstr ""
+msgstr "Konfiguracija poštnih skupin"
 
 #: ../../content/applications/websites/website/mail_groups.rst:21
 msgid "To configure mail groups, proceed as follows:"
-msgstr ""
+msgstr "Za konfiguracijo poštnih skupin ravnajte tako:"
 
 #: ../../content/applications/websites/website/mail_groups.rst:23
 msgid ""
@@ -14851,18 +14858,26 @@ msgid ""
 "the :guilabel:`Custom Email Server` feature, and entering "
 "the :guilabel:`Alias domain` (e.g., `@mycompany.com`)."
 msgstr ""
+"Konfigurirajte domeno poštnega vzdevka tako, da dostopate do **Splošnih "
+"nastavitev**, se pomaknete navzdol do razdelka :guilabel:`Diskusija`, "
+"omogočite funkcijo :guilabel:`Po meri e-poštni strežnik` in vnesete "
+":guilabel:`Domeno vzdevka` (npr. `@mojpodjetje.com`)."
 
 #: ../../content/applications/websites/website/mail_groups.rst:26
 msgid ""
 "Go to :menuselection:`Website --> Configuration --> Mailing Lists`, then "
 "click :guilabel:`New`."
 msgstr ""
+"Pojdite na :menuselection:`Spletna stran --> Konfiguracija --> Poštni "
+"seznami`, nato kliknite :guilabel:`Novo`."
 
 #: ../../content/applications/websites/website/mail_groups.rst:27
 msgid ""
 "Specify a :guilabel:`Group Name`, the :guilabel:`Email Alias`, and "
 "a :guilabel:`Description`."
 msgstr ""
+"Določite :guilabel:`Ime skupine`, :guilabel:`Poštni vzdevek` in "
+":guilabel:`Opis`."
 
 #: ../../content/applications/websites/website/mail_groups.rst:28
 msgid ""
@@ -14872,29 +14887,42 @@ msgid ""
 "moderated, you can define :guilabel:`Responsible Users` who can manage the "
 "messages in the group."
 msgstr ""
+"Omogočite :guilabel:`Moderiraj to skupino` in določite "
+":guilabel:`Moderatorje`, če želite :ref:`moderirati sporočila <website/"
+"mailing_lists/moderate>` iz te skupine. Alternativno, če skupina ni "
+"moderirana, lahko določite :guilabel:`Odgovorne uporabnike`, ki lahko "
+"upravljajo sporočila v skupini."
 
 #: ../../content/applications/websites/website/mail_groups.rst:32
 msgid ""
 "In the :guilabel:`Privacy` tab, define who can subscribe to the mail group:"
 msgstr ""
+"V zavihku :guilabel:`Zasebnost` določite, kdo se lahko naroči na poštno "
+"skupino:"
 
 #: ../../content/applications/websites/website/mail_groups.rst:34
 msgid ""
 ":guilabel:`Everyone`: to make the mail group public so anyone can subscribe "
 "to it;"
 msgstr ""
+":guilabel:`Vsi`: da bo poštna skupina javna, tako da se lahko nanjo naroči "
+"kdorkoli;"
 
 #: ../../content/applications/websites/website/mail_groups.rst:35
 msgid ""
 ":guilabel:`Members only`: to only allow users defined as members to "
 "subscribe to the mail group;"
 msgstr ""
+":guilabel:`Samo člani`: da se lahko naročijo na poštno skupino samo "
+"uporabniki, določeni kot člani;"
 
 #: ../../content/applications/websites/website/mail_groups.rst:36
 msgid ""
 ":guilabel:`Selected group of users`: to only allow users from "
 "the :guilabel:`Authorized group` to subscribe to the mail group."
 msgstr ""
+":guilabel:`Izbrana skupina uporabnikov`: da se lahko naročijo na poštno "
+"skupino samo uporabniki iz :guilabel:`Pooblaščene skupine`."
 
 #: ../../content/applications/websites/website/mail_groups.rst:39
 msgid ""
@@ -14903,6 +14931,10 @@ msgid ""
 "notification` in the :guilabel:`Notify Members` tab and writing "
 "the :guilabel:`Notification message`."
 msgstr ""
+"Če je poštna skupina moderirana, lahko samodejno obvestite avtorje, ko "
+"njihovo sporočilo čaka na moderiranje, tako da omogočite "
+":guilabel:`Samodejno obveščanje` v zavihku :guilabel:`Obvesti člane` in "
+"napišete :guilabel:`Sporočilo o obvestilu`."
 
 #: ../../content/applications/websites/website/mail_groups.rst:42
 msgid ""
@@ -14911,14 +14943,17 @@ msgid ""
 "the :guilabel:`Guidelines` tab. This is particularly useful when the mail "
 "group is moderated."
 msgstr ""
+"Če želite poslati smernice novim naročnikom, omogočite :guilabel:`Pošlji "
+"smernice novim naročnikom` in jih napišite v zavihku :guilabel:`Smernice`. "
+"To je še posebej uporabno, kadar je poštna skupina moderirana."
 
 #: ../../content/applications/websites/website/mail_groups.rst:47
 msgid "Using mail groups"
-msgstr ""
+msgstr "Uporaba poštnih skupin"
 
 #: ../../content/applications/websites/website/mail_groups.rst:50
 msgid "Subscribing/unsubscribing"
-msgstr ""
+msgstr "Naročanje/odjava"
 
 #: ../../content/applications/websites/website/mail_groups.rst:52
 msgid ""
@@ -14926,10 +14961,13 @@ msgid ""
 "configure_groups>`, users can subscribe to and unsubscribe from mail groups "
 "from the website page (`/groups` by default)."
 msgstr ""
+"Glede na :ref:`konfiguracijo poštnih skupin <website/mailing_lists/"
+"configure_groups>` se lahko uporabniki naročijo in odjavijo iz poštnih "
+"skupin na spletni strani (`/groups` privzeto)."
 
 #: ../../content/applications/websites/website/mail_groups.rst:None
 msgid "Mail group web page."
-msgstr ""
+msgstr "Spletna stran poštnih skupin."
 
 #: ../../content/applications/websites/website/mail_groups.rst:58
 msgid ""
@@ -14937,10 +14975,13 @@ msgid ""
 "Configuration --> Mailing Lists`, using the :guilabel:`Join` "
 "and :guilabel:`Leave` buttons."
 msgstr ""
+"Notranji uporabniki to lahko storijo tudi v :menuselection:`Spletna "
+"stran --> Konfiguracija --> Poštni seznami`, z uporabo gumbov "
+":guilabel:`Pridruži se` in :guilabel:`Zapusti`."
 
 #: ../../content/applications/websites/website/mail_groups.rst:62
 msgid "Sending messages"
-msgstr ""
+msgstr "Pošiljanje sporočil"
 
 #: ../../content/applications/websites/website/mail_groups.rst:64
 msgid ""
@@ -15780,205 +15821,127 @@ msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:5
 msgid ""
-"The website header is the top section of a web page and usually contains "
-"elements such as the logo, the :ref:`menu <website/header_footer/header-"
-"content>`, the search bar, the sign-in/customer account button, etc. The "
-"footer is displayed at the bottom of a web page and usually contains "
-"information such as contact details, links, legal notices, and other options."
+"The website header is the top section of a web page and typically includes "
+"elements such as the logo, navigation :ref:`menu <website/header_footer/"
+"header-content>`, search bar, and sign-in or :doc:`customer account <../../"
+"ecommerce/configuration/customer_accounts>` button. The footer is displayed "
+"at the bottom of a web page and usually contains contact details, links, "
+"legal notices, and other useful information. Both can be customized as "
+"needed."
 msgstr ""
-"Glava spletnega mesta je zgornji del spletne strani in običajno vsebuje "
-"elemente, kot so logotip, :ref:`meni <website/header_footer/header-"
-"content>`, iskalna vrstica, gumb za prijavo/račun stranke itd. Noga je "
-"prikazana na dnu spletne strani in običajno vsebuje informacije, kot so "
-"kontaktni podatki, povezave, pravna obvestila in druge možnosti."
+"Glava spletne strani je zgornji del spletne strani in običajno vključuje "
+"elemente, kot so logotip, navigacijski :ref:`meni <website/header_footer/"
+"header-content>`, iskalno polje ter gumb za prijavo ali :doc:`račun stranke "
+"<../../ecommerce/configuration/customer_accounts>`. Noga je prikazana na dnu "
+"spletne strani in običajno vsebuje podrobnosti stikov, povezave, pravna "
+"obvestila in druge koristne informacije. Oba lahko po potrebi prilagodite."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:13
-msgid "Header design"
-msgstr "Oblika glave"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:15
-msgid ""
-"To modify the header's design, click on :guilabel:`Edit`, then click on the "
-"header. The following options are available in the :guilabel:`Header` "
-"section of the :guilabel:`Customize` tab in the website editor:"
-msgstr ""
-"Za spreminjanje oblike glave kliknite :guilabel:`Uredi`, nato kliknite na "
-"glavo. V razdelku :guilabel:`Glava` zavihka :guilabel:`Prilagodi` "
-"urejevalnika spletnega mesta so na voljo naslednje možnosti:"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:19
-msgid "Choose a :guilabel:`Template` from the drop-down menu."
-msgstr "V spustnem meniju izberite :guilabel:`Predlogo`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:20
-msgid ""
-"Select :guilabel:`Background` settings to change the color palette through "
-"different :ref:`Theme styles <website/themes/theme-"
-"colors>`, :guilabel:`Custom` color options, and :guilabel:`Gradient` ones."
-msgstr ""
-"Izberite nastavitve :guilabel:`Ozadja`, da spremenite barvno paleto prek "
-"različnih :ref:`slogov teme <website/themes/theme-"
-"colors>`, :guilabel:`barvnih možnosti po meri` in :guilabel:`možnosti "
-"preliva`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:23
-msgid ""
-"When adding a :guilabel:`Border` to the header, its size, style, and color "
-"can be defined."
-msgstr ""
-"Pri dodajanju :guilabel:`obrobe` glavi lahko določite njeno velikost, slog "
-"in barvo."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:24
-msgid "Adapt :guilabel:`Round corners` to fit the design."
-msgstr "Prilagodite :guilabel:`zaobljene vogale`, da ustrezajo oblikovanju."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:25
-msgid ""
-"Add a :guilabel:`Shadow` and define "
-"its :guilabel:`Color`, :guilabel:`Offset`, :guilabel:`Blur`, "
-"and :guilabel:`Spread`."
-msgstr ""
-"Dodajte :guilabel:`senco` in določite "
-"njeno :guilabel:`barvo`, :guilabel:`odmik`, :guilabel:`zameglitev` "
-"in :guilabel:`razpršitev`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:27
-msgid "Add a :guilabel:`Scroll Effect`. Hover on an effect to preview it."
-msgstr ""
-"Dodajte :guilabel:`učinek pomikanja`. Za predogled učinka premaknite kazalec "
-"nanj."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:28
-msgid ""
-"Choose the :guilabel:`Header Position` "
-"between :guilabel:`Regular`, :guilabel:`Hidden`, and :guilabel:`Over The "
-"Content`. When :guilabel:`Over The Content` is selected, you can customize "
-"the :guilabel:`Background` and :guilabel:`Text Color`."
-msgstr ""
-"Izberite :guilabel:`položaj glave` "
-"med :guilabel:`običajnim`, :guilabel:`skritim` in :guilabel:`nad vsebino`. "
-"Ko je izbrano :guilabel:`nad vsebino`, lahko prilagodite :guilabel:`ozadje` "
-"in :guilabel:`barvo besedila`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:31
-msgid ""
-"Show or hide :guilabel:`Elements` such as text, the search "
-"bar, :guilabel:`Sign in` button, social media links, :guilabel:`Contact us` "
-"button, and logo."
-msgstr ""
-"Prikažite ali skrijte :guilabel:`elemente`, kot so besedilo, iskalna "
-"vrstica, gumb :guilabel:`Prijava`, povezave družbenih medijev, "
-"gumb :guilabel:`Kontaktirajte nas` in logotip."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:34
-#: ../../content/applications/websites/website/structure/header_footer.rst:111
-#: ../../content/applications/websites/website/structure/header_footer.rst:153
-#: ../../content/applications/websites/website/structure/header_footer.rst:193
-msgid "To finalize changes, click on :guilabel:`Save`."
-msgstr "Za dokončanje sprememb kliknite :guilabel:`Shrani`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:37
-msgid ""
-"To hide the header, click on :guilabel:`Edit`, click on the header, and go "
-"to the :guilabel:`Theme` tab of the website editor. Scroll down to "
-"the :guilabel:`Advanced` section and toggle the :guilabel:`Show Header` "
-"switch to hide/show the header."
-msgstr ""
-"Za skrivanje glave kliknite :guilabel:`Uredi`, kliknite na glavo in pojdite "
-"na zavihek :guilabel:`Tema` urejevalnika spletnega mesta. Pomaknite se "
-"navzdol do razdelka :guilabel:`Napredno` in preklopite "
-"stikalo :guilabel:`Prikaži glavo`, da skrijete/prikažete glavo."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:44
+#: ../../content/applications/websites/website/structure/header_footer.rst:14
 msgid "Header content"
 msgstr "Vsebina glave"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:46
+#: ../../content/applications/websites/website/structure/header_footer.rst:16
 msgid ""
-"Menus organize the header’s content and help users navigate through web "
-"pages effectively. User-friendly and well-structured menus also play a "
-"crucial role in improving :doc:`search engine rankings <seo>`."
+"The header includes company information, quick-access buttons, "
+"and :ref:`website menus <website/header_footer/menu-editor>` to help users "
+"navigate the website effectively. Well-structured, user-friendly headers and "
+"menus also play an important role in improving :doc:`search engine rankings "
+"<seo>`."
 msgstr ""
-"Meniji organizirajo vsebino glave in uporabnikom pomagajo učinkovito "
-"krmariti po spletnih straneh. Uporabniku prijazni in dobro strukturirani "
-"meniji igrajo tudi ključno vlogo pri izboljšanju :doc:`uvrstitev v "
-"iskalnikih <seo>`."
+"Glava vključuje informacije o podjetju, gumbe za hiter dostop in "
+":ref:`menije spletne strani <website/header_footer/menu-editor>`, ki "
+"uporabnikom pomagajo učinkovito krmariti po spletni strani. Dobro "
+"strukturirane, uporabniku prijazne glave in meniji imajo pomembno vlogo pri "
+"izboljšanju :doc:`uvrstitve v iskalnikih <seo>`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:53
+#: ../../content/applications/websites/website/structure/header_footer.rst:24
 msgid "Menu editor"
 msgstr "Urejevalnik menija"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:55
+#: ../../content/applications/websites/website/structure/header_footer.rst:26
 msgid ""
-"The menu editor allows to edit the website's header and add :ref:`menu items "
-"<website/header_footer/menu-items>` and :ref:`mega menus <website/"
+"The menu editor allows you to edit the website header and add :ref:`menu "
+"items <website/header_footer/menu-items>` and :ref:`mega menus <website/"
 "header_footer/mega-menus>`."
 msgstr ""
-"Urejevalnik menijev omogoča urejanje glave spletnega mesta ter "
-"dodajanje :ref:`postavk menijev <website/header_footer/menu-items>` "
-"in :ref:`mega menijev <website/header_footer/mega-menus>`."
+"Urejevalnik menija vam omogoča urejanje glave spletne strani in dodajanje "
+":ref:`postavk menija <website/header_footer/menu-items>` ter :ref:`mega "
+"menijev <website/header_footer/mega-menus>`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:59
+#: ../../content/applications/websites/website/structure/header_footer.rst:31
 msgid ""
-"To edit the header's content, go to :menuselection:`Website --> Site --> "
-"Menu Editor`. From there, you can:"
+"To open the menu editor, go to :menuselection:`Website --> Site --> Menu "
+"Editor`. From there, you can:"
 msgstr ""
-"Za urejanje vsebine glave pojdite na :menuselection:`Spletno mesto --> "
-"Spletno mesto --> Urejevalnik menijev`. Od tam lahko:"
+"Za odprtvo urejevalnika menija pojdite na :menuselection:`Spletna stran --> "
+"Stran --> Urejevalnik menija`. Od tam lahko:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:62
+#: ../../content/applications/websites/website/structure/header_footer.rst:34
 msgid ""
-"**rename** a menu item or change its URL using the :guilabel:`Edit Menu "
-"Item` icon;"
+"**Rename** a menu item or change its URL using the :icon:`fa-pencil` "
+"(:guilabel:`Edit Menu Item`) icon."
 msgstr ""
-"**preimenujete** postavko menija ali spremenite njen URL z uporabo "
-"ikone :guilabel:`Uredi postavko menija`;"
+"**Preimenujte** postavko menija ali spremenite njen URL z ikono :icon:`fa-"
+"pencil` (:guilabel:`Uredi postavko menija`)."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:63
-msgid "**delete** a menu item using the :guilabel:`Delete Menu Item` icon;"
-msgstr ""
-"**izbrišete** postavko menija z uporabo ikone :guilabel:`Izbriši postavko "
-"menija`;"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:64
+#: ../../content/applications/websites/website/structure/header_footer.rst:36
 msgid ""
-"**move** a menu item by dragging and dropping it to the desired place in the "
-"menu;"
+"**Delete** a menu item using the :icon:`fa-trash` (:guilabel:`Delete Menu "
+"Item`) icon."
 msgstr ""
-"**premaknete** postavko menija z vlečenjem in spuščanjem na želeno mesto v "
-"meniju;"
+"**Izbrišite** postavko menija z ikono :icon:`fa-trash` (:guilabel:`Izbriši "
+"postavko menija`)."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:65
+#: ../../content/applications/websites/website/structure/header_footer.rst:37
 msgid ""
-"**create a regular drop-down menu** by dragging and dropping the sub-menu "
+"**Move** a menu item by dragging and dropping it to the desired location in "
+"the menu."
+msgstr ""
+"**Premaknite** postavko menija tako, da jo povlečete in spustite na želeno "
+"mesto v meniju."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:38
+msgid ""
+"**Create a regular drop-down menu** by dragging and dropping the sub-menu "
 "items to the right, underneath their parent menu."
 msgstr ""
-"**ustvarite običajni spustni meni** z vlečenjem in spuščanjem podrejenih "
-"postavk menijev na desno, pod njihov nadrejeni meni."
+"**Ustvarite navaden spustni meni** tako, da podpostavke menija povlečete "
+"desno, pod nadrejeni meni."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:None
 msgid "Menu editor with sub-menus"
 msgstr "Urejevalnik menijev s podmeniji"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:72
+#: ../../content/applications/websites/website/structure/header_footer.rst:46
 msgid ""
-"You can also access the menu editor by clicking :guilabel:`Edit`, selecting "
-"any menu item, and clicking the :guilabel:`Edit Menu` icon."
+"You can also access the menu editor from the website editor. To do so, "
+"either:"
 msgstr ""
-"Do urejevalnika menijev lahko dostopate tudi tako, da "
-"kliknete :guilabel:`Uredi`, izberete katerokoli postavko menija in kliknete "
-"ikono :guilabel:`Uredi meni`."
+"Do urejevalnika menija lahko dostopate tudi iz urejevalnika spletnega mesta. "
+"To storite tako, da:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:48
+msgid "Select any menu item and click :guilabel:`Edit Menu`, or"
+msgstr ""
+"Izberite poljubno postavko menija in kliknite :guilabel:`Uredi meni`, ali"
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:0
-msgid "Access the Menu editor while in Edit mode."
-msgstr "Dostop do urejevalnika menijev v načinu urejanja."
+msgid "Access the menu editor while in Edit mode."
+msgstr "Dostop do urejevalnika menija v načinu urejanja."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:81
+#: ../../content/applications/websites/website/structure/header_footer.rst:53
+msgid ""
+"Navigate to the :guilabel:`Style` tab, and click :guilabel:`Edit Menu` next "
+"to the :guilabel:`Header` section title."
+msgstr ""
+"Pojdite na zavihek :guilabel:`Slog` in kliknite :guilabel:`Uredi meni` poleg "
+"naslova razdelka :guilabel:`Glava`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:59
 msgid "Add menu items"
 msgstr "Dodajte elemente menija"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:83
+#: ../../content/applications/websites/website/structure/header_footer.rst:61
 msgid ""
 "By default, pages are added to the menu as drop-down menu items "
 "when :doc:`they are created <../structure/pages>`. To add a new menu item, "
@@ -15988,166 +15951,264 @@ msgstr ""
 "ustvarjene <../structure/pages>`. Za dodajanje nove postavke menija sledite "
 "tem korakom:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:86
-msgid "Go to :menuselection:`Website --> Site --> Menu Editor`."
-msgstr ""
-"Pojdite na :menuselection:`Spletno mesto --> Spletno mesto --> Urejevalnik "
-"menijev`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:87
-msgid "In the menu editor, click :guilabel:`Add Menu Item`."
-msgstr "V urejevalniku menijev kliknite :guilabel:`Dodaj postavko menija`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:88
+#: ../../content/applications/websites/website/structure/header_footer.rst:64
 msgid ""
-"In the pop-up window, enter the :guilabel:`Name` to be displayed in the menu."
-msgstr "V pojavnem oknu vnesite :guilabel:`Ime`, ki bo prikazano v meniju."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:89
-msgid ""
-"Type `/` in the :guilabel:`URL or Email` field to search for a page on your "
-"website or `#` to search for an existing custom anchor."
+"In the :ref:`menu editor <website/header_footer/open-menu-editor>`, "
+"click :guilabel:`Add Menu Item`."
 msgstr ""
-"V polje :guilabel:`URL ali e-pošta` vnesite `/` za iskanje strani na vašem "
-"spletnem mestu ali `#` za iskanje obstoječega lastnega sidra."
+"V :ref:`urejevalniku menija <website/header_footer/open-menu-editor>` "
+"kliknite :guilabel:`Dodaj postavko menija`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:91
-msgid "Click :guilabel:`OK`."
-msgstr "Kliknite :guilabel:`V redu`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:92
+#: ../../content/applications/websites/website/structure/header_footer.rst:66
 msgid ""
-"Edit the :ref:`menu structure <website/header_footer/menu-editor>` if "
-"needed, then :guilabel:`Save`."
-msgstr ""
-"Po potrebi uredite :ref:`strukturo menija <website/header_footer/menu-"
-"editor>`, nato :guilabel:`Shrani`."
+"In the pop-up window, enter the :guilabel:`Title` to be displayed in the "
+"menu."
+msgstr "V pojavnem oknu vnesite :guilabel:`Naziv`, ki bo prikazan v meniju."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:96
+#: ../../content/applications/websites/website/structure/header_footer.rst:67
+msgid ""
+"In the :guilabel:`URL or Email` field, type `/` to search for an existing "
+"page on the website or `#` to search for an existing custom anchor."
+msgstr ""
+"V polju :guilabel:`URL ali e-pošta` vtipkajte `/` za iskanje obstoječe "
+"strani na spletnem mestu ali `#` za iskanje obstoječega prilagojenega sidra."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:71
+msgid ""
+"To add a menu item for a page that does not exist yet, enter the new URL or "
+"anchor and click :guilabel:`Create Page` in the :guilabel:`Edit Menu` pop-"
+"up. If you add the menu item without creating the corresponding page, the "
+"link leads to a :ref:`404 error page <website/pages/URL-redirection>`."
+msgstr ""
+"Za dodajanje postavke menija za stran, ki še ne obstaja, vnesite nov URL ali "
+"sidro in kliknite :guilabel:`Ustvari stran` v pojavnem oknu :guilabel:`Uredi "
+"meni`. Če dodate postavko menija brez ustvarjanja ustrezne strani, povezava "
+"vodi na :ref:`stran z napako 404 <website/pages/URL-redirection>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:77
+#: ../../content/applications/websites/website/structure/header_footer.rst:149
+msgid ""
+"Adjust the :ref:`menu structure <website/header_footer/menu-editor>` if "
+"needed."
+msgstr ""
+"Po potrebi prilagodite :ref:`strukturo menija <website/header_footer/menu-"
+"editor>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:83
 msgid "Menu item design"
 msgstr "Oblikovanje postavk menija"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:98
+#: ../../content/applications/websites/website/structure/header_footer.rst:85
 msgid ""
-"To modify the menu items, click on :guilabel:`Edit`, click on a menu item, "
-"then go to the :guilabel:`Navbar` section of the website editor. The "
-"following options are available:"
+"To modify the menu items' design, click :guilabel:`Edit` in the upper-right "
+"corner and select the header. Then, go to the :guilabel:`Style` tab and "
+"navigate to the :guilabel:`Navigation` section. The following options are "
+"available:"
 msgstr ""
-"Za spreminjanje postavk menija kliknite na :guilabel:`Uredi`, kliknite na "
-"postavko menija, nato pojdite v razdelek :guilabel:`Navigacijska vrstica` "
-"urejevalnika spletnega mesta. Na voljo so naslednje možnosti:"
+"Za spreminjanje oblikovanja postavk menija kliknite :guilabel:`Uredi` v "
+"zgornjem desnem kotu in izberite glavo. Nato pojdite na zavihek "
+":guilabel:`Slog` in se pomaknite do razdelka :guilabel:`Navigacija`. Na "
+"voljo so naslednje možnosti:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:89
+msgid "Adjust the :guilabel:`Desktop Menu` alignment for desktop devices."
+msgstr "Prilagodite poravnavo :guilabel:`Namizni meni` za namizne naprave."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:90
+msgid ""
+"Adjust the :guilabel:`Mobile Menu` alignment and position for mobile devices."
+msgstr ""
+"Prilagodite poravnavo in položaj :guilabel:`Mobilnega menija` za mobilne "
+"naprave."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:91
+msgid ""
+"Choose whether :guilabel:`Sub Menus` open :guilabel:`On Hover` "
+"or :guilabel:`On Click`."
+msgstr ""
+"Izberite, ali se :guilabel:`Podmeniji` odprejo :guilabel:`Ob prehodu miške` "
+"ali :guilabel:`Ob kliku`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:92
+msgid ""
+"Select a :guilabel:`Link Style` to highlight the current page in the menu."
+msgstr ""
+"Izberite :guilabel:`Slog povezave` za poudarjanje trenutne strani v meniju."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:95
+msgid ""
+"The options available in the :guilabel:`Navigation` section may vary "
+"depending on the selected template."
+msgstr ""
+"Možnosti, ki so na voljo v razdelku :guilabel:`Navigacija`, se lahko "
+"razlikujejo glede na izbrano predlogo."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:101
-msgid "Adapt the :guilabel:`Mobile Alignment`."
-msgstr "Prilagodite :guilabel:`Poravnavo na mobilnih napravah`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:102
-msgid "Choose the :guilabel:`Font` for the menu items."
-msgstr "Izberite :guilabel:`Pisavo` za postavke menija."
+msgid "Hide a dynamic menu item for non-logged-in users"
+msgstr "Skrijte dinamično postavko menija za neprijavljene uporabnike"
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:103
 msgid ""
-"Change the font size, color, and alignment in the :guilabel:`Format` field."
+"To hide the `Shop` menu item for non-logged-in users, :ref:`restrict e-"
+"commerce access to logged-in users <ecommerce/customer_accounts/shop-"
+"access>`."
 msgstr ""
-"Spremenite velikost pisave, barvo in poravnavo v polju :guilabel:`Oblika`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:104
-msgid ""
-"Select a :guilabel:`Links Style` to highlight the current page in the menu."
-msgstr ""
-"Izberite :guilabel:`Slog povezav`, da označite trenutno stran v meniju."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:105
-msgid ""
-"Change the :ref:`style of the header buttons <website/themes/button-styles>`."
-msgstr "Spremenite :ref:`slog gumbov v glavi <website/themes/button-styles>`."
+"Za skrivanje postavke menija `Trgovina` za neprijavljene uporabnike "
+":ref:`omejite dostop do e-trgovine za prijavljene uporabnike <ecommerce/"
+"customer_accounts/shop-access>`."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:106
 msgid ""
-"Choose to display the :guilabel:`Sub Menus` :guilabel:`On Hover` "
-"or :guilabel:`On Click`."
+"To hide other menu items related to :ref:`dynamic <website/pages/page_type>` "
+"pages (i.e., a menu item generated automatically by Odoo, for example, when "
+"installing an app or module, such as `Events`, `Courses`, etc.) to non-"
+"logged-in users, follow these steps:"
 msgstr ""
-"Izberite prikaz :guilabel:`Podmenija` :guilabel:`Ob prehodu` "
-"ali :guilabel:`Ob kliku`."
+"Za skrivanje drugih postavk menija, povezanih z :ref:`dinamičnimi <website/"
+"pages/page_type>` stranmi (tj. postavka menija, ki jo samodejno generira "
+"Odoo, na primer ob namestitvi aplikacije ali modula, kot so `Dogodki`, "
+"`Tečaji` itd.) za neprijavljene uporabnike, sledite tem korakom:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:109
-msgid ""
-"The fields available in the :guilabel:`Navbar` section can vary depending on "
-"the chosen template."
+#: ../../content/applications/websites/website/structure/header_footer.rst:110
+msgid ":ref:`Enable developer mode <developer-mode>`."
+msgstr ":ref:`Omogočite razvijalski način <developer-mode>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:111
+msgid "Go to :menuselection:`Website --> Configuration --> Menus`."
 msgstr ""
-"Polja, ki so na voljo v razdelku :guilabel:`Navigacijska vrstica`, se lahko "
-"razlikujejo glede na izbrano predlogo."
+"Pojdite na :menuselection:`Spletna stran --> Konfiguracija --> Meniji`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:112
+msgid "Expand the list of menus for the relevant website if needed."
+msgstr "Po potrebi razširite seznam menijev za ustrezno spletno stran."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:113
+msgid "Select the menu item you wish to hide."
+msgstr "Izberite postavko menija, ki jo želite skriti."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:114
+msgid ""
+"In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line`."
+msgstr ""
+"V razdelku :guilabel:`Vidne skupine` kliknite :guilabel:`Dodaj vrstico`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:115
+msgid ""
+"Search for the group :guilabel:`Name` :guilabel:`Role / Portal`, "
+"and :guilabel:`Select` it."
+msgstr ""
+"Poiščite skupino :guilabel:`Ime` :guilabel:`Vloga / Portal` in jo "
+":guilabel:`Izberite`."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:116
+msgid "Save."
+msgstr "Shranite."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:119
+msgid ""
+"You can further customize the menu items on this menu item form. For example:"
+msgstr ""
+"Postavke menija lahko dodatno prilagodite na tem obrazcu postavke menija. Na "
+"primer:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:121
+msgid ""
+"Enable the :guilabel:`New Window` checkbox to open the page in a new tab "
+"when clicked."
+msgstr ""
+"Omogočite potrditveno polje :guilabel:`Novo okno`, da se stran odpre v novem "
+"zavihku ob kliku."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:122
+msgid "Add a :guilabel:`Related Page` or :guilabel:`Related Model Page`."
+msgstr ""
+"Dodajte :guilabel:`Povezano stran` ali :guilabel:`Povezano stran modela`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:123
+msgid ""
+"Assign a :guilabel:`Parent Menu`, and/or :guilabel:`Child Menus` to create a "
+"hierarchy."
+msgstr ""
+"Določite :guilabel:`Nadrejeni meni` in/ali :guilabel:`Podmenije`, da "
+"ustvarite hierarhijo."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:126
+msgid ""
+":ref:`Manage the visibility of static pages <website/pages/page_properties>`"
+msgstr ""
+":ref:`Upravljajte vidnost statičnih strani <website/pages/page_properties>`"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:131
 msgid "Mega menus"
 msgstr "Mega meniji"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:118
+#: ../../content/applications/websites/website/structure/header_footer.rst:133
 msgid ""
-"Mega menus are similar to drop-down menus, but instead of a simple list of "
-"sub-menus, they display a panel divided into groups of navigation options. "
-"This makes them suitable for websites with large amounts of content "
-"or :doc:`e-commerce websites <../../ecommerce>`, as they can help include "
-"all of your web pages or :ref:`e-commerce categories <ecommerce/"
-"categories_variants/categories>` in the menu while still making all menu "
-"items visible at once."
+"Mega menus are similar to drop-down menus, but instead of displaying a "
+"simple list of sub-menus, they show a panel divided into groups of "
+"navigation options. They are especially useful for websites with large "
+"amounts of content or :doc:`e-commerce websites <../../ecommerce>`, as they "
+"can help include all of the web pages or :ref:`e-commerce categories "
+"<ecommerce/categories_variants/categories>` in the menu while keeping all "
+"menu items visible at once."
 msgstr ""
 "Mega meniji so podobni spustnim menijem, vendar namesto preprostega seznama "
-"podmenijev prikazujejo plošč o, razdeljeno na skupine navigacijskih "
-"možnosti. To jih naredi primerne za spletna mesta z veliko vsebine "
-"ali :doc:`spletne trgovine <../../ecommerce>`, saj lahko vključijo vse vaše "
-"spletne strani ali :ref:`kategorije e-trgovine <ecommerce/"
-"categories_variants/categories>` v meni, medtem ko so vsi elementi menija še "
-"vedno vidni naenkrat."
+"podmenijev prikazujejo ploščo, razdeljeno v skupine navigacijskih možnosti. "
+"So še posebej koristni za spletne strani z veliko količino vsebine ali "
+":doc:`spletne strani e-trgovine <../../ecommerce>`, saj lahko pomagajo "
+"vključiti vse spletne strani ali :ref:`kategorije e-trgovine <ecommerce/"
+"categories_variants/categories>` v meni, pri čemer so vse postavke menija "
+"vidne naenkrat."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:None
 msgid "Mega menu in the navigation bar."
 msgstr "Mega meni v navigacijski vrstici."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:127
-msgid ""
-"To create a mega menu, go to :menuselection:`Website --> Site --> Menu "
-"Editor` and click :guilabel:`Add Mega Menu Item`. Enter the :guilabel:`Name` "
-"of the mega menu in the pop-up, click :guilabel:`OK`, then :guilabel:`Save`."
-msgstr ""
-"Če želite ustvariti mega meni, pojdite na :menuselection:`Spletna stran --> "
-"Mesto --> Urejevalnik menijev` in kliknite :guilabel:`Dodaj element mega "
-"menija`. V pojavno okno vnesite :guilabel:`Ime` mega menija, "
-"kliknite :guilabel:`V redu`, nato pa :guilabel:`Shrani`."
+#: ../../content/applications/websites/website/structure/header_footer.rst:143
+msgid "To create a mega menu, follow these steps:"
+msgstr "Za ustvarjanje mega menija sledite tem korakom:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:131
+#: ../../content/applications/websites/website/structure/header_footer.rst:145
 msgid ""
-"To adapt the options and content of the mega menu, click on a mega menu item "
-"in the header, then click :guilabel:`Edit`. Mega menus are composed of "
-"building blocks, which means you can customize each component individually. "
-"For example:"
+"In the :ref:`menu editor <website/header_footer/open-menu-editor>`, "
+"click :guilabel:`Add Mega Menu Item`."
 msgstr ""
-"Če želite prilagoditi možnosti in vsebino mega menija, kliknite na element "
-"mega menija v glavi in nato kliknite :guilabel:`Uredi`. Mega meniji so "
-"sestavljeni iz gradnikov, kar pomeni, da lahko vsako komponento prilagodite "
-"posamično. Na primer:"
+"V :ref:`urejevalniku menija <website/header_footer/open-menu-editor>` "
+"kliknite :guilabel:`Dodaj postavko mega menija`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:135
-msgid "Edit the text directly in the building block."
-msgstr "Besedilo uredite neposredno v gradniku."
+#: ../../content/applications/websites/website/structure/header_footer.rst:147
+msgid "In the pop-up window, enter the :guilabel:`Title` of the mega menu."
+msgstr "V pojavnem oknu vnesite :guilabel:`Naziv` mega menija."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:136
+#: ../../content/applications/websites/website/structure/header_footer.rst:152
 msgid ""
-"Edit a menu item's URL by selecting the menu item and clicking "
-"the :guilabel:`Edit link` button in the small preview pop-up. Type `/` to "
-"search for a page on your website, or `#` to search for an existing custom "
-"anchor."
+"Mega menus are built using default :doc:`building blocks <../web_design/"
+"building_blocks>`, which means each component must be customized "
+"individually. To do so, click :guilabel:`Edit` in the upper-right corner, "
+"then select the mega menu. Then:"
 msgstr ""
-"Uredite URL elementa menija tako, da izberete element menija in kliknete "
-"gumb :guilabel:`Uredi povezavo` v majhnem pojavnem oknu predogleda. Vnesite "
-"`/` za iskanje strani na vaši spletni strani ali `#` za iskanje obstoječega "
-"sidra po meri."
+"Mega meniji so zgrajeni z uporabo privzetih :doc:`gradnikov <../web_design/"
+"building_blocks>`, kar pomeni, da je treba vsako komponento prilagoditi "
+"posebej. To storite tako, da kliknite :guilabel:`Uredi` v zgornjem desnem "
+"kotu, nato izberite mega meni. Nato:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:156
+msgid "Edit the text directly within the building block."
+msgstr "Uredite besedilo neposredno znotraj gradnika."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:157
+msgid ""
+"Edit a :ref:`menu item's URL <website/header_footer/menu-items>` by "
+"selecting the mega menu item and clicking the :guilabel:`Edit` button."
+msgstr ""
+"Uredite :ref:`URL postavke menija <website/header_footer/menu-items>` tako, "
+"da izberete postavko mega menija in kliknete gumb :guilabel:`Uredi`."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:0
 msgid "Edit a mega menu option."
 msgstr "Uredite možnost mega menija."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:143
+#: ../../content/applications/websites/website/structure/header_footer.rst:163
 msgid ""
 "Move a menu item by dragging and dropping the related block to the desired "
 "position in the mega menu."
@@ -16155,25 +16216,35 @@ msgstr ""
 "Premaknite element menija tako, da povlečete in spustite povezan gradnik na "
 "želeno mesto v mega meniju."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:145
-msgid "Delete a menu item by deleting the related block."
-msgstr "Izbrišite element menija tako, da izbrišete povezan gradnik."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:147
+#: ../../content/applications/websites/website/structure/header_footer.rst:165
 msgid ""
-"To adapt the general layout of the mega menu, go to "
-"the :guilabel:`Customize` tab of the website editor, then, in "
-"the :guilabel:`Mega Menu` section:"
+"Delete a menu item by clicking the :icon:`fa-trash` (:guilabel:`Remove`) "
+"icon of the related block."
 msgstr ""
-"Če želite prilagoditi splošno postavitev mega menija, pojdite na "
-"zavihek :guilabel:`Prilagodi` urejevalnika spletnega mesta in nato v "
-"razdelku :guilabel:`Mega meni`:"
+"Izbrišite postavko menija tako, da kliknete ikono :icon:`fa-trash` "
+"(:guilabel:`Odstrani`) povezanega gradnika."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:150
+#: ../../content/applications/websites/website/structure/header_footer.rst:169
+msgid "Mega menu design"
+msgstr "Oblikovanje mega menija"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:171
+msgid ""
+"To customize the general layout of the mega menu and its "
+"individual :doc:`building blocks <../web_design/building_blocks>`, open the "
+"website editor, go to the :guilabel:`Style` tab, and navigate to "
+"the :guilabel:`Mega Menu` section. The following options are available:"
+msgstr ""
+"Za prilagajanje splošne postavitve mega menija in njegovih posameznih "
+":doc:`gradnikov <../web_design/building_blocks>` odprite urejevalnik "
+"spletnega mesta, pojdite na zavihek :guilabel:`Slog` in se pomaknite do "
+"razdelka :guilabel:`Mega meni`. Na voljo so naslednje možnosti:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:175
 msgid "Choose a :guilabel:`Template`."
 msgstr "Izberite :guilabel:`Predlogo`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:151
+#: ../../content/applications/websites/website/structure/header_footer.rst:176
 msgid ""
 "Pick the :guilabel:`Size`: either :guilabel:`Full-Width` "
 "or :guilabel:`Narrow`."
@@ -16181,88 +16252,200 @@ msgstr ""
 "Izberite :guilabel:`Velikost`: bodisi :guilabel:`Celotna širina` "
 "bodisi :guilabel:`Ozka`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:156
-msgid "Hide a dynamic menu item for non-logged in users"
-msgstr "Skrijte dinamični element menija za neprijavljene uporabnike"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:158
+#: ../../content/applications/websites/website/structure/header_footer.rst:177
 msgid ""
-"To hide a dynamic menu item (i.e., a menu item generated automatically by "
-"Odoo, for example, when you install an app or module, such as `Events`, "
-"`Courses`, etc.) for non-logged in users, follow these steps:"
+"Toggle :ref:`eCommerce Categories <ecommerce/categories_variants/"
+"categories>` if applicable."
 msgstr ""
-"Za skritje dinamičnega elementa menija (tj. elementa menija, ki ga samodejno "
-"ustvari Odoo, na primer, ko namestite aplikacijo ali modul, kot sta "
-"`Events`, `Courses` itd.) za neprijavljene uporabnike sledite tem korakom:"
+"Preklopite :ref:`Kategorije e-trgovine <ecommerce/categories_variants/"
+"categories>`, če je primerno."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:162
-msgid ":ref:`Enable developer mode <developer-mode>`."
-msgstr ":ref:`Omogočite razvijalski način <developer-mode>`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:163
-msgid "Go to :menuselection:`Website --> Configuration --> Menus`."
-msgstr ""
-"Pojdite na :menuselection:`Spletna stran --> Konfiguracija --> Meniji`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:164
-msgid ""
-"Expand the list of menus for the relevant website if needed, then click the "
-"menu item you wish to hide."
-msgstr ""
-"Razširite seznam menijev za ustrezno spletno stran, če je potrebno, nato "
-"kliknite element menija, ki ga želite skriti."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:166
-msgid ""
-"In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line` "
-"under :guilabel:`Group Name`."
-msgstr ""
-"V razdelku :guilabel:`Vidne skupine` kliknite :guilabel:`Dodaj vrstico` "
-"pod :guilabel:`Naziv skupine`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:168
-msgid ""
-"Search for the group :guilabel:`User types / Portal`, select it, then "
-"click :guilabel:`Select`."
-msgstr ""
-"Poiščite skupino :guilabel:`Vrste uporabnikov / Portal`, jo izberite in nato "
-"kliknite :guilabel:`Izberi`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:169
-msgid "Save."
-msgstr "Shranite."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:172
-msgid ""
-"To hide the `Shop` menu item, :doc:`restrict ecommerce access to logged-in "
-"users <../../ecommerce/configuration/customer_accounts>`."
-msgstr ""
-"Za skritje menijske postavke `Shop` :doc:`omejite dostop do spletne trgovine "
-"na prijavljene uporabnike <../../ecommerce/configuration/customer_accounts>`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:178
-msgid "Footer design"
-msgstr "Oblika noge"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:180
-msgid ""
-"To modify the footer, click on :guilabel:`Edit`, click on the footer, and in "
-"the :guilabel:`Footer` section of the :guilabel:`Customize` tab in the "
-"website editor:"
-msgstr ""
-"Če želite spremeniti nogo, kliknite :guilabel:`Uredi`, kliknite na nogo in v "
-"razdelku :guilabel:`Noga` zavihka :guilabel:`Prilagodi` v urejevalniku "
-"spletnega mesta:"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:183
-msgid "Select a :guilabel:`Template`."
-msgstr "Izberite :guilabel:`Predlogo`."
+#: ../../content/applications/websites/website/structure/header_footer.rst:182
+msgid "Header and footer design"
+msgstr "Oblikovanje glave in noge"
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:184
-msgid "Choose its :guilabel:`Colors`."
-msgstr "Izberite :guilabel:`Barve`."
+msgid ""
+"To modify the header or footer design, click :guilabel:`Edit` in the upper-"
+"right corner and select the header or footer. Then, go to "
+"the :guilabel:`Style` tab and navigate to the :guilabel:`Header` "
+"or :guilabel:`Footer` section. The following options are available:"
+msgstr ""
+"Za spreminjanje oblikovanja glave ali noge kliknite :guilabel:`Uredi` v "
+"zgornjem desnem kotu in izberite glavo ali nogo. Nato pojdite na zavihek "
+":guilabel:`Slog` in se pomaknite do razdelka :guilabel:`Glava` ali "
+":guilabel:`Noga`. Na voljo so naslednje možnosti:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:185
+#: ../../content/applications/websites/website/structure/header_footer.rst:188
+msgid "Choose a :guilabel:`Template` from the drop-down menu."
+msgstr "V spustnem meniju izberite :guilabel:`Predlogo`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:189
+msgid ""
+"Select a :guilabel:`Background` color by defining a :ref:`theme <website/"
+"themes/theme-colors>` style, a :guilabel:`Custom` color option, or "
+"a :guilabel:`Gradient`."
+msgstr ""
+"Izberite barvo :guilabel:`Ozadja` z določitvijo sloga :ref:`teme <website/"
+"themes/theme-colors>`, možnosti :guilabel:`Po meri` barve ali "
+":guilabel:`Preliv`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:191
+msgid "Set the :guilabel:`Content Width`."
+msgstr "Nastavite :guilabel:`Širino vsebine`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:192
+msgid ""
+"Add a :guilabel:`Border` to the footer and customize its size, style, and "
+"color."
+msgstr ""
+"Dodajte :guilabel:`Obrobo` nogi in prilagodite njeno velikost, slog in barvo."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:193
+msgid "Adapt :guilabel:`Round corners` to fit the design."
+msgstr "Prilagodite :guilabel:`zaobljene vogale`, da ustrezajo oblikovanju."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:194
+msgid ""
+"Add a :guilabel:`Shadow` and define "
+"its :guilabel:`Color`, :guilabel:`Offset`, :guilabel:`Blur`, "
+"and :guilabel:`Spread`."
+msgstr ""
+"Dodajte :guilabel:`senco` in določite "
+"njeno :guilabel:`barvo`, :guilabel:`odmik`, :guilabel:`zameglitev` "
+"in :guilabel:`razpršitev`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:199
+msgid "Header-specific design options"
+msgstr "Možnosti oblikovanja, specifične za glavo"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:201
+msgid ""
+"To further customize the website's header, use the following header-specific "
+"design options in the :guilabel:`Header` section:"
+msgstr ""
+"Za dodatno prilagajanje glave spletne strani uporabite naslednje možnosti "
+"oblikovanja, specifične za glavo, v razdelku :guilabel:`Glava`:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:204
+msgid ""
+"Add a :guilabel:`Scroll Effect` to determine how the header behaves while "
+"scrolling the page. Hover over an effect to preview it."
+msgstr ""
+"Dodajte :guilabel:`Drsni učinek`, da določite, kako se glava obnaša med "
+"drsenjem po strani. Premaknite miško nad učinek za ogled predogleda."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:207
+msgid ""
+"Choose the :guilabel:`Header Position` for the selected "
+"page: :guilabel:`Regular`, :guilabel:`Hidden`, or :guilabel:`Over The "
+"Content`. When :guilabel:`Over The Content` is selected, you can also "
+"customize the :guilabel:`Background` and :guilabel:`Text Color`."
+msgstr ""
+"Izberite :guilabel:`Položaj glave` za izbrano stran: :guilabel:`Običajno`, "
+":guilabel:`Skrito` ali :guilabel:`Nad vsebino`. Ko je izbrano :guilabel:`Nad "
+"vsebino`, lahko prilagodite tudi :guilabel:`Ozadje` in :guilabel:`Barvo "
+"besedila`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:212
+msgid ""
+"To hide the header on all pages, go to the :guilabel:`Theme` tab of the "
+"website editor. Scroll down to the :guilabel:`Advanced` section and "
+"toggle :guilabel:`Show Header` off."
+msgstr ""
+"Za skrivanje glave na vseh straneh pojdite na zavihek :guilabel:`Tema` "
+"urejevalnika spletnega mesta. Pomaknite se navzdol do razdelka "
+":guilabel:`Napredno` in izklopite :guilabel:`Prikaži glavo`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:214
+msgid ""
+":guilabel:`Hidden` elements, including the header when applicable, are "
+"available under :ref:`Invisible Elements <website/visibility/invisible-"
+"elements>`."
+msgstr ""
+":guilabel:`Skriti` elementi, vključno z glavo, kadar je primerno, so na "
+"voljo pod :ref:`Nevidni elementi <website/visibility/invisible-elements>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:217
+msgid ""
+"Change the :guilabel:`Default` :guilabel:`Accent Color` to either "
+"the :guilabel:`Primary` or :guilabel:`Secondary` :ref:`color <website/themes/"
+"colors>` to visually distinguish drop-down buttons in the header."
+msgstr ""
+"Spremenite :guilabel:`Privzeto` :guilabel:`Naglasno barvo` v "
+":guilabel:`Primarno` ali :guilabel:`Sekundarno` :ref:`barvo <website/themes/"
+"colors>`, da vizualno razločite spustne gumbe v glavi."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:220
+msgid "Define a :ref:`font <website/themes/fonts>`."
+msgstr "Določite :ref:`pisavo <website/themes/fonts>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:221
+msgid "Set the :guilabel:`Format` size and add a color if needed."
+msgstr "Nastavite velikost :guilabel:`Formata` in po potrebi dodajte barvo."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:223
+msgid ""
+"To control the visibility of specific elements, navigate to "
+"the :guilabel:`Show/Hide Elements` section of the :guilabel:`Style` tab and "
+"click the option related to the element you wish to show or hide. You can "
+"show or hide:"
+msgstr ""
+"Za nadzor vidnosti določenih elementov pojdite v razdelek :guilabel:`Prikaži/"
+"Skrij elemente` zavihka :guilabel:`Slog` in kliknite možnost, povezano z "
+"elementom, ki ga želite prikazati ali skriti. Prikazati ali skriti lahko:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:227
+msgid ""
+":guilabel:`Visuals`, such as the :guilabel:`Company logo`, :guilabel:`Text "
+"Elements` (e.g., a phone number), and :guilabel:`Social Links` for linking "
+"all social media accounts."
+msgstr ""
+":guilabel:`Vizualne elemente`, kot so :guilabel:`Logotip podjetja`, "
+":guilabel:`Besedilni elementi` (npr. telefonska številka) in "
+":guilabel:`Družbene povezave` za povezavo vseh družbenih omrežij."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:229
+msgid ""
+":guilabel:`Actions`, such as the :guilabel:`Search Bar`, the :ref:`Language "
+"Selector <translate/language-selector>`, the :guilabel:`Sign in` button, and "
+"the :guilabel:`Header Button` (a :guilabel:`Contact us` button by default)."
+msgstr ""
+":guilabel:`Dejanja`, kot so :guilabel:`Iskalna vrstica`, :ref:`Izbirnik "
+"jezika <translate/language-selector>`, gumb :guilabel:`Prijava` in "
+":guilabel:`Gumb glave` (privzeto gumb :guilabel:`Kontaktirajte nas`)."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:232
+msgid ""
+":doc:`eCommerce <../../ecommerce>`-specific elements: the :ref:`Add to cart "
+"<ecommerce/checkout/cart-button-header>` and :ref:`Add to wishlist "
+"<ecommerce/products/additional_features/wishlists>` buttons."
+msgstr ""
+":doc:`eTrgovina <../../ecommerce>`-specifični elementi: gumba :ref:`Dodaj v "
+"košarico <ecommerce/checkout/cart-button-header>` in :ref:`Dodaj na seznam "
+"želja <ecommerce/products/additional_features/wishlists>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:235
+msgid ""
+"You can enable a :guilabel:`Background` for navigation icons, such as the "
+"wishlist or search bar icon."
+msgstr ""
+"Omogočite lahko :guilabel:`Ozadje` za navigacijske ikone, kot so ikona "
+"seznama želja ali iskalne vrstice."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:238
+msgid "Footer-specific design options"
+msgstr "Možnosti oblikovanja, specifične za nogo"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:240
+msgid ""
+"To further customize the website's footer, use the following footer-specific "
+"design options in the :guilabel:`Footer` section:"
+msgstr ""
+"Za dodatno prilagajanje noge spletne strani uporabite naslednje možnosti "
+"oblikovanja, specifične za nogo, v razdelku :guilabel:`Noga`:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:243
 msgid ""
 "Choose a :guilabel:`Slideout Effect`: :guilabel:`Regular` (i.e., no "
 "effect), :guilabel:`Slide Hover`, or :guilabel:`Shadow`."
@@ -16270,30 +16453,45 @@ msgstr ""
 "Izberite :guilabel:`Učinek drsnika`: :guilabel:`Običajno` (tj. brez "
 "učinka), :guilabel:`Drsenje ob prehodu` ali :guilabel:`Senca`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:187
-msgid "Toggle the :guilabel:`Copyright` switch to hide or show the copyright."
+#: ../../content/applications/websites/website/structure/header_footer.rst:245
+msgid ""
+"Toggle the :guilabel:`Scroll Top Button` option to add a :icon:`fa-caret-"
+"up` :guilabel:`Scroll to Top` button, then choose its position."
+msgstr ""
+"Preklopite možnost :guilabel:`Gumb za drsenje na vrh`, da dodate gumb "
+":icon:`fa-caret-up` :guilabel:`Drsenje na vrh`, nato izberite njegov položaj."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:247
+msgid ""
+"Toggle the :guilabel:`Copyright` switch to hide or show the copyright "
+"notice. If enabled, add a color in the :guilabel:`Copyright` section if "
+"needed."
 msgstr ""
 "Preklopite stikalo :guilabel:`Avtorske pravice`, da skrijete ali prikažete "
-"avtorske pravice."
+"obvestilo o avtorskih pravicah. Če je omogočeno, po potrebi dodajte barvo v "
+"razdelku :guilabel:`Avtorske pravice`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:188
-msgid "Choose the :guilabel:`Border` size."
-msgstr "Izberite velikost :guilabel:`Obrobe`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:189
-msgid "Add a :guilabel:`Shadow`."
-msgstr "Dodajte :guilabel:`Senco`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:190
-msgid "Add a :guilabel:`Scroll Top Button` and choose its position."
-msgstr "Dodajte :guilabel:`Gumb za pomik navzgor` in izberite njegov položaj."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:191
+#: ../../content/applications/websites/website/structure/header_footer.rst:249
 msgid ""
-"Hide or show the footer by toggling the :guilabel:`Page visibility` switch."
+"Hide or show the footer for the current page by toggling the :guilabel:`Page "
+"visibility` switch. Hidden elements, including the footer when applicable, "
+"are available under :ref:`Invisible Elements <website/visibility/invisible-"
+"elements>`."
 msgstr ""
-"Skrijte ali prikažite nogo strani s preklopom stikala :guilabel:`Vidnost "
-"strani`."
+"Skrijte ali prikažite nogo za trenutno stran s preklopom stikala "
+":guilabel:`Vidnost strani`. Skriti elementi, vključno z nogo, kadar je "
+"primerno, so na voljo pod :ref:`Nevidni elementi <website/visibility/"
+"invisible-elements>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:254
+msgid ""
+"You can also add :guilabel:`Inner Content` :ref:`blocks <website/"
+"building_blocks/add>` to the header or footer for further customization, "
+"such as :ref:`e-commerce-specific footer options <ecommerce/catalog/footer>`."
+msgstr ""
+"Dodajte lahko tudi :guilabel:`Notranje vsebine` :ref:`gradnike <website/"
+"building_blocks/add>` v glavo ali nogo za dodatno prilagajanje, kot so "
+":ref:`možnosti noge, specifične za e-trgovino <ecommerce/catalog/footer>`."
 
 #: ../../content/applications/websites/website/structure/pages.rst:7
 msgid ""
@@ -18052,14 +18250,12 @@ msgstr ""
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:127
 msgid ""
 "**Prepare the Odoo form:** Create a contact form on a page in Odoo Website "
-"and remove the :ref:`header design <website/header_footer/header-design>` "
-"and the :ref:`footer design <website/header_footer/footer-design>`. Make "
+"and remove the :ref:`header and footer <website/header_footer/design>`. Make "
 "sure only the contact form remains on the page."
 msgstr ""
-"**Pripravite obrazec Odoo:** Ustvarite kontaktni obrazec na strani v Odoo "
-"Website in odstranite :ref:`oblikovanje glave <website/header_footer/header-"
-"design>` ter :ref:`oblikovanje noge <website/header_footer/footer-design>`. "
-"Prepričajte se, da na strani ostane samo kontaktni obrazec."
+"**Pripravite obrazec Odoo:** Na strani v Odoo Spletnem mestu ustvarite "
+"kontaktni obrazec in odstranite :ref:`glavo in nogo <website/header_footer/"
+"design>`. Poskrbite, da na strani ostane samo kontaktni obrazec."
 
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:130
 msgid ""
@@ -18686,7 +18882,7 @@ msgstr ""
 "elements/animations>`, :guilabel:`Oblika` itd."
 
 #: ../../content/applications/websites/website/web_design/elements.rst:114
-#: ../../content/applications/websites/website/web_design/themes.rst:190
+#: ../../content/applications/websites/website/web_design/themes.rst:189
 msgid "Links"
 msgstr "Povezave"
 
@@ -18914,6 +19110,13 @@ msgid ""
 "fields>`. Additional :ref:`advanced settings <website/themes/advanced>` are "
 "also available."
 msgstr ""
+"Odoo nudi širok nabor :ref:`možnosti prilagoditve teme <website/themes/page-"
+"layouts>` za določitev :ref:`barv <website/themes/colors>` in :ref:`pisav "
+"<website/themes/fonts>` spletnega mesta ter videz :ref:`odstavkov in "
+"naslovov <website/themes/paragraphs-headings>`, :ref:`gumbov <website/themes/"
+"button-styles>`, :ref:`povezav <website/themes/link-style>` in :ref:`vnosnih "
+"polj <website/themes/input-fields>`. Na voljo so tudi dodatne :ref:`napredne "
+"nastavitve <website/themes/advanced>`."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:12
 msgid ""
@@ -18922,12 +19125,18 @@ msgid ""
 "one. Click a theme to select it, or click the :guilabel:`View more themes` "
 "button to display the full list of available themes."
 msgstr ""
+"Pri prvem nastavljanju spletnega mesta morate izbrati temo. Z miško se "
+"pomaknite nad teme, da si ogledate razširjen predogled vsake. Kliknite temo, "
+"da jo izberete, ali kliknite gumb :guilabel:`View more themes`, da prikažete "
+"celoten seznam razpoložljivih tem."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:17
 msgid ""
 "If you leave without selecting a theme, the website is created with the "
 "default theme."
 msgstr ""
+"Če zapustite stran brez izbire teme, bo spletno mesto ustvarjeno s privzeto "
+"temo."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:21
 msgid ""
@@ -18935,6 +19144,8 @@ msgid ""
 "the :guilabel:`Theme` tab, and go to the :guilabel:`Website` section. You "
 "can:"
 msgstr ""
+"Za prilagoditev teme odprite urejevalnik spletnega mesta, pojdite na "
+":guilabel:`Tema` in odprite razdelek :guilabel:`Spletno mesto`. Lahko:"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:24
 msgid ""
@@ -18942,40 +19153,45 @@ msgid ""
 "over the themes to see an extended preview of each one. Click :guilabel:`Use "
 "this theme` to apply it to the website."
 msgstr ""
+"Kliknite :guilabel:`Switch Theme`, da odprete izbirnik tem. Z miško se "
+"pomaknite nad teme, da si ogledate razširjen predogled vsake. Kliknite "
+":guilabel:`Use this theme`, da jo uveljavite na spletnem mestu."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:26
 msgid "Add a :doc:`language <../configuration/multi_website>` for the website."
-msgstr ""
+msgstr "Dodajte :doc:`jezik <../configuration/multi_website>` za spletno mesto."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:27
 msgid ""
 "Select the :guilabel:`Page Layout` to change the overall display and spacing "
 "of building blocks and website elements on pages."
 msgstr ""
+"Izberite :guilabel:`Postavitev strani`, da spremenite splošni prikaz in "
+"razmik med gradniki in elementi spletnega mesta na straneh."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:29
 msgid "Customize the layout's :guilabel:`Background` by:"
-msgstr ""
+msgstr "Prilagodite :guilabel:`Ozadje` postavitve z:"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:31
 msgid "choosing a :ref:`color <website/themes/colors>`;"
-msgstr ""
+msgstr "izbiro :ref:`barve <website/themes/colors>`;"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:32
 msgid "adding an :ref:`image <website/elements/images>`;"
-msgstr ""
+msgstr "dodajanjem :ref:`slike <website/elements/images>`;"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:33
 msgid "using a selected image in a :guilabel:`Pattern`; or"
-msgstr ""
+msgstr "uporabo izbrane slike v :guilabel:`Vzorcu`; ali"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:34
 msgid "selecting :icon:`fa-ban` :guilabel:`None`."
-msgstr ""
+msgstr "izbiro :icon:`fa-ban` :guilabel:`Brez`."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:36
 msgid "Click :guilabel:`Save` to apply the changes to the website."
-msgstr ""
+msgstr "Kliknite :guilabel:`Save`, da uveljavite spremembe na spletnem mestu."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:41
 msgid "Colors"
@@ -19002,26 +19218,38 @@ msgid ""
 "mainly for buttons and links, and two :guilabel:`Light & Dark` colors, used "
 "mainly for text and headings."
 msgstr ""
+"Barve teme se nanašajo na nabor barv, prikazanih na vseh straneh spletnega "
+"mesta. Sestavljajo jih pet barv: tri :guilabel:`Glavne` barve, ki se "
+"uporabljajo predvsem za gumbe in povezave, ter dve :guilabel:`Svetli in "
+"temni` barvi, ki se uporabljata predvsem za besedilo in naslove."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:55
 msgid ""
 "To edit the website's colors, navigate to the :guilabel:`Colors` section of "
 "the :guilabel:`Theme` tab. Then:"
 msgstr ""
+"Za urejanje barv spletnega mesta pojdite v razdelek :guilabel:`Colors` "
+":guilabel:`Tematske` zavihka. Nato:"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:58
 msgid ""
 "Click the color you want to change, then select a "
 "predefined :guilabel:`Solid` color or click :guilabel:`Custom` to pick a "
 "specific color tone manually (or add its #HEX or RGBA code). Click :icon:`fa-"
-"trash` (:guilabel:`Delete`) to remove the color selection."
+"trash` (:guilabel:`Reset`) to remove the color selection."
 msgstr ""
+"Kliknite barvo, ki jo želite spremeniti, nato izberite vnaprej določeno "
+":guilabel:`Polno` barvo ali kliknite :guilabel:`Custom`, da ročno izberete "
+"določen odtenek barve (ali dodate njeno #HEX ali RGBA kodo). Kliknite "
+":icon:`fa-trash` (:guilabel:`Reset`), da odstranite izbiro barve."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:61
 msgid ""
 "Click the paint palette icon and choose a color palette. As a result, all "
 "color customizations are reset."
 msgstr ""
+"Kliknite ikono barvne palete in izberite barvno paleto. Posledično bodo vse "
+"prilagoditve barv ponastavljene."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:64
 msgid ""
@@ -19035,6 +19263,15 @@ msgid ""
 "block’s :guilabel:`Background`, :guilabel:`Text`, :guilabel:`Headings`, :guilabel:`Links`, :guilabel:`Primary "
 "Buttons`, and :guilabel:`Secondary Buttons`."
 msgstr ""
+"Odoo samodejno ustvari :guilabel:`Color Presets` za izbrane barve ali "
+"paleto. Te vnaprej določene kombinacije barv se uporabljajo za različne "
+"elemente spletnega mesta, da ustvarijo strukturiran in vizualno privlačen "
+"dizajn. Pri izbiri barvne palete njene predloge določajo, kako so barve "
+"razporejene po različnih elementih. Za njihovo spreminjanje kliknite "
+":guilabel:`Color Presets`, nato izberite predlogo, da odprete spustni meni "
+"prilagoditve. Vsaka barvna predloga vsebuje barve za :guilabel:`Background` "
+"gradnika, :guilabel:`Text`, :guilabel:`Headings`, :guilabel:`Links`, "
+":guilabel:`Primary Buttons` in :guilabel:`Secondary Buttons`."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:73
 msgid ""
@@ -19042,6 +19279,9 @@ msgid ""
 "to the :guilabel:`Style` tab, click the color dot located next "
 "to :guilabel:`Background`, and choose a :guilabel:`Theme`."
 msgstr ""
+"Za uporabo barvne predloge na gradniku izberite gradnik, pojdite na "
+":guilabel:`Slog`, kliknite barvno piko poleg :guilabel:`Background` in "
+"izberite :guilabel:`Theme`."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:78
 msgid ""
@@ -19064,20 +19304,21 @@ msgid ""
 "the :ref:`Advanced <website/themes/advanced>` section and click the dots to "
 "change their color."
 msgstr ""
-"Barve stanja označujejo stanje določenih dejanj (npr. :guilabel:`Uspešno`, "
-":guilabel:`Opozorilo` itd.). Uporabljajo se v pojavnih sporočilih, ki se "
-"prikažejo uporabnikom in obiskovalcem spletnega mesta ter jim zagotavljajo "
-"povratne informacije. Če želite prilagoditi :guilabel:`Barve stanja` "
-"spletnega mesta, se pomaknite navzdol do razdelka :ref:`Napredno <website/"
-"themes/advanced>` in kliknite pike za spremembo njihove barve."
+"Barve stanja označujejo stanje določenih dejanj "
+"(npr. :guilabel:`Uspešno`, :guilabel:`Opozorilo` itd.). Uporabljajo se v "
+"pojavnih sporočilih, ki se prikažejo uporabnikom in obiskovalcem spletnega "
+"mesta ter jim zagotavljajo povratne informacije. Če želite "
+"prilagoditi :guilabel:`Barve stanja` spletnega mesta, se pomaknite navzdol "
+"do razdelka :ref:`Napredno <website/themes/advanced>` in kliknite pike za "
+"spremembo njihove barve."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:93
 msgid ""
 "Information related to a successful action on the website appears "
 "in :icon:`oi-green-dot` green."
 msgstr ""
-"Informacije, povezane z uspešnim dejanjem na spletnem mestu, so prikazane v "
-":icon:`oi-green-dot` zeleni barvi."
+"Informacije, povezane z uspešnim dejanjem na spletnem mestu, so prikazane "
+"v :icon:`oi-green-dot` zeleni barvi."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:0
 msgid "Status color selection"
@@ -19100,8 +19341,8 @@ msgid ""
 msgstr ""
 "Odoo vam omogoča prilagoditev družine pisave in velikosti pisave elementov "
 "spletnega mesta, vključno z :ref:`odstavki in naslovi <website/themes/"
-"paragraphs-headings>`, :ref:`gumbi <website/themes/button-styles>` in "
-":ref:`vnosnimi polji <website/themes/input-fields>`."
+"paragraphs-headings>`, :ref:`gumbi <website/themes/button-styles>` "
+"in :ref:`vnosnimi polji <website/themes/input-fields>`."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:110
 msgid ""
@@ -19112,14 +19353,23 @@ msgid ""
 "more options`) icon to expand the section and define custom sizes (e.g., "
 "based on the heading level, button size, etc.)."
 msgstr ""
-":guilabel:`Velikost pisave`: V razdelkih :guilabel:`Odstavek`, "
-":guilabel:`Naslovi`, :guilabel:`Gumb` in :guilabel:`Vnosna polja` uporabite "
-"polje :guilabel:`Velikost pisave` za nastavitev privzete velikosti. Kliknite "
-"ikono :icon:`fa-caret-right` (:guilabel:`Preklopi več možnosti`), da "
-"razširite razdelek in določite velikosti po meri (npr. glede na raven "
-"naslova, velikost gumba itd.)."
+":guilabel:`Velikost pisave`: V "
+"razdelkih :guilabel:`Odstavek`, :guilabel:`Naslovi`, :guilabel:`Gumb` "
+"in :guilabel:`Vnosna polja` uporabite polje :guilabel:`Velikost pisave` za "
+"nastavitev privzete velikosti. Kliknite ikono :icon:`fa-caret-right` "
+"(:guilabel:`Preklopi več možnosti`), da razširite razdelek in določite "
+"velikosti po meri (npr. glede na raven naslova, velikost gumba itd.)."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:116
+#: ../../content/applications/websites/website/web_design/themes.rst:114
+msgid ""
+":guilabel:`Font Family`: In the :guilabel:`Paragraph`, :guilabel:`Headings`, "
+"and :guilabel:`Button` sections, select a font from the dropdown menu."
+msgstr ""
+":guilabel:`Font Family`: V "
+"razdelkih :guilabel:`Paragraph`, :guilabel:`Headings` in :guilabel:`Button` "
+"izberite pisavo iz spustnega menija."
+
+#: ../../content/applications/websites/website/web_design/themes.rst:118
 msgid ""
 "When :guilabel:`System Fonts` is selected, Odoo uses the native fonts "
 "already installed on the visitor's operating system. For example, Android "
@@ -19129,20 +19379,11 @@ msgstr ""
 "pisave, ki so že nameščene v operacijskem sistemu obiskovalca. Na primer, "
 "Android kot privzeto sistemsko pisavo uporablja **Roboto**."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:119
-msgid ""
-":guilabel:`Font Family`: In the :guilabel:`Paragraph`, :guilabel:`Headings`, "
-"and :guilabel:`Button` sections, select a font from the dropdown menu."
-msgstr ""
-":guilabel:`Font Family`: V "
-"razdelkih :guilabel:`Paragraph`, :guilabel:`Headings` in :guilabel:`Button` "
-"izberite pisavo iz spustnega menija."
-
-#: ../../content/applications/websites/website/web_design/themes.rst:123
+#: ../../content/applications/websites/website/web_design/themes.rst:122
 msgid "Custom fonts"
 msgstr "Pisave po meri"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:125
+#: ../../content/applications/websites/website/web_design/themes.rst:124
 msgid ""
 "To add a custom font not available by default in Odoo, click "
 "the :guilabel:`Font Family` dropdown and select :guilabel:`Add a Custom "
@@ -19154,7 +19395,7 @@ msgstr ""
 "pisavo po meri`. V pojavnem oknu :guilabel:`Dodaj pisavo Google ali naloži "
 "pisavo po meri`:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:129
+#: ../../content/applications/websites/website/web_design/themes.rst:128
 msgid ""
 "To add a Google font, open the :guilabel:`Select a Google Font` dropdown and "
 "select the desired font. Toggle off the :guilabel:`Serve font from Google "
@@ -19170,29 +19411,29 @@ msgstr ""
 "Evropske unije. Tako bo zagotovljeno, da se pisava Google shrani na strežnik "
 "spletnega mesta in ne na strežnike Googla."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:134
+#: ../../content/applications/websites/website/web_design/themes.rst:133
 msgid ""
 "To upload a :guilabel:`Custom Font` from your computer, "
 "click :guilabel:`Choose File`."
 msgstr ""
-"Če želite naložiti :guilabel:`Pisavo po meri` iz računalnika, kliknite "
-":guilabel:`Izberi datoteko`."
+"Če želite naložiti :guilabel:`Pisavo po meri` iz računalnika, "
+"kliknite :guilabel:`Izberi datoteko`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:136
+#: ../../content/applications/websites/website/web_design/themes.rst:135
 msgid "Once done, click :guilabel:`Save and Reload`."
 msgstr "Ko končate, kliknite :guilabel:`Shrani in ponovno naloži`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:139
+#: ../../content/applications/websites/website/web_design/themes.rst:138
 msgid ""
 "A :guilabel:`Preview` of the selected font is displayed on the right side of "
 "the window."
 msgstr ":guilabel:`Predogled` izbrane pisave je prikazan na desni strani okna."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:142
+#: ../../content/applications/websites/website/web_design/themes.rst:141
 msgid "Styles"
 msgstr "Slogi"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:144
+#: ../../content/applications/websites/website/web_design/themes.rst:143
 msgid ""
 "The appearance of website elements can be further customized. For example, "
 "you can customize :ref:`paragraphs and headings <website/themes/paragraphs-"
@@ -19206,11 +19447,11 @@ msgstr ""
 "<website/themes/link-style>` in :ref:`vnosna polja <website/themes/input-"
 "fields>`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:152
+#: ../../content/applications/websites/website/web_design/themes.rst:151
 msgid "Paragraphs & headings"
 msgstr "Odstavki in naslovi"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:154
+#: ../../content/applications/websites/website/web_design/themes.rst:153
 msgid ""
 "The :guilabel:`Paragraph` and :guilabel:`Headings` sections offer additional "
 "styling options for these text elements. You can:"
@@ -19218,13 +19459,13 @@ msgstr ""
 "Razdelka :guilabel:`Odstavek` in :guilabel:`Naslovi` ponujata dodatne "
 "možnosti oblikovanja za te besedilne elemente. Lahko:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:157
-#: ../../content/applications/websites/website/web_design/themes.rst:174
-#: ../../content/applications/websites/website/web_design/themes.rst:208
+#: ../../content/applications/websites/website/web_design/themes.rst:156
+#: ../../content/applications/websites/website/web_design/themes.rst:173
+#: ../../content/applications/websites/website/web_design/themes.rst:207
 msgid "Modify the :ref:`font settings <website/themes/fonts>`."
 msgstr "Spremenite :ref:`nastavitve pisave <website/themes/fonts>`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:158
+#: ../../content/applications/websites/website/web_design/themes.rst:157
 msgid ""
 "Adjust the :guilabel:`Line Height` to define the spacing between lines of "
 "text."
@@ -19232,7 +19473,7 @@ msgstr ""
 "Prilagodite :guilabel:`Višino vrstice`, da določite razmik med vrsticami "
 "besedila."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:159
+#: ../../content/applications/websites/website/web_design/themes.rst:158
 msgid ""
 "Adjust :guilabel:`Margins` to define the spacing around paragraphs and "
 "headings."
@@ -19240,7 +19481,7 @@ msgstr ""
 "Prilagodite :guilabel:`Robove`, da določite razmik okoli odstavkov in "
 "naslovov."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:166
+#: ../../content/applications/websites/website/web_design/themes.rst:165
 msgid ""
 "To customize the style of the website's primary and secondary buttons, "
 "navigate to the :guilabel:`Button` section and edit the relevant options:"
@@ -19248,7 +19489,7 @@ msgstr ""
 "Če želite prilagoditi slog primarnih in sekundarnih gumbov spletnega mesta, "
 "se pomaknite do razdelka :guilabel:`Gumb` in uredite ustrezne možnosti:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:169
+#: ../../content/applications/websites/website/web_design/themes.rst:168
 msgid ""
 "Open the :icon:`fa-caret-down` dropdown menu next to the :guilabel:`Primary "
 "Style` or :guilabel:`Secondary Style` fields to change the style for each "
@@ -19259,19 +19500,19 @@ msgid ""
 msgstr ""
 "Odprite spustni meni :icon:`fa-caret-down` poleg polj :guilabel:`Primarni "
 "slog` ali :guilabel:`Sekundarni slog`, da spremenite slog za vsako vrsto "
-"gumba, kot je :guilabel:`Zapolni`, :guilabel:`Obroba` ali "
-":guilabel:`Plosko`. Ko izberete :guilabel:`Obroba`, se spodaj prikaže "
+"gumba, kot je :guilabel:`Zapolni`, :guilabel:`Obroba` "
+"ali :guilabel:`Plosko`. Ko izberete :guilabel:`Obroba`, se spodaj prikaže "
 "možnost :guilabel:`Širina obrobe`, ki omogoča prilagoditev širine obrobe "
 "gumba."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:175
+#: ../../content/applications/websites/website/web_design/themes.rst:174
 msgid ""
 "Adjust the :guilabel:`Padding` to change the spacing around the buttons' "
 "labels."
 msgstr ""
 "Prilagodite :guilabel:`Padding`, da spremenite razmik okoli oznak gumbov."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:176
+#: ../../content/applications/websites/website/web_design/themes.rst:175
 msgid ""
 "Use the :guilabel:`Round Corners` option to adjust the buttons' border "
 "radius."
@@ -19279,7 +19520,7 @@ msgstr ""
 "Uporabite možnost :guilabel:`Round Corners`, da prilagodite polmer robov "
 "gumbov."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:177
+#: ../../content/applications/websites/website/web_design/themes.rst:176
 msgid ""
 "Add an animation when a button is clicked in the :guilabel:`On Click Effect` "
 "dropdown menu."
@@ -19291,7 +19532,7 @@ msgstr ""
 msgid "Primary and secondary buttons"
 msgstr "Primarni in sekundarni gumbi"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:183
+#: ../../content/applications/websites/website/web_design/themes.rst:182
 msgid ""
 "To define custom :guilabel:`Small` and :guilabel:`Large` sizes for the "
 "buttons' :guilabel:`Padding`, :guilabel:`Font Size`, and :guilabel:`Round "
@@ -19303,53 +19544,53 @@ msgstr ""
 "gumbov, kliknite ikono :icon:`fa-caret-right` (:guilabel:`Toggle more "
 "options`) in nato uporabite zadevna polja."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:192
+#: ../../content/applications/websites/website/web_design/themes.rst:191
 msgid ""
 "In the :guilabel:`Link` section, open the :icon:`fa-caret-down` dropdown "
 "menu next to :guilabel:`Link Style` to choose the appearance of links on the "
 "website. You can choose between:"
 msgstr ""
-"V razdelku :guilabel:`Link` odprite spustni meni :icon:`fa-caret-down` poleg "
-":guilabel:`Link Style`, da izberete videz povezav na spletnem mestu. "
+"V razdelku :guilabel:`Link` odprite spustni meni :icon:`fa-caret-down` "
+"poleg :guilabel:`Link Style`, da izberete videz povezav na spletnem mestu. "
 "Izbirate lahko med:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:195
+#: ../../content/applications/websites/website/web_design/themes.rst:194
 msgid ":guilabel:`No Underline`;"
 msgstr ":guilabel:`No Underline`;"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:196
+#: ../../content/applications/websites/website/web_design/themes.rst:195
 msgid ":guilabel:`Underline On Hover`; or"
 msgstr ":guilabel:`Underline On Hover`; ali"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:197
+#: ../../content/applications/websites/website/web_design/themes.rst:196
 msgid ":guilabel:`Always Underline`."
 msgstr ":guilabel:`Always Underline`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:202
+#: ../../content/applications/websites/website/web_design/themes.rst:201
 msgid "Input fields"
 msgstr "Vnosna polja"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:204
+#: ../../content/applications/websites/website/web_design/themes.rst:203
 msgid ""
 "To customize the style of the website's input fields, navigate to "
 "the :guilabel:`Input Fields` section and edit the relevant options:"
 msgstr ""
-"Če želite prilagoditi slog vnosnih polj spletnega mesta, pojdite v razdelek "
-":guilabel:`Input Fields` in uredite ustrezne možnosti:"
+"Če želite prilagoditi slog vnosnih polj spletnega mesta, pojdite v "
+"razdelek :guilabel:`Input Fields` in uredite ustrezne možnosti:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:207
+#: ../../content/applications/websites/website/web_design/themes.rst:206
 msgid "Adjust the :guilabel:`Padding` to change the spacing around the fields."
 msgstr "Prilagodite :guilabel:`Padding`, da spremenite razmik okoli polj."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:209
+#: ../../content/applications/websites/website/web_design/themes.rst:208
 msgid "Customize the :guilabel:`Border Width` around fields."
 msgstr "Prilagodite :guilabel:`Border Width` okoli polj."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:210
+#: ../../content/applications/websites/website/web_design/themes.rst:209
 msgid "Define a :guilabel:`Border Radius` to round the fields' corners."
 msgstr "Določite :guilabel:`Border Radius`, da zaokrožite vogale polj."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:211
+#: ../../content/applications/websites/website/web_design/themes.rst:210
 msgid ""
 "Choose a :guilabel:`Background` :ref:`color <website/themes/colors>` to fill "
 "the fields."
@@ -19357,11 +19598,11 @@ msgstr ""
 "Izberite :guilabel:`Background` :ref:`barvo <website/themes/colors>`, da "
 "zapolnite polja."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:216
+#: ../../content/applications/websites/website/web_design/themes.rst:215
 msgid "Advanced settings"
 msgstr "Napredne nastavitve"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:218
+#: ../../content/applications/websites/website/web_design/themes.rst:217
 msgid ""
 "Additional settings can be configured in the :guilabel:`Advanced` section, "
 "such as :doc:`showing or hiding the header <../structure/header_footer>`, "
@@ -19373,10 +19614,11 @@ msgstr ""
 "Dodatne nastavitve je mogoče konfigurirati v razdelku :guilabel:`Advanced`, "
 "kot so :doc:`prikaz ali skrivanje glave <../structure/header_footer>`, "
 "uporaba :guilabel:`Code Injection` za :ref:`preverjanje spletnega mesta prek "
-"oznake HTML <website/google_search_console/HTML-tag>` ter konfiguriranje "
-":ref:`barv stanja <website/themes/status-colors>` in :guilabel:`Grays`."
+"oznake HTML <website/google_search_console/HTML-tag>` ter "
+"konfiguriranje :ref:`barv stanja <website/themes/status-colors>` "
+"in :guilabel:`Grays`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:223
+#: ../../content/applications/websites/website/web_design/themes.rst:222
 msgid ""
 "You can also configure Google Maps to display maps and enable geolocation "
 "features on the website, e.g., on the :guilabel:`Contact Us` page and in "
@@ -19386,7 +19628,7 @@ msgstr ""
 "funkcije geolokacije na spletnem mestu, npr. na strani :guilabel:`Contact "
 "Us` in v določenih delčkih. Za konfiguracijo te možnosti:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:227
+#: ../../content/applications/websites/website/web_design/themes.rst:226
 msgid ""
 "Go to your `Google account <https://console.cloud.google.com/getting-"
 "started>`_."
@@ -19394,7 +19636,7 @@ msgstr ""
 "Pojdite na svoj `račun Google <https://console.cloud.google.com/getting-"
 "started>`_."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:228
+#: ../../content/applications/websites/website/web_design/themes.rst:227
 msgid ""
 ":ref:`Enable <address_autocomplete/enable-api>` the :guilabel:`Maps Static "
 "API`, :guilabel:`Maps JavaScript API`, and :guilabel:`Places API`."
@@ -19402,13 +19644,13 @@ msgstr ""
 ":ref:`Omogočite <address_autocomplete/enable-api>` :guilabel:`Maps Static "
 "API`, :guilabel:`Maps JavaScript API` in :guilabel:`Places API`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:232
+#: ../../content/applications/websites/website/web_design/themes.rst:231
 msgid ""
 "Do not enable :guilabel:`Places API (New)`, as it is not yet supported by "
 "Odoo."
 msgstr "Ne omogočite :guilabel:`Places API (New)`, saj ga Odoo še ne podpira."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:233
+#: ../../content/applications/websites/website/web_design/themes.rst:232
 msgid ""
 "Using the Google APIs could require `payment to Google <https://"
 "mapsplatform.google.com/pricing/>`_."
@@ -19416,24 +19658,24 @@ msgstr ""
 "Uporaba API-jev Google lahko zahteva `plačilo Googlu <https://"
 "mapsplatform.google.com/pricing/>`_."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:236
+#: ../../content/applications/websites/website/web_design/themes.rst:235
 msgid ""
 ":ref:`Create an API key <address_autocomplete/generate_api_key>` and copy it."
 msgstr ""
 ":ref:`Ustvarite ključ API <address_autocomplete/generate_api_key>` in ga "
 "kopirajte."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:237
+#: ../../content/applications/websites/website/web_design/themes.rst:236
 msgid ""
 "In Odoo's website editor, go to the :guilabel:`Theme` tab, and, in "
 "the :guilabel:`Advanced` section, click :guilabel:`Custom Key` next "
 "to :guilabel:`Google Map`."
 msgstr ""
 "V urejevalniku spletne strani Odoo pojdite na zavihek :guilabel:`Tema` in v "
-"razdelku :guilabel:`Napredno` kliknite :guilabel:`Ključ po meri` poleg "
-":guilabel:`Google Map`."
+"razdelku :guilabel:`Napredno` kliknite :guilabel:`Ključ po meri` "
+"poleg :guilabel:`Google Map`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:239
+#: ../../content/applications/websites/website/web_design/themes.rst:238
 msgid "Paste the generated API key into the :guilabel:`API Key` field."
 msgstr "Prilepite ustvarjeni ključ API v polje :guilabel:`Ključ API`."
 
@@ -19658,6 +19900,785 @@ msgid ""
 msgstr ""
 "Bloki in elementi z nastavitvami vidnosti po meri, prikazani na dnu "
 "urejevalnika"
+
+#: ../../content/applications/websites/website/website_creation.rst:5
+msgid ""
+"Odoo Website enables you to create and customize a website for presenting "
+"information, or integrating an :doc:`online shop <../"
+"ecommerce>`, :doc:`eLearning platform <../elearning>`, :doc:`forum <../"
+"forum>`, and/or :doc:`blog <../blog>`. You can either :ref:`create a new "
+"website <website_creation/create>` or :ref:`import an existing one "
+"<website_creation/import>`."
+msgstr ""
+"Spletna stran Odoo vam omogoča ustvarjanje in prilagajanje spletne strani za "
+"predstavitev informacij ali integracijo :doc:`spletne trgovine <../ecommerce>"
+"`, :doc:`platforme e-učenja <../elearning>`, :doc:`foruma <../forum>` in/ali "
+":doc:`bloga <../blog>`. Lahko :ref:`ustvarite novo spletno stran "
+"<website_creation/create>` ali :ref:`uvozite obstoječo <website_creation/"
+"import>`."
+
+#: ../../content/applications/websites/website/website_creation.rst:13
+msgid "Create a new website"
+msgstr "Ustvari novo spletno stran"
+
+#: ../../content/applications/websites/website/website_creation.rst:17
+msgid ""
+"After installing the **Website** app, Odoo prompts you to use its 4-step "
+"website builder to create the website. You can:"
+msgstr ""
+"Po namestitvi aplikacije **Spletna stran** vas Odoo pozove, da uporabite "
+"njegov 4-stopenjski gradnik spletne strani za ustvarjanje spletne strani. "
+"Lahko:"
+
+#: ../../content/applications/websites/website/website_creation.rst:20
+msgid "Define the purpose of your website."
+msgstr "Določite namen vaše spletne strani."
+
+#: ../../content/applications/websites/website/website_creation.rst:21
+msgid ""
+":guilabel:`Choose a Color Palette` or :icon:`fa-cloud-"
+"upload` :guilabel:`Upload` a logo to detect a matching color scheme and "
+"generate a brand style accordingly."
+msgstr ""
+":guilabel:`Izberite barvno paleto` ali :icon:`fa-cloud-upload` "
+":guilabel:`Naložite` logotip za zaznavanje ujemajoče se barvne sheme in "
+"ustvarjanje sloga blagovne znamke v skladu s tem."
+
+#: ../../content/applications/websites/website/website_creation.rst:23
+msgid ""
+":guilabel:`Add Pages and Features`, such as an :doc:`online shop <../"
+"ecommerce>` or :doc:`events </applications/marketing/events>` page."
+msgstr ""
+":guilabel:`Dodajte strani in funkcije`, kot so stran :doc:`spletne trgovine "
+"<../ecommerce>` ali :doc:`dogodkov </applications/marketing/events>`."
+
+#: ../../content/applications/websites/website/website_creation.rst:25
+msgid ""
+":guilabel:`Choose your favorite Theme`. You can still change "
+"and :doc:`customize <web_design/themes>` it later."
+msgstr ""
+":guilabel:`Izberite svojo najljubšo temo`. Spremenite in jo "
+":doc:`prilagodite <web_design/themes>` kasneje."
+
+#: ../../content/applications/websites/website/website_creation.rst:28
+msgid ""
+"If you prefer to bypass this setup, click the :guilabel:`Skip and start from "
+"scratch` link."
+msgstr ""
+"Če želite preskočiti to namestitev, kliknite povezavo :guilabel:`Preskoči in "
+"začni od začetka`."
+
+#: ../../content/applications/websites/website/website_creation.rst:31
+msgid ""
+"Starting from scratch results in a blank website without a predefined design "
+"or content."
+msgstr ""
+"Začetek od začetka rezultira v prazni spletni strani brez vnaprej določene "
+"zasnove ali vsebine."
+
+#: ../../content/applications/websites/website/website_creation.rst:33
+msgid "To create an additional website, follow these steps:"
+msgstr "Za ustvarjanje dodatne spletne strani sledite tem korakom:"
+
+#: ../../content/applications/websites/website/website_creation.rst:35
+#: ../../content/applications/websites/website/website_creation.rst:83
+msgid "Navigate to :menuselection:`Website --> Configuration --> Settings`."
+msgstr ""
+"Pojdite na :menuselection:`Spletna stran --> Konfiguracija --> Nastavitve`."
+
+#: ../../content/applications/websites/website/website_creation.rst:36
+msgid "In the settings banner, click :icon:`fa-plus` :guilabel:`New Website`."
+msgstr ""
+"V prilogi nastavitev kliknite :icon:`fa-plus` :guilabel:`Nova spletna stran`."
+
+#: ../../content/applications/websites/website/website_creation.rst:37
+msgid "In the :guilabel:`Add Website` pop-up window:"
+msgstr "V pojavnem oknu :guilabel:`Dodaj spletno stran`:"
+
+#: ../../content/applications/websites/website/website_creation.rst:39
+msgid "Enter a :guilabel:`Website Name`."
+msgstr "Vnesite :guilabel:`Ime spletne strani`."
+
+#: ../../content/applications/websites/website/website_creation.rst:40
+msgid ""
+"Fill in the :doc:`Website Domain <configuration/domain_names>`, if "
+"applicable."
+msgstr ""
+"Izpolnite :doc:`Domeno spletne strani <configuration/domain_names>`, če "
+"ustreza."
+
+#: ../../content/applications/websites/website/website_creation.rst:41
+msgid ""
+"In a :doc:`multi-company environment </applications/general/companies/"
+"multi_company>`, select a :guilabel:`Company`."
+msgstr ""
+"V :doc:`večpodjetniškem okolju </applications/general/companies/"
+"multi_company>` izberite :guilabel:`Podjetje`."
+
+#: ../../content/applications/websites/website/website_creation.rst:43
+msgid ""
+"In a :doc:`multilingual environment <configuration/translate>`, select the "
+"relevant :guilabel:`Languages` and define a :guilabel:`Default Language`."
+msgstr ""
+"V :doc:`večjezičnem okolju <configuration/translate>` izberite ustrezne "
+":guilabel:`Jezike` in določite :guilabel:`Privzeti jezik`."
+
+#: ../../content/applications/websites/website/website_creation.rst:47
+msgid "Languages already installed in the database are selected automatically."
+msgstr "Jeziki, ki so že nameščeni v bazi podatkov, so izbrani samodejno."
+
+#: ../../content/applications/websites/website/website_creation.rst:50
+msgid ""
+"Use the :ref:`website builder <website_creation/website-builder>` to "
+"complete the setup."
+msgstr ""
+"Za dokončanje namestitve uporabite :ref:`gradnik spletne strani "
+"<website_creation/website-builder>`."
+
+#: ../../content/applications/websites/website/website_creation.rst:55
+msgid "Import an existing website"
+msgstr "Uvoz obstoječe spletne strani"
+
+#: ../../content/applications/websites/website/website_creation.rst:58
+msgid ""
+"The website import tool is available only with an `Odoo Enterprise "
+"subscription <https://www.odoo.com/page/editions>`_."
+msgstr ""
+"Orodje za uvoz spletne strani je na voljo samo z `naročnino Odoo Enterprise "
+"<https://www.odoo.com/page/editions>`_."
+
+#: ../../content/applications/websites/website/website_creation.rst:61
+msgid ""
+"The website import tool is a website scraper that searches for the specified "
+"website and analyzes it. It then uses custom AI models to rebuild it as an "
+"Odoo website. The extraction is performed page by page, preserving the "
+"original website's structure and content. Images, the sitemap, "
+"the :doc:`header, and the footer <structure/header_footer>` are also "
+"imported. Optionally, :doc:`product data <../ecommerce/configuration/"
+"products>` can also be extracted. The tool converts pages into standard "
+"Odoo :doc:`building blocks <web_design/building_blocks>`, making the "
+"imported website fully editable in Odoo."
+msgstr ""
+"Orodje za uvoz spletne strani je program za strganje spletne strani, ki išče "
+"določeno spletno stran in jo analizira. Nato uporabi prilagojene modele "
+"umetne inteligence za njeno ponovno izgradnjo kot spletno stran Odoo. "
+"Izvajanje poteka stran za stran, pri čemer se ohrani struktura in vsebina "
+"izvirne spletne strani. Slike, zemljevid spletnega mesta, :doc:`glava in "
+"noga <structure/header_footer>` se prav tako uvozijo. Po želji se lahko "
+"izvlečejo tudi :doc:`podatki o izdelkih <../ecommerce/configuration/products>"
+"`. Orodje pretvori strani v standardne :doc:`gradbene bloke <web_design/"
+"building_blocks>` Odoo, kar omogoča popolno urejanje uvožene spletne strani "
+"v Odoo."
+
+#: ../../content/applications/websites/website/website_creation.rst:70
+msgid ""
+"The imported website is not an exact replica of the original. Manual "
+"adjustments to layout, styling, or content may be needed after import."
+msgstr ""
+"Uvožena spletna stran ni točna kopija izvirne. Po uvozu so morda potrebne "
+"ročne prilagoditve postavitve, sloga ali vsebine."
+
+#: ../../content/applications/websites/website/website_creation.rst:74
+msgid ""
+"By using this tool, you confirm that you own the website and all its "
+"associated content (such as images), and that you take full responsibility "
+"for their use and any potential legal implications."
+msgstr ""
+"Z uporabo tega orodja potrjujete, da ste lastnik spletne strani in vse njene "
+"povezane vsebine (kot so slike), ter da prevzamete polno odgovornost za "
+"njihovo uporabo morebitne pravne posledice."
+
+#: ../../content/applications/websites/website/website_creation.rst:77
+msgid ""
+"For the best results, ensure your database is up to date with the latest "
+"version of Odoo."
+msgstr ""
+"Za najboljše rezultate zagotovite, da je vaša baza podatkov posodobljena z "
+"najnovejšo različico Odoo."
+
+#: ../../content/applications/websites/website/website_creation.rst:78
+msgid ""
+"Do not edit the website during the import process. Importing data overwrites "
+"the content of the website currently being edited, potentially resulting in "
+"the loss of unsaved changes."
+msgstr ""
+"Ne urejajte spletne strani med postopkom uvoza. Uvoz podatkov prepiše "
+"vsebino trenutno urejene spletne strani, kar lahko povzroči izgubo "
+"neshranjenih sprememb."
+
+#: ../../content/applications/websites/website/website_creation.rst:81
+msgid "To import your current website, follow these steps:"
+msgstr "Za uvoz vaše trenutne spletne strani sledite tem korakom:"
+
+#: ../../content/applications/websites/website/website_creation.rst:84
+msgid ""
+"In the settings banner, click :icon:`fa-plus` :guilabel:`Import Website`."
+msgstr ""
+"V prilogi nastavitev kliknite :icon:`fa-plus` :guilabel:`Uvozi spletno "
+"stran`."
+
+#: ../../content/applications/websites/website/website_creation.rst:85
+msgid ""
+"On the :guilabel:`Import your Pages and Products` page, enter "
+"the :guilabel:`Website URL` (e.g., `https://www.example.com`)."
+msgstr ""
+"Na strani :guilabel:`Uvozite svoje strani in izdelke` vnesite :guilabel:`URL "
+"spletne strani` (npr. `https://www.example.com`)."
+
+#: ../../content/applications/websites/website/website_creation.rst:87
+msgid ""
+"When running an online shop, ensure the :guilabel:`Import Products` option "
+"is enabled to extract product data."
+msgstr ""
+"Pri upravljanju spletne trgovine zagotovite, da je možnost :guilabel:`Uvozi "
+"izdelke` omogočena za izvlečenje podatkov o izdelkih."
+
+#: ../../content/applications/websites/website/website_creation.rst:89
+msgid "To submit the request, click :guilabel:`Import my website`."
+msgstr "Za oddajo zahtevka kliknite :guilabel:`Uvozi mojo spletno stran`."
+
+#: ../../content/applications/websites/website/website_creation.rst:91
+msgid ""
+"Once the import is complete, you will receive an email or a notification "
+"confirming that your Odoo website is ready. You can then further customize "
+"the website using the :doc:`website editor <web_design>`."
+msgstr ""
+"Ko bo uvoz zaključen, boste prejeli e-poštno sporočilo ali obvestilo, ki "
+"potrjuje, da je vaša spletna stran Odoo pripravljena. Nato lahko nadalje "
+"prilagajate spletno stran z uporabo :doc:`urejevalnika spletnih strani "
+"<web_design>`."
+
+#: ../../content/applications/websites/website/website_creation.rst:96
+msgid "Blogs cannot be imported."
+msgstr "Blogov ni mogoče uvoziti."
+
+#: ../../content/applications/websites/website/website_creation.rst:97
+msgid "You can import up to **100** pages by default."
+msgstr "Privzeto lahko uvozite do **100** strani."
+
+#: ../../content/applications/websites/website/website_creation.rst:98
+msgid ""
+"Importing products automatically installs the :doc:`eCommerce app <../"
+"ecommerce>` if it is not already installed."
+msgstr ""
+"Uvoz izdelkov samodejno namesti :doc:`aplikacijo eCommerce <../ecommerce>`, "
+"če ta še ni nameščena."
+
+#: ../../content/applications/websites/website/website_creation.rst:100
+msgid ""
+"It is **not** possible to import products using the website import tool "
+"*without* importing the website."
+msgstr ""
+"**Ni** mogoče uvoziti izdelkov z uporabo orodja za uvoz spletne strani "
+"*brez* uvoza spletne strani."
+
+#: ../../content/applications/websites/website/website_creation.rst:102
+msgid ""
+"The tool supports importing up to **20** products. For larger product "
+"catalogs, :doc:`use a .csv file </applications/sales/sales/products_prices/"
+"products/import>`."
+msgstr ""
+"Orodje podpira uvoz do **20** izdelkov. Za večje kataloge izdelkov "
+":doc:`uporabite datoteko .csv </applications/sales/sales/products_prices/"
+"products/import>`."
+
+#: ../../content/applications/websites/website/website_creation.rst:104
+msgid ""
+"Product extraction is supported only for e-commerce websites that expose "
+"product data through the `Shopify <https://www.shopify.com/>`_ public API or "
+"one of the following metadata schemes:"
+msgstr ""
+"Izvlečenje izdelkov je podprto samo za spletne strani e-trgovine, ki "
+"razkrivajo podatke o izdelkih prek javnega API-ja `Shopify <https://"
+"www.shopify.com/>`_ ali ene od naslednjih shem metapodatkov:"
+
+#: ../../content/applications/websites/website/website_creation.rst:107
+msgid "JSON-LD"
+msgstr "JSON-LD"
+
+#: ../../content/applications/websites/website/website_creation.rst:108
+msgid "RDFa"
+msgstr "RDFa"
+
+#: ../../content/applications/websites/website/website_creation.rst:109
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: ../../content/applications/websites/website/website_creation.rst:110
+msgid "Microdata"
+msgstr "Microdata"
+
+#: ../../content/applications/websites/website/website_creation.rst:113
+msgid ""
+"Use the `Website Import Tool trial <https://www.odoo.com/fr_FR/page/"
+"startwebsite>`_ to test the website import feature by importing up to 10 "
+"pages from the original website into a trial database."
+msgstr ""
+"Uporabite `poskusno različico orodja za uvoz spletnih strani <https://"
+"www.odoo.com/fr_FR/page/startwebsite>`_ za preizkus funkcije uvoza spletnih "
+"strani z uvozom do 10 strani iz izvirne spletne strani v poskusno bazo "
+"podatkov."
+
+#: ../../content/applications/websites/website/website_creation.rst:116
+msgid ""
+"Ensure the original website is publicly accessible and not protected "
+"by :ref:`Cloudflare <website/spam_protection/cloudflare-turnstile>` or other "
+"anti-bot mechanisms."
+msgstr ""
+"Zagotovite, da je izvirna spletna stran javno dostopna in ni zaščitena z "
+":ref:`Cloudflare <website/spam_protection/cloudflare-turnstile>` ali drugimi "
+"mehanizmi za zaščito pred boti."
+
+#: ../../content/applications/websites/website/website_creation.rst:120
+msgid ":doc:`configuration/multi_website`"
+msgstr ":doc:`configuration/multi_website`"
+
+#~ msgid ""
+#~ "The :ref:`website footer <website/header_footer/footer-design>` can also "
+#~ "be configured to use the e-commerce-specific template. Then, add the "
+#~ "relevant :ref:`links <website/elements/links>`, and adapt the footer's "
+#~ "text and layout as needed in the website editor. The :doc:`available "
+#~ "payment methods </applications/finance/payment_providers>` are also shown "
+#~ "in this footer. To adapt their display, go to the :guilabel:`Supported "
+#~ "Payment Methods` section in the website editor."
+#~ msgstr ""
+#~ ":ref:`Noga spletne strani <website/header_footer/footer-design>` je lahko "
+#~ "prav tako konfigurirana za uporabo predloge, specifične za e-trgovino. "
+#~ "Nato dodajte ustrezne :ref:`povezave <website/elements/links>` in "
+#~ "prilagodite besedilo in postavitev noge po potrebi v urejevalniku spletne "
+#~ "strani. V tej nogi so prikazani tudi :doc:`razpoložljivi načini plačila </"
+#~ "applications/finance/payment_providers>`. Za prilagoditev njihovega "
+#~ "prikaza pojdite na razdelek :guilabel:`Podprti načini plačila` v "
+#~ "urejevalniku spletne strani."
+
+#~ msgid ""
+#~ "The website header is the top section of a web page and usually contains "
+#~ "elements such as the logo, the :ref:`menu <website/header_footer/header-"
+#~ "content>`, the search bar, the sign-in/customer account button, etc. The "
+#~ "footer is displayed at the bottom of a web page and usually contains "
+#~ "information such as contact details, links, legal notices, and other "
+#~ "options."
+#~ msgstr ""
+#~ "Glava spletnega mesta je zgornji del spletne strani in običajno vsebuje "
+#~ "elemente, kot so logotip, :ref:`meni <website/header_footer/header-"
+#~ "content>`, iskalna vrstica, gumb za prijavo/račun stranke itd. Noga je "
+#~ "prikazana na dnu spletne strani in običajno vsebuje informacije, kot so "
+#~ "kontaktni podatki, povezave, pravna obvestila in druge možnosti."
+
+#~ msgid "Header design"
+#~ msgstr "Oblika glave"
+
+#~ msgid ""
+#~ "To modify the header's design, click on :guilabel:`Edit`, then click on "
+#~ "the header. The following options are available in the :guilabel:`Header` "
+#~ "section of the :guilabel:`Customize` tab in the website editor:"
+#~ msgstr ""
+#~ "Za spreminjanje oblike glave kliknite :guilabel:`Uredi`, nato kliknite na "
+#~ "glavo. V razdelku :guilabel:`Glava` zavihka :guilabel:`Prilagodi` "
+#~ "urejevalnika spletnega mesta so na voljo naslednje možnosti:"
+
+#~ msgid ""
+#~ "Select :guilabel:`Background` settings to change the color palette "
+#~ "through different :ref:`Theme styles <website/themes/theme-"
+#~ "colors>`, :guilabel:`Custom` color options, and :guilabel:`Gradient` ones."
+#~ msgstr ""
+#~ "Izberite nastavitve :guilabel:`Ozadja`, da spremenite barvno paleto prek "
+#~ "različnih :ref:`slogov teme <website/themes/theme-"
+#~ "colors>`, :guilabel:`barvnih možnosti po meri` in :guilabel:`možnosti "
+#~ "preliva`."
+
+#~ msgid ""
+#~ "When adding a :guilabel:`Border` to the header, its size, style, and "
+#~ "color can be defined."
+#~ msgstr ""
+#~ "Pri dodajanju :guilabel:`obrobe` glavi lahko določite njeno velikost, "
+#~ "slog in barvo."
+
+#~ msgid "Add a :guilabel:`Scroll Effect`. Hover on an effect to preview it."
+#~ msgstr ""
+#~ "Dodajte :guilabel:`učinek pomikanja`. Za predogled učinka premaknite "
+#~ "kazalec nanj."
+
+#~ msgid ""
+#~ "Choose the :guilabel:`Header Position` "
+#~ "between :guilabel:`Regular`, :guilabel:`Hidden`, and :guilabel:`Over The "
+#~ "Content`. When :guilabel:`Over The Content` is selected, you can "
+#~ "customize the :guilabel:`Background` and :guilabel:`Text Color`."
+#~ msgstr ""
+#~ "Izberite :guilabel:`položaj glave` "
+#~ "med :guilabel:`običajnim`, :guilabel:`skritim` in :guilabel:`nad "
+#~ "vsebino`. Ko je izbrano :guilabel:`nad vsebino`, lahko "
+#~ "prilagodite :guilabel:`ozadje` in :guilabel:`barvo besedila`."
+
+#~ msgid ""
+#~ "Show or hide :guilabel:`Elements` such as text, the search "
+#~ "bar, :guilabel:`Sign in` button, social media links, :guilabel:`Contact "
+#~ "us` button, and logo."
+#~ msgstr ""
+#~ "Prikažite ali skrijte :guilabel:`elemente`, kot so besedilo, iskalna "
+#~ "vrstica, gumb :guilabel:`Prijava`, povezave družbenih medijev, "
+#~ "gumb :guilabel:`Kontaktirajte nas` in logotip."
+
+#~ msgid "To finalize changes, click on :guilabel:`Save`."
+#~ msgstr "Za dokončanje sprememb kliknite :guilabel:`Shrani`."
+
+#~ msgid ""
+#~ "To hide the header, click on :guilabel:`Edit`, click on the header, and "
+#~ "go to the :guilabel:`Theme` tab of the website editor. Scroll down to "
+#~ "the :guilabel:`Advanced` section and toggle the :guilabel:`Show Header` "
+#~ "switch to hide/show the header."
+#~ msgstr ""
+#~ "Za skrivanje glave kliknite :guilabel:`Uredi`, kliknite na glavo in "
+#~ "pojdite na zavihek :guilabel:`Tema` urejevalnika spletnega mesta. "
+#~ "Pomaknite se navzdol do razdelka :guilabel:`Napredno` in preklopite "
+#~ "stikalo :guilabel:`Prikaži glavo`, da skrijete/prikažete glavo."
+
+#~ msgid ""
+#~ "Menus organize the header’s content and help users navigate through web "
+#~ "pages effectively. User-friendly and well-structured menus also play a "
+#~ "crucial role in improving :doc:`search engine rankings <seo>`."
+#~ msgstr ""
+#~ "Meniji organizirajo vsebino glave in uporabnikom pomagajo učinkovito "
+#~ "krmariti po spletnih straneh. Uporabniku prijazni in dobro strukturirani "
+#~ "meniji igrajo tudi ključno vlogo pri izboljšanju :doc:`uvrstitev v "
+#~ "iskalnikih <seo>`."
+
+#~ msgid ""
+#~ "The menu editor allows to edit the website's header and add :ref:`menu "
+#~ "items <website/header_footer/menu-items>` and :ref:`mega menus <website/"
+#~ "header_footer/mega-menus>`."
+#~ msgstr ""
+#~ "Urejevalnik menijev omogoča urejanje glave spletnega mesta ter "
+#~ "dodajanje :ref:`postavk menijev <website/header_footer/menu-items>` "
+#~ "in :ref:`mega menijev <website/header_footer/mega-menus>`."
+
+#~ msgid ""
+#~ "To edit the header's content, go to :menuselection:`Website --> Site --> "
+#~ "Menu Editor`. From there, you can:"
+#~ msgstr ""
+#~ "Za urejanje vsebine glave pojdite na :menuselection:`Spletno mesto --> "
+#~ "Spletno mesto --> Urejevalnik menijev`. Od tam lahko:"
+
+#~ msgid ""
+#~ "**rename** a menu item or change its URL using the :guilabel:`Edit Menu "
+#~ "Item` icon;"
+#~ msgstr ""
+#~ "**preimenujete** postavko menija ali spremenite njen URL z uporabo "
+#~ "ikone :guilabel:`Uredi postavko menija`;"
+
+#~ msgid "**delete** a menu item using the :guilabel:`Delete Menu Item` icon;"
+#~ msgstr ""
+#~ "**izbrišete** postavko menija z uporabo ikone :guilabel:`Izbriši postavko "
+#~ "menija`;"
+
+#~ msgid ""
+#~ "**move** a menu item by dragging and dropping it to the desired place in "
+#~ "the menu;"
+#~ msgstr ""
+#~ "**premaknete** postavko menija z vlečenjem in spuščanjem na želeno mesto "
+#~ "v meniju;"
+
+#~ msgid ""
+#~ "**create a regular drop-down menu** by dragging and dropping the sub-menu "
+#~ "items to the right, underneath their parent menu."
+#~ msgstr ""
+#~ "**ustvarite običajni spustni meni** z vlečenjem in spuščanjem podrejenih "
+#~ "postavk menijev na desno, pod njihov nadrejeni meni."
+
+#~ msgid ""
+#~ "You can also access the menu editor by clicking :guilabel:`Edit`, "
+#~ "selecting any menu item, and clicking the :guilabel:`Edit Menu` icon."
+#~ msgstr ""
+#~ "Do urejevalnika menijev lahko dostopate tudi tako, da "
+#~ "kliknete :guilabel:`Uredi`, izberete katerokoli postavko menija in "
+#~ "kliknete ikono :guilabel:`Uredi meni`."
+
+#~ msgid "Access the Menu editor while in Edit mode."
+#~ msgstr "Dostop do urejevalnika menijev v načinu urejanja."
+
+#~ msgid "Go to :menuselection:`Website --> Site --> Menu Editor`."
+#~ msgstr ""
+#~ "Pojdite na :menuselection:`Spletno mesto --> Spletno mesto --> "
+#~ "Urejevalnik menijev`."
+
+#~ msgid "In the menu editor, click :guilabel:`Add Menu Item`."
+#~ msgstr "V urejevalniku menijev kliknite :guilabel:`Dodaj postavko menija`."
+
+#~ msgid ""
+#~ "In the pop-up window, enter the :guilabel:`Name` to be displayed in the "
+#~ "menu."
+#~ msgstr "V pojavnem oknu vnesite :guilabel:`Ime`, ki bo prikazano v meniju."
+
+#~ msgid ""
+#~ "Type `/` in the :guilabel:`URL or Email` field to search for a page on "
+#~ "your website or `#` to search for an existing custom anchor."
+#~ msgstr ""
+#~ "V polje :guilabel:`URL ali e-pošta` vnesite `/` za iskanje strani na "
+#~ "vašem spletnem mestu ali `#` za iskanje obstoječega lastnega sidra."
+
+#~ msgid "Click :guilabel:`OK`."
+#~ msgstr "Kliknite :guilabel:`V redu`."
+
+#~ msgid ""
+#~ "Edit the :ref:`menu structure <website/header_footer/menu-editor>` if "
+#~ "needed, then :guilabel:`Save`."
+#~ msgstr ""
+#~ "Po potrebi uredite :ref:`strukturo menija <website/header_footer/menu-"
+#~ "editor>`, nato :guilabel:`Shrani`."
+
+#~ msgid ""
+#~ "To modify the menu items, click on :guilabel:`Edit`, click on a menu "
+#~ "item, then go to the :guilabel:`Navbar` section of the website editor. "
+#~ "The following options are available:"
+#~ msgstr ""
+#~ "Za spreminjanje postavk menija kliknite na :guilabel:`Uredi`, kliknite na "
+#~ "postavko menija, nato pojdite v razdelek :guilabel:`Navigacijska vrstica` "
+#~ "urejevalnika spletnega mesta. Na voljo so naslednje možnosti:"
+
+#~ msgid "Adapt the :guilabel:`Mobile Alignment`."
+#~ msgstr "Prilagodite :guilabel:`Poravnavo na mobilnih napravah`."
+
+#~ msgid "Choose the :guilabel:`Font` for the menu items."
+#~ msgstr "Izberite :guilabel:`Pisavo` za postavke menija."
+
+#~ msgid ""
+#~ "Change the font size, color, and alignment in the :guilabel:`Format` "
+#~ "field."
+#~ msgstr ""
+#~ "Spremenite velikost pisave, barvo in poravnavo v polju :guilabel:`Oblika`."
+
+#~ msgid ""
+#~ "Select a :guilabel:`Links Style` to highlight the current page in the "
+#~ "menu."
+#~ msgstr ""
+#~ "Izberite :guilabel:`Slog povezav`, da označite trenutno stran v meniju."
+
+#~ msgid ""
+#~ "Change the :ref:`style of the header buttons <website/themes/button-"
+#~ "styles>`."
+#~ msgstr ""
+#~ "Spremenite :ref:`slog gumbov v glavi <website/themes/button-styles>`."
+
+#~ msgid ""
+#~ "Choose to display the :guilabel:`Sub Menus` :guilabel:`On Hover` "
+#~ "or :guilabel:`On Click`."
+#~ msgstr ""
+#~ "Izberite prikaz :guilabel:`Podmenija` :guilabel:`Ob prehodu` "
+#~ "ali :guilabel:`Ob kliku`."
+
+#~ msgid ""
+#~ "The fields available in the :guilabel:`Navbar` section can vary depending "
+#~ "on the chosen template."
+#~ msgstr ""
+#~ "Polja, ki so na voljo v razdelku :guilabel:`Navigacijska vrstica`, se "
+#~ "lahko razlikujejo glede na izbrano predlogo."
+
+#~ msgid ""
+#~ "Mega menus are similar to drop-down menus, but instead of a simple list "
+#~ "of sub-menus, they display a panel divided into groups of navigation "
+#~ "options. This makes them suitable for websites with large amounts of "
+#~ "content or :doc:`e-commerce websites <../../ecommerce>`, as they can help "
+#~ "include all of your web pages or :ref:`e-commerce categories <ecommerce/"
+#~ "categories_variants/categories>` in the menu while still making all menu "
+#~ "items visible at once."
+#~ msgstr ""
+#~ "Mega meniji so podobni spustnim menijem, vendar namesto preprostega "
+#~ "seznama podmenijev prikazujejo plošč o, razdeljeno na skupine "
+#~ "navigacijskih možnosti. To jih naredi primerne za spletna mesta z veliko "
+#~ "vsebine ali :doc:`spletne trgovine <../../ecommerce>`, saj lahko "
+#~ "vključijo vse vaše spletne strani ali :ref:`kategorije e-trgovine "
+#~ "<ecommerce/categories_variants/categories>` v meni, medtem ko so vsi "
+#~ "elementi menija še vedno vidni naenkrat."
+
+#~ msgid ""
+#~ "To create a mega menu, go to :menuselection:`Website --> Site --> Menu "
+#~ "Editor` and click :guilabel:`Add Mega Menu Item`. Enter "
+#~ "the :guilabel:`Name` of the mega menu in the pop-up, "
+#~ "click :guilabel:`OK`, then :guilabel:`Save`."
+#~ msgstr ""
+#~ "Če želite ustvariti mega meni, pojdite na :menuselection:`Spletna stran --"
+#~ "> Mesto --> Urejevalnik menijev` in kliknite :guilabel:`Dodaj element "
+#~ "mega menija`. V pojavno okno vnesite :guilabel:`Ime` mega menija, "
+#~ "kliknite :guilabel:`V redu`, nato pa :guilabel:`Shrani`."
+
+#~ msgid ""
+#~ "To adapt the options and content of the mega menu, click on a mega menu "
+#~ "item in the header, then click :guilabel:`Edit`. Mega menus are composed "
+#~ "of building blocks, which means you can customize each component "
+#~ "individually. For example:"
+#~ msgstr ""
+#~ "Če želite prilagoditi možnosti in vsebino mega menija, kliknite na "
+#~ "element mega menija v glavi in nato kliknite :guilabel:`Uredi`. Mega "
+#~ "meniji so sestavljeni iz gradnikov, kar pomeni, da lahko vsako komponento "
+#~ "prilagodite posamično. Na primer:"
+
+#~ msgid "Edit the text directly in the building block."
+#~ msgstr "Besedilo uredite neposredno v gradniku."
+
+#~ msgid ""
+#~ "Edit a menu item's URL by selecting the menu item and clicking "
+#~ "the :guilabel:`Edit link` button in the small preview pop-up. Type `/` to "
+#~ "search for a page on your website, or `#` to search for an existing "
+#~ "custom anchor."
+#~ msgstr ""
+#~ "Uredite URL elementa menija tako, da izberete element menija in kliknete "
+#~ "gumb :guilabel:`Uredi povezavo` v majhnem pojavnem oknu predogleda. "
+#~ "Vnesite `/` za iskanje strani na vaši spletni strani ali `#` za iskanje "
+#~ "obstoječega sidra po meri."
+
+#~ msgid "Delete a menu item by deleting the related block."
+#~ msgstr "Izbrišite element menija tako, da izbrišete povezan gradnik."
+
+#~ msgid ""
+#~ "To adapt the general layout of the mega menu, go to "
+#~ "the :guilabel:`Customize` tab of the website editor, then, in "
+#~ "the :guilabel:`Mega Menu` section:"
+#~ msgstr ""
+#~ "Če želite prilagoditi splošno postavitev mega menija, pojdite na "
+#~ "zavihek :guilabel:`Prilagodi` urejevalnika spletnega mesta in nato v "
+#~ "razdelku :guilabel:`Mega meni`:"
+
+#~ msgid "Hide a dynamic menu item for non-logged in users"
+#~ msgstr "Skrijte dinamični element menija za neprijavljene uporabnike"
+
+#~ msgid ""
+#~ "To hide a dynamic menu item (i.e., a menu item generated automatically by "
+#~ "Odoo, for example, when you install an app or module, such as `Events`, "
+#~ "`Courses`, etc.) for non-logged in users, follow these steps:"
+#~ msgstr ""
+#~ "Za skritje dinamičnega elementa menija (tj. elementa menija, ki ga "
+#~ "samodejno ustvari Odoo, na primer, ko namestite aplikacijo ali modul, kot "
+#~ "sta `Events`, `Courses` itd.) za neprijavljene uporabnike sledite tem "
+#~ "korakom:"
+
+#~ msgid ""
+#~ "Expand the list of menus for the relevant website if needed, then click "
+#~ "the menu item you wish to hide."
+#~ msgstr ""
+#~ "Razširite seznam menijev za ustrezno spletno stran, če je potrebno, nato "
+#~ "kliknite element menija, ki ga želite skriti."
+
+#~ msgid ""
+#~ "In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line` "
+#~ "under :guilabel:`Group Name`."
+#~ msgstr ""
+#~ "V razdelku :guilabel:`Vidne skupine` kliknite :guilabel:`Dodaj vrstico` "
+#~ "pod :guilabel:`Naziv skupine`."
+
+#~ msgid ""
+#~ "Search for the group :guilabel:`User types / Portal`, select it, then "
+#~ "click :guilabel:`Select`."
+#~ msgstr ""
+#~ "Poiščite skupino :guilabel:`Vrste uporabnikov / Portal`, jo izberite in "
+#~ "nato kliknite :guilabel:`Izberi`."
+
+#~ msgid ""
+#~ "To hide the `Shop` menu item, :doc:`restrict ecommerce access to logged-"
+#~ "in users <../../ecommerce/configuration/customer_accounts>`."
+#~ msgstr ""
+#~ "Za skritje menijske postavke `Shop` :doc:`omejite dostop do spletne "
+#~ "trgovine na prijavljene uporabnike <../../ecommerce/configuration/"
+#~ "customer_accounts>`."
+
+#~ msgid "Footer design"
+#~ msgstr "Oblika noge"
+
+#~ msgid ""
+#~ "To modify the footer, click on :guilabel:`Edit`, click on the footer, and "
+#~ "in the :guilabel:`Footer` section of the :guilabel:`Customize` tab in the "
+#~ "website editor:"
+#~ msgstr ""
+#~ "Če želite spremeniti nogo, kliknite :guilabel:`Uredi`, kliknite na nogo "
+#~ "in v razdelku :guilabel:`Noga` zavihka :guilabel:`Prilagodi` v "
+#~ "urejevalniku spletnega mesta:"
+
+#~ msgid "Select a :guilabel:`Template`."
+#~ msgstr "Izberite :guilabel:`Predlogo`."
+
+#~ msgid "Choose its :guilabel:`Colors`."
+#~ msgstr "Izberite :guilabel:`Barve`."
+
+#~ msgid ""
+#~ "Toggle the :guilabel:`Copyright` switch to hide or show the copyright."
+#~ msgstr ""
+#~ "Preklopite stikalo :guilabel:`Avtorske pravice`, da skrijete ali "
+#~ "prikažete avtorske pravice."
+
+#~ msgid "Choose the :guilabel:`Border` size."
+#~ msgstr "Izberite velikost :guilabel:`Obrobe`."
+
+#~ msgid "Add a :guilabel:`Shadow`."
+#~ msgstr "Dodajte :guilabel:`Senco`."
+
+#~ msgid "Add a :guilabel:`Scroll Top Button` and choose its position."
+#~ msgstr ""
+#~ "Dodajte :guilabel:`Gumb za pomik navzgor` in izberite njegov položaj."
+
+#~ msgid ""
+#~ "Hide or show the footer by toggling the :guilabel:`Page visibility` "
+#~ "switch."
+#~ msgstr ""
+#~ "Skrijte ali prikažite nogo strani s preklopom stikala :guilabel:`Vidnost "
+#~ "strani`."
+
+#~ msgid ""
+#~ "**Prepare the Odoo form:** Create a contact form on a page in Odoo "
+#~ "Website and remove the :ref:`header design <website/header_footer/header-"
+#~ "design>` and the :ref:`footer design <website/header_footer/footer-"
+#~ "design>`. Make sure only the contact form remains on the page."
+#~ msgstr ""
+#~ "**Pripravite obrazec Odoo:** Ustvarite kontaktni obrazec na strani v Odoo "
+#~ "Website in odstranite :ref:`oblikovanje glave <website/header_footer/"
+#~ "header-design>` ter :ref:`oblikovanje noge <website/header_footer/footer-"
+#~ "design>`. Prepričajte se, da na strani ostane samo kontaktni obrazec."
+
+#~ msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
+#~ msgstr ""
+#~ "`Odoo vodiči: Spletna stran <https://www.odoo.com/slides/website-25>`_"
+
+#~ msgid ""
+#~ "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+#~ msgstr ""
+#~ "`Odoo vodiči: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+
+#~ msgid ""
+#~ "Odoo allows you to create multiple websites from the same database. This "
+#~ "can be useful, for example, if you have multiple brands operating under "
+#~ "your organization, or if you want to create separate websites for "
+#~ "different products/services or audiences."
+#~ msgstr ""
+#~ "Odoo vam omogoča ustvarjanje več spletnih strani iz iste baze podatkov. "
+#~ "To je lahko uporabno, na primer, če imate več blagovnih znamk, ki "
+#~ "delujejo v okviru vaše organizacije, ali če želite ustvariti ločene "
+#~ "spletne strani za različne izdelke/storitve ali občinstva."
+
+#~ msgid ""
+#~ "Once it is time to :ref:`map your second domain name's address to your "
+#~ "second Odoo website <domain-name/existing/website-map>`, you can create "
+#~ "and map it directly by:"
+#~ msgstr ""
+#~ "Ko je čas, da :ref:`preslikate naslov vaše druge domene na vašo drugo "
+#~ "spletno stran Odoo <domain-name/existing/website-map>`, jo lahko "
+#~ "ustvarite in preslikate neposredno tako, da:"
+
+#~ msgid ""
+#~ "Going to :menuselection:`Website --> Configuration --> Settings` and "
+#~ "clicking :guilabel:`+ New Website`."
+#~ msgstr ""
+#~ "Pojdete na :menuselection:`Spletna stran --> Konfiguracija --> "
+#~ "Nastavitve` in kliknete :guilabel:`+ Nova spletna stran`."
+
+#~ msgid ""
+#~ "Choosing a :guilabel:`Website Name` and entering the second website's "
+#~ "address in the :guilabel:`Website Domain` field (e.g., `https://"
+#~ "www.yourseconddomain.com` or `https://subdomain.yourdomain.com`)."
+#~ msgstr ""
+#~ "Izberete :guilabel:`Ime spletne strani` in vnesete naslov druge spletne "
+#~ "strani v polje :guilabel:`Domena spletne strani` (npr. `https://"
+#~ "www.vasadrugadomena.com` ali `https://poddomena.vasadomena.com`)."
+
+#~ msgid "Clicking the :guilabel:`Create` button."
+#~ msgstr "Kliknete gumb :guilabel:`Ustvari`."
 
 #~ msgid ""
 #~ "`Google's reCAPTCHA v3 guide <https://developers.google.com/recaptcha/"

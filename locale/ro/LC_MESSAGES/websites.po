@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 17:31+0000\n"
+"POT-Creation-Date: 2026-07-17 17:31+0000\n"
 "PO-Revision-Date: 2026-07-04 23:08+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -539,7 +539,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce.rst:15
 #: ../../content/applications/websites/ecommerce/configuration.rst:7
-#: ../../content/applications/websites/website.rst:28
+#: ../../content/applications/websites/website.rst:34
 #: ../../content/applications/websites/website/configuration.rst:5
 #: ../../content/applications/websites/website/configuration/cookies_bar.rst:21
 #: ../../content/applications/websites/website/configuration/translate.rst:11
@@ -632,7 +632,7 @@ msgstr ""
 "multe canale."
 
 #: ../../content/applications/websites/ecommerce.rst:61
-#: ../../content/applications/websites/website.rst:47
+#: ../../content/applications/websites/website.rst:55
 msgid ""
 "Odoo offers a :ref:`free custom domain name <domain-name/register>` to all "
 "Odoo Online databases for one year. Visitors can then access your website "
@@ -649,19 +649,15 @@ msgid ":doc:`Website Documentation <website>`"
 msgstr ":doc:`Documentație Website <website>`"
 
 #: ../../content/applications/websites/ecommerce.rst:67
-#: ../../content/applications/websites/website.rst:52
-#: ../../content/applications/websites/website/structure.rst:37
-#: ../../content/applications/websites/website/web_design.rst:42
-msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
-msgstr "`Tutoriale Odoo: Website <https://www.odoo.com/slides/website-25>`_"
-
-#: ../../content/applications/websites/ecommerce.rst:68
 #: ../../content/applications/websites/ecommerce/configuration.rst:49
 #: ../../content/applications/websites/ecommerce/ecommerce_design.rst:38
-#: ../../content/applications/websites/website.rst:53
-msgid "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+#: ../../content/applications/websites/website.rst:60
+#: ../../content/applications/websites/website/structure.rst:37
+#: ../../content/applications/websites/website/web_design.rst:42
+msgid ""
+"`Odoo Tutorials: Website & eCommerce <https://www.odoo.com/slides/website-"
+"ecommerce-25>`_"
 msgstr ""
-"`Tutoriale Odoo: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
 
 #: ../../content/applications/websites/ecommerce/checkout.rst:5
 msgid ""
@@ -841,7 +837,7 @@ msgstr ""
 "Butonul implicit :guilabel:`Adaugă în coș` nu oferă aceste opțiuni, dar "
 "eticheta sa poate fi schimbată."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:79
+#: ../../content/applications/websites/ecommerce/checkout.rst:81
 msgid ""
 "In the website editor, it is also possible to show or hide the :icon:`fa-"
 "shopping-cart` (:guilabel:`cart`) icon in the page's header. To do so, click "
@@ -860,11 +856,11 @@ msgstr ""
 "apare doar când un articol este adăugat în coș. Numărul de articole din coș "
 "este de asemenea afișat lângă pictogramă."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:89
+#: ../../content/applications/websites/ecommerce/checkout.rst:91
 msgid "Buy now"
 msgstr "Cumpără acum"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:91
+#: ../../content/applications/websites/ecommerce/checkout.rst:93
 msgid ""
 "To let customers choose to go directly to the :ref:`Order summary <ecommerce/"
 "checkout/review_order>` step, add an additional :guilabel:`Buy now` button. "
@@ -883,15 +879,15 @@ msgstr ""
 msgid "Buy now button"
 msgstr "Buton Cumpără acum"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:102
+#: ../../content/applications/websites/ecommerce/checkout.rst:104
 msgid "Reorder products"
 msgstr "Recomandează produse"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:104
+#: ../../content/applications/websites/ecommerce/checkout.rst:106
 msgid "Customers can reorder items from a previous sales order:"
 msgstr "Clienții pot recomanda articole dintr-o Comandă de vânzare anterioară:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:106
+#: ../../content/applications/websites/ecommerce/checkout.rst:108
 msgid ""
 "from their customer portal, using the :guilabel:`Order Again` button. All "
 "products from the selected order are automatically added to the cart, and "
@@ -906,7 +902,7 @@ msgstr ""
 msgid "Reorder button"
 msgstr "Buton Comandă din nou"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:113
+#: ../../content/applications/websites/ecommerce/checkout.rst:115
 msgid ""
 "from the cart, by clicking :guilabel:`Quick reorder` at the :ref:`Order "
 "summary step <ecommerce/checkout/review_order>`. Customers can then adjust "
@@ -923,37 +919,37 @@ msgstr ""
 msgid "Quick reorder button"
 msgstr "Buton Recomandează rapid"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:123
+#: ../../content/applications/websites/ecommerce/checkout.rst:125
 msgid "Checkout steps"
 msgstr "Pașii de plată"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:125
+#: ../../content/applications/websites/ecommerce/checkout.rst:127
 msgid "During checkout, customers are taken through the following steps:"
 msgstr "În timpul finalizării comenzii, clienții trec prin următorii pași:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:127
+#: ../../content/applications/websites/ecommerce/checkout.rst:129
 msgid ":ref:`Order summary <ecommerce/checkout/review_order>`"
 msgstr ":ref:`Rezumatul comenzii <ecommerce/checkout/review_order>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:128
+#: ../../content/applications/websites/ecommerce/checkout.rst:130
 msgid ":ref:`Address <ecommerce/checkout/delivery>`"
 msgstr ":ref:`Adresă <ecommerce/checkout/delivery>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:129
+#: ../../content/applications/websites/ecommerce/checkout.rst:131
 msgid ":ref:`Extra Info (if enabled) <ecommerce/checkout/extra_step>`"
 msgstr ""
 ":ref:`Informații suplimentare (dacă este activat) <ecommerce/checkout/"
 "extra_step>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:130
+#: ../../content/applications/websites/ecommerce/checkout.rst:132
 msgid ":ref:`Payment <ecommerce/checkout/payment>`"
 msgstr ":ref:`Plată <ecommerce/checkout/payment>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:131
+#: ../../content/applications/websites/ecommerce/checkout.rst:133
 msgid ":ref:`Order confirmation <ecommerce/checkout/order_confirmation>`"
 msgstr ":ref:`Confirmare comandă <ecommerce/checkout/order_confirmation>`"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:135
+#: ../../content/applications/websites/ecommerce/checkout.rst:137
 msgid ""
 "Each step can be customized using the website editor by "
 "adding :doc:`building blocks <../website/web_design/building_blocks>` or "
@@ -964,13 +960,13 @@ msgstr ""
 "deschiderea filei :guilabel:`Stil` pentru a activa diverse opțiuni de "
 "finalizare."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:140
+#: ../../content/applications/websites/ecommerce/checkout.rst:142
 msgid "Content added through building blocks is **specific** to each step."
 msgstr ""
 "Conținutul adăugat prin blocuri de construcție este **specific** fiecărui "
 "pas."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:143
+#: ../../content/applications/websites/ecommerce/checkout.rst:145
 msgid ""
 "Restrict access to the :ref:`shop <ecommerce/customer_accounts/shop-access>` "
 "and :ref:`checkout <ecommerce/customer_accounts/checkout-access>` for "
@@ -982,11 +978,11 @@ msgstr ""
 "pentru anumiți clienți, de exemplu, într-o configurare :doc:`B2B <../"
 "ecommerce/configuration/b2b_b2c>`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:150
+#: ../../content/applications/websites/ecommerce/checkout.rst:152
 msgid "Order summary"
 msgstr "Rezumatul comenzii"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:152
+#: ../../content/applications/websites/ecommerce/checkout.rst:154
 msgid ""
 "The :guilabel:`Order summary` step allows customers to see the items they "
 "added to their cart, adjust quantities, :guilabel:`Remove` products, "
@@ -1004,7 +1000,7 @@ msgstr ""
 "butonul :guilabel:`Finalizare` :icon:`fa-chevron-right` pentru a continua la "
 "pasul :ref:`Adresă <ecommerce/checkout/delivery>`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:158
+#: ../../content/applications/websites/ecommerce/checkout.rst:160
 msgid ""
 "Open the website editor to :ref:`enable <ecommerce/checkout/"
 "customize_steps>` checkout options such as:"
@@ -1012,7 +1008,7 @@ msgstr ""
 "Deschideți editorul de website pentru a :ref:`activa <ecommerce/checkout/"
 "customize_steps>` opțiuni de finalizare comandă precum:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:161
+#: ../../content/applications/websites/ecommerce/checkout.rst:163
 msgid ""
 ":guilabel:`Suggested Accessories`: to showcase :ref:`accessory products "
 "<ecommerce/products/cross_upselling>`;"
@@ -1020,7 +1016,7 @@ msgstr ""
 ":guilabel:`Accesorii sugerate`: pentru a prezenta :ref:`produse accesorii "
 "<ecommerce/products/cross_upselling>`;"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:163
+#: ../../content/applications/websites/ecommerce/checkout.rst:165
 msgid ""
 ":guilabel:`Promo Code`: to allow customers to redeem :ref:`gift cards "
 "<ewallet_gift/gift-cards>` and apply :doc:`discount codes <../../sales/sales/"
@@ -1033,7 +1029,7 @@ msgstr ""
 "loyalty_discount>` sau :ref:`coduri promoționale <ecommerce/prices/"
 "promotional-code>`;"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:166
+#: ../../content/applications/websites/ecommerce/checkout.rst:168
 msgid ""
 ":guilabel:`Add to Wishlist`: :ref:`Enable wishlists <ecommerce/products/"
 "additional_features/wishlists>` to allow signed-in users to remove a product "
@@ -1045,7 +1041,7 @@ msgstr ""
 "utilizatorilor autentificați să elimine un produs din coș și să îl adauge la "
 "lista de dorințe folosind opțiunea :guilabel:`Salvează pentru mai târziu`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:171
+#: ../../content/applications/websites/ecommerce/checkout.rst:173
 msgid ""
 "If a :doc:`fiscal position <../../finance/accounting/taxes/"
 "fiscal_positions>` is detected automatically, the product tax is determined "
@@ -1055,7 +1051,7 @@ msgstr ""
 "fiscal_positions>` este detectată automat, taxa pe produs este determinată "
 "pe baza adresei IP a clientului."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:173
+#: ../../content/applications/websites/ecommerce/checkout.rst:175
 msgid ""
 "If the installed :doc:`payment provider <../../finance/payment_providers>` "
 "supports :ref:`express checkout <payment_providers/express_checkout>`, a "
@@ -1067,15 +1063,15 @@ msgstr ""
 "afișează un buton dedicat care permite clienților să meargă direct din coș "
 "la pagina de confirmare fără a completa formularul de contact."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:181
+#: ../../content/applications/websites/ecommerce/checkout.rst:183
 msgid "Address"
 msgstr "Adresă"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:183
+#: ../../content/applications/websites/ecommerce/checkout.rst:185
 msgid "Once they have reviewed their order:"
 msgstr "După ce și-au revizuit comanda:"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:185
+#: ../../content/applications/websites/ecommerce/checkout.rst:187
 msgid ""
 "Unsigned-in customers are prompted to :guilabel:`Sign in` or enter "
 "their :guilabel:`Name` and :guilabel:`Email` address, along with their "
@@ -1085,12 +1081,12 @@ msgstr ""
 "introducă :guilabel:`Numele` și adresa de :guilabel:`Email`, împreună cu "
 "adresa de livrare și detaliile telefonice;"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:187
+#: ../../content/applications/websites/ecommerce/checkout.rst:189
 msgid ""
 "Signed-in customers can select the appropriate :guilabel:`Delivery address`."
 msgstr "Clienții autentificați pot selecta adresa de livrare corespunzătoare."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:189
+#: ../../content/applications/websites/ecommerce/checkout.rst:191
 msgid ""
 "They can then :doc:`choose a delivery method <shipping>`, select or enter "
 "their :guilabel:`Billing Address` (or toggle the :guilabel:`Same as delivery "
@@ -1102,7 +1098,7 @@ msgstr ""
 "opțiunea :guilabel:`La fel ca adresa de livrare` dacă adresele sunt "
 "identice) și apăsa :guilabel:`Confirmă` pentru a trece la pasul următor."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:194
+#: ../../content/applications/websites/ecommerce/checkout.rst:196
 msgid ""
 "For B2B customers, you can also :ref:`enable <ecommerce/checkout/"
 "customize_steps>` optional :ref:`B2B fields <ecommerce/b2b_b2c/b2b-fields>` "
@@ -1112,7 +1108,7 @@ msgstr ""
 "checkout/customize_steps>` :ref:`câmpuri B2B <ecommerce/b2b_b2c/b2b-fields>` "
 "opționale în editorul de site-uri web."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:196
+#: ../../content/applications/websites/ecommerce/checkout.rst:198
 msgid ""
 "You can add a checkbox for users without an account to sign up for a "
 "newsletter. To do so, go to :menuselection:`Website --> Configuration --> "
@@ -1125,7 +1121,7 @@ msgstr ""
 "secțiunea :guilabel:`eCommerce`, activează funcția :guilabel:`Newsletter` și "
 "selectează o :guilabel:`Listă de buletine informative`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:200
+#: ../../content/applications/websites/ecommerce/checkout.rst:202
 msgid ""
 "When the :ref:`Pick up in store <ecommerce/shipping/instore-pickup>` "
 "delivery method is selected, the customer can :guilabel:`Choose a pick-up "
@@ -1135,11 +1131,11 @@ msgstr ""
 "shipping/instore-pickup>`, clientul poate :guilabel:`Alege un punct de "
 "ridicare`, cu condiția ca mai multe puncte de ridicare să fie disponibile."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:207
+#: ../../content/applications/websites/ecommerce/checkout.rst:209
 msgid "Automatic address validation"
 msgstr "Validare automată a adresei"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:209
+#: ../../content/applications/websites/ecommerce/checkout.rst:211
 msgid ""
 "Use the :doc:`Google Places API </applications/general/integrations/"
 "address_autocomplete>` to ensure that partner delivery addresses are valid. "
@@ -1150,7 +1146,7 @@ msgstr ""
 "partenerilor sunt valide. Adresele sunt validate automat pe măsură ce "
 "utilizatorul tastează în timpul finalizării comenzii."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:213
+#: ../../content/applications/websites/ecommerce/checkout.rst:215
 msgid ""
 "To enable this feature, the :ref:`Google Places API <address_autocomplete/"
 "places-api-configuration>` needs to be configured first. Then, go "
@@ -1166,11 +1162,11 @@ msgstr ""
 "Address Validation`, apoi inserați :ref:`Google Places API key "
 "<address_autocomplete/generate_api_key>` în câmpul :guilabel:`API Key`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:222
+#: ../../content/applications/websites/ecommerce/checkout.rst:224
 msgid "Extra info"
 msgstr "Informații suplimentare"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:224
+#: ../../content/applications/websites/ecommerce/checkout.rst:226
 msgid ""
 "You can add an :guilabel:`Extra Info` step in the checkout process to "
 "collect additional customer information through an online form, which is "
@@ -1187,11 +1183,11 @@ msgstr ""
 "de site-uri web. Formularul poate fi :ref:`personalizat <website/"
 "building_blocks/form>` după necesități."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:233
+#: ../../content/applications/websites/ecommerce/checkout.rst:235
 msgid "Payment"
 msgstr "Plată"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:235
+#: ../../content/applications/websites/ecommerce/checkout.rst:237
 msgid ""
 "At the :guilabel:`Payment` step, customers can choose a :guilabel:`Payment "
 "method`, enter their payment details, and click :guilabel:`Pay now`."
@@ -1200,7 +1196,7 @@ msgstr ""
 "plată`, pot introduce detaliile de plată și pot da clic "
 "pe :guilabel:`Plătește acum`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:239
+#: ../../content/applications/websites/ecommerce/checkout.rst:241
 msgid ""
 "When the :ref:`Cash on Delivery <payment_providers/inperson_payments/"
 "cash_on_delivery>` payment option is enabled, the customer must click "
@@ -1210,7 +1206,7 @@ msgstr ""
 "<payment_providers/inperson_payments/cash_on_delivery>`, clientul trebuie să "
 "dea clic pe butonul :guilabel:`Confirmă` și să plătească la livrare."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:243
+#: ../../content/applications/websites/ecommerce/checkout.rst:245
 msgid ""
 "To make payment methods available to customers, configure and enable one or "
 "more :doc:`payment provider(s) </applications/finance/payment_providers>`. "
@@ -1224,7 +1220,7 @@ msgstr ""
 "Configuration --> Payment Providers`, :guilabel:`Activează` furnizorul de "
 "plăți relevant și :ref:`configurează-l <payment_providers/add_new>`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:249
+#: ../../content/applications/websites/ecommerce/checkout.rst:251
 msgid ""
 "The options displayed at checkout depend on the active payment providers, "
 "the enabled :ref:`payment methods <payment_providers/payment_methods>`, "
@@ -1238,7 +1234,7 @@ msgstr ""
 "și, opțional, de :ref:`suma maximă <payment_providers/maximum_amount>` "
 "stabilită pentru furnizor."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:254
+#: ../../content/applications/websites/ecommerce/checkout.rst:256
 msgid ""
 "To display an :ref:`availability <payment_providers/availability>` report "
 "for payment providers and payment methods and help diagnose potential "
@@ -1251,12 +1247,12 @@ msgstr ""
 "formularul de plată, activează :ref:`modul dezvoltator <developer-mode>` și "
 "dă clic pe pictograma :icon:`fa-bug` (:guilabel:`bug`)."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:259
+#: ../../content/applications/websites/ecommerce/checkout.rst:261
 #: ../../content/applications/websites/website/configuration/domain_names.rst:41
 msgid "Terms and conditions"
 msgstr "Termeni și condiții"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:261
+#: ../../content/applications/websites/ecommerce/checkout.rst:263
 msgid ""
 "To require customers to agree to the :doc:`terms and conditions <../../"
 "finance/accounting/customer_invoices/terms_conditions>` before payment, open "
@@ -1268,11 +1264,11 @@ msgstr ""
 "deschide editorul de site-uri web și activează "
 "comutatorul :guilabel:`Acceptă termenii` în fila :guilabel:`Stil`."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:266
+#: ../../content/applications/websites/ecommerce/checkout.rst:268
 msgid "eWallets and gift cards"
 msgstr "portofele electronice și carduri cadou"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:268
+#: ../../content/applications/websites/ecommerce/checkout.rst:270
 msgid ""
 "Customers can pay with an eWallet or gift card during checkout. To offer "
 "these options, go to :menuselection:`Website --> Configuration --> Settings` "
@@ -1295,11 +1291,11 @@ msgstr ""
 msgid "Gift card and eWallet options at checkout"
 msgstr "Opțiuni de card cadou și portofel electronic la finalizare"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:280
+#: ../../content/applications/websites/ecommerce/checkout.rst:282
 msgid "Order confirmation"
 msgstr "Confirmare comandă"
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:282
+#: ../../content/applications/websites/ecommerce/checkout.rst:284
 msgid ""
 "The final step of the checkout process is the order confirmation page, which "
 "provides a summary of the customer's purchase details. A sales order is "
@@ -1313,7 +1309,7 @@ msgstr ""
 "setarea :ref:`Factură automată <ecommerce/handling/invoices>` pentru a "
 "trimite automat o factură clientului."
 
-#: ../../content/applications/websites/ecommerce/checkout.rst:288
+#: ../../content/applications/websites/ecommerce/checkout.rst:290
 msgid ":doc:`Order handling <order_handling>`"
 msgstr ":doc:`Procesarea comenzilor <order_handling>`"
 
@@ -1376,7 +1372,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/configuration.rst:36
 #: ../../content/applications/websites/ecommerce/configuration/customer_accounts.rst:3
-#: ../../content/applications/websites/website/configuration/multi_website.rst:72
+#: ../../content/applications/websites/website/configuration/multi_website.rst:67
 msgid "Customer accounts"
 msgstr "Conturi de client"
 
@@ -1716,7 +1712,7 @@ msgstr "Pentru a configura variantele de produs pentru un produs:"
 #: ../../content/applications/websites/ecommerce/order_handling.rst:185
 #: ../../content/applications/websites/ecommerce/shipping.rst:33
 #: ../../content/applications/websites/ecommerce/shipping.rst:92
-#: ../../content/applications/websites/website/configuration/multi_website.rst:85
+#: ../../content/applications/websites/website/configuration/multi_website.rst:80
 #: ../../content/applications/websites/website/configuration/translate.rst:16
 msgid "Go to :menuselection:`Website --> Configuration --> Settings`."
 msgstr "Accesați :menuselection:`Site web --> Configurare --> Setări`."
@@ -4785,7 +4781,7 @@ msgstr "Subsol de site web specific pentru e-commerce"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/catalog.rst:236
 msgid ""
-"The :ref:`website footer <website/header_footer/footer-design>` can also be "
+"The :ref:`website footer <website/header_footer/design>` can also be "
 "configured to use the e-commerce-specific template. Then, add the "
 "relevant :ref:`links <website/elements/links>`, and adapt the footer's text "
 "and layout as needed in the website editor. The :doc:`available payment "
@@ -4793,14 +4789,6 @@ msgid ""
 "footer. To adapt their display, go to the :guilabel:`Supported Payment "
 "Methods` section in the website editor."
 msgstr ""
-":ref:`Subsolul site-ului web <website/header_footer/footer-design>` poate "
-"fi, de asemenea, configurat pentru a utiliza șablonul specific e-commerce. "
-"Apoi, adăugați :ref:`legăturile <website/elements/links>` relevante și "
-"adaptați textul și aspectul subsolului după cum este necesar în editorul "
-"site-ului web. :doc:`Metodele de plată disponibile </applications/finance/"
-"payment_providers>` sunt, de asemenea, afișate în acest subsol. Pentru a "
-"adapta afișarea acestora, accesați secțiunea :guilabel:`Supported Payment "
-"Methods` în editorul site-ului web."
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/catalog.rst:243
 msgid "It is not possible to create a customized footer per category."
@@ -5012,7 +5000,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_design/product_page.rst:86
 #: ../../content/applications/websites/website/web_design/elements.rst:44
-#: ../../content/applications/websites/website/web_design/themes.rst:164
+#: ../../content/applications/websites/website/web_design/themes.rst:163
 msgid "Buttons"
 msgstr "Butoane"
 
@@ -5537,6 +5525,8 @@ msgid "Select countries, purpose, and feed label in GMC."
 msgstr "Selectați țări, scop și etichetă flux în GMC."
 
 #: ../../content/applications/websites/ecommerce/google_merchant_center.rst:95
+#: ../../content/applications/websites/website/structure/header_footer.rst:76
+#: ../../content/applications/websites/website/structure/header_footer.rst:148
 msgid "Click :guilabel:`Continue`."
 msgstr "Faceți clic pe :guilabel:`Continue`."
 
@@ -11910,28 +11900,39 @@ msgstr ""
 "extinde funcționalitatea website-ului."
 
 #: ../../content/applications/websites/website.rst:16
+#: ../../content/applications/websites/website/website_creation.rst:3
+msgid "Website creation"
+msgstr "Crearea site-ului web"
+
+#: ../../content/applications/websites/website.rst:16
+msgid ""
+"Create a new website with the website builder or import an existing one "
+"using the import tool."
+msgstr ""
+
+#: ../../content/applications/websites/website.rst:22
 #: ../../content/applications/websites/website/web_design.rst:7
 msgid "Web design"
 msgstr "Design web"
 
-#: ../../content/applications/websites/website.rst:16
+#: ../../content/applications/websites/website.rst:22
 msgid "Design your website using building blocks and website themes."
 msgstr ""
 "Proiectează-ți site-ul web folosind blocuri de construcție și teme pentru "
 "site-uri web."
 
-#: ../../content/applications/websites/website.rst:22
+#: ../../content/applications/websites/website.rst:28
 #: ../../content/applications/websites/website/structure.rst:7
 msgid "Structure"
 msgstr "Structură"
 
-#: ../../content/applications/websites/website.rst:22
+#: ../../content/applications/websites/website.rst:28
 msgid "Manage website pages, menus, and search engine optimization."
 msgstr ""
 "Gestionează paginile site-ului web, meniurile și optimizarea pentru "
 "motoarele de căutare."
 
-#: ../../content/applications/websites/website.rst:28
+#: ../../content/applications/websites/website.rst:34
 msgid ""
 "Configure domain names, address autocompletion, Google Search Console, "
 "cookies bar, translations, multiple websites, form spam protection, content "
@@ -11942,13 +11943,13 @@ msgstr ""
 "protecția împotriva spam-ului în formulare, rețeaua de livrare a "
 "conținutului (CDN)."
 
-#: ../../content/applications/websites/website.rst:35
-#: ../../content/applications/websites/website/configuration/multi_website.rst:148
+#: ../../content/applications/websites/website.rst:41
+#: ../../content/applications/websites/website/configuration/multi_website.rst:143
 #: ../../content/applications/websites/website/reporting.rst:5
 msgid "Reporting"
 msgstr "Raportare"
 
-#: ../../content/applications/websites/website.rst:35
+#: ../../content/applications/websites/website.rst:41
 msgid ""
 "Monitor your website's traffic with website analytics and set up link "
 "trackers."
@@ -11956,12 +11957,12 @@ msgstr ""
 "Monitorizează traficul site-ului tău web cu analiza site-ului web și "
 "configurează urmăritori de linkuri."
 
-#: ../../content/applications/websites/website.rst:40
+#: ../../content/applications/websites/website.rst:47
 #: ../../content/applications/websites/website/mail_groups.rst:3
 msgid "Mail groups"
 msgstr "Grupuri de mail"
 
-#: ../../content/applications/websites/website.rst:40
+#: ../../content/applications/websites/website.rst:47
 msgid ""
 "Configure mail groups to allow website visitors to participate in public "
 "discussions via email."
@@ -11969,7 +11970,7 @@ msgstr ""
 "Configurează grupuri de corespondență pentru a permite vizitatorilor site-"
 "ului web să participe la discuții publice prin e-mail."
 
-#: ../../content/applications/websites/website.rst:54
+#: ../../content/applications/websites/website.rst:61
 msgid ":doc:`../general/integrations/unsplash`"
 msgstr ":doc:`../general/integrări/unsplash`"
 
@@ -13299,7 +13300,9 @@ msgstr ""
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:122
 #: ../../content/applications/websites/website/configuration/translate.rst:52
 #: ../../content/applications/websites/website/configuration/translate.rst:65
-#: ../../content/applications/websites/website/web_design/themes.rst:240
+#: ../../content/applications/websites/website/structure/header_footer.rst:78
+#: ../../content/applications/websites/website/structure/header_footer.rst:150
+#: ../../content/applications/websites/website/web_design/themes.rst:239
 msgid "Click :guilabel:`Save`."
 msgstr "Faceți clic pe :guilabel:`Salvați`."
 
@@ -14012,15 +14015,11 @@ msgstr ":doc:`domain_names`"
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst:5
 msgid ""
-"Odoo allows you to create multiple websites from the same database. This can "
-"be useful, for example, if you have multiple brands operating under your "
-"organization, or if you want to create separate websites for different "
-"products/services or audiences."
+"Odoo allows you to :doc:`create <../website_creation>` multiple websites "
+"from the same database. This can be useful, for example, if you have "
+"multiple brands operating under your organization, or if you want to create "
+"separate websites for different products/services or audiences."
 msgstr ""
-"Odoo permite crearea mai multor site-uri web din aceeași bază de date. Acest "
-"lucru poate fi util, de exemplu, dacă ai mai multe mărci care operează sub "
-"organizația ta sau dacă vrei să creezi site-uri web separate pentru diferite "
-"produse/servicii sau audiențe."
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst:10
 msgid "Creating another website"
@@ -14085,36 +14084,13 @@ msgstr ""
 #: ../../content/applications/websites/website/configuration/multi_website.rst:28
 msgid ""
 "Once it is time to :ref:`map your second domain name's address to your "
-"second Odoo website <domain-name/existing/website-map>`, you can create and "
-"map it directly by:"
-msgstr ""
-"Când este momentul să :ref:`asociezi adresa celui de-al doilea nume de "
-"domeniu cu al doilea site web Odoo <domain-name/existing/website-map>`, poți "
-"să îl creezi și să îl asociezi direct:"
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:31
-msgid ""
-"Going to :menuselection:`Website --> Configuration --> Settings` and "
-"clicking :guilabel:`+ New Website`."
-msgstr ""
-"Mergi la :menuselection:`Website --> Configuration --> Settings` și "
-"apasă :guilabel:`+ New Website`."
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:33
-msgid ""
-"Choosing a :guilabel:`Website Name` and entering the second website's "
-"address in the :guilabel:`Website Domain` field (e.g., `https://"
+"second Odoo website <domain-name/existing/website-map>`, you can `create "
+"<../../website_creation>` it and map it directly by entering the second "
+"website's address in the :guilabel:`Website Domain` field (e.g., `https://"
 "www.yourseconddomain.com` or `https://subdomain.yourdomain.com`)."
 msgstr ""
-"Alege un :guilabel:`Website Name` și introdu adresa celui de-al doilea site "
-"web în câmpul :guilabel:`Website Domain` (de exemplu, `https://"
-"www.yourseconddomain.com` sau `https://subdomain.yourdomain.com`)."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:36
-msgid "Clicking the :guilabel:`Create` button."
-msgstr "Apasă butonul :guilabel:`Creează`."
-
-#: ../../content/applications/websites/website/configuration/multi_website.rst:39
+#: ../../content/applications/websites/website/configuration/multi_website.rst:34
 msgid ""
 "To switch from one website's frontend to another, click the website "
 "selection drop-down in the top right corner and select the website you want "
@@ -14128,11 +14104,11 @@ msgstr ""
 msgid "Selecting a website on the frontend"
 msgstr "Selectarea unui site web pe frontend"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:46
+#: ../../content/applications/websites/website/configuration/multi_website.rst:41
 msgid "Website-specific configuration"
 msgstr "Configurație specifică site-ului web"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:48
+#: ../../content/applications/websites/website/configuration/multi_website.rst:43
 msgid ""
 "Most website settings are website-specific. To access the settings of a "
 "website, go to :menuselection:`Website --> Configuration --> Settings` and "
@@ -14149,7 +14125,7 @@ msgstr ""
 msgid "Selecting a website in the app settings"
 msgstr "Selectarea unui site web în setările aplicației"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:56
+#: ../../content/applications/websites/website/configuration/multi_website.rst:51
 msgid ""
 "Settings shared by all websites are indicated using the :icon:`fa-info-"
 "circle` (:guilabel:`information`) icon."
@@ -14161,7 +14137,7 @@ msgstr ""
 msgid "Shared setting infobox"
 msgstr "Casetă informativă pentru setările partajate"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:62
+#: ../../content/applications/websites/website/configuration/multi_website.rst:57
 msgid ""
 "When you create another website, it uses the default settings; settings are "
 "not copied from one website to another."
@@ -14169,11 +14145,11 @@ msgstr ""
 "Când creezi un alt site web, acesta folosește setările implicite; setările "
 "nu sunt copiate de la un site web la altul."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:66
+#: ../../content/applications/websites/website/configuration/multi_website.rst:61
 msgid "eCommerce features"
 msgstr "caracteristici de comerț electronic"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:68
+#: ../../content/applications/websites/website/configuration/multi_website.rst:63
 msgid ""
 "eCommerce features such as products, eCommerce categories, pricelists, "
 "discounts, payment providers, etc., can be restricted to :ref:`a specific "
@@ -14183,7 +14159,7 @@ msgstr ""
 "prețuri, reducerile, furnizorii de plăți etc., pot fi restricționate "
 "la :ref:`un anumit site web <multi-website/website_content>`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:74
+#: ../../content/applications/websites/website/configuration/multi_website.rst:69
 msgid ""
 "To :doc:`allow your customers to use the same account <../../ecommerce/"
 "configuration/customer_accounts>` on all of your websites, go "
@@ -14195,11 +14171,11 @@ msgstr ""
 "accesează :menuselection:`Website --> Configuration --> Settings` și "
 "activează :guilabel:`Shared Customer Accounts`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:80
+#: ../../content/applications/websites/website/configuration/multi_website.rst:75
 msgid "Pricing"
 msgstr "Costuri"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:82
+#: ../../content/applications/websites/website/configuration/multi_website.rst:77
 msgid ""
 "Products can be priced differently based on the website "
 "using :ref:`pricelists <ecommerce/prices/selectable-pricelists>`. To do so:"
@@ -14208,7 +14184,7 @@ msgstr ""
 "folosind :ref:`liste de prețuri <ecommerce/prices/selectable-pricelists>`. "
 "Pentru aceasta:"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:86
+#: ../../content/applications/websites/website/configuration/multi_website.rst:81
 msgid ""
 "Scroll down to the :guilabel:`Shop - Products` section and select "
 "the :guilabel:`Pricelists` option :guilabel:`Multiple prices per product`."
@@ -14217,14 +14193,14 @@ msgstr ""
 "opțiunea :guilabel:`Liste de prețuri` :guilabel:`Prețuri multiple per "
 "produs`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:88
+#: ../../content/applications/websites/website/configuration/multi_website.rst:83
 msgid ""
 "Click :guilabel:`Pricelists` to define new pricelists or edit existing ones."
 msgstr ""
 "Faceți clic pe :guilabel:`Liste de prețuri` pentru a defini liste de prețuri "
 "noi sau pentru a le edita pe cele existente."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:89
+#: ../../content/applications/websites/website/configuration/multi_website.rst:84
 msgid ""
 "Select the pricelist or click :guilabel:`New` to create a new one, then "
 "select the :guilabel:`Configuration` tab and set the :guilabel:`Website` "
@@ -14234,11 +14210,11 @@ msgstr ""
 "una nouă, apoi selectați fila :guilabel:`Configurare` și setați "
 "câmpul :guilabel:`Site web`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:95
+#: ../../content/applications/websites/website/configuration/multi_website.rst:90
 msgid "Content availability across websites"
 msgstr "Disponibilitatea conținutului pe site-uri web"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:98
+#: ../../content/applications/websites/website/configuration/multi_website.rst:93
 msgid ""
 "All installed website-related apps (e.g., eCommerce, eLearning, Forum, etc.) "
 "and their related pages are also available on the new website. You can "
@@ -14248,7 +14224,7 @@ msgstr ""
 "eLearning, Forum etc.) și paginile lor asociate sunt, de asemenea, "
 "disponibile pe noul site web. Le poți elimina din meniul site-ului web."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:101
+#: ../../content/applications/websites/website/configuration/multi_website.rst:96
 msgid ""
 "By default, most records (products, courses, forum posts, etc.) created from "
 "the frontend are displayed on all websites. To restrict the content to a "
@@ -14259,7 +14235,7 @@ msgstr ""
 "a restricționa conținutul la un singur site web, caută "
 "câmpul :guilabel:`Website` în backend."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:105
+#: ../../content/applications/websites/website/configuration/multi_website.rst:100
 msgid ""
 "For example, for products, go to :menuselection:`eCommerce --> Products`, "
 "select a product, open the :guilabel:`eCommerce` tab, and specify which "
@@ -14273,7 +14249,7 @@ msgstr ""
 msgid "Restricting a product to a single website"
 msgstr "Restricționarea unui produs la un singur site web"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:112
+#: ../../content/applications/websites/website/configuration/multi_website.rst:107
 msgid ""
 "In a :doc:`multi-company environment </applications/general/companies>`, "
 "each website can be linked to a specific company so that only that company's "
@@ -14288,7 +14264,7 @@ msgstr ""
 "accesează :guilabel:`Website --> Configuration --> Settings` și setează "
 "compania dorită în câmpul :guilabel:`Company`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:118
+#: ../../content/applications/websites/website/configuration/multi_website.rst:113
 msgid ""
 "When generating links, for example, a customer portal link to a quotation, "
 "Odoo uses the following logic to select the website domain:"
@@ -14297,13 +14273,13 @@ msgstr ""
 "ofertă, Odoo folosește următoarea logică pentru a selecta domeniul site-ului "
 "web:"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:121
+#: ../../content/applications/websites/website/configuration/multi_website.rst:116
 msgid "If a company has a *single* website, that website's domain is used."
 msgstr ""
 "Dacă o companie are un *singur* site web, domeniul acelui site web este "
 "folosit."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:122
+#: ../../content/applications/websites/website/configuration/multi_website.rst:117
 msgid ""
 "If a company has *multiple* websites, Odoo uses the domain of the website "
 "that was created first. To change the order of priority, "
@@ -14318,7 +14294,7 @@ msgstr ""
 "folosește pictograma :icon:`oi-draggable` (:guilabel:`mâner de tragere`) "
 "pentru a reordona site-urile web."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:126
+#: ../../content/applications/websites/website/configuration/multi_website.rst:121
 msgid ""
 "If a company's website has *no domain*, the :ref:`web base URL <domain-name/"
 "existing/db-map/web-base-url>` is used."
@@ -14326,21 +14302,21 @@ msgstr ""
 "Dacă site-ul web al unei companii *nu are domeniu*, se folosește :ref:`URL-"
 "ul de bază web <domain-name/existing/db-map/web-base-url>`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:130
+#: ../../content/applications/websites/website/configuration/multi_website.rst:125
 msgid "Website pages"
 msgstr "Pagini de site"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:132
+#: ../../content/applications/websites/website/configuration/multi_website.rst:127
 msgid "To modify the website on which a page is published, proceed as follows:"
 msgstr ""
 "Pentru a modifica site-ul web pe care este publicată o pagină, procedează "
 "după cum urmează:"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:134
+#: ../../content/applications/websites/website/configuration/multi_website.rst:129
 msgid "Go to :menuselection:`Website --> Site --> Pages`."
 msgstr "Accesați :menuselection:`Site web --> Site --> Pagini`."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:135
+#: ../../content/applications/websites/website/configuration/multi_website.rst:130
 msgid ""
 "Open the search panel and select the website on which the page is currently "
 "published."
@@ -14352,12 +14328,12 @@ msgstr ""
 msgid "Display pages per website"
 msgstr "Afișați pagini pe site"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:140
+#: ../../content/applications/websites/website/configuration/multi_website.rst:135
 msgid "Tick the check box next to the page(s) you want to change."
 msgstr ""
 "Bifați caseta de selectare de lângă paginile pe care doriți să le modificați."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:141
+#: ../../content/applications/websites/website/configuration/multi_website.rst:136
 msgid ""
 "Click the :guilabel:`Website` field and select the website, or empty it to "
 "publish the page on all websites."
@@ -14365,7 +14341,7 @@ msgstr ""
 "Faceți clic pe câmpul :guilabel:`Site web` și selectați site-ul web sau "
 "goliți-l pentru a publica pagina pe toate site-urile web."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:145
+#: ../../content/applications/websites/website/configuration/multi_website.rst:140
 msgid ""
 "Each website must have its own homepage; you may not use the same homepage "
 "for several websites."
@@ -14373,7 +14349,7 @@ msgstr ""
 "Fiecare site trebuie să aibă propria pagină de pornire; nu puteți folosi "
 "aceeași pagină de pornire pentru mai multe site-uri web."
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:150
+#: ../../content/applications/websites/website/configuration/multi_website.rst:145
 msgid ""
 "Each website has its own :ref:`analytics <analytics/plausible>`. To switch "
 "between websites, use the buttons in the top right corner."
@@ -14385,7 +14361,7 @@ msgstr ""
 msgid "Switching websites in analytics"
 msgstr "Comutarea între site-uri web în analiză"
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:156
+#: ../../content/applications/websites/website/configuration/multi_website.rst:151
 msgid ""
 "Other reporting data, such as eCommerce dashboard data, online sales "
 "analyses, and visitors, can be grouped by website by opening the search "
@@ -14539,6 +14515,7 @@ msgstr "Mesaj de eroare de verificare Cloudflare Turnstile"
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:59
 #: ../../content/applications/websites/website/structure/pages.rst:61
+#: ../../content/applications/websites/website/website_creation.rst:49
 msgid "Click :guilabel:`Create`."
 msgstr "Faceți clic pe :guilabel:`Creați`."
 
@@ -16062,206 +16039,98 @@ msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:5
 msgid ""
-"The website header is the top section of a web page and usually contains "
-"elements such as the logo, the :ref:`menu <website/header_footer/header-"
-"content>`, the search bar, the sign-in/customer account button, etc. The "
-"footer is displayed at the bottom of a web page and usually contains "
-"information such as contact details, links, legal notices, and other options."
+"The website header is the top section of a web page and typically includes "
+"elements such as the logo, navigation :ref:`menu <website/header_footer/"
+"header-content>`, search bar, and sign-in or :doc:`customer account <../../"
+"ecommerce/configuration/customer_accounts>` button. The footer is displayed "
+"at the bottom of a web page and usually contains contact details, links, "
+"legal notices, and other useful information. Both can be customized as "
+"needed."
 msgstr ""
-"Header-ul site-ului este secțiunea de sus a unei pagini web și conține de "
-"obicei elemente precum logo-ul, :ref:`meniul <website/header_footer/header-"
-"content>`, bara de căutare, butonul de autentificare/cont client etc. Footer-"
-"ul este afișat în partea de jos a paginii web și conține de obicei "
-"informații precum date de contact, linkuri, notificări legale și alte "
-"opțiuni."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:13
-msgid "Header design"
-msgstr "Design header"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:15
-msgid ""
-"To modify the header's design, click on :guilabel:`Edit`, then click on the "
-"header. The following options are available in the :guilabel:`Header` "
-"section of the :guilabel:`Customize` tab in the website editor:"
-msgstr ""
-"Pentru a modifica designul header-ului, apasă pe :guilabel:`Editare`, apoi "
-"pe header. Următoarele opțiuni sunt disponibile în "
-"secțiunea :guilabel:`Header` din fila :guilabel:`Personalizează` a "
-"editorului de site:"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:19
-msgid "Choose a :guilabel:`Template` from the drop-down menu."
-msgstr "Alege un :guilabel:`Șablon` din meniul derulant."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:20
-msgid ""
-"Select :guilabel:`Background` settings to change the color palette through "
-"different :ref:`Theme styles <website/themes/theme-"
-"colors>`, :guilabel:`Custom` color options, and :guilabel:`Gradient` ones."
-msgstr ""
-"Selectează setările de :guilabel:`Fundal` pentru a schimba paleta de culori "
-"prin diferite :ref:`stiluri de temă <website/themes/theme-colors>`, opțiuni "
-"de culoare :guilabel:`Personalizată` și opțiuni :guilabel:`Gradient`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:23
-msgid ""
-"When adding a :guilabel:`Border` to the header, its size, style, and color "
-"can be defined."
-msgstr ""
-"Când adaugi o :guilabel:`Margine` la header, poți defini dimensiunea, stilul "
-"și culoarea acesteia."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:24
-msgid "Adapt :guilabel:`Round corners` to fit the design."
-msgstr ""
-"Adaptează :guilabel:`Colțurile rotunjite` pentru a se potrivi cu designul."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:25
-msgid ""
-"Add a :guilabel:`Shadow` and define "
-"its :guilabel:`Color`, :guilabel:`Offset`, :guilabel:`Blur`, "
-"and :guilabel:`Spread`."
-msgstr ""
-"Adaugă o :guilabel:`Umbră` și "
-"definește :guilabel:`Culoarea`, :guilabel:`Deplasarea`, :guilabel:`Estomparea` "
-"și :guilabel:`Răspândirea` acesteia."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:27
-msgid "Add a :guilabel:`Scroll Effect`. Hover on an effect to preview it."
-msgstr ""
-"Adaugă un :guilabel:`Efect de derulare`. Plasează cursorul pe un efect "
-"pentru a-l previzualiza."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:28
-msgid ""
-"Choose the :guilabel:`Header Position` "
-"between :guilabel:`Regular`, :guilabel:`Hidden`, and :guilabel:`Over The "
-"Content`. When :guilabel:`Over The Content` is selected, you can customize "
-"the :guilabel:`Background` and :guilabel:`Text Color`."
-msgstr ""
-"Alege :guilabel:`Poziția header-ului` "
-"între :guilabel:`Normal`, :guilabel:`Ascuns` și :guilabel:`Peste conținut`. "
-"Când este selectat :guilabel:`Peste conținut`, poți "
-"personaliza :guilabel:`Fundalul` și :guilabel:`Culoarea textului`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:31
-msgid ""
-"Show or hide :guilabel:`Elements` such as text, the search "
-"bar, :guilabel:`Sign in` button, social media links, :guilabel:`Contact us` "
-"button, and logo."
-msgstr ""
-"Afișează sau ascunde :guilabel:`Elemente` precum text, bara de căutare, "
-"butonul :guilabel:`Autentificare`, linkuri către rețele sociale, "
-"butonul :guilabel:`Contactează-ne` și logo-ul."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:34
-#: ../../content/applications/websites/website/structure/header_footer.rst:111
-#: ../../content/applications/websites/website/structure/header_footer.rst:153
-#: ../../content/applications/websites/website/structure/header_footer.rst:193
-msgid "To finalize changes, click on :guilabel:`Save`."
-msgstr "Pentru a finaliza modificările, apasă pe :guilabel:`Salvează`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:37
-msgid ""
-"To hide the header, click on :guilabel:`Edit`, click on the header, and go "
-"to the :guilabel:`Theme` tab of the website editor. Scroll down to "
-"the :guilabel:`Advanced` section and toggle the :guilabel:`Show Header` "
-"switch to hide/show the header."
-msgstr ""
-"Pentru a ascunde header-ul, apasă pe :guilabel:`Editare`, apoi pe header și "
-"mergi la fila :guilabel:`Temă` din editorul de site. Derulează până la "
-"secțiunea :guilabel:`Avansat` și comută butonul :guilabel:`Afișează header` "
-"pentru a ascunde/afișa header-ul."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:44
+#: ../../content/applications/websites/website/structure/header_footer.rst:14
 msgid "Header content"
 msgstr "Conținut header"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:46
+#: ../../content/applications/websites/website/structure/header_footer.rst:16
 msgid ""
-"Menus organize the header’s content and help users navigate through web "
-"pages effectively. User-friendly and well-structured menus also play a "
-"crucial role in improving :doc:`search engine rankings <seo>`."
+"The header includes company information, quick-access buttons, "
+"and :ref:`website menus <website/header_footer/menu-editor>` to help users "
+"navigate the website effectively. Well-structured, user-friendly headers and "
+"menus also play an important role in improving :doc:`search engine rankings "
+"<seo>`."
 msgstr ""
-"Meniurile organizează conținutul header-ului și ajută utilizatorii să "
-"navigheze eficient prin paginile web. Meniurile prietenoase și bine "
-"structurate joacă un rol esențial în îmbunătățirea :doc:`clasamentului în "
-"motoarele de căutare <seo>`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:53
+#: ../../content/applications/websites/website/structure/header_footer.rst:24
 msgid "Menu editor"
 msgstr "Editor de meniu"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:55
+#: ../../content/applications/websites/website/structure/header_footer.rst:26
 msgid ""
-"The menu editor allows to edit the website's header and add :ref:`menu items "
-"<website/header_footer/menu-items>` and :ref:`mega menus <website/"
+"The menu editor allows you to edit the website header and add :ref:`menu "
+"items <website/header_footer/menu-items>` and :ref:`mega menus <website/"
 "header_footer/mega-menus>`."
 msgstr ""
-"Editorul de meniuri permite editarea header-ului site-ului și adăugarea "
-"de :ref:`elemente de meniu <website/header_footer/menu-items>` și :ref:`mega-"
-"meniuri <website/header_footer/mega-menus>`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:59
+#: ../../content/applications/websites/website/structure/header_footer.rst:31
 msgid ""
-"To edit the header's content, go to :menuselection:`Website --> Site --> "
-"Menu Editor`. From there, you can:"
+"To open the menu editor, go to :menuselection:`Website --> Site --> Menu "
+"Editor`. From there, you can:"
 msgstr ""
-"Pentru a edita conținutul header-ului, accesează :menuselection:`Website --> "
-"Site --> Editor de meniuri`. De acolo poți:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:62
+#: ../../content/applications/websites/website/structure/header_footer.rst:34
 msgid ""
-"**rename** a menu item or change its URL using the :guilabel:`Edit Menu "
-"Item` icon;"
+"**Rename** a menu item or change its URL using the :icon:`fa-pencil` "
+"(:guilabel:`Edit Menu Item`) icon."
 msgstr ""
-"**redenumiți** un element de meniu sau modificați adresa URL a acestuia "
-"folosind pictograma :guilabel:`Editați elementul de meniu`;"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:63
-msgid "**delete** a menu item using the :guilabel:`Delete Menu Item` icon;"
-msgstr ""
-"**șterge** un element de meniu folosind pictograma :guilabel:`Șterge "
-"elementul de meniu`;"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:64
+#: ../../content/applications/websites/website/structure/header_footer.rst:36
 msgid ""
-"**move** a menu item by dragging and dropping it to the desired place in the "
-"menu;"
+"**Delete** a menu item using the :icon:`fa-trash` (:guilabel:`Delete Menu "
+"Item`) icon."
 msgstr ""
-"**mutați** un element de meniu prin tragerea și plasarea acestuia în locul "
-"dorit din meniu;"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:65
+#: ../../content/applications/websites/website/structure/header_footer.rst:37
 msgid ""
-"**create a regular drop-down menu** by dragging and dropping the sub-menu "
+"**Move** a menu item by dragging and dropping it to the desired location in "
+"the menu."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:38
+msgid ""
+"**Create a regular drop-down menu** by dragging and dropping the sub-menu "
 "items to the right, underneath their parent menu."
 msgstr ""
-"**creați un meniu derulant obișnuit** trăgând și plasând elementele din "
-"submeniu la dreapta, sub meniul părinte."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:None
 msgid "Menu editor with sub-menus"
 msgstr "Editor de meniu cu submeniuri"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:72
+#: ../../content/applications/websites/website/structure/header_footer.rst:46
 msgid ""
-"You can also access the menu editor by clicking :guilabel:`Edit`, selecting "
-"any menu item, and clicking the :guilabel:`Edit Menu` icon."
+"You can also access the menu editor from the website editor. To do so, "
+"either:"
 msgstr ""
-"Poți accesa editorul de meniuri și apăsând :guilabel:`Editare`, selectând "
-"orice element de meniu și apăsând pictograma :guilabel:`Editează meniul`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:48
+msgid "Select any menu item and click :guilabel:`Edit Menu`, or"
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:0
-msgid "Access the Menu editor while in Edit mode."
-msgstr "Accesați editorul de meniu în modul Editare."
+msgid "Access the menu editor while in Edit mode."
+msgstr ""
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:81
+#: ../../content/applications/websites/website/structure/header_footer.rst:53
+msgid ""
+"Navigate to the :guilabel:`Style` tab, and click :guilabel:`Edit Menu` next "
+"to the :guilabel:`Header` section title."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:59
 msgid "Add menu items"
 msgstr "Adăugare elemente de meniu"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:83
+#: ../../content/applications/websites/website/structure/header_footer.rst:61
 msgid ""
 "By default, pages are added to the menu as drop-down menu items "
 "when :doc:`they are created <../structure/pages>`. To add a new menu item, "
@@ -16271,169 +16140,209 @@ msgstr ""
 "atunci când :doc:`sunt create <../structure/pages>`. Pentru a adăuga un nou "
 "element de meniu, urmează acești pași:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:86
-msgid "Go to :menuselection:`Website --> Site --> Menu Editor`."
-msgstr "Accesează :menuselection:`Website --> Site --> Editor de meniuri`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:87
-msgid "In the menu editor, click :guilabel:`Add Menu Item`."
-msgstr "În editorul de meniuri, apasă :guilabel:`Adaugă element de meniu`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:88
+#: ../../content/applications/websites/website/structure/header_footer.rst:64
 msgid ""
-"In the pop-up window, enter the :guilabel:`Name` to be displayed in the menu."
+"In the :ref:`menu editor <website/header_footer/open-menu-editor>`, "
+"click :guilabel:`Add Menu Item`."
 msgstr ""
-"În fereastra pop-up, introdu :guilabel:`Numele` care va fi afișat în meniu."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:89
+#: ../../content/applications/websites/website/structure/header_footer.rst:66
 msgid ""
-"Type `/` in the :guilabel:`URL or Email` field to search for a page on your "
-"website or `#` to search for an existing custom anchor."
+"In the pop-up window, enter the :guilabel:`Title` to be displayed in the "
+"menu."
 msgstr ""
-"Scrie `/` în câmpul :guilabel:`URL sau Email` pentru a căuta o pagină pe "
-"site sau `#` pentru a căuta o ancoră personalizată existentă."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:91
-msgid "Click :guilabel:`OK`."
-msgstr "Apasă :guilabel:`OK`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:92
+#: ../../content/applications/websites/website/structure/header_footer.rst:67
 msgid ""
-"Edit the :ref:`menu structure <website/header_footer/menu-editor>` if "
-"needed, then :guilabel:`Save`."
+"In the :guilabel:`URL or Email` field, type `/` to search for an existing "
+"page on the website or `#` to search for an existing custom anchor."
 msgstr ""
-"Editează :ref:`structura meniului <website/header_footer/menu-editor>` dacă "
-"este necesar, apoi apasă :guilabel:`Salvează`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:96
+#: ../../content/applications/websites/website/structure/header_footer.rst:71
+msgid ""
+"To add a menu item for a page that does not exist yet, enter the new URL or "
+"anchor and click :guilabel:`Create Page` in the :guilabel:`Edit Menu` pop-"
+"up. If you add the menu item without creating the corresponding page, the "
+"link leads to a :ref:`404 error page <website/pages/URL-redirection>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:77
+#: ../../content/applications/websites/website/structure/header_footer.rst:149
+msgid ""
+"Adjust the :ref:`menu structure <website/header_footer/menu-editor>` if "
+"needed."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:83
 msgid "Menu item design"
 msgstr "Design element de meniu"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:98
+#: ../../content/applications/websites/website/structure/header_footer.rst:85
 msgid ""
-"To modify the menu items, click on :guilabel:`Edit`, click on a menu item, "
-"then go to the :guilabel:`Navbar` section of the website editor. The "
-"following options are available:"
+"To modify the menu items' design, click :guilabel:`Edit` in the upper-right "
+"corner and select the header. Then, go to the :guilabel:`Style` tab and "
+"navigate to the :guilabel:`Navigation` section. The following options are "
+"available:"
 msgstr ""
-"Pentru a modifica elementele de meniu, apasă pe :guilabel:`Editare`, apoi pe "
-"un element de meniu și mergi la secțiunea :guilabel:`Navbar` din editorul de "
-"site. Sunt disponibile următoarele opțiuni:"
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:89
+msgid "Adjust the :guilabel:`Desktop Menu` alignment for desktop devices."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:90
+msgid ""
+"Adjust the :guilabel:`Mobile Menu` alignment and position for mobile devices."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:91
+msgid ""
+"Choose whether :guilabel:`Sub Menus` open :guilabel:`On Hover` "
+"or :guilabel:`On Click`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:92
+msgid ""
+"Select a :guilabel:`Link Style` to highlight the current page in the menu."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:95
+msgid ""
+"The options available in the :guilabel:`Navigation` section may vary "
+"depending on the selected template."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:101
-msgid "Adapt the :guilabel:`Mobile Alignment`."
-msgstr "Adaptează :guilabel:`Alinierea pe mobil`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:102
-msgid "Choose the :guilabel:`Font` for the menu items."
-msgstr "Alege :guilabel:`Fontul` pentru elementele de meniu."
+msgid "Hide a dynamic menu item for non-logged-in users"
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:103
 msgid ""
-"Change the font size, color, and alignment in the :guilabel:`Format` field."
+"To hide the `Shop` menu item for non-logged-in users, :ref:`restrict e-"
+"commerce access to logged-in users <ecommerce/customer_accounts/shop-"
+"access>`."
 msgstr ""
-"Schimbă dimensiunea fontului, culoarea și alinierea în "
-"câmpul :guilabel:`Format`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:104
-msgid ""
-"Select a :guilabel:`Links Style` to highlight the current page in the menu."
-msgstr ""
-"Selectează un :guilabel:`Stil de link` pentru a evidenția pagina curentă în "
-"meniu."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:105
-msgid ""
-"Change the :ref:`style of the header buttons <website/themes/button-styles>`."
-msgstr ""
-"Schimbă :ref:`stilul butoanelor din header <website/themes/button-styles>`."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:106
 msgid ""
-"Choose to display the :guilabel:`Sub Menus` :guilabel:`On Hover` "
-"or :guilabel:`On Click`."
+"To hide other menu items related to :ref:`dynamic <website/pages/page_type>` "
+"pages (i.e., a menu item generated automatically by Odoo, for example, when "
+"installing an app or module, such as `Events`, `Courses`, etc.) to non-"
+"logged-in users, follow these steps:"
 msgstr ""
-"Alege să afișezi :guilabel:`Submeniurile` :guilabel:`La trecerea cu mouse-"
-"ul` sau :guilabel:`La click`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:109
-msgid ""
-"The fields available in the :guilabel:`Navbar` section can vary depending on "
-"the chosen template."
+#: ../../content/applications/websites/website/structure/header_footer.rst:110
+msgid ":ref:`Enable developer mode <developer-mode>`."
+msgstr ":ref:`Activează modul dezvoltator <developer-mode>`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:111
+msgid "Go to :menuselection:`Website --> Configuration --> Menus`."
+msgstr "Accesează :menuselection:`Website --> Configuration --> Menus`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:112
+msgid "Expand the list of menus for the relevant website if needed."
 msgstr ""
-"Câmpurile disponibile în secțiunea :guilabel:`Navbar` pot varia în funcție "
-"de șablonul ales."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:113
+msgid "Select the menu item you wish to hide."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:114
+msgid ""
+"In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:115
+msgid ""
+"Search for the group :guilabel:`Name` :guilabel:`Role / Portal`, "
+"and :guilabel:`Select` it."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:116
+msgid "Save."
+msgstr "Salvează."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:119
+msgid ""
+"You can further customize the menu items on this menu item form. For example:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:121
+msgid ""
+"Enable the :guilabel:`New Window` checkbox to open the page in a new tab "
+"when clicked."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:122
+msgid "Add a :guilabel:`Related Page` or :guilabel:`Related Model Page`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:123
+msgid ""
+"Assign a :guilabel:`Parent Menu`, and/or :guilabel:`Child Menus` to create a "
+"hierarchy."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:126
+msgid ""
+":ref:`Manage the visibility of static pages <website/pages/page_properties>`"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:131
 msgid "Mega menus"
 msgstr "Mega-meniuri"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:118
+#: ../../content/applications/websites/website/structure/header_footer.rst:133
 msgid ""
-"Mega menus are similar to drop-down menus, but instead of a simple list of "
-"sub-menus, they display a panel divided into groups of navigation options. "
-"This makes them suitable for websites with large amounts of content "
-"or :doc:`e-commerce websites <../../ecommerce>`, as they can help include "
-"all of your web pages or :ref:`e-commerce categories <ecommerce/"
-"categories_variants/categories>` in the menu while still making all menu "
-"items visible at once."
+"Mega menus are similar to drop-down menus, but instead of displaying a "
+"simple list of sub-menus, they show a panel divided into groups of "
+"navigation options. They are especially useful for websites with large "
+"amounts of content or :doc:`e-commerce websites <../../ecommerce>`, as they "
+"can help include all of the web pages or :ref:`e-commerce categories "
+"<ecommerce/categories_variants/categories>` in the menu while keeping all "
+"menu items visible at once."
 msgstr ""
-"Meniurile mega sunt similare meniurilor drop-down, dar în loc de o listă "
-"simplă de submeniuri, afișează un panou împărțit în grupuri de opțiuni de "
-"navigare. Acest lucru le face potrivite pentru site-urile web cu volume mari "
-"de conținut sau :doc:`site-uri web de comerț electronic <../../ecommerce>`, "
-"deoarece pot ajuta la includerea tuturor paginilor web "
-"sau :ref:`categoriilor de comerț electronic <ecommerce/categories_variants/"
-"categories>` în meniu, menținând totuși toate elementele de meniu vizibile "
-"deodată."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:None
 msgid "Mega menu in the navigation bar."
 msgstr "Mega meniu în bara de navigare."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:127
-msgid ""
-"To create a mega menu, go to :menuselection:`Website --> Site --> Menu "
-"Editor` and click :guilabel:`Add Mega Menu Item`. Enter the :guilabel:`Name` "
-"of the mega menu in the pop-up, click :guilabel:`OK`, then :guilabel:`Save`."
+#: ../../content/applications/websites/website/structure/header_footer.rst:143
+msgid "To create a mega menu, follow these steps:"
 msgstr ""
-"Pentru a crea un mega meniu, accesați :menuselection:`Site web --> Site --> "
-"Menu Editor` și faceți clic pe :guilabel:`Add Mega Menu Item`. "
-"Introduceți :guilabel:`Numele` mega-meniului în fereastra pop-up, faceți "
-"clic pe :guilabel:`OK`, apoi pe :guilabel:`Salvați`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:131
+#: ../../content/applications/websites/website/structure/header_footer.rst:145
 msgid ""
-"To adapt the options and content of the mega menu, click on a mega menu item "
-"in the header, then click :guilabel:`Edit`. Mega menus are composed of "
-"building blocks, which means you can customize each component individually. "
-"For example:"
+"In the :ref:`menu editor <website/header_footer/open-menu-editor>`, "
+"click :guilabel:`Add Mega Menu Item`."
 msgstr ""
-"Pentru a adapta opțiunile și conținutul mega-meniului, apasă pe un element "
-"de mega-meniu din header, apoi pe :guilabel:`Editare`. Mega-meniurile sunt "
-"compuse din blocuri de construcție, ceea ce înseamnă că poți personaliza "
-"fiecare componentă individual. De exemplu:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:135
-msgid "Edit the text directly in the building block."
-msgstr "Editează textul direct în blocul de construcție."
+#: ../../content/applications/websites/website/structure/header_footer.rst:147
+msgid "In the pop-up window, enter the :guilabel:`Title` of the mega menu."
+msgstr ""
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:136
+#: ../../content/applications/websites/website/structure/header_footer.rst:152
 msgid ""
-"Edit a menu item's URL by selecting the menu item and clicking "
-"the :guilabel:`Edit link` button in the small preview pop-up. Type `/` to "
-"search for a page on your website, or `#` to search for an existing custom "
-"anchor."
+"Mega menus are built using default :doc:`building blocks <../web_design/"
+"building_blocks>`, which means each component must be customized "
+"individually. To do so, click :guilabel:`Edit` in the upper-right corner, "
+"then select the mega menu. Then:"
 msgstr ""
-"Editează URL-ul unui element de meniu selectând elementul și apăsând "
-"butonul :guilabel:`Editează linkul` din fereastra mică de previzualizare. "
-"Scrie `/` pentru a căuta o pagină pe site sau `#` pentru a căuta o ancoră "
-"personalizată existentă."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:156
+msgid "Edit the text directly within the building block."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:157
+msgid ""
+"Edit a :ref:`menu item's URL <website/header_footer/menu-items>` by "
+"selecting the mega menu item and clicking the :guilabel:`Edit` button."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:0
 msgid "Edit a mega menu option."
 msgstr "Editați o opțiune de mega meniu."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:143
+#: ../../content/applications/websites/website/structure/header_footer.rst:163
 msgid ""
 "Move a menu item by dragging and dropping the related block to the desired "
 "position in the mega menu."
@@ -16441,25 +16350,29 @@ msgstr ""
 "Mută un element de meniu prin tragerea și plasarea blocului asociat în "
 "poziția dorită din mega-meniu."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:145
-msgid "Delete a menu item by deleting the related block."
-msgstr "Șterge un element de meniu ștergând blocul asociat."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:147
+#: ../../content/applications/websites/website/structure/header_footer.rst:165
 msgid ""
-"To adapt the general layout of the mega menu, go to "
-"the :guilabel:`Customize` tab of the website editor, then, in "
-"the :guilabel:`Mega Menu` section:"
+"Delete a menu item by clicking the :icon:`fa-trash` (:guilabel:`Remove`) "
+"icon of the related block."
 msgstr ""
-"Pentru a adapta aspectul general al mega-meniului, mergi la "
-"fila :guilabel:`Personalizează` din editorul de site, apoi, în "
-"secțiunea :guilabel:`Mega-meniu`:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:150
+#: ../../content/applications/websites/website/structure/header_footer.rst:169
+msgid "Mega menu design"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:171
+msgid ""
+"To customize the general layout of the mega menu and its "
+"individual :doc:`building blocks <../web_design/building_blocks>`, open the "
+"website editor, go to the :guilabel:`Style` tab, and navigate to "
+"the :guilabel:`Mega Menu` section. The following options are available:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:175
 msgid "Choose a :guilabel:`Template`."
 msgstr "Alege un :guilabel:`Șablon`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:151
+#: ../../content/applications/websites/website/structure/header_footer.rst:176
 msgid ""
 "Pick the :guilabel:`Size`: either :guilabel:`Full-Width` "
 "or :guilabel:`Narrow`."
@@ -16467,89 +16380,159 @@ msgstr ""
 "Selectează :guilabel:`Dimensiunea`: fie :guilabel:`Lățime completă`, "
 "fie :guilabel:`Îngust`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:156
-msgid "Hide a dynamic menu item for non-logged in users"
-msgstr "Ascundere element de meniu dinamic pentru utilizatorii neautentificați"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:158
+#: ../../content/applications/websites/website/structure/header_footer.rst:177
 msgid ""
-"To hide a dynamic menu item (i.e., a menu item generated automatically by "
-"Odoo, for example, when you install an app or module, such as `Events`, "
-"`Courses`, etc.) for non-logged in users, follow these steps:"
+"Toggle :ref:`eCommerce Categories <ecommerce/categories_variants/"
+"categories>` if applicable."
 msgstr ""
-"Pentru a ascunde un element de meniu dinamic (adică un element de meniu "
-"generat automat de Odoo, de exemplu, când instalați o aplicație sau un "
-"modul, cum ar fi `Evenimente`, `Cursuri` etc.) pentru utilizatorii "
-"neautentificați, urmează acești pași:"
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:162
-msgid ":ref:`Enable developer mode <developer-mode>`."
-msgstr ":ref:`Activează modul dezvoltator <developer-mode>`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:163
-msgid "Go to :menuselection:`Website --> Configuration --> Menus`."
-msgstr "Accesează :menuselection:`Website --> Configuration --> Menus`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:164
-msgid ""
-"Expand the list of menus for the relevant website if needed, then click the "
-"menu item you wish to hide."
+#: ../../content/applications/websites/website/structure/header_footer.rst:182
+msgid "Header and footer design"
 msgstr ""
-"Extinde lista de meniuri pentru site-ul web relevant, dacă este necesar, "
-"apoi face clic pe elementul de meniu pe care dorești să-l ascunzi."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:166
-msgid ""
-"In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line` "
-"under :guilabel:`Group Name`."
-msgstr ""
-"În secțiunea :guilabel:`Grupuri vizibile`, face clic pe :guilabel:`Adăugă o "
-"linie` sub :guilabel:`Nume grup`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:168
-msgid ""
-"Search for the group :guilabel:`User types / Portal`, select it, then "
-"click :guilabel:`Select`."
-msgstr ""
-"Caută grupul :guilabel:`Tipuri de utilizatori / Portal`, selectează-l, apoi "
-"face clic pe :guilabel:`Selectează`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:169
-msgid "Save."
-msgstr "Salvează."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:172
-msgid ""
-"To hide the `Shop` menu item, :doc:`restrict ecommerce access to logged-in "
-"users <../../ecommerce/configuration/customer_accounts>`."
-msgstr ""
-"Pentru a ascunde elementul de meniu `Shop`, :doc:`restricționează accesul la "
-"comerțul electronic pentru utilizatorii autentificați <../../ecommerce/"
-"configuration/customer_accounts>`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:178
-msgid "Footer design"
-msgstr "Design footer"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:180
-msgid ""
-"To modify the footer, click on :guilabel:`Edit`, click on the footer, and in "
-"the :guilabel:`Footer` section of the :guilabel:`Customize` tab in the "
-"website editor:"
-msgstr ""
-"Pentru a modifica footer-ul, apasă pe :guilabel:`Editare`, apoi pe footer "
-"și, în secțiunea :guilabel:`Footer` din fila :guilabel:`Personalizează` a "
-"editorului de site:"
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:183
-msgid "Select a :guilabel:`Template`."
-msgstr "Selectează un :guilabel:`Șablon`."
 
 #: ../../content/applications/websites/website/structure/header_footer.rst:184
-msgid "Choose its :guilabel:`Colors`."
-msgstr "Alege :guilabel:`Culorile`."
+msgid ""
+"To modify the header or footer design, click :guilabel:`Edit` in the upper-"
+"right corner and select the header or footer. Then, go to "
+"the :guilabel:`Style` tab and navigate to the :guilabel:`Header` "
+"or :guilabel:`Footer` section. The following options are available:"
+msgstr ""
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:185
+#: ../../content/applications/websites/website/structure/header_footer.rst:188
+msgid "Choose a :guilabel:`Template` from the drop-down menu."
+msgstr "Alege un :guilabel:`Șablon` din meniul derulant."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:189
+msgid ""
+"Select a :guilabel:`Background` color by defining a :ref:`theme <website/"
+"themes/theme-colors>` style, a :guilabel:`Custom` color option, or "
+"a :guilabel:`Gradient`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:191
+msgid "Set the :guilabel:`Content Width`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:192
+msgid ""
+"Add a :guilabel:`Border` to the footer and customize its size, style, and "
+"color."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:193
+msgid "Adapt :guilabel:`Round corners` to fit the design."
+msgstr ""
+"Adaptează :guilabel:`Colțurile rotunjite` pentru a se potrivi cu designul."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:194
+msgid ""
+"Add a :guilabel:`Shadow` and define "
+"its :guilabel:`Color`, :guilabel:`Offset`, :guilabel:`Blur`, "
+"and :guilabel:`Spread`."
+msgstr ""
+"Adaugă o :guilabel:`Umbră` și "
+"definește :guilabel:`Culoarea`, :guilabel:`Deplasarea`, :guilabel:`Estomparea` "
+"și :guilabel:`Răspândirea` acesteia."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:199
+msgid "Header-specific design options"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:201
+msgid ""
+"To further customize the website's header, use the following header-specific "
+"design options in the :guilabel:`Header` section:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:204
+msgid ""
+"Add a :guilabel:`Scroll Effect` to determine how the header behaves while "
+"scrolling the page. Hover over an effect to preview it."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:207
+msgid ""
+"Choose the :guilabel:`Header Position` for the selected "
+"page: :guilabel:`Regular`, :guilabel:`Hidden`, or :guilabel:`Over The "
+"Content`. When :guilabel:`Over The Content` is selected, you can also "
+"customize the :guilabel:`Background` and :guilabel:`Text Color`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:212
+msgid ""
+"To hide the header on all pages, go to the :guilabel:`Theme` tab of the "
+"website editor. Scroll down to the :guilabel:`Advanced` section and "
+"toggle :guilabel:`Show Header` off."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:214
+msgid ""
+":guilabel:`Hidden` elements, including the header when applicable, are "
+"available under :ref:`Invisible Elements <website/visibility/invisible-"
+"elements>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:217
+msgid ""
+"Change the :guilabel:`Default` :guilabel:`Accent Color` to either "
+"the :guilabel:`Primary` or :guilabel:`Secondary` :ref:`color <website/themes/"
+"colors>` to visually distinguish drop-down buttons in the header."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:220
+msgid "Define a :ref:`font <website/themes/fonts>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:221
+msgid "Set the :guilabel:`Format` size and add a color if needed."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:223
+msgid ""
+"To control the visibility of specific elements, navigate to "
+"the :guilabel:`Show/Hide Elements` section of the :guilabel:`Style` tab and "
+"click the option related to the element you wish to show or hide. You can "
+"show or hide:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:227
+msgid ""
+":guilabel:`Visuals`, such as the :guilabel:`Company logo`, :guilabel:`Text "
+"Elements` (e.g., a phone number), and :guilabel:`Social Links` for linking "
+"all social media accounts."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:229
+msgid ""
+":guilabel:`Actions`, such as the :guilabel:`Search Bar`, the :ref:`Language "
+"Selector <translate/language-selector>`, the :guilabel:`Sign in` button, and "
+"the :guilabel:`Header Button` (a :guilabel:`Contact us` button by default)."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:232
+msgid ""
+":doc:`eCommerce <../../ecommerce>`-specific elements: the :ref:`Add to cart "
+"<ecommerce/checkout/cart-button-header>` and :ref:`Add to wishlist "
+"<ecommerce/products/additional_features/wishlists>` buttons."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:235
+msgid ""
+"You can enable a :guilabel:`Background` for navigation icons, such as the "
+"wishlist or search bar icon."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:238
+msgid "Footer-specific design options"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:240
+msgid ""
+"To further customize the website's footer, use the following footer-specific "
+"design options in the :guilabel:`Footer` section:"
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:243
 msgid ""
 "Choose a :guilabel:`Slideout Effect`: :guilabel:`Regular` (i.e., no "
 "effect), :guilabel:`Slide Hover`, or :guilabel:`Shadow`."
@@ -16557,29 +16540,33 @@ msgstr ""
 "Alege un :guilabel:`Efect de glisare`: :guilabel:`Normal` (adică fără "
 "efect), :guilabel:`Glisare la trecere cu mouse-ul` sau :guilabel:`Umbră`."
 
-#: ../../content/applications/websites/website/structure/header_footer.rst:187
-msgid "Toggle the :guilabel:`Copyright` switch to hide or show the copyright."
-msgstr ""
-"Comută butonul :guilabel:`Copyright` pentru a ascunde sau afișa copyright-ul."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:188
-msgid "Choose the :guilabel:`Border` size."
-msgstr "Alege dimensiunea :guilabel:`Marginii`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:189
-msgid "Add a :guilabel:`Shadow`."
-msgstr "Adaugă o :guilabel:`Umbră`."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:190
-msgid "Add a :guilabel:`Scroll Top Button` and choose its position."
-msgstr "Adaugă un :guilabel:`Buton de derulare sus` și alege poziția acestuia."
-
-#: ../../content/applications/websites/website/structure/header_footer.rst:191
+#: ../../content/applications/websites/website/structure/header_footer.rst:245
 msgid ""
-"Hide or show the footer by toggling the :guilabel:`Page visibility` switch."
+"Toggle the :guilabel:`Scroll Top Button` option to add a :icon:`fa-caret-"
+"up` :guilabel:`Scroll to Top` button, then choose its position."
 msgstr ""
-"Ascunde sau afișează footer-ul comutând butonul :guilabel:`Vizibilitate "
-"pagină`."
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:247
+msgid ""
+"Toggle the :guilabel:`Copyright` switch to hide or show the copyright "
+"notice. If enabled, add a color in the :guilabel:`Copyright` section if "
+"needed."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:249
+msgid ""
+"Hide or show the footer for the current page by toggling the :guilabel:`Page "
+"visibility` switch. Hidden elements, including the footer when applicable, "
+"are available under :ref:`Invisible Elements <website/visibility/invisible-"
+"elements>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/structure/header_footer.rst:254
+msgid ""
+"You can also add :guilabel:`Inner Content` :ref:`blocks <website/"
+"building_blocks/add>` to the header or footer for further customization, "
+"such as :ref:`e-commerce-specific footer options <ecommerce/catalog/footer>`."
+msgstr ""
 
 #: ../../content/applications/websites/website/structure/pages.rst:7
 msgid ""
@@ -18320,14 +18307,9 @@ msgstr ""
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:127
 msgid ""
 "**Prepare the Odoo form:** Create a contact form on a page in Odoo Website "
-"and remove the :ref:`header design <website/header_footer/header-design>` "
-"and the :ref:`footer design <website/header_footer/footer-design>`. Make "
+"and remove the :ref:`header and footer <website/header_footer/design>`. Make "
 "sure only the contact form remains on the page."
 msgstr ""
-"**Pregătiți formularul Odoo:** Creați un formular de contact pe o pagină în "
-"Odoo Website și eliminați :ref:`designul antetului <website/header_footer/"
-"header-design>` și :ref:`designul subsolului <website/header_footer/footer-"
-"design>`. Asigurați-vă că doar formularul de contact rămâne pe pagină."
 
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:130
 msgid ""
@@ -18964,7 +18946,7 @@ msgstr ""
 "elements/animations>`, :guilabel:`Formă` etc."
 
 #: ../../content/applications/websites/website/web_design/elements.rst:114
-#: ../../content/applications/websites/website/web_design/themes.rst:190
+#: ../../content/applications/websites/website/web_design/themes.rst:189
 msgid "Links"
 msgstr "Link-uri"
 
@@ -19293,7 +19275,7 @@ msgid ""
 "Click the color you want to change, then select a "
 "predefined :guilabel:`Solid` color or click :guilabel:`Custom` to pick a "
 "specific color tone manually (or add its #HEX or RGBA code). Click :icon:`fa-"
-"trash` (:guilabel:`Delete`) to remove the color selection."
+"trash` (:guilabel:`Reset`) to remove the color selection."
 msgstr ""
 
 #: ../../content/applications/websites/website/web_design/themes.rst:61
@@ -19341,12 +19323,13 @@ msgid ""
 "the :ref:`Advanced <website/themes/advanced>` section and click the dots to "
 "change their color."
 msgstr ""
-"Culorile de stare indică starea anumitor acțiuni (de ex., "
-":guilabel:`Succes`, :guilabel:`Avertisment` etc.). Acestea sunt utilizate în "
-"mesajele pop-up care apar pentru a oferi feedback utilizatorilor și "
-"vizitatorilor site-ului. Pentru a personaliza :guilabel:`Culorile de stare` "
-"ale site-ului, derulați în jos până la secțiunea :ref:`Avansat <website/"
-"themes/advanced>` și faceți clic pe puncte pentru a le schimba culoarea."
+"Culorile de stare indică starea anumitor acțiuni (de "
+"ex., :guilabel:`Succes`, :guilabel:`Avertisment` etc.). Acestea sunt "
+"utilizate în mesajele pop-up care apar pentru a oferi feedback "
+"utilizatorilor și vizitatorilor site-ului. Pentru a "
+"personaliza :guilabel:`Culorile de stare` ale site-ului, derulați în jos "
+"până la secțiunea :ref:`Avansat <website/themes/advanced>` și faceți clic pe "
+"puncte pentru a le schimba culoarea."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:93
 msgid ""
@@ -19377,8 +19360,8 @@ msgid ""
 msgstr ""
 "Odoo vă permite să personalizați familia de fonturi și dimensiunea fontului "
 "elementelor site-ului, inclusiv :ref:`paragrafele și titlurile <website/"
-"themes/paragraphs-headings>`, :ref:`butoanele <website/themes/button-styles>"
-"` și :ref:`câmpurile de introducere <website/themes/input-fields>`."
+"themes/paragraphs-headings>`, :ref:`butoanele <website/themes/button-"
+"styles>` și :ref:`câmpurile de introducere <website/themes/input-fields>`."
 
 #: ../../content/applications/websites/website/web_design/themes.rst:110
 msgid ""
@@ -19389,15 +19372,25 @@ msgid ""
 "more options`) icon to expand the section and define custom sizes (e.g., "
 "based on the heading level, button size, etc.)."
 msgstr ""
-":guilabel:`Dimensiunea fontului`: În secțiunile :guilabel:`Paragraf`, "
-":guilabel:`Titluri`, :guilabel:`Buton` și :guilabel:`Câmpuri de "
-"introducere`, utilizați câmpul :guilabel:`Dimensiunea fontului` pentru a "
-"seta o dimensiune implicită. Faceți clic pe pictograma :icon:`fa-caret-"
-"right` (:guilabel:`Comutare mai multe opțiuni`) pentru a extinde secțiunea "
-"și a defini dimensiuni personalizate (de ex., pe baza nivelului titlului, "
+":guilabel:`Dimensiunea fontului`: În "
+"secțiunile :guilabel:`Paragraf`, :guilabel:`Titluri`, :guilabel:`Buton` "
+"și :guilabel:`Câmpuri de introducere`, utilizați "
+"câmpul :guilabel:`Dimensiunea fontului` pentru a seta o dimensiune "
+"implicită. Faceți clic pe pictograma :icon:`fa-caret-right` "
+"(:guilabel:`Comutare mai multe opțiuni`) pentru a extinde secțiunea și a "
+"defini dimensiuni personalizate (de ex., pe baza nivelului titlului, "
 "dimensiunii butonului etc.)."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:116
+#: ../../content/applications/websites/website/web_design/themes.rst:114
+msgid ""
+":guilabel:`Font Family`: In the :guilabel:`Paragraph`, :guilabel:`Headings`, "
+"and :guilabel:`Button` sections, select a font from the dropdown menu."
+msgstr ""
+":guilabel:`Familie font`: În "
+"secțiunile :guilabel:`Paragraf`, :guilabel:`Titluri` și :guilabel:`Buton`, "
+"selectează un font din meniul derulant."
+
+#: ../../content/applications/websites/website/web_design/themes.rst:118
 msgid ""
 "When :guilabel:`System Fonts` is selected, Odoo uses the native fonts "
 "already installed on the visitor's operating system. For example, Android "
@@ -19407,20 +19400,11 @@ msgstr ""
 "native deja instalate pe sistemul de operare al vizitatorului. De exemplu, "
 "Android folosește **Roboto** ca font de sistem implicit."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:119
-msgid ""
-":guilabel:`Font Family`: In the :guilabel:`Paragraph`, :guilabel:`Headings`, "
-"and :guilabel:`Button` sections, select a font from the dropdown menu."
-msgstr ""
-":guilabel:`Familie font`: În "
-"secțiunile :guilabel:`Paragraf`, :guilabel:`Titluri` și :guilabel:`Buton`, "
-"selectează un font din meniul derulant."
-
-#: ../../content/applications/websites/website/web_design/themes.rst:123
+#: ../../content/applications/websites/website/web_design/themes.rst:122
 msgid "Custom fonts"
 msgstr "Fonturi personalizate"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:125
+#: ../../content/applications/websites/website/web_design/themes.rst:124
 msgid ""
 "To add a custom font not available by default in Odoo, click "
 "the :guilabel:`Font Family` dropdown and select :guilabel:`Add a Custom "
@@ -19433,7 +19417,7 @@ msgstr ""
 "fereastra pop-up :guilabel:`Adăugați un font Google sau încărcați un font "
 "personalizat`:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:129
+#: ../../content/applications/websites/website/web_design/themes.rst:128
 msgid ""
 "To add a Google font, open the :guilabel:`Select a Google Font` dropdown and "
 "select the desired font. Toggle off the :guilabel:`Serve font from Google "
@@ -19442,15 +19426,15 @@ msgid ""
 "Union's GDPR. This will ensure the Google Font is stored on the website's "
 "server rather than on Google's servers."
 msgstr ""
-"Pentru a adăuga un font Google, deschideți meniul derulant "
-":guilabel:`Selectați un font Google` și selectați fontul dorit. Dezactivați "
-":guilabel:`Servire font de pe serverele Google` dacă site-ul dvs. este "
-"operat dintr-o locație în care reglementările impun conformitatea cu legi "
-"precum, dar fără a se limita la, GDPR al Uniunii Europene. Acest lucru va "
-"asigura că fontul Google este stocat pe serverul site-ului, nu pe serverele "
-"Google."
+"Pentru a adăuga un font Google, deschideți meniul "
+"derulant :guilabel:`Selectați un font Google` și selectați fontul dorit. "
+"Dezactivați :guilabel:`Servire font de pe serverele Google` dacă site-ul "
+"dvs. este operat dintr-o locație în care reglementările impun conformitatea "
+"cu legi precum, dar fără a se limita la, GDPR al Uniunii Europene. Acest "
+"lucru va asigura că fontul Google este stocat pe serverul site-ului, nu pe "
+"serverele Google."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:134
+#: ../../content/applications/websites/website/web_design/themes.rst:133
 msgid ""
 "To upload a :guilabel:`Custom Font` from your computer, "
 "click :guilabel:`Choose File`."
@@ -19458,11 +19442,11 @@ msgstr ""
 "Pentru a încărca un :guilabel:`Font personalizat` de pe computerul dvs., "
 "faceți clic pe :guilabel:`Alegere fișier`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:136
+#: ../../content/applications/websites/website/web_design/themes.rst:135
 msgid "Once done, click :guilabel:`Save and Reload`."
 msgstr "Odată terminat, faceți clic pe :guilabel:`Salvare și reîncărcare`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:139
+#: ../../content/applications/websites/website/web_design/themes.rst:138
 msgid ""
 "A :guilabel:`Preview` of the selected font is displayed on the right side of "
 "the window."
@@ -19470,11 +19454,11 @@ msgstr ""
 "O :guilabel:`Previzualizare` a fontului selectat este afișată în partea "
 "dreaptă a ferestrei."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:142
+#: ../../content/applications/websites/website/web_design/themes.rst:141
 msgid "Styles"
 msgstr "Stiluri"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:144
+#: ../../content/applications/websites/website/web_design/themes.rst:143
 msgid ""
 "The appearance of website elements can be further customized. For example, "
 "you can customize :ref:`paragraphs and headings <website/themes/paragraphs-"
@@ -19484,15 +19468,15 @@ msgid ""
 msgstr ""
 "Aspectul elementelor site-ului poate fi personalizat în continuare. De "
 "exemplu, puteți personaliza :ref:`paragrafele și titlurile <website/themes/"
-"paragraphs-headings>`, :ref:`butoanele <website/themes/button-styles>`, "
-":ref:`link-urile <website/themes/link-style>` și :ref:`câmpurile de "
-"introducere <website/themes/input-fields>`."
+"paragraphs-headings>`, :ref:`butoanele <website/themes/button-"
+"styles>`, :ref:`link-urile <website/themes/link-style>` și :ref:`câmpurile "
+"de introducere <website/themes/input-fields>`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:152
+#: ../../content/applications/websites/website/web_design/themes.rst:151
 msgid "Paragraphs & headings"
 msgstr "Paragrafe și titluri"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:154
+#: ../../content/applications/websites/website/web_design/themes.rst:153
 msgid ""
 "The :guilabel:`Paragraph` and :guilabel:`Headings` sections offer additional "
 "styling options for these text elements. You can:"
@@ -19500,13 +19484,13 @@ msgstr ""
 "Secțiunile :guilabel:`Paragraf` și :guilabel:`Titluri` oferă opțiuni "
 "suplimentare de stilizare pentru aceste elemente de text. Puteți:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:157
-#: ../../content/applications/websites/website/web_design/themes.rst:174
-#: ../../content/applications/websites/website/web_design/themes.rst:208
+#: ../../content/applications/websites/website/web_design/themes.rst:156
+#: ../../content/applications/websites/website/web_design/themes.rst:173
+#: ../../content/applications/websites/website/web_design/themes.rst:207
 msgid "Modify the :ref:`font settings <website/themes/fonts>`."
 msgstr "Modifica :ref:`setările fontului <website/themes/fonts>`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:158
+#: ../../content/applications/websites/website/web_design/themes.rst:157
 msgid ""
 "Adjust the :guilabel:`Line Height` to define the spacing between lines of "
 "text."
@@ -19514,7 +19498,7 @@ msgstr ""
 "Ajusta :guilabel:`Înălțimea liniei` pentru a defini spațierea dintre liniile "
 "de text."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:159
+#: ../../content/applications/websites/website/web_design/themes.rst:158
 msgid ""
 "Adjust :guilabel:`Margins` to define the spacing around paragraphs and "
 "headings."
@@ -19522,7 +19506,7 @@ msgstr ""
 "Ajusta :guilabel:`Marginile` pentru a defini spațierea din jurul "
 "paragrafelor și titlurilor."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:166
+#: ../../content/applications/websites/website/web_design/themes.rst:165
 msgid ""
 "To customize the style of the website's primary and secondary buttons, "
 "navigate to the :guilabel:`Button` section and edit the relevant options:"
@@ -19530,7 +19514,7 @@ msgstr ""
 "Pentru a personaliza stilul butoanelor principale și secundare ale site-"
 "ului, navigați la secțiunea :guilabel:`Buton` și editați opțiunile relevante:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:169
+#: ../../content/applications/websites/website/web_design/themes.rst:168
 msgid ""
 "Open the :icon:`fa-caret-down` dropdown menu next to the :guilabel:`Primary "
 "Style` or :guilabel:`Secondary Style` fields to change the style for each "
@@ -19539,14 +19523,14 @@ msgid ""
 "the :guilabel:`Border Width` option appears below, allowing you to adjust "
 "the width of the button's outline."
 msgstr ""
-"Deschideți meniul derulant :icon:`fa-caret-down` de lângă câmpurile "
-":guilabel:`Stil principal` sau :guilabel:`Stil secundar` pentru a schimba "
-"stilul pentru fiecare tip de buton, cum ar fi :guilabel:`Umplere`, "
-":guilabel:`Contur` sau :guilabel:`Plat`. Când selectați :guilabel:`Contur`, "
-"opțiunea :guilabel:`Lățimea conturului` apare mai jos, permițându-vă să "
-"ajustați lățimea conturului butonului."
+"Deschideți meniul derulant :icon:`fa-caret-down` de lângă "
+"câmpurile :guilabel:`Stil principal` sau :guilabel:`Stil secundar` pentru a "
+"schimba stilul pentru fiecare tip de buton, cum ar "
+"fi :guilabel:`Umplere`, :guilabel:`Contur` sau :guilabel:`Plat`. Când "
+"selectați :guilabel:`Contur`, opțiunea :guilabel:`Lățimea conturului` apare "
+"mai jos, permițându-vă să ajustați lățimea conturului butonului."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:175
+#: ../../content/applications/websites/website/web_design/themes.rst:174
 msgid ""
 "Adjust the :guilabel:`Padding` to change the spacing around the buttons' "
 "labels."
@@ -19554,7 +19538,7 @@ msgstr ""
 "Ajustați :guilabel:`Spațierea` pentru a schimba spațiul din jurul "
 "etichetelor butoanelor."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:176
+#: ../../content/applications/websites/website/web_design/themes.rst:175
 msgid ""
 "Use the :guilabel:`Round Corners` option to adjust the buttons' border "
 "radius."
@@ -19562,7 +19546,7 @@ msgstr ""
 "Utilizați opțiunea :guilabel:`Round Corners` pentru a ajusta raza de "
 "rotunjire a marginilor butoanelor."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:177
+#: ../../content/applications/websites/website/web_design/themes.rst:176
 msgid ""
 "Add an animation when a button is clicked in the :guilabel:`On Click Effect` "
 "dropdown menu."
@@ -19574,20 +19558,20 @@ msgstr ""
 msgid "Primary and secondary buttons"
 msgstr "Butoane principale și secundare"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:183
+#: ../../content/applications/websites/website/web_design/themes.rst:182
 msgid ""
 "To define custom :guilabel:`Small` and :guilabel:`Large` sizes for the "
 "buttons' :guilabel:`Padding`, :guilabel:`Font Size`, and :guilabel:`Round "
 "Corners`, click the :icon:`fa-caret-right` (:guilabel:`Toggle more options`) "
 "icon, then use the related fields."
 msgstr ""
-"Pentru a defini dimensiuni personalizate :guilabel:`Small` și "
-":guilabel:`Large` pentru :guilabel:`Padding`, :guilabel:`Font Size` și "
-":guilabel:`Round Corners` ale butoanelor, faceți clic pe pictograma "
-":icon:`fa-caret-right` (:guilabel:`Toggle more options`), apoi utilizați "
-"câmpurile aferente."
+"Pentru a defini dimensiuni personalizate :guilabel:`Small` "
+"și :guilabel:`Large` pentru :guilabel:`Padding`, :guilabel:`Font Size` "
+"și :guilabel:`Round Corners` ale butoanelor, faceți clic pe "
+"pictograma :icon:`fa-caret-right` (:guilabel:`Toggle more options`), apoi "
+"utilizați câmpurile aferente."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:192
+#: ../../content/applications/websites/website/web_design/themes.rst:191
 msgid ""
 "In the :guilabel:`Link` section, open the :icon:`fa-caret-down` dropdown "
 "menu next to :guilabel:`Link Style` to choose the appearance of links on the "
@@ -19597,23 +19581,23 @@ msgstr ""
 "down` de lângă :guilabel:`Link Style` pentru a alege aspectul link-urilor pe "
 "site. Puteți alege între:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:195
+#: ../../content/applications/websites/website/web_design/themes.rst:194
 msgid ":guilabel:`No Underline`;"
 msgstr ":guilabel:`No Underline`;"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:196
+#: ../../content/applications/websites/website/web_design/themes.rst:195
 msgid ":guilabel:`Underline On Hover`; or"
 msgstr ":guilabel:`Underline On Hover`; sau"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:197
+#: ../../content/applications/websites/website/web_design/themes.rst:196
 msgid ":guilabel:`Always Underline`."
 msgstr ":guilabel:`Always Underline`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:202
+#: ../../content/applications/websites/website/web_design/themes.rst:201
 msgid "Input fields"
 msgstr "Câmpuri de intrare"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:204
+#: ../../content/applications/websites/website/web_design/themes.rst:203
 msgid ""
 "To customize the style of the website's input fields, navigate to "
 "the :guilabel:`Input Fields` section and edit the relevant options:"
@@ -19621,22 +19605,22 @@ msgstr ""
 "Pentru a personaliza stilul câmpurilor de intrare ale site-ului, navigați la "
 "secțiunea :guilabel:`Input Fields` și editați opțiunile relevante:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:207
+#: ../../content/applications/websites/website/web_design/themes.rst:206
 msgid "Adjust the :guilabel:`Padding` to change the spacing around the fields."
 msgstr ""
 "Ajustați :guilabel:`Padding` pentru a modifica spațierea din jurul "
 "câmpurilor."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:209
+#: ../../content/applications/websites/website/web_design/themes.rst:208
 msgid "Customize the :guilabel:`Border Width` around fields."
 msgstr "Personalizați :guilabel:`Border Width` din jurul câmpurilor."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:210
+#: ../../content/applications/websites/website/web_design/themes.rst:209
 msgid "Define a :guilabel:`Border Radius` to round the fields' corners."
 msgstr ""
 "Definiți o :guilabel:`Border Radius` pentru a rotunji colțurile câmpurilor."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:211
+#: ../../content/applications/websites/website/web_design/themes.rst:210
 msgid ""
 "Choose a :guilabel:`Background` :ref:`color <website/themes/colors>` to fill "
 "the fields."
@@ -19644,11 +19628,11 @@ msgstr ""
 "Alegeți o :guilabel:`Background` :ref:`color <website/themes/colors>` pentru "
 "a umple câmpurile."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:216
+#: ../../content/applications/websites/website/web_design/themes.rst:215
 msgid "Advanced settings"
 msgstr "Setări avansate"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:218
+#: ../../content/applications/websites/website/web_design/themes.rst:217
 msgid ""
 "Additional settings can be configured in the :guilabel:`Advanced` section, "
 "such as :doc:`showing or hiding the header <../structure/header_footer>`, "
@@ -19659,12 +19643,12 @@ msgid ""
 msgstr ""
 "Setări suplimentare pot fi configurate în secțiunea :guilabel:`Advanced`, "
 "cum ar fi :doc:`afișarea sau ascunderea antetului <../structure/"
-"header_footer>`, utilizarea :guilabel:`Code Injection` pentru "
-":ref:`verificarea site-ului prin intermediul unei etichete HTML <website/"
-"google_search_console/HTML-tag>` și configurarea :ref:`culorilor de stare "
-"<website/themes/status-colors>` și :guilabel:`Grays`."
+"header_footer>`, utilizarea :guilabel:`Code Injection` "
+"pentru :ref:`verificarea site-ului prin intermediul unei etichete HTML "
+"<website/google_search_console/HTML-tag>` și configurarea :ref:`culorilor de "
+"stare <website/themes/status-colors>` și :guilabel:`Grays`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:223
+#: ../../content/applications/websites/website/web_design/themes.rst:222
 msgid ""
 "You can also configure Google Maps to display maps and enable geolocation "
 "features on the website, e.g., on the :guilabel:`Contact Us` page and in "
@@ -19674,7 +19658,7 @@ msgstr ""
 "funcții de geolocalizare pe site, de exemplu, pe pagina :guilabel:`Contact "
 "Us` și în anumite fragmente. Pentru a configura această opțiune:"
 
-#: ../../content/applications/websites/website/web_design/themes.rst:227
+#: ../../content/applications/websites/website/web_design/themes.rst:226
 msgid ""
 "Go to your `Google account <https://console.cloud.google.com/getting-"
 "started>`_."
@@ -19682,7 +19666,7 @@ msgstr ""
 "Accesați `contul dvs. Google <https://console.cloud.google.com/getting-"
 "started>`_."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:228
+#: ../../content/applications/websites/website/web_design/themes.rst:227
 msgid ""
 ":ref:`Enable <address_autocomplete/enable-api>` the :guilabel:`Maps Static "
 "API`, :guilabel:`Maps JavaScript API`, and :guilabel:`Places API`."
@@ -19690,7 +19674,7 @@ msgstr ""
 ":ref:`Activați <address_autocomplete/enable-api>` :guilabel:`Maps Static "
 "API`, :guilabel:`Maps JavaScript API` și :guilabel:`Places API`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:232
+#: ../../content/applications/websites/website/web_design/themes.rst:231
 msgid ""
 "Do not enable :guilabel:`Places API (New)`, as it is not yet supported by "
 "Odoo."
@@ -19698,7 +19682,7 @@ msgstr ""
 "Nu activați :guilabel:`Places API (New)`, deoarece nu este încă suportat de "
 "Odoo."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:233
+#: ../../content/applications/websites/website/web_design/themes.rst:232
 msgid ""
 "Using the Google APIs could require `payment to Google <https://"
 "mapsplatform.google.com/pricing/>`_."
@@ -19706,14 +19690,14 @@ msgstr ""
 "Utilizarea API-urilor Google ar putea necesita `plata către Google <https://"
 "mapsplatform.google.com/pricing/>`_."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:236
+#: ../../content/applications/websites/website/web_design/themes.rst:235
 msgid ""
 ":ref:`Create an API key <address_autocomplete/generate_api_key>` and copy it."
 msgstr ""
 ":ref:`Creați o cheie API <address_autocomplete/generate_api_key>` și copiați-"
 "o."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:237
+#: ../../content/applications/websites/website/web_design/themes.rst:236
 msgid ""
 "In Odoo's website editor, go to the :guilabel:`Theme` tab, and, in "
 "the :guilabel:`Advanced` section, click :guilabel:`Custom Key` next "
@@ -19723,7 +19707,7 @@ msgstr ""
 "secțiunea :guilabel:`Avansat`, faceți clic pe :guilabel:`Cheie "
 "personalizată` lângă :guilabel:`Google Map`."
 
-#: ../../content/applications/websites/website/web_design/themes.rst:239
+#: ../../content/applications/websites/website/web_design/themes.rst:238
 msgid "Paste the generated API key into the :guilabel:`API Key` field."
 msgstr "Lipiți cheia API generată în câmpul :guilabel:`Cheie API`."
 
@@ -19952,6 +19936,712 @@ msgid ""
 msgstr ""
 "Blocuri și elemente cu setări personalizate de vizibilitate afișate în "
 "partea de jos a editorului"
+
+#: ../../content/applications/websites/website/website_creation.rst:5
+msgid ""
+"Odoo Website enables you to create and customize a website for presenting "
+"information, or integrating an :doc:`online shop <../"
+"ecommerce>`, :doc:`eLearning platform <../elearning>`, :doc:`forum <../"
+"forum>`, and/or :doc:`blog <../blog>`. You can either :ref:`create a new "
+"website <website_creation/create>` or :ref:`import an existing one "
+"<website_creation/import>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:13
+msgid "Create a new website"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:17
+msgid ""
+"After installing the **Website** app, Odoo prompts you to use its 4-step "
+"website builder to create the website. You can:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:20
+msgid "Define the purpose of your website."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:21
+msgid ""
+":guilabel:`Choose a Color Palette` or :icon:`fa-cloud-"
+"upload` :guilabel:`Upload` a logo to detect a matching color scheme and "
+"generate a brand style accordingly."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:23
+msgid ""
+":guilabel:`Add Pages and Features`, such as an :doc:`online shop <../"
+"ecommerce>` or :doc:`events </applications/marketing/events>` page."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:25
+msgid ""
+":guilabel:`Choose your favorite Theme`. You can still change "
+"and :doc:`customize <web_design/themes>` it later."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:28
+msgid ""
+"If you prefer to bypass this setup, click the :guilabel:`Skip and start from "
+"scratch` link."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:31
+msgid ""
+"Starting from scratch results in a blank website without a predefined design "
+"or content."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:33
+msgid "To create an additional website, follow these steps:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:35
+#: ../../content/applications/websites/website/website_creation.rst:83
+msgid "Navigate to :menuselection:`Website --> Configuration --> Settings`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:36
+msgid "In the settings banner, click :icon:`fa-plus` :guilabel:`New Website`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:37
+msgid "In the :guilabel:`Add Website` pop-up window:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:39
+msgid "Enter a :guilabel:`Website Name`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:40
+msgid ""
+"Fill in the :doc:`Website Domain <configuration/domain_names>`, if "
+"applicable."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:41
+msgid ""
+"In a :doc:`multi-company environment </applications/general/companies/"
+"multi_company>`, select a :guilabel:`Company`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:43
+msgid ""
+"In a :doc:`multilingual environment <configuration/translate>`, select the "
+"relevant :guilabel:`Languages` and define a :guilabel:`Default Language`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:47
+msgid "Languages already installed in the database are selected automatically."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:50
+msgid ""
+"Use the :ref:`website builder <website_creation/website-builder>` to "
+"complete the setup."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:55
+msgid "Import an existing website"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:58
+msgid ""
+"The website import tool is available only with an `Odoo Enterprise "
+"subscription <https://www.odoo.com/page/editions>`_."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:61
+msgid ""
+"The website import tool is a website scraper that searches for the specified "
+"website and analyzes it. It then uses custom AI models to rebuild it as an "
+"Odoo website. The extraction is performed page by page, preserving the "
+"original website's structure and content. Images, the sitemap, "
+"the :doc:`header, and the footer <structure/header_footer>` are also "
+"imported. Optionally, :doc:`product data <../ecommerce/configuration/"
+"products>` can also be extracted. The tool converts pages into standard "
+"Odoo :doc:`building blocks <web_design/building_blocks>`, making the "
+"imported website fully editable in Odoo."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:70
+msgid ""
+"The imported website is not an exact replica of the original. Manual "
+"adjustments to layout, styling, or content may be needed after import."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:74
+msgid ""
+"By using this tool, you confirm that you own the website and all its "
+"associated content (such as images), and that you take full responsibility "
+"for their use and any potential legal implications."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:77
+msgid ""
+"For the best results, ensure your database is up to date with the latest "
+"version of Odoo."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:78
+msgid ""
+"Do not edit the website during the import process. Importing data overwrites "
+"the content of the website currently being edited, potentially resulting in "
+"the loss of unsaved changes."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:81
+msgid "To import your current website, follow these steps:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:84
+msgid ""
+"In the settings banner, click :icon:`fa-plus` :guilabel:`Import Website`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:85
+msgid ""
+"On the :guilabel:`Import your Pages and Products` page, enter "
+"the :guilabel:`Website URL` (e.g., `https://www.example.com`)."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:87
+msgid ""
+"When running an online shop, ensure the :guilabel:`Import Products` option "
+"is enabled to extract product data."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:89
+msgid "To submit the request, click :guilabel:`Import my website`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:91
+msgid ""
+"Once the import is complete, you will receive an email or a notification "
+"confirming that your Odoo website is ready. You can then further customize "
+"the website using the :doc:`website editor <web_design>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:96
+msgid "Blogs cannot be imported."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:97
+msgid "You can import up to **100** pages by default."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:98
+msgid ""
+"Importing products automatically installs the :doc:`eCommerce app <../"
+"ecommerce>` if it is not already installed."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:100
+msgid ""
+"It is **not** possible to import products using the website import tool "
+"*without* importing the website."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:102
+msgid ""
+"The tool supports importing up to **20** products. For larger product "
+"catalogs, :doc:`use a .csv file </applications/sales/sales/products_prices/"
+"products/import>`."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:104
+msgid ""
+"Product extraction is supported only for e-commerce websites that expose "
+"product data through the `Shopify <https://www.shopify.com/>`_ public API or "
+"one of the following metadata schemes:"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:107
+msgid "JSON-LD"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:108
+msgid "RDFa"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:109
+msgid "Open Graph"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:110
+msgid "Microdata"
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:113
+msgid ""
+"Use the `Website Import Tool trial <https://www.odoo.com/fr_FR/page/"
+"startwebsite>`_ to test the website import feature by importing up to 10 "
+"pages from the original website into a trial database."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:116
+msgid ""
+"Ensure the original website is publicly accessible and not protected "
+"by :ref:`Cloudflare <website/spam_protection/cloudflare-turnstile>` or other "
+"anti-bot mechanisms."
+msgstr ""
+
+#: ../../content/applications/websites/website/website_creation.rst:120
+msgid ":doc:`configuration/multi_website`"
+msgstr ""
+
+#~ msgid ""
+#~ "The :ref:`website footer <website/header_footer/footer-design>` can also "
+#~ "be configured to use the e-commerce-specific template. Then, add the "
+#~ "relevant :ref:`links <website/elements/links>`, and adapt the footer's "
+#~ "text and layout as needed in the website editor. The :doc:`available "
+#~ "payment methods </applications/finance/payment_providers>` are also shown "
+#~ "in this footer. To adapt their display, go to the :guilabel:`Supported "
+#~ "Payment Methods` section in the website editor."
+#~ msgstr ""
+#~ ":ref:`Subsolul site-ului web <website/header_footer/footer-design>` poate "
+#~ "fi, de asemenea, configurat pentru a utiliza șablonul specific e-"
+#~ "commerce. Apoi, adăugați :ref:`legăturile <website/elements/links>` "
+#~ "relevante și adaptați textul și aspectul subsolului după cum este necesar "
+#~ "în editorul site-ului web. :doc:`Metodele de plată disponibile </"
+#~ "applications/finance/payment_providers>` sunt, de asemenea, afișate în "
+#~ "acest subsol. Pentru a adapta afișarea acestora, accesați "
+#~ "secțiunea :guilabel:`Supported Payment Methods` în editorul site-ului web."
+
+#~ msgid ""
+#~ "The website header is the top section of a web page and usually contains "
+#~ "elements such as the logo, the :ref:`menu <website/header_footer/header-"
+#~ "content>`, the search bar, the sign-in/customer account button, etc. The "
+#~ "footer is displayed at the bottom of a web page and usually contains "
+#~ "information such as contact details, links, legal notices, and other "
+#~ "options."
+#~ msgstr ""
+#~ "Header-ul site-ului este secțiunea de sus a unei pagini web și conține de "
+#~ "obicei elemente precum logo-ul, :ref:`meniul <website/header_footer/"
+#~ "header-content>`, bara de căutare, butonul de autentificare/cont client "
+#~ "etc. Footer-ul este afișat în partea de jos a paginii web și conține de "
+#~ "obicei informații precum date de contact, linkuri, notificări legale și "
+#~ "alte opțiuni."
+
+#~ msgid "Header design"
+#~ msgstr "Design header"
+
+#~ msgid ""
+#~ "To modify the header's design, click on :guilabel:`Edit`, then click on "
+#~ "the header. The following options are available in the :guilabel:`Header` "
+#~ "section of the :guilabel:`Customize` tab in the website editor:"
+#~ msgstr ""
+#~ "Pentru a modifica designul header-ului, apasă pe :guilabel:`Editare`, "
+#~ "apoi pe header. Următoarele opțiuni sunt disponibile în "
+#~ "secțiunea :guilabel:`Header` din fila :guilabel:`Personalizează` a "
+#~ "editorului de site:"
+
+#~ msgid ""
+#~ "Select :guilabel:`Background` settings to change the color palette "
+#~ "through different :ref:`Theme styles <website/themes/theme-"
+#~ "colors>`, :guilabel:`Custom` color options, and :guilabel:`Gradient` ones."
+#~ msgstr ""
+#~ "Selectează setările de :guilabel:`Fundal` pentru a schimba paleta de "
+#~ "culori prin diferite :ref:`stiluri de temă <website/themes/theme-"
+#~ "colors>`, opțiuni de culoare :guilabel:`Personalizată` și "
+#~ "opțiuni :guilabel:`Gradient`."
+
+#~ msgid ""
+#~ "When adding a :guilabel:`Border` to the header, its size, style, and "
+#~ "color can be defined."
+#~ msgstr ""
+#~ "Când adaugi o :guilabel:`Margine` la header, poți defini dimensiunea, "
+#~ "stilul și culoarea acesteia."
+
+#~ msgid "Add a :guilabel:`Scroll Effect`. Hover on an effect to preview it."
+#~ msgstr ""
+#~ "Adaugă un :guilabel:`Efect de derulare`. Plasează cursorul pe un efect "
+#~ "pentru a-l previzualiza."
+
+#~ msgid ""
+#~ "Choose the :guilabel:`Header Position` "
+#~ "between :guilabel:`Regular`, :guilabel:`Hidden`, and :guilabel:`Over The "
+#~ "Content`. When :guilabel:`Over The Content` is selected, you can "
+#~ "customize the :guilabel:`Background` and :guilabel:`Text Color`."
+#~ msgstr ""
+#~ "Alege :guilabel:`Poziția header-ului` "
+#~ "între :guilabel:`Normal`, :guilabel:`Ascuns` și :guilabel:`Peste "
+#~ "conținut`. Când este selectat :guilabel:`Peste conținut`, poți "
+#~ "personaliza :guilabel:`Fundalul` și :guilabel:`Culoarea textului`."
+
+#~ msgid ""
+#~ "Show or hide :guilabel:`Elements` such as text, the search "
+#~ "bar, :guilabel:`Sign in` button, social media links, :guilabel:`Contact "
+#~ "us` button, and logo."
+#~ msgstr ""
+#~ "Afișează sau ascunde :guilabel:`Elemente` precum text, bara de căutare, "
+#~ "butonul :guilabel:`Autentificare`, linkuri către rețele sociale, "
+#~ "butonul :guilabel:`Contactează-ne` și logo-ul."
+
+#~ msgid "To finalize changes, click on :guilabel:`Save`."
+#~ msgstr "Pentru a finaliza modificările, apasă pe :guilabel:`Salvează`."
+
+#~ msgid ""
+#~ "To hide the header, click on :guilabel:`Edit`, click on the header, and "
+#~ "go to the :guilabel:`Theme` tab of the website editor. Scroll down to "
+#~ "the :guilabel:`Advanced` section and toggle the :guilabel:`Show Header` "
+#~ "switch to hide/show the header."
+#~ msgstr ""
+#~ "Pentru a ascunde header-ul, apasă pe :guilabel:`Editare`, apoi pe header "
+#~ "și mergi la fila :guilabel:`Temă` din editorul de site. Derulează până la "
+#~ "secțiunea :guilabel:`Avansat` și comută butonul :guilabel:`Afișează "
+#~ "header` pentru a ascunde/afișa header-ul."
+
+#~ msgid ""
+#~ "Menus organize the header’s content and help users navigate through web "
+#~ "pages effectively. User-friendly and well-structured menus also play a "
+#~ "crucial role in improving :doc:`search engine rankings <seo>`."
+#~ msgstr ""
+#~ "Meniurile organizează conținutul header-ului și ajută utilizatorii să "
+#~ "navigheze eficient prin paginile web. Meniurile prietenoase și bine "
+#~ "structurate joacă un rol esențial în îmbunătățirea :doc:`clasamentului în "
+#~ "motoarele de căutare <seo>`."
+
+#~ msgid ""
+#~ "The menu editor allows to edit the website's header and add :ref:`menu "
+#~ "items <website/header_footer/menu-items>` and :ref:`mega menus <website/"
+#~ "header_footer/mega-menus>`."
+#~ msgstr ""
+#~ "Editorul de meniuri permite editarea header-ului site-ului și adăugarea "
+#~ "de :ref:`elemente de meniu <website/header_footer/menu-items>` "
+#~ "și :ref:`mega-meniuri <website/header_footer/mega-menus>`."
+
+#~ msgid ""
+#~ "To edit the header's content, go to :menuselection:`Website --> Site --> "
+#~ "Menu Editor`. From there, you can:"
+#~ msgstr ""
+#~ "Pentru a edita conținutul header-ului, accesează :menuselection:`Website "
+#~ "--> Site --> Editor de meniuri`. De acolo poți:"
+
+#~ msgid ""
+#~ "**rename** a menu item or change its URL using the :guilabel:`Edit Menu "
+#~ "Item` icon;"
+#~ msgstr ""
+#~ "**redenumiți** un element de meniu sau modificați adresa URL a acestuia "
+#~ "folosind pictograma :guilabel:`Editați elementul de meniu`;"
+
+#~ msgid "**delete** a menu item using the :guilabel:`Delete Menu Item` icon;"
+#~ msgstr ""
+#~ "**șterge** un element de meniu folosind pictograma :guilabel:`Șterge "
+#~ "elementul de meniu`;"
+
+#~ msgid ""
+#~ "**move** a menu item by dragging and dropping it to the desired place in "
+#~ "the menu;"
+#~ msgstr ""
+#~ "**mutați** un element de meniu prin tragerea și plasarea acestuia în "
+#~ "locul dorit din meniu;"
+
+#~ msgid ""
+#~ "**create a regular drop-down menu** by dragging and dropping the sub-menu "
+#~ "items to the right, underneath their parent menu."
+#~ msgstr ""
+#~ "**creați un meniu derulant obișnuit** trăgând și plasând elementele din "
+#~ "submeniu la dreapta, sub meniul părinte."
+
+#~ msgid ""
+#~ "You can also access the menu editor by clicking :guilabel:`Edit`, "
+#~ "selecting any menu item, and clicking the :guilabel:`Edit Menu` icon."
+#~ msgstr ""
+#~ "Poți accesa editorul de meniuri și apăsând :guilabel:`Editare`, selectând "
+#~ "orice element de meniu și apăsând pictograma :guilabel:`Editează meniul`."
+
+#~ msgid "Access the Menu editor while in Edit mode."
+#~ msgstr "Accesați editorul de meniu în modul Editare."
+
+#~ msgid "Go to :menuselection:`Website --> Site --> Menu Editor`."
+#~ msgstr "Accesează :menuselection:`Website --> Site --> Editor de meniuri`."
+
+#~ msgid "In the menu editor, click :guilabel:`Add Menu Item`."
+#~ msgstr "În editorul de meniuri, apasă :guilabel:`Adaugă element de meniu`."
+
+#~ msgid ""
+#~ "In the pop-up window, enter the :guilabel:`Name` to be displayed in the "
+#~ "menu."
+#~ msgstr ""
+#~ "În fereastra pop-up, introdu :guilabel:`Numele` care va fi afișat în "
+#~ "meniu."
+
+#~ msgid ""
+#~ "Type `/` in the :guilabel:`URL or Email` field to search for a page on "
+#~ "your website or `#` to search for an existing custom anchor."
+#~ msgstr ""
+#~ "Scrie `/` în câmpul :guilabel:`URL sau Email` pentru a căuta o pagină pe "
+#~ "site sau `#` pentru a căuta o ancoră personalizată existentă."
+
+#~ msgid "Click :guilabel:`OK`."
+#~ msgstr "Apasă :guilabel:`OK`."
+
+#~ msgid ""
+#~ "Edit the :ref:`menu structure <website/header_footer/menu-editor>` if "
+#~ "needed, then :guilabel:`Save`."
+#~ msgstr ""
+#~ "Editează :ref:`structura meniului <website/header_footer/menu-editor>` "
+#~ "dacă este necesar, apoi apasă :guilabel:`Salvează`."
+
+#~ msgid ""
+#~ "To modify the menu items, click on :guilabel:`Edit`, click on a menu "
+#~ "item, then go to the :guilabel:`Navbar` section of the website editor. "
+#~ "The following options are available:"
+#~ msgstr ""
+#~ "Pentru a modifica elementele de meniu, apasă pe :guilabel:`Editare`, apoi "
+#~ "pe un element de meniu și mergi la secțiunea :guilabel:`Navbar` din "
+#~ "editorul de site. Sunt disponibile următoarele opțiuni:"
+
+#~ msgid "Adapt the :guilabel:`Mobile Alignment`."
+#~ msgstr "Adaptează :guilabel:`Alinierea pe mobil`."
+
+#~ msgid "Choose the :guilabel:`Font` for the menu items."
+#~ msgstr "Alege :guilabel:`Fontul` pentru elementele de meniu."
+
+#~ msgid ""
+#~ "Change the font size, color, and alignment in the :guilabel:`Format` "
+#~ "field."
+#~ msgstr ""
+#~ "Schimbă dimensiunea fontului, culoarea și alinierea în "
+#~ "câmpul :guilabel:`Format`."
+
+#~ msgid ""
+#~ "Select a :guilabel:`Links Style` to highlight the current page in the "
+#~ "menu."
+#~ msgstr ""
+#~ "Selectează un :guilabel:`Stil de link` pentru a evidenția pagina curentă "
+#~ "în meniu."
+
+#~ msgid ""
+#~ "Change the :ref:`style of the header buttons <website/themes/button-"
+#~ "styles>`."
+#~ msgstr ""
+#~ "Schimbă :ref:`stilul butoanelor din header <website/themes/button-"
+#~ "styles>`."
+
+#~ msgid ""
+#~ "Choose to display the :guilabel:`Sub Menus` :guilabel:`On Hover` "
+#~ "or :guilabel:`On Click`."
+#~ msgstr ""
+#~ "Alege să afișezi :guilabel:`Submeniurile` :guilabel:`La trecerea cu mouse-"
+#~ "ul` sau :guilabel:`La click`."
+
+#~ msgid ""
+#~ "The fields available in the :guilabel:`Navbar` section can vary depending "
+#~ "on the chosen template."
+#~ msgstr ""
+#~ "Câmpurile disponibile în secțiunea :guilabel:`Navbar` pot varia în "
+#~ "funcție de șablonul ales."
+
+#~ msgid ""
+#~ "Mega menus are similar to drop-down menus, but instead of a simple list "
+#~ "of sub-menus, they display a panel divided into groups of navigation "
+#~ "options. This makes them suitable for websites with large amounts of "
+#~ "content or :doc:`e-commerce websites <../../ecommerce>`, as they can help "
+#~ "include all of your web pages or :ref:`e-commerce categories <ecommerce/"
+#~ "categories_variants/categories>` in the menu while still making all menu "
+#~ "items visible at once."
+#~ msgstr ""
+#~ "Meniurile mega sunt similare meniurilor drop-down, dar în loc de o listă "
+#~ "simplă de submeniuri, afișează un panou împărțit în grupuri de opțiuni de "
+#~ "navigare. Acest lucru le face potrivite pentru site-urile web cu volume "
+#~ "mari de conținut sau :doc:`site-uri web de comerț electronic <../../"
+#~ "ecommerce>`, deoarece pot ajuta la includerea tuturor paginilor web "
+#~ "sau :ref:`categoriilor de comerț electronic <ecommerce/"
+#~ "categories_variants/categories>` în meniu, menținând totuși toate "
+#~ "elementele de meniu vizibile deodată."
+
+#~ msgid ""
+#~ "To create a mega menu, go to :menuselection:`Website --> Site --> Menu "
+#~ "Editor` and click :guilabel:`Add Mega Menu Item`. Enter "
+#~ "the :guilabel:`Name` of the mega menu in the pop-up, "
+#~ "click :guilabel:`OK`, then :guilabel:`Save`."
+#~ msgstr ""
+#~ "Pentru a crea un mega meniu, accesați :menuselection:`Site web --> Site --"
+#~ "> Menu Editor` și faceți clic pe :guilabel:`Add Mega Menu Item`. "
+#~ "Introduceți :guilabel:`Numele` mega-meniului în fereastra pop-up, faceți "
+#~ "clic pe :guilabel:`OK`, apoi pe :guilabel:`Salvați`."
+
+#~ msgid ""
+#~ "To adapt the options and content of the mega menu, click on a mega menu "
+#~ "item in the header, then click :guilabel:`Edit`. Mega menus are composed "
+#~ "of building blocks, which means you can customize each component "
+#~ "individually. For example:"
+#~ msgstr ""
+#~ "Pentru a adapta opțiunile și conținutul mega-meniului, apasă pe un "
+#~ "element de mega-meniu din header, apoi pe :guilabel:`Editare`. Mega-"
+#~ "meniurile sunt compuse din blocuri de construcție, ceea ce înseamnă că "
+#~ "poți personaliza fiecare componentă individual. De exemplu:"
+
+#~ msgid "Edit the text directly in the building block."
+#~ msgstr "Editează textul direct în blocul de construcție."
+
+#~ msgid ""
+#~ "Edit a menu item's URL by selecting the menu item and clicking "
+#~ "the :guilabel:`Edit link` button in the small preview pop-up. Type `/` to "
+#~ "search for a page on your website, or `#` to search for an existing "
+#~ "custom anchor."
+#~ msgstr ""
+#~ "Editează URL-ul unui element de meniu selectând elementul și apăsând "
+#~ "butonul :guilabel:`Editează linkul` din fereastra mică de previzualizare. "
+#~ "Scrie `/` pentru a căuta o pagină pe site sau `#` pentru a căuta o ancoră "
+#~ "personalizată existentă."
+
+#~ msgid "Delete a menu item by deleting the related block."
+#~ msgstr "Șterge un element de meniu ștergând blocul asociat."
+
+#~ msgid ""
+#~ "To adapt the general layout of the mega menu, go to "
+#~ "the :guilabel:`Customize` tab of the website editor, then, in "
+#~ "the :guilabel:`Mega Menu` section:"
+#~ msgstr ""
+#~ "Pentru a adapta aspectul general al mega-meniului, mergi la "
+#~ "fila :guilabel:`Personalizează` din editorul de site, apoi, în "
+#~ "secțiunea :guilabel:`Mega-meniu`:"
+
+#~ msgid "Hide a dynamic menu item for non-logged in users"
+#~ msgstr ""
+#~ "Ascundere element de meniu dinamic pentru utilizatorii neautentificați"
+
+#~ msgid ""
+#~ "To hide a dynamic menu item (i.e., a menu item generated automatically by "
+#~ "Odoo, for example, when you install an app or module, such as `Events`, "
+#~ "`Courses`, etc.) for non-logged in users, follow these steps:"
+#~ msgstr ""
+#~ "Pentru a ascunde un element de meniu dinamic (adică un element de meniu "
+#~ "generat automat de Odoo, de exemplu, când instalați o aplicație sau un "
+#~ "modul, cum ar fi `Evenimente`, `Cursuri` etc.) pentru utilizatorii "
+#~ "neautentificați, urmează acești pași:"
+
+#~ msgid ""
+#~ "Expand the list of menus for the relevant website if needed, then click "
+#~ "the menu item you wish to hide."
+#~ msgstr ""
+#~ "Extinde lista de meniuri pentru site-ul web relevant, dacă este necesar, "
+#~ "apoi face clic pe elementul de meniu pe care dorești să-l ascunzi."
+
+#~ msgid ""
+#~ "In the :guilabel:`Visible Groups` section, click :guilabel:`Add a line` "
+#~ "under :guilabel:`Group Name`."
+#~ msgstr ""
+#~ "În secțiunea :guilabel:`Grupuri vizibile`, face clic pe :guilabel:`Adăugă "
+#~ "o linie` sub :guilabel:`Nume grup`."
+
+#~ msgid ""
+#~ "Search for the group :guilabel:`User types / Portal`, select it, then "
+#~ "click :guilabel:`Select`."
+#~ msgstr ""
+#~ "Caută grupul :guilabel:`Tipuri de utilizatori / Portal`, selectează-l, "
+#~ "apoi face clic pe :guilabel:`Selectează`."
+
+#~ msgid ""
+#~ "To hide the `Shop` menu item, :doc:`restrict ecommerce access to logged-"
+#~ "in users <../../ecommerce/configuration/customer_accounts>`."
+#~ msgstr ""
+#~ "Pentru a ascunde elementul de meniu `Shop`, :doc:`restricționează accesul "
+#~ "la comerțul electronic pentru utilizatorii autentificați <../../ecommerce/"
+#~ "configuration/customer_accounts>`."
+
+#~ msgid "Footer design"
+#~ msgstr "Design footer"
+
+#~ msgid ""
+#~ "To modify the footer, click on :guilabel:`Edit`, click on the footer, and "
+#~ "in the :guilabel:`Footer` section of the :guilabel:`Customize` tab in the "
+#~ "website editor:"
+#~ msgstr ""
+#~ "Pentru a modifica footer-ul, apasă pe :guilabel:`Editare`, apoi pe footer "
+#~ "și, în secțiunea :guilabel:`Footer` din fila :guilabel:`Personalizează` a "
+#~ "editorului de site:"
+
+#~ msgid "Select a :guilabel:`Template`."
+#~ msgstr "Selectează un :guilabel:`Șablon`."
+
+#~ msgid "Choose its :guilabel:`Colors`."
+#~ msgstr "Alege :guilabel:`Culorile`."
+
+#~ msgid ""
+#~ "Toggle the :guilabel:`Copyright` switch to hide or show the copyright."
+#~ msgstr ""
+#~ "Comută butonul :guilabel:`Copyright` pentru a ascunde sau afișa copyright-"
+#~ "ul."
+
+#~ msgid "Choose the :guilabel:`Border` size."
+#~ msgstr "Alege dimensiunea :guilabel:`Marginii`."
+
+#~ msgid "Add a :guilabel:`Shadow`."
+#~ msgstr "Adaugă o :guilabel:`Umbră`."
+
+#~ msgid "Add a :guilabel:`Scroll Top Button` and choose its position."
+#~ msgstr ""
+#~ "Adaugă un :guilabel:`Buton de derulare sus` și alege poziția acestuia."
+
+#~ msgid ""
+#~ "Hide or show the footer by toggling the :guilabel:`Page visibility` "
+#~ "switch."
+#~ msgstr ""
+#~ "Ascunde sau afișează footer-ul comutând butonul :guilabel:`Vizibilitate "
+#~ "pagină`."
+
+#~ msgid ""
+#~ "**Prepare the Odoo form:** Create a contact form on a page in Odoo "
+#~ "Website and remove the :ref:`header design <website/header_footer/header-"
+#~ "design>` and the :ref:`footer design <website/header_footer/footer-"
+#~ "design>`. Make sure only the contact form remains on the page."
+#~ msgstr ""
+#~ "**Pregătiți formularul Odoo:** Creați un formular de contact pe o pagină "
+#~ "în Odoo Website și eliminați :ref:`designul antetului <website/"
+#~ "header_footer/header-design>` și :ref:`designul subsolului <website/"
+#~ "header_footer/footer-design>`. Asigurați-vă că doar formularul de contact "
+#~ "rămâne pe pagină."
+
+#~ msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
+#~ msgstr "`Tutoriale Odoo: Website <https://www.odoo.com/slides/website-25>`_"
+
+#~ msgid ""
+#~ "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+#~ msgstr ""
+#~ "`Tutoriale Odoo: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+
+#~ msgid ""
+#~ "Odoo allows you to create multiple websites from the same database. This "
+#~ "can be useful, for example, if you have multiple brands operating under "
+#~ "your organization, or if you want to create separate websites for "
+#~ "different products/services or audiences."
+#~ msgstr ""
+#~ "Odoo permite crearea mai multor site-uri web din aceeași bază de date. "
+#~ "Acest lucru poate fi util, de exemplu, dacă ai mai multe mărci care "
+#~ "operează sub organizația ta sau dacă vrei să creezi site-uri web separate "
+#~ "pentru diferite produse/servicii sau audiențe."
+
+#~ msgid ""
+#~ "Once it is time to :ref:`map your second domain name's address to your "
+#~ "second Odoo website <domain-name/existing/website-map>`, you can create "
+#~ "and map it directly by:"
+#~ msgstr ""
+#~ "Când este momentul să :ref:`asociezi adresa celui de-al doilea nume de "
+#~ "domeniu cu al doilea site web Odoo <domain-name/existing/website-map>`, "
+#~ "poți să îl creezi și să îl asociezi direct:"
+
+#~ msgid ""
+#~ "Going to :menuselection:`Website --> Configuration --> Settings` and "
+#~ "clicking :guilabel:`+ New Website`."
+#~ msgstr ""
+#~ "Mergi la :menuselection:`Website --> Configuration --> Settings` și "
+#~ "apasă :guilabel:`+ New Website`."
+
+#~ msgid ""
+#~ "Choosing a :guilabel:`Website Name` and entering the second website's "
+#~ "address in the :guilabel:`Website Domain` field (e.g., `https://"
+#~ "www.yourseconddomain.com` or `https://subdomain.yourdomain.com`)."
+#~ msgstr ""
+#~ "Alege un :guilabel:`Website Name` și introdu adresa celui de-al doilea "
+#~ "site web în câmpul :guilabel:`Website Domain` (de exemplu, `https://"
+#~ "www.yourseconddomain.com` sau `https://subdomain.yourdomain.com`)."
+
+#~ msgid "Clicking the :guilabel:`Create` button."
+#~ msgstr "Apasă butonul :guilabel:`Creează`."
 
 #~ msgid ""
 #~ "`Google's reCAPTCHA v3 guide <https://developers.google.com/recaptcha/"
@@ -20960,9 +21650,6 @@ msgstr ""
 #~ "aceste cazuri, deținerea de site-uri web diferite poate ajuta la evitarea "
 #~ "confuziei și ușurează adaptarea strategiilor de informare digitală și "
 #~ "atingerea publicului țintă."
-
-#~ msgid "Website creation"
-#~ msgstr "Crearea site-ului web"
 
 #~ msgid "To create a new website, proceed as follows:"
 #~ msgstr "Pentru a crea un nou site web, procedați după cum urmează:"
